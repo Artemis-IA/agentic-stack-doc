@@ -105,3 +105,138 @@ crew = Crew(
 - **AutoGen** — Best pour conversations multi-agent avec code execution
 - **Swarm** — Best pour apprendre les concepts (pas production)
 :::
+
+## Frameworks découverts automatiquement
+
+<!-- TOOLS_FRAMEWORK_START -->
+### [hermes-agent](https://github.com/NousResearch/hermes-agent)
+The agent that grows with you
+
+⭐ 213.2k | `Python` | Licence: MIT | MAJ: 2026-07-11
+**Tags** : `ai`, `ai-agent`, `ai-agents`, `anthropic`, `chatgpt`, `claude`, `claude-code`, `clawdbot`
+
+### [AgentGuide](https://github.com/adongwanai/AgentGuide)
+https://adongwanai.github.io/AgentGuide | AI Agent开发指南 | LangGraph实战 | 高级RAG | 转行大模型 | 大模型面试 | 算法工程师 | 面试题库 | 强化学习｜数据合成
+
+⭐ 6.9k | `HTML` | MAJ: 2026-07-11
+**Tags** : `agenticrag`, `ai-agent`, `crewai`, `graphrag`, `grpo`, `interview`, `job-hunting`, `langchain`
+
+### [fim-one](https://github.com/fim-ai/fim-one)
+Open-source agent platform for Global × China enterprises — wire every system through one agent core. Self-hosted, any LLM.
+
+⭐ 1.3k | `Python` | Licence: NOASSERTION | MAJ: 2026-07-11
+**Tags** : `ai`, `ai-agent`, `ai-agents`, `connector`, `dag`, `fastapi`, `function-calling`, `llm`
+
+### [cashclaw](https://github.com/moltlaunch/cashclaw)
+An autonomous agent that takes work, does work, gets paid, and gets better at it.
+
+⭐ 1.1k | `TypeScript` | Licence: MIT | MAJ: 2026-07-11
+**Tags** : `ai-agent`, `autonomous-agent`, `base`, `claude`, `llm`, `marketplace`, `onchain`, `self-learning`
+
+### [agentos](https://github.com/framerslab/agentos)
+TypeScript AI agent framework: cognitive memory, runtime tool forging, multi-agent orchestration, 11 LLM providers.
+
+⭐ 591 | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-07-11
+**Tags** : `agent-framework`, `agent-memory`, `agentic-ai`, `ai-agent-framework`, `ai-agents`, `autonomous-agents`, `cognitive-memory`, `emergent-behavior`
+
+### [AgentGPT](https://github.com/reworkd/AgentGPT)
+AI Agents with Langchain & OpenAI (Vercel / Nextjs) !GitHub Repo stars
+
+
+### [autonomous-hr-chatbot](https://github.com/stepanogil/autonomous-hr-chatbot)
+An autonomous agent that can answer HR related queries autonomously using the tools it has on hand !GitHub Repo stars
+
+
+### [crewai](https://github.com/joaomdmoura/crewai)
+Cutting-edge framework for orchestrating role-playing, autonomous AI agents. !GitHub Repo stars
+
+
+### [data-to-paper](https://github.com/Technion-Kishony-lab/data-to-paper)
+data-to-paper: AI-driven research from data to human-verifiable research papers !GitHub Repo stars
+
+
+### [DemoGPT](https://github.com/melih-unsal/DemoGPT)
+DemoGPT enables you to create quick demos by just using prompt. It applies ToT approach on Langchain documentation tree. !GitHub Repo stars
+
+
+### [devika](https://github.com/stitionai/devika)
+Devika is an Agentic AI Software Engineer that can understand high-level human instructions, break them down into steps, research relevant information, and write code to achieve the given objective...
+
+
+### [gpt-pilot](https://github.com/Pythagora-io/gpt-pilot)
+GPT Pilot is the core technology for the Pythagora VS Code extension that aims to provide the first real AI developer companion. !GitHub Repo stars
+
+
+### [llm_agents](https://github.com/mpaepper/llm_agents)
+Build agents which are controlled by LLMs !GitHub Repo stars
+
+
+### [localGPT](https://github.com/PromtEngineer/localGPT)
+Inspired on Private GPT with the GPT4ALL model replaced with the Vicuna-7B model and using the InstructorEmbeddings instead of LlamaEmbeddings !GitHub Repo stars
+
+
+### [MetaGPT](https://github.com/geekan/MetaGPT)
+The Multi-Agent Meta Programming Framework: Given one line Requirement, return PRD, Design, Tasks, Repo and CI !GitHub Repo stars
+
+
+### [OpenAgents](https://github.com/xlang-ai/OpenAgents)
+An Open Platform for Language Agents in the Wild !GitHub Repo stars
+
+
+### [OpenAGI](https://github.com/agiresearch/OpenAGI)
+When LLM Meets Domain Experts.
+
+
+### [privateGPT](https://github.com/imartinez/privateGPT)
+Interact privately with your documents using the power of GPT, 100% privately, no data leaks !GitHub Repo stars
+
+
+### [superagent](https://github.com/homanp/superagent)
+Deploy LLM Agents to production !GitHub Repo stars
+
+
+### [SWE-agent](https://github.com/princeton-nlp/SWE-agent)
+SWE-agent takes a GitHub issue and tries to automatically fix it, using GPT-4, or your LM of choice. !GitHub Repo stars
+
+
+### [Voyager](https://github.com/MineDojo/Voyager)
+An Open-Ended Embodied Agent with Large Language Models !GitHub Repo stars
+
+
+### [GitHub Repository](https://github.com/OpenBMB/XAgent)
+An Autonomous LLM Agent for Complex Task Solving !GitHub Repo stars
+
+
+### [OpenClaw](https://github.com/openclaw/openclaw)
+Open-source AI agent framework that turns LLMs into persistent, proactive personal AI agents with multi-channel messaging (Signal, Telegram, Discord, WhatsApp), cron scheduling, memory systems, MCP...
+
+
+### [llama-agentic-system](https://github.com/meta-llama/llama-agentic-system)
+Agentic components of the Llama Stack APIs !GitHub Repo stars
+
+
+### [LlamaIndex](https://github.com/jerryjliu/llama_index)
+provides a central interface to connect your LLM's with external data. !GitHub Repo stars
+
+
+### [LangChain](https://github.com/hwchase17/langchain)
+the original 🐍 !GitHub Repo stars
+
+
+### [Botpress](https://github.com/botpress/botpress)
+The building blocks for building chatbots !GitHub Repo stars
+
+
+### [Haystack](https://github.com/deepset-ai/haystack)
+NLP framework to interact with your data using Transformer models and LLMs !GitHub Repo stars
+
+
+### [Semantic Kernel](https://github.com/microsoft/semantic-kernel)
+Microsoft C# SDK to integrate cutting-edge LLM technology quickly and easily into your apps !GitHub Repo stars
+
+
+### [Agent-LLM](https://github.com/Josh-XT/Agent-LLM)
+An Artificial Intelligence Automation Platform. !GitHub Repo stars
+
+
+<!-- TOOLS_FRAMEWORK_END -->

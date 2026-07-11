@@ -86,7 +86,7 @@ def update_qmd(models_md: str, datasets_md: str) -> None:
 
 
 async def main() -> None:
-    async with httpx.AsyncClient(timeout=30) as client:
+    async with httpx.AsyncClient(timeout=30, follow_redirects=True) as client:
         models = await fetch_models(client)
         datasets = await fetch_datasets(client)
 
@@ -95,7 +95,9 @@ async def main() -> None:
         return
 
     models_md = generate_models_md(models)
-    update_qmd(models_md, "")
+    datasets_md = generate_datasets_md(datasets)
+    combined = "## Modèles\n\n" + models_md + "\n## Datasets\n\n" + datasets_md
+    update_qmd(combined, "")
     print(f"Found {len(models)} models, {len(datasets)} datasets.")
 
 

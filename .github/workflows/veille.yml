@@ -39,11 +39,19 @@ jobs:
       - name: Run Blogs veille
         run: python scripts/veille_blogs.py
 
+      - name: Discover tools (GitHub, HF, awesome-lists, PyPI, npm)
+        run: python scripts/discover_tools.py ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate dynamic pages
+        run: python scripts/generate_pages.py
+
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add content/veille/
+          git add content/ data/
           git diff --staged --quiet && echo "No changes" && exit 0
           git commit -m "veille: auto-update $(date -u +%Y-%m-%dT%H:%M)"
           git push

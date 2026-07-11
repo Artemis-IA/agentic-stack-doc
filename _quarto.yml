@@ -21,6 +21,8 @@ website:
         contents:
           - text: "Vue d'ensemble" 
             href: index.qmd
+          - text: "Catalogue des Outils"
+            href: content/catalog.qmd
           - text: "Méthodologie & Veille"
             href: methodology.qmd
           - text: "Glossaire"

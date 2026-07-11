@@ -66,7 +66,7 @@ async def main() -> None:
         headers["Authorization"] = f"token {token}"
 
     all_repos = []
-    async with httpx.AsyncClient(timeout=30, headers=headers) as client:
+    async with httpx.AsyncClient(timeout=30, headers=headers, follow_redirects=True) as client:
         for topic in TOPICS:
             for lang in LANGUAGES:
                 repos = await search_repos(client, topic, lang)

@@ -121,3 +121,62 @@ graph LR
 **GraphRAG si** : vos questions nécessitent de traverser des relations (A→B→C), de raisonner sur des entités connectées, ou d'utiliser des ontologies existantes.
 **Vanilla RAG si** : vos questions sont des recherches thématiques simples ("trouve-moi les documents sur X").
 :::
+
+## Frameworks RAG découverts automatiquement
+
+<!-- TOOLS_RAG_START -->
+### [graphify](https://github.com/Graphify-Labs/graphify)
+AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a querya...
+
+⭐ 82.4k | `Python` | Licence: MIT | MAJ: 2026-07-11
+**Tags** : `antigravity`, `claude-code`, `codex`, `gemini`, `graphrag`, `knowledge-graph`, `leiden`, `openclaw`
+
+### [llm-graph-builder](https://github.com/neo4j-labs/llm-graph-builder)
+Neo4j graph construction from unstructured data using LLMs
+
+⭐ 4.9k | `Jupyter Notebook` | Licence: Apache-2.0 | MAJ: 2026-07-11
+**Tags** : `data-import`, `genai`, `graph`, `graph-rag`, `graph-search`, `graphdb`, `graphrag`, `knowledge-graph`
+
+### [FalkorDB](https://github.com/FalkorDB/FalkorDB)
+A super fast Graph Database uses GraphBLAS under the hood for its sparse adjacency matrix graph representation. Our goal is to provide the best Knowledge Graph for LLM (GraphRAG).
+
+⭐ 4.7k | `C` | Licence: NOASSERTION | MAJ: 2026-07-11
+**Tags** : `cloud-database`, `database`, `database-as-a-service`, `developer-tools`, `devtools`, `graph-database`, `graphrag`, `knowledge-graph`
+
+### [memgraph](https://github.com/memgraph/memgraph)
+High-performance open-source in-memory graph database for GraphRAG, AI memory, agentic AI, and real-time graph analytics. Cypher-compatible, built in C++.
+
+⭐ 4.2k | `C++` | Licence: NOASSERTION | MAJ: 2026-07-11
+**Tags** : `ai`, `ai-agents`, `ai-memory`, `context-graph`, `cypher`, `enterprise-context`, `graph`, `graph-algorithms`
+
+### [autoflow](https://github.com/pingcap/autoflow)
+pingcap/autoflow is a Graph RAG based and conversational knowledge base tool built with TiDB Serverless Vector Storage. Demo: https://tidb.ai
+
+⭐ 2.8k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-07-09
+**Tags** : `chatbot`, `cot`, `graphrag`, `knowledge-graph`, `mysql`, `rag`, `serverless`, `vector-database`
+
+### [Awesome-GraphRAG](https://github.com/DEEP-PolyU/Awesome-GraphRAG)
+Awesome-GraphRAG: A curated list of resources (surveys, papers, benchmarks, and opensource projects) on graph-based retrieval-augmented generation.
+
+⭐ 2.5k | Licence: MIT | MAJ: 2026-07-11
+**Tags** : `graphrag`, `graphrag-paper`, `graphrag-survey`, `knowledge-graph`, `large-language-models`, `rag`, `retrieval-augmented-generation`
+
+### [comfyui_LLM_party](https://github.com/heshengtao/comfyui_LLM_party)
+LLM Agent Framework in ComfyUI includes MCP sever, Omost,GPT-sovits, ChatTTS,GOT-OCR2.0, and FLUX prompt nodes,access to Feishu,discord,and adapts to all llms with similar openai / aisuite interfac...
+
+⭐ 2.3k | `Python` | Licence: AGPL-3.0 | MAJ: 2026-07-11
+**Tags** : `agent`, `comfyui`, `dify`, `flux`, `gemini`, `gguf`, `gpt-sovits`, `graphrag`
+
+### [graph-rag-agent](https://github.com/1517005260/graph-rag-agent)
+拼好RAG：手搓并融合了GraphRAG、LightRAG、Neo4j-llm-graph-builder进行知识图谱构建以及搜索；整合DeepSearch技术实现私域RAG的推理；自制针对GraphRAG的评估框架| Integrate GraphRAG, LightRAG, and Neo4j-llm-graph-builder for knowledge graph construct...
+
+⭐ 2.3k | `Python` | Licence: MIT | MAJ: 2026-07-09
+**Tags** : `agentic-rag`, `chain-of-exploration`, `deepresearch`, `deepsearch`, `evaluation`, `graphrag`, `graphsearch`, `kg`
+
+### [edgequake](https://github.com/raphaelmansuy/edgequake)
+EdegQuake 🌋 High-performance GraphRAG inspired from LightRag written in Rust; Transform documents into intelligent knowledge graphs for superior retrieval and generation
+
+⭐ 2.0k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-07-11
+**Tags** : `graphrag`, `knowledge-graph`, `lightrag`, `rag`
+
+<!-- TOOLS_RAG_END -->

@@ -9,8 +9,8 @@ from pathlib import Path
 
 import httpx
 
-ARXIV_API = "http://export.arxiv.org/api/query"
-CATEGORIES = ["cs.AI", "cs.CL", "cs.LG", "cs.MA", "cs.SE"]
+ARXIV_API = "https://export.arxiv.org/api/query"
+CATEGORIES = ["cs.AI", "cs.CL", "cs.LG", "cs.MA", "cs.SE", "stat.ML"]
 KEYWORDS_HIGH = [
     "agent", "agentic", "autonomous", "tool-use", "tool calling",
     "LLM", "language model", "MCP", "model context protocol",
@@ -100,7 +100,7 @@ async def main() -> None:
         "max_results": MAX_RESULTS,
     }
 
-    async with httpx.AsyncClient(timeout=30) as client:
+    async with httpx.AsyncClient(timeout=30, follow_redirects=True) as client:
         resp = await client.get(ARXIV_API, params=params)
         resp.raise_for_status()
 

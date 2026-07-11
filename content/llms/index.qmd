@@ -11,27 +11,27 @@ Le paysage des Large Language Models évolue à un rythme effréné. Cette secti
 ```{mermaid}
 graph TB
     subgraph "Propriétaires (API only)"
-        OPENAI[OpenAI<br/>GPT-4o · o3 · o4]
-        ANTHROPIC[Anthropic<br/>Claude 4 Opus/Sonnet]
-        GOOGLE[Google<br/>Gemini 2.5 Pro/Flash]
-        XAI[xAI<br/>Grok 4]
+        OPENAI["OpenAI<br/>GPT-4o · o3 · o4"]
+        ANTHROPIC["Anthropic<br/>Claude 4 Opus/Sonnet"]
+        GOOGLE["Google<br/>Gemini 2.5 Pro/Flash"]
+        XAI["xAI<br/>Grok 4"]
     end
     
     subgraph "Ouverts (Weights disponibles)"
-        META[Meta<br/>Llama 4 Scout/Maverick/Behemoth]
-        MISTRAL[Mistral<br/>Large 2 · Codestral · Magistral]
-        QWEN[Alibaba<br/>Qwen3 235B/30B/4B]
-        GLM[Zhipu<br/>GLM-5.2 · GLM-4.6]
-        DEEPSEEK[DeepSeek<br/>V3 · R1]
-        GEMMA[Google<br/>Gemma 3 1B-27B]
-        PHI[Microsoft<br/>Phi-4]
+        META["Meta<br/>Llama 4 Scout/Maverick/Behemoth"]
+        MISTRAL["Mistral<br/>Large 2 · Codestral · Magistral"]
+        QWEN["Alibaba<br/>Qwen3 235B/30B/4B"]
+        GLM["Zhipu<br/>GLM-5.2 · GLM-4.6"]
+        DEEPSEEK["DeepSeek<br/>V3 · R1"]
+        GEMMA["Google<br/>Gemma 3 1B-27B"]
+        PHI["Microsoft<br/>Phi-4"]
     end
     
     subgraph "Spécialisés"
-        CODE[Code<br/>Codestral · DeepSeek-Coder · Qwen-Coder]
-        REASON[Reasoning<br/>o3 · R1 · QwQ · Claude Thinking]
-        EMBED[Embedding<br/>BGE-M3 · nomic-embed · Cohere]
-        VISION[Vision<br/>Qwen-VL · Llama-Vision · Pixtral]
+        CODE["Code<br/>Codestral · DeepSeek-Coder · Qwen-Coder"]
+        REASON["Reasoning<br/>o3 · R1 · QwQ · Claude Thinking"]
+        EMBED["Embedding<br/>BGE-M3 · nomic-embed · Cohere"]
+        VISION["Vision<br/>Qwen-VL · Llama-Vision · Pixtral"]
     end
     
     style OPENAI fill:#10a37f,color:#fff

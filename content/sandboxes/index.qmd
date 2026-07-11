@@ -11,11 +11,11 @@ Les **sandboxes** sont les environnements d'exécution isolés qui permettent au
 ```{mermaid}
 graph TB
     subgraph "Isolation levels"
-        L1[Level 1: Process isolation<br/>subprocess, seccomp]
-        L2[Level 2: Container isolation<br/>Docker, Podman]
-        L3[Level 3: MicroVM<br/>Firecracker, Kata]
-        L4[Level 4: WASM sandbox<br/>Wasmtime, Wasmer]
-        L5[Level 5: Cloud sandbox<br/>E2B, Modal, Fly Machines]
+        L1["Level 1: Process isolation<br/>subprocess, seccomp"]
+        L2["Level 2: Container isolation<br/>Docker, Podman"]
+        L3["Level 3: MicroVM<br/>Firecracker, Kata"]
+        L4["Level 4: WASM sandbox<br/>Wasmtime, Wasmer"]
+        L5["Level 5: Cloud sandbox<br/>E2B, Modal, Fly Machines"]
     end
     
     L1 --> L2 --> L3

@@ -11,16 +11,16 @@ La couche matérielle est le socle physique de tout système agentic. Le choix d
 ```{mermaid}
 graph TB
     subgraph "Accélérateurs"
-        GPU[NVIDIA GPU<br/>H100 · H200 · B200]
-        AMD[AMD GPU<br/>MI300X · MI325X]
-        LPU[Groq LPU<br/>Llama 2 inference]
-        TPU[Google TPU<br/>v5e · v5p · Trillium]
-        NPU[NPU/Edge<br/>Apple · Qualcomm · Intel]
+        GPU["NVIDIA GPU<br/>H100 · H200 · B200"]
+        AMD["AMD GPU<br/>MI300X · MI325X"]
+        LPU["Groq LPU<br/>Llama 2 inference"]
+        TPU["Google TPU<br/>v5e · v5p · Trillium"]
+        NPU["NPU/Edge<br/>Apple · Qualcomm · Intel"]
     end
     
     subgraph "Deployment"
-        DC[Data Center<br/>HPC · Cloud]
-        EDGE[Edge<br/>On-prem · Device]
+        DC["Data Center<br/>HPC · Cloud"]
+        EDGE["Edge<br/>On-prem · Device"]
     end
     
     GPU --> DC

@@ -96,9 +96,9 @@ export CLAUDE_MODEL=deepseek-chat
 ```mermaid
 graph LR
     CC[Claude Code] -->|requête| PX[Proxy LiteLLM]
-    PX -->|simple| OLL[Ollama local<br/>gratuit]
-    PX -->|complexe| DS[DeepSeek V3<br/>$0.27/M tokens]
-    PX -->|très complexe| AN[Anthropic<br/>$15/M tokens]
+    PX -->|simple| OLL["Ollama local<br/>gratuit"]
+    PX -->|complexe| DS["DeepSeek V3<br/>$0.27/M tokens"]
+    PX -->|très complexe| AN["Anthropic<br/>$15/M tokens"]
     
     style OLL fill:#2e7d32,color:#fff
     style DS fill:#1565c0,color:#fff
@@ -110,7 +110,7 @@ graph LR
 ```mermaid
 graph LR
     DEV[Développeur] -->|CLI| AID[Aider]
-    AID -->|API locale| OLL[Ollama<br/>qwen3:32b]
+    AID -->|API locale| OLL["Ollama<br/>qwen3:32b"]
     OLL -->|GPU local| GPU[RTX 4090]
     
     style OLL fill:#2e7d32,color:#fff

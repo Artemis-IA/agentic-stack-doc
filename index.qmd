@@ -11,13 +11,13 @@ Bienvenue dans la **documentation vivante** de l'écosystème des systèmes agen
 
 ```{mermaid}
 graph TB
-    HW[Couche Matérielle<br/>GPU · TPU · LPU · NPU] --> INF[Infra & Runtime<br/>Clusters · Cloud · Edge]
-    INF --> LLM[Modèles LLM<br/>Propriétaires · Ouverts · Fine-tunés]
-    LLM --> SBX[Sandboxes<br/>Conteneurs · MicroVMs · WASM]
-    SBX --> HAR[Harnesses & IDEs IA<br/>Claude Code · Cursor · Cline]
-    HAR --> SKL[Skills & Outils<br/>MCP · SKILL.md · ToolUniverse]
-    SKL --> FRW[Frameworks Agentic<br/>Multi-agent · RAG · Recherche]
-    FRW --> DEP[Déploiement<br/>Sécurité · Monitoring · CI/CD]
+    HW["Couche Matérielle<br/>GPU · TPU · LPU · NPU"] --> INF["Infra & Runtime<br/>Clusters · Cloud · Edge"]
+    INF --> LLM["Modèles LLM<br/>Propriétaires · Ouverts · Fine-tunés"]
+    LLM --> SBX["Sandboxes<br/>Conteneurs · MicroVMs · WASM"]
+    SBX --> HAR["Harnesses & IDEs IA<br/>Claude Code · Cursor · Cline"]
+    HAR --> SKL["Skills & Outils<br/>MCP · SKILL.md · ToolUniverse"]
+    SKL --> FRW["Frameworks Agentic<br/>Multi-agent · RAG · Recherche"]
+    FRW --> DEP["Déploiement<br/>Sécurité · Monitoring · CI/CD"]
     
     style HW fill:#1a237e,color:#fff
     style LLM fill:#006064,color:#fff
@@ -50,10 +50,10 @@ Cette documentation est **automatiquement mise à jour** via GitHub Actions CI/C
 
 ```{mermaid}
 graph LR
-    L1[L1 Autocomplétion<br/>Tabnine · Tabby] --> L2[L2 Assistant<br/>Cursor · Windsurf]
-    L2 --> L3[L3 Agent Semi-autonome<br/>Claude Code · Cline · Aider]
-    L3 --> L4[L4 Agent Autonome<br/>OpenHands · AutoScientists]
-    L4 --> L5[L5 Recherche Autonome<br/>AI-Researcher · DeepScientist]
+    L1["L1 Autocomplétion<br/>Tabnine · Tabby"] --> L2["L2 Assistant<br/>Cursor · Windsurf"]
+    L2 --> L3["L3 Agent Semi-autonome<br/>Claude Code · Cline · Aider"]
+    L3 --> L4["L4 Agent Autonome<br/>OpenHands · AutoScientists"]
+    L4 --> L5["L5 Recherche Autonome<br/>AI-Researcher · DeepScientist"]
     
     style L1 fill:#e3f2fd
     style L2 fill:#bbdefb
@@ -82,5 +82,5 @@ Cette documentation s'appuie sur une veille automatique alimentée par :
 
 ::: callout-note
 ## Contribution
-Cette documentation est open source. Pour contribuer, consultez le [dépôt GitHub](https://github.com/imohamma/agentic-stack-doc). Les PRs sont les bienvenues !
+Cette documentation est open source. Pour contribuer, consultez le [dépôt GitHub](https://github.com/Artemis-IA/agentic-stack-doc). Les PRs sont les bienvenues !
 :::

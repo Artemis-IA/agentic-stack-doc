@@ -15,10 +15,10 @@ graph TB
     LLM --> FUNC[Function Calling]
     LLM --> API[REST APIs]
     
-    MCP --> TOOLS1[Tools externes<br/>DBs, APIs, filesystem]
-    SKL --> TOOLS2[Compétences encapsulées<br/>quand/comment/produire]
-    FUNC --> TOOLS3[Functions natives<br/>code execution]
-    API --> TOOLS4[Services web<br/>search, weather, etc.]
+    MCP --> TOOLS1["Tools externes<br/>DBs, APIs, filesystem"]
+    SKL --> TOOLS2["Compétences encapsulées<br/>quand/comment/produire"]
+    FUNC --> TOOLS3["Functions natives<br/>code execution"]
+    API --> TOOLS4["Services web<br/>search, weather, etc."]
     
     style MCP fill:#1b5e20,color:#fff
     style SKL fill:#bf360c,color:#fff

@@ -58,9 +58,553 @@ Le script `scripts/veille_hf.py` surveille :
 | Nouveau | < 7 jours | Découverte |
 
 <!-- GITHUB_FEED_START -->
-<!-- Les entrées seront insérées automatiquement par le script de veille -->
+### hermes-agent
+- **GitHub** : NousResearch/hermes-agent
+- **Stars** : 213,224
+- **Langage** : Python
+- **Licence** : MIT
+- **Description** : The agent that grows with you
+- **Lien** : https://github.com/NousResearch/hermes-agent
+
+### AutoGPT
+- **GitHub** : Significant-Gravitas/AutoGPT
+- **Stars** : 185,476
+- **Langage** : Python
+- **Licence** : NOASSERTION
+- **Description** : AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
+- **Lien** : https://github.com/Significant-Gravitas/AutoGPT
+
+### ollama
+- **GitHub** : ollama/ollama
+- **Stars** : 175,929
+- **Langage** : Go
+- **Licence** : MIT
+- **Description** : Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
+- **Lien** : https://github.com/ollama/ollama
+
+### transformers
+- **GitHub** : huggingface/transformers
+- **Stars** : 162,501
+- **Langage** : Python
+- **Licence** : Apache-2.0
+- **Description** : 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. 
+- **Lien** : https://github.com/huggingface/transformers
+
+### firecrawl
+- **GitHub** : firecrawl/firecrawl
+- **Stars** : 149,304
+- **Langage** : TypeScript
+- **Licence** : AGPL-3.0
+- **Description** : The API to search, scrape, and interact with the web at scale. 🔥
+- **Lien** : https://github.com/firecrawl/firecrawl
+
+### dify
+- **GitHub** : langgenius/dify
+- **Stars** : 148,510
+- **Langage** : TypeScript
+- **Licence** : NOASSERTION
+- **Description** : Production-ready platform for agentic workflow development.
+- **Lien** : https://github.com/langgenius/dify
+
+### open-webui
+- **GitHub** : open-webui/open-webui
+- **Stars** : 145,076
+- **Langage** : Python
+- **Licence** : NOASSERTION
+- **Description** : User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
+- **Lien** : https://github.com/open-webui/open-webui
+
+### langchain
+- **GitHub** : langchain-ai/langchain
+- **Stars** : 141,538
+- **Langage** : Python
+- **Licence** : MIT
+- **Description** : The agent engineering platform.
+- **Lien** : https://github.com/langchain-ai/langchain
+
+### awesome-llm-apps
+- **GitHub** : Shubhamsaboo/awesome-llm-apps
+- **Stars** : 117,965
+- **Langage** : Python
+- **Licence** : Apache-2.0
+- **Description** : 100+ AI Agent & RAG apps you can actually run — clone, customize, ship.
+- **Lien** : https://github.com/Shubhamsaboo/awesome-llm-apps
+
+### browser-use
+- **GitHub** : browser-use/browser-use
+- **Stars** : 104,244
+- **Langage** : Python
+- **Licence** : MIT
+- **Description** : 🌐 Make websites accessible for AI agents. Automate tasks online with ease.
+- **Lien** : https://github.com/browser-use/browser-use
+
+### TradingAgents
+- **GitHub** : TauricResearch/TradingAgents
+- **Stars** : 92,351
+- **Langage** : Python
+- **Licence** : Apache-2.0
+- **Description** : TradingAgents: Multi-Agents LLM Financial Trading Framework
+- **Lien** : https://github.com/TauricResearch/TradingAgents
+
+### vllm
+- **GitHub** : vllm-project/vllm
+- **Stars** : 85,983
+- **Langage** : Python
+- **Licence** : Apache-2.0
+- **Description** : A high-throughput and memory-efficient inference and serving engine for LLMs
+- **Lien** : https://github.com/vllm-project/vllm
+
+### PaddleOCR
+- **GitHub** : PaddlePaddle/PaddleOCR
+- **Stars** : 85,252
+- **Langage** : Python
+- **Licence** : Apache-2.0
+- **Description** : Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.
+- **Lien** : https://github.com/PaddlePaddle/PaddleOCR
+
+### graphify
+- **GitHub** : Graphify-Labs/graphify
+- **Stars** : 82,347
+- **Langage** : Python
+- **Licence** : MIT
+- **Description** : AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.
+- **Lien** : https://github.com/Graphify-Labs/graphify
+
+### OpenHands
+- **GitHub** : OpenHands/OpenHands
+- **Stars** : 80,473
+- **Langage** : Python
+- **Licence** : NOASSERTION
+- **Description** : 🙌 OpenHands: AI-Driven Development
+- **Lien** : https://github.com/OpenHands/OpenHands
+
+### deer-flow
+- **GitHub** : bytedance/deer-flow
+- **Stars** : 76,786
+- **Langage** : Python
+- **Licence** : MIT
+- **Description** : An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.
+- **Lien** : https://github.com/bytedance/deer-flow
+
+### learn-claude-code
+- **GitHub** : shareAI-lab/learn-claude-code
+- **Stars** : 70,681
+- **Langage** : Python
+- **Licence** : MIT
+- **Description** : Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1
+- **Lien** : https://github.com/shareAI-lab/learn-claude-code
+
+### rtk
+- **GitHub** : rtk-ai/rtk
+- **Stars** : 70,356
+- **Langage** : Rust
+- **Licence** : Apache-2.0
+- **Description** : CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
+- **Lien** : https://github.com/rtk-ai/rtk
+
+### hello-agents
+- **GitHub** : datawhalechina/hello-agents
+- **Stars** : 65,487
+- **Langage** : Python
+- **Licence** : NOASSERTION
+- **Description** : 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程
+- **Lien** : https://github.com/datawhalechina/hello-agents
+
+### mem0
+- **GitHub** : mem0ai/mem0
+- **Stars** : 60,619
+- **Langage** : TypeScript
+- **Licence** : Apache-2.0
+- **Description** : Universal memory layer for AI Agents
+- **Lien** : https://github.com/mem0ai/mem0
+
+### context7
+- **GitHub** : upstash/context7
+- **Stars** : 58,934
+- **Langage** : TypeScript
+- **Licence** : MIT
+- **Description** : Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors
+- **Lien** : https://github.com/upstash/context7
+
+### headroom
+- **GitHub** : headroomlabs-ai/headroom
+- **Stars** : 58,557
+- **Langage** : Python
+- **Licence** : Apache-2.0
+- **Description** : Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.
+- **Lien** : https://github.com/headroomlabs-ai/headroom
+
+### daily_stock_analysis
+- **GitHub** : ZhuLinsen/daily_stock_analysis
+- **Stars** : 56,672
+- **Langage** : Python
+- **Licence** : MIT
+- **Description** : LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.
+- **Lien** : https://github.com/ZhuLinsen/daily_stock_analysis
+
+### Agent-Reach
+- **GitHub** : Panniantong/Agent-Reach
+- **Stars** : 54,882
+- **Langage** : Python
+- **Licence** : MIT
+- **Description** : Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
+- **Lien** : https://github.com/Panniantong/Agent-Reach
+
+### Flowise
+- **GitHub** : FlowiseAI/Flowise
+- **Stars** : 54,533
+- **Langage** : TypeScript
+- **Licence** : NOASSERTION
+- **Description** : Build AI Agents, Visually
+- **Lien** : https://github.com/FlowiseAI/Flowise
+
+### llama_index
+- **GitHub** : run-llama/llama_index
+- **Stars** : 50,785
+- **Langage** : Python
+- **Licence** : MIT
+- **Description** : LlamaIndex is the leading document agent and OCR platform
+- **Lien** : https://github.com/run-llama/llama_index
+
+### cherry-studio
+- **GitHub** : CherryHQ/cherry-studio
+- **Stars** : 48,451
+- **Langage** : TypeScript
+- **Licence** : AGPL-3.0
+- **Description** : AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
+- **Lien** : https://github.com/CherryHQ/cherry-studio
+
+### LocalAI
+- **GitHub** : mudler/LocalAI
+- **Stars** : 47,485
+- **Langage** : Go
+- **Licence** : MIT
+- **Description** : LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.
+- **Lien** : https://github.com/mudler/LocalAI
+
+### CowAgent
+- **GitHub** : zhayujie/CowAgent
+- **Stars** : 45,925
+- **Langage** : Python
+- **Licence** : MIT
+- **Description** : Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install. (formerly chatgpt-on-wechat)
+- **Lien** : https://github.com/zhayujie/CowAgent
+
+### nanobot
+- **GitHub** : HKUDS/nanobot
+- **Stars** : 45,260
+- **Langage** : Python
+- **Licence** : MIT
+- **Description** : Lightweight, open-source AI agent for your tools, chats, and workflows.
+- **Lien** : https://github.com/HKUDS/nanobot
+
 <!-- GITHUB_FEED_END -->
 
 <!-- HF_FEED_START -->
-<!-- Les entrées seront insérées automatiquement par le script de veille -->
+## Modèles
+
+### deepseek-ai/DeepSeek-R1
+- **Downloads** : 8,978,847
+- **Likes** : 13458
+- **Tags** : transformers, safetensors, deepseek_v3, text-generation, conversational
+- **Lien** : https://huggingface.co/deepseek-ai/DeepSeek-R1
+
+### meta-llama/Meta-Llama-3-8B
+- **Downloads** : 1,365,961
+- **Likes** : 6595
+- **Tags** : transformers, safetensors, llama, text-generation, facebook
+- **Lien** : https://huggingface.co/meta-llama/Meta-Llama-3-8B
+
+### meta-llama/Llama-3.1-8B-Instruct
+- **Downloads** : 8,659,328
+- **Likes** : 6281
+- **Tags** : transformers, safetensors, llama, text-generation, facebook
+- **Lien** : https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct
+
+### deepseek-ai/DeepSeek-V4-Pro
+- **Downloads** : 1,347,715
+- **Likes** : 5204
+- **Tags** : transformers, safetensors, deepseek_v4, text-generation, conversational
+- **Lien** : https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro
+
+### bigscience/bloom
+- **Downloads** : 5,548
+- **Likes** : 5024
+- **Tags** : transformers, pytorch, tensorboard, safetensors, bloom
+- **Lien** : https://huggingface.co/bigscience/bloom
+
+### openai/gpt-oss-120b
+- **Downloads** : 4,416,064
+- **Likes** : 4964
+- **Tags** : transformers, safetensors, gpt_oss, text-generation, vllm
+- **Lien** : https://huggingface.co/openai/gpt-oss-120b
+
+### meta-llama/Llama-2-7b-chat-hf
+- **Downloads** : 281,636
+- **Likes** : 4792
+- **Tags** : transformers, pytorch, safetensors, llama, text-generation
+- **Lien** : https://huggingface.co/meta-llama/Llama-2-7b-chat-hf
+
+### openai/gpt-oss-20b
+- **Downloads** : 7,359,878
+- **Likes** : 4784
+- **Tags** : transformers, safetensors, gpt_oss, text-generation, vllm
+- **Lien** : https://huggingface.co/openai/gpt-oss-20b
+
+### meta-llama/Meta-Llama-3-8B-Instruct
+- **Downloads** : 1,416,213
+- **Likes** : 4698
+- **Tags** : transformers, safetensors, llama, text-generation, facebook
+- **Lien** : https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct
+
+### meta-llama/Llama-2-7b
+- **Downloads** : 127
+- **Likes** : 4513
+- **Tags** : facebook, meta, pytorch, llama, llama-2
+- **Lien** : https://huggingface.co/meta-llama/Llama-2-7b
+
+### facebook/bart-large-cnn
+- **Downloads** : 1,545,031
+- **Likes** : 1604
+- **Tags** : transformers, pytorch, tf, jax, rust
+- **Lien** : https://huggingface.co/facebook/bart-large-cnn
+
+### google/flan-t5-xxl
+- **Downloads** : 12,062
+- **Likes** : 1287
+- **Tags** : transformers, pytorch, tf, jax, safetensors
+- **Lien** : https://huggingface.co/google/flan-t5-xxl
+
+### google/flan-t5-base
+- **Downloads** : 1,684,163
+- **Likes** : 1086
+- **Tags** : transformers, pytorch, tf, jax, safetensors
+- **Lien** : https://huggingface.co/google/flan-t5-base
+
+### facebook/nllb-200-distilled-600M
+- **Downloads** : 2,232,569
+- **Likes** : 929
+- **Tags** : transformers, pytorch, m2m_100, text2text-generation, nllb
+- **Lien** : https://huggingface.co/facebook/nllb-200-distilled-600M
+
+### google/flan-t5-large
+- **Downloads** : 534,681
+- **Likes** : 890
+- **Tags** : transformers, pytorch, tf, jax, safetensors
+- **Lien** : https://huggingface.co/google/flan-t5-large
+
+### google-t5/t5-base
+- **Downloads** : 1,924,088
+- **Likes** : 778
+- **Tags** : transformers, pytorch, tf, jax, rust
+- **Lien** : https://huggingface.co/google-t5/t5-base
+
+### CohereLabs/aya-101
+- **Downloads** : 3,852
+- **Likes** : 665
+- **Tags** : transformers, safetensors, t5, text2text-generation, afr
+- **Lien** : https://huggingface.co/CohereLabs/aya-101
+
+### google-t5/t5-small
+- **Downloads** : 26,147,457
+- **Likes** : 567
+- **Tags** : transformers, pytorch, tf, jax, rust
+- **Lien** : https://huggingface.co/google-t5/t5-small
+
+### google/flan-ul2
+- **Downloads** : 1,055
+- **Likes** : 562
+- **Tags** : transformers, pytorch, t5, text2text-generation, flan-ul2
+- **Lien** : https://huggingface.co/google/flan-ul2
+
+### Helsinki-NLP/opus-mt-zh-en
+- **Downloads** : 143,211
+- **Likes** : 557
+- **Tags** : transformers, pytorch, tf, rust, marian
+- **Lien** : https://huggingface.co/Helsinki-NLP/opus-mt-zh-en
+
+### microsoft/phi-2
+- **Downloads** : 863,048
+- **Likes** : 3481
+- **Tags** : transformers, safetensors, phi, text-generation, nlp
+- **Lien** : https://huggingface.co/microsoft/phi-2
+
+### bigcode/starcoder
+- **Downloads** : 22,437
+- **Likes** : 2972
+- **Tags** : transformers, pytorch, safetensors, gpt_bigcode, text-generation
+- **Lien** : https://huggingface.co/bigcode/starcoder
+
+### yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF
+- **Downloads** : 720,270
+- **Likes** : 2686
+- **Tags** : gguf, gemma4, coding, code, reasoning
+- **Lien** : https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF
+
+### microsoft/phi-4
+- **Downloads** : 891,808
+- **Likes** : 2274
+- **Tags** : transformers, safetensors, phi3, text-generation, phi
+- **Lien** : https://huggingface.co/microsoft/phi-4
+
+### Qwen/Qwen2.5-Coder-32B-Instruct
+- **Downloads** : 1,384,843
+- **Likes** : 2073
+- **Tags** : transformers, safetensors, qwen2, text-generation, code
+- **Lien** : https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct
+
+### microsoft/Phi-3-mini-128k-instruct
+- **Downloads** : 252,121
+- **Likes** : 1699
+- **Tags** : transformers, safetensors, phi3, text-generation, nlp
+- **Lien** : https://huggingface.co/microsoft/Phi-3-mini-128k-instruct
+
+### microsoft/Phi-4-multimodal-instruct
+- **Downloads** : 532,328
+- **Likes** : 1606
+- **Tags** : transformers, safetensors, phi4mm, text-generation, nlp
+- **Lien** : https://huggingface.co/microsoft/Phi-4-multimodal-instruct
+
+### microsoft/Phi-3-mini-4k-instruct
+- **Downloads** : 604,328
+- **Likes** : 1441
+- **Tags** : transformers, safetensors, phi3, text-generation, nlp
+- **Lien** : https://huggingface.co/microsoft/Phi-3-mini-4k-instruct
+
+### microsoft/phi-1_5
+- **Downloads** : 60,280
+- **Likes** : 1360
+- **Tags** : transformers, safetensors, phi, text-generation, nlp
+- **Lien** : https://huggingface.co/microsoft/phi-1_5
+
+### nvidia/personaplex-7b-v1
+- **Downloads** : 353,879
+- **Likes** : 2593
+- **Tags** : moshi, safetensors, personaplex, speech-to-speech, agent
+- **Lien** : https://huggingface.co/nvidia/personaplex-7b-v1
+
+### MiniMaxAI/MiniMax-M3
+- **Downloads** : 268,088
+- **Likes** : 1321
+- **Tags** : transformers, safetensors, minimax_m3_vl, image-text-to-text, multimodal
+- **Lien** : https://huggingface.co/MiniMaxAI/MiniMax-M3
+
+### XiaomiMiMo/MiMo-V2.5-Pro
+- **Downloads** : 95,428
+- **Likes** : 706
+- **Tags** : transformers, safetensors, mimo_v2, text-generation, agent
+- **Lien** : https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro
+
+### Tesslate/OmniCoder-9B
+- **Downloads** : 2,025
+- **Likes** : 657
+- **Tags** : transformers, safetensors, qwen3_5, image-text-to-text, qwen3.5
+- **Lien** : https://huggingface.co/Tesslate/OmniCoder-9B
+
+### Qwen/Qwen-AgentWorld-35B-A3B
+- **Downloads** : 94,766
+- **Likes** : 578
+- **Tags** : transformers, safetensors, qwen3_5_moe, image-text-to-text, qwen
+- **Lien** : https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B
+
+### nvidia/NitroGen
+- **Downloads** : 0
+- **Likes** : 555
+- **Tags** : behavior, cloning, gaming, agent, reinforcement-learning
+- **Lien** : https://huggingface.co/nvidia/NitroGen
+
+### CohereLabs/North-Mini-Code-1.0
+- **Downloads** : 33,047
+- **Likes** : 520
+- **Tags** : transformers, safetensors, cohere2_moe, text-generation, conversational
+- **Lien** : https://huggingface.co/CohereLabs/North-Mini-Code-1.0
+
+### zai-org/AutoGLM-Phone-9B
+- **Downloads** : 955
+- **Likes** : 441
+- **Tags** : transformers, safetensors, glm4v, image-text-to-text, agent
+- **Lien** : https://huggingface.co/zai-org/AutoGLM-Phone-9B
+
+### OpenHands/openhands-lm-32b-v0.1
+- **Downloads** : 103
+- **Likes** : 392
+- **Tags** : safetensors, qwen2, agent, coding, text-generation
+- **Lien** : https://huggingface.co/OpenHands/openhands-lm-32b-v0.1
+
+### Hcompany/Holo3-35B-A3B
+- **Downloads** : 16,738
+- **Likes** : 371
+- **Tags** : transformers, safetensors, qwen3_5_moe, image-text-to-text, multimodal
+- **Lien** : https://huggingface.co/Hcompany/Holo3-35B-A3B
+
+### deepseek-ai/DeepSeek-V3
+- **Downloads** : 1,030,899
+- **Likes** : 4096
+- **Tags** : transformers, safetensors, deepseek_v3, text-generation, conversational
+- **Lien** : https://huggingface.co/deepseek-ai/DeepSeek-V3
+
+### zai-org/GLM-5.2
+- **Downloads** : 421,270
+- **Likes** : 3825
+- **Tags** : transformers, safetensors, glm_moe_dsa, text-generation, conversational
+- **Lien** : https://huggingface.co/zai-org/GLM-5.2
+
+### mistralai/Mistral-7B-Instruct-v0.2
+- **Downloads** : 1,139,475
+- **Likes** : 3184
+- **Tags** : transformers, pytorch, safetensors, mistral, text-generation
+- **Lien** : https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2
+
+## Datasets
+
+### fka/prompts.chat
+- **Downloads** : 34,469
+- **Likes** : 9761
+- **Lien** : https://huggingface.co/datasets/fka/prompts.chat
+
+### HuggingFaceFW/fineweb
+- **Downloads** : 605,759
+- **Likes** : 2928
+- **Lien** : https://huggingface.co/datasets/HuggingFaceFW/fineweb
+
+### Anthropic/hh-rlhf
+- **Downloads** : 31,921
+- **Likes** : 1823
+- **Lien** : https://huggingface.co/datasets/Anthropic/hh-rlhf
+
+### Open-Orca/OpenOrca
+- **Downloads** : 16,946
+- **Likes** : 1564
+- **Lien** : https://huggingface.co/datasets/Open-Orca/OpenOrca
+
+### OpenAssistant/oasst1
+- **Downloads** : 17,720
+- **Likes** : 1545
+- **Lien** : https://huggingface.co/datasets/OpenAssistant/oasst1
+
+### openai/gsm8k
+- **Downloads** : 977,142
+- **Likes** : 1440
+- **Lien** : https://huggingface.co/datasets/openai/gsm8k
+
+### wikimedia/wikipedia
+- **Downloads** : 214,659
+- **Likes** : 1279
+- **Lien** : https://huggingface.co/datasets/wikimedia/wikipedia
+
+### gsdf/EasyNegative
+- **Downloads** : 16,142
+- **Likes** : 1199
+- **Lien** : https://huggingface.co/datasets/gsdf/EasyNegative
+
+### HuggingFaceFW/fineweb-edu
+- **Downloads** : 369,574
+- **Likes** : 1190
+- **Lien** : https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu
+
+### togethercomputer/RedPajama-Data-1T
+- **Downloads** : 2,092
+- **Likes** : 1177
+- **Lien** : https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T
+
 <!-- HF_FEED_END -->
