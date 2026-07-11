@@ -13,7 +13,7 @@ date-format: "YYYY-MM-DD"
 - Création de la structure Quarto
 - Pages : Hardware, LLMs, Harnesses, Sandboxes, Skills, Frameworks, Déploiement
 - Scripts de veille : arXiv, GitHub Trending, Hugging Face, RSS
-- GitHub Actions : `publish.yml` (Quarto → GitHub Pages), `veille.yml` (auto-update)
+- GitHub Actions : `deploy.yml` (Quarto → GitHub Pages), `veille.yml` (auto-update)
 - Matrice comparative des harnesses (12 outils + 5 solutions debloating)
 - Niveaux d'autonomie L1-L5
 
