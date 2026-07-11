@@ -56,14 +56,4 @@ jobs:
           git commit -m "veille: auto-update $(date -u +%Y-%m-%dT%H:%M)"
           git push
 
-      - name: Trigger deploy
-        if: success()
-        uses: actions/github-script@v7
-        with:
-          script: |
-            github.rest.actions.createWorkflowDispatch({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              workflow_id: "deploy.yml",
-              ref: "main"
-            })
+      # Deploy is triggered automatically via workflow_run in deploy.yml

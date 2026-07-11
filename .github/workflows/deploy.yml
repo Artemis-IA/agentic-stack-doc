@@ -3,6 +3,9 @@ name: Deploy Quarto Site
 on:
   push:
     branches: [main]
+  workflow_run:
+    workflows: ["Veille Auto-Update"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
