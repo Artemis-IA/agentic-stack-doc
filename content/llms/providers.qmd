@@ -1,0 +1,103 @@
+---
+title: "Providers & APIs"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Providers & APIs LLM
+
+## Providers primaires (créateurs des modèles)
+
+| Provider | Modèles | API | Base URL | Auth |
+|----------|---------|-----|----------|------|
+| OpenAI | GPT-4o, o3, o4-mini | OpenAI API | `api.openai.com/v1` | Bearer token |
+| Anthropic | Claude 4 Opus/Sonnet | Anthropic API | `api.anthropic.com/v1` | x-api-key |
+| Google | Gemini 2.5 Pro/Flash | Gemini API | `generativelanguage.googleapis.com` | API key |
+| xAI | Grok 4 | xAI API | `api.x.ai/v1` | Bearer token |
+| Mistral | Mistral Large 2, Codestral | Mistral API | `api.mistral.ai/v1` | Bearer token |
+| Cohere | Command R+ | Cohere API | `api.cohere.com/v2` | Bearer token |
+
+## Providers secondaires (hébergement open models)
+
+| Provider | Modèles hébergés | Pricing | Spécificités |
+|----------|-----------------|---------|--------------|
+| Together AI | Llama, Qwen, DeepSeek, DBRX | Per-token | Fine-tuning, endpoints dédiés |
+| Fireworks AI | Llama, Qwen, DeepSeek | Per-token | Inference ultra-rapide |
+| Groq | Llama, Qwen, Gemma, DeepSeek | Per-token (free tier) | LPU, latence sub-ms |
+| Replicate | Tous modèles ouverts | Per-second | Simple, serverless |
+| Modal | Tous modèles | Per-second | Python-native, serverless |
+| RunPod Serverless | Tous modèles | Per-second | GPU on-demand |
+
+## Providers souverains / européens
+
+| Provider | URL | Modèles | Spécificités |
+|----------|-----|---------|--------------|
+| Albert (Etalab) | `albert.api.etalab.gouv.fr` | gpt-oss-120b, Llama | Souverain FR, rate-limité |
+| illow | `illow.ai` | Mistral, Llama | Souverain FR |
+| LightOn | `api.lighton.ai` | Marvin, custom | Souverain FR |
+| OVHcloud AI | `endpoints.ai.cloud.ovh.net` | Mistral, Llama | Souverain FR/EU |
+| Scaleway | `api.scaleway.ai` | Llama, Mistral | Souverain FR |
+| Hetzner | `hetzner.cloud` | Self-hosted | GPU à bas coût, EU |
+
+## API OpenAI-compatible (standard de facto)
+
+La plupart des providers offrent une API compatible OpenAI :
+
+```python
+from openai import OpenAI
+
+# Exemple: Groq (OpenAI-compatible)
+client = OpenAI(
+    api_key="gsk_...",
+    base_url="https://api.groq.com/openai/v1"
+)
+
+response = client.chat.completions.create(
+    model="llama-3.3-70b-versatile",
+    messages=[{"role": "user", "content": "Hello"}]
+)
+```
+
+## LiteLLM — Proxy unifié
+
+[LiteLLM](https://github.com/BerriAI/litellm) unifie l'accès à 100+ providers via une seule API :
+
+| Feature | Description |
+|---------|-------------|
+| Unified API | Une interface pour tous les providers |
+| Proxy server | Routing, rate-limiting, caching |
+| Cost tracking | Tracking par projet/utilisateur |
+| Fallbacks | Bascule automatique provider A → B |
+| Load balancing | Répartition multi-provider |
+
+::: callout-tip
+## LiteLLM pour la souveraineté
+LiteLLM permet de configurer un proxy local qui route vers Albert (Etalab) par défaut, avec fallback vers OpenAI. En cas de rate-limit Albert, bascule transparente. Idéal pour les infrastructures souveraines.
+:::
+
+## Ollama — Inference locale
+
+```bash
+# Installer Ollama
+curl -fsSL https://ollama.com/install.sh | sh
+
+# Lancer un modèle
+ollama run qwen3:32b
+
+# API OpenAI-compatible sur localhost:11434
+curl http://localhost:11434/v1/chat/completions \
+  -d '{"model": "qwen3:32b", "messages": [{"role": "user", "content": "Hello"}]}'
+```
+
+## Critères de choix provider
+
+| Critère | Question | Impact |
+|---------|----------|--------|
+| Souveraineté | Les données quittent-elles l'infra ? | Conformité RGPD, sécurité |
+| Latence | Time to first token | UX, temps réel |
+| Coût | $/M tokens | Viabilité économique |
+| Rate limits | Requêtes/min, tokens/min | Scalabilité |
+| ZDR | Zero Data Retention garanti ? | Sécurité données sensibles |
+| Training opt-out | Prompts utilisés pour le training ? | Confidentialité |
+| SLA | Uptime garanti | Production reliability |
+| Modèles | Quels modèles disponibles ? | Flexibilité |

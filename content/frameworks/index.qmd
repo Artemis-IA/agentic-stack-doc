@@ -1,0 +1,64 @@
+---
+title: "Vue d'ensemble — Frameworks Agentic"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Frameworks Agentic
+
+Les frameworks agentic orchestrent les LLMs, outils, et sandboxes pour créer des systèmes capables de planifier, raisonner, et agir de manière autonome.
+
+```{mermaid}
+graph TB
+    subgraph "Multi-Agent Orchestration"
+        LG[LangGraph]
+        CR[CrewAI]
+        AG[AutoGen]
+        SW[Swarm]
+    end
+    
+    subgraph "Research Agents"
+        AR[AI-Researcher]
+        DS[DeepScientist]
+        AS[AutoScientists]
+        AI[AIDE]
+        TA[The AI Scientist]
+    end
+    
+    subgraph "RAG & Knowledge"
+        GR[GraphRAG]
+        LR[LightRAG]
+        OG[OG-RAG]
+        SR[SubgraphRAG]
+    end
+    
+    subgraph "Code Agents"
+        OH[OpenHands]
+        CC[Claude Code]
+        CL[Cline]
+    end
+    
+    style LG fill:#1565c0,color:#fff
+    style AR fill:#bf360c,color:#fff
+    style GR fill:#1b5e20,color:#fff
+    style OH fill:#4a148c,color:#fff
+```
+
+## Taxonomie
+
+| Catégorie | Description | Exemples |
+|-----------|-------------|----------|
+| **Multi-agent orchestration** | Coordination de plusieurs agents | LangGraph, CrewAI, AutoGen |
+| **Research agents** | Recherche scientifique autonome | AI-Researcher, DeepScientist, AIDE |
+| **RAG/GraphRAG** | Retrieval + raisonnement | GraphRAG, LightRAG, OG-RAG |
+| **Code agents** | Génération/modification de code | OpenHands, Claude Code |
+| **Domain-specific** | Spécialisés par domaine | EarthLink (climate), OceanGPT (ocean) |
+
+## Niveaux de maturité
+
+| Niveau | Description | Frameworks |
+|--------|-------------|------------|
+| Production-ready | Déployable en production | LangGraph, CrewAI, LlamaIndex |
+| Mature | Fonctionnel, en amélioration | AutoGen, OpenHands, AIDE |
+| Émergent | Prometteur, en développement | DeepScientist, Mimosa-AI, EarthLink |
+| Recherche | Academic, preuve de concept | AI-Researcher, AutoScientists |

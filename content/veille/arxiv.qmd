@@ -1,0 +1,58 @@
+---
+title: "Veille arXiv"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Veille arXiv
+
+## Catégories surveillées
+
+| Catégorie arXiv | Description | Fréquence de scan |
+|-----------------|-------------|-------------------|
+| `cs.AI` | Artificial Intelligence | Quotidien |
+| `cs.CL` | Computation and Language (NLP) | Quotidien |
+| `cs.LG` | Machine Learning | Quotidien |
+| `cs.MA` | Multi-Agent Systems | Quotidien |
+| `cs.SE` | Software Engineering | Quotidien |
+| `stat.ML` | Machine Learning (Stats) | Quotidien |
+
+## Filtres de pertinence
+
+Le script `scripts/veille_arxiv.py` filtre les papers selon :
+
+| Filtre | Mots-clés | Action |
+|--------|-----------|--------|
+| Agentic | `agent`, `agentic`, `autonomous`, `tool-use` | Priorité haute |
+| LLM | `LLM`, `language model`, `transformer`, `GPT`, `Claude` | Priorité haute |
+| Sandbox | `sandbox`, `isolation`, `container`, `microVM` | Priorité moyenne |
+| RAG | `RAG`, `retrieval augmented`, `GraphRAG`, `knowledge graph` | Priorité haute |
+| MCP | `MCP`, `model context protocol` | Priorité haute |
+| Harness | `code agent`, `IDE`, `coding assistant` | Priorité moyenne |
+| Benchmark | `benchmark`, `evaluation`, `leaderboard` | Priorité moyenne |
+
+## Format de sortie
+
+Chaque paper détecté génère une entrée dans `content/veille/arxiv-feed.qmd` :
+
+```markdown
+### [Titre du paper]
+- **arXiv** : 2507.17311
+- **Date** : 2025-07-23
+- **Auteurs** : Intern-AI et al.
+- **Catégorie** : cs.AI
+- **Tags** : agentic, climate, research
+- **Résumé** : Premier self-evolving AI agent pour climate science...
+- **Lien** : https://arxiv.org/abs/2507.17311
+```
+
+## Derniers papers détectés
+
+::: callout-note
+## Section auto-générée
+Cette section est automatiquement mise à jour par le script `scripts/veille_arxiv.py` via GitHub Actions. Les entrées ci-dessous sont générées à chaque exécution.
+:::
+
+<!-- ARXIV_FEED_START -->
+<!-- Les entrées seront insérées automatiquement par le script de veille -->
+<!-- ARXIV_FEED_END -->

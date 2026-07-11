@@ -1,0 +1,118 @@
+---
+title: "Modèles Ouverts"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Modèles Ouverts (Open Weights)
+
+## Meta — Llama
+
+| Modèle | Paramètres | Context | Architecture | Licence |
+|--------|-----------|---------|--------------|---------|
+| Llama 4 Scout | 109B (17B active) | 10M | MoE 16 experts | Llama 4 Community |
+| Llama 4 Maverick | 400B (17B active) | 1M | MoE 128 experts | Llama 4 Community |
+| Llama 4 Behemoth | ~2T | — | MoE | Llama 4 Community |
+| Llama 3.3 70B | 70B | 128K | Dense | Llama 3.1 Community |
+| Llama 3.2 3B/1B | 3B/1B | 128K | Dense | Llama 3.2 Community |
+
+::: callout-warning
+## Licence Llama
+La licence Llama Community interdit l'usage commercial si le revenu mensuel dépasse 700M$. Restriction qui limite l'adoption par les très grandes entreprises.
+:::
+
+## Alibaba — Qwen
+
+| Modèle | Paramètres | Context | Architecture | Licence |
+|--------|-----------|---------|--------------|---------|
+| Qwen3 235B | 235B (22B active) | 128K | MoE | Apache 2.0 |
+| Qwen3 30B | 30B | 128K | Dense | Apache 2.0 |
+| Qwen3 14B | 14B | 128K | Dense | Apache 2.0 |
+| Qwen3 4B | 4B | 32K | Dense | Apache 2.0 |
+| Qwen3 Coder 480B | 480B (35B active) | 256K | MoE | Apache 2.0 |
+| Qwen2.5-VL 72B | 72B | 128K | Dense + Vision | Apache 2.0 |
+
+::: callout-tip
+## Qwen3 : le champion open source
+Qwen3 235B (MoE) rivalise avec GPT-4o sur de nombreux benchmarks. Architecture MoE = inference efficace (22B paramètres actifs). Licence Apache 2.0 = usage commercial sans restriction.
+:::
+
+## Zhipu — GLM
+
+| Modèle | Paramètres | Context | Architecture | Licence |
+|--------|-----------|---------|--------------|---------|
+| GLM-5.2 | ~355B | 128K | MoE | MIT (open) |
+| GLM-4.6 | 106B | 128K | Dense | MIT |
+| GLM-4-Air | 9B | 128K | Dense | MIT |
+| ChatGLM3 6B | 6B | 32K | Dense | MIT |
+
+::: callout-note
+## GLM-5.2
+GLM-5.2 (Zhipu AI) est un MoE open weights avec licence MIT. Performances compétitives avec les modèles propriétaires sur les tâches de raisonnement et de code. Disponible sur Hugging Face.
+:::
+
+## DeepSeek
+
+| Modèle | Paramètres | Context | Architecture | Licence |
+|--------|-----------|---------|--------------|---------|
+| DeepSeek V3 | 671B (37B active) | 128K | MoE | MIT |
+| DeepSeek R1 | 671B (37B active) | 128K | MoE + RL | MIT |
+| DeepSeek Coder V2 | 236B (21B active) | 128K | MoE | MIT |
+| DeepSeek VL2 | 27B | 128K | Dense + Vision | MIT |
+
+::: callout-tip
+## DeepSeek R1 — Reasoning open source
+DeepSeek R1 est le premier modèle de raisonnement open weights (RL-trained). Performances proches d'o3 sur AIME et MATH. Détail important: le modèle "thinking" est intégré, pas besoin d'API spéciale.
+:::
+
+## Mistral
+
+| Modèle | Paramètres | Context | Architecture | Licence |
+|--------|-----------|---------|--------------|---------|
+| Mistral Large 2 | 123B | 128K | Dense | Mistral Research |
+| Codestral 25.01 | 22B | 256K | Dense | Mistral Non-Commercial |
+| Magistral Medium | 22B | 128K | Dense + reasoning | Mistral |
+| Mistral Small 3 | 24B | 32K | Dense | Apache 2.0 |
+| Mixtral 8x22B | 141B (39B active) | 64K | MoE | Apache 2.0 |
+
+## Google — Gemma
+
+| Modèle | Paramètres | Context | Architecture | Licence |
+|--------|-----------|---------|--------------|---------|
+| Gemma 3 27B | 27B | 128K | Dense | Gemma |
+| Gemma 3 12B | 12B | 128K | Dense | Gemma |
+| Gemma 3 4B | 4B | 128K | Dense | Gemma |
+| Gemma 3 1B | 1B | 32K | Dense | Gemma |
+
+## Microsoft — Phi
+
+| Modèle | Paramètres | Context | Architecture | Licence |
+|--------|-----------|---------|--------------|---------|
+| Phi-4 | 14B | 16K | Dense | MIT |
+| Phi-4 multimodal | 14B | 128K | Dense + Vision | MIT |
+| Phi-3.5 mini | 3.8B | 128K | Dense | MIT |
+| Phi-3.5 MoE | 42B (6.6B active) | 128K | MoE | MIT |
+
+## Autres notables
+
+| Modèle | Paramètres | Licence | Spécificités |
+|--------|-----------|---------|--------------|
+| OLMo 2 32B | 32B | Apache 2.0 | Fully open (data + code + weights) |
+| Falcon 3 10B | 10B | TII Falcon LLM | Émirats, multilingue |
+| Yi 1.5 34B | 34B | Apache 2.0 | Multilingue (CN/EN) |
+| Aya 23 35B | 35B | Apache 2.0 | 23 langues |
+| StarCoder2 15B | 15B | BigCode Open | Code generation |
+
+## Tableau de comparaison
+
+| Modèle | Params (actifs) | Licence | Reasoning | Tool calling | Multimodal | MoE |
+|--------|----------------|---------|-----------|-------------|------------|-----|
+| Qwen3 235B | 235B (22B) | Apache 2.0 | ✅ | ✅ | ❌ | ✅ |
+| GLM-5.2 | 355B (~35B) | MIT | ✅ | ✅ | ✅ | ✅ |
+| DeepSeek V3 | 671B (37B) | MIT | ✅ | ✅ | ❌ | ✅ |
+| DeepSeek R1 | 671B (37B) | MIT | ✅ (RL) | ✅ | ❌ | ✅ |
+| Llama 4 Maverick | 400B (17B) | Llama 4 | ❌ | ✅ | ✅ | ✅ |
+| Llama 3.3 70B | 70B | Llama 3.1 | ❌ | ✅ | ❌ | ❌ |
+| Mistral Large 2 | 123B | Research | ❌ | ✅ | ❌ | ❌ |
+| Gemma 3 27B | 27B | Gemma | ❌ | ✅ | ✅ | ❌ |
+| Phi-4 | 14B | MIT | ❌ | ✅ | ✅ (variant) | ❌ |

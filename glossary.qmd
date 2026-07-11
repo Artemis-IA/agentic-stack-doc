@@ -1,0 +1,136 @@
+---
+title: "Glossaire"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Glossaire de l'écosystème agentic
+
+## A
+
+::: {def-term}
+Agent
+:   Programme IA capable de planifier, exécuter des actions et adapter son comportement de manière autonome ou semi-autonome.
+:::
+
+::: {def-term}
+Agentic
+:   Relatif aux agents IA. Système qui exhibe une autonomie d'action avec boucles de feedback.
+:::
+
+::: {def-term}
+ARTER
+:   Adaptive Routing for Token-Efficient Reasoning. Routage adaptatif des requêtes LLM pour optimiser coût/qualité.
+:::
+
+## B
+
+::: {def-term}
+Benchmark
+:   Suite de tests standardisés pour évaluer les performances d'un modèle ou système IA (ex: MLE-Bench, SWE-Bench, HumanEval).
+:::
+
+## C
+
+::: {def-term}
+Context Window
+:   Taille maximale de tokens qu'un LLM peut traiter en une seule requête (input + output).
+:::
+
+## F
+
+::: {def-term}
+Few-shot
+:   Technique de prompting où quelques exemples sont fournis au modèle pour guider sa réponse.
+:::
+
+::: {def-term}
+Fine-tuning
+:   Entraînement supplémentaire d'un modèle pré-entraîné sur des données spécifiques à un domaine ou tâche.
+:::
+
+## G
+
+::: {def-term}
+GraphRAG
+:   Variante du RAG utilisant un graphe de connaissances pour le retrieval, améliorant le raisonnement multi-hop.
+:::
+
+## H
+
+::: {def-term}
+Harness
+:   Environnement de développement intégrant un LLM pour assister ou automatiser le code (IDE IA, CLI agent).
+:::
+
+## L
+
+::: {def-term}
+LLM
+:   Large Language Model. Modèle de langage de grande taille entraîné sur de vastes corpus textuels.
+:::
+
+::: {def-term}
+LPU
+:   Language Processing Unit. Accélérateur spécialisé pour l'inférence LLM (ex: Groq).
+:::
+
+## M
+
+::: {def-term}
+MCP
+:   Model Context Protocol. Standard ouvert pour connecter les LLMs à des sources de données et outils externes.
+:::
+
+::: {def-term}
+Multi-agent
+:   Système où plusieurs agents IA collaborent, chacun avec un rôle spécialisé.
+:::
+
+## R
+
+::: {def-term}
+RAG
+:   Retrieval-Augmented Generation. Technique enrichissant le contexte LLM avec des documents récupérés dynamiquement.
+:::
+
+::: {def-term}
+Rate-limiting
+:   Restriction du nombre de requêtes par unité de temps, appliquée par les providers d'API LLM.
+:::
+
+## S
+
+::: {def-term}
+Sandbox
+:   Environnement d'exécution isolé permettant d'exécuter du code non fiable de manière sécurisée.
+:::
+
+::: {def-term}
+Skill
+:   Unité modulaire de compétence encapsulant un savoir-faire (quand utiliser, comment, avec quels outils). Format: SKILL.md.
+:::
+
+::: {def-term}
+SWE-Bench
+:   Benchmark évaluant la capacité des agents IA à résoudre des issues GitHub réelles.
+:::
+
+## T
+
+::: {def-term}
+Télémétrie
+:   Collecte de données d'utilisation (prompts, métriques, erreurs) envoyée vers les serveurs du provider.
+:::
+
+::: {def-term}
+Tool calling
+:   Capacité d'un LLM à invoquer des fonctions/tools externes de manière structurée.
+:::
+
+## Z
+
+::: {def-term}
+ZDR
+:   Zero Data Retention. Garantie qu'aucune donnée utilisateur n'est conservée par le provider après traitement.
+:::

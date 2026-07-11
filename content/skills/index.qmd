@@ -1,0 +1,46 @@
+---
+title: "Vue d'ensemble — Skills & Outils"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Skills & Outils
+
+Les **skills** et **outils** sont l'interface entre les LLMs et le monde extérieur. Un agent sans outils est juste un chatbot ; un agent avec des outils devient un système capable d'agir.
+
+```{mermaid}
+graph TB
+    LLM[LLM / Agent] --> MCP[Model Context Protocol]
+    LLM --> SKL[SKILL.md Format]
+    LLM --> FUNC[Function Calling]
+    LLM --> API[REST APIs]
+    
+    MCP --> TOOLS1[Tools externes<br/>DBs, APIs, filesystem]
+    SKL --> TOOLS2[Compétences encapsulées<br/>quand/comment/produire]
+    FUNC --> TOOLS3[Functions natives<br/>code execution]
+    API --> TOOLS4[Services web<br/>search, weather, etc.]
+    
+    style MCP fill:#1b5e20,color:#fff
+    style SKL fill:#bf360c,color:#fff
+```
+
+## Évolution des interfaces d'outils
+
+| Génération | Approche | Exemples |
+|------------|----------|----------|
+| G1 | Function calling manuel | OpenAI tools API, prompt engineering |
+| G2 | Plugins fermés | ChatGPT Plugins (deprecated), Copilot Extensions |
+| G3 | MCP (standard ouvert) | Claude Code, Cline, Goose, Continue.dev |
+| G4 | Skills encapsulés | OpenClaw, LabClaw, ScienceClaw |
+| G5 | Tool discovery automatique | Mimosa-AI (Toolomics), ToolUniverse |
+
+## MCP vs Function Calling vs Skills
+
+| Critère | Function Calling | MCP | SKILL.md |
+|---------|-----------------|-----|----------|
+| Standard | Provider-specific | Open standard | Format ouvert |
+| Portabilité | ❌ (lock-in) | ✅ (inter-operable) | ✅ |
+| Discovery | Manuel | Auto-discovery | Manuel ou auto |
+| Stateful | ❌ | ✅ (resources, prompts) | ✅ |
+| Complexité | Simple | Moyenne | Simple (markdown) |
+| Adoption | OpenAI, Anthropic | Claude, Cline, Goose, Cursor | OpenClaw ecosystem |

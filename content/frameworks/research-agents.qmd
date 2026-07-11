@@ -1,0 +1,124 @@
+---
+title: "Agents de Recherche"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Agents de Recherche Autonome
+
+## Vue d'ensemble
+
+Les agents de recherche autonome visent à automatiser le cycle complet de la découverte scientifique : littérature → hypothèse → expérimentation → publication.
+
+```{mermaid}
+graph LR
+    LIT[Littérature] --> HYP[Hypothèse]
+    HYP --> EXP[Expérimentation]
+    EXP --> RES[Résultats]
+    RES --> PUB[Publication]
+    PUB -->|feedback| LIT
+    
+    style LIT fill:#1565c0,color:#fff
+    style EXP fill:#bf360c,color:#fff
+    style PUB fill:#1b5e20,color:#fff
+```
+
+## Frameworks End-to-End
+
+### The AI Scientist (SakanaAI)
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Repo | `github.com/SakanaAI/AI-Scientist` |
+| Stars | 13.8K+ |
+| Licence | Apache 2.0 |
+| Niveau | L5 (fully autonomous) |
+
+**v1** (2024) : Premier système fully autonomous open-ended discovery. **v2** (2025) : Agentic Tree Search, premier article accepté en workshop.
+
+### AI-Researcher (HKUDS)
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Repo | `github.com/HKUDS/AI-Researcher` |
+| Conférence | NeurIPS 2025 |
+| Pipeline | Literature → hypothesis → implementation → writing |
+
+### DeepScientist (ResearAI)
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| arXiv | 2509.26603 |
+| Performance | Surpasse SOTA humain (183.7% improvement) |
+| Méthode | Bayesian Optimization |
+| Compute | 20,000+ GPU hours |
+
+### AutoScientists (Harvard MIMS)
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Repo | `github.com/mims-harvard/AutoScientists` |
+| Stars | 425+ |
+| Paradigme | Teams décentralisées auto-organisées |
+| Feature | Peer critique avant compute, partage succès/échecs |
+
+### AIDE (WecoAI)
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Repo | `github.com/WecoAI/aideml` |
+| Stars | 1.3K+ |
+| Benchmark | 4× médailles MLE-Bench |
+| Méthode | Agentic tree search (draft→debug→benchmark) |
+
+### Mimosa-AI (HolobiomicsLab)
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Features | MCP tool discovery (Toolomics), évolution darwinienne |
+| Modes | Goal (décomposition) ou Task (tâche unique) |
+| Judge | Score → mutation → refinement |
+| Backend | LangGraph directed graphs |
+
+## Frameworks spécialisés
+
+### EarthLink (Climate Science)
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| arXiv | 2507.17311 (2025) |
+| Domaine | Climate science |
+| Niveau | "Junior researcher" |
+| Feature | Physical reasoning, ESMValTool recipes, self-evolving |
+
+### AutoClimDS (NSF LEAP)
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| arXiv | 2509.21553 (2025) |
+| Architecture | KG-based (45 node types, 39 relation types) |
+| Backend | LangChain + ReAct + Claude Sonnet sur AWS Neptune |
+| Feature | NL→Cypher, Data Discovery/Acquisition/Analytics agents |
+
+### OceanGPT (ZJU)
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| arXiv | 2310.02031 (ACL 2024) |
+| Modèle | 7B spécialisé océanographie |
+| Feature | DoInstruct (multi-agent instruction generation), OceanBench |
+
+## Benchmarks
+
+| Benchmark | Domaine | Métrique | Meilleur score |
+|-----------|---------|----------|----------------|
+| SWE-Bench | Code | Resolved % | Claude Opus 4: 72.5% |
+| MLE-Bench | ML engineering | Medals | InternAgent: 36.44% |
+| PaperBench | Recherche | Score | Best agent: 27%, Human: 41% |
+| ScienceAgentBench | Science | Score | — |
+| BioML-Bench | Biologie | Score | AutoScientists: +8.33% |
+
+::: callout-warning
+## Gap agent vs humain
+PaperBench montre que le meilleur agent obtient 27% vs 41% pour un humain sur la réplication de papers AI. Les systèmes agentic sont prometteurs mais encore loin du niveau humain complet.
+:::

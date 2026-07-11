@@ -1,0 +1,93 @@
+---
+title: "Formats de Skills"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Formats de Skills
+
+## SKILL.md (OpenClaw)
+
+Le format **SKILL.md** est un standard markdown pour encapsuler des compétences d'agents. Chaque skill est un fichier markdown décrivant : quand utiliser, comment, avec quels outils, et que produire.
+
+### Structure
+
+```markdown
+# Skill: Calculer la MLD depuis profils Argo
+
+## When to use
+- L'utilisateur demande de calculer la Mixed Layer Depth
+- Des profils Argo T/S sont disponibles
+
+## How to use
+1. Charger les profils avec argopy
+2. Calculer la densité via l'équation d'état de l'eau de mer (TEOS-10)
+3. Appliquer le critère de densité (Δσ = 0.03 kg/m³ depuis 10m)
+4. Retourner la profondeur de la MLD
+
+## Tools needed
+- argopy (data fetch)
+- gsw (TEOS-10 density)
+- xarray (data manipulation)
+
+## Expected output
+- xarray.DataArray avec dimensions (profile, depth)
+- Unités: mètres
+- QC flag: 1 si calcul valide, 0 sinon
+```
+
+### Écosystèmes SKILL.md
+
+| Écosystème | Skills | Domaine | Repo |
+|------------|--------|---------|------|
+| LabClaw | 240 | Biomédical (66 domaines) | `github.com/wu-yc/LabClaw` |
+| ScienceClaw | 285+ | 28+ disciplines scientifiques | `github.com/beita6969/ScienceClaw` |
+| OpenClaw | 2857+ | Multi-domaine (ClawHub) | `github.com/OpenClaw/openclaw` |
+| scientific-agent-skills | 140 | Sciences (160K+ users) | `github.com/K-Dense-AI/scientific-agent-skills` |
+| AI-Research-SKILLs | 86 | 22 catégories recherche | `github.com/Orchestra-Research/AI-Research-SKILLs` |
+
+## ToolUniverse (Harvard)
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Repo | `github.com/mims-harvard/ToolUniverse` |
+| Outils intégrés | 1000+ (ML models, datasets, APIs, packages) |
+| Analyses | 500k+ |
+| Format | AI-Tool Interaction Protocol |
+
+**Principe** : Au lieu de skills markdown, ToolUniverse fournit un protocole structuré pour l'interaction LLM → outil, avec discovery automatique et exécution supervisée.
+
+## OpenAI Function Calling
+
+Format JSON Schema standard pour définir des tools :
+
+```json
+{
+  "type": "function",
+  "function": {
+    "name": "search_web",
+    "description": "Search the web",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "query": {"type": "string", "description": "Search query"}
+      },
+      "required": ["query"]
+    }
+  }
+}
+```
+
+## Comparaison des formats
+
+| Format | Type | Portabilité | Discovery | Stateful | Complexité |
+|--------|------|-------------|-----------|----------|------------|
+| SKILL.md | Markdown | ✅ | Manuel/auto | ✅ | Faible |
+| MCP Tools | Protocol | ✅ | Auto | ✅ | Moyenne |
+| Function Calling | JSON Schema | ❌ (provider) | Manuel | ❌ | Faible |
+| ToolUniverse | Protocol | ✅ | Auto | ✅ | Élevée |
+
+::: callout-note
+## Tendance : convergence
+Les formats convergent vers MCP + skills encapsulés. MCP pour l'interface technique (transport, discovery), SKILL.md pour la sémantique (quand, comment, pourquoi). Les deux sont complémentaires.
+:::

@@ -1,0 +1,89 @@
+---
+title: "Vue d'ensemble — Harnesses & IDEs IA"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Harnesses & IDEs IA
+
+Les **harnesses** sont les environnements qui intègrent un LLM dans le workflow de développement. Ils vont de l'autocomplétion basique à l'agent fully-autonome capable de résoudre des issues complexes.
+
+```{mermaid}
+graph LR
+    subgraph "L1 — Autocomplétion"
+        TABN[Tabnine]
+        TABBY[Tabby]
+    end
+    
+    subgraph "L2 — Assistant"
+        CUR[Cursor]
+        WIND[Windsurf]
+        COP[GitHub Copilot]
+    end
+    
+    subgraph "L3 — Agent semi-autonome"
+        CC[Claude Code]
+        CLN[Cline]
+        AID[Aider]
+        GSE[Goose]
+        ROO[Roo Code]
+        CON[Continue.dev]
+    end
+    
+    subgraph "L4 — Agent autonome"
+        OH[OpenHands]
+        DEV[Devin]
+    end
+    
+    TABN --> CUR
+    CUR --> CC
+    CC --> OH
+    
+    style TABN fill:#e3f2fd
+    style CUR fill:#bbdefb
+    style CC fill:#90caf9
+    style OH fill:#64b5f6,color:#fff
+```
+
+## Taxonomie
+
+### Par niveau d'autonomie
+
+| Niveau | Description | Outils |
+|--------|-------------|--------|
+| **L1** | Autocomplétion inline | Tabnine, Tabby, GitHub Copilot (inline) |
+| **L2** | Chat + édition assistée | Cursor, Windsurf, GitHub Copilot Chat |
+| **L3** | Agent semi-autonome (multi-fichiers, terminal) | Claude Code, Cline, Aider, Goose, Roo Code |
+| **L4** | Agent autonome (end-to-end) | OpenHands, Devin |
+| **L5** | Recherche autonome (idée → paper) | AI-Researcher, DeepScientist, AIDE |
+
+### Par accessibilité
+
+| Type | Outils |
+|------|--------|
+| Propriétaire (SaaS) | Claude Code, Cursor, Windsurf, GitHub Copilot, Tabnine, Devin |
+| Open source | Cline, Aider, Continue.dev, Roo Code, OpenHands, Goose, Tabby |
+| Proxy/Debloating | free-claude-code, SEPCC, OpenProxy, coding-proxy, CLIProxyAPI |
+
+## Enjeux entreprise
+
+::: callout-warning
+## Télémétrie & confidentialité
+La majorité des harnesses envoient des données (prompts, code, métriques) vers les serveurs du provider. Pour un usage entreprise, il est crucial de vérifier :
+1. **Télémétrie par défaut** — Activée ou non ?
+2. **Opt-out** — Comment la désactiver ?
+3. **ZDR (Zero Data Retention)** — Les données sont-elles conservées ?
+4. **Training opt-out** — Les prompts/outputs sont-ils utilisés pour entraîner ?
+:::
+
+## Sélection par cas d'usage
+
+| Cas d'usage | Outil recommandé | Pourquoi |
+|------------|-----------------|----------|
+| Dev local, souveraineté | Aider + Ollama | Connexion directe machine→AI provider, pas de télémétrie |
+| Dev team, équilibre perf/conf | Cline (self-hosted mode) | Auto-désactive télémétrie en self-hosted |
+| Dev team, best-in-class | Claude Code | Best reasoning + tool calling, mais télémétrie |
+| Dev local, gratuit | Goose + Ollama | Télémétrie off par défaut, open source |
+| Autocomplétion on-prem | Tabby | Aucune télémétrie en self-hosted |
+| Édition assistée IDE | Cursor / Windsurf | Best UX, mais télémétrie à vérifier |
+| Agent fully-autonome | OpenHands | Open source, sandbox Docker |

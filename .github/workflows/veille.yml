@@ -1,0 +1,61 @@
+name: Veille Auto-Update
+
+on:
+  schedule:
+    - cron: "0 6,18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install httpx feedparser
+
+      - name: Run arXiv veille
+        run: python scripts/veille_arxiv.py
+
+      - name: Run GitHub veille
+        run: python scripts/veille_github.py ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Run HuggingFace veille
+        run: python scripts/veille_hf.py
+
+      - name: Run Blogs veille
+        run: python scripts/veille_blogs.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/veille/
+          git diff --staged --quiet && echo "No changes" && exit 0
+          git commit -m "veille: auto-update $(date -u +%Y-%m-%dT%H:%M)"
+          git push
+
+      - name: Trigger deploy
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: "deploy.yml",
+              ref: "main"
+            })

@@ -1,0 +1,110 @@
+---
+title: "Conteneurs & MicroVMs"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Conteneurs & MicroVMs
+
+## Docker — Le standard
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Isolation | Namespace + cgroups |
+| Latence démarrage | ~1-5s |
+| Persistance | Volumes, images |
+| Network | Bridge, custom networks |
+| Écosystème | Immense (Docker Hub) |
+
+```python
+# Exemple: OpenHands sandbox (Docker)
+import docker
+
+client = docker.from_env()
+container = client.containers.run(
+    "openhands/sandbox:latest",
+    command="python script.py",
+    volumes={"./workspace": {"bind": "/workspace", "mode": "rw"}},
+    network_mode="none",  # Pas d'internet
+    mem_limit="2g",
+    cpu_period=100000,
+    cpu_quota=50000,  # 50% CPU
+    remove=True  # Éphémère
+)
+```
+
+## Podman — Daemonless, rootless
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Isolation | Namespace + cgroups (rootless) |
+| Latence démarrage | ~1-5s |
+| Docker compatible | ✅ (drop-in replacement) |
+| Rootless | ✅ (par défaut) |
+| Pods | ✅ (Kubernetes-like) |
+
+::: callout-tip
+## Podman pour la sécurité
+Podman tourne rootless par défaut, réduisant la surface d'attaque. Idéal pour les sandboxes d'agents IA qui exécutent du code non fiable.
+:::
+
+## Firecracker — MicroVM
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Isolation | KVM-based MicroVM |
+| Latence démarrage | ~125ms |
+| Overhead | Minimal (~5MB RAM) |
+| Sécurité | Isolation VM-level |
+| Utilisé par | AWS Lambda, Fargate, Fly.io |
+
+**Features** : Démarrage ultra-rapide, isolation forte (KVM), rate-limiting intégré, pas de device passthrough.
+
+```python
+# Exemple conceptuel Firecracker
+# Nécessite l'API Firecracker
+import subprocess
+
+# Démarrer une microVM
+subprocess.run([
+    "firecracker",
+    "--api-sock", "/tmp/firecracker.sock",
+    "--config-file", "vm_config.json"
+])
+```
+
+## Kata Containers — Container + VM
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Isolation | VM légère par container |
+| Latence démarrage | ~1-2s |
+| Docker compatible | ✅ (via containerd) |
+| Kubernetes | ✅ (CRI-O, containerd) |
+
+## gVisor — Kernel sandbox
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Isolation | User-space kernel (ptrace/KVM) |
+| Latence démarrage | ~2-5s |
+| Docker compatible | ✅ (`--runtime=runsc`) |
+| Overhead | ~10-20% perf |
+
+## Comparatif
+
+| Solution | Isolation | Latence | Overhead | Sécurité | Complexité |
+|----------|-----------|---------|----------|----------|------------|
+| Docker | Container | 1-5s | Faible | Moyenne | Faible |
+| Podman | Container (rootless) | 1-5s | Faible | Bonne | Faible |
+| Firecracker | MicroVM | 125ms | Minimal | Excellente | Moyenne |
+| Kata | VM + container | 1-2s | Modéré | Excellente | Moyenne |
+| gVisor | User-space kernel | 2-5s | Modéré | Bonne | Faible |
+
+::: callout-note
+## Choix par cas d'usage
+- **Dev local** → Docker ou Podman (simplicité)
+- **Production multi-tenant** → Firecracker (isolation + vitesse)
+- **Kubernetes enterprise** → Kata (compatibilité + sécurité)
+- **Code non fiable** → gVisor ou Firecracker (isolation maximale)
+:::

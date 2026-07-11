@@ -1,0 +1,16 @@
+/* Light theme SCSS overrides */
+
+/* Navbar customization */
+.navbar {
+  font-weight: 500;
+}
+
+/* Sidebar */
+#quarto-sidebar {
+  font-size: 0.9rem;
+}
+
+/* Code blocks */
+pre code {
+  font-size: 0.85rem;
+}

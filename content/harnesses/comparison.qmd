@@ -1,0 +1,63 @@
+---
+title: "Matrice Comparative"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Matrice Comparative des Harnesses
+
+## Matrice complète
+
+| Outil | Licence | Open Source | Autonomie | Télémétrie défaut | Désactivation | ZDR Enterprise |
+|-------|---------|-------------|-----------|-------------------|---------------|----------------|
+| **Claude Code** | Propriétaire | ❌ | L3 | ✅ On | `CLAUDE_CODE_DISABLE_TELEMETRY=1` | ✅ |
+| **Cursor** | Propriétaire | ❌ | L2 | ✅ On | Privacy Mode (payant) | ✅ |
+| **Windsurf** | Propriétaire | ❌ | L2 | ✅ On | ⚠️ Pas d'opt-out clair | ⚠️ Partiel |
+| **GitHub Copilot** | Propriétaire | ❌ | L1-L2 | ✅ On | Enterprise | ✅ |
+| **Tabnine** | Propriétaire | ❌ | L1 | Configurable | Enterprise | ✅ |
+| **Devin** | Propriétaire | ❌ | L4 | ✅ On | Non documenté | Non documenté |
+| **Cline** | Apache 2.0 | ✅ | L3 | PostHog | Self-hosted mode | ✅ |
+| **Aider** | Apache 2.0 | ✅ | L3 | Opt-in 10% | `--analytics-disable` | ✅ |
+| **Continue.dev** | Apache 2.0 | ✅ | L2-L3 | Configurable | Config file | ✅ |
+| **Goose** | Apache 2.0 | ✅ | L3 | ❌ Off | `GOOSE_TELEMETRY_ENABLED=false` | ✅ |
+| **Roo Code** | Apache 2.0 | ✅ | L3 | Configurable | Config | ✅ |
+| **OpenHands** | MIT | ✅ | L4 | Configurable | Self-hosted | ✅ |
+| **Tabby** | Apache 2.0 | ✅ | L1 | ❌ Aucune | N/A (on-prem) | ✅ |
+
+## Variables d'environnement pour désactiver la télémétrie
+
+| Outil | Variable | Valeur |
+|-------|----------|--------|
+| Claude Code | `CLAUDE_CODE_DISABLE_TELEMETRY` | `1` |
+| Cursor | — | Privacy Mode dans settings |
+| Windsurf | — | ⚠️ Non documenté |
+| GitHub Copilot | — | Enterprise policy |
+| Aider | flag `--analytics-disable` | — |
+| Goose | `GOOSE_TELEMETRY_ENABLED` | `false` |
+| Cline | Self-hosted mode (`~/.cline/endpoints.json`) | — |
+| OpenTelemetry (générique) | `OTEL_SDK_DISABLED` | `true` |
+| PostHog (générique) | `DISABLE_POSTHOG` | `true` |
+
+## Matrice features
+
+| Outil | Autocomplétion | Chat | Multi-fichier | Terminal | Browser | MCP | Sandbox | Git |
+|-------|---------------|------|---------------|----------|---------|-----|---------|-----|
+| Claude Code | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ |
+| Cursor | ✅ | ✅ | ✅ (Composer) | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Windsurf | ✅ | ✅ | ✅ (Cascade) | ❌ | ❌ | ❌ | ❌ | ✅ |
+| GitHub Copilot | ✅ | ✅ | ⚠️ (Agent) | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Cline | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ |
+| Aider | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ (auto) |
+| Continue.dev | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Goose | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ |
+| OpenHands | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ (Docker) | ✅ |
+| Tabby | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+
+::: callout-tip
+## Recommandation entreprise
+Pour un déploiement entreprise avec exigences de souveraineté :
+1. **Aider + Ollama** — Zéro télémétrie, connexion directe, CLI pur
+2. **Cline (self-hosted)** — Auto-désactive PostHog, VS Code, MCP support
+3. **Goose + Ollama** — Télémétrie off par défaut, open source, MCP natif
+4. **Tabby** — Pour l'autocomplétion on-prem sans aucune télémétrie
+:::

@@ -1,0 +1,66 @@
+---
+title: "Écosystèmes d'Outils"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Écosystèmes d'Outils
+
+## OpenClaw
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Repo | `github.com/OpenClaw/openclaw` |
+| Skills | 2857+ (ClawHub) |
+| Protocol | ACP (Agent Communication Protocol) |
+| Licence | Open source |
+
+**Principe** : Marketplace de skills où chaque compétence est un SKILL.md. Les agents (AutoResearchClaw, ScienceClaw, LabClaw) s'appuient sur cet écosystème.
+
+## ToolUniverse (Harvard MIMS)
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Repo | `github.com/mims-harvard/ToolUniverse` |
+| Outils | 1000+ |
+| Analyses | 500k+ |
+| Format | AI-Tool Interaction Protocol |
+
+**Outils intégrés** : ML models (scikit-learn, XGBoost, transformers), datasets (UCI, OpenML), APIs (Google, Twitter), packages Python.
+
+## MCP Ecosystem
+
+| Catégorie | Servers | Exemples |
+|-----------|---------|----------|
+| Filesystem | 5+ | local files, S3, GCS |
+| Databases | 10+ | PostgreSQL, MySQL, SQLite, MongoDB, Redis |
+| APIs | 20+ | GitHub, Slack, Google Drive, Notion, Linear |
+| Search | 5+ | Brave, Google, Tavily, Exa |
+| Browser | 3+ | Puppeteer, Playwright, Browserbase |
+| Memory | 3+ | KV store, vector DB, knowledge graph |
+| Dev tools | 10+ | Docker, Kubernetes, Sentry, Datadog |
+
+## Frameworks d'outils intégrés
+
+| Framework | Outils | Spécificité |
+|-----------|--------|-------------|
+| LangChain | 500+ | Tools, chains, agents |
+| CrewAI | 50+ | Role-based multi-agent |
+| AutoGen | 30+ | Microsoft multi-agent |
+| LlamaIndex | 100+ | RAG-focused tools |
+| Composio | 250+ | Managed tools (SaaS) |
+| Letta (MemGPT) | 20+ | Memory + tools |
+
+## Composio — Managed tools
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| URL | `composio.dev` |
+| Outils | 250+ (Gmail, GitHub, Slack, Notion, Jira...) |
+| Auth | Géré par Composio (OAuth) |
+| Integration | LangChain, CrewAI, AutoGen, Vercel AI SDK |
+
+::: callout-tip
+## Composio pour le prototypage
+Composio gère l'authentification OAuth pour 250+ services. Idéal pour prototyper un agent qui interagit avec Gmail, Slack, GitHub sans gérer les tokens soi-même.
+:::

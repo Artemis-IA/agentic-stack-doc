@@ -1,0 +1,92 @@
+---
+title: "Benchmarks & Évaluations"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Benchmarks & Évaluations
+
+## Benchmarks généraux
+
+| Benchmark | Domaine | Métrique | Description |
+|-----------|---------|----------|-------------|
+| MMLU | Connaissance | Accuracy | 57 sujets académiques |
+| MMLU-Pro | Connaissance | Accuracy | MMLU étendu, plus difficile |
+| GPQA Diamond | Science | Accuracy | Q&A niveau PhD (diamond subset) |
+| HellaSwag | Commonsense | Accuracy | Raisonnement du sens commun |
+| TruthfulQA | Fiabilité | Accuracy | Éviter les hallucinations communes |
+| MT-Bench | Multi-turn | Score (1-10) | Conversation multi-tour (LLM judge) |
+| AlpacaEval 2 | Instruction | Win rate | Suivi d'instructions (LLM judge) |
+
+## Benchmarks de code
+
+| Benchmark | Domaine | Métrique | Description |
+|-----------|---------|----------|-------------|
+| HumanEval | Python | Pass@1 | Génération de fonctions |
+| MBPP | Python | Pass@1 | Mostly Basic Programming Problems |
+| SWE-Bench | Real-world | Resolved % | Résolution d'issues GitHub réelles |
+| SWE-Bench Verified | Real-world | Resolved % | SWE-Bench avec vérification humaine |
+| LiveCodeBench | Compétition | Accuracy | Problems de compétition récents |
+| CodeXGLUE | Multi-tâches | Multiple | Suite complète d'évaluation code |
+
+## Benchmarks de raisonnement
+
+| Benchmark | Domaine | Métrique | Description |
+|-----------|---------|----------|-------------|
+| AIME | Mathématiques | Accuracy | American Invitational Math Exam |
+| MATH | Mathématiques | Accuracy | Problèmes de compétition |
+| GSM8K | Mathématiques | Accuracy | Math au niveau collège |
+| ARC-AGI | Raisonnement | Accuracy | Abstract reasoning corpus |
+| BBH | Raisonnement | Accuracy | Big-Bench Hard (23 tâches) |
+
+## Benchmarks agentic
+
+| Benchmark | Domaine | Métrique | Description |
+|-----------|---------|----------|-------------|
+| SWE-Bench | Code agent | Resolved % | Agent résout des issues GitHub |
+| MLE-Bench | ML engineering | Medals | 75 compétitions Kaggle |
+| WebArena | Web interaction | Success % | Navigation web autonome |
+| AgentBench | Multi-domaine | Score | Suite d'évaluation agents |
+| GAIA | General AI | Success % | Assistant IA général |
+| PaperBench | Recherche | Score | Réplication de papers AI |
+
+## Leaderboards
+
+| Leaderboard | URL | Focus |
+|-------------|-----|-------|
+| LMArena (Chatbot Arena) | `lmarena.ai` | Elo rating par vote humain |
+| Artificial Analysis | `artificialanalysis.ai` | Performance + pricing + speed |
+| Hugging Face Open LLM | `huggingface.co/spaces/open-llm-leaderboard` | Modèles ouverts |
+| SWE-Bench | `swebench.com` | Code agents |
+| LiveCodeBench | `livecodebench.github.io` | Code generation |
+
+::: callout-warning
+## Limites des benchmarks
+1. **Contamination** — Les données de test peuvent fuiter dans le training data
+2. **Goodhart's Law** — Optimiser un benchmark peut ne pas améliorer la performance réelle
+3. **LLM judge bias** — Les benchmarks utilisant un LLM comme juge ont des biais (préférence pour les réponses longues, biais de position)
+4. **Vitesse d'évolution** — Les benchmarks deviennent obsolètes rapidement
+:::
+
+## Tableau de bord (mi-2026)
+
+### Modèles propriétaires
+
+| Modèle | MMLU-Pro | GPQA | SWE-Bench Verified | AIME 2025 |
+|--------|----------|------|-------------------|-----------|
+| Claude Opus 4 | ~83% | ~75% | 72.5% | ~80% |
+| GPT-4o | ~74% | ~53% | 33.2% | ~13% |
+| o3 | ~87% | ~88% | 69.1% | ~88% |
+| Gemini 2.5 Pro | ~81% | ~84% | 63.8% | ~86% |
+| Grok 4 | ~82% | ~78% | 72% | ~76% |
+
+### Modèles ouverts
+
+| Modèle | MMLU-Pro | GPQA | SWE-Bench | AIME |
+|--------|----------|------|-----------|------|
+| Qwen3 235B | ~80% | ~70% | ~42% | ~72% |
+| GLM-5.2 | ~78% | ~68% | ~40% | ~75% |
+| DeepSeek V3 | ~76% | ~65% | ~38% | ~40% |
+| DeepSeek R1 | ~84% | ~71% | ~49% | ~80% |
+| Llama 4 Maverick | ~82% | ~69% | ~43% | ~55% |
+| Llama 3.3 70B | ~68% | ~46% | ~28% | ~16% |

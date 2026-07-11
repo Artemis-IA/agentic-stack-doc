@@ -1,0 +1,107 @@
+---
+title: "Frameworks Multi-Agents"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Frameworks Multi-Agents
+
+## LangGraph (LangChain)
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Repo | `github.com/langchain-ai/langgraph` |
+| Licence | MIT |
+| Stars | 10K+ |
+| Paradigme | Directed graphs (state machine) |
+
+**Features** : Stateful agents, cycles, human-in-the-loop, streaming, checkpointing, sub-graphs, parallel execution.
+
+```python
+from langgraph.graph import StateGraph, END
+
+graph = StateGraph(AgentState)
+graph.add_node("planner", plan_step)
+graph.add_node("executor", execute_step)
+graph.add_node("reviewer", review_step)
+
+graph.add_edge("planner", "executor")
+graph.add_conditional_edges("executor", should_review, {
+    True: "reviewer", False: END
+})
+graph.add_conditional_edges("reviewer", is_good, {
+    True: END, False: "planner"
+})
+```
+
+## CrewAI
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Repo | `github.com/crewAIInc/crewAI` |
+| Licence | MIT |
+| Stars | 25K+ |
+| Paradigme | Role-based crews |
+
+**Features** : Role-based agents (researcher, writer, reviewer), tasks, processes (sequential, hierarchical), tools, memory.
+
+```python
+from crewai import Agent, Task, Crew
+
+researcher = Agent(
+    role="Researcher",
+    goal="Find information",
+    backstory="Expert researcher",
+    tools=[search_tool]
+)
+
+writer = Agent(
+    role="Writer",
+    goal="Write a report",
+    backstory="Technical writer"
+)
+
+crew = Crew(
+    agents=[researcher, writer],
+    tasks=[research_task, write_task],
+    process=Process.sequential
+)
+```
+
+## AutoGen (Microsoft)
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Repo | `github.com/microsoft/autogen` |
+| Licence | MIT |
+| Stars | 35K+ |
+| Paradigme | Conversational multi-agent |
+
+**Features** : Conversational agents, GroupChat, code execution, human proxy, nested chats.
+
+## OpenAI Swarm
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Repo | `github.com/openai/swarm` |
+| Licence | MIT |
+| Paradigme | Lightweight handoff |
+
+**Features** : Ultra-léger, routing via handoffs, pas de state management, educational framework.
+
+## Comparatif
+
+| Framework | Paradigme | Stateful | Streaming | Human-in-loop | Complexité | Production |
+|-----------|-----------|----------|-----------|---------------|------------|------------|
+| LangGraph | Graph | ✅ | ✅ | ✅ | Moyenne | ✅ |
+| CrewAI | Roles | ✅ | ⚠️ | ✅ | Faible | ✅ |
+| AutoGen | Conversation | ✅ | ✅ | ✅ | Moyenne | ✅ |
+| Swarm | Handoff | ❌ | ❌ | ❌ | Très faible | ❌ (educational) |
+
+::: callout-tip
+## Choix framework
+- **LangGraph** — Best pour workflows complexes avec cycles et conditions
+- **CrewAI** — Best pour teams d'agents avec rôles définis (simple, rapide)
+- **AutoGen** — Best pour conversations multi-agent avec code execution
+- **Swarm** — Best pour apprendre les concepts (pas production)
+:::

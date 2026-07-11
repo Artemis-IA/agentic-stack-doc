@@ -1,0 +1,123 @@
+---
+title: "RAG & GraphRAG"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# RAG & GraphRAG
+
+## Évolution du RAG
+
+```{mermaid}
+graph LR
+    subgraph "G1 — Vanilla RAG"
+        VQ[Query] --> VE[Embeddings]
+        VE --> VS[Vector Search]
+        VS --> VC[Top-K Chunks]
+        VC --> VL[LLM Generation]
+    end
+    
+    subgraph "G2 — Hybrid RAG"
+        HQ[Query] --> HE[Embeddings]
+        HQ --> HK[Keywords]
+        HE --> HS[Vector Search]
+        HK --> HS2[BM25 Search]
+        HS --> HC[Fusion RRF]
+        HS2 --> HC
+        HC --> HL[LLM Generation]
+    end
+    
+    subgraph "G3 — GraphRAG"
+        GQ[Query] --> GE[Entity Extraction]
+        GE --> GG[Graph Traversal]
+        GG --> GC[Subgraph Context]
+        GC --> GL[LLM Generation]
+    end
+    
+    style VS fill:#1565c0,color:#fff
+    style HC fill:#bf360c,color:#fff
+    style GG fill:#1b5e20,color:#fff
+```
+
+## Vanilla RAG vs GraphRAG vs HybridRAG
+
+| Critère | Vanilla RAG | GraphRAG | HybridRAG |
+|---------|-------------|----------|-----------|
+| Retrieval | Vector similarity | Graph traversal | Vector + Graph (RRF fusion) |
+| raisonnement | Faible (chunks isolés) | Fort (relations explicites) | Modéré à fort |
+| Complexité setup | Faible | Élevée (KG construction) | Moyenne |
+| Coût indexing | Faible | Élevé (LLM extraction) | Moyen |
+| Multi-hop | ❌ | ✅ | ✅ |
+| Maintenance | Faible | Moyenne (KG updates) | Moyenne |
+| Best pour | Q&A simple, FAQ | raisonnement complexe, multi-hop | Cas général production |
+
+## Frameworks GraphRAG
+
+### Microsoft GraphRAG
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Repo | `github.com/microsoft/graphrag` |
+| Stars | 25K+ |
+| Licence | MIT |
+| Approche | Hiérarchique (communautés Leiden) |
+
+**Modes** : Global search (thematic), Local search (entity-focused), DRIFT search (hybrid).
+
+### LightRAG
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Repo | `github.com/HKUDS/LightRAG` |
+| Stars | 20K+ |
+| Approche | Léger, rapide, support KG existants |
+
+### OG-RAG (Ontology-Grounded RAG)
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Repo | `github.com/microsoft/ograg2` |
+| Stars | 105+ |
+| Performance | +55% recall, +40% correctness vs baseline |
+| Approche | Hypergraph representation, ontology grounding |
+
+### Autres frameworks
+
+| Framework | Spécificité | Repo |
+|-----------|-------------|------|
+| Nano-GraphRAG | Implémentation simplifiée, hackable | `github.com/gusye1234/nano-graphrag` |
+| Graphiti | KG temps réel pour AI agents | `github.com/getzep/graphiti` |
+| ApeRAG | Production-ready, MCP, K8s | — |
+| DIGIMON | Framework unifié d'analyse | `github.com/JayLZhou/GraphRAG` |
+| SubgraphRAG | MLP léger + parallel triple-scoring | `github.com/Graph-COM/SubgraphRAG` |
+| Walk&Retrieve | Zero-shot, walk-based traversal, no fine-tuning | `github.com/MartinBoeckling/KGRag` |
+
+## Benchmarks GraphRAG
+
+| Benchmark | Description | Source |
+|-----------|-------------|--------|
+| GraphRAG-Bench | 16 disciplines, pipeline complet, ICLR 2026 | `graphrag-bench.github.io` |
+| DIGIMON | Analyse unifiée des systèmes GraphRAG | arXiv 2503.04338 |
+| SimpleQuestion | QA simple (1-hop) | — |
+| MetaQA | Multi-hop QA (films) | — |
+| GrailQA | Complex QA (Freebase) | — |
+| LC-QuAD v2 | Large-scale complex QA | — |
+| HotpotQA | Multi-hop reasoning | — |
+
+## Quand utiliser GraphRAG ?
+
+| Cas d'usage | Recommandation |
+|------------|----------------|
+| FAQ simple, recherche documentaire | Vanilla RAG |
+| Q&A multi-hop, raisonnement sur relations | GraphRAG |
+| Code base navigation | Vanilla RAG (chunks de code) |
+| Knowledge base enterprise complexe | GraphRAG ou HybridRAG |
+| Ontologies/RDF existantes | GraphRAG (KG déjà là) |
+| Données non-structurées massives | HybridRAG (vector + graph) |
+| Temps réel, faible latence | Vanilla RAG ou LightRAG |
+
+::: callout-tip
+## Règle de pouce
+**GraphRAG si** : vos questions nécessitent de traverser des relations (A→B→C), de raisonner sur des entités connectées, ou d'utiliser des ontologies existantes.
+**Vanilla RAG si** : vos questions sont des recherches thématiques simples ("trouve-moi les documents sur X").
+:::

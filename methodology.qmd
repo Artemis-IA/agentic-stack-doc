@@ -1,0 +1,85 @@
+---
+title: "Méthodologie & Veille"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Méthodologie de la documentation
+
+## Principes
+
+1. **Automatique** — Le contenu est mis à jour par des scripts Python qui interrogent les sources publiques
+2. **Traçable** — Chaque entrée indique sa source, date de récupération et niveau de confiance
+3. **Classifié** — Les outils sont catégorisés par couche, type (propriétaire/open-source) et niveau d'autonomie
+4. **Comparatif** — Des matrices permettent la comparaison rapide entre solutions
+5. **FR-native** — Documentation en français, avec termes techniques conservés en anglais
+
+## Pipeline de veille
+
+```{mermaid}
+graph LR
+    SRC[Sources<br/>arXiv · GitHub · HF · RSS] -->|Scripts Python| FETCH[Fetch & Parse]
+    FETCH --> DEDUP[Déduplication<br/>& filtrage]
+    DEDUP --> CLASS[Classification<br/automatique]
+    CLASS --> GEN[Génération .qmd]
+    GEN --> COMMIT[Git Commit<br/>auto]
+    COMMIT --> CI[CI/CD<br/>Quarto Build]
+    CI --> DEPLOY[GitHub Pages<br/>deploy]
+    
+    style SRC fill:#1b5e20,color:#fff
+    style GEN fill:#bf360c,color:#fff
+    style DEPLOY fill:#b71c1c,color:#fff
+```
+
+## Sources surveillées
+
+### Recherche académique
+
+| Source | URL | Fréquence | Filtres |
+|--------|-----|-----------|---------|
+| arXiv | `export.arxiv.org/api/query` | Quotidienne | cs.AI, cs.CL, cs.MA, cs.LG, cs.SE |
+| Papers with Code | `paperswithcode.com/api` | Hebdomadaire | LLM, agents, RAG |
+
+### Code & Open Source
+
+| Source | URL | Fréquence | Filtres |
+|--------|-----|-----------|---------|
+| GitHub Trending | `github-trending-api` | Quotidienne | Python, TypeScript, Rust |
+| GitHub Releases | `api.github.com/repos/{owner}/{repo}/releases` | Hebdomadaire | Watched repos |
+| PyPI New | `pypi.org/rss` | Hebdomadaire | NLP, AI, agent |
+
+### Modèles & Datasets
+
+| Source | URL | Fréquence | Filtres |
+|--------|-----|-----------|---------|
+| Hugging Face | `huggingface.co/api` | Quotidienne | Models trending, Datasets |
+| Ollama Library | `ollama.com/api/library` | Hebdomadaire | New models |
+
+### Blogs & Newsletters
+
+| Source | URL | Fréquence | Type |
+|--------|-----|-----------|------|
+| latent.space | `latent.space/feed` | Hebdomadaire | RSS |
+| The Batch | `deeplearning.ai/the-batch` | Hebdomadaire | RSS |
+| TLDR AI | `tldr.tech/api/rss/ai` | Quotidienne | RSS |
+| Hugging Face Blog | `huggingface.co/blog/feed` | Hebdomadaire | RSS |
+| Anthropic Blog | `anthropic.com/news/rss` | Hebdomadaire | RSS |
+
+## Niveaux de confiance
+
+::: callout-note
+## Classification des sources
+- **🟢 Vérifié** — Source officielle, documentation, paper peer-reviewed
+- **🟡 Probable** — Blog technique, release notes, GitHub README
+- **🟠 Non vérifié** — Tweet, Reddit, forum — nécessite validation
+:::
+
+## Fréquence des mises à jour
+
+| Workflow | Fréquence | Action |
+|----------|-----------|--------|
+| `veille-arxiv` | Quotidienne (3h UTC) | Fetch arXiv → génère `content/veille/arxiv.qmd` |
+| `veille-github` | Quotidienne (4h UTC) | GitHub trending → génère `content/veille/github-trending.qmd` |
+| `veille-hf` | Quotidienne (5h UTC) | HF models → génère `content/veille/huggingface.qmd` |
+| `veille-rss` | Hebdomadaire (Lundi 6h) | RSS blogs → met à jour `content/veille/index.qmd` |
+| `publish` | Sur push + hebdomadaire | Quarto build → GitHub Pages |

@@ -1,0 +1,121 @@
+---
+title: "Accélérateurs (GPU/TPU/LPU/NPU)"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Accélérateurs pour IA
+
+## NVIDIA — CUDA Ecosystem
+
+### Hopper (H100/H200)
+
+| Caractéristique | H100 SXM5 | H100 PCIe | H200 SXM5 |
+|----------------|-----------|-----------|-----------|
+| Architecture | Hopper | Hopper | Hopper |
+| Mémoire | 80 GB HBM3 | 80 GB HBM3 | 141 GB HBM3e |
+| Bande passante | 3.35 TB/s | 2 TB/s | 4.8 TB/s |
+| TDP | 700W | 350W | 700W |
+| FP8 | 3,958 TFLOPS | 1,979 TFLOPS | ~3,958 TFLOPS |
+| Interconnect | NVLink 4 (900 GB/s) | PCIe 5 | NVLink 4 (900 GB/s) |
+| Contexte LLM | ~70B model (FP8) | ~70B quantized | ~120B model (FP8) |
+
+### Blackwell (B200/B300)
+
+| Caractéristique | B200 | B300 (attendu) |
+|----------------|------|----------------|
+| Architecture | Blackwell | Blackwell Ultra |
+| Mémoire | 192 GB HBM3e | 288 GB HBM3e |
+| Bande passante | 8 TB/s | ~10 TB/s |
+| TDP | 1000W | ~1200W |
+| FP4 | 18,000 TFLOPS | ~25,000 TFLOPS |
+| Interconnect | NVLink 5 (1.8 TB/s) | NVLink 5 |
+
+::: callout-warning
+## Disponibilité Blackwell
+Les B200 sont en production limitée depuis Q4 2024. La demande dépasse largement l'offre. Les clusters B200 sont réservés aux hyperscalers et partenaires prioritaires.
+:::
+
+### GeForce (Consumer/Pro)
+
+| GPU | Mémoire | Architecture | Cas d'usage |
+|-----|---------|--------------|-------------|
+| RTX 4090 | 24 GB GDDR6X | Ada Lovelace | Dev local, fine-tuning léger |
+| RTX 5090 | 32 GB GDDR7 | Blackwell | Dev local, inference 70B quantized |
+| RTX 6000 Ada | 48 GB GDDR6 | Ada Lovelace | Workstation, multi-model |
+
+## AMD — ROCm Ecosystem
+
+### Instinct MI300
+
+| Caractéristique | MI300X | MI325X | MI350 (attendu) |
+|----------------|--------|--------|-----------------|
+| Architecture | CDNA3 | CDNA3 | CDNA4 |
+| Mémoire | 192 GB HBM3 | 288 GB HBM3e | 288 GB HBM3e |
+| Bande passante | 5.3 TB/s | 8 TB/s | ~8 TB/s |
+| TDP | 750W | 1000W | ~1000W |
+| FP8 | 10,475 TFLOPS | 13,094 TFLOPS | ~15,000 TFLOPS |
+
+::: callout-note
+## ROCm maturity
+ROCm 6.x a considérablement amélioré la compatibilité avec PyTorch et les frameworks LLM (vLLM, SGLang). L'écart avec CUDA se réduit, mais l'écosystème reste moins mature.
+:::
+
+## Google — TPU
+
+| TPU | Mémoire | Bande passante | Disponibilité |
+|-----|---------|----------------|---------------|
+| v5e | 16 GB HBM | 0.82 TB/s | GCP (Vertex AI) |
+| v5p | 95 GB HBM | 2.76 TB/s | GCP (Cloud TPU) |
+| Trillium (v6e) | 32 GB HBM | 1.6 TB/s | GCP (2025) |
+| Ironwood (v7) | 192 GB HBM | 7.4 TB/s | GCP (2026 annoncé) |
+
+## Groq — LPU
+
+| Caractéristique | GroqChip | GroqRack |
+|----------------|----------|----------|
+| Mémoire | 230 MB SRAM (par chip) | — |
+| Bande passante | 80 TB/s (par chip) | — |
+| Latence | <1 ms (first token) | — |
+| Débit | 500+ tokens/s (Llama 70B) | — |
+| Architecture | Tensor Streaming Processor | 256 chips/rack |
+
+::: callout-tip
+## Groq : ultra-low latency
+Groq excelle en inférence temps réel (latence sub-ms). Limité par la SRAM (pas de HBM), idéal pour les modèles tenant en cache. Pricing au token compétitif.
+:::
+
+## Edge & NPU
+
+| Accélérateur | Fabricant | TOPS | Cas d'usage |
+|-------------|-----------|------|-------------|
+| M4 Neural Engine | Apple | 38 TOPS | On-device inference (MLX) |
+| M4 Max | Apple | 38 TOPS + GPU 40-core | Dev local, inference 70B |
+| Hexagon NPU | Qualcomm | 45 TOPS | Mobile, Snapdragon X Elite |
+| Core Ultra NPU | Intel | ~48 TOPS | Laptop, OpenVINO |
+| Ryzen AI NPU | AMD | 50 TOPS | Laptop, RyzenAI |
+| Jetson Orin | NVIDIA | 275 TOPS | Robotics, edge AI |
+
+## Critères de choix
+
+```{mermaid}
+graph TD
+    Q[Quel est votre cas d'usage?] --> TRAIN{Training?}
+    TRAIN -->|Oui| SCALE{Échelle?}
+    SCALE -->|Massif| H100B200[H100/B200 cluster]
+    SCALE -->|Moyen| A100[H100/A100 multi-GPU]
+    SCALE -->|Petit| RTX[RTX 4090/6000 Ada]
+    
+    TRAIN -->|Non, inference only| LATENCY{Latence critique?}
+    LATENCY -->|Oui, <10ms| GROQ[Groq LPU]
+    LATENCY -->|Non| CTX{Long context?}
+    CTX -->|Oui, 128k+| H200[H200 / MI300X]
+    CTX -->|Non| COST{Budget?}
+    COST -->|Cloud| TPU[TPU v5e / H100 on-demand]
+    COST -->|On-prem| MI300[MI300X / RTX 5090]
+    COST -->|Edge| NPU[Apple M4 / Jetson]
+    
+    style H100B200 fill:#76b900,color:#fff
+    style GROQ fill:#f7901e,color:#fff
+    style NPU fill:#6750a4,color:#fff
+```

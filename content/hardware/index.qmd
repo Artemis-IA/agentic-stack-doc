@@ -1,0 +1,62 @@
+---
+title: "Paysage Hardware"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Couche Matérielle
+
+La couche matérielle est le socle physique de tout système agentic. Le choix de l'accélérateur détermine le débit d'inférence, la latence, le coût par token et la faisabilité du déploiement.
+
+```{mermaid}
+graph TB
+    subgraph "Accélérateurs"
+        GPU[NVIDIA GPU<br/>H100 · H200 · B200]
+        AMD[AMD GPU<br/>MI300X · MI325X]
+        LPU[Groq LPU<br/>Llama 2 inference]
+        TPU[Google TPU<br/>v5e · v5p · Trillium]
+        NPU[NPU/Edge<br/>Apple · Qualcomm · Intel]
+    end
+    
+    subgraph "Deployment"
+        DC[Data Center<br/>HPC · Cloud]
+        EDGE[Edge<br/>On-prem · Device]
+    end
+    
+    GPU --> DC
+    AMD --> DC
+    LPU --> DC
+    TPU --> DC
+    NPU --> EDGE
+    
+    style GPU fill:#76b900,color:#fff
+    style AMD fill:#ed1c24,color:#fff
+    style LPU fill:#f7901e,color:#fff
+    style TPU fill:#4285f4,color:#fff
+    style NPU fill:#6750a4,color:#fff
+```
+
+## Enjeux clés
+
+- **Coût par token** — Le rapport performance/prix détermine la viabilité économique
+- **Bande passante mémoire** — Les LLMs sont memory-bound ; HBM3e > HBM3 > HBM2e
+- **Consommation énergétique** — TDP impacte le TCO (Total Cost of Ownership)
+- **Disponibilité** — Pénurie GPU récurrente ; alternatives (AMD, Groq, TPU) critiques
+- **Écosystème logiciel** — CUDA domine ; ROCm et SYCL progressent
+
+## Comparatif rapide
+
+| Accélérateur | Fabricant | Mémoire | Bande passante | Architecture | Cas d'usage |
+|-------------|-----------|---------|----------------|--------------|-------------|
+| H100 SXM | NVIDIA | 80 GB HBM3 | 3.35 TB/s | Hopper | Training + inference |
+| H200 SXM | NVIDIA | 141 GB HBM3e | 4.8 TB/s | Hopper | LLM inference (long context) |
+| B200 | NVIDIA | 192 GB HBM3e | 8 TB/s | Blackwell | Training massif |
+| MI300X | AMD | 192 GB HBM3 | 5.3 TB/s | CDNA3 | Inference LLM (alt CUDA) |
+| Groq LPU | Groq | 230 MB SRAM | 80 TB/s | LPU | Inference ultra-low latency |
+| TPU v5p | Google | 95 GB HBM | 2.76 TB/s | TPU v5 | Training GCP |
+| TPU Trillium | Google | 32 GB HBM | 1.6 TB/s | TPU v6e | Inference GCP |
+
+::: callout-tip
+## Tendance 2025-2026
+La guerre des accélérateurs s'intensifie : NVIDIA Blackwell (B200/B300), AMD MI350/MI400, Google Trillium/TPU v7, et les NPUs edge (Apple M4 Neural Engine, Qualcomm Hexagon) rendent l'inférence LLM de plus en plus accessible.
+:::

@@ -1,0 +1,126 @@
+---
+title: "Solutions Open Source"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Harnesses Open Source
+
+## Cline
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Repo | `github.com/cline/cline` |
+| Modèle | Any (OpenAI-compatible, Ollama, Anthropic) |
+| Niveau autonomie | L3 |
+| Licence | Apache 2.0 |
+| Télémétrie | PostHog (désactivé en self-hosted) |
+| ZDR | ✅ (self-hosted mode) |
+
+**Points forts** : VS Code extension, self-hosted mode via `~/.cline/endpoints.json` auto-désactive PostHog + build-time OTEL (PR #8790), MCP support, plan/act modes.
+
+**Points faibles** : Pas d'autocomplétion inline, dépend de l'API LLM choisie.
+
+```bash
+# Self-hosted mode = télémétrie OFF
+# Créer ~/.cline/endpoints.json avec config locale → PostHog auto-désactivé
+```
+
+## Aider
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Repo | `github.com/Aider-AI/aider` |
+| Modèle | Any (OpenAI-compatible, Ollama) |
+| Niveau autonomie | L3 |
+| Licence | Apache 2.0 |
+| Télémétrie | Opt-in (10% sampling) |
+| ZDR | ✅ (connexion directe machine→AI provider) |
+
+**Points forts** : CLI pur, git-native (commits auto), connexion directe machine→AI provider (pas de serveur intermédiaire), support multi-model, repo map.
+
+**Points faibles** : CLI uniquement (pas d'IDE), pas d'autocomplétion.
+
+```bash
+# Désactiver analytics
+aider --analytics-disable
+
+# Avec Ollama local (zéro télémétrie)
+aider --model ollama/qwen3:32b
+```
+
+## Continue.dev
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Repo | `github.com/continuedev/continue` |
+| Modèle | Any (OpenAI-compatible, Ollama, local) |
+| Niveau autonomie | L2-L3 |
+| Licence | Apache 2.0 |
+| Télémétrie | Configurable |
+| ZDR | ✅ (local mode) |
+
+**Points forts** : VS Code + JetBrains, autocomplétion + chat, config flexible, support local models, RAG sur codebase.
+
+**Points faibles** : Moins puissant que Cline pour l'agentic, setup plus complexe.
+
+## Goose (Block)
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Repo | `github.com/block/goose` |
+| Modèle | Any (Ollama, OpenAI-compatible) |
+| Niveau autonomie | L3 |
+| Licence | Apache 2.0 |
+| Télémétrie | Off par défaut |
+| ZDR | ✅ |
+
+**Points forts** : Télémétrie off par défaut, CLI + VS Code, MCP support natif, Ollama integration simple.
+
+```bash
+# Télémétrie déjà off par défaut, mais pour être explicite:
+export GOOSE_TELEMETRY_ENABLED=false
+```
+
+## Roo Code
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Repo | `github.com/RooCodeInc/Roo-Code` |
+| Modèle | Any |
+| Niveau autonomie | L3 |
+| Licence | Apache 2.0 |
+| Télémétrie | Configurable |
+| ZDR | ✅ (local mode) |
+
+**Points forts** : Fork de Cline avec améliorations, modes (architect, coder, tester), MCP support.
+
+## OpenHands
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Repo | `github.com/All-Hands-AI/OpenHands` |
+| Modèle | Any |
+| Niveau autonomie | L4 |
+| Licence | MIT |
+| Télémétrie | Configurable |
+| ZDR | ✅ (self-hosted) |
+
+**Points forts** : Agent fully-autonome, sandbox Docker, browser + terminal + editor, résolution d'issues end-to-end.
+
+**Points faibles** : Plus lourd, nécessite Docker, coût LLM élevé (multi-turn long).
+
+## Tabby
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Repo | `github.com/TabbyML/tabby` |
+| Modèle | Self-hosted (StarCoder, CodeLlama, custom) |
+| Niveau autonomie | L1 |
+| Licence | Apache 2.0 |
+| Télémétrie | Aucune en self-hosted |
+| ZDR | ✅ (100% on-prem) |
+
+**Points forts** : 100% on-prem, aucune télémétrie, fine-tuning sur codebase entreprise, autocomplétion inline.
+
+**Points faibles** : L1 seulement, pas d'agent, nécessite GPU pour de bonnes performances.

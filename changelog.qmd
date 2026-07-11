@@ -1,0 +1,23 @@
+---
+title: "Changelog"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Changelog
+
+## Versions
+
+### v0.1.0 — Initialisation
+
+- Création de la structure Quarto
+- Pages : Hardware, LLMs, Harnesses, Sandboxes, Skills, Frameworks, Déploiement
+- Scripts de veille : arXiv, GitHub Trending, Hugging Face, RSS
+- GitHub Actions : `publish.yml` (Quarto → GitHub Pages), `veille.yml` (auto-update)
+- Matrice comparative des harnesses (12 outils + 5 solutions debloating)
+- Niveaux d'autonomie L1-L5
+
+::: callout-note
+## Versionnement automatique
+Le changelog est mis à jour manuellement pour les versions majeures. Les mises à jour de veille sont tracées via les commits automatiques (message: `[veille] auto-update YYYY-MM-DD`).
+:::

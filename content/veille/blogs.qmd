@@ -1,0 +1,73 @@
+---
+title: "Blogs & Newsletters"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Blogs & Newsletters
+
+## Sources surveillées
+
+### Blogs techniques
+
+| Blog | URL | Fréquence | Type |
+|------|-----|-----------|------|
+| latent.space | `latent.space` | Hebdomadaire | Interviews, analyses |
+| Simon Willison | `simonwillison.net` | Quotidien | LLM, agents, tools |
+| Anthropic Blog | `anthropic.com/blog` | Irrégulier | Modèles, research |
+| OpenAI Blog | `openai.com/blog` | Irrégulier | Modèles, research |
+| Google AI Blog | `blog.research.google` | Irrégulier | Research |
+| Hugging Face Blog | `huggingface.co/blog` | Hebdomadaire | Modèles, open source |
+| Mistral Blog | `mistral.ai/news` | Irrégulier | Modèles |
+| Ollama Blog | `ollama.com/blog` | Irrégulier | Local LLMs |
+
+### Newsletters
+
+| Newsletter | URL | Fréquence | Source RSS |
+|------------|-----|-----------|------------|
+| The Batch | `deeplearning.ai/the-batch` | Hebdomadaire | RSS |
+| TLDR AI | `tldr.tech/ai` | Quotidien | RSS |
+| Import AI | `importai.substack.com` | Hebdomadaire | RSS |
+| Ahead of AI | `magazine.sebastianraschka.com` | Mensuel | RSS |
+| Last Week in AI | `lastweekin.ai` | Hebdomadaire | RSS |
+| The Sequence | `thesequence.substack.com` | Quotidien | RSS |
+
+### Agrégateurs
+
+| Source | URL | Fréquence |
+|--------|-----|-----------|
+| Hacker News | `news.ycombinator.com` | Temps réel |
+| Papers With Code | `paperswithcode.com` | Quotidien |
+| Reddit r/MachineLearning | `reddit.com/r/MachineLearning` | Quotidien |
+| Reddit r/LocalLLaMA | `reddit.com/r/LocalLLaMA` | Quotidien |
+
+## Pipeline RSS
+
+```{mermaid}
+graph LR
+    RSS[Feeds RSS] --> PARSE[Parser feedparser]
+    PARSE --> FILTER[Filtrage mots-clés]
+    FILTER --> SCORE[Scoring pertinence]
+    SCORE --> DEDUP[Déduplication]
+    DEDUP --> FORMAT[Formatage Markdown]
+    FORMAT --> FEED[Page .qmd]
+    
+    style RSS fill:#1565c0,color:#fff
+    style FEED fill:#1b5e20,color:#fff
+```
+
+## Mots-clés de filtrage
+
+| Catégorie | Mots-clés |
+|-----------|-----------|
+| Agentic | `agent`, `agentic`, `autonomous`, `tool calling`, `function calling` |
+| LLMs | `GPT`, `Claude`, `Gemini`, `Llama`, `Mistral`, `Qwen`, `DeepSeek` |
+| Inférence | `vLLM`, `SGLang`, `TensorRT`, `Ollama`, `llama.cpp` |
+| RAG | `RAG`, `retrieval`, `GraphRAG`, `knowledge graph`, `embedding` |
+| MCP | `MCP`, `model context protocol` |
+| Code | `code agent`, `coding assistant`, `IDE`, `SWE-bench` |
+| Hardware | `GPU`, `H100`, `B200`, `TPU`, `LPU`, `Groq` |
+
+<!-- BLOG_FEED_START -->
+<!-- Les entrées seront insérées automatiquement par le script de veille -->
+<!-- BLOG_FEED_END -->

@@ -1,0 +1,103 @@
+---
+title: "Coût & Rate Limiting"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Coût & Rate Limiting
+
+## Coûts LLM (2025-2026)
+
+### Modèles propriétaires
+
+| Modèle | Input ($/M tokens) | Output ($/M tokens) | Context |
+|--------|-------------------|--------------------|---------|
+| Claude Opus 4 | $15 | $75 | 200K |
+| Claude Sonnet 4 | $3 | $15 | 200K |
+| GPT-4o | $2.50 | $10 | 128K |
+| o3 | $10 (cached: $2.50) | $40 | 200K |
+| o4-mini | $1.10 | $4.40 | 200K |
+| Gemini 2.5 Pro | $1.25-$2.50 | $10-$15 | 1M |
+| Gemini 2.5 Flash | $0.15 | $0.60-$3.50 | 1M |
+| Grok 4 | $3 | $15 | 256K |
+
+### Modèles ouverts (hébergés)
+
+| Modèle | Provider | Input ($/M) | Output ($/M) |
+|--------|----------|-------------|--------------|
+| Llama 3.3 70B | Together | $0.88 | $0.88 |
+| Llama 3.3 70B | Groq | $0.59 | $0.79 |
+| Qwen3 32B | Together | $0.80 | $0.80 |
+| DeepSeek V3 | DeepSeek | $0.27 | $1.10 |
+| Mistral Large 2 | Mistral | $2 | $6 |
+
+### Local (Ollama)
+
+| Modèle | Coût | Hardware |
+|--------|------|----------|
+| Qwen3 32B | Gratuit (électricité) | 24GB VRAM |
+| Llama 3.3 70B | Gratuit | 48GB VRAM |
+| Mistral 7B | Gratuit | 8GB VRAM |
+
+## Stratégies de réduction de coût
+
+### 1. Model routing
+
+```python
+# Router selon la complexité de la tâche
+def select_model(task_complexity: str) -> str:
+    if task_complexity == "simple":
+        return "gemini-2.5-flash"  # $0.15/M
+    elif task_complexity == "medium":
+        return "claude-sonnet-4"  # $3/M
+    else:
+        return "claude-opus-4"  # $15/M
+```
+
+### 2. Caching
+
+| Type de cache | Économie | Outil |
+|---------------|----------|-------|
+| Prompt exact | 90% sur répétitions | LiteLLM cache, GPTCache |
+| Prompt similaire (sémantique) | 60-80% | Redis + embeddings |
+| Tool results | 95% sur tools déterministes | Custom cache |
+
+### 3. Prompt compression
+
+- Réduire le contexte inutile (summarization avant LLM)
+- Utiliser des system prompts courts et efficaces
+- Few-shot minimal (1-2 exemples au lieu de 5+)
+
+### 4. Batch processing
+
+- Grouper plusieurs requêtes en un seul appel (quand le provider le supporte)
+- Set-wise LLM batché (1 appel pour N items au lieu de N appels)
+
+## Rate Limiting
+
+| Provider | Limit (tier 1) | Limit (enterprise) |
+|----------|----------------|-------------------|
+| OpenAI | 500 RPM, 90K TPM | Négociable |
+| Anthropic | 50 RPM, 20K TPM | Négociable |
+| Google | 100 RPM | Négociable |
+| Groq | 30 RPM (free) | 7000 RPM (paid) |
+| Together | 60 RPM | Négociable |
+
+### Mitigation
+
+| Stratégie | Description |
+|-----------|-------------|
+| **Multi-provider** | Fallback A → B → C (LiteLLM) |
+| **Queue** | File d'attente avec débit controlé |
+| **Backoff exponentiel** | Retry avec délai croissant |
+| **Circuit breaker** | Pause si trop d'erreurs 429 |
+| **Local fallback** | Bascule vers Ollama si cloud indisponible |
+
+::: callout-tip
+## Stack coût optimal
+1. **Cache** les requêtes fréquentes (90% d'économie)
+2. **Route** vers le modèle le moins cher capable de la tâche
+3. **Fallback** vers Ollama local si rate-limit
+4. **Track** le coût par utilisateur/projet (LiteLLM)
+5. **Alert** si budget dépassé
+:::

@@ -1,0 +1,78 @@
+---
+title: "Edge & On-Premise"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Edge & On-Premise
+
+## Pourquoi déployer en edge/on-prem ?
+
+- **Souveraineté des données** — Aucune donnée ne quitte l'infrastructure
+- **Latence** — Inférence locale = pas de round-trip réseau
+- **Coût** — Pas de billing per-token, amortissement matériel
+- **Offline** — Fonctionnement sans connexion internet
+- **Conformité** — RGPD, sectoriel (santé, défense)
+
+## Solutions On-Premise
+
+### Workstations
+
+| Solution | GPUs | Mémoire | Cas d'usage |
+|----------|------|---------|-------------|
+| DGX Station | 4× H100 (320GB total) | 512 GB RAM | Research lab, prototyping |
+| DGX B200 | 2× B200 (384GB total) | 1.5 TB RAM | Enterprise AI |
+| Mac Studio M4 Max | GPU 40-core | 128 GB unified | Dev, inference 70B quantized |
+| Mac Studio M4 Ultra | GPU 80-core | 512 GB unified | Inference 405B quantized |
+
+### Serveurs rack
+
+| Solution | GPUs | Form factor |
+|----------|------|-------------|
+| DGX H100 | 8× H100 (640GB) | 10U |
+| HGX H200 | 8× H200 (1.1TB) | 8U |
+| MI300X server | 8× MI300X (1.5TB) | 8U |
+
+## Edge Devices
+
+| Device | Accélérateur | TOPS | Modèles supportés |
+|--------|-------------|------|-------------------|
+| Jetson Orin AGX | NVIDIA Ampere | 275 | Llama 3 8B (quantized) |
+| Jetson Orin Nano | NVIDIA Ampere | 40 | Small models (<3B) |
+| Coral Dev Board | Google Edge TPU | 4 | Tiny models only |
+| Raspberry Pi 5 | Broadcom VideoCore VII | ~0.5 | Phi-3 mini (CPU) |
+| Snapdragon X Elite | Hexagon NPU | 45 | Phi-3, Llama 3 8B (quantized) |
+
+## Frameworks Edge
+
+### Ollama
+
+- Installation simple (un binaire)
+- GGUF quantization (Q4_K_M, Q5_K_M, Q8_0)
+- API OpenAI-compatible
+- Support Mac (Metal), Linux (CUDA/CPU), Windows
+
+### llama.cpp
+
+- C++ pur, dépendances minimales
+- GGUF format, quantization 2-bit à 8-bit
+- Support Metal, CUDA, Vulkan, SYCL
+- Base d'Ollama et LM Studio
+
+### MLX (Apple)
+
+- Framework Apple Silicon natif
+- Unified memory (CPU + GPU partagent la RAM)
+- Support fine-tuning LoRA
+- Best perf sur Mac pour LLMs
+
+### ExecuTorch (PyTorch)
+
+- Déploiement PyTorch sur edge
+- Backend delegates: CoreML, Qualcomm, Vulkan
+- Optimisé pour mobile et IoT
+
+::: callout-note
+## Tendance edge 2025-2026
+Les NPUs laptop (45-50 TOPS) permettent désormais l'inférence de modèles 7-8B quantized en local. Apple MLX + M4 Max peut servir Llama 3 70B en Q4. L'edge LLM devient réalité.
+:::

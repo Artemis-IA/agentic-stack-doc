@@ -1,0 +1,53 @@
+---
+title: "Vue d'ensemble — Déploiement"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Déploiement & Production
+
+Déployer des systèmes agentic IA en production soulève des défis spécifiques : sécurité, télémétrie, monitoring, coût, et conformité.
+
+```{mermaid}
+graph TB
+    subgraph "Stack de déploiement"
+        SEC[Sécurité & Sandbox]
+        TEL[Télémétrie & Monitoring]
+        COST[Coût & Rate Limiting]
+        CONF[Conformité & RGPD]
+        RELI[Reliability & SLA]
+    end
+    
+    SEC --> PROD[Production Ready]
+    TEL --> PROD
+    COST --> PROD
+    CONF --> PROD
+    RELI --> PROD
+    
+    style PROD fill:#1b5e20,color:#fff
+```
+
+## Checklist production
+
+| Catégorie | Item | Statut |
+|-----------|------|--------|
+| **Sécurité** | Sandbox pour code execution | ☐ |
+| | Secrets management (vault, env) | ☐ |
+| | Network isolation | ☐ |
+| | Rate limiting API | ☐ |
+| **Télémétrie** | Logging structuré | ☐ |
+| | Tracing (OpenTelemetry) | ☐ |
+| | Métriques (latence, tokens, erreurs) | ☐ |
+| | Dashboards (Grafana, Datadog) | ☐ |
+| **Coût** | Cost tracking par projet | ☐ |
+| | Budget alerts | ☐ |
+| | Model routing (cheap vs premium) | ☐ |
+| | Caching (réponses identiques) | ☐ |
+| **Conformité** | ZDR (Zero Data Retention) | ☐ |
+| | Training opt-out | ☐ |
+| | RGPD audit trail | ☐ |
+| | Data residency | ☐ |
+| **Reliability** | Fallbacks (provider A → B) | ☐ |
+| | Retry logic | ☐ |
+| | Circuit breaker | ☐ |
+| | Health checks | ☐ |

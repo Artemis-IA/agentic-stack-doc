@@ -1,0 +1,66 @@
+---
+title: "Veille GitHub & Hugging Face"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Veille GitHub & Hugging Face
+
+## GitHub Trending
+
+Le script `scripts/veille_github.py` surveille les repos trending dans les langages et topics pertinents :
+
+| Langage | Topics | Fréquence |
+|---------|--------|-----------|
+| Python | `llm`, `agent`, `ai`, `rag`, `mcp` | Quotidien |
+| TypeScript | `ai`, `agent`, `llm`, `mcp` | Quotidien |
+| Rust | `llm`, `ai`, `agent` | Quotidien |
+| Go | `llm`, `ai`, `agent` | Quotidien |
+
+### Critères de sélection
+
+| Critère | Seuil | Raison |
+|---------|-------|--------|
+| Stars | > 100 (nouveau) ou > 1000 (existant) | Popularité |
+| Stars/day | > 5 | Tendance |
+| Dernier commit | < 30 jours | Activité |
+| Description | Contient mots-clés IA | Pertinence |
+
+### Format de sortie
+
+```markdown
+### [Nom du repo]
+- **GitHub** : owner/repo
+- **Stars** : 15.2K (+500 cette semaine)
+- **Langage** : Python
+- **Licence** : MIT
+- **Description** : Autonomous AI agent framework...
+- **Lien** : https://github.com/owner/repo
+```
+
+## Hugging Face
+
+Le script `scripts/veille_hf.py` surveille :
+
+| Cible | URL | Filtre |
+|-------|-----|--------|
+| Modèles trending | `huggingface.co/models?sort=trending` | Top 20 quotidien |
+| Datasets trending | `huggingface.co/datasets?sort=trending` | Top 10 quotidien |
+| Spaces trending | `huggingface.co/spaces?sort=trending` | Top 10 quotidien |
+
+### Critères modèles
+
+| Critère | Seuil | Raison |
+|---------|-------|--------|
+| Downloads | > 1000 | Adoption |
+| Likes | > 10 | Intérêt communauté |
+| Tags | `text-generation`, `code`, `agent` | Pertinence |
+| Nouveau | < 7 jours | Découverte |
+
+<!-- GITHUB_FEED_START -->
+<!-- Les entrées seront insérées automatiquement par le script de veille -->
+<!-- GITHUB_FEED_END -->
+
+<!-- HF_FEED_START -->
+<!-- Les entrées seront insérées automatiquement par le script de veille -->
+<!-- HF_FEED_END -->

@@ -1,0 +1,123 @@
+---
+title: "Debloating & Proxies"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Debloating & Proxies LLM
+
+Les solutions de **debloating** et **proxy** permettent de réduire les coûts, d'utiliser des modèles alternatifs, et de garder le contrôle sur les requêtes LLM.
+
+## Proxies LLM
+
+### LiteLLM
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Repo | `github.com/BerriAI/litellm` |
+| Licence | MIT |
+| Stars | 15K+ |
+| Fonction | Proxy unifié 100+ providers |
+
+**Features** : Routing, rate-limiting, caching, fallbacks, cost tracking, load balancing, OpenAI-compatible API.
+
+```yaml
+# config.yaml LiteLLM
+model_list:
+  - model_name: claude-sonnet
+    litellm_params:
+      model: anthropic/claude-sonnet-4-20250514
+      api_key: sk-ant-...
+  - model_name: claude-sonnet
+    litellm_params:
+      model: ollama/qwen3:32b
+      api_base: http://localhost:11434
+```
+
+### OpenRouter
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| URL | `openrouter.ai` |
+| Fonction | Router multi-provider, pay-per-use |
+
+**Features** : 200+ modèles, pricing unifié, fallbacks, pas de setup serveur.
+
+## Solutions de Debloating (Claude Code proxies)
+
+### free-claude-code
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Repo | `github.com/llm-proxy/free-claude-code` |
+| Licence | MIT |
+| Stars | 35.6K+ |
+| Fonction | Proxy Claude Code vers alternatives |
+
+**Principe** : Intercepte les requêtes Claude Code et les redirige vers NVIDIA NIM, OpenRouter, DeepSeek, ou un modèle local. Permet d'utiliser Claude Code sans payer l'API Anthropic.
+
+```bash
+# Installation
+pip install free-claude-code
+
+# Rediriger vers DeepSeek
+export CLAUDE_API_BASE=http://localhost:8080/v1
+export CLAUDE_MODEL=deepseek-chat
+```
+
+### SEPCC (Simple External Proxy for Claude Code)
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Fonction | Proxy léger Claude Code → OpenAI-compatible |
+
+### OpenProxy
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Fonction | Proxy open source multi-model |
+
+### coding-proxy
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Fonction | Proxy pour coding assistants |
+
+### CLIProxyAPI
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Fonction | API proxy pour CLI agents |
+
+## Cas d'usage
+
+### Réduction de coûts
+
+```mermaid
+graph LR
+    CC[Claude Code] -->|requête| PX[Proxy LiteLLM]
+    PX -->|simple| OLL[Ollama local<br/>gratuit]
+    PX -->|complexe| DS[DeepSeek V3<br/>$0.27/M tokens]
+    PX -->|très complexe| AN[Anthropic<br/>$15/M tokens]
+    
+    style OLL fill:#2e7d32,color:#fff
+    style DS fill:#1565c0,color:#fff
+    style AN fill:#b71c1c,color:#fff
+```
+
+### Souveraineté totale
+
+```mermaid
+graph LR
+    DEV[Développeur] -->|CLI| AID[Aider]
+    AID -->|API locale| OLL[Ollama<br/>qwen3:32b]
+    OLL -->|GPU local| GPU[RTX 4090]
+    
+    style OLL fill:#2e7d32,color:#fff
+    style GPU fill:#6750a4,color:#fff
+```
+
+::: callout-tip
+## Stack souveraine gratuite
+**Aider + Ollama + Qwen3 32B** sur une RTX 4090 = assistant de code L3, zéro télémétrie, zéro coût API. Performance ~80% de Claude Code pour du code quotidien.
+:::

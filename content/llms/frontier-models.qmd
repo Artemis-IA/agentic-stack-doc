@@ -1,0 +1,72 @@
+---
+title: "Modèles Propriétaires"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Modèles Propriétaires (Closed Weights)
+
+## OpenAI
+
+| Modèle | Context | Sortie | Pricing (in/out per M tokens) | Spécificités |
+|--------|---------|--------|-------------------------------|--------------|
+| GPT-4o | 128K | Oct 2023 | $2.50 / $10.00 | Multimodal natif, tool calling |
+| GPT-4o mini | 128K | Oct 2023 | $0.15 / $0.60 | Best value, remplace GPT-3.5 |
+| o3 | 200K | Oct 2023 | $2.00 / $8.00 (estimé) | Reasoning model, thinking tokens |
+| o4-mini | 200K | Oct 2023 | $1.10 / $4.40 | Reasoning, plus rapide qu'o3 |
+| GPT-4.1 | 1M | Jun 2021 | $2.00 / $8.00 | Long context, coding amélioré |
+
+::: callout-note
+## OpenAI reasoning models
+Les modèles o-series (o3, o4-mini) utilisent des "thinking tokens" invisibles pour raisonner avant de répondre. Le pricing inclut ces tokens. Désactivation possible via `reasoning_effort: low`.
+:::
+
+## Anthropic
+
+| Modèle | Context | Sortie | Pricing (in/out per M tokens) | Spécificités |
+|--------|---------|--------|-------------------------------|--------------|
+| Claude Opus 4 | 200K | Apr 2024 | $15.00 / $75.00 | Best reasoning, coding, agentic |
+| Claude Sonnet 4 | 200K | Apr 2024 | $3.00 / $15.00 | Best value, équilibre perf/coût |
+| Claude Haiku 3.5 | 200K | Oct 2023 | $0.80 / $4.00 | Rapide, économique |
+
+::: callout-tip
+## Claude Extended Thinking
+Claude 4 supporte l'extended thinking (tokens de raisonnement visibles). Activation via `thinking: {type: "enabled", budget_tokens: N}`. Particulièrement efficace pour le code et le raisonnement multi-étapes.
+:::
+
+## Google
+
+| Modèle | Context | Sortie | Pricing (in/out per M tokens) | Spécificités |
+|--------|---------|--------|-------------------------------|--------------|
+| Gemini 2.5 Pro | 2M | Jan 2025 | $1.25 / $10.00 (≤200K) | Long context 2M, multimodal |
+| Gemini 2.5 Flash | 1M | Sep 2023 | $0.075 / $0.30 | Ultra-rapide, économique |
+| Gemini 2.0 Flash | 1M | Jun 2024 | $0.10 / $0.40 | Précédent gen, stable |
+
+## xAI
+
+| Modèle | Context | Sortie | Pricing (in/out per M tokens) | Spécificités |
+|--------|---------|--------|-------------------------------|--------------|
+| Grok 4 | 256K | Nov 2024 | $5.00 / $15.00 (estimé) | Real-time X data, moins filtré |
+| Grok 3 | 128K | Dec 2023 | $2.00 / $10.00 | Multimodal, function calling |
+
+## Cohere
+
+| Modèle | Context | Sortie | Pricing (in/out per M tokens) | Spécificités |
+|--------|---------|--------|-------------------------------|--------------|
+| Command R+ 2025 | 256K | Aug 2024 | $2.50 / $10.00 | Enterprise RAG, tool calling |
+| Command R 2025 | 128K | Aug 2024 | $0.15 / $0.60 | Léger, RAG |
+
+## Comparatif reasoning
+
+| Modèle | SWE-Bench | MLE-Bench | AIME 2025 | GPQA Diamond |
+|--------|-----------|-----------|-----------|--------------|
+| Claude Opus 4 | 72.5% | — | ~80% | ~75% |
+| GPT-4o | 33.2% | — | ~13% | ~53% |
+| o3 | 69.1% | — | ~88% | ~88% |
+| Gemini 2.5 Pro | 63.8% | — | ~86% | ~84% |
+| Grok 4 | 72% | — | ~76% | ~78% |
+
+::: callout-warning
+## Benchmarks en évolution constante
+Les scores de benchmarks évoluent rapidement. Les valeurs ci-dessus sont indicatives (mi-2026). Consultez les leaderboards officiels pour les valeurs à jour.
+:::

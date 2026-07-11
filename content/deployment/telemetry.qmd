@@ -1,0 +1,91 @@
+---
+title: "Télémétrie & Monitoring"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Télémétrie & Monitoring
+
+## Métriques clés
+
+| Catégorie | Métrique | Description | Outil |
+|-----------|----------|-------------|-------|
+| **Latence** | TTFT (Time To First Token) | Temps avant premier token | OpenTelemetry |
+| | Total latency | Temps total requête | OpenTelemetry |
+| | Tool execution time | Temps d'exécution d'un tool | Custom tracing |
+| **Qualité** | Hallucination rate | % de réponses hallucinées | Eval pipeline |
+| | Tool call accuracy | % d'appels corrects | Schema validation |
+| | Task completion rate | % de tâches réussies | Custom metrics |
+| **Coût** | Tokens per request | Tokens consommés | LiteLLM, custom |
+| | Cost per task | $ par tâche accomplie | Cost tracking |
+| | Cost per user | $ par utilisateur | Cost tracking |
+| **Usage** | Requests per minute | Volume de requêtes | Rate limiter |
+| | Active agents | Agents simultanés | Dashboard |
+| | Tool usage frequency | Tools les plus utilisés | Analytics |
+
+## Stack de monitoring
+
+```{mermaid}
+graph TB
+    AGENT[Agent IA] -->|spans| OTEL[OpenTelemetry SDK]
+    OTEL -->|export| COLLECTOR[OTel Collector]
+    COLLECTOR -->|traces| JAEGER[Jaeger / Tempo]
+    COLLECTOR -->|metrics| PROM[Prometheus]
+    COLLECTOR -->|logs| LOKI[Loki / ELK]
+    PROM --> GRAF[Grafana Dashboard]
+    LOKI --> GRAF
+    JAEGER --> GRAF
+    
+    style OTEL fill:#1565c0,color:#fff
+    style GRAF fill:#1b5e20,color:#fff
+```
+
+## OpenTelemetry pour agents IA
+
+```python
+from opentelemetry import trace
+from opentelemetry.sdk.trace import TracerProvider
+
+tracer = trace.get_tracer(__name__)
+
+@tracer.start_as_current_span("agent.task")
+async def execute_task(task: str):
+    span = trace.get_current_span()
+    span.set_attribute("agent.id", "agent-001")
+    span.set_attribute("agent.model", "claude-sonnet-4")
+    span.set_attribute("agent.task", task)
+    
+    with tracer.start_as_current_span("llm.call") as llm_span:
+        llm_span.set_attribute("llm.tokens_in", 1500)
+        llm_span.set_attribute("llm.tokens_out", 300)
+        llm_span.set_attribute("llm.cost_usd", 0.0023)
+        # ... LLM call ...
+    
+    with tracer.start_as_current_span("tool.filesystem") as tool_span:
+        tool_span.set_attribute("tool.name", "filesystem.read")
+        tool_span.set_attribute("tool.success", True)
+        # ... tool execution ...
+```
+
+## Alerting
+
+| Alerte | Condition | Sévérité |
+|--------|-----------|----------|
+| Cost spike | Cost > 2× average hourly | Warning |
+| Cost budget | Cost > 80% monthly budget | Critical |
+| Error rate | Error rate > 5% over 5 min | Warning |
+| Error rate | Error rate > 15% over 5 min | Critical |
+| Latency | TTFT > 5s | Warning |
+| Hallucination | Hallucination rate > 10% | Critical |
+| Rate limit | 429 errors > 10/min | Warning |
+| Sandbox escape | Unauthorized access attempt | Critical |
+
+## Dashboards recommandés
+
+| Dashboard | Panels clés |
+|-----------|-------------|
+| **Overview** | Requests/min, active agents, cost/hour, error rate |
+| **Latency** | TTFT p50/p95/p99, total latency, tool execution time |
+| **Cost** | Cost by model, cost by user, cost by project, daily trend |
+| **Quality** | Hallucination rate, task completion, tool accuracy |
+| **Security** | Failed auth, sandbox events, data access logs |

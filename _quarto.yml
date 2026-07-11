@@ -1,0 +1,153 @@
+project:
+  type: website
+  output-dir: _site
+  preview:
+    port: 4200
+    browser: true
+
+website:
+  title: "Stack Agentic — Documentation Vivante"
+  description: "Documentation interactive et auto-mise-à-jour sur l'écosystème des systèmes agentic : LLMs, harnesses, sandboxes, hardware, skills, frameworks."
+  favicon: assets/favicon.svg
+  search:
+    location: navbar
+    type: overlay
+    limit: 50
+  sidebar:
+    style: "docked"
+    collapse-level: 2
+    contents:
+      - section: "Accueil"
+        contents:
+          - text: "Vue d'ensemble" 
+            href: index.qmd
+          - text: "Méthodologie & Veille"
+            href: methodology.qmd
+          - text: "Glossaire"
+            href: glossary.qmd
+      - section: "Couche Matérielle"
+        contents:
+          - text: "Paysage Hardware"
+            href: content/hardware/index.qmd
+          - text: "Accélérateurs (GPU/TPU/LPU/NPU)"
+            href: content/hardware/accelerators.qmd
+          - text: "Clusters & Cloud GPU"
+            href: content/hardware/clusters.qmd
+          - text: "Edge & On-Premise"
+            href: content/hardware/edge.qmd
+      - section: "Modèles & LLMs"
+        contents:
+          - text: "Paysage des LLMs"
+            href: content/llms/index.qmd
+          - text: "Modèles Propriétaires"
+            href: content/llms/frontier-models.qmd
+          - text: "Modèles Ouverts"
+            href: content/llms/open-models.qmd
+          - text: "Benchmarks & Évaluations"
+            href: content/llms/benchmarks.qmd
+          - text: "Providers & APIs"
+            href: content/llms/providers.qmd
+      - section: "Harnesses & IDEs IA"
+        contents:
+          - text: "Vue d'ensemble"
+            href: content/harnesses/index.qmd
+          - text: "Solutions Propriétaires"
+            href: content/harnesses/proprietary.qmd
+          - text: "Solutions Open Source"
+            href: content/harnesses/open-source.qmd
+          - text: "Matrice Comparative"
+            href: content/harnesses/comparison.qmd
+          - text: "Debloating & Proxies"
+            href: content/harnesses/debloating.qmd
+      - section: "Sandboxes & Exécution"
+        contents:
+          - text: "Vue d'ensemble"
+            href: content/sandboxes/index.qmd
+          - text: "Conteneurs & MicroVMs"
+            href: content/sandboxes/containers.qmd
+          - text: "WebAssembly"
+            href: content/sandboxes/wasm.qmd
+          - text: "Sandboxes Cloud"
+            href: content/sandboxes/cloud.qmd
+      - section: "Skills & Outils"
+        contents:
+          - text: "Vue d'ensemble"
+            href: content/skills/index.qmd
+          - text: "Model Context Protocol (MCP)"
+            href: content/skills/mcp.qmd
+          - text: "Formats de Skills"
+            href: content/skills/skill-formats.qmd
+          - text: "Écosystèmes d'Outils"
+            href: content/skills/tool-ecosystems.qmd
+      - section: "Frameworks Agentic"
+        contents:
+          - text: "Vue d'ensemble"
+            href: content/frameworks/index.qmd
+          - text: "Frameworks Multi-Agents"
+            href: content/frameworks/multi-agent.qmd
+          - text: "Agents de Recherche"
+            href: content/frameworks/research-agents.qmd
+          - text: "RAG & GraphRAG"
+            href: content/frameworks/rag.qmd
+      - section: "Déploiement"
+        contents:
+          - text: "Vue d'ensemble"
+            href: content/deployment/index.qmd
+          - text: "Sécurité & Conformité"
+            href: content/deployment/security.qmd
+          - text: "Télémétrie & Monitoring"
+            href: content/deployment/telemetry.qmd
+          - text: "Coût & Rate Limiting"
+            href: content/deployment/cost.qmd
+      - section: "Veille Automatique"
+        contents:
+          - text: "Vue d'ensemble"
+            href: content/veille/index.qmd
+          - text: "arXiv — Derniers Papiers"
+            href: content/veille/arxiv.qmd
+          - text: "GitHub & Hugging Face"
+            href: content/veille/github-hf.qmd
+          - text: "Blogs & Newsletters"
+            href: content/veille/blogs.qmd
+  page-footer:
+    left: |
+      © 2026 Stack Agentic Doc · Mis à jour automatiquement via CI/CD
+    right: |
+      Construit avec [Quarto](https://quarto.org) · [Source](https://github.com/imohamma/agentic-stack-doc)
+  repo-url: https://github.com/imohamma/agentic-stack-doc
+  repo-actions: [edit, issue]
+  issue-url: https://github.com/imohamma/agentic-stack-doc/issues
+  navbar:
+    background: dark
+    foreground: light
+    right:
+      - icon: rss
+        href: content/veille/index.qmd
+      - text: "Version"
+        href: changelog.qmd
+
+format:
+  html:
+    theme:
+      light: [cosmo, assets/custom.scss]
+      dark: [darkly, assets/custom-dark.scss]
+    css: assets/styles.css
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    highlight-style: github
+    code-fold: false
+    code-link: true
+    link-external-icon: true
+    link-external-newwindow: true
+    fig-responsive: true
+    mermaid:
+      theme: dark
+
+execute:
+  freeze: true
+  echo: false
+  warning: false
+
+bibliography: references.bib
+link-citations: true

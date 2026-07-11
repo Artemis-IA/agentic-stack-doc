@@ -1,0 +1,82 @@
+---
+title: "Sécurité & Conformité"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Sécurité & Conformité
+
+## Menaces spécifiques aux agents IA
+
+| Menace | Description | Mitigation |
+|--------|-------------|-----------|
+| **Prompt injection** | Input malicieux qui détourne l'agent | Input validation, system prompt robuste |
+| **Code execution** | Agent génère/exécute du code malicieux | Sandbox (Docker, Firecracker, WASM) |
+| **Data exfiltration** | Agent envoie des données sensibles externes | Network policy, DLP, audit logs |
+| **Tool abuse** | Utilisation abusive des tools (MCP) | Permission scoping, rate limiting |
+| **Hallucination tool call** | Appel à un tool inexistant avec mauvais params | Schema validation, pre-execution check |
+| **Cost attack** | Génération de requêtes coûteuses | Budget limits, circuit breaker |
+
+## Sandbox pour code execution
+
+| Niveau | Solution | Isolation | Cas d'usage |
+|--------|----------|-----------|-------------|
+| Process | subprocess + seccomp | Faible | Dev local |
+| Container | Docker/Podman | Moyenne | Production standard |
+| MicroVM | Firecracker, Kata | Forte | Multi-tenant, code non fiable |
+| WASM | Wasmtime, Wasmer | Forte | Plugins, tools |
+| Cloud | E2B, Modal | Forte | Serverless, scaling |
+
+## ZDR (Zero Data Retention)
+
+| Provider | ZDR Enterprise | Détails |
+|----------|----------------|---------|
+| OpenAI | ✅ | Enterprise plan, pas de retention |
+| Anthropic | ✅ | Enterprise plan |
+| Google | ✅ | Enterprise/Workspace |
+| Mistral | ✅ | Contractuel |
+| Together AI | ✅ | Pas de training sur inputs |
+| Groq | ✅ | Pas de retention |
+| Ollama (local) | ✅ | 100% local, aucune donnée sort |
+
+::: callout-warning
+## ZDR vs Training opt-out
+ZDR = les données ne sont **pas conservées** après traitement. Training opt-out = les données ne sont **pas utilisées pour entraîner**. Ce sont deux concepts distincts. Vérifiez les deux dans les contrats.
+:::
+
+## RGPD & Souveraineté
+
+| Exigence RGPD | Impact agents IA | Solution |
+|---------------|-----------------|----------|
+| Art. 5 (minimisation) | Ne pas envoyer plus de données que nécessaire | Data filtering avant LLM |
+| Art. 7 (consentement) | Consentement pour traitement IA | UI claire, opt-in |
+| Art. 15 (accès) | Droit d'accès aux données traitées | Audit logs complets |
+| Art. 17 (effacement) | Droit à l'oubli | Data deletion pipeline |
+| Art. 25 (privacy by design) | Privacy intégrée | ZDR, local models, encryption |
+| Art. 44 (transferts) | Données hors UE | Providers souverains (Albert, OVH, Scaleway) |
+
+## Audit & Traçabilité
+
+```python
+# Exemple: audit log structuré pour agent IA
+import json, datetime
+
+audit_log = {
+    "timestamp": datetime.datetime.utcnow().isoformat(),
+    "agent_id": "agent-001",
+    "user_id": "user-123",
+    "action": "tool_call",
+    "tool": "filesystem.read",
+    "params": {"path": "/data/file.csv"},
+    "result_hash": "sha256:abc123...",
+    "tokens_in": 1500,
+    "tokens_out": 300,
+    "cost_usd": 0.0023,
+    "model": "claude-sonnet-4",
+    "provider": "anthropic",
+    "data_classification": "internal",
+    "zdr": True,
+    "retention_days": 90
+}
+print(json.dumps(audit_log))
+```

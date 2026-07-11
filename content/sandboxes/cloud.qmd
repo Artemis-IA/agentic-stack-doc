@@ -1,0 +1,93 @@
+---
+title: "Sandboxes Cloud"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Sandboxes Cloud
+
+## Providers
+
+### E2B (Code Interpreter)
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| URL | `e2b.dev` |
+| Isolation | Firecracker MicroVM |
+| Latence démarrage | ~150ms |
+| Languages | Python, JS, R, Java, C++ |
+| Pricing | Per-execution |
+
+```python
+from e2b import Sandbox
+
+# Démarrer un sandbox
+sbx = Sandbox()
+sbx.run("print('Hello from sandbox')")
+sbx.close()
+```
+
+### Modal
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| URL | `modal.com` |
+| Isolation | Container |
+| Latence démarrage | ~300ms (warm) |
+| Languages | Python |
+| Pricing | Per-second |
+| Spécificité | Serverless Python, GPU on-demand |
+
+```python
+import modal
+
+sandbox = modal.Sandbox.create(
+    "python", "-c", "print('Hello')",
+    cpu=2, memory="1Gi"
+)
+sandbox.wait()
+```
+
+### Fly Machines
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| URL | `fly.io` |
+| Isolation | Firecracker MicroVM |
+| Latence démarrage | ~500ms |
+| Languages | Tous |
+| Pricing | Per-second |
+
+### Daytona
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| URL | `daytona.io` |
+| Isolation | Container |
+| Spécificité | Dev environments as code |
+
+### Replit
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| URL | `replit.com` |
+| Isolation | Container |
+| Spécificité | IDE + execution, education |
+
+## Comparatif
+
+| Provider | Isolation | Latence | Pricing | GPU | Languages |
+|----------|-----------|---------|---------|-----|-----------|
+| E2B | Firecracker | 150ms | Per-exec | ❌ | Multi |
+| Modal | Container | 300ms | Per-second | ✅ | Python |
+| Fly Machines | Firecracker | 500ms | Per-second | ✅ | Tous |
+| Daytona | Container | 1-2s | Per-hour | ❌ | Tous |
+| Replit | Container | 2-5s | Per-month | ✅ | Multi |
+
+::: callout-note
+## Choix sandbox cloud
+- **E2B** — Best pour code interpreter d'agents (rapide, simple)
+- **Modal** — Best pour compute Python avec GPU
+- **Fly Machines** — Best pour déploiement global multi-region
+- **Self-hosted** — Best pour souveraineté (Docker + Firecracker)
+:::

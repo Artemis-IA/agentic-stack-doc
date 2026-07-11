@@ -1,0 +1,80 @@
+---
+title: "Vue d'ensemble — Veille Automatique"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Veille Automatique
+
+Cette documentation est **vivante** : elle se met à jour automatiquement grâce à des scripts de veille qui surveillent en continu l'écosystème de l'IA agentic.
+
+```{mermaid}
+graph LR
+    subgraph "Sources"
+        ARX[arXiv]
+        GH[GitHub Trending]
+        HF[Hugging Face]
+        LS[latent.space]
+        RSS[Newsletters RSS]
+        BLG[Blogs techniques]
+    end
+    
+    subgraph "Pipeline"
+        FETCH[Fetch & Parse] --> FILTER[Filtrage & Classification]
+        FILTER --> DEDUP[Déduplication]
+        DEDUP --> RANK[Scoring & Ranking]
+        RANK --> GEN[Génération Markdown]
+    end
+    
+    subgraph "Output"
+        GEN --> PAGES[Pages .qmd]
+        PAGES --> COMMIT[Auto-commit]
+        COMMIT --> CI[GitHub Actions CI/CD]
+        CI --> PAGES_GH[GitHub Pages]
+    end
+    
+    ARX --> FETCH
+    GH --> FETCH
+    HF --> FETCH
+    LS --> FETCH
+    RSS --> FETCH
+    BLG --> FETCH
+    
+    style FETCH fill:#1565c0,color:#fff
+    style PAGES_GH fill:#1b5e20,color:#fff
+```
+
+## Sources surveillées
+
+| Source | Type | Fréquence | URL |
+|--------|------|-----------|-----|
+| arXiv | Papers académiques | Quotidien | `arxiv.org/list/cs.AI/cs.CL` |
+| GitHub Trending | Repos populaires | Quotidien | `github.com/trending` |
+| Hugging Face | Modèles & datasets | Quotidien | `huggingface.co/models` |
+| latent.space | Blog technique | Hebdomadaire | `latent.space` |
+| The Batch | Newsletter (DeepLearning.AI) | Hebdomadaire | `deeplearning.ai/the-batch` |
+| TLDR AI | Newsletter | Quotidien | `tldr.tech/ai` |
+| Hacker News | Communauté | Quotidien | `news.ycombinator.com` |
+| Papers With Code | Papers + code | Quotidien | `paperswithcode.com` |
+
+## Classification automatique
+
+Chaque item détecté est classé selon :
+
+| Catégorie | Tags |
+|-----------|------|
+| Hardware | `gpu`, `tpu`, `lpu`, `edge`, `cluster` |
+| LLMs | `frontier`, `open`, `benchmark`, `provider` |
+| Harnesses | `ide`, `agent`, `cli`, `telemetry` |
+| Sandboxes | `container`, `microvm`, `wasm`, `cloud` |
+| Skills | `mcp`, `skill.md`, `tools`, `plugin` |
+| Frameworks | `multi-agent`, `rag`, `graphrag`, `research` |
+| Deployment | `security`, `cost`, `monitoring`, `compliance` |
+
+## Niveaux de confiance
+
+| Niveau | Source | Action |
+|--------|--------|--------|
+| **Élevé** | arXiv, GitHub officiel, docs officielles | Intégration directe |
+| **Moyen** | Blogs techniques reconnus (latent.space, Simon Willison) | Intégration avec vérification |
+| **Faible** | Newsletters, réseaux sociaux | Signal uniquement, vérification manuelle |

@@ -1,0 +1,82 @@
+---
+title: "Clusters & Cloud GPU"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Clusters & Cloud GPU
+
+## Providers Cloud
+
+### Hyperscalers
+
+| Provider | GPU disponibles | Pricing H100 (on-demand) | Spécificités |
+|----------|----------------|--------------------------|--------------|
+| AWS | H100, H200, B200 (P5e/P6) | ~$3.50/h (spot) / $12.99/h | EC2, EFA interconnect |
+| GCP | H100, TPU v5p, Trillium | ~$3.67/h (spot) / $11.77/h | TPU exclusif, A3 Mega |
+| Azure | H100, H200, B200 | ~$3.67/h (spot) / $12.24/h | ND H100 v5, InfiniBand |
+| OCI | H100, H200 | ~$2.95/h (spot) | Moins cher, moins de stock |
+
+### Providers Spécialisés
+
+| Provider | GPUs | Pricing | Spécificités |
+|----------|------|---------|--------------|
+| Lambda Labs | H100, A100, RTX 6000 | ~$2.49/h (H100) | Simple, SSH direct |
+| RunPod | H100, A100, RTX 4090 | ~$2.39/h (H100 spot) | Serverless, Pods |
+| Modal | H100, A100 | Per-second | Serverless Python |
+| Replicate | H100 | Per-second | Model deployment |
+| Together AI | H100 | Per-token | Fine-tuning + inference |
+| Fireworks AI | H100 | Per-token | Inference optimized |
+| CoreWeave | H100, H200, B200 | ~$2.23/h (H100) | NVIDIA partner, large scale |
+| Crusoe | H100 | ~$1.50/h (spot) | Flare gas powered |
+
+## Orchestration de Cluster
+
+### Slurm (HPC traditionnel)
+
+- Standard pour les clusters académiques et HPC
+- File de priorité, allocation multi-GPU
+- Compatible avec NCCL pour distributed training
+
+### Kubernetes + GPU
+
+- **NVIDIA GPU Operator** — automatise driver, CUDA, MIG
+- **Volcano** — batch scheduling pour ML
+- **KubeRay** — Ray on Kubernetes pour distributed inference
+
+### Ray
+
+- **Ray Serve** — inference distribuée, autoscaling
+- **Ray Data** — preprocessing pipeline
+- **Ray Train** — distributed training
+- Compatible vLLM, SGLang pour serving
+
+## Inférence à grande échelle
+
+### vLLM
+
+- PagedAttention pour gestion mémoire efficace
+- Continuous batching
+- Tensor parallelism (multi-GPU)
+- Support: AWQ, GPTQ, FP8, INT4
+
+### SGLang
+
+- RadixAttention pour prefix caching
+- Structured generation (JSON, regex)
+- Multi-LoRA serving
+- Plus rapide que vLLM sur certains workloads
+
+### TensorRT-LLM
+
+- Optimisations NVIDIA spécifiques
+- In-flight batching, quantization INT4/FP8
+- Best performance sur H100/H200
+
+::: callout-tip
+## Choix inference engine
+- **vLLM** — standard de facto, large compatibilité
+- **SGLang** — best pour structured output + prefix caching
+- **TensorRT-LLM** — best perf sur NVIDIA, mais lock-in
+- **Ollama** — dev local, simplicité
+:::

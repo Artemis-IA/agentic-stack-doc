@@ -1,0 +1,84 @@
+/* Stack Agentic Doc — Custom Styles */
+
+/* Callout colors */
+.callout-tip {
+  --callout-color: 30, 144, 255;
+}
+.callout-warning {
+  --callout-color: 255, 165, 0;
+}
+.callout-important {
+  --callout-color: 220, 20, 60;
+}
+.callout-note {
+  --callout-color: 100, 149, 237;
+}
+
+/* Card grid for tool entries */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.card {
+  border: 1px solid var(--border-color, #dee2e6);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background: var(--card-bg, #fff);
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.card .badge {
+  display: inline-block;
+  padding: 0.2em 0.6em;
+  font-size: 0.75rem;
+  border-radius: 1rem;
+  font-weight: 600;
+}
+
+.badge-proprietary { background: #e3f2fd; color: #1565c0; }
+.badge-open-source { background: #e8f5e9; color: #2e7d32; }
+.badge-proxy { background: #fff3e0; color: #e65100; }
+
+/* Status indicators */
+.status-active { color: #2e7d32; }
+.status-beta { color: #f57c00; }
+.status-eol { color: #c62828; text-decoration: line-through; }
+
+/* Veille feed items */
+.veille-item {
+  border-left: 3px solid var(--bs-primary, #0d6efd);
+  padding-left: 1rem;
+  margin: 1rem 0;
+}
+
+.veille-date {
+  font-size: 0.85rem;
+  color: var(--bs-secondary, #6c757d);
+}
+
+/* Table enhancements */
+table {
+  font-size: 0.9rem;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Mermaid diagram sizing */
+.mermaid {
+  max-width: 100%;
+  overflow-x: auto;
+}

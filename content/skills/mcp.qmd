@@ -1,0 +1,119 @@
+---
+title: "Model Context Protocol (MCP)"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Model Context Protocol (MCP)
+
+## Qu'est-ce que MCP ?
+
+MCP est un **standard ouvert** (publié par Anthropic, novembre 2024) pour connecter les LLMs à des sources de données et outils externes. Il standardise l'interface entre les agents IA et les ressources externes.
+
+```{mermaid}
+graph LR
+    subgraph "MCP Architecture"
+        HOST[MCP Host<br/>Claude Code, Cline] -->|MCP Protocol| CLIENT[MCP Client]
+        CLIENT -->|stdio/SSE| SERVER1[MCP Server<br/>Filesystem]
+        CLIENT -->|stdio/SSE| SERVER2[MCP Server<br/>PostgreSQL]
+        CLIENT -->|stdio/SSE| SERVER3[MCP Server<br/>GitHub API]
+    end
+    
+    style HOST fill:#1b5e20,color:#fff
+    style CLIENT fill:#1565c0,color:#fff
+```
+
+## Primitives MCP
+
+| Primitive | Type | Description |
+|-----------|------|-------------|
+| **Tools** | Action | Fonctions exécutables (query DB, search, compute) |
+| **Resources** | Données | Données lisibles (files, DB schemas, configs) |
+| **Prompts** | Template | Templates de prompts réutilisables |
+
+## Transport
+
+| Transport | Description | Cas d'usage |
+|-----------|-------------|------------|
+| **stdio** | Communication via stdin/stdout | Local (même machine) |
+| **SSE** | Server-Sent Events | Remote, HTTP-based |
+| **Streamable HTTP** | HTTP bidirectionnel | Remote, production |
+
+## MCP Servers populaires
+
+| Server | Fonction | Repo |
+|--------|----------|------|
+| Filesystem | Accès fichiers | `@modelcontextprotocol/server-filesystem` |
+| PostgreSQL | Query DB | `@modelcontextprotocol/server-postgres` |
+| GitHub | Issues, PRs, repos | `@modelcontextprotocol/server-github` |
+| Brave Search | Web search | `@modelcontextprotocol/server-brave-search` |
+| Memory | KV store persistant | `@modelcontextprotocol/server-memory` |
+| Puppeteer | Browser automation | `@modelcontextprotocol/server-puppeteer` |
+| Slack | Messages, channels | `@modelcontextprotocol/server-slack` |
+| Google Drive | Docs, sheets | `@modelcontextprotocol/server-google-drive` |
+
+## Écrire un MCP Server
+
+### Python (FastMCP)
+
+```python
+from mcp.server import Server
+from mcp.types import Tool, TextContent
+
+server = Server("my-tools")
+
+@server.list_tools()
+async def list_tools():
+    return [Tool(
+        name="get_weather",
+        description="Get weather for a city",
+        inputSchema={
+            "type": "object",
+            "properties": {"city": {"type": "string"}},
+            "required": ["city"]
+        }
+    )]
+
+@server.call_tool()
+async def call_tool(name, arguments):
+    if name == "get_weather":
+        city = arguments["city"]
+        # ... fetch weather ...
+        return [TextContent(type="text", text=f"Weather in {city}: 22°C")]
+```
+
+### Configuration dans Claude Code
+
+```json
+// ~/.claude/claude_desktop_config.json
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/dir"]
+    },
+    "postgres": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-postgres"],
+      "env": {"DATABASE_URL": "postgresql://..."}
+    }
+  }
+}
+```
+
+## Adoption
+
+| Client | MCP Support | Version min |
+|--------|-------------|-------------|
+| Claude Code | ✅ Natif | v1.0 |
+| Cline | ✅ Natif | v3.0 |
+| Goose | ✅ Natif | v1.0 |
+| Cursor | ✅ | v0.42 |
+| Continue.dev | ✅ | v0.9 |
+| Windsurf | ✅ | Récent |
+| Zed | ✅ | v0.165 |
+
+::: callout-tip
+## MCP comme standard universel
+MCP devient le **standard de facto** pour connecter les agents IA aux outils externes. Un MCP server écrit une fois fonctionne avec tous les clients MCP. Équivalent de ce que LSP a été pour les IDE.
+:::

@@ -1,0 +1,111 @@
+---
+title: "Solutions Propriétaires"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Harnesses Propriétaires
+
+## Claude Code (Anthropic)
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Éditeur | Anthropic |
+| Modèle | Claude 4 Opus/Sonnet |
+| Niveau autonomie | L3 |
+| Licence | Propriétaire |
+| Télémétrie | Activée par défaut |
+| ZDR Enterprise | ✅ (plan Enterprise) |
+| Training opt-out | ✅ (Enterprise) |
+
+**Points forts** : Best-in-class reasoning, tool calling natif, terminal integration, multi-file edits, MCP support.
+
+**Points faibles** : Télémétrie par défaut, coût (Claude Opus = $15/M input), pas de self-hosting.
+
+```bash
+# Installation
+npm install -g @anthropic-ai/claude-code
+
+# Désactiver télémétrie
+export CLAUDE_CODE_DISABLE_TELEMETRY=1
+```
+
+## Cursor
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Éditeur | Anysphere |
+| Modèle | GPT-4o, Claude 4, Gemini 2.5 |
+| Niveau autonomie | L2 |
+| Licence | Propriétaire |
+| Télémétrie | Activée par défaut |
+| ZDR Enterprise | ✅ (Privacy Mode) |
+| Training opt-out | ✅ (Privacy Mode) |
+
+**Points forts** : IDE complet (fork VS Code), codebase indexing, multi-model, Composer (multi-file), Cursor Tab (autocomplétion).
+
+**Points faibles** : Indexing envoie le code vers les serveurs, Privacy Mode payant.
+
+## Windsurf (Codeium)
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Éditeur | Codeium |
+| Modèle | Claude 4, GPT-4o, Gemini 2.5 |
+| Niveau autonomie | L2 |
+| Licence | Propriétaire |
+| Télémétrie | ⚠️ Activée, pas d'opt-out clair |
+| ZDR Enterprise | ⚠️ Partiel (exceptions: Remote Indexing, Memories, Recipes) |
+| Training opt-out | ⚠️ Training sur prompts/outputs |
+
+::: callout-warning
+## Windsurf — Risque entreprise
+Windsurf utilise les prompts/outputs pour le training sans opt-out clair. Le ZDR Enterprise a des exceptions (Remote Indexing, Memories, Recipes). **Non recommandé pour données sensibles sans contrat Enterprise négocié.**
+:::
+
+## GitHub Copilot
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Éditeur | GitHub/Microsoft |
+| Modèle | GPT-4o, Claude 3.5 Sonnet |
+| Niveau autonomie | L1-L2 |
+| Licence | Propriétaire |
+| Télémétrie | Activée par défaut |
+| ZDR Enterprise | ✅ (Copilot Enterprise) |
+| Training opt-out | ✅ (Enterprise) |
+
+**Points forts** : Intégration GitHub native, support multi-IDE (VS Code, JetBrains, Neovim), Copilot Workspace, Copilot Agent.
+
+**Points faibles** : Moins puissant que Claude Code/Cursor pour l'agentic, télémétrie par défaut.
+
+## Tabnine
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Éditeur | Tabnine (Tel Aviv) |
+| Modèle | Propriétaire + Llama |
+| Niveau autonomie | L1 |
+| Licence | Propriétaire |
+| Télémétrie | Configurable |
+| ZDR Enterprise | ✅ (Tabnine Enterprise) |
+| Training opt-out | ✅ (Enterprise) |
+
+**Points forts** : Focus privacy, modèle on-prem disponible, autocomplétion LLM.
+
+**Points faibles** : L1 seulement, pas d'agent, moins performant que la concurrence.
+
+## Devin (Cognition)
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| Éditeur | Cognition Labs |
+| Modèle | Propriétaire |
+| Niveau autonomie | L4 |
+| Licence | Propriétaire (SaaS) |
+| Télémétrie | Activée |
+| ZDR Enterprise | Non documenté |
+
+**Points forts** : Premier "AI software engineer" fully-autonome, planning, terminal, browser.
+
+**Points faibles** : Closed source, opaque, résultats mitigés en pratique, coût élevé.

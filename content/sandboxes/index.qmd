@@ -1,0 +1,51 @@
+---
+title: "Vue d'ensemble — Sandboxes & Exécution"
+date: today
+date-format: "YYYY-MM-DD"
+---
+
+# Sandboxes & Exécution
+
+Les **sandboxes** sont les environnements d'exécution isolés qui permettent aux agents IA d'exécuter du code de manière sécurisée. Ils sont critiques pour la sécurité des systèmes agentic.
+
+```{mermaid}
+graph TB
+    subgraph "Isolation levels"
+        L1[Level 1: Process isolation<br/>subprocess, seccomp]
+        L2[Level 2: Container isolation<br/>Docker, Podman]
+        L3[Level 3: MicroVM<br/>Firecracker, Kata]
+        L4[Level 4: WASM sandbox<br/>Wasmtime, Wasmer]
+        L5[Level 5: Cloud sandbox<br/>E2B, Modal, Fly Machines]
+    end
+    
+    L1 --> L2 --> L3
+    L1 --> L4
+    L2 --> L5
+    
+    style L3 fill:#1b5e20,color:#fff
+    style L4 fill:#4a148c,color:#fff
+    style L5 fill:#bf360c,color:#fff
+```
+
+## Pourquoi un sandbox ?
+
+| Risque | Sans sandbox | Avec sandbox |
+|--------|-------------|-------------|
+| Code malicieux | Accès total au système | Isolé, pas d'accès host |
+| Fuite de données | Lecture de fichiers sensibles | Filesystem isolé |
+| Réseau non contrôlé | Accès internet direct | Network policy |
+| Resource exhaustion | OOM, CPU 100% | Limits CPU/RAM/disk |
+| Persistence | Modifications permanentes | Ephemeral, jetable |
+
+## Critères de choix
+
+| Critère | Description |
+|---------|-------------|
+| **Latence de démarrage** | Temps pour lancer un sandbox (ms à secondes) |
+| **Isolation** | Niveau de séparation (process, container, VM) |
+| **Persistance** | État conservé entre exécutions ou éphémère |
+| **Network** | Accès internet contrôlable |
+| **Filesystem** | Volumes montables, taille max |
+| **Language support** | Python, JS, Rust, Go, multi-language |
+| **Coût** | Gratuit (self-hosted) vs per-execution (cloud) |
+| **Scalabilité** | Sandbox unique vs milliers en parallèle |
