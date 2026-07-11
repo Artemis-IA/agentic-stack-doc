@@ -60,15 +60,23 @@ Le script `scripts/veille_hf.py` surveille :
 <!-- GITHUB_FEED_START -->
 ### hermes-agent
 - **GitHub** : NousResearch/hermes-agent
-- **Stars** : 213,224
+- **Stars** : 213,237
 - **Langage** : Python
 - **Licence** : MIT
 - **Description** : The agent that grows with you
 - **Lien** : https://github.com/NousResearch/hermes-agent
 
+### n8n
+- **GitHub** : n8n-io/n8n
+- **Stars** : 196,081
+- **Langage** : TypeScript
+- **Licence** : NOASSERTION
+- **Description** : Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
+- **Lien** : https://github.com/n8n-io/n8n
+
 ### AutoGPT
 - **GitHub** : Significant-Gravitas/AutoGPT
-- **Stars** : 185,476
+- **Stars** : 185,475
 - **Langage** : Python
 - **Licence** : NOASSERTION
 - **Description** : AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
@@ -76,7 +84,7 @@ Le script `scripts/veille_hf.py` surveille :
 
 ### ollama
 - **GitHub** : ollama/ollama
-- **Stars** : 175,929
+- **Stars** : 175,930
 - **Langage** : Go
 - **Licence** : MIT
 - **Description** : Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
@@ -92,7 +100,7 @@ Le script `scripts/veille_hf.py` surveille :
 
 ### firecrawl
 - **GitHub** : firecrawl/firecrawl
-- **Stars** : 149,304
+- **Stars** : 149,315
 - **Langage** : TypeScript
 - **Licence** : AGPL-3.0
 - **Description** : The API to search, scrape, and interact with the web at scale. 🔥
@@ -100,7 +108,7 @@ Le script `scripts/veille_hf.py` surveille :
 
 ### dify
 - **GitHub** : langgenius/dify
-- **Stars** : 148,510
+- **Stars** : 148,513
 - **Langage** : TypeScript
 - **Licence** : NOASSERTION
 - **Description** : Production-ready platform for agentic workflow development.
@@ -108,7 +116,7 @@ Le script `scripts/veille_hf.py` surveille :
 
 ### open-webui
 - **GitHub** : open-webui/open-webui
-- **Stars** : 145,076
+- **Stars** : 145,078
 - **Langage** : Python
 - **Licence** : NOASSERTION
 - **Description** : User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
@@ -124,11 +132,19 @@ Le script `scripts/veille_hf.py` surveille :
 
 ### awesome-llm-apps
 - **GitHub** : Shubhamsaboo/awesome-llm-apps
-- **Stars** : 117,965
+- **Stars** : 117,970
 - **Langage** : Python
 - **Licence** : Apache-2.0
 - **Description** : 100+ AI Agent & RAG apps you can actually run — clone, customize, ship.
 - **Lien** : https://github.com/Shubhamsaboo/awesome-llm-apps
+
+### cc-switch
+- **GitHub** : farion1231/cc-switch
+- **Stars** : 115,961
+- **Langage** : Rust
+- **Licence** : MIT
+- **Description** : A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io
+- **Lien** : https://github.com/farion1231/cc-switch
 
 ### browser-use
 - **GitHub** : browser-use/browser-use
@@ -140,7 +156,7 @@ Le script `scripts/veille_hf.py` surveille :
 
 ### TradingAgents
 - **GitHub** : TauricResearch/TradingAgents
-- **Stars** : 92,351
+- **Stars** : 92,352
 - **Langage** : Python
 - **Licence** : Apache-2.0
 - **Description** : TradingAgents: Multi-Agents LLM Financial Trading Framework
@@ -148,7 +164,7 @@ Le script `scripts/veille_hf.py` surveille :
 
 ### vllm
 - **GitHub** : vllm-project/vllm
-- **Stars** : 85,983
+- **Stars** : 85,984
 - **Langage** : Python
 - **Licence** : Apache-2.0
 - **Description** : A high-throughput and memory-efficient inference and serving engine for LLMs
@@ -156,15 +172,23 @@ Le script `scripts/veille_hf.py` surveille :
 
 ### PaddleOCR
 - **GitHub** : PaddlePaddle/PaddleOCR
-- **Stars** : 85,252
+- **Stars** : 85,253
 - **Langage** : Python
 - **Licence** : Apache-2.0
 - **Description** : Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.
 - **Lien** : https://github.com/PaddlePaddle/PaddleOCR
 
+### ragflow
+- **GitHub** : infiniflow/ragflow
+- **Stars** : 84,823
+- **Langage** : Go
+- **Licence** : Apache-2.0
+- **Description** : RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
+- **Lien** : https://github.com/infiniflow/ragflow
+
 ### graphify
 - **GitHub** : Graphify-Labs/graphify
-- **Stars** : 82,347
+- **Stars** : 82,366
 - **Langage** : Python
 - **Licence** : MIT
 - **Description** : AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.
@@ -172,11 +196,27 @@ Le script `scripts/veille_hf.py` surveille :
 
 ### OpenHands
 - **GitHub** : OpenHands/OpenHands
-- **Stars** : 80,473
+- **Stars** : 80,476
 - **Langage** : Python
 - **Licence** : NOASSERTION
 - **Description** : 🙌 OpenHands: AI-Driven Development
 - **Lien** : https://github.com/OpenHands/OpenHands
+
+### lobehub
+- **GitHub** : lobehub/lobehub
+- **Stars** : 79,744
+- **Langage** : TypeScript
+- **Licence** : NOASSERTION
+- **Description** : 🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.
+- **Lien** : https://github.com/lobehub/lobehub
+
+### netdata
+- **GitHub** : netdata/netdata
+- **Stars** : 79,602
+- **Langage** : Go
+- **Licence** : GPL-3.0
+- **Description** : The fastest path to AI-powered full stack observability, even for lean teams.
+- **Lien** : https://github.com/netdata/netdata
 
 ### deer-flow
 - **GitHub** : bytedance/deer-flow
@@ -196,11 +236,35 @@ Le script `scripts/veille_hf.py` surveille :
 
 ### rtk
 - **GitHub** : rtk-ai/rtk
-- **Stars** : 70,356
+- **Stars** : 70,363
 - **Langage** : Rust
 - **Licence** : Apache-2.0
 - **Description** : CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
 - **Lien** : https://github.com/rtk-ai/rtk
+
+### Scrapling
+- **GitHub** : D4Vinci/Scrapling
+- **Stars** : 69,146
+- **Langage** : Python
+- **Licence** : BSD-3-Clause
+- **Description** : 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!
+- **Lien** : https://github.com/D4Vinci/Scrapling
+
+### awesome-claude-skills
+- **GitHub** : ComposioHQ/awesome-claude-skills
+- **Stars** : 67,474
+- **Langage** : Python
+- **Licence** : N/A
+- **Description** : A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
+- **Lien** : https://github.com/ComposioHQ/awesome-claude-skills
+
+### gpt4free
+- **GitHub** : xtekky/gpt4free
+- **Stars** : 66,465
+- **Langage** : Python
+- **Licence** : GPL-3.0
+- **Description** : The official gpt4free repository | various collection of powerful language models | opus 4.6 gpt 5.3 kimi 2.5 deepseek v3.2 gemini 3
+- **Lien** : https://github.com/xtekky/gpt4free
 
 ### hello-agents
 - **GitHub** : datawhalechina/hello-agents
@@ -210,93 +274,29 @@ Le script `scripts/veille_hf.py` surveille :
 - **Description** : 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程
 - **Lien** : https://github.com/datawhalechina/hello-agents
 
+### worldmonitor
+- **GitHub** : koala73/worldmonitor
+- **Stars** : 61,728
+- **Langage** : TypeScript
+- **Licence** : NOASSERTION
+- **Description** : Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface
+- **Lien** : https://github.com/koala73/worldmonitor
+
 ### mem0
 - **GitHub** : mem0ai/mem0
-- **Stars** : 60,619
+- **Stars** : 60,621
 - **Langage** : TypeScript
 - **Licence** : Apache-2.0
 - **Description** : Universal memory layer for AI Agents
 - **Lien** : https://github.com/mem0ai/mem0
 
-### context7
-- **GitHub** : upstash/context7
-- **Stars** : 58,934
-- **Langage** : TypeScript
-- **Licence** : MIT
-- **Description** : Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors
-- **Lien** : https://github.com/upstash/context7
-
-### headroom
-- **GitHub** : headroomlabs-ai/headroom
-- **Stars** : 58,557
+### TrendRadar
+- **GitHub** : sansan0/TrendRadar
+- **Stars** : 60,469
 - **Langage** : Python
-- **Licence** : Apache-2.0
-- **Description** : Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.
-- **Lien** : https://github.com/headroomlabs-ai/headroom
-
-### daily_stock_analysis
-- **GitHub** : ZhuLinsen/daily_stock_analysis
-- **Stars** : 56,672
-- **Langage** : Python
-- **Licence** : MIT
-- **Description** : LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.
-- **Lien** : https://github.com/ZhuLinsen/daily_stock_analysis
-
-### Agent-Reach
-- **GitHub** : Panniantong/Agent-Reach
-- **Stars** : 54,882
-- **Langage** : Python
-- **Licence** : MIT
-- **Description** : Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
-- **Lien** : https://github.com/Panniantong/Agent-Reach
-
-### Flowise
-- **GitHub** : FlowiseAI/Flowise
-- **Stars** : 54,533
-- **Langage** : TypeScript
-- **Licence** : NOASSERTION
-- **Description** : Build AI Agents, Visually
-- **Lien** : https://github.com/FlowiseAI/Flowise
-
-### llama_index
-- **GitHub** : run-llama/llama_index
-- **Stars** : 50,785
-- **Langage** : Python
-- **Licence** : MIT
-- **Description** : LlamaIndex is the leading document agent and OCR platform
-- **Lien** : https://github.com/run-llama/llama_index
-
-### cherry-studio
-- **GitHub** : CherryHQ/cherry-studio
-- **Stars** : 48,451
-- **Langage** : TypeScript
-- **Licence** : AGPL-3.0
-- **Description** : AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
-- **Lien** : https://github.com/CherryHQ/cherry-studio
-
-### LocalAI
-- **GitHub** : mudler/LocalAI
-- **Stars** : 47,485
-- **Langage** : Go
-- **Licence** : MIT
-- **Description** : LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.
-- **Lien** : https://github.com/mudler/LocalAI
-
-### CowAgent
-- **GitHub** : zhayujie/CowAgent
-- **Stars** : 45,925
-- **Langage** : Python
-- **Licence** : MIT
-- **Description** : Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install. (formerly chatgpt-on-wechat)
-- **Lien** : https://github.com/zhayujie/CowAgent
-
-### nanobot
-- **GitHub** : HKUDS/nanobot
-- **Stars** : 45,260
-- **Langage** : Python
-- **Licence** : MIT
-- **Description** : Lightweight, open-source AI agent for your tools, chats, and workflows.
-- **Lien** : https://github.com/HKUDS/nanobot
+- **Licence** : GPL-3.0
+- **Description** : ⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。
+- **Lien** : https://github.com/sansan0/TrendRadar
 
 <!-- GITHUB_FEED_END -->
 
@@ -545,7 +545,7 @@ Le script `scripts/veille_hf.py` surveille :
 
 ### zai-org/GLM-5.2
 - **Downloads** : 421,270
-- **Likes** : 3825
+- **Likes** : 3827
 - **Tags** : transformers, safetensors, glm_moe_dsa, text-generation, conversational
 - **Lien** : https://huggingface.co/zai-org/GLM-5.2
 

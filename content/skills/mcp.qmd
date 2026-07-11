@@ -121,128 +121,176 @@ MCP devient le **standard de facto** pour connecter les agents IA aux outils ext
 ## MCP Servers découverts automatiquement
 
 <!-- TOOLS_MCP_START -->
-### [awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers)
-Awesome MCP Servers - A curated list of Model Context Protocol servers
+### [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb)
+Connect and unify data across various platforms and databases with MindsDB as a single MCP server.
 
-⭐ 5.7k | MAJ: 2026-07-11
-**Tags** : `ai`, `anthropic-claude`, `awesome`, `context`, `mcp`, `model-context-protocol`, `servers`, `tool-use`
+⭐ 39.4k | `Makefile` | Licence: MIT | MAJ: 2026-07-11
+**Tags** : `agents`, `ai`, `anton`, `artificial-inteligence`, `claude`, `claude-cowork`, `codex`, `cowork`
 
-### [AnyTool](https://github.com/HKUDS/AnyTool)
-"AnyTool: Universal Tool-Use Layer for AI Agents"
+### [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)
+Official Microsoft Playwright MCP server, enabling LLMs to interact with web pages through structured accessibility snapshots
 
-⭐ 671 | `Python` | Licence: MIT | MAJ: 2026-07-10
-**Tags** : `ai-agents`, `computer-use-agents`, `mcp`, `tool-orchestration`, `tool-use`
+⭐ 35.0k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-07-11
+**Tags** : `mcp`, `playwright`
 
-### [forgemeshlabs/coinopai-mcp](https://github.com/forgemeshlabs/coinopai-mcp)
-!forgemeshlabs/coinopai-mcp MCP server 📇 - Local stdio MCP server for x402-powered paid crypto intelligence: preflight checks, trade decisions with decision_id, later audit against real prices, ris...
+### [github/github-mcp-server](https://github.com/github/github-mcp-server)
+📇 ☁️ - Official GitHub server for integration with repository management, PRs, issues, and more.
 
+⭐ 31.4k | `Go` | Licence: MIT | MAJ: 2026-07-11
+**Tags** : `github`, `mcp`, `mcp-server`
 
-### [1mcp/agent](https://github.com/1mcp-app/agent)
-📇 ☁️ 🏠 🍎 🪟 🐧 - A unified Model Context Protocol server implementation that aggregates multiple MCP servers into one.
+### [GPT Researcher](https://github.com/assafelovic/gpt-researcher)
+GPT Researcher is an autonomous agent designed for comprehensive online research on a variety of tasks. !GitHub Repo stars
 
+⭐ 28.3k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-11
+**Tags** : `agent`, `ai`, `automation`, `deepresearch`, `llms`, `mcp`, `mcp-server`, `python`
 
-### [2s-io/sdk](https://github.com/2s-io/sdk)
-!2s-io/sdk MCP server 📇 ☁️ 🍎 🪟 🐧 - Unified API for AI agents — 180+ tools across geocoding, weather (NWS), climate stations (NOAA), earthquakes (USGS), tides (NOAA), points of interest (OpenStreetM...
+### [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master)
+📇 ☁️ 🏠 - AI-powered task management system for AI-driven development. Features PRD parsing, task expansion, multi-provider support (Claude, OpenAI, Gemini, Perplexity, xAI), and selective tool load...
 
+⭐ 27.8k | `JavaScript` | Licence: NOASSERTION | MAJ: 2026-07-11
+**Tags** : `ai`, `cursor`, `cursor-ai`, `cursorai`, `lovable`, `lovable-dev`, `roocode`, `task-manager`
 
-### [8randonpickart5/alderpost-mcp](https://github.com/8randonpickart5/alderpost-mcp)
-!alderpost-mcp MCP server 📇 ☁️ - 8 bundled intelligence endpoints (security, company, threat, compliance, sales, sports, property, health) via x402 micropayments on Base.
+### [FastMCP](https://github.com/jlowin/fastmcp)
+🐍 - A high-level framework for building MCP servers in Python
 
+⭐ 26.1k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-11
+**Tags** : `agents`, `fastmcp`, `llms`, `mcp`, `mcp-clients`, `mcp-servers`, `mcp-tools`, `model-context-protocol`
 
-### [GTCC777/pulsenetwork-mcp](https://github.com/GTCC777/pulsenetwork-mcp)
-!GTCC777/pulsenetwork-mcp MCP server 📇 - One MCP server exposing 66 specialized intelligence APIs (660+ endpoints) — finance, crypto, legal, immigration, healthcare cost, real estate, tax, climate,...
+### [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp)
+🐍 - MCP server for working with Blender
 
+⭐ 23.7k | `Python` | Licence: MIT | MAJ: 2026-07-11
 
-### [tadas-github/a2asearch-mcp](https://github.com/tadas-github/a2asearch-mcp)
-!tadas-github/a2asearch-mcp MCP server 📇 ☁️ - MCP server to search 4,800+ MCP servers, AI agents, CLI tools and agent skills. Install: npx -y a2asearch-mcp. Ask Claude: "Find MCP servers for databa...
+### [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)
+The official Python SDK for Model Context Protocol servers and clients
 
+⭐ 23.6k | `Python` | Licence: MIT | MAJ: 2026-07-11
 
-### [Aganium/agenium](https://github.com/Aganium/agenium)
-📇 ☁️ 🍎 🪟 🐧 - Bridge any MCP server to the agent:// network — DNS-like identity, discovery, and trust for AI agents. Makes your tools discoverable and callable by other agents via agent:// URIs with...
+### [GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP)
+📇 🏠 - Provide coding agents direct access to Figma data to help them one-shot design implementation.
 
+⭐ 15.4k | `TypeScript` | Licence: MIT | MAJ: 2026-07-11
+**Tags** : `ai`, `cursor`, `figma`, `mcp`, `typescript`
 
-### [elisymlabs/elisym](https://github.com/elisymlabs/elisym)
-!elisymlabs/elisym MCP server 📇 ☁️ 🍎 🪟 🐧 - AI agent discovery and marketplace on Nostr with Solana payments (SOL, USDC). NIP-89 discovery, NIP-90 jobs, NIP-44 v2 encryption, on-chain micropayments.
+### [skill-seekers/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)
+!yusufkaraaslan/Skill_Seekers MCP server 🐍 🏠 🍎 🪟 🐧 - Transform 17 source types (docs, GitHub repos, PDFs, videos, Jupyter, Confluence, Notion, Slack/Discord) into AI-ready skills and RAG knowledge....
 
+⭐ 14.4k | `Python` | Licence: MIT | MAJ: 2026-07-11
+**Tags** : `ai-tools`, `ast-parser`, `automation`, `claude-ai`, `claude-skills`, `code-analysis`, `conflict-detection`, `documentation`
 
-### [espadaw/Agent47](https://github.com/espadaw/Agent47)
-📇 ☁️ - Unified job aggregator for AI agents across 9+ platforms (x402, RentAHuman, Virtuals, etc).
+### [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)
+The official TypeScript SDK for Model Context Protocol servers and clients
 
+⭐ 12.8k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-07-11
 
-### [doggychip/agentforge](https://github.com/doggychip/agentforge)
-!doggychip/agentforge MCP server 📇 ☁️ - Unified API gateway and marketplace for 300+ AI agents. One API key, REST + streaming, 90% creator revenue share, health monitoring. Self-hostable (MIT).
+### [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp)
+🐍 🏠 - MCP server for IDA Pro, allowing you to perform binary analysis with AI assistants. This plugin implement decompilation, disassembly and allows you to generate malware analysis reports automa...
 
+⭐ 10.0k | `Python` | Licence: MIT | MAJ: 2026-07-11
+**Tags** : `ai`, `aiagent`, `binary-analysis`, `ida-plugin`, `ida-pro`, `mcp`, `mcp-server`, `modelcontextprotocol`
 
-### [AgentHotspot](https://github.com/AgentHotspot/agenthotspot-mcp)
-🐍 ☁️ 🏠 🍎 🪟 🐧 - Search, integrate and monetize MCP connectors on the AgentHotspot MCP marketplace
+### [LaurieWired/GhidraMCP](https://github.com/LaurieWired/GhidraMCP)
+☕ 🏠 - A Model Context Protocol server for Ghidra that enables LLMs to autonomously reverse engineer applications. Provides tools for decompiling binaries, renaming methods and data, and listing met...
 
+⭐ 9.5k | `Java` | Licence: Apache-2.0 | MAJ: 2026-07-11
 
-### [garasegae/aiskillstore](https://github.com/garasegae/aiskillstore)
-!garasegae/aiskillstore MCP server ☁️ - Agent-first skill marketplace where AI agents discover, purchase, and integrate skills via MCP protocol. Supports 7+ platforms including Claude, hGPT, and Ge...
+### [awslabs/mcp](https://github.com/awslabs/mcp)
+🎖️ ☁️ - AWS MCP servers for seamless integration with AWS services and resources.
 
+⭐ 9.4k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-11
+**Tags** : `aws`, `mcp`, `mcp-client`, `mcp-clients`, `mcp-host`, `mcp-server`, `mcp-servers`, `mcp-tools`
 
-### [alexanderclapp/clirank-mcp-server](https://github.com/alexanderclapp/clirank-mcp-server)
-!alexanderclapp/clirank-mcp-server MCP server 📇 ☁️ 🍎 🪟 🐧 - API intelligence for AI coding agents. 387 APIs scored on agent-friendliness with tools to recommend, compare, check scores, and discover ...
+### [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP)
+📇 🏠 🍎 🪟 🐧 - A swiss-army-knife that can manage/execute programs and read/write/search/edit code and text files.
 
+⭐ 7.7k | `TypeScript` | Licence: MIT | MAJ: 2026-07-11
+**Tags** : `agent`, `ai`, `code-analysis`, `code-generation`, `gemini-cli-extension`, `mcp`, `terminal-ai`, `terminal-automation`
 
-### [Work90210/APIFold](https://github.com/Work90210/APIFold)
-!Work90210/APIFold MCP server 📇 ☁️ - Turn any REST API into a hosted MCP server. 18 free public servers (GitHub, Stripe, Slack, OpenAI, Notion, and more) — no setup required, bring your own API key.
+### [browsermcp/mcp](https://github.com/browsermcp/mcp)
+📇 🏠 - Automate your local Chrome browser
 
+⭐ 6.8k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-07-11
+**Tags** : `browser-automation`, `browser-extension`, `claude`, `cursor`, `mcp`, `mcp-server`
 
-### [alexar76/aimarket-plugins](https://github.com/alexar76/aimarket-plugins)
-!alexar76/aimarket-plugins MCP server 📇 ☁️ 🏠 🍎 🪟 🐧 - aimarket-mcp-packager hub plugin: turn AIMarket capabilities into self-hosted MCP servers (Docker image + mcp_manifest + Claude Desktop mcpServe...
+### [lharries/whatsapp-mcp](https://github.com/lharries/whatsapp-mcp)
+🐍 🏎️ - An MCP server for searching your personal WhatsApp messages, contacts and sending messages to individuals or groups
 
+⭐ 5.9k | `Go` | Licence: MIT | MAJ: 2026-07-11
+**Tags** : `ai`, `mcp`, `whatsapp`, `whatsapp-api`
 
-### [rhein1/agoragentic-integrations](https://github.com/rhein1/agoragentic-integrations)
-!agoragentic-integrations MCP server 📇 ☁️ - Agent-to-agent marketplace where AI agents discover, invoke, and pay for services from other agents using USDC on Base L2.
+### [executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright)
+📇 - An MCP server using Playwright for browser automation and webscrapping
 
+⭐ 5.6k | `TypeScript` | Licence: MIT | MAJ: 2026-07-08
 
-### [arikusi/deepseek-mcp-server](https://github.com/arikusi/deepseek-mcp-server)
-!deepseek-mcp-server MCP server 📇 ☁️ 🍎 🪟 🐧 - MCP server for DeepSeek AI with chat, reasoning, multi-turn sessions, function calling, thinking mode, and cost tracking.
+### [sooperset/mcp-atlassian](https://github.com/sooperset/mcp-atlassian)
+🐍 ☁️ - MCP server for Atlassian products (Confluence and Jira). Supports Confluence Cloud, Jira Cloud, and Jira Server/Data Center. Provides comprehensive tools for searching, reading, creating, an...
 
+⭐ 5.5k | `Python` | Licence: MIT | MAJ: 2026-07-11
+**Tags** : `atlassian`, `confluence`, `jira`, `mcp`
 
-### [ariekogan/ateam-mcp](https://github.com/ariekogan/ateam-mcp)
-📇 ☁️ 🏠 🍎 🪟 🐧 - Build, validate, and deploy multi-agent AI solutions on the ADAS platform. Design skills with tools, manage solution lifecycle, and connect from any AI environment via stdio or HTTP.
+### [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp)
+📇 🏠 🐧 🍎 - MCP Server for Android/iOS application and device automation, development and app scraping. Simulator/Emulator/Physical devices like iPhone, Google Pixel, Samsung supported.
 
+⭐ 5.4k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-07-11
+**Tags** : `agent`, `android`, `emulator`, `ios`, `mcp`, `mobile`, `physical`, `real`
 
-### [askbudi/roundtable](https://github.com/askbudi/roundtable)
-📇 ☁️ 🏠 🍎 🪟 🐧 - Meta-MCP server that unifies multiple AI coding assistants (Codex, Claude Code, Cursor, Gemini) through intelligent auto-discovery and standardized MCP interface, providing zero-conf...
+### [21st-dev/Magic-MCP](https://github.com/21st-dev/magic-mcp)
+Create crafted UI components inspired by the best 21st.dev design engineers.
 
+⭐ 5.4k | `TypeScript` | MAJ: 2026-07-11
 
-### [blockrunai/blockrun-mcp](https://github.com/blockrunai/blockrun-mcp)
-📇 ☁️ 🍎 🪟 🐧 - Access 30+ AI models (GPT-5, Claude, Gemini, Grok, DeepSeek) without API keys. Pay-per-use via x402 micropayments with USDC on Base.
+### [bram2w/baserow](https://github.com/bram2w/baserow)
+Baserow database integration with table search, list, and row create, read, update, and delete capabilities.
 
+⭐ 5.3k | `Python` | Licence: NOASSERTION | MAJ: 2026-07-11
+**Tags** : `airtable`, `airtable-alternative`, `airtable-replacement`, `application-builder`, `automations`, `dashboards`, `database`, `low-code`
 
-### [cinderwright-ai/cinderwright-api](https://github.com/cinderwright-ai/cinderwright-api)
-!Score 📇 ☁️ - x402 Discovery Hub. Search engine for the agent economy with 1450+ services indexed. Pay with USDC on Base via x402.
+### [rocketride-org/rocketride-server](https://github.com/rocketride-org/rocketride-server)
+!rocketride-org/rocketride-server MCP server 📇 🏠 - MCP server that exposes RocketRide AI pipelines as tools for Claude, Cursor, and Windsurf. Self-hosted, open-source pipeline tool with multi-LLM s...
 
+⭐ 5.1k | `Python` | Licence: MIT | MAJ: 2026-07-11
+**Tags** : `ai`, `cpp`, `data-pipeline`, `data-processing`, `machine-learning`, `mcp`, `python`, `sdk`
 
-### [Continuum-AI-Corp/orcarouter-mcp-server](https://github.com/Continuum-AI-Corp/orcarouter-mcp-server)
-!Continuum-AI-Corp/orcarouter-mcp-server MCP server 📇 ☁️ 🏠 🍎 🪟 🐧 - Browse 160+ LLM models (OpenAI, Anthropic, Google, Qwen, DeepSeek, …) with live pricing — no API key required for catalog tools. R...
+### [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)
+The official Go SDK for Model Context Protocol servers and clients. Maintained in collaboration with Google.
 
+⭐ 4.8k | `Go` | Licence: NOASSERTION | MAJ: 2026-07-11
+**Tags** : `go`, `mcp`
 
-### [Data-Everything/mcp-server-templates](https://github.com/Data-Everything/mcp-server-templates)
-📇 🏠 🍎 🪟 🐧 - One server. All tools. A unified MCP platform that connects many apps, tools, and services behind one powerful interface—ideal for local devs or production agents.
+### [exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server)
+🎖️ 📇 ☁️ – A Model Context Protocol (MCP) server lets AI assistants like Claude use the Exa AI Search API for web searches. This setup allows AI models to get real-time web information in a safe and...
 
+⭐ 4.7k | `TypeScript` | Licence: MIT | MAJ: 2026-07-11
+**Tags** : `code-search`, `codesearch`, `crawling`, `mcp`, `mcp-server`, `model-context-protocol`, `web-search`, `websearch`
 
-### [depwire/depwire](https://github.com/depwire/depwire)
-!depwire/depwire MCP server 📇 🐍 🏎️ 🦀 🌊 🏠 - Dependency graph + 15 MCP tools for AI coding assistants. Parses TypeScript, JavaScript, Python, Go, Rust, and C. Arc diagram visualization, health scorin...
+### [Coding-Solo/godot-mcp](https://github.com/Coding-Solo/godot-mcp)
+📇 🏠 - A MCP server for interacting with the Godot game engine, providing tools for editing, running, debugging, and managing scenes in Godot projects.
 
+⭐ 4.7k | `JavaScript` | Licence: MIT | MAJ: 2026-07-11
+**Tags** : `ai`, `godot`, `mcp`
 
-### [duaraghav8/MCPJungle](https://github.com/duaraghav8/MCPJungle)
-🏎️ 🏠 - Self-hosted MCP Server registry for enterprise AI Agents
+### [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)
+The official C# SDK for Model Context Protocol servers and clients. Maintained in collaboration with Microsoft.
 
+⭐ 4.4k | `C#` | Licence: NOASSERTION | MAJ: 2026-07-11
+**Tags** : `csharp`, `dotnet`, `mcp`, `mcp-client`, `mcp-server`, `modelcontextprotocol`
 
-### [edgarriba/prolink](https://github.com/edgarriba/prolink)
-🐍 ☁️ 🏠 🍎 🪟 🐧 - Agent-to-agent marketplace middleware — MCP-native discovery, negotiation, and transaction between AI agents
+### [txn2/kubefwd](https://github.com/txn2/kubefwd)
+🏎️ 🏠 - Kubernetes bulk port forwarding with service discovery, /etc/hosts management, traffic monitoring, and pod log streaming
 
+⭐ 4.1k | `Go` | Licence: Apache-2.0 | MAJ: 2026-07-10
+**Tags** : `api-rest`, `developer-tools`, `devops`, `devops-tools`, `devtools`, `k8s`, `kubefwd`, `kubernetes`
 
-### [entire-vc/evc-spark-mcp](https://github.com/entire-vc/evc-spark-mcp)
-!evc-spark-mcp MCP server 📇 ☁️ 🏠 🍎 🪟 🐧 - Search and discover AI agents, skills, prompts, bundles and MCP connectors from a curated catalog of 4500+ assets.
+### [MarkusPfundstein/mcp-obsidian](https://github.com/MarkusPfundstein/mcp-obsidian)
+🐍 ☁️ 🏠 - Interacting with Obsidian via REST API
 
+⭐ 4.1k | `Python` | Licence: MIT | MAJ: 2026-07-11
 
-### [glenngillen/mcpmcp-server](https://github.com/glenngillen/mcpmcp-server)
-☁️ 📇 🍎 🪟 🐧 - A list of MCP servers so you can ask your client which servers you can use to improve your daily workflow.
+### [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare)
+🎖️ 📇 ☁️ - Integration with Cloudflare services including Workers, KV, R2, and D1
 
+⭐ 3.9k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-07-10
 
 <!-- TOOLS_MCP_END -->
