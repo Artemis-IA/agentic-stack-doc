@@ -129,19 +129,19 @@ an experimental open-source application showcasing the capabilities of the GPT-4
 ### [ollama](https://github.com/ollama/ollama)
 Get up and running with Llama 3, Mistral, Gemma, and other large language models.
 
-⭐ 175.9k | `Go` | Licence: MIT | MAJ: 2026-07-12
+⭐ 176.0k | `Go` | Licence: MIT | MAJ: 2026-07-12
 **Tags** : `deepseek`, `gemma`, `gemma3`, `glm`, `go`, `golang`, `gpt-oss`, `llama`
 
 ### [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
 A collection of prompt examples to be used with the ChatGPT model.
 
-⭐ 165.5k | `HTML` | Licence: NOASSERTION | MAJ: 2026-07-12
+⭐ 165.6k | `HTML` | Licence: NOASSERTION | MAJ: 2026-07-12
 **Tags** : `ai`, `artificial-intelligence`, `awesome-list`, `chatgpt`, `chatgpt-prompts`, `claude`, `gemini`, `gpt`
 
 ### [Dify](https://github.com/langgenius/dify)
 An open-source LLM app development platform with an intuitive interface that streamlines AI workflows, model management, and production deployment.
 
-⭐ 148.5k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-07-12
+⭐ 148.6k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-07-12
 **Tags** : `agent`, `agentic-ai`, `agentic-framework`, `agentic-workflow`, `ai`, `automation`, `gemini`, `genai`
 
 ### [LangChain](https://github.com/hwchase17/langchain)
@@ -153,8 +153,14 @@ the original 🐍 !GitHub Repo stars
 ### [llama.cpp](https://github.com/ggerganov/llama.cpp)
 LLM inference in C/C++.
 
-⭐ 120.1k | `C++` | Licence: MIT | MAJ: 2026-07-12
+⭐ 120.2k | `C++` | Licence: MIT | MAJ: 2026-07-12
 **Tags** : `ggml`
+
+### [browser-use](https://github.com/browser-use/browser-use)
+🌐 Make websites accessible for AI agents. Automate tasks online with ease.
+
+⭐ 104.4k | `Python` | Licence: MIT | MAJ: 2026-07-12
+**Tags** : `ai-agents`, `ai-tools`, `browser-automation`, `browser-use`, `llm`, `playwright`, `python`
 
 ### [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
 First open-sourced GPT-4o level model.
@@ -166,10 +172,10 @@ First-generation reasoning models from DeepSeek.
 
 ⭐ 92.0k | Licence: MIT | MAJ: 2026-07-12
 
-### [vLLM](https://github.com/vllm-project/vllm)
-A high-throughput and memory-efficient inference and serving engine for LLMs.
+### [vllm](https://github.com/vllm-project/vllm)
+A high-throughput and memory-efficient inference and serving engine for LLMs
 
-⭐ 86.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-12
+⭐ 86.1k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-12
 **Tags** : `amd`, `blackwell`, `cuda`, `deepseek`, `deepseek-v3`, `gpt`, `gpt-oss`, `inference`
 
 ### [llm-course](https://github.com/mlabonne/llm-course)
@@ -181,13 +187,13 @@ Course to get into Large Language Models (LLMs) with roadmaps and Colab notebook
 ### [OpenDevin](https://github.com/OpenDevin/OpenDevin)
 🙌 OpenHands: AI-Driven Development
 
-⭐ 80.5k | `Python` | Licence: NOASSERTION | MAJ: 2026-07-12
+⭐ 80.6k | `Python` | Licence: NOASSERTION | MAJ: 2026-07-12
 **Tags** : `agent`, `artificial-intelligence`, `chatgpt`, `claude-ai`, `cli`, `developer-tools`, `gpt`, `llm`
 
 ### [OpenHands](https://github.com/All-Hands-AI/OpenHands)
 🙌 OpenHands: Code Less, Make More. (formerly OpenDevin), a platform for software development agents powered by AI !GitHub Repo stars
 
-⭐ 80.5k | `Python` | Licence: NOASSERTION | MAJ: 2026-07-12
+⭐ 80.6k | `Python` | Licence: NOASSERTION | MAJ: 2026-07-12
 **Tags** : `agent`, `artificial-intelligence`, `chatgpt`, `claude-ai`, `cli`, `developer-tools`, `gpt`, `llm`
 
 ### [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
@@ -199,13 +205,13 @@ A Chinese collection of prompt examples to be used with the ChatGPT model.
 ### [Embedchain](https://github.com/embedchain/embedchain)
 Framework to create ChatGPT like bots over your dataset.
 
-⭐ 60.6k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-07-12
+⭐ 60.7k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-07-12
 **Tags** : `agents`, `ai`, `ai-agents`, `application`, `chatbots`, `chatgpt`, `genai`, `llm`
 
 ### [upstash/context7](https://github.com/upstash/context7)
 📇 ☁️ - Up-to-date code documentation for LLMs and AI code editors.
 
-⭐ 58.9k | `TypeScript` | Licence: MIT | MAJ: 2026-07-12
+⭐ 59.0k | `TypeScript` | Licence: MIT | MAJ: 2026-07-12
 **Tags** : `llm`, `mcp`, `mcp-server`, `vibe-coding`
 
 ### [LlamaIndex](https://github.com/jerryjliu/llama_index)
@@ -214,27 +220,22 @@ provides a central interface to connect your LLM's with external data. !GitHub R
 ⭐ 50.8k | `Python` | Licence: MIT | MAJ: 2026-07-12
 **Tags** : `agents`, `application`, `data`, `fine-tuning`, `framework`, `llamaindex`, `llm`, `multi-agents`
 
-### [DeepSpeed](https://github.com/microsoft/DeepSpeed)
+### [ray](https://github.com/ray-project/ray)
+Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.
+
+⭐ 43.2k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-12
+**Tags** : `data-science`, `deep-learning`, `deployment`, `distributed`, `hyperparameter-optimization`, `hyperparameter-search`, `large-language-models`, `llm`
+
+### [DeepSpeed](https://github.com/deepspeedai/DeepSpeed)
 DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.
 
 ⭐ 42.7k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-12
 **Tags** : `billion-parameters`, `compression`, `data-parallelism`, `deep-learning`, `gpu`, `inference`, `machine-learning`, `mixture-of-experts`
 
-### [FastChat](https://github.com/lm-sys/FastChat)
-A distributed multi-model LLM serving system with web UI and OpenAI-compatible RESTful APIs.
+### [DeepSpeed](https://github.com/microsoft/DeepSpeed)
+DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.
 
-⭐ 39.5k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-11
-
-### [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)
-Formerly langchain-ChatGLM, local knowledge based LLM (like ChatGLM) QA app with langchain.
-
-⭐ 38.3k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-12
-**Tags** : `chatbot`, `chatchat`, `chatglm`, `chatgpt`, `embedding`, `faiss`, `fastchat`, `gpt`
-
-### [AgentGPT](https://github.com/reworkd/AgentGPT)
-🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.
-
-⭐ 36.3k | `TypeScript` | Licence: GPL-3.0 | MAJ: 2026-07-12
-**Tags** : `agent`, `agentgpt`, `agents`, `agi`, `ai`, `ai-agents`, `autogpt`, `baby-agi`
+⭐ 42.7k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-12
+**Tags** : `billion-parameters`, `compression`, `data-parallelism`, `deep-learning`, `gpu`, `inference`, `machine-learning`, `mixture-of-experts`
 
 <!-- TOOLS_LLM_END -->

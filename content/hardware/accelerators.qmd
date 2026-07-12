@@ -123,23 +123,89 @@ graph TD
 ## Outils & frameworks hardware découverts automatiquement
 
 <!-- TOOLS_HARDWARE_START -->
-### [onediff](https://github.com/siliconflow/onediff)
-OneDiff: An out-of-the-box acceleration library for diffusion models.
+### [pytorch](https://github.com/pytorch/pytorch)
+Tensors and Dynamic neural networks in Python with strong GPU acceleration
 
-⭐ 2.0k | `Jupyter Notebook` | Licence: Apache-2.0 | MAJ: 2026-07-06
-**Tags** : `aigc-serving`, `comfyui`, `comfyui-workflow`, `cuda`, `diffusers`, `diffusion-models`, `inference-engine`, `lcm`
+⭐ 101.8k | `Python` | Licence: NOASSERTION | MAJ: 2026-07-12
+**Tags** : `autograd`, `deep-learning`, `gpu`, `machine-learning`, `neural-network`, `numpy`, `python`, `tensor`
 
-### [sonar](https://github.com/dphnAI/sonar)
-Large-scale LLM inference engine
+### [alacritty](https://github.com/alacritty/alacritty)
+A cross-platform, OpenGL terminal emulator.
 
-⭐ 1.8k | `C++` | Licence: AGPL-3.0 | MAJ: 2026-07-12
-**Tags** : `api-rest`, `cuda`, `inference-engine`, `inferentia`, `intel`, `lora`, `machine-learning`, `rocm`
+⭐ 64.9k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-07-12
+**Tags** : `bsd`, `gpu`, `linux`, `macos`, `opengl`, `rust`, `terminal`, `terminal-emulators`
 
-### [Savant](https://github.com/insight-platform/Savant)
-Python Computer Vision & Video Analytics Framework With Batteries Included
+### [stats](https://github.com/exelban/stats)
+macOS system monitor in your menu bar
 
-⭐ 834 | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-08
-**Tags** : `computer-vision`, `cuda`, `deep-learning`, `deepstream`, `edge-computing`, `inference-engine`, `instance-segmentation`, `machine-learning`
+⭐ 40.4k | `Swift` | Licence: MIT | MAJ: 2026-07-12
+**Tags** : `battery`, `bluetooth`, `clock`, `cpu`, `disk`, `fans`, `gpu`, `macos`
+
+### [taichi](https://github.com/taichi-dev/taichi)
+Productive, portable, and performant GPU programming in Python.
+
+⭐ 28.3k | `C++` | Licence: Apache-2.0 | MAJ: 2026-07-12
+**Tags** : `computer-graphics`, `differentiable-programming`, `gpu`, `gpu-programming`, `sparse-computation`, `taichi`
+
+### [fastai](https://github.com/fastai/fastai)
+The fastai deep learning library
+
+⭐ 28.1k | `Jupyter Notebook` | Licence: Apache-2.0 | MAJ: 2026-07-12
+**Tags** : `colab`, `deep-learning`, `fastai`, `gpu`, `machine-learning`, `notebooks`, `python`, `pytorch`
+
+### [FanControl.Releases](https://github.com/Rem0o/FanControl.Releases)
+This is the release repository for Fan Control, a highly customizable fan controlling software for Windows.
+
+⭐ 20.2k | Licence: NOASSERTION | MAJ: 2026-07-12
+**Tags** : `control`, `cpu`, `curves`, `fan`, `fancontrol`, `gpu`, `pwm`, `speed`
+
+### [nvidia-docker](https://github.com/NVIDIA/nvidia-docker)
+Build and run Docker containers leveraging NVIDIA GPUs
+
+⭐ 17.6k | Licence: Apache-2.0 | MAJ: 2026-07-12
+**Tags** : `cuda`, `docker`, `gpu`, `nvidia-docker`
+
+### [wgpu](https://github.com/gfx-rs/wgpu)
+A cross-platform, safe, pure-Rust graphics API.
+
+⭐ 17.6k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-07-12
+**Tags** : `d3d12`, `gpu`, `hacktoberfest`, `metal`, `opengl`, `rust`, `vulkan`, `webgpu`
+
+### [WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation)
+Play with fluids in your browser (works even on mobile)
+
+⭐ 16.5k | `JavaScript` | Licence: MIT | MAJ: 2026-07-12
+**Tags** : `fluid`, `gpu`, `navier-stokes`, `simulation`, `webgl`
+
+### [gpu.js](https://github.com/gpujs/gpu.js)
+GPU Accelerated JavaScript
+
+⭐ 15.4k | `JavaScript` | Licence: MIT | MAJ: 2026-07-09
+**Tags** : `glsl`, `gpgpu`, `gpu`, `javascript`, `math`, `nodejs`, `webgl`
+
+### [neovide](https://github.com/neovide/neovide)
+No Nonsense Neovim Client in Rust
+
+⭐ 15.1k | `Rust` | Licence: MIT | MAJ: 2026-07-12
+**Tags** : `gpu`, `neovim`, `neovim-guis`, `rust`, `skia`
+
+### [deeplearning4j](https://github.com/deeplearning4j/deeplearning4j)
+Suite of tools for deploying and training deep learning models using the JVM. Highlights include model import for keras, tensorflow, and onnx/pytorch, a modular and tiny c++ library for running mat...
+
+⭐ 14.2k | `Java` | Licence: Apache-2.0 | MAJ: 2026-07-12
+**Tags** : `artificial-intelligence`, `clojure`, `deeplearning`, `deeplearning4j`, `dl4j`, `gpu`, `hadoop`, `intellij`
+
+### [g-helper](https://github.com/seerge/g-helper)
+Lightweight Armoury Crate alternative for Asus laptops with nearly the same functionality. Works with ROG Zephyrus, Flow, TUF, Strix, Scar, ProArt, Vivobook, Zenbook, Expertbook, ROG Ally, and many...
+
+⭐ 14.1k | `C#` | Licence: GPL-3.0 | MAJ: 2026-07-12
+**Tags** : `ally`, `amd`, `armoury`, `asus`, `aura`, `cpu`, `fan`, `g-helper`
+
+### [Open3D](https://github.com/isl-org/Open3D)
+Open3D: A Modern Library for 3D Data Processing
+
+⭐ 13.8k | `C++` | Licence: NOASSERTION | MAJ: 2026-07-12
+**Tags** : `3d`, `3d-perception`, `arm`, `computer-graphics`, `cpp`, `cuda`, `gpu`, `gui`
 
 ### [gpartin/WaveGuardClient](https://github.com/gpartin/WaveGuardClient)
 !WaveGuard MCP server 🐍 ☁️ 🍎 🪟 🐧 - Physics-based anomaly detection via MCP. Uses Klein-Gordon wave equations on GPU to detect anomalies with high precision (avg 0.90). 9 tools: scan, fingerprint, c...

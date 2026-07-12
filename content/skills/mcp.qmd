@@ -121,6 +121,12 @@ MCP devient le **standard de facto** pour connecter les agents IA aux outils ext
 ## MCP Servers découverts automatiquement
 
 <!-- TOOLS_MCP_START -->
+### [cc-switch](https://github.com/farion1231/cc-switch)
+A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io
+
+⭐ 116.3k | `Rust` | Licence: MIT | MAJ: 2026-07-12
+**Tags** : `ai-tools`, `claude-code`, `codex`, `desktop-app`, `hermes`, `hermes-agent`, `mcp`, `minimax`
+
 ### [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb)
 Connect and unify data across various platforms and databases with MindsDB as a single MCP server.
 
@@ -154,13 +160,13 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ### [FastMCP](https://github.com/jlowin/fastmcp)
 🐍 - A high-level framework for building MCP servers in Python
 
-⭐ 26.1k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-12
+⭐ 26.2k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-12
 **Tags** : `agents`, `fastmcp`, `llms`, `mcp`, `mcp-clients`, `mcp-servers`, `mcp-tools`, `model-context-protocol`
 
 ### [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp)
 🐍 - MCP server for working with Blender
 
-⭐ 23.7k | `Python` | Licence: MIT | MAJ: 2026-07-12
+⭐ 23.8k | `Python` | Licence: MIT | MAJ: 2026-07-12
 
 ### [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)
 The official Python SDK for Model Context Protocol servers and clients
@@ -173,8 +179,8 @@ The official Python SDK for Model Context Protocol servers and clients
 ⭐ 15.4k | `TypeScript` | Licence: MIT | MAJ: 2026-07-12
 **Tags** : `ai`, `cursor`, `figma`, `mcp`, `typescript`
 
-### [skill-seekers/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)
-!yusufkaraaslan/Skill_Seekers MCP server 🐍 🏠 🍎 🪟 🐧 - Transform 17 source types (docs, GitHub repos, PDFs, videos, Jupyter, Confluence, Notion, Slack/Discord) into AI-ready skills and RAG knowledge....
+### [Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)
+Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection
 
 ⭐ 14.4k | `Python` | Licence: MIT | MAJ: 2026-07-12
 **Tags** : `ai-tools`, `ast-parser`, `automation`, `claude-ai`, `claude-skills`, `code-analysis`, `conflict-detection`, `documentation`
@@ -187,7 +193,7 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ### [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp)
 🐍 🏠 - MCP server for IDA Pro, allowing you to perform binary analysis with AI assistants. This plugin implement decompilation, disassembly and allows you to generate malware analysis reports automa...
 
-⭐ 10.0k | `Python` | Licence: MIT | MAJ: 2026-07-12
+⭐ 10.1k | `Python` | Licence: MIT | MAJ: 2026-07-12
 **Tags** : `ai`, `aiagent`, `binary-analysis`, `ida-plugin`, `ida-pro`, `mcp`, `mcp-server`, `modelcontextprotocol`
 
 ### [LaurieWired/GhidraMCP](https://github.com/LaurieWired/GhidraMCP)
@@ -204,7 +210,7 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ### [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP)
 📇 🏠 🍎 🪟 🐧 - A swiss-army-knife that can manage/execute programs and read/write/search/edit code and text files.
 
-⭐ 7.8k | `TypeScript` | Licence: MIT | MAJ: 2026-07-12
+⭐ 7.9k | `TypeScript` | Licence: MIT | MAJ: 2026-07-12
 **Tags** : `agent`, `ai`, `code-analysis`, `code-generation`, `gemini-cli-extension`, `mcp`, `terminal-ai`, `terminal-automation`
 
 ### [browsermcp/mcp](https://github.com/browsermcp/mcp)
@@ -218,12 +224,6 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 
 ⭐ 5.9k | `Go` | Licence: MIT | MAJ: 2026-07-12
 **Tags** : `ai`, `mcp`, `whatsapp`, `whatsapp-api`
-
-### [awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers)
-Awesome MCP Servers - A curated list of Model Context Protocol servers
-
-⭐ 5.7k | MAJ: 2026-07-12
-**Tags** : `ai`, `anthropic-claude`, `awesome`, `context`, `mcp`, `model-context-protocol`, `servers`, `tool-use`
 
 ### [executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright)
 📇 - An MCP server using Playwright for browser automation and webscrapping
@@ -280,7 +280,7 @@ The official Go SDK for Model Context Protocol servers and clients. Maintained i
 ### [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)
 The official C# SDK for Model Context Protocol servers and clients. Maintained in collaboration with Microsoft.
 
-⭐ 4.4k | `C#` | Licence: NOASSERTION | MAJ: 2026-07-11
+⭐ 4.4k | `C#` | Licence: NOASSERTION | MAJ: 2026-07-12
 **Tags** : `csharp`, `dotnet`, `mcp`, `mcp-client`, `mcp-server`, `modelcontextprotocol`
 
 ### [txn2/kubefwd](https://github.com/txn2/kubefwd)
@@ -292,6 +292,6 @@ The official C# SDK for Model Context Protocol servers and clients. Maintained i
 ### [MarkusPfundstein/mcp-obsidian](https://github.com/MarkusPfundstein/mcp-obsidian)
 🐍 ☁️ 🏠 - Interacting with Obsidian via REST API
 
-⭐ 4.1k | `Python` | Licence: MIT | MAJ: 2026-07-11
+⭐ 4.1k | `Python` | Licence: MIT | MAJ: 2026-07-12
 
 <!-- TOOLS_MCP_END -->
