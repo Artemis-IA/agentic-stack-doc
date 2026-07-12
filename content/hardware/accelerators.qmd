@@ -123,6 +123,24 @@ graph TD
 ## Outils & frameworks hardware découverts automatiquement
 
 <!-- TOOLS_HARDWARE_START -->
+### [onediff](https://github.com/siliconflow/onediff)
+OneDiff: An out-of-the-box acceleration library for diffusion models.
+
+⭐ 2.0k | `Jupyter Notebook` | Licence: Apache-2.0 | MAJ: 2026-07-06
+**Tags** : `aigc-serving`, `comfyui`, `comfyui-workflow`, `cuda`, `diffusers`, `diffusion-models`, `inference-engine`, `lcm`
+
+### [sonar](https://github.com/dphnAI/sonar)
+Large-scale LLM inference engine
+
+⭐ 1.8k | `C++` | Licence: AGPL-3.0 | MAJ: 2026-07-12
+**Tags** : `api-rest`, `cuda`, `inference-engine`, `inferentia`, `intel`, `lora`, `machine-learning`, `rocm`
+
+### [Savant](https://github.com/insight-platform/Savant)
+Python Computer Vision & Video Analytics Framework With Batteries Included
+
+⭐ 834 | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-08
+**Tags** : `computer-vision`, `cuda`, `deep-learning`, `deepstream`, `edge-computing`, `inference-engine`, `instance-segmentation`, `machine-learning`
+
 ### [gpartin/WaveGuardClient](https://github.com/gpartin/WaveGuardClient)
 !WaveGuard MCP server 🐍 ☁️ 🍎 🪟 🐧 - Physics-based anomaly detection via MCP. Uses Klein-Gordon wave equations on GPU to detect anomalies with high precision (avg 0.90). 9 tools: scan, fingerprint, c...
 
