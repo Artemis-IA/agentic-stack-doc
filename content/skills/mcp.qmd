@@ -160,12 +160,12 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ### [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp)
 🐍 - MCP server for working with Blender
 
-⭐ 23.8k | `Python` | Licence: MIT | MAJ: 2026-07-13
+⭐ 23.9k | `Python` | Licence: MIT | MAJ: 2026-07-13
 
 ### [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)
 The official Python SDK for Model Context Protocol servers and clients
 
-⭐ 23.6k | `Python` | Licence: MIT | MAJ: 2026-07-12
+⭐ 23.6k | `Python` | Licence: MIT | MAJ: 2026-07-13
 
 ### [GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP)
 📇 🏠 - Provide coding agents direct access to Figma data to help them one-shot design implementation.
@@ -176,7 +176,7 @@ The official Python SDK for Model Context Protocol servers and clients
 ### [skill-seekers/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)
 !yusufkaraaslan/Skill_Seekers MCP server 🐍 🏠 🍎 🪟 🐧 - Transform 17 source types (docs, GitHub repos, PDFs, videos, Jupyter, Confluence, Notion, Slack/Discord) into AI-ready skills and RAG knowledge....
 
-⭐ 14.4k | `Python` | Licence: MIT | MAJ: 2026-07-13
+⭐ 14.5k | `Python` | Licence: MIT | MAJ: 2026-07-13
 **Tags** : `ai-tools`, `ast-parser`, `automation`, `claude-ai`, `claude-skills`, `code-analysis`, `conflict-detection`, `documentation`
 
 ### [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)
@@ -204,8 +204,14 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ### [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP)
 📇 🏠 🍎 🪟 🐧 - A swiss-army-knife that can manage/execute programs and read/write/search/edit code and text files.
 
-⭐ 8.1k | `TypeScript` | Licence: MIT | MAJ: 2026-07-13
+⭐ 8.2k | `TypeScript` | Licence: MIT | MAJ: 2026-07-13
 **Tags** : `agent`, `ai`, `code-analysis`, `code-generation`, `gemini-cli-extension`, `mcp`, `terminal-ai`, `terminal-automation`
+
+### [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server)
+!firecrawl/firecrawl-mcp-server MCP server 🎖️ 📇 ☁️ 🏠 - Official Firecrawl server with live browser interaction (firecrawl_interact) — navigate, click, type, and scroll on a page before extraction, ...
+
+⭐ 6.9k | `JavaScript` | Licence: MIT | MAJ: 2026-07-13
+**Tags** : `batch-processing`, `claude`, `content-extraction`, `data-collection`, `firecrawl`, `firecrawl-ai`, `javascript-rendering`, `llm-tools`
 
 ### [browsermcp/mcp](https://github.com/browsermcp/mcp)
 📇 🏠 - Automate your local Chrome browser
@@ -287,10 +293,5 @@ The official C# SDK for Model Context Protocol servers and clients. Maintained i
 🐍 ☁️ 🏠 - Interacting with Obsidian via REST API
 
 ⭐ 4.1k | `Python` | Licence: MIT | MAJ: 2026-07-13
-
-### [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare)
-🎖️ 📇 ☁️ - Integration with Cloudflare services including Workers, KV, R2, and D1
-
-⭐ 3.9k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-07-13
 
 <!-- TOOLS_MCP_END -->
