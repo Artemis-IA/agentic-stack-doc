@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### SolarChain-Eval: A Physics-Constrained Benchmark for Trustworthy Economic Agents in Decentralized Energy Markets
-- **arXiv** : 2607.08681v1
-- **Date** : 2026-07-09
-- **Auteurs** : Shilin Ou, Yifan Xu, Luyao Zhang
-- **Score** : 11
-- **Résumé** : As agentic AI systems are increasingly applied to cyber-physical environments, their evaluation requires assessment of both task performance and trustworthiness. In decentralized energy markets, autonomous agents may improve market utility, but may also exploit invalid physical data, create artifici...
-- **Lien** : https://arxiv.org/abs/2607.08681v1
+### VEXAIoT: Autonomous IoT Vulnerability EXploitation using AI Agents
+- **arXiv** : 2607.09653v1
+- **Date** : 2026-07-10
+- **Auteurs** : Katherine Swinea, Kshitiz Aryal, Lopamudra Praharaj, Maanak Gupta
+- **Score** : 12
+- **Résumé** : Internet of Things (IoT) systems are inherently vulnerable due to constrained hardware, outdated firmware, and insecure default configurations, creating a need for scalable and adaptive security testing approaches. While recent adoptions of Large Language Model (LLM) agents have demonstrated promise...
+- **Lien** : https://arxiv.org/abs/2607.09653v1
 
-### WebSwarm: Recursive Multi-Agent Orchestration for Deep-and-Wide Web Search
-- **arXiv** : 2607.08662v1
-- **Date** : 2026-07-09
-- **Auteurs** : Xiaoshuai Song, Liancheng Zhang, Kangzhi Zhao, Yutao Zhu, Zhongyuan Wang
+### Failure as a Process: An Anatomy of CLI Coding Agent Trajectories
+- **arXiv** : 2607.09510v1
+- **Date** : 2026-07-10
+- **Auteurs** : Xiangxin Zhao, Han Li, Shuaiting Li, Tianyi Zhao, Earl T. Barr
+- **Score** : 12
+- **Résumé** : Large language model (LLM) coding agents are increasingly deployed to autonomously perform software engineering tasks in terminal-based environments, making their reliability a growing concern. Existing empirical studies investigate why coding agents fail, yet they largely treat failure as a final o...
+- **Lien** : https://arxiv.org/abs/2607.09510v1
+
+### Shared Selective Persistent Memory for Agentic LLM Systems
+- **arXiv** : 2607.09493v1
+- **Date** : 2026-07-10
+- **Auteurs** : Sanjana Pedada, Aditya Dhavala, Neelraj Patil
+- **Score** : 12
+- **Résumé** : Agentic LLM systems that generate code through multi-turn tool use face a fundamental context problem: each session starts from zero, discarding the configuration choices, domain constraints, data schemas, and tool-use patterns that made previous sessions productive. Naively persisting entire conver...
+- **Lien** : https://arxiv.org/abs/2607.09493v1
+
+### Agora: Enhancing LLM Agent Reasoning Via Auction-Based Task Allocation
+- **arXiv** : 2607.09600v1
+- **Date** : 2026-07-10
+- **Auteurs** : Kaiji Zhou, Ales Leonardis, Yue Feng
 - **Score** : 9
-- **Résumé** : Large language model (LLM)-based web search agents are transforming information seeking from simple factoid question answering into complex, deep-and-wide search and research-oriented tasks. A single ReAct-style agent is constrained by one long trajectory and limited context, making it difficult to ...
-- **Lien** : https://arxiv.org/abs/2607.08662v1
+- **Résumé** : Enhancing the reasoning capabilities of large language model (LLM) agents requires effective orchestration of diverse expert models and tools. However, existing frameworks typically call APIs based on coarse-grained matching between tasks and the functions of expert models or tools, while overlookin...
+- **Lien** : https://arxiv.org/abs/2607.09600v1
 
-### BiSCo-LLM: Lookup-Free Binary Spherical Coding for Extreme Low-Bit Large Language Model Compression
-- **arXiv** : 2607.08643v1
-- **Date** : 2026-07-09
-- **Auteurs** : Yuantian Shao, Peisong Wang, Zhilei Liu, Chuangyi Li, Yuanteng Chen
-- **Score** : 9
-- **Résumé** : Large language models (LLMs) are increasingly constrained by memory capacity, weight bandwidth, and checkpoint storage during deployment. Existing low-bit compression methods mainly follow two directions. Scalar or group-wise quantization is simple and compatible with efficient low-precision kernels...
-- **Lien** : https://arxiv.org/abs/2607.08643v1
-
-### SMetric: Rethink LLM Scheduling for Serving Agents with Balanced Session-centric Scheduling
-- **arXiv** : 2607.08565v1
-- **Date** : 2026-07-09
-- **Auteurs** : Jiahao Wang, Kaizhan Lin, Kaixi Zhang, Jinbo Han, Xingda Wei
-- **Score** : 9
-- **Résumé** : LLM scheduling is critical to serving, yet it remains unclear how well existing designs fit agentic serving--with LLM requests issued by agents instead of humans. This shifts the workload in two ways: (1) agents act only on complete responses, making the cluster's tokens per second (TPS) the primary...
-- **Lien** : https://arxiv.org/abs/2607.08565v1
-
-### UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks
-- **arXiv** : 2607.08768v1
-- **Date** : 2026-07-09
-- **Auteurs** : Zhekai Chen, Chengqi Duan, Kaiyue Sun, Bohao Li, Yuqing Wang
-- **Score** : 7
-- **Résumé** : The rapid development of large language models and multimodal large language models has accelerated the emergence of proactive agents capable of operating everyday tools and assisting users in real-world environments. However, existing benchmarks struggle to evaluate such agents effectively, as they...
-- **Lien** : https://arxiv.org/abs/2607.08768v1
-
-### AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam Understanding
-- **arXiv** : 2607.08745v1
-- **Date** : 2026-07-09
-- **Auteurs** : Siddharth Damodharan, Radhika Gupta, Ali Alshami, Ryan Rabinowitz, Jugal Kalita
-- **Score** : 7
-- **Résumé** : Recent advances in Vision-Language Models, Large Language Models, and Multimodal Large Language Models have improved autonomous driving tasks such as scene understanding, decision making, trajectory prediction, and visual question answering. However, evaluating whether these models can reliably reas...
-- **Lien** : https://arxiv.org/abs/2607.08745v1
-
-### The Illusion of Equivalency: Statistical Characterization of Quantization Effects in LLMs
-- **arXiv** : 2607.08734v1
-- **Date** : 2026-07-09
-- **Auteurs** : Baha Rababah, Cuneyt Gurcan Akcora, Carson K. Leung
-- **Score** : 7
-- **Résumé** : Post-training quantization is widely used to deploy large language models in resource-constrained settings, yet its evaluation relies almost exclusively on accuracy and perplexity. We show that these metrics fail to capture behavioral changes induced by quantization. We introduce correctness agreeme...
-- **Lien** : https://arxiv.org/abs/2607.08734v1
-
-### The complexities of patient-centred conversational artificial intelligence
-- **arXiv** : 2607.08625v1
-- **Date** : 2026-07-09
-- **Auteurs** : João Matos, Olivia Buege, Donny Cheung, Gary S. Collins, Paula Dhiman
-- **Score** : 7
-- **Résumé** : Consumer-facing health chatbots powered by large language models (LLMs) are increasingly used for symptom assessment. However, chatbot development and evaluation often rely on cooperative, articulate, simulated patients. We analysed 2,053 real patient-chatbot conversations and found that communicati...
-- **Lien** : https://arxiv.org/abs/2607.08625v1
-
-### Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows
-- **arXiv** : 2607.08740v1
-- **Date** : 2026-07-09
-- **Auteurs** : Emanuele Quinto, Carlo Andrea Rozzi, Francesco Zanitti
+### LLM for EDA in Front-End Design: Challenges and Opportunities
+- **arXiv** : 2607.09616v1
+- **Date** : 2026-07-10
+- **Auteurs** : Kangwei Xu, Bing Li, Ulf Schlichtmann
 - **Score** : 6
-- **Résumé** : Large language model (LLM) applications increasingly use explicit workflows for tool use, retrieval, branching, checkpointing, and human approval. Existing workflow systems already address many execution concerns. This paper proposes a Lisp-inspired but language-independent conceptual model: symboli...
-- **Lien** : https://arxiv.org/abs/2607.08740v1
+- **Résumé** : As chip complexity increases and time-to-market pressures grow, front-end design has become a critical bottleneck in chip development. Recently, Large Language Models (LLMs) have shown great potential in Electronic Design Automation (EDA). Beyond specification understanding, LLMs show the potential ...
+- **Lien** : https://arxiv.org/abs/2607.09616v1
 
-### Validity of LLMs as data annotators: AMALIA on authority
-- **arXiv** : 2607.08731v1
-- **Date** : 2026-07-09
-- **Auteurs** : Manuel Pita
+### Mosaic: Runtime-Efficient Multi-Agent Embodied Planning
+- **arXiv** : 2607.09603v1
+- **Date** : 2026-07-10
+- **Auteurs** : Kunjal Panchal, Saayan Mitra, Sunav Choudhary, Victor Bursztyn, Somdeb Sarkhel
 - **Score** : 6
-- **Résumé** : A national language model offers a linguistic community its own instrument for measuring what its citizens say and value. Portugal's AMALIA, a publicly funded 9B-parameter model for European Portuguese, appears competitive on agreement alone: asked to code the moral foundation of authority, it agree...
-- **Lien** : https://arxiv.org/abs/2607.08731v1
+- **Résumé** : LLM-based multi-agent embodied planning remains impractical due to prohibitively high execution latency. We identify failed actions as the dominant bottleneck, stemming from two core challenges: inaccurate state tracking under partial observability and inefficient coordination that produces redundan...
+- **Lien** : https://arxiv.org/abs/2607.09603v1
 
-### Resample or Reroute? Budget-Aware Test-Time Model Selection for Large Language Models
-- **arXiv** : 2607.08665v1
-- **Date** : 2026-07-09
-- **Auteurs** : Teng-Ruei Chen
+### TrustX Agent Risk Classification Framework (ARC): Risk-Tiering Internally Created Agentic AI Systems
+- **arXiv** : 2607.09586v1
+- **Date** : 2026-07-10
+- **Auteurs** : Hannah M. Liu, Rhea Saxena, Shiv Asthana
 - **Score** : 6
-- **Résumé** : Routing among large language models (LLMs) trades response quality against serving cost, motivated by the reported gap between deployed routers and a per-instance oracle. Recent analysis shows that test-time resampling can recover per-instance selection headroom that no single-commit router captures...
-- **Lien** : https://arxiv.org/abs/2607.08665v1
+- **Résumé** : The proliferation of agentic AI systems across enterprise and public-sector contexts has outpaced the capacity of general-purpose AI risk frameworks to classify and govern them. In this paper, we introduce the TrustX Agent Risk Classification Framework, a structured, repeatable instrument that can b...
+- **Lien** : https://arxiv.org/abs/2607.09586v1
 
-### Multi-Modal, Multi-Environment Machine Teaching for Robust Reward Learning
-- **arXiv** : 2607.08647v1
-- **Date** : 2026-07-09
-- **Auteurs** : Ali Larian, Qian Lin, Chang Zong Wu, Daniel S. Brown
+### Writing Bug Reports for Software Repair Agents: What Information Matters Most?
+- **arXiv** : 2607.09553v1
+- **Date** : 2026-07-10
+- **Auteurs** : Vincenzo Luigi Bruno, Alessandro Giagnorio, Daniele Bifolco, Leon Wienges, Massimiliano Di Penta
 - **Score** : 6
-- **Résumé** : As autonomous agents are increasingly deployed across diverse operational contexts, aligning their behavior with human intent demands reward functions that remain robust to such changes rather than overfitting to any single environment. Inverse reinforcement learning (IRL) provides a principled way ...
-- **Lien** : https://arxiv.org/abs/2607.08647v1
+- **Résumé** : Software development is increasingly moving toward agentic-first workflows. This includes AI agents responsible for generating initial fixes for submitted issue reports. In this setting, issue reports are no longer merely documentation for human maintainers; they become the primary task specificatio...
+- **Lien** : https://arxiv.org/abs/2607.09553v1
 
-### UltraX: Refining Pre-Training Data at Scale with Adaptive Programmatic Editing
-- **arXiv** : 2607.08646v1
-- **Date** : 2026-07-09
-- **Auteurs** : Xinlong Zhao, Dongsheng Liu, Hengyu Zhao, Zixuan Fu, Zheng Wang
+### Balancing Usefulness and Naturalness: An LLM-based Curation Pipeline for Code Review Comments
+- **arXiv** : 2607.09524v1
+- **Date** : 2026-07-10
+- **Auteurs** : Oussama Ben Sghaier, Martin Weyssow, Houari Sahraoui
 - **Score** : 6
-- **Résumé** : As available training data approaches its physical limit, gains from Scaling Laws have begun to diminish. Consequently, improving Large Language Models (LLMs) now depends less on data expansion and more on higher-quality data utilization. However, in the context of large-scale corpora, existing refi...
-- **Lien** : https://arxiv.org/abs/2607.08646v1
+- **Résumé** : Code review is a cornerstone of software development, where reviewers provide feedback through written comments to ensure code quality, maintainability, and correctness. The effectiveness of this process hinges on the quality of review comments. As large language models (LLMs) gain traction in autom...
+- **Lien** : https://arxiv.org/abs/2607.09524v1
 
-### Latent Memory Palace: Reasoning for Control as Autoregressive Variational Inference
-- **arXiv** : 2607.08724v1
-- **Date** : 2026-07-09
-- **Auteurs** : Chuning Zhu, Eva Xu, Jose Barreiros, Krishnan Srinivasan, Paarth Shah
+### Multimodal Reward Hacking in Reinforcement Learning
+- **arXiv** : 2607.09492v1
+- **Date** : 2026-07-10
+- **Auteurs** : Jiayu Yao, Yiwei Wang, Anmeng Zhang, Zhe Sun, Songsong Wang
+- **Score** : 6
+- **Résumé** : Reinforcement learning (RL) is increasingly used to align multimodal large language models (MLLMs), but higher rewards do not always imply better task performance. This risk is amplified when visual evidence is evaluated by text-only or weakly grounded rewards. We study reward hacking in MLLM RL acr...
+- **Lien** : https://arxiv.org/abs/2607.09492v1
+
+### Neural Collapse Is Forbidden: Information Floors in Language Models
+- **arXiv** : 2607.09487v1
+- **Date** : 2026-07-10
+- **Auteurs** : Bruno Abrahao
+- **Score** : 6
+- **Résumé** : Within-class variance in language-model representations is commonly read as incomplete neural collapse. We argue it is allocated information storage, and that the allocation obeys a law. A one-line centering identity voids a family of simplex equiangular-tight-frame claims, including our own earlier...
+- **Lien** : https://arxiv.org/abs/2607.09487v1
+
+### Evolution of Accuracy and Visual-Cognitive Errors in a Decade of Vision-Language AI Models
+- **arXiv** : 2607.09654v1
+- **Date** : 2026-07-10
+- **Auteurs** : Shravan Murlidaran, Miguel P. Eckstein
+- **Score** : 5
+- **Résumé** : Vision language models (VLMs) have made remarkable progress in visual reasoning during the last decade. Most evaluations have used simple scenes (MS-COCO) that do not showcase complex human interactions or behaviors, only a handful of non-curated human descriptions as a benchmark, and have not focus...
+- **Lien** : https://arxiv.org/abs/2607.09654v1
+
+### The Count Is There, but Misaligned: Understanding and Correcting Counting Failures in VLMs
+- **arXiv** : 2607.09544v1
+- **Date** : 2026-07-10
+- **Auteurs** : Ahmed Oumar El-Shangiti, Abzal Nurgazy, Hilal AlQuabeh, Nikolai Rozanov, Kentaro Inui
 - **Score** : 4
-- **Résumé** : Human decision-making is highly flexible -- some actions are taken immediately; others require longer deliberation. Language models have exhibited a similar capacity for adaptive "reasoning." However, transferring this capability to continuous control policies has been challenging, as directly reaso...
-- **Lien** : https://arxiv.org/abs/2607.08724v1
+- **Résumé** : Despite strong performance on many multimodal tasks, vision-language models (VLMs) still struggle with basic object counting. We investigate whether this reflects missing internal knowledge or a gap between internal representations and verbalized outputs. Training simple probes on activations from f...
+- **Lien** : https://arxiv.org/abs/2607.09544v1
 
-### Do You Need a Frontier Model as a Citation Verifier? Benchmarking Rubric LLMs for Deep-Research Source Attribution
-- **arXiv** : 2607.08700v1
-- **Date** : 2026-07-09
-- **Auteurs** : Ethan Leung, Elias Lumer, Corey Feld, Austin Huber, Vamse Kumar Subbiah
+### Seeing is Free, Speaking is Not: Uncovering the True Energy Bottleneck in Edge VLM Inference
+- **arXiv** : 2607.09520v1
+- **Date** : 2026-07-10
+- **Auteurs** : Junfei Zhan, Haoxun Shen, Mingang Guo, Zixuan Huang, Tengjiao He
 - **Score** : 4
-- **Résumé** : Reinforcement learning increasingly relies on an LLM judge to score each rubric criterion, and that judge acts as the reward model during training. Before such a signal can be trusted, we need to know how capable the judge must be and how biased it is. We study this calibration question for citation...
-- **Lien** : https://arxiv.org/abs/2607.08700v1
+- **Résumé** : Vision-Language Models (VLMs) are the perceptual backbone of embodied AI, but their energy footprint on edge hardware remains poorly understood. Existing efficiency efforts focus predominantly on reducing visual tokens, implicitly treating visual processing as the dominant energy cost. We overturn t...
+- **Lien** : https://arxiv.org/abs/2607.09520v1
 
-### DominoTree: Conditional Tree-Structured Drafting with Domino for Speculative Decoding
-- **arXiv** : 2607.08642v1
-- **Date** : 2026-07-09
-- **Auteurs** : Saw S. Lin, Jyh-Shing Roger Jang
-- **Score** : 4
-- **Résumé** : Speculative decoding accelerates LLM inference by drafting several tokens and verifying them in parallel. Block-diffusion drafters such as DFlash produce a draft block in one pass but model only per-position marginals; best-first tree methods such as DDTree expand candidate trees from those marginal...
-- **Lien** : https://arxiv.org/abs/2607.08642v1
-
-### It Takes a MAESTRO To Prune Bad Experts
-- **arXiv** : 2607.08601v1
-- **Date** : 2026-07-09
-- **Auteurs** : Palaash Goel, Ayush Maheshwari, Tanmoy Chakraborty
-- **Score** : 4
-- **Résumé** : Sparsely-activated Mixture-of-Experts (MoE) language models achieve remarkable inference efficiency by activating only a small fraction of parameters per token, yet their full expert banks reside in memory at all times, creating a prohibitive deployment bottleneck. Existing structured pruning method...
-- **Lien** : https://arxiv.org/abs/2607.08601v1
-
-### Score Accuracy Along the Forward Diffusion Does Not Certify Numerical Stability in Diffusion Sampling
-- **arXiv** : 2607.08757v1
-- **Date** : 2026-07-09
-- **Auteurs** : Yiwei Zhou
+### 4DR360: State Reasoning for Joint 3D Detection and Occupancy Prediction in 4D Radar-Camera Full-Scene Perception
+- **arXiv** : 2607.09629v1
+- **Date** : 2026-07-10
+- **Auteurs** : Xiaokai Bai, Lianqing Zheng, Runwei Guan, Songkai Wang, Siyuan Cao
 - **Score** : 3
-- **Résumé** : Score matching controls average error under the forward marginals, but a discretized reverse-time sampler evaluates the learned score along its own trajectory. We show that small forward-marginal error does not guarantee numerical stability. We construct a single smooth score field with arbitrarily ...
-- **Lien** : https://arxiv.org/abs/2607.08757v1
+- **Résumé** : Reliable autonomous driving requires full-scene perception that couples foreground objects with dense semantic layout. Recently, 4D millimeter-wave radar has emerged as a robust and affordable sensor, yet its sparse returns make radar-camera fusion necessary for comprehensive scene understanding. Ex...
+- **Lien** : https://arxiv.org/abs/2607.09629v1
 
-### Super Weights in LLMs and the Failure of Selective Training
-- **arXiv** : 2607.08733v1
-- **Date** : 2026-07-09
-- **Auteurs** : Shreyas Subramanian, Adewale Akinfaderin, Akarsha Sehwag
+### Task-Specific Multimodal Question Answering Agents via Confidence Calibration and Incremental Reasoning for QANTA 2026
+- **arXiv** : 2607.09623v1
+- **Date** : 2026-07-10
+- **Auteurs** : Nirjhar Das, Md. Al-Mamun Provath
 - **Score** : 3
-- **Résumé** : Recent work identified Super Weights, individual parameters whose removal degrades model performance by orders of magnitude. We show that this degradation due to pruning Super Weights does not universally apply to all LLMs. Furthermore, if these parameters are so important, Super Weight-aware traini...
-- **Lien** : https://arxiv.org/abs/2607.08733v1
+- **Résumé** : We present our submission to the QANTA 2026 shared challenge at the ICML 2026 Workshop on Efficient Multimodal Question Answering (EMM-QA). Quanta evaluates multimodal quizbowl systems that answer pyramid-style questions from incrementally revealed text and accompanying images while operating under ...
+- **Lien** : https://arxiv.org/abs/2607.09623v1
 
-### Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents
-- **arXiv** : 2607.08716v1
-- **Date** : 2026-07-09
-- **Auteurs** : Yifan Wu, Lizhu Zhang, Yuhang Zhou, Mingyi Wang, Bo Peng
+### Knowledge Graphs and Explainable AI as Complementary Resources for Urban Mining
+- **arXiv** : 2607.09578v1
+- **Date** : 2026-07-10
+- **Auteurs** : Jan Gronewald, Andreas Emrich, Nijat Mehdiyev
 - **Score** : 3
-- **Résumé** : In long-horizon tasks, decision-relevant state is often scattered across an expanding trajectory, while the action agent must surface it and act. As trajectories grow, task requirements, environment facts, prior attempts, diagnoses, and open subgoals can be buried in the context window or pushed bey...
-- **Lien** : https://arxiv.org/abs/2607.08716v1
+- **Résumé** : Pre-demolition assessment, the regulated audit process at the heart of urban mining, is an information process in which AI support must serve qualified auditors who remain accountable for the decisions taken. The relevant unit of value is not prediction accuracy alone, but the defensibility of the s...
+- **Lien** : https://arxiv.org/abs/2607.09578v1
+
+### TCLA: Training-Free Class-wise Logit Adaptation for Medical Vision-Language Models
+- **arXiv** : 2607.09562v1
+- **Date** : 2026-07-10
+- **Auteurs** : Tianyou Jiang, Ziyu Zhou
+- **Score** : 3
+- **Résumé** : Medical Vision-Language Models (VLMs) exhibit strong zero-shot performance, yet their effectiveness still declines on out-of-distribution (OOD) data due to domain shifts and class bias inherited from large-scale pretraining. Existing few-shot adaptation methods typically introduce additional trainab...
+- **Lien** : https://arxiv.org/abs/2607.09562v1
+
+### High-Dimensional Interpolators Can Be Fragile: Heavy Tails and High-Dimensional Large Deviations
+- **arXiv** : 2607.09547v1
+- **Date** : 2026-07-10
+- **Auteurs** : Youheng Zhu, Yiping Lu
+- **Score** : 3
+- **Résumé** : High-dimensional interpolation is common in modern machine learning, but its tail risk is less understood than its expected prediction risk. Existing theory shows that interpolating models can perform well in expectation, yet such guarantees do not determine the probability of rare, severe errors. I...
+- **Lien** : https://arxiv.org/abs/2607.09547v1
+
+### ALICE: Learning a General-Purpose Pathology Foundation Model from Vision, Vision-Language, and Slide-Level Experts
+- **arXiv** : 2607.09526v1
+- **Date** : 2026-07-10
+- **Auteurs** : Jiawen Li, Tian Guan, Huijuan Shi, Xitong Ling, Mingxi Fu
+- **Score** : 3
+- **Résumé** : Foundation models are reshaping computational pathology, yet their capabilities remain shaped by pretraining objectives, data sources, and spatial scales, fragmenting complementary expertise across separate backbones. Here we present ALICE, a unified foundation model trained through multi-stage aggl...
+- **Lien** : https://arxiv.org/abs/2607.09526v1
 
 <!-- ARXIV_FEED_END -->
