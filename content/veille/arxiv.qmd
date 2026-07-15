@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### RAGU: A Multi-Step GraphRAG Engine with a Compact Domain-Adapted LLM
-- **arXiv** : 2607.11683v1
-- **Date** : 2026-07-13
-- **Auteurs** : Mikhail Komarov, Ivan Bondarenko, Stanislav Shtuka, Oleg Sedukhin, Roman Shuvalov
-- **Score** : 15
-- **Résumé** : Graph retrieval-augmented generation (GraphRAG) enhances large language models with structured knowledge, yet existing systems construct knowledge graphs in a single extraction pass, producing noisy entities and brittle retrieval. RAGU, an open-source modular GraphRAG engine, addresses this by separ...
-- **Lien** : https://arxiv.org/abs/2607.11683v1
+### Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution
+- **arXiv** : 2607.13034v1
+- **Date** : 2026-07-14
+- **Auteurs** : Junjie Yin, Xinyu Feng
+- **Score** : 9
+- **Résumé** : Large language model (LLM) agents increasingly automate multi-step engineering and informatics workflows, yet they rarely ask how much effort a task actually requires. They often follow a maximum-context-first strategy--re-reading files and dependencies they have already seen--turning a one-line edi...
+- **Lien** : https://arxiv.org/abs/2607.13034v1
 
-### How Temperature Shapes Ideological Discourse in Retrieval-Augmented Generation?
-- **arXiv** : 2607.11783v1
-- **Date** : 2026-07-13
-- **Auteurs** : Elmira Salari, Hazem Amamou, José Victor de Souza, Shruti Kshirsagar, Maria Nunes Delfino
-- **Score** : 10
-- **Résumé** : Retrieval-Augmented Generation (RAG) has been increasingly adopted to reduce hallucinations and strengthen the factual grounding of large language models (LLMs). While robustness to errors in the retrieval process has been explored, the impact of ideological bias on LLM outputs has been overlooked. ...
-- **Lien** : https://arxiv.org/abs/2607.11783v1
+### PalmClaw: A Native On-Device Agent Framework for Mobile Phones
+- **arXiv** : 2607.13027v1
+- **Date** : 2026-07-14
+- **Auteurs** : Hongru Cai, Yongqi Li, Ran Wei, Wenjie Li
+- **Score** : 9
+- **Résumé** : Large Language Model (LLM) agents have moved beyond generating responses to executing multi-step tasks by calling tools, observing the results, and iteratively deciding the next action. Most agent systems run on desktops or servers, which support tool use and task automation. Mobile devices are also...
+- **Lien** : https://arxiv.org/abs/2607.13027v1
 
-### AdvancedMathBench: A Benchmark Suite for Advanced Mathematical Proof Generation and Verification
-- **arXiv** : 2607.11849v1
-- **Date** : 2026-07-13
-- **Auteurs** : Lingkai Kong, Zijian Wu, Yuzhe Gu, Haiteng Zhao, Wenyong Huang
+### Can LLMs Write Reliable Rubrics? A Meta-Evaluation for Experiment Reproduction
+- **arXiv** : 2607.12835v1
+- **Date** : 2026-07-14
+- **Auteurs** : Hanhua Hong, Yizhi Li, Jiaoyan Chen, Luu Gia Huy, Sophia Ananiadou
 - **Score** : 8
-- **Résumé** : Large language models (LLMs) have achieved remarkable performance on high-school and olympiad-style mathematics, yet their capabilities on advanced mathematics remain poorly understood. Existing benchmarks, however, fall short in both scope and evaluation granularity: they provide limited disciplina...
-- **Lien** : https://arxiv.org/abs/2607.11849v1
+- **Résumé** : Rubric-based evaluation is a promising approach for assessing open-ended outputs from LLM-based research agents, particularly in paper reproduction, where direct paper-to-repository comparison is prone to hallucination. However, constructing paper-specific rubrics requires substantial expert effort,...
+- **Lien** : https://arxiv.org/abs/2607.12835v1
 
-### MM-ToolSandBox: A Unified Framework for Evaluating Visual Tool-Calling Agents
-- **arXiv** : 2607.11818v1
-- **Date** : 2026-07-13
-- **Auteurs** : Kaixin Ma, Di Feng, Alexander Metz, Jiarui Lu, Eshan Verma
-- **Score** : 8
-- **Résumé** : We introduce MM-ToolSandBox, a benchmark and evaluation framework for visually grounded tool-calling agents. The framework provides a stateful execution environment spanning 500+ tools across 16 application domains, supporting multi-image, multi-turn tasks where agents must ground progressively arri...
-- **Lien** : https://arxiv.org/abs/2607.11818v1
-
-### Agent Hacks Agent: Autoresearch for Production-Agent Red-Teaming
-- **arXiv** : 2607.11698v1
-- **Date** : 2026-07-13
-- **Auteurs** : Xutao Mao, Xiang Zheng, Cong Wang
+### Win by Silence: Deletion Non-Monotonicity, Autonomous Exploitation, and Typed-State Gating in LLM Plan Evaluation
+- **arXiv** : 2607.12986v1
+- **Date** : 2026-07-14
+- **Auteurs** : Aleh Manchuliantsau
 - **Score** : 7
-- **Résumé** : Production LLM agents such as Claude Code and Codex operate over untrusted content, files, commands, and workspace state, making safety failures directly actionable. Red-teaming must therefore keep pace with evolving models and tools. Existing approaches mainly optimize attack success and preserve a...
-- **Lien** : https://arxiv.org/abs/2607.11698v1
+- **Résumé** : Plan evaluators can reward a strategic plan for becoming less explicit. This paper studies that failure in a staged expected-value scorer for LLM-generated venture routes. Proposition 1 gives the score change from deleting an interior transition while retargeting its predecessor and retaining downst...
+- **Lien** : https://arxiv.org/abs/2607.12986v1
 
-### Evidence-Backed Video Question Answering
-- **arXiv** : 2607.11862v1
-- **Date** : 2026-07-13
-- **Auteurs** : Shijie Wang, Honglu Zhou, Ziyang Wang, Ran Xu, Caiming Xiong
+### MemOps: Benchmarking Lifecycle Memory Operations in Long-Horizon Conversations
+- **arXiv** : 2607.12893v1
+- **Date** : 2026-07-14
+- **Auteurs** : Xixuan Hao, Zeyu Zhang, Zehao Lin, Yihang Sun, Ziliang Guo
+- **Score** : 7
+- **Résumé** : Long-term memory has become a foundational capability for LLM-based agents that accompany users across extended, multi-session interactions. Existing benchmarks, however, evaluate such memory almost exclusively through downstream question answering, scoring only the correctness of a final answer. Th...
+- **Lien** : https://arxiv.org/abs/2607.12893v1
+
+### Accelerating Masked Diffusion Large Language Models: A Survey of Efficient Inference Techniques
+- **arXiv** : 2607.12829v1
+- **Date** : 2026-07-14
+- **Auteurs** : Daehoon Gwak, Minhyung Lee, Junwoo Park, Jaegul Choo
+- **Score** : 7
+- **Résumé** : Diffusion large language models (dLLMs) offer a theoretical advantage in parallel generation over standard autoregressive models. However, parallel generation alone does not guarantee practical speedups. Realizing this efficiency requires specialized inference mechanisms, such as diffusion-aware cac...
+- **Lien** : https://arxiv.org/abs/2607.12829v1
+
+### TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale
+- **arXiv** : 2607.13028v1
+- **Date** : 2026-07-14
+- **Auteurs** : Zhouchonghao Wu, Akshay Rangesh, Weixin Li, Wei-Jer Chang, Zachary Lee
 - **Score** : 6
-- **Résumé** : Current Video Large Language Models (Video LLMs) excel in question answering (QA) but largely operate as black boxes, providing textual answers without verifiable visual grounding. Existing explainability efforts rely on textual rationales or sparse bounding boxes, which struggle to capture complex ...
-- **Lien** : https://arxiv.org/abs/2607.11862v1
+- **Résumé** : Training robust autonomous driving agents requires a simulator that is fast enough for reinforcement learning at scale, realistic enough to ground behavior in real-world map structure, and diverse enough to cover the safety-critical long tail that logged data rarely contains. We present TerraZero, a...
+- **Lien** : https://arxiv.org/abs/2607.13028v1
 
-### Can LLMs Perform Deep Technical Comprehension of Computer Architecture Papers?
-- **arXiv** : 2607.11859v1
-- **Date** : 2026-07-13
-- **Auteurs** : Nishant Aggarwal, Ayushi Dubal, Sreeraj Kannakarankodi, Ian McDougall, Adarsh Mittal
+### Resist and Update: Counterfactual Report Coordinates for Incentive-Compatible LLMs
+- **arXiv** : 2607.12985v1
+- **Date** : 2026-07-14
+- **Auteurs** : Sen Yang, Yuen-Hei Yeung
 - **Score** : 6
-- **Résumé** : Can large language models perform deep technical comprehension of computer architecture papers -- not summarization, but structured critique that names the core mechanism, surfaces buried assumptions, and connects a contribution beyond its own scope? We study Gauntlet, an open-source pipeline that a...
-- **Lien** : https://arxiv.org/abs/2607.11859v1
+- **Résumé** : Aligned language models routinely misreport under non-evidential incentive pressure: they agree with a confident user or overstate certainty even when their internal belief is unchanged. We cast this as a failure of internal incentive-compatibility (IC) and present a method for learning and certifyi...
+- **Lien** : https://arxiv.org/abs/2607.12985v1
 
-### From Expressivity to Sample Complexity: Narrow Teachers for Transformers via C-RASP
-- **arXiv** : 2607.11760v1
-- **Date** : 2026-07-13
-- **Auteurs** : Michael Rizvi-Martel, Satwik Bhattamishra, Guillaume Rabusseau, Michael Hahn
+### FormalAnalyticGeo: A Neural-Symbolic Based Framework for Multimodal Analytic Geometry Problem Generation
+- **arXiv** : 2607.12982v1
+- **Date** : 2026-07-14
+- **Auteurs** : Ruoran Xu, Wending Gao, Qiufeng Wang
 - **Score** : 6
-- **Résumé** : A theoretical understanding of Transformers is crucial to better understand the capacities and limitations of large language models (LLMs). There is much work analyzing the expressivity of attention-based models. By proposing handcrafted weights or using computational complexity arguments, a large a...
-- **Lien** : https://arxiv.org/abs/2607.11760v1
+- **Résumé** : Math reasoning has achieved significant progress with the rapid advancement of Multimodal Large Language Models (MLLMs), however analytic geometry remains largely underexplored, primarily due to the scarcity of annotated samples. Existing diagram generation approaches struggle with analytic geometry...
+- **Lien** : https://arxiv.org/abs/2607.12982v1
 
-### When Local Monitors Miss Compositional Harm: Diagnosing Distributed Backdoors in Multi-Agent Systems
-- **arXiv** : 2607.11751v1
-- **Date** : 2026-07-13
-- **Auteurs** : Yibo Hu, Ren Wang
+### The Illusion of Robustness: Aggregate Accuracy Hides Prediction Flips under Task-Irrelevant Context
+- **arXiv** : 2607.12963v1
+- **Date** : 2026-07-14
+- **Auteurs** : Yanzhe Zhang, Sanmi Koyejo, Diyi Yang
 - **Score** : 6
-- **Résumé** : As multi-agent, tool-using LLM systems are deployed, a common safety net is a runtime monitor that checks each message, tool call, or step on its own. We show this net has a fundamental hole. A distributed backdoor splits a harmful payload across agents, so every local check passes while the assembl...
-- **Lien** : https://arxiv.org/abs/2607.11751v1
+- **Résumé** : As large language models (LLMs) grow more capable, they are increasingly deployed in context-rich settings where task inputs are often accompanied by long, partially irrelevant context. In a controlled setting, we find that state-of-the-art models often appear robust to task-irrelevant context at th...
+- **Lien** : https://arxiv.org/abs/2607.12963v1
 
-### Playful AI in Professional Email: A Field Experiment on Tone and Recipient Engagement
-- **arXiv** : 2607.11749v1
-- **Date** : 2026-07-13
-- **Auteurs** : Ziv Ben-Zion, Teddy Lazebnik
+### A Multi-Agent System for Autonomous, Fine-Tuning-Free Clinical Symptom Detection: Development and Validation Study
+- **arXiv** : 2607.12886v1
+- **Date** : 2026-07-14
+- **Auteurs** : Cameron Cagan, Pedram Fard, Jiazi Tian, Jingya Cheng, Shawn N. Murphy
 - **Score** : 6
-- **Résumé** : Large language models (LLMs) are rapidly reshaping workplace communication, yet whether AI-assisted writing changes how recipients actually behave, and through what channel, remains unknown. Here, in a randomized crossover field experiment, 121 employees across six companies sent work emails under t...
-- **Lien** : https://arxiv.org/abs/2607.11749v1
+- **Résumé** : Clinical notes contain many of the signs and symptoms that bring patients to care, yet this information rarely reaches structured fields. Existing extraction approaches either rely on context-insensitive rules that generate false positives or on supervised models that require substantial fine-tuning...
+- **Lien** : https://arxiv.org/abs/2607.12886v1
 
-### MET: Theory-Grounded and Culture-Aware Multilingual Moral Reasoning
-- **arXiv** : 2607.11736v1
-- **Date** : 2026-07-13
-- **Auteurs** : Ayoung Lee, Ryan Kwon, Yunxiang Zhang, Yuxuan Liu, Peter Railton
-- **Score** : 6
-- **Résumé** : Language models are increasingly used for moral decision-making across diverse linguistic and cultural contexts, yet existing work overlooks multilinguality on three aspects: 1) multilingual evaluation benchmarks use direct translation, failing to adapt culture-specific items; 2) inference-time meth...
-- **Lien** : https://arxiv.org/abs/2607.11736v1
-
-### An Explainable Agentic System for Detection of Conversational Scams with Summary-Based Memory
-- **arXiv** : 2607.11707v1
-- **Date** : 2026-07-13
-- **Auteurs** : Ahmed Omar Salim Adnan, Yogananda Manjunath, Shivanjali Khare
-- **Score** : 6
-- **Résumé** : Following the rapid progress of generative Artificial Intelligence, there is a growing threat posed by conversational scams. These scams often span over multiple weeks or months, gradually build trust and request for money or sensitive information. Existing scam-detection systems mainly focus on iso...
-- **Lien** : https://arxiv.org/abs/2607.11707v1
-
-### Production and Perception in LLMs: A Token Probability Approach
-- **arXiv** : 2607.11703v1
-- **Date** : 2026-07-13
-- **Auteurs** : Anna Marklová, Jiří Milička, Martina Vokáčová, Rudolf Rosa
-- **Score** : 6
-- **Résumé** : The asymmetry between language production and perception has been well-documented in psycholinguistics. Whether large language models (LLMs) exhibit a functionally analogous distinction remains an open question, particularly given that LLMs rely on the same underlying mechanism (next-token predictio...
-- **Lien** : https://arxiv.org/abs/2607.11703v1
-
-### Inside the Unfair Judge: A Mechanistic Interpretability Account of LLM-as-Judge Bias
-- **arXiv** : 2607.11871v1
-- **Date** : 2026-07-13
-- **Auteurs** : Zixiang Xu, Sixian Li, Huaxing Liu, Xiang Wang, Shuai Li
+### Form, Not Content? A Preregistered, Placebo-Controlled Evaluation of Learned Error-Conditioned Self-Repair Through Prompts and Weights in Frozen Small Code Models
+- **arXiv** : 2607.12962v1
+- **Date** : 2026-07-14
+- **Auteurs** : Mehmet Iscan
 - **Score** : 4
-- **Résumé** : Existing studies of LLM-as-judge scoring bias work predominantly at the input-output level: they perturb inputs, measure score deltas, and propose prompt-level mitigations. We argue that the same biases admit a representation-level account in the judge's hidden state, complementary to the input-outp...
-- **Lien** : https://arxiv.org/abs/2607.11871v1
+- **Résumé** : Frozen small code LLMs are deployed locally, yet the information guiding a retry after a failed attempt is still measured without placebo controls in the self-repair literature. We treat a failed program as a conjecture and an execution counterexample as an oracle-relative refutation, and introduce ...
+- **Lien** : https://arxiv.org/abs/2607.12962v1
 
-### Encoder-Side Neuron Identification and Amplification for Acoustic Perception in Large Audio-Language Models
-- **arXiv** : 2607.11801v1
-- **Date** : 2026-07-13
-- **Auteurs** : Yu-Han Huang, Chih-Kai Yang, Ke-Han Lu, An-Yu Cheng, Hung-yi Lee
+### LLM Judges Can Be Too Generous When There Is No Reference Answer
+- **arXiv** : 2607.12885v1
+- **Date** : 2026-07-14
+- **Auteurs** : Chalamalasetti Kranti, Sowmya Vajjala
 - **Score** : 4
-- **Résumé** : Large audio-language models (LALMs) often underperform on fine-grained, non-semantic attributes of speech, such as a speaker's emotion, despite strong performance on speech content. Improving this without the cost of retraining calls for an effective inference-time intervention, yet most existing me...
-- **Lien** : https://arxiv.org/abs/2607.11801v1
+- **Résumé** : LLM judges are increasingly being used to evaluate open-ended model responses, often in no-reference settings where a ground-truth answer is unavailable. However, can they reliably assess in such evaluation setups? We explore this question in this paper through a two stage pipeline with a) calibrati...
+- **Lien** : https://arxiv.org/abs/2607.12885v1
 
-### VoxENES 2026: Benchmarking Generalization of Speech Spoofing Detectors Against LLM-Era TTS and Voice Conversion
-- **arXiv** : 2607.11706v1
-- **Date** : 2026-07-13
-- **Auteurs** : Aastha Sharma, Guangjing Wang
+### MetaInfer: A Knowledge Only LLM Inference Engine Generator SKILL Toolbox
+- **arXiv** : 2607.12875v1
+- **Date** : 2026-07-14
+- **Auteurs** : Zhenwen Miao, Honglin Wang, Mingheng Mi
 - **Score** : 4
-- **Résumé** : Modern LLM-driven text-to-speech (TTS) and voice conversion (VC) systems produce synthetic speech that differs from the generators represented in many legacy spoofing benchmarks. This mismatch creates a temporal generalization gap that can overestimate detector robustness under real-world post-proce...
-- **Lien** : https://arxiv.org/abs/2607.11706v1
+- **Résumé** : As LLM technology advances, the space of model families, compute hardware, quantization schemes, parallelization strategies, and specialized optimization kernels continues to expand, sharply increasing the code complexity and maintenance cost of general-purpose inference frameworks. Conventional sof...
+- **Lien** : https://arxiv.org/abs/2607.12875v1
 
-### Metacognition in LLMs: Foundations, Progress, and Opportunities
-- **arXiv** : 2607.11881v1
-- **Date** : 2026-07-13
-- **Auteurs** : Gabrielle Kaili-May Liu, Areeb Gani, Jacqueline Lu, Jordan Thomas, Mark Steyvers
-- **Score** : 3
-- **Résumé** : Metacognition is a foundational component of intelligence critical to effective learning, problem solving, decision-making, communication, and more. In recent years, it has become increasingly recognized as a cornerstone of capable, transparent AI systems. Yet while LLMs have made significant progre...
-- **Lien** : https://arxiv.org/abs/2607.11881v1
+### Toward Localizing and Repairing Bias in Transformer Attention Heads
+- **arXiv** : 2607.12863v1
+- **Date** : 2026-07-14
+- **Auteurs** : Sigma Jahan
+- **Score** : 4
+- **Résumé** : Transformer language models are increasingly used as software components, yet biased outputs remain difficult to localize and repair inside the model. Existing fairness testing and repair methods largely operate at the input-output or retraining level, while recent work suggests that bias-related be...
+- **Lien** : https://arxiv.org/abs/2607.12863v1
 
-### Invariant Learning Dynamics of Transformers in Inductive Reasoning Tasks
-- **arXiv** : 2607.11875v1
-- **Date** : 2026-07-13
-- **Auteurs** : Tiberiu Musat, Tiago Pimentel, Nicholas Zucchet, Thomas Hofmann
+### Privacy Attacks on Stable Marriage
+- **arXiv** : 2607.13015v1
+- **Date** : 2026-07-14
+- **Auteurs** : Stephan A. Fahrenkrog-Petersen, Aleksander Figiel, Darya Melnyk, Tijana Milentijević, Stefan Schmid
 - **Score** : 3
-- **Résumé** : We present a theoretical framework to explain the emergence of inductive reasoning abilities in Transformer language models. While previous works on Transformer learning dynamics have so far been mostly tied to specific tasks, we study a generalized class of inductive tasks that unifies several synt...
-- **Lien** : https://arxiv.org/abs/2607.11875v1
+- **Résumé** : The stable marriage problem appears in many privacy-sensitive domains, for example in the National Resident Matching Program in the US. In such applications, preserving the privacy of users' preference lists is essential to prevent strategic manipulation, discourage misreporting, and comply with dat...
+- **Lien** : https://arxiv.org/abs/2607.13015v1
 
-### StoryTeller: Training-Free Narrative Grounding for Long-Form Audio Description
-- **arXiv** : 2607.11798v1
-- **Date** : 2026-07-13
-- **Auteurs** : Seung Hyun Hahm, Minh T. Dinh, SouYoung Jin
+### Audio-Native Speech Recognition with a Frozen Discrete-Diffusion Language Model
+- **arXiv** : 2607.13013v1
+- **Date** : 2026-07-14
+- **Auteurs** : Harsha Vardhan Khurdula, Abhinav Kumar Singh, Yoeven D Khemlani, Vineet Agarwal
 - **Score** : 3
-- **Résumé** : Long-form audio description (AD) requires more than describing visible actions: it must preserve characters, events, relationships, and story context across scenes so that blind and low-vision (BLV) audiences can follow a film. Modern video-language models (VLMs) are effective on short clips, but th...
-- **Lien** : https://arxiv.org/abs/2607.11798v1
+- **Résumé** : Automatic speech recognition is dominated by autoregressive decoders that emit one token at a time. We ask whether a discrete diffusion language model can transcribe speech instead, refining a whole transcript in parallel over a small number of denoising steps. We train an audio-native interface for...
+- **Lien** : https://arxiv.org/abs/2607.13013v1
 
-### Forgetting Our Way to Shared Meaning: Effects of Forgetting on Conceptual Alignment in a Non-Partnership Coordination Game
-- **arXiv** : 2607.11787v1
-- **Date** : 2026-07-13
-- **Auteurs** : Landon Liu, Mary Kelly, Alan Tsang
+### Contrastive-Collapsed Loss for Flexible and Geometrically Optimal Embeddings and Faster Convergence
+- **arXiv** : 2607.12916v1
+- **Date** : 2026-07-14
+- **Auteurs** : Blanca Cano-Camarero, Ángela Fernández-Pascual, José R. Dorronsoro
 - **Score** : 3
-- **Résumé** : Shared meaning in language requires people to learn and agree on categories. We ask how characteristics of agents' memories change the emergence and evolution of shared meaning. Without a coordination game, models of conceptual semantics cannot explain how shared meaning emerges and changes in group...
-- **Lien** : https://arxiv.org/abs/2607.11787v1
+- **Résumé** : In this work, we introduce CoCo, a loss function aimed at learning normalized and well-structured representations. The proposed loss encourages intra-class collapse and inter-class contrast while preserving sufficient flexibility for neural networks to approximate geometrically optimal embeddings wi...
+- **Lien** : https://arxiv.org/abs/2607.12916v1
+
+### Evaluating Large Language Models on Misconceptions in Multi-Turn Medical Conversations
+- **arXiv** : 2607.12884v1
+- **Date** : 2026-07-14
+- **Auteurs** : Monica Munnangi, Saiph Savage
+- **Score** : 3
+- **Résumé** : Patients seeking medical information often ask questions that embed incorrect assumptions or misconceptions. In such cases, safe medical communication requires not only answering the question, but identifying and correcting the underlying false belief. These interactions naturally unfold over multip...
+- **Lien** : https://arxiv.org/abs/2607.12884v1
+
+### Unveiling Complex Collective Behaviors from Simple Rewards
+- **arXiv** : 2607.12861v1
+- **Date** : 2026-07-14
+- **Auteurs** : Yize Mi, Jianan Li, Liang Li, Shiyu Zhao
+- **Score** : 3
+- **Résumé** : Multi-agent Reinforcement Learning (MARL) holds great potential for robot swarms, but the black-box nature of neural policies complicates strategic analysis, limiting multi-robot applications. Furthermore, complex swarm behaviors can surprisingly emerge from simple rewards without explicit aggregati...
+- **Lien** : https://arxiv.org/abs/2607.12861v1
 
 <!-- ARXIV_FEED_END -->
