@@ -83,6 +83,13 @@ graph LR
 - **Résumé** : 2 years after our first coverage, we return with Modal's other cofounder to explore why Agent Experience is working now, and everything they have learned building the new agent cloud....
 - **Lien** : https://www.latent.space/p/modal2026
 
+### NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval
+- **Source** : Hugging Face Blog
+- **Date** : Thu, 16 Jul 2026
+- **Score** : 2
+- **Résumé** : ...
+- **Lien** : https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb
+
 ### Native-speed vLLM transformers modeling backend
 - **Source** : Hugging Face Blog
 - **Date** : Wed, 08 Jul 2026
@@ -90,19 +97,19 @@ graph LR
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/native-speed-vllm-transformers-backend
 
+### How Cars24 scales conversations and builds faster with OpenAI
+- **Source** : OpenAI Blog
+- **Date** : Thu, 16 Jul 2026
+- **Score** : 2
+- **Résumé** : Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company....
+- **Lien** : https://openai.com/index/cars24
+
 ### How to manage AI investments in the agentic era
 - **Source** : OpenAI Blog
 - **Date** : Tue, 14 Jul 2026
 - **Score** : 2
 - **Résumé** : Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows....
 - **Lien** : https://openai.com/index/managing-ai-investments-in-agentic-era
-
-### ChatGPT is now a partner for your most ambitious work
-- **Source** : OpenAI Blog
-- **Date** : Thu, 09 Jul 2026
-- **Score** : 2
-- **Résumé** : ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work....
-- **Lien** : https://openai.com/index/chatgpt-for-your-most-ambitious-work
 
 ### LWiAI Podcast #246 - Gemini 3.5 + Omni, Musk Loses, OpenAI vs Erdős
 - **Source** : Last Week in AI
@@ -160,6 +167,16 @@ graph LR
 - **Résumé** : A big day for OpenAI....
 - **Lien** : https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna
 
+### Quoting Thibault Sottiaux
+- **Source** : Simon Willison
+- **Date** : 2026-07-16T17:45
+- **Score** : 1
+- **Résumé** : On file deletions. We’ve investigated a handful of reports where GPT-5.6 unexpectedly deleted files. 
+What we have  found is that this most commonly occurs when:
+
+Full access mode is enabled and codex...
+- **Lien** : https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything
+
 ### Mermaid to Unicode box art (grok-mermaid)
 - **Source** : Simon Willison
 - **Date** : 2026-07-16T00:33
@@ -176,16 +193,6 @@ graph LR
 I've been impressed by the way the Claude web_fetch tool is de...
 - **Lien** : https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything
 
-### DOOMQL
-- **Source** : Simon Willison
-- **Date** : 2026-07-13T22:34
-- **Score** : 1
-- **Résumé** : DOOMQL
-Peter Gostev built this using GPT-5.6 Sol. This is a lot of fun: 
-
-DOOMQL started with a deliberately unreasonable question: what if SQLite were the game engine, not merely the place where a g...
-- **Lien** : https://simonwillison.net/2026/Jul/13/doomql/#atom-everything
-
 ### What building Shippy taught us about building agents
 - **Source** : Hugging Face Blog
 - **Date** : Wed, 15 Jul 2026
@@ -193,19 +200,12 @@ DOOMQL started with a deliberately unreasonable question: what if SQLite were th
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/allenai/shippy-tech-blog
 
-### Data for Agents
-- **Source** : Hugging Face Blog
-- **Date** : Wed, 08 Jul 2026
+### Why teens deserve access to safe AI
+- **Source** : OpenAI Blog
+- **Date** : Thu, 16 Jul 2026
 - **Score** : 1
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/nvidia/open-data-for-agents
-
-### Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot
-- **Source** : Hugging Face Blog
-- **Date** : Tue, 07 Jul 2026
-- **Score** : 1
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/skypilot-hf-storage
+- **Résumé** : Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships....
+- **Lien** : https://openai.com/index/why-teens-deserve-access-safe-ai
 
 ### GPT-Red: Unlocking Self-Improvement for Robustness
 - **Source** : OpenAI Blog
@@ -242,11 +242,11 @@ DOOMQL started with a deliberately unreasonable question: what if SQLite were th
 - **Résumé** : Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work....
 - **Lien** : https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot
 
-### GPT-5.6: Frontier intelligence that scales with your ambition
-- **Source** : OpenAI Blog
-- **Date** : Thu, 09 Jul 2026
+### LWiAI Podcast #245 - TML-Interaction, Claude For Legal, Sam Altman on Stand
+- **Source** : Last Week in AI
+- **Date** : Wed, 20 May 2026
 - **Score** : 1
-- **Résumé** : More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work....
-- **Lien** : https://openai.com/index/gpt-5-6
+- **Résumé** : OpenAI launches new voice intelligence features in its API, Thinking Machines drops a new, highly responsive model designed for humanlike interactions in real time, and more!...
+- **Lien** : https://lastweekin.ai/p/lwiai-podcast-245-tml-interaction
 
 <!-- BLOG_FEED_END -->
