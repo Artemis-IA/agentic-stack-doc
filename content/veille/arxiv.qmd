@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution
-- **arXiv** : 2607.13034v1
-- **Date** : 2026-07-14
-- **Auteurs** : Junjie Yin, Xinyu Feng
+### VisualRepair: Dynamic Tool Calling and Region Focusing for Visual Software Issue Repair
+- **arXiv** : 2607.14075v1
+- **Date** : 2026-07-15
+- **Auteurs** : Jingyu Xiao, Zhongyi Zhang, Haoran Hou, Yuxuan Wan, Yuan Jiang
+- **Score** : 12
+- **Résumé** : Automated Program Repair (APR) has witnessed significant progress with the advent of Large Language Models (LLMs). However, as modern software systems increasingly expose rich graphical user interfaces, effectively leveraging visual information from bug screenshots has become essential for understan...
+- **Lien** : https://arxiv.org/abs/2607.14075v1
+
+### Experience Memory Graph: One-Shot Error Correction for Agents
+- **arXiv** : 2607.13884v1
+- **Date** : 2026-07-15
+- **Auteurs** : Wenjun Wang, Yuchen Fang, Fengrui Liu, Zibo Liang, Kai Zheng
+- **Score** : 12
+- **Résumé** : Large Language Model (LLM) agents have shown remarkable capabilities in autonomous decision-making by generating sequential trajectories of states, actions, and observations. However, in complex, long-horizon tasks, these agents frequently suffer from compounding errors and struggle to recover from ...
+- **Lien** : https://arxiv.org/abs/2607.13884v1
+
+### The Dynamic Verifiable Multi-Agent Human Agentic Loyalty Loop (DVM-HALL) Model and the Net Human-Agent Score (NHAS) in Autonomous Commerce
+- **arXiv** : 2607.13998v1
+- **Date** : 2026-07-15
+- **Auteurs** : Sai Srikanth Madugula, Peplluis Esteva de la Rosa, Daya Shankar
 - **Score** : 9
-- **Résumé** : Large language model (LLM) agents increasingly automate multi-step engineering and informatics workflows, yet they rarely ask how much effort a task actually requires. They often follow a maximum-context-first strategy--re-reading files and dependencies they have already seen--turning a one-line edi...
-- **Lien** : https://arxiv.org/abs/2607.13034v1
+- **Résumé** : The rapid proliferation of Agentic Artificial Intelligence fundamentally disrupts traditional customer loyalty paradigms. As AI evolves from passive recommendation algorithms to autonomous, goal-directed agents capable of executing purchasing decisions, the conventional understanding of consumer-bra...
+- **Lien** : https://arxiv.org/abs/2607.13998v1
 
-### PalmClaw: A Native On-Device Agent Framework for Mobile Phones
-- **arXiv** : 2607.13027v1
-- **Date** : 2026-07-14
-- **Auteurs** : Hongru Cai, Yongqi Li, Ran Wei, Wenjie Li
-- **Score** : 9
-- **Résumé** : Large Language Model (LLM) agents have moved beyond generating responses to executing multi-step tasks by calling tools, observing the results, and iteratively deciding the next action. Most agent systems run on desktops or servers, which support tool use and task automation. Mobile devices are also...
-- **Lien** : https://arxiv.org/abs/2607.13027v1
-
-### Can LLMs Write Reliable Rubrics? A Meta-Evaluation for Experiment Reproduction
-- **arXiv** : 2607.12835v1
-- **Date** : 2026-07-14
-- **Auteurs** : Hanhua Hong, Yizhi Li, Jiaoyan Chen, Luu Gia Huy, Sophia Ananiadou
-- **Score** : 8
-- **Résumé** : Rubric-based evaluation is a promising approach for assessing open-ended outputs from LLM-based research agents, particularly in paper reproduction, where direct paper-to-repository comparison is prone to hallucination. However, constructing paper-specific rubrics requires substantial expert effort,...
-- **Lien** : https://arxiv.org/abs/2607.12835v1
-
-### Win by Silence: Deletion Non-Monotonicity, Autonomous Exploitation, and Typed-State Gating in LLM Plan Evaluation
-- **arXiv** : 2607.12986v1
-- **Date** : 2026-07-14
-- **Auteurs** : Aleh Manchuliantsau
-- **Score** : 7
-- **Résumé** : Plan evaluators can reward a strategic plan for becoming less explicit. This paper studies that failure in a staged expected-value scorer for LLM-generated venture routes. Proposition 1 gives the score change from deleting an interior transition while retargeting its predecessor and retaining downst...
-- **Lien** : https://arxiv.org/abs/2607.12986v1
-
-### MemOps: Benchmarking Lifecycle Memory Operations in Long-Horizon Conversations
-- **arXiv** : 2607.12893v1
-- **Date** : 2026-07-14
-- **Auteurs** : Xixuan Hao, Zeyu Zhang, Zehao Lin, Yihang Sun, Ziliang Guo
-- **Score** : 7
-- **Résumé** : Long-term memory has become a foundational capability for LLM-based agents that accompany users across extended, multi-session interactions. Existing benchmarks, however, evaluate such memory almost exclusively through downstream question answering, scoring only the correctness of a final answer. Th...
-- **Lien** : https://arxiv.org/abs/2607.12893v1
-
-### Accelerating Masked Diffusion Large Language Models: A Survey of Efficient Inference Techniques
-- **arXiv** : 2607.12829v1
-- **Date** : 2026-07-14
-- **Auteurs** : Daehoon Gwak, Minhyung Lee, Junwoo Park, Jaegul Choo
-- **Score** : 7
-- **Résumé** : Diffusion large language models (dLLMs) offer a theoretical advantage in parallel generation over standard autoregressive models. However, parallel generation alone does not guarantee practical speedups. Realizing this efficiency requires specialized inference mechanisms, such as diffusion-aware cac...
-- **Lien** : https://arxiv.org/abs/2607.12829v1
-
-### TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale
-- **arXiv** : 2607.13028v1
-- **Date** : 2026-07-14
-- **Auteurs** : Zhouchonghao Wu, Akshay Rangesh, Weixin Li, Wei-Jer Chang, Zachary Lee
+### Deep Interaction: An Efficient Human-AI Interaction Method for Large Reasoning Models
+- **arXiv** : 2607.14049v1
+- **Date** : 2026-07-15
+- **Auteurs** : Hefeng Zhou, Jinxuan Zhang, Jiong Lou, Yuxin Liu, Chaochao Lu
 - **Score** : 6
-- **Résumé** : Training robust autonomous driving agents requires a simulator that is fast enough for reinforcement learning at scale, realistic enough to ground behavior in real-world map structure, and diverse enough to cover the safety-critical long tail that logged data rarely contains. We present TerraZero, a...
-- **Lien** : https://arxiv.org/abs/2607.13028v1
+- **Résumé** : The emergence of Chain-of-Thought (CoT) reasoning has significantly enhanced the ability of large language models (LLMs) to tackle complex, multi-step tasks. However, when errors occur, current interaction approaches typically involve re-generating another response that may make mistakes again, or u...
+- **Lien** : https://arxiv.org/abs/2607.14049v1
 
-### Resist and Update: Counterfactual Report Coordinates for Incentive-Compatible LLMs
-- **arXiv** : 2607.12985v1
-- **Date** : 2026-07-14
-- **Auteurs** : Sen Yang, Yuen-Hei Yeung
+### Can an Old Dog Be Taught New Tricks? Taking LLMs Beyond Sentence Level Translation
+- **arXiv** : 2607.14040v1
+- **Date** : 2026-07-15
+- **Auteurs** : Alaina Brandt
 - **Score** : 6
-- **Résumé** : Aligned language models routinely misreport under non-evidential incentive pressure: they agree with a confident user or overstate certainty even when their internal belief is unchanged. We cast this as a failure of internal incentive-compatibility (IC) and present a method for learning and certifyi...
-- **Lien** : https://arxiv.org/abs/2607.12985v1
+- **Résumé** : Automatic translation systems, from CAT tools to MT, overwhelmingly treat translation as a sentence-by-sentence act. This paper asks whether LLMs can be moved beyond that paradigm through whole-document, corpus-informed translation. We present PAT (Pragmatic Auto-Translator), a RAG-based system that...
+- **Lien** : https://arxiv.org/abs/2607.14040v1
 
-### FormalAnalyticGeo: A Neural-Symbolic Based Framework for Multimodal Analytic Geometry Problem Generation
-- **arXiv** : 2607.12982v1
-- **Date** : 2026-07-14
-- **Auteurs** : Ruoran Xu, Wending Gao, Qiufeng Wang
+### Early Adoption of Agentic Coding Tools by GitHub Projects
+- **arXiv** : 2607.14037v1
+- **Date** : 2026-07-15
+- **Auteurs** : Maliha Noushin Raida, Daqing Hou
 - **Score** : 6
-- **Résumé** : Math reasoning has achieved significant progress with the rapid advancement of Multimodal Large Language Models (MLLMs), however analytic geometry remains largely underexplored, primarily due to the scarcity of annotated samples. Existing diagram generation approaches struggle with analytic geometry...
-- **Lien** : https://arxiv.org/abs/2607.12982v1
+- **Résumé** : Agentic coding tools are increasingly capable of generating and submitting pull requests (PRs) to software projects, introducing new forms of human-agent collaboration in software development. While prior studies have examined PR-level outcomes of agent-generated contributions, less is known about h...
+- **Lien** : https://arxiv.org/abs/2607.14037v1
 
-### The Illusion of Robustness: Aggregate Accuracy Hides Prediction Flips under Task-Irrelevant Context
-- **arXiv** : 2607.12963v1
-- **Date** : 2026-07-14
-- **Auteurs** : Yanzhe Zhang, Sanmi Koyejo, Diyi Yang
+### Pezego-HITL: A policy-grounded large language model architecture for agricultural extension in Ghana
+- **arXiv** : 2607.13934v1
+- **Date** : 2026-07-15
+- **Auteurs** : Shunbao Li, Zhipeng Yuan, Amoako Ofori, Benedicta Y. Fosu-Mensah, Yang Li
 - **Score** : 6
-- **Résumé** : As large language models (LLMs) grow more capable, they are increasingly deployed in context-rich settings where task inputs are often accompanied by long, partially irrelevant context. In a controlled setting, we find that state-of-the-art models often appear robust to task-irrelevant context at th...
-- **Lien** : https://arxiv.org/abs/2607.12963v1
+- **Résumé** : Large language models are increasingly deployed in agricultural decision-support settings, yet high-stakes crop protection in smallholder agriculture requires more than output-quality benchmarks. Over a two-year design and evaluation programme, we formalise policy-constrained large language model as...
+- **Lien** : https://arxiv.org/abs/2607.13934v1
 
-### A Multi-Agent System for Autonomous, Fine-Tuning-Free Clinical Symptom Detection: Development and Validation Study
-- **arXiv** : 2607.12886v1
-- **Date** : 2026-07-14
-- **Auteurs** : Cameron Cagan, Pedram Fard, Jiazi Tian, Jingya Cheng, Shawn N. Murphy
+### SPyCE: Skill-Policy Co-evolution for Multimodal Agents
+- **arXiv** : 2607.13854v1
+- **Date** : 2026-07-15
+- **Auteurs** : Ru Zhang, Weijie Qiu
 - **Score** : 6
-- **Résumé** : Clinical notes contain many of the signs and symptoms that bring patients to care, yet this information rarely reaches structured fields. Existing extraction approaches either rely on context-insensitive rules that generate false positives or on supervised models that require substantial fine-tuning...
-- **Lien** : https://arxiv.org/abs/2607.12886v1
+- **Résumé** : Multimodal agents that think with images iteratively manipulate visual evidence and invoke tools across many steps. Existing reinforcement learning methods reduce trajectories to scalar rewards, forcing the policy to discover reusable tool-use patterns from scratch on every new task; memory-based al...
+- **Lien** : https://arxiv.org/abs/2607.13854v1
 
-### Form, Not Content? A Preregistered, Placebo-Controlled Evaluation of Learned Error-Conditioned Self-Repair Through Prompts and Weights in Frozen Small Code Models
-- **arXiv** : 2607.12962v1
-- **Date** : 2026-07-14
-- **Auteurs** : Mehmet Iscan
+### Do Agent Optimizers Compound? A Continual-Learning Evaluation on Terminal-Bench 2.0
+- **arXiv** : 2607.14004v1
+- **Date** : 2026-07-15
+- **Auteurs** : Wenxiao Wang, Priyatham Kattakinda, Soheil Feizi
+- **Score** : 5
+- **Résumé** : Most reported gains from agent-optimization methods are one-shot: an agent is optimized against a fixed benchmark and the resulting improvement is reported as if it were a stable property of the method. This does not test the setting that matters for deployed agents, where optimization is applied re...
+- **Lien** : https://arxiv.org/abs/2607.14004v1
+
+### DeepStress: Stress-Testing Deep Search Agents
+- **arXiv** : 2607.13920v1
+- **Date** : 2026-07-15
+- **Auteurs** : Ismael Rousseau, Geraldine Damnati, Frederic Bechet
 - **Score** : 4
-- **Résumé** : Frozen small code LLMs are deployed locally, yet the information guiding a retry after a failed attempt is still measured without placebo controls in the self-repair literature. We treat a failed program as a conjecture and an execution counterexample as an oracle-relative refutation, and introduce ...
-- **Lien** : https://arxiv.org/abs/2607.12962v1
+- **Résumé** : While search agents demonstrate impressive capabilities in multi-step question answering, their robustness to poor-quality evidence remains under-explored. This phenomenon occurs rarely in realistic benchmarks but can lead to dramatic failure in real life applications. Therefore in this study we pro...
+- **Lien** : https://arxiv.org/abs/2607.13920v1
 
-### LLM Judges Can Be Too Generous When There Is No Reference Answer
-- **arXiv** : 2607.12885v1
-- **Date** : 2026-07-14
-- **Auteurs** : Chalamalasetti Kranti, Sowmya Vajjala
+### AIMO Interpretability Challenge
+- **arXiv** : 2607.13899v1
+- **Date** : 2026-07-15
+- **Auteurs** : Michal Štefánik, Philipp Mondorf, Andreas Waldis, Qianying Liu, Chuan Yang
 - **Score** : 4
-- **Résumé** : LLM judges are increasingly being used to evaluate open-ended model responses, often in no-reference settings where a ground-truth answer is unavailable. However, can they reliably assess in such evaluation setups? We explore this question in this paper through a two stage pipeline with a) calibrati...
-- **Lien** : https://arxiv.org/abs/2607.12885v1
+- **Résumé** : We propose the AIMO Interpretability Challenge, a competition on distinguishing robust from spurious reasoning in frontier mathematical language models based on the models' internal mechanisms. The challenge is motivated by a central limitation of standard reasoning benchmarks: strong final-answer a...
+- **Lien** : https://arxiv.org/abs/2607.13899v1
 
-### MetaInfer: A Knowledge Only LLM Inference Engine Generator SKILL Toolbox
-- **arXiv** : 2607.12875v1
-- **Date** : 2026-07-14
-- **Auteurs** : Zhenwen Miao, Honglin Wang, Mingheng Mi
+### Unleashing Multimodal Large Language Models for Training-free HOI Detection in the Wild
+- **arXiv** : 2607.13881v1
+- **Date** : 2026-07-15
+- **Auteurs** : Ting Lei, Jialin Liu, Zhu Xu, Yuxin Peng, Yang Liu
 - **Score** : 4
-- **Résumé** : As LLM technology advances, the space of model families, compute hardware, quantization schemes, parallelization strategies, and specialized optimization kernels continues to expand, sharply increasing the code complexity and maintenance cost of general-purpose inference frameworks. Conventional sof...
-- **Lien** : https://arxiv.org/abs/2607.12875v1
+- **Résumé** : Human-object interaction detection (HOID) has traditionally been formulated as a supervised detection problem over predefined interaction categories. While such paradigms achieve strong performance on closed-set benchmarks, they fundamentally entangle interaction understanding with dataset-specific ...
+- **Lien** : https://arxiv.org/abs/2607.13881v1
 
-### Toward Localizing and Repairing Bias in Transformer Attention Heads
-- **arXiv** : 2607.12863v1
-- **Date** : 2026-07-14
-- **Auteurs** : Sigma Jahan
-- **Score** : 4
-- **Résumé** : Transformer language models are increasingly used as software components, yet biased outputs remain difficult to localize and repair inside the model. Existing fairness testing and repair methods largely operate at the input-output or retraining level, while recent work suggests that bias-related be...
-- **Lien** : https://arxiv.org/abs/2607.12863v1
-
-### Privacy Attacks on Stable Marriage
-- **arXiv** : 2607.13015v1
-- **Date** : 2026-07-14
-- **Auteurs** : Stephan A. Fahrenkrog-Petersen, Aleksander Figiel, Darya Melnyk, Tijana Milentijević, Stefan Schmid
+### Leveraging unlabelled data for generalizable neural population decoding
+- **arXiv** : 2607.14086v1
+- **Date** : 2026-07-15
+- **Auteurs** : Ximeng Mao, Nanda H. Krishna, Avery Hee-Woon Ryoo, Matthew G. Perich, Guillaume Lajoie
 - **Score** : 3
-- **Résumé** : The stable marriage problem appears in many privacy-sensitive domains, for example in the National Resident Matching Program in the US. In such applications, preserving the privacy of users' preference lists is essential to prevent strategic manipulation, discourage misreporting, and comply with dat...
-- **Lien** : https://arxiv.org/abs/2607.13015v1
+- **Résumé** : Robust and accurate neural decoders are integral to neurotechnologies such as brain-computer interfaces and closed-loop experiments. Recent work has shown that tokenizing neural data at the spike level facilitates multi-session pretraining and delivers state-of-the-art decoding performance. However,...
+- **Lien** : https://arxiv.org/abs/2607.14086v1
 
-### Audio-Native Speech Recognition with a Frozen Discrete-Diffusion Language Model
-- **arXiv** : 2607.13013v1
-- **Date** : 2026-07-14
-- **Auteurs** : Harsha Vardhan Khurdula, Abhinav Kumar Singh, Yoeven D Khemlani, Vineet Agarwal
+### Hindcast: Replaying Prediction Markets to Evaluate LLM Forecasters
+- **arXiv** : 2607.14051v1
+- **Date** : 2026-07-15
+- **Auteurs** : Xiao Ye, Jacob Dineen, Evan Zhu, Shijie Lu, Kevin Song
 - **Score** : 3
-- **Résumé** : Automatic speech recognition is dominated by autoregressive decoders that emit one token at a time. We ask whether a discrete diffusion language model can transcribe speech instead, refining a whole transcript in parallel over a small number of denoising steps. We train an audio-native interface for...
-- **Lien** : https://arxiv.org/abs/2607.13013v1
+- **Résumé** : Forecasters are evaluated by backtesting, which replays resolved questions and grades the probability the system would have assigned before the outcome was known. For LLMs, two channels leak the answer into this test. A model that retrieves can surface reports written after the event, turning foreca...
+- **Lien** : https://arxiv.org/abs/2607.14051v1
 
-### Contrastive-Collapsed Loss for Flexible and Geometrically Optimal Embeddings and Faster Convergence
-- **arXiv** : 2607.12916v1
-- **Date** : 2026-07-14
-- **Auteurs** : Blanca Cano-Camarero, Ángela Fernández-Pascual, José R. Dorronsoro
+### AI-accelerated End-to-End Framework for Rapid Professional Upskilling
+- **arXiv** : 2607.14044v1
+- **Date** : 2026-07-15
+- **Auteurs** : Tam Nguyen, Hung Nguyen, Robert Ogburn
 - **Score** : 3
-- **Résumé** : In this work, we introduce CoCo, a loss function aimed at learning normalized and well-structured representations. The proposed loss encourages intra-class collapse and inter-class contrast while preserving sufficient flexibility for neural networks to approximate geometrically optimal embeddings wi...
-- **Lien** : https://arxiv.org/abs/2607.12916v1
+- **Résumé** : By 2030, 59 of every 100 workers will need reskilling or upskilling, yet the average time to close an enterprise skills gap grew from roughly 3 days in 2014 to 36 days in 2018. Most current frameworks accelerate single stages of upskilling programs and generally lack industry validation. We present ...
+- **Lien** : https://arxiv.org/abs/2607.14044v1
 
-### Evaluating Large Language Models on Misconceptions in Multi-Turn Medical Conversations
-- **arXiv** : 2607.12884v1
-- **Date** : 2026-07-14
-- **Auteurs** : Monica Munnangi, Saiph Savage
+### Lyapunov Exponent as Physics-Informed Dense Reward: RL Discovery of Stabilization Beyond the Kapitza Pendulum
+- **arXiv** : 2607.14001v1
+- **Date** : 2026-07-15
+- **Auteurs** : Slava Andrejev
 - **Score** : 3
-- **Résumé** : Patients seeking medical information often ask questions that embed incorrect assumptions or misconceptions. In such cases, safe medical communication requires not only answering the question, but identifying and correcting the underlying false belief. These interactions naturally unfold over multip...
-- **Lien** : https://arxiv.org/abs/2607.12884v1
+- **Résumé** : We suggest using the Lyapunov characteristic exponent (LCE) as a dense reward signal for the reinforcement learning problem of stabilizing the inverted pendulum with vertical motion. With LCE, the agent not only successfully found the oscillatory motion known as the Kapitza pendulum but also damped ...
+- **Lien** : https://arxiv.org/abs/2607.14001v1
 
-### Unveiling Complex Collective Behaviors from Simple Rewards
-- **arXiv** : 2607.12861v1
-- **Date** : 2026-07-14
-- **Auteurs** : Yize Mi, Jianan Li, Liang Li, Shiyu Zhao
+### TRACE: Turn-level Reward Assignment via Credit Estimation for Long-Horizon Agents
+- **arXiv** : 2607.13988v1
+- **Date** : 2026-07-15
+- **Auteurs** : Leitian Tao, Baolin Peng, Wenlin Yao, Tao Ge, Hao Cheng
 - **Score** : 3
-- **Résumé** : Multi-agent Reinforcement Learning (MARL) holds great potential for robot swarms, but the black-box nature of neural policies complicates strategic analysis, limiting multi-robot applications. Furthermore, complex swarm behaviors can surprisingly emerge from simple rewards without explicit aggregati...
-- **Lien** : https://arxiv.org/abs/2607.12861v1
+- **Résumé** : Multi-turn agents solve complex tasks through extended sequences of tool interactions before producing a final answer, making credit assignment a fundamental challenge during post-training. Outcome rewards provide reliable supervision for short-horizon reasoning, but become sparse and high-variance ...
+- **Lien** : https://arxiv.org/abs/2607.13988v1
+
+### ProfMalPlus: Agent-Coordinated Detection of Malicious NPM Packages via Static-Dynamic Analysis Synergy
+- **arXiv** : 2607.13965v1
+- **Date** : 2026-07-15
+- **Auteurs** : Yiheng Huang, Zhijia Zhao, Bihuan Chen, Susheng Wu, Zhuotong Zhou
+- **Score** : 3
+- **Résumé** : Open source software is vulnerable to supply-chain attacks through transitive dependencies, especially malicious code injected into NPM packages. Existing detectors often inadequately model obfuscated behavior, overlook JavaScript's object-centric features, poorly coordinate static and dynamic analy...
+- **Lien** : https://arxiv.org/abs/2607.13965v1
+
+### A Self-Evolving Agent for Longitudinal Personal Health Management
+- **arXiv** : 2607.13940v1
+- **Date** : 2026-07-15
+- **Auteurs** : Haoran Li, Jiebi Deng, Tong Jin, Jinghong Han, Yuxin Wang
+- **Score** : 3
+- **Résumé** : Personal health management unfolds over repeated encounters, yet most health AI systems treat each request in isolation. We developed HealthClaw, an open-source agent architecture that updates support as a person's routines, preferences, measurements and risks change. It separates shared safety rule...
+- **Lien** : https://arxiv.org/abs/2607.13940v1
+
+### Partially Correlated Verifier Cascades in LLM Harnesses: Concave Log-Odds, Polynomial Reliability, and Blind-Spot Ceilings
+- **arXiv** : 2607.13918v1
+- **Date** : 2026-07-15
+- **Auteurs** : Jiangang Han
+- **Score** : 3
+- **Résumé** : Serial verification gates are a core reliability primitive in LLM harnesses: a candidate answer is returned only if $k$ verifier calls all accept it. Under conditionally independent gates, the recent Odds Law (arXiv:2606.15712) shows that posterior log-odds grow linearly in $k$, so failure decays ex...
+- **Lien** : https://arxiv.org/abs/2607.13918v1
 
 <!-- ARXIV_FEED_END -->
