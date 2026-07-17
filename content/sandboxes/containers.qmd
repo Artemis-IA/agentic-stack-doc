@@ -175,7 +175,7 @@ OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe
 ### [wasm3](https://github.com/wasm3/wasm3)
 🚀 A fast WebAssembly interpreter and the most universal WASM runtime
 
-⭐ 8.0k | `C` | Licence: MIT | MAJ: 2026-07-15
+⭐ 8.0k | `C` | Licence: MIT | MAJ: 2026-07-17
 **Tags** : `containers`, `cosmopolitan`, `devops`, `edge-computing`, `embedded`, `iot`, `sandbox`, `scripting`
 
 ### [omnigent](https://github.com/omnigent-ai/omnigent)
@@ -202,34 +202,34 @@ Run GUI applications and desktops in docker and podman containers. Focus on secu
 ⭐ 6.3k | `Shell` | Licence: MIT | MAJ: 2026-07-16
 **Tags** : `containers`, `desktop`, `docker`, `gpu`, `gui`, `html5`, `nerdctl`, `podman`
 
-### [Wllama](https://github.com/ngxson/wllama)
-WebAssembly binding for llama.cpp - Enabling in-browser LLM inference
+### [smolvm](https://github.com/smol-machines/smolvm)
+Portable, lightweight, self-contained virtual machine.
 
-⭐ 1.1k | `TypeScript` | Licence: MIT | MAJ: 2026-07-17
-**Tags** : `llama`, `llamacpp`, `llm`, `wasm`, `webassembly`
+⭐ 4.4k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-07-17
+**Tags** : `containers`, `crun`, `libkrun`, `microvm`, `rust`, `virtual-machine`
 
-### [Greywall](https://github.com/GreyhavenHQ/greywall)
-Deny-by-default command sandbox for AI coding agents with filesystem isolation, network control via transparent proxy, built-in profiles for agents like Claude Code or OpenCode, and learning mode f...
+### [microvm.nix](https://github.com/microvm-nix/microvm.nix)
+NixOS MicroVMs
 
-⭐ 266 | `Go` | Licence: Apache-2.0 | MAJ: 2026-07-15
-**Tags** : `agents`, `ai-security`, `claude-code`, `developer-tools`, `greyproxy`, `landlock`, `linux`, `llm`
+⭐ 2.8k | `Nix` | Licence: MIT | MAJ: 2026-07-17
+**Tags** : `cloud-hypervisor`, `crosvm`, `firecracker`, `flake`, `flakes`, `kvmtool`, `microvm`, `microvms`
 
-### [Containarium](https://github.com/FootprintAI/Containarium)
-Open-source agent runtime — SSH-native isolation, eBPF egress policy, Kubernetes + LXC backends, GPU passthrough, MCP-native CLI
+### [forkd](https://github.com/deeplethe/forkd)
+Fork() for AI agent microVMs. Spawn 100 children in ~100ms from a warm parent; BRANCH a live VM in ~150ms. KVM-isolated, snapshot CoW.
 
-⭐ 261 | `Go` | Licence: Apache-2.0 | MAJ: 2026-07-17
-**Tags** : `agent-native`, `agent-runtime`, `agent-sandbox`, `agentic-ai`, `ai-agents`, `claude`, `code-sandbox`, `cursor`
+⭐ 2.7k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-07-17
+**Tags** : `ai-agents`, `copy-on-write`, `kvm`, `microvm`, `rust`, `sandbox`, `snapshot`
 
-### [sandboxes](https://github.com/nalgeon/sandboxes)
-Sandboxes for running code and tools
+### [flintlock](https://github.com/liquidmetal-dev/flintlock)
+Lock, Stock, and Two Smoking MicroVMs. Create and manage the lifecycle of MicroVMs backed by containerd.
 
-⭐ 127 | `Shell` | Licence: Apache-2.0 | MAJ: 2026-07-17
-**Tags** : `codapi`, `code-sandbox`, `sandbox`
+⭐ 1.4k | `Go` | Licence: MPL-2.0 | MAJ: 2026-07-17
+**Tags** : `cni`, `firecracker`, `kvm`, `microvm`, `oci`
 
-### [sample-autonomous-cloud-coding-agents](https://github.com/aws-samples/sample-autonomous-cloud-coding-agents)
-Autonomous background coding agents on AWS. Turn tasks into pull requests via isolated runtimes, with built-in orchestration, observability, and governance.
+### [kuasar](https://github.com/kuasar-io/kuasar)
+A multi-sandbox container runtime that provides cloud-native, all-scenario multiple sandbox container solutions.
 
-⭐ 111 | `TypeScript` | Licence: MIT-0 | MAJ: 2026-07-14
-**Tags** : `agent-sandbox`, `agentcore`, `autonomous-agents`, `aws`, `background-agents`, `code-sandbox`, `coding-agents`, `dark-factory`
+⭐ 1.4k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-07-10
+**Tags** : `cloud-hypervisor`, `cloud-native`, `cncf`, `containerd`, `containers`, `cri`, `docker`, `microvm`
 
 <!-- TOOLS_SANDBOX_END -->

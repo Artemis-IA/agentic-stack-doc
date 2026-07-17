@@ -123,18 +123,6 @@ graph TD
 ## Outils & frameworks hardware découverts automatiquement
 
 <!-- TOOLS_HARDWARE_START -->
-### [tritonparse](https://github.com/meta-pytorch/tritonparse)
-TritonParse: A Compiler Tracer, Visualizer, and Reproducer for Triton Kernels
-
-⭐ 211 | `Python` | Licence: BSD-3-Clause | MAJ: 2026-07-16
-**Tags** : `compiler`, `debugging`, `gpu-kernel`, `interactive-visualization`, `ir-analysis`, `ir-visualization`, `pytorch`, `structured-logging`
-
-### [SparseTIR](https://github.com/uwsampl/SparseTIR)
-SparseTIR: Sparse Tensor Compiler for Deep Learning
-
-⭐ 145 | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-14
-**Tags** : `compiler`, `sparse`, `tensor-compiler`
-
 ### [gpartin/WaveGuardClient](https://github.com/gpartin/WaveGuardClient)
 !WaveGuard MCP server 🐍 ☁️ 🍎 🪟 🐧 - Physics-based anomaly detection via MCP. Uses Klein-Gordon wave equations on GPU to detect anomalies with high precision (avg 0.90). 9 tools: scan, fingerprint, c...
 
