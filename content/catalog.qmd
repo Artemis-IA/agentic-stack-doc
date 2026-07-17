@@ -6,7 +6,7 @@ date-format: "YYYY-MM-DD"
 
 # Catalogue des Outils & Frameworks
 
-> **477 outils** recensés automatiquement le 2026-07-16.
+> **466 outils** recensés automatiquement le 2026-07-17.
 > Ce catalogue est mis à jour automatiquement par les scripts de veille.
 
 ## Vue d'ensemble par catégorie
@@ -14,38 +14,38 @@ date-format: "YYYY-MM-DD"
 | Catégorie | Nombre d'outils | |
 |-----------|----------------|-|
 | [Frameworks Agentic](#cat-framework) | 100 | |
-| [Hardware & Accélérateurs](#cat-hardware) | 1 | |
-| [Harnesses & IDEs IA](#cat-harness) | 90 | |
+| [Hardware & Accélérateurs](#cat-hardware) | 3 | |
+| [Harnesses & IDEs IA](#cat-harness) | 65 | |
 | [LLMs & Inference](#cat-llm) | 100 | |
 | [MCP Servers](#cat-mcp) | 100 | |
-| [RAG & GraphRAG](#cat-rag) | 55 | |
-| [Sandboxes & Exécution](#cat-sandbox) | 26 | |
-| [Skills & Outils](#cat-skill) | 5 | |
+| [RAG & GraphRAG](#cat-rag) | 60 | |
+| [Sandboxes & Exécution](#cat-sandbox) | 27 | |
+| [Skills & Outils](#cat-skill) | 11 | |
 
 ## Top 20 — Tous catégories
 
 | Outil | Description | Stars | Langage | Licence | Dernière MAJ |
 |-------|-------------|-------|---------|---------|-------------|
-| [OpenClaw](https://github.com/openclaw/openclaw) | Open-source AI agent framework that turns LLMs into persistent, proactive personal AI agents with... | 383.1k | TypeScript | NOASSERTION | 2026-07-16 |
-| [ECC](https://github.com/affaan-m/ECC) | The agent harness performance optimization system. Skills, instincts, memory, security, and resea... | 230.3k | JavaScript | MIT | 2026-07-16 |
-| [hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you | 215.9k | Python | MIT | 2026-07-16 |
-| [OpenCode](https://github.com/sst/opencode) | The AI coding agent built for the terminal. !GitHub Repo stars | 186.5k | TypeScript | MIT | 2026-07-16 |
-| [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT) | an experimental open-source application showcasing the capabilities of the GPT-4 language model. | 185.6k | Python | NOASSERTION | 2026-07-16 |
-| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to pr... | 185.6k | Python | NOASSERTION | 2026-07-16 |
-| [ollama](https://github.com/ollama/ollama) | Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other mod... | 176.3k | Go | MIT | 2026-07-16 |
-| [prompts.chat](https://github.com/f/prompts.chat) | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and... | 165.9k | HTML | NOASSERTION | 2026-07-16 |
-| [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) | A collection of prompt examples to be used with the ChatGPT model. | 165.9k | HTML | NOASSERTION | 2026-07-16 |
-| [transformers](https://github.com/huggingface/transformers) | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in te... | 162.7k | Python | Apache-2.0 | 2026-07-16 |
-| [firecrawl](https://github.com/firecrawl/firecrawl) | The API to search, scrape, and interact with the web at scale. 🔥 | 151.9k | TypeScript | AGPL-3.0 | 2026-07-16 |
-| [dify](https://github.com/langgenius/dify) | Production-ready platform for agentic workflow development. | 149.1k | TypeScript | NOASSERTION | 2026-07-16 |
-| [open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 145.7k | Python | NOASSERTION | 2026-07-16 |
-| [langchain](https://github.com/langchain-ai/langchain) | The agent engineering platform. | 141.9k | Python | MIT | 2026-07-16 |
-| [LangChain](https://github.com/hwchase17/langchain) | the original 🐍 !GitHub Repo stars | 141.9k | Python | MIT | 2026-07-16 |
-| [llama.cpp](https://github.com/ggerganov/llama.cpp) | LLM inference in C/C++. | 120.6k | C++ | MIT | 2026-07-16 |
-| [generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 21 Lessons, Get Started Building with Generative AI | 113.1k | Jupyter Notebook | MIT | 2026-07-16 |
-| [browser-use](https://github.com/browser-use/browser-use) | 🌐 Make websites accessible for AI agents. Automate tasks online with ease. | 105.1k | Python | MIT | 2026-07-16 |
-| [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) | First open-sourced GPT-4o level model. | 103.9k | Python | MIT | 2026-07-16 |
-| [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | Implement a ChatGPT-like LLM in PyTorch from scratch, step by step | 99.2k | Jupyter Notebook | NOASSERTION | 2026-07-16 |
+| [OpenClaw](https://github.com/openclaw/openclaw) | Open-source AI agent framework that turns LLMs into persistent, proactive personal AI agents with... | 383.2k | TypeScript | NOASSERTION | 2026-07-17 |
+| [hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you | 216.1k | Python | MIT | 2026-07-17 |
+| [OpenCode](https://github.com/sst/opencode) | The AI coding agent built for the terminal. !GitHub Repo stars | 186.7k | TypeScript | MIT | 2026-07-17 |
+| [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT) | an experimental open-source application showcasing the capabilities of the GPT-4 language model. | 185.6k | Python | NOASSERTION | 2026-07-17 |
+| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3, Mistral, Gemma, and other large language models. | 176.3k | Go | MIT | 2026-07-17 |
+| [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) | A collection of prompt examples to be used with the ChatGPT model. | 165.9k | HTML | NOASSERTION | 2026-07-17 |
+| [Dify](https://github.com/langgenius/dify) | An open-source LLM app development platform with an intuitive interface that streamlines AI workf... | 149.1k | TypeScript | NOASSERTION | 2026-07-17 |
+| [LangChain](https://github.com/hwchase17/langchain) | the original 🐍 !GitHub Repo stars | 142.0k | Python | MIT | 2026-07-17 |
+| [llama.cpp](https://github.com/ggerganov/llama.cpp) | LLM inference in C/C++. | 120.7k | C++ | MIT | 2026-07-17 |
+| [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) | First open-sourced GPT-4o level model. | 103.9k | Python | MIT | 2026-07-17 |
+| [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1) | First-generation reasoning models from DeepSeek. | 92.0k | — | MIT | 2026-07-17 |
+| [vLLM](https://github.com/vllm-project/vllm) | A high-throughput and memory-efficient inference and serving engine for LLMs. | 86.5k | Python | Apache-2.0 | 2026-07-17 |
+| [ragflow](https://github.com/infiniflow/ragflow) | RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-e... | 85.3k | Go | Apache-2.0 | 2026-07-17 |
+| [OpenDevin](https://github.com/OpenDevin/OpenDevin) | 🙌 OpenHands: AI-Driven Development | 81.1k | Python | NOASSERTION | 2026-07-17 |
+| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | 🙌 OpenHands: Code Less, Make More. (formerly OpenDevin), a platform for software development agen... | 81.1k | Python | NOASSERTION | 2026-07-17 |
+| [llm-course](https://github.com/mlabonne/llm-course) | Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks. | 81.0k | — | Apache-2.0 | 2026-07-17 |
+| [Paperclip](https://github.com/paperclipai/paperclip) | Open-source platform to run coding agents as managed workers with tasks, approvals, budgets, and ... | 74.0k | TypeScript | MIT | 2026-07-17 |
+| [Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist) | 🗂 The essential checklist for modern web development, for humans and AI agents | 73.2k | MDX | — | 2026-07-17 |
+| [rtk](https://github.com/rtk-ai/rtk) | CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary... | 71.5k | Rust | Apache-2.0 | 2026-07-17 |
+| [learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | Bash is all you need - A nano claude code–like 「agent harness」, built from 0 to 1 | 71.3k | Python | MIT | 2026-07-17 |
 
 ## Frameworks Agentic {#cat-framework}
 
@@ -53,121 +53,123 @@ date-format: "YYYY-MM-DD"
 
 | Outil | Description | Stars | Langage | Licence | Dernière MAJ |
 |-------|-------------|-------|---------|---------|-------------|
-| [OpenClaw](https://github.com/openclaw/openclaw) | Open-source AI agent framework that turns LLMs into persistent, proactive personal AI agents with... | 383.1k | TypeScript | NOASSERTION | 2026-07-16 |
-| [hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you | 215.9k | Python | MIT | 2026-07-16 |
-| [OpenCode](https://github.com/sst/opencode) | The AI coding agent built for the terminal. !GitHub Repo stars | 186.5k | TypeScript | MIT | 2026-07-16 |
-| [deer-flow](https://github.com/bytedance/deer-flow) | An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help... | 77.2k | Python | MIT | 2026-07-16 |
-| [Paperclip](https://github.com/paperclipai/paperclip) | Open-source platform to run coding agents as managed workers with tasks, approvals, budgets, and ... | 73.9k | TypeScript | MIT | 2026-07-16 |
-| [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming | 69.4k | Python | MIT | 2026-07-16 |
-| [MetaGPT](https://github.com/geekan/MetaGPT) | 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming | 69.4k | Python | MIT | 2026-07-16 |
-| [open-interpreter](https://github.com/KillianLucas/open-interpreter) | A coding agent for low-cost models | 65.9k | Rust | Apache-2.0 | 2026-07-16 |
-| [Cline](https://github.com/cline/cline) | Open-source AI coding agent giving developers direct access to frontier models with full transpar... | 64.7k | TypeScript | Apache-2.0 | 2026-07-16 |
-| [autogen](https://github.com/microsoft/autogen) | A programming framework for agentic AI | 59.8k | Python | CC-BY-4.0 | 2026-07-16 |
-| [crewai](https://github.com/joaomdmoura/crewai) | Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intell... | 55.6k | Python | MIT | 2026-07-16 |
-| [Aider](https://github.com/Aider-AI/aider) | aider is AI pair programming in your terminal !GitHub Repo stars | 47.4k | Python | Apache-2.0 | 2026-07-16 |
-| [CowAgent](https://github.com/zhayujie/CowAgent) | Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves ... | 46.0k | Python | MIT | 2026-07-16 |
-| [nanobot](https://github.com/HKUDS/nanobot) | Ultra-lightweight personal AI assistant framework (~4,000 lines of Python). Supports MCP, 9+ chat... | 45.8k | Python | MIT | 2026-07-16 |
-| [Phidata](https://github.com/phidatahq/phidata) | Build AI Assistants with memory, knowledge and tools. !GitHub Repo stars | 41.2k | Python | Apache-2.0 | 2026-07-16 |
-| [tidb](https://github.com/pingcap/tidb) | TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native supp... | 40.3k | Go | Apache-2.0 | 2026-07-16 |
-| [agents](https://github.com/wshobson/agents) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Cop... | 38.0k | Python | MIT | 2026-07-16 |
-| [DSPy](https://github.com/stanfordnlp/dspy) | The framework for programming—not prompting—foundation models !GitHub Repo stars | 36.2k | Python | MIT | 2026-07-16 |
-| [continue](https://github.com/continuedev/continue) | open-source coding agent | 34.9k | TypeScript | Apache-2.0 | 2026-07-16 |
-| [ChatDev](https://github.com/OpenBMB/ChatDev) | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration | 33.7k | Python | Apache-2.0 | 2026-07-16 |
-| [GitHub (Issue Only)](https://github.com/getcursor/cursor) |  | 33.0k | — | — | 2026-07-16 |
-| [zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — de... | 32.3k | Rust | Apache-2.0 | 2026-07-16 |
-| [Storm](https://github.com/stanford-oval/storm) | An LLM-powered knowledge curation system that researches a topic and generates a full-length repo... | 30.1k | Python | MIT | 2026-07-16 |
-| [smolagents](https://github.com/huggingface/smolagents) | Open-source Python library designed to make it extremely easy to build and run agents using just ... | 28.4k | Python | Apache-2.0 | 2026-07-16 |
-| [agentscope](https://github.com/agentscope-ai/agentscope) | Build and run agents you can see, understand and trust. | 27.9k | Python | Apache-2.0 | 2026-07-16 |
-| [AgentScope](https://github.com/modelscope/agentscope) | Start building LLM-empowered multi-agent applications in an easier way. !GitHub Repo stars | 27.9k | Python | Apache-2.0 | 2026-07-16 |
-| [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | "Vibe-Trading: Your Personal Trading Agent" | 24.2k | Python | MIT | 2026-07-16 |
-| [GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents) | 50+ tutorials and implementations for Generative AI Agent techniques, from basic conversational b... | 23.2k | Jupyter Notebook | NOASSERTION | 2026-07-16 |
+| [OpenClaw](https://github.com/openclaw/openclaw) | Open-source AI agent framework that turns LLMs into persistent, proactive personal AI agents with... | 383.2k | TypeScript | NOASSERTION | 2026-07-17 |
+| [hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you | 216.1k | Python | MIT | 2026-07-17 |
+| [OpenCode](https://github.com/sst/opencode) | The AI coding agent built for the terminal. !GitHub Repo stars | 186.7k | TypeScript | MIT | 2026-07-17 |
+| [Paperclip](https://github.com/paperclipai/paperclip) | Open-source platform to run coding agents as managed workers with tasks, approvals, budgets, and ... | 74.0k | TypeScript | MIT | 2026-07-17 |
+| [Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist) | 🗂 The essential checklist for modern web development, for humans and AI agents | 73.2k | MDX | — | 2026-07-17 |
+| [learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | Bash is all you need - A nano claude code–like 「agent harness」, built from 0 to 1 | 71.3k | Python | MIT | 2026-07-17 |
+| [MetaGPT](https://github.com/geekan/MetaGPT) | 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming | 69.4k | Python | MIT | 2026-07-17 |
+| [open-interpreter](https://github.com/KillianLucas/open-interpreter) | A coding agent for open models like Kimi K3 | 66.1k | Rust | Apache-2.0 | 2026-07-17 |
+| [Cline](https://github.com/cline/cline) | Open-source AI coding agent giving developers direct access to frontier models with full transpar... | 64.7k | TypeScript | Apache-2.0 | 2026-07-17 |
+| [career-ops](https://github.com/santifer/career-ops) | Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applicatio... | 60.3k | JavaScript | MIT | 2026-07-17 |
+| [Autogen](https://github.com/microsoft/autogen) | Enable Next-Gen Large Language Model Applications. !GitHub Repo stars | 59.8k | Python | CC-BY-4.0 | 2026-07-17 |
+| [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system ... | 57.6k | Python | MIT | 2026-07-17 |
+| [Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHu... | 57.3k | Python | MIT | 2026-07-17 |
+| [crewai](https://github.com/joaomdmoura/crewai) | Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intell... | 55.7k | Python | MIT | 2026-07-17 |
+| [cherry-studio](https://github.com/CherryHQ/cherry-studio) | AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to... | 48.7k | TypeScript | AGPL-3.0 | 2026-07-17 |
+| [Aider](https://github.com/Aider-AI/aider) | aider is AI pair programming in your terminal !GitHub Repo stars | 47.4k | Python | Apache-2.0 | 2026-07-17 |
+| [CowAgent](https://github.com/zhayujie/CowAgent) | Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves ... | 46.0k | Python | MIT | 2026-07-17 |
+| [nanobot](https://github.com/HKUDS/nanobot) | Lightweight, open-source AI agent for your tools, chats, and workflows. | 45.8k | Python | MIT | 2026-07-17 |
+| [siyuan](https://github.com/siyuan-note/siyuan) | A privacy-first, self-hosted, fully open source personal knowledge management software, written i... | 45.2k | TypeScript | AGPL-3.0 | 2026-07-17 |
+| [BettaFish](https://github.com/666ghj/BettaFish) | 微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。 | 41.8k | Python | GPL-2.0 | 2026-07-17 |
+| [Phidata](https://github.com/phidatahq/phidata) | Build AI Assistants with memory, knowledge and tools. !GitHub Repo stars | 41.2k | Python | Apache-2.0 | 2026-07-17 |
+| [ppt-master](https://github.com/hugohe3/ppt-master) | AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions a... | 39.6k | Python | MIT | 2026-07-17 |
+| [DSPy](https://github.com/stanfordnlp/dspy) | The framework for programming—not prompting—foundation models !GitHub Repo stars | 36.2k | Python | MIT | 2026-07-17 |
+| [CopilotKit](https://github.com/CopilotKit/CopilotKit) | The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of... | 36.1k | TypeScript | MIT | 2026-07-17 |
+| [continue](https://github.com/continuedev/continue) | open-source coding agent | 34.9k | TypeScript | Apache-2.0 | 2026-07-17 |
+| [ChatDev](https://github.com/OpenBMB/ChatDev) | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration | 33.8k | Python | Apache-2.0 | 2026-07-17 |
+| [GitHub (Issue Only)](https://github.com/getcursor/cursor) |  | 33.0k | — | — | 2026-07-17 |
+| [AionUi](https://github.com/iOfficeAI/AionUi) | Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode... | 30.3k | TypeScript | Apache-2.0 | 2026-07-17 |
+| [openclaude](https://github.com/Gitlawb/openclaude) | runs anywhere. uses anything | 30.1k | TypeScript | NOASSERTION | 2026-07-17 |
+| [cli](https://github.com/googleworkspace/cli) | Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admi... | 29.8k | Rust | Apache-2.0 | 2026-07-17 |
+| [smolagents](https://github.com/huggingface/smolagents) | Open-source Python library designed to make it extremely easy to build and run agents using just ... | 28.4k | Python | Apache-2.0 | 2026-07-17 |
+| [AgentScope](https://github.com/modelscope/agentscope) | Start building LLM-empowered multi-agent applications in an easier way. !GitHub Repo stars | 28.0k | Python | Apache-2.0 | 2026-07-17 |
 | [localGPT](https://github.com/PromtEngineer/localGPT) | Chat with your documents on your local device using GPT models. No data leaves your device and 10... | 22.2k | Python | MIT | 2026-07-16 |
-| [Swarm](https://github.com/openai/swarm) | Educational framework exploring ergonomic, lightweight multi-agent orchestration by OpenAI. !GitH... | 21.8k | Python | MIT | 2026-07-16 |
-| [adk-python](https://github.com/google/adk-python) | An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated A... | 20.6k | Python | Apache-2.0 | 2026-07-16 |
-| [devika](https://github.com/stitionai/devika) | Devika is the first open-source implementation of an Agentic Software Engineer. Initially started... | 19.5k | Python | MIT | 2026-07-16 |
-| [eliza](https://github.com/elizaOS/eliza) | Open source agentic operating system | 18.8k | TypeScript | MIT | 2026-07-16 |
-| [Hindsight](https://github.com/vectorize-io/hindsight) | State-of-the-art long-term memory for AI agents by Vectorize. Open source, self-hostable, with in... | 18.5k | Python | MIT | 2026-07-16 |
-| [WeKnora](https://github.com/Tencent/WeKnora) | Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reason... | 18.4k | Go | NOASSERTION | 2026-07-16 |
-| [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 🎭 266 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。... | 17.4k | Shell | MIT | 2026-07-16 |
-| [camel](https://github.com/camel-ai/camel) | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https:/... | 17.4k | Python | Apache-2.0 | 2026-07-16 |
-| [edict](https://github.com/cft0808/edict) | 🏛️ 三省六部制 · OpenClaw Multi-Agent Orchestration System — 9 specialized AI agents with real-time das... | 16.2k | Python | MIT | 2026-07-16 |
-| [AI Scientist](https://github.com/SakanaAI/AI-Scientist) | The AI Scientist: Towards Fully Automated Open-Ended Scientific !GitHub Repo stars | 14.2k | Jupyter Notebook | NOASSERTION | 2026-07-16 |
-| [nanobrowser](https://github.com/nanobrowser/nanobrowser) | Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your ... | 13.5k | TypeScript | Apache-2.0 | 2026-07-16 |
-| [Pipecat](https://github.com/pipecat-ai/pipecat) | Open Source framework for voice and multimodal conversational AI. !GitHub Repo stars | 13.5k | Python | BSD-2-Clause | 2026-07-16 |
-| [e2b](https://github.com/e2b-dev/e2b) | Open-source platform for building & deploying virtual developers’ agents | 13.0k | Python | Apache-2.0 | 2026-07-16 |
-| [agent-framework](https://github.com/microsoft/agent-framework) | A framework for building, orchestrating and deploying AI agents and multi-agent workflows with su... | 12.2k | Python | MIT | 2026-07-16 |
-| [Claude Engineer](https://github.com/Doriandarko/claude-engineer) | Claude Engineer is an interactive command-line interface (CLI) that leverages the power of Anthro... | 11.2k | Python | — | 2026-07-15 |
-| [Hive](https://github.com/aden-hive/hive) | Open-source AI agent framework for building goal-driven, self-improving autonomous agents. Define... | 10.7k | Python | Apache-2.0 | 2026-07-16 |
-| [Arize-Phoenix](https://github.com/Arize-ai/phoenix) | Arize-Phoenix is an open source library for agent testing, evaluation and observability. !GitHub ... | 10.6k | Python | NOASSERTION | 2026-07-16 |
-| [learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) | Harness engineering beginner tutorial, from 0 to 1 | 10.4k | TypeScript | MIT | 2026-07-16 |
-| [spring-ai-alibaba](https://github.com/alibaba/spring-ai-alibaba) | Agentic AI Framework for Java Developers | 10.3k | Java | Apache-2.0 | 2026-07-16 |
-| [self-operating-computer](https://github.com/OthersideAI/self-operating-computer) | A framework to enable a multimodal model to operate a computer. | 10.2k | Python | MIT | 2026-07-16 |
-| [MemOS](https://github.com/MemTensor/MemOS) | Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross... | 10.2k | TypeScript | Apache-2.0 | 2026-07-16 |
+| [Swarm](https://github.com/openai/swarm) | Educational framework exploring ergonomic, lightweight multi-agent orchestration by OpenAI. !GitH... | 21.8k | Python | MIT | 2026-07-17 |
+| [agents-towards-production](https://github.com/NirDiamant/agents-towards-production) | End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to en... | 21.1k | Jupyter Notebook | NOASSERTION | 2026-07-17 |
+| [devika](https://github.com/stitionai/devika) | Devika is the first open-source implementation of an Agentic Software Engineer. Initially started... | 19.5k | Python | MIT | 2026-07-17 |
+| [pydantic-ai](https://github.com/pydantic/pydantic-ai) | AI Agent Framework, the Pydantic way | 18.6k | Python | MIT | 2026-07-17 |
+| [Hindsight](https://github.com/vectorize-io/hindsight) | State-of-the-art long-term memory for AI agents by Vectorize. Open source, self-hostable, with in... | 18.5k | Python | MIT | 2026-07-17 |
+| [openfang](https://github.com/RightNow-AI/openfang) | Open-source Agent Operating System | 18.0k | Rust | Apache-2.0 | 2026-07-17 |
+| [camel](https://github.com/camel-ai/camel) | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https:/... | 17.4k | Python | Apache-2.0 | 2026-07-17 |
+| [eigent](https://github.com/eigent-ai/eigent) | Eigent: The Open Source Cowork Desktop to Unlock Your Exceptional Productivity. Local and Free Al... | 14.6k | TypeScript | Apache-2.0 | 2026-07-17 |
+| [AI Scientist](https://github.com/SakanaAI/AI-Scientist) | The AI Scientist: Towards Fully Automated Open-Ended Scientific !GitHub Repo stars | 14.2k | Jupyter Notebook | NOASSERTION | 2026-07-17 |
+| [Pipecat](https://github.com/pipecat-ai/pipecat) | Open Source framework for voice and multimodal conversational AI. !GitHub Repo stars | 13.5k | Python | BSD-2-Clause | 2026-07-17 |
+| [e2b](https://github.com/e2b-dev/e2b) | Open-source platform for building & deploying virtual developers’ agents | 13.0k | Python | Apache-2.0 | 2026-07-17 |
+| [agent-framework](https://github.com/microsoft/agent-framework) | A framework for building, orchestrating and deploying AI agents and multi-agent workflows with su... | 12.2k | Python | MIT | 2026-07-17 |
+| [Claude Engineer](https://github.com/Doriandarko/claude-engineer) | Claude Engineer is an interactive command-line interface (CLI) that leverages the power of Anthro... | 11.2k | Python | — | 2026-07-17 |
+| [hive](https://github.com/aden-hive/hive) | Multi-Agent Harness for Production AI | 10.7k | Python | Apache-2.0 | 2026-07-17 |
+| [Arize-Phoenix](https://github.com/Arize-ai/phoenix) | Arize-Phoenix is an open source library for agent testing, evaluation and observability. !GitHub ... | 10.6k | Python | NOASSERTION | 2026-07-17 |
+| [self-operating-computer](https://github.com/OthersideAI/self-operating-computer) | A framework to enable a multimodal model to operate a computer. | 10.2k | Python | MIT | 2026-07-17 |
+| [bloop](https://github.com/BloopAI/bloop) | bloop is a fast code search engine written in Rust. | 9.5k | Rust | Apache-2.0 | 2026-07-16 |
 
 ## Hardware & Accélérateurs {#cat-hardware}
 
-**1 outils** dans cette catégorie.
+**3 outils** dans cette catégorie.
 
 | Outil | Description | Stars | Langage | Licence | Dernière MAJ |
 |-------|-------------|-------|---------|---------|-------------|
+| [tritonparse](https://github.com/meta-pytorch/tritonparse) | TritonParse: A Compiler Tracer, Visualizer, and Reproducer for Triton Kernels | 211 | Python | BSD-3-Clause | 2026-07-16 |
+| [SparseTIR](https://github.com/uwsampl/SparseTIR) | SparseTIR: Sparse Tensor Compiler for Deep Learning | 145 | Python | Apache-2.0 | 2026-07-14 |
 | [gpartin/WaveGuardClient](https://github.com/gpartin/WaveGuardClient) | !WaveGuard MCP server 🐍 ☁️ 🍎 🪟 🐧 - Physics-based anomaly detection via MCP. Uses Klein-Gordon wav... | 4 | Python | MIT | 2026-07-05 |
 
 ## Harnesses & IDEs IA {#cat-harness}
 
-**90 outils** dans cette catégorie.
+**65 outils** dans cette catégorie.
 
 | Outil | Description | Stars | Langage | Licence | Dernière MAJ |
 |-------|-------------|-------|---------|---------|-------------|
-| [rtk](https://github.com/rtk-ai/rtk) | CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary... | 71.4k | Rust | Apache-2.0 | 2026-07-16 |
-| [ruflo](https://github.com/ruvnet/ruflo) | 🌊 The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous w... | 64.7k | TypeScript | MIT | 2026-07-16 |
-| [gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | CLI platform to experiment with codegen. Precursor to: https://lovable.dev | 55.2k | Python | MIT | 2026-07-16 |
-| [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, ... | 50.2k | Python | NOASSERTION | 2026-07-16 |
-| [agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand ... | 43.4k | Python | MIT | 2026-07-16 |
-| [gpt-pilot](https://github.com/Pythagora-io/gpt-pilot) | The first real AI developer | 33.7k | Python | NOASSERTION | 2026-07-16 |
-| [tabby](https://github.com/TabbyML/tabby) | Self-hosted AI coding assistant | 33.7k | Rust | NOASSERTION | 2026-07-16 |
-| [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — lea... | 27.1k | Go | MIT | 2026-07-16 |
-| [serena](https://github.com/oraios/serena) | A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities - the ID... | 26.5k | Python | MIT | 2026-07-16 |
-| [kilocode](https://github.com/Kilo-Org/kilocode) | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the mos... | 26.3k | TypeScript | MIT | 2026-07-16 |
-| [Archon](https://github.com/coleam00/Archon) | The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable. | 22.9k | TypeScript | MIT | 2026-07-16 |
-| [code-review-graph](https://github.com/tirth8205/code-review-graph) | Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so ... | 19.6k | Python | MIT | 2026-07-16 |
-| [oh-my-pi](https://github.com/can1357/oh-my-pi) | ⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, br... | 18.1k | TypeScript | MIT | 2026-07-16 |
-| [claude-context](https://github.com/zilliztech/claude-context) | Code search MCP for Claude Code. Make entire codebase the context for any coding agent. | 12.1k | TypeScript | MIT | 2026-07-16 |
-| [pr-agent](https://github.com/The-PR-Agent/pr-agent) | 🚀 PR Agent: The Original Open-Source PR Reviewer. This project It is not the Qodo free tier. | 12.1k | Python | MIT | 2026-07-16 |
-| [codeburn](https://github.com/getagentseal/codeburn) | Free, local tool to track AI coding token usage and cost across 31 tools and agents (Claude Code,... | 8.7k | TypeScript | MIT | 2026-07-16 |
-| [ccpm](https://github.com/automazeio/ccpm) | Project management skill system for Agents that uses GitHub Issues and Git worktrees for parallel... | 8.3k | Shell | MIT | 2026-07-16 |
-| [loop-engineering](https://github.com/cobusgreyling/loop-engineering) | Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design syste... | 8.1k | JavaScript | MIT | 2026-07-16 |
+| [rtk](https://github.com/rtk-ai/rtk) | CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary... | 71.5k | Rust | Apache-2.0 | 2026-07-17 |
+| [ruflo](https://github.com/ruvnet/ruflo) | 🌊 The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous w... | 64.7k | TypeScript | MIT | 2026-07-17 |
+| [gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | CLI platform to experiment with codegen. Precursor to: https://lovable.dev | 55.2k | Python | MIT | 2026-07-17 |
+| [agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand ... | 43.4k | Python | MIT | 2026-07-17 |
+| [gpt-pilot](https://github.com/Pythagora-io/gpt-pilot) | The first real AI developer | 33.7k | Python | NOASSERTION | 2026-07-17 |
+| [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — lea... | 27.1k | Go | MIT | 2026-07-17 |
+| [serena](https://github.com/oraios/serena) | A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities - the ID... | 26.5k | Python | MIT | 2026-07-17 |
+| [kilocode](https://github.com/Kilo-Org/kilocode) | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the mos... | 26.3k | TypeScript | MIT | 2026-07-17 |
+| [code-review-graph](https://github.com/tirth8205/code-review-graph) | Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so ... | 19.6k | Python | MIT | 2026-07-17 |
+| [claude-context](https://github.com/zilliztech/claude-context) | Code search MCP for Claude Code. Make entire codebase the context for any coding agent. | 12.1k | TypeScript | MIT | 2026-07-17 |
+| [codeburn](https://github.com/getagentseal/codeburn) | Free, local tool to track AI coding token usage and cost across 31 tools and agents (Claude Code,... | 8.7k | TypeScript | MIT | 2026-07-17 |
+| [ccpm](https://github.com/automazeio/ccpm) | Project management skill system for Agents that uses GitHub Issues and Git worktrees for parallel... | 8.3k | Shell | MIT | 2026-07-17 |
+| [loop-engineering](https://github.com/cobusgreyling/loop-engineering) | Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design syste... | 8.2k | JavaScript | MIT | 2026-07-17 |
 | [my-git](https://github.com/xirong/my-git) | A practical Git & GitHub handbook for modern engineering teams and AI-native development workflow... | 7.4k | Python | MIT | 2026-07-14 |
-| [superpowers-zh](https://github.com/jnMetaCode/superpowers-zh) | 🦸 AI 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude Code / Copilot CLI / Herm... | 7.0k | JavaScript | MIT | 2026-07-16 |
-| [bananas](https://github.com/mistweaverco/bananas) | Bananas🍌, Cross-Platform screen 🖥️ sharing 📡 made simple ⚡. | 6.2k | Svelte | MIT | 2026-07-16 |
-| [vibe-vibe](https://github.com/datawhalechina/vibe-vibe) | AI for All: The First Systematic Vibe Coding Tutorial \| From Zero to Full-Stack, Bring Your Ideas... | 5.8k | Dockerfile | — | 2026-07-16 |
-| [Kaku](https://github.com/tw93/Kaku) | 🎃 A fast, out-of-the-box terminal built for AI coding. | 5.6k | Rust | NOASSERTION | 2026-07-16 |
-| [claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) | The most comprehensive Claude Code guide: agentic workflows, hooks, skills, MCP servers, quizzes,... | 5.5k | Python | CC-BY-SA-4.0 | 2026-07-16 |
-| [byterover-cli](https://github.com/campfirein/byterover-cli) | ByteRover CLI (brv) - The portable memory layer for autonomous coding agents (formerly Cipher) | 4.9k | TypeScript | NOASSERTION | 2026-07-16 |
-| [awesome-devteam](https://github.com/leehosung/awesome-devteam) | 좋은 개발팀을 만드는데 도움이 되는 자료 | 3.4k | — | MIT | 2026-07-08 |
-| [teleconsole](https://github.com/gravitational/teleconsole) | Command line tool to share your UNIX terminal and forward local TCP ports to people you trust. | 2.8k | Go | Apache-2.0 | 2026-06-15 |
-| [live-share](https://github.com/microsoft/live-share) | Real-time collaborative development from the comfort of your favorite tools | 2.4k | — | CC-BY-4.0 | 2026-07-12 |
-| [AgentsMesh](https://github.com/AgentsMesh/AgentsMesh) | The AI Agent Workforce Platform. Remote AI workstations (AgentPods) with PTY sandbox + git worktr... | 2.3k | Go | NOASSERTION | 2026-07-16 |
-| [Nanocoder](https://github.com/Nano-Collective/nanocoder) | Local-first CLI coding agent built with React and Ink. !GitHub Repo stars | 2.2k | TypeScript | NOASSERTION | 2026-07-16 |
-| [mcp-shrimp-task-manager](https://github.com/cjo4m06/mcp-shrimp-task-manager) | Shrimp Task Manager is a task tool built for AI Agents, emphasizing chain-of-thought, reflection,... | 2.1k | JavaScript | MIT | 2026-07-15 |
-| [awesome-ai-coding-tools](https://github.com/ai-for-developers/awesome-ai-coding-tools) | A curated list of AI-powered coding tools | 1.9k | — | MIT | 2026-07-16 |
-| [mob](https://github.com/remotemobprogramming/mob) | Tool for smooth git handover. | 1.8k | Go | MIT | 2026-07-15 |
-| [zeroshot](https://github.com/the-open-engine/zeroshot) | Your autonomous engineering team in a CLI. The agent loop produces senior-level code that you can... | 1.6k | JavaScript | MIT | 2026-07-16 |
-| [awesome-agile](https://github.com/lorabv/awesome-agile) | Awesome List of resources on Agile Software Development. | 1.5k | — | CC0-1.0 | 2026-07-14 |
-| [git-lrc](https://github.com/HexmosTech/git-lrc) | Free, Micro AI Code Reviews That Run on Git Commit | 1.4k | Go | NOASSERTION | 2026-07-16 |
-| [BitFun](https://github.com/GCWing/BitFun) | BitFun is a desktop-grade Agent runtimeand a ready-to-use suite of desktop Agent applications.wit... | 1.3k | Rust | MIT | 2026-07-16 |
-| [agor](https://github.com/preset-io/agor) | Agor - team command center for all things agentic | 1.3k | TypeScript | NOASSERTION | 2026-07-16 |
-| [kodus-ai](https://github.com/kodustech/kodus-ai) | AI Code Review with Full Control Over Model Choice and Costs. | 1.3k | TypeScript | NOASSERTION | 2026-07-16 |
-| [OpenSwarm](https://github.com/unohee/OpenSwarm) | OpenSwarm — Autonomous AI dev team orchestrator powered by Claude Code CLI. Discord control, Line... | 819 | TypeScript | MIT | 2026-07-16 |
-| [awesome-vibe-coding](https://github.com/ai-for-developers/awesome-vibe-coding) | A hand-picked collection of tools and resources for Vibe Coding | 780 | — | — | 2026-07-16 |
-| [ai-maestro](https://github.com/23blocks-OS/ai-maestro) | AI Agent Orchestrator with Skills System - Give AI Agents superpowers: memory search, code graph ... | 726 | TypeScript | MIT | 2026-07-15 |
-| [Bernstein](https://github.com/sipyourdrink-ltd/bernstein) | Python orchestrator for 40+ CLI coding agents (Claude Code, Codex, Gemini CLI, Cursor, Aider). On... | 681 | Python | Apache-2.0 | 2026-07-16 |
-| [highly-skilled-job-offers](https://github.com/coditori/highly-skilled-job-offers) | Sharing some info around job offers and interviews preparations | 650 | — | Apache-2.0 | 2026-07-12 |
-| [hopp](https://github.com/gethopp/hopp) | The best OSS remote pair programming app. | 619 | Rust | AGPL-3.0 | 2026-07-16 |
-| [code-on-incus](https://github.com/mensfeld/code-on-incus) | Give each AI agent its own isolated machine with root, Docker, and systemd. Active defense detect... | 593 | Python | MIT | 2026-07-16 |
+| [superpowers-zh](https://github.com/jnMetaCode/superpowers-zh) | 🦸 AI 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude Code / Copilot CLI / Herm... | 7.0k | JavaScript | MIT | 2026-07-17 |
+| [Kaku](https://github.com/tw93/Kaku) | 🎃 A fast, out-of-the-box terminal built for AI coding. | 5.6k | Rust | NOASSERTION | 2026-07-17 |
+| [claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) | The most comprehensive Claude Code guide: agentic workflows, hooks, skills, MCP servers, quizzes,... | 5.5k | Python | CC-BY-SA-4.0 | 2026-07-17 |
+| [AgentsMesh](https://github.com/AgentsMesh/AgentsMesh) | The AI Agent Workforce Platform. Remote AI workstations (AgentPods) with PTY sandbox + git worktr... | 2.3k | Go | NOASSERTION | 2026-07-17 |
+| [Nanocoder](https://github.com/Nano-Collective/nanocoder) | Local-first CLI coding agent built with React and Ink. !GitHub Repo stars | 2.2k | TypeScript | NOASSERTION | 2026-07-17 |
+| [cjo4m06/mcp-shrimp-task-manager](https://github.com/cjo4m06/mcp-shrimp-task-manager) | 📇 ☁️ 🏠 – A programming-focused task management system that boosts coding agents like Cursor AI wi... | 2.1k | JavaScript | MIT | 2026-07-15 |
+| [awesome-ai-coding-tools](https://github.com/ai-for-developers/awesome-ai-coding-tools) | A curated list of AI-powered coding tools | 1.9k | — | MIT | 2026-07-17 |
+| [zeroshot](https://github.com/the-open-engine/zeroshot) | CLI that orchestrates a planner, an implementer, and independent validators in isolated environme... | 1.6k | JavaScript | MIT | 2026-07-16 |
+| [BitFun](https://github.com/GCWing/BitFun) | BitFun is a desktop-grade Agent runtimeand a ready-to-use suite of desktop Agent applications.wit... | 1.3k | Rust | MIT | 2026-07-17 |
+| [awesome-vibe-coding](https://github.com/ai-for-developers/awesome-vibe-coding) | A hand-picked collection of tools and resources for Vibe Coding | 781 | — | — | 2026-07-17 |
+| [Bernstein](https://github.com/sipyourdrink-ltd/bernstein) | Python orchestrator for 40+ CLI coding agents (Claude Code, Codex, Gemini CLI, Cursor, Aider). On... | 685 | Python | Apache-2.0 | 2026-07-17 |
+| [code-on-incus](https://github.com/mensfeld/code-on-incus) | Give each AI agent its own isolated machine with root, Docker, and systemd. Active defense detect... | 594 | Python | MIT | 2026-07-16 |
 | [h5i](https://github.com/h5i-dev/h5i) | CLI that runs several coding agents (Claude Code, Codex) on the same task, each in its own isolat... | 470 | Rust | Apache-2.0 | 2026-07-16 |
 | [mco](https://github.com/mco-org/mco) | [Successor: Hive — https://hivehq.dev] Original neutral orchestration layer for Claude Code, Code... | 456 | Python | MIT | 2026-07-16 |
-| [git-duet](https://github.com/git-duet/git-duet) | Support for pairing with git | 434 | Shell | MIT | 2026-06-17 |
-| [the-pair](https://github.com/timwuhaotian/the-pair) | Open-source AI pair programming for desktop: a Mentor + Executor agent cross-check each other's c... | 347 | TypeScript | Apache-2.0 | 2026-07-16 |
+| [Govcraft/rust-docs-mcp-server](https://github.com/Govcraft/rust-docs-mcp-server) | 🦀 🏠 - Provides up-to-date documentation context for a specific Rust crate to LLMs via an MCP tool... | 286 | Rust | MIT | 2026-07-07 |
+| [super-dev](https://github.com/shangyankeji/super-dev) | Engineering workflow layer for AI coding tools with specs, review, quality gates, and traceabilit... | 271 | Python | MIT | 2026-07-09 |
+| [IDP](https://github.com/BaihaiAI/IDP) | IDP is an open source AI IDE for data scientists and big data engineers. | 221 | TypeScript | Apache-2.0 | 2026-06-23 |
+| [riponcm/projectmem](https://github.com/riponcm/projectmem) | !projectmem MCP server 🐍 🏠 🍎 🪟 🐧 - Local-first memory and judgment layer for AI coding agents. Ca... | 187 | Python | MIT | 2026-07-16 |
+| [antigravity-nix](https://github.com/jacopone/antigravity-nix) | Auto-updating Nix package for Google Antigravity agentic IDE. Updates 3x/week. FHS environment wi... | 154 | Nix | MIT | 2026-07-17 |
+| [Antigravity-Deck](https://github.com/tysonnbt/Antigravity-Deck) | Remote control for Antigravity — manage AI conversations, workspaces, and agents from any device.... | 147 | JavaScript | — | 2026-07-17 |
+| [deveco-toolbox](https://github.com/open-deveco/deveco-toolbox) | 在AI IDE中完成鸿蒙HarmonyOS应用与元服务的开发，编译构建及测试 | 141 | — | — | 2026-07-15 |
+| [AI-Powered-Coding-Tools](https://github.com/dereknguyen269/AI-Powered-Coding-Tools) | Your AI-Powered Coding Tools Best Practices | 86 | Python | — | 2026-07-14 |
+| [conductor-tasks](https://github.com/hridaya423/conductor-tasks) | A task management system designed for AI development | 74 | TypeScript | MIT | 2026-07-13 |
+| [MikeRecognex/mcp-codebase-index](https://github.com/MikeRecognex/mcp-codebase-index) | 🐍 🏠 🍎 🪟 🐧 - Structural codebase indexer exposing 17 query tools (functions, classes, imports, dep... | 60 | Python | AGPL-3.0 | 2026-07-14 |
+| [AI-Coding-Landscape](https://github.com/joylarkin/AI-Coding-Landscape) | AI coding models, agents, CLIs, IDEs, AI app builders, open source tooling, benchmarks | 58 | — | MIT | 2026-07-11 |
+| [PatrickSys/codebase-context](https://github.com/PatrickSys/codebase-context) | !codebase-context MCP server 📇 🏠 🍎 🪟 🐧 - Local MCP server that shows AI agents which patterns you... | 54 | TypeScript | NOASSERTION | 2026-07-16 |
+| [drhalto/agentmako](https://github.com/drhalto/agentmako) | !drhalto/agentmako MCP server 📇 🏠 🍎 🪟 🐧 - Local-first codebase intelligence engine. Gives coding ... | 50 | TypeScript | Apache-2.0 | 2026-07-14 |
+| [roampal-ai/roampal-core](https://github.com/roampal-ai/roampal-core) | !roampal-core MCP server 🐍 🏠 - Outcome-based persistent memory for AI coding tools. Memories that... | 46 | Python | Apache-2.0 | 2026-07-05 |
+| [EtienneChollet/ontomics](https://github.com/EtienneChollet/ontomics) | !EtienneChollet/ontomics MCP server 🦀 🏠 🍎 🐧 - Semantic code index that extracts domain concepts, ... | 41 | Rust | MIT | 2026-07-07 |
+| [CSCSoftware/AiDex](https://github.com/CSCSoftware/AiDex) | 📇 🏠 🍎 🪟 🐧 - Persistent code index MCP server using Tree-sitter for fast, precise code search. Rep... | 39 | TypeScript | MIT | 2026-07-12 |
+| [n24q02m/better-notion-mcp](https://github.com/n24q02m/better-notion-mcp) | !better-notion-mcp MCP server 📇 ☁️ 🍎 🪟 🐧 - Markdown-first Notion MCP server with 9 composite tool... | 35 | TypeScript | MIT | 2026-07-17 |
+| [gabrielmaialva33/winx-code-agent](https://github.com/gabrielmaialva33/winx-code-agent) | 🦀 🏠 - A high-performance Rust reimplementation of WCGW for code agents, providing shell execution... | 33 | Rust | MIT | 2026-07-14 |
+| [n24q02m/better-godot-mcp](https://github.com/n24q02m/better-godot-mcp) | !better-godot-mcp MCP server 📇 🏠 🍎 🪟 🐧 - 18 composite tools for structured Godot 4.x interaction:... | 28 | TypeScript | MIT | 2026-07-17 |
+| [n24q02m/better-email-mcp](https://github.com/n24q02m/better-email-mcp) | !better-email-mcp MCP server 📇 ☁️ 🍎 🪟 🐧 - IMAP/SMTP email MCP server with App Passwords (no OAuth... | 26 | TypeScript | MIT | 2026-07-17 |
+| [knewstimek/agent-tool](https://github.com/knewstimek/agent-tool) | !agent-tool MCP server 🏎️ 🏠 🍎 🪟 🐧 - Encoding-aware, indentation-smart file tools for AI coding ag... | 21 | Go | MIT | 2026-07-17 |
+| [VonderVuflya/Yggdrasil](https://github.com/VonderVuflya/Yggdrasil) | !VonderVuflya/Yggdrasil MCP server 🐍 🏠 🍎 🪟 🐧 - Durable, local-first memory for AI coding agents o... | 20 | Python | AGPL-3.0 | 2026-07-17 |
 
 ## LLMs & Inference {#cat-llm}
 
@@ -175,56 +177,56 @@ date-format: "YYYY-MM-DD"
 
 | Outil | Description | Stars | Langage | Licence | Dernière MAJ |
 |-------|-------------|-------|---------|---------|-------------|
-| [ECC](https://github.com/affaan-m/ECC) | The agent harness performance optimization system. Skills, instincts, memory, security, and resea... | 230.3k | JavaScript | MIT | 2026-07-16 |
-| [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT) | an experimental open-source application showcasing the capabilities of the GPT-4 language model. | 185.6k | Python | NOASSERTION | 2026-07-16 |
-| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to pr... | 185.6k | Python | NOASSERTION | 2026-07-16 |
-| [ollama](https://github.com/ollama/ollama) | Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other mod... | 176.3k | Go | MIT | 2026-07-16 |
-| [prompts.chat](https://github.com/f/prompts.chat) | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and... | 165.9k | HTML | NOASSERTION | 2026-07-16 |
-| [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) | A collection of prompt examples to be used with the ChatGPT model. | 165.9k | HTML | NOASSERTION | 2026-07-16 |
-| [transformers](https://github.com/huggingface/transformers) | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in te... | 162.7k | Python | Apache-2.0 | 2026-07-16 |
-| [firecrawl](https://github.com/firecrawl/firecrawl) | The API to search, scrape, and interact with the web at scale. 🔥 | 151.9k | TypeScript | AGPL-3.0 | 2026-07-16 |
-| [dify](https://github.com/langgenius/dify) | Production-ready platform for agentic workflow development. | 149.1k | TypeScript | NOASSERTION | 2026-07-16 |
-| [open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 145.7k | Python | NOASSERTION | 2026-07-16 |
-| [langchain](https://github.com/langchain-ai/langchain) | The agent engineering platform. | 141.9k | Python | MIT | 2026-07-16 |
-| [LangChain](https://github.com/hwchase17/langchain) | the original 🐍 !GitHub Repo stars | 141.9k | Python | MIT | 2026-07-16 |
-| [llama.cpp](https://github.com/ggerganov/llama.cpp) | LLM inference in C/C++. | 120.6k | C++ | MIT | 2026-07-16 |
-| [generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 21 Lessons, Get Started Building with Generative AI | 113.1k | Jupyter Notebook | MIT | 2026-07-16 |
-| [browser-use](https://github.com/browser-use/browser-use) | 🌐 Make websites accessible for AI agents. Automate tasks online with ease. | 105.1k | Python | MIT | 2026-07-16 |
-| [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) | First open-sourced GPT-4o level model. | 103.9k | Python | MIT | 2026-07-16 |
-| [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | Implement a ChatGPT-like LLM in PyTorch from scratch, step by step | 99.2k | Jupyter Notebook | NOASSERTION | 2026-07-16 |
-| [TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading Framework | 93.3k | Python | Apache-2.0 | 2026-07-16 |
-| [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1) | First-generation reasoning models from DeepSeek. | 92.0k | — | MIT | 2026-07-16 |
-| [caveman](https://github.com/JuliusBrussee/caveman) | 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talki... | 90.0k | JavaScript | MIT | 2026-07-16 |
-| [vllm](https://github.com/vllm-project/vllm) | A high-throughput and memory-efficient inference and serving engine for LLMs | 86.4k | Python | Apache-2.0 | 2026-07-16 |
-| [OpenDevin](https://github.com/OpenDevin/OpenDevin) | 🙌 OpenHands: AI-Driven Development | 81.0k | Python | NOASSERTION | 2026-07-16 |
-| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | 🙌 OpenHands: Code Less, Make More. (formerly OpenDevin), a platform for software development agen... | 81.0k | Python | NOASSERTION | 2026-07-16 |
-| [llm-course](https://github.com/mlabonne/llm-course) | Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks. | 81.0k | — | Apache-2.0 | 2026-07-16 |
-| [Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) | 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, R... | 76.6k | MDX | MIT | 2026-07-16 |
-| [gpt4free](https://github.com/xtekky/gpt4free) | The official gpt4free repository \| various collection of powerful language models \| opus 4.6 gpt ... | 66.5k | Python | GPL-3.0 | 2026-07-16 |
-| [Embedchain](https://github.com/embedchain/embedchain) | Framework to create ChatGPT like bots over your dataset. | 61.0k | TypeScript | Apache-2.0 | 2026-07-16 |
-| [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) | A Chinese collection of prompt examples to be used with the ChatGPT model. | 61.0k | — | MIT | 2026-07-16 |
-| [upstash/context7](https://github.com/upstash/context7) | 📇 ☁️ - Up-to-date code documentation for LLMs and AI code editors. | 59.2k | TypeScript | MIT | 2026-07-16 |
-| [LlamaIndex](https://github.com/jerryjliu/llama_index) | provides a central interface to connect your LLM's with external data. !GitHub Repo stars | 50.9k | Python | MIT | 2026-07-16 |
-| [DeepSpeed](https://github.com/microsoft/DeepSpeed) | DeepSpeed is a deep learning optimization library that makes distributed training and inference e... | 42.7k | Python | Apache-2.0 | 2026-07-16 |
-| [FastChat](https://github.com/lm-sys/FastChat) | A distributed multi-model LLM serving system with web UI and OpenAI-compatible RESTful APIs. | 39.5k | Python | Apache-2.0 | 2026-07-16 |
-| [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat) | Formerly langchain-ChatGLM, local knowledge based LLM (like ChatGLM) QA app with langchain. | 38.4k | Python | Apache-2.0 | 2026-07-16 |
-| [Open-Assistant](https://github.com/LAION-AI/Open-Assistant) | OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party sys... | 37.4k | Python | Apache-2.0 | 2026-07-16 |
-| [AgentGPT](https://github.com/reworkd/AgentGPT) | 🤖 Assemble, configure, and deploy autonomous AI Agents in your browser. | 36.3k | TypeScript | GPL-3.0 | 2026-07-16 |
-| [Langfuse](https://github.com/langfuse/langfuse) | Open Source LLM Engineering Platform 🪢 Tracing, Evaluations, Prompt Management, Evaluations and P... | 31.3k | TypeScript | NOASSERTION | 2026-07-16 |
-| [SGLang](https://github.com/sgl-project/sglang) | SGLang is a fast serving framework for large language models and vision language models. | 30.4k | Python | Apache-2.0 | 2026-07-16 |
-| [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca) | Code and documentation to train Stanford's Alpaca models, and generate the data. | 30.2k | Python | Apache-2.0 | 2026-07-16 |
-| [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | Microsoft C# SDK to integrate cutting-edge LLM technology quickly and easily into your apps !GitH... | 28.3k | C# | MIT | 2026-07-16 |
-| [repomix](https://github.com/yamadashy/repomix) | 📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. P... | 27.2k | TypeScript | MIT | 2026-07-16 |
-| [open-r1](https://github.com/huggingface/open-r1) | Fully open reproduction of DeepSeek-R1 | 26.4k | Python | Apache-2.0 | 2026-07-16 |
-| [Mastra](https://github.com/mastra-ai/mastra) | Mastra is an opinionated TypeScript framework that helps you build AI applications and features q... | 26.2k | TypeScript | NOASSERTION | 2026-07-16 |
-| [Haystack](https://github.com/deepset-ai/haystack) | NLP framework to interact with your data using Transformer models and LLMs !GitHub Repo stars | 25.9k | MDX | Apache-2.0 | 2026-07-16 |
-| [ai](https://github.com/vercel/ai) | The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source lib... | 25.6k | TypeScript | NOASSERTION | 2026-07-16 |
-| [Memgpt](https://github.com/cpacker/memgpt) | Create LLM agents with long-term memory and custom tools 📚🦙 !Github Repo stars | 23.8k | Python | Apache-2.0 | 2026-07-16 |
-| [vanna](https://github.com/vanna-ai/vanna) | 🤖 Chat with your SQL database 📊. Accurate Text-to-SQL Generation via LLMs using Agentic Retrieval 🔄. | 23.8k | Python | MIT | 2026-07-16 |
-| [promptfoo](https://github.com/typpo/promptfoo) | Test your prompts. Evaluate and compare LLM outputs, catch regressions, and improve prompt quality. | 23.3k | TypeScript | MIT | 2026-07-16 |
-| [mlc-llm](https://github.com/mlc-ai/mlc-llm) | Universal LLM Deployment Engine with ML Compilation | 23.0k | Python | Apache-2.0 | 2026-07-16 |
-| [Awesome-Chinese-LLM](https://github.com/HqWu-HITCS/Awesome-Chinese-LLM) | 整理开源的中文大语言模型，以规模较小、可私有化部署、训练成本较低的模型为主，包括底座模型，垂直领域微调及应用，数据集与教程等。 | 22.7k | — | — | 2026-07-16 |
-| [Guidance](https://github.com/microsoft/guidance) | A handy looking Python library from Microsoft that uses Handlebars templating to interleave gener... | 21.7k | Jupyter Notebook | MIT | 2026-07-16 |
+| [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT) | an experimental open-source application showcasing the capabilities of the GPT-4 language model. | 185.6k | Python | NOASSERTION | 2026-07-17 |
+| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3, Mistral, Gemma, and other large language models. | 176.3k | Go | MIT | 2026-07-17 |
+| [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) | A collection of prompt examples to be used with the ChatGPT model. | 165.9k | HTML | NOASSERTION | 2026-07-17 |
+| [Dify](https://github.com/langgenius/dify) | An open-source LLM app development platform with an intuitive interface that streamlines AI workf... | 149.1k | TypeScript | NOASSERTION | 2026-07-17 |
+| [LangChain](https://github.com/hwchase17/langchain) | the original 🐍 !GitHub Repo stars | 142.0k | Python | MIT | 2026-07-17 |
+| [llama.cpp](https://github.com/ggerganov/llama.cpp) | LLM inference in C/C++. | 120.7k | C++ | MIT | 2026-07-17 |
+| [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) | First open-sourced GPT-4o level model. | 103.9k | Python | MIT | 2026-07-17 |
+| [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1) | First-generation reasoning models from DeepSeek. | 92.0k | — | MIT | 2026-07-17 |
+| [vLLM](https://github.com/vllm-project/vllm) | A high-throughput and memory-efficient inference and serving engine for LLMs. | 86.5k | Python | Apache-2.0 | 2026-07-17 |
+| [OpenDevin](https://github.com/OpenDevin/OpenDevin) | 🙌 OpenHands: AI-Driven Development | 81.1k | Python | NOASSERTION | 2026-07-17 |
+| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | 🙌 OpenHands: Code Less, Make More. (formerly OpenDevin), a platform for software development agen... | 81.1k | Python | NOASSERTION | 2026-07-17 |
+| [llm-course](https://github.com/mlabonne/llm-course) | Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks. | 81.0k | — | Apache-2.0 | 2026-07-17 |
+| [Embedchain](https://github.com/embedchain/embedchain) | Framework to create ChatGPT like bots over your dataset. | 61.0k | TypeScript | Apache-2.0 | 2026-07-17 |
+| [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) | A Chinese collection of prompt examples to be used with the ChatGPT model. | 61.0k | — | MIT | 2026-07-17 |
+| [upstash/context7](https://github.com/upstash/context7) | 📇 ☁️ - Up-to-date code documentation for LLMs and AI code editors. | 59.2k | TypeScript | MIT | 2026-07-17 |
+| [llm-app](https://github.com/pathwaycom/llm-app) | Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker... | 59.0k | Jupyter Notebook | MIT | 2026-07-17 |
+| [LlamaIndex](https://github.com/jerryjliu/llama_index) | provides a central interface to connect your LLM's with external data. !GitHub Repo stars | 50.9k | Python | MIT | 2026-07-17 |
+| [DeepSpeed](https://github.com/microsoft/DeepSpeed) | DeepSpeed is a deep learning optimization library that makes distributed training and inference e... | 42.7k | Python | Apache-2.0 | 2026-07-17 |
+| [FastChat](https://github.com/lm-sys/FastChat) | A distributed multi-model LLM serving system with web UI and OpenAI-compatible RESTful APIs. | 39.5k | Python | Apache-2.0 | 2026-07-17 |
+| [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat) | Langchain-Chatchat（原Langchain-ChatGLM）基于 Langchain 与 ChatGLM, Qwen 与 Llama 等语言模型的 RAG 与 Agent 应用 ... | 38.4k | Python | Apache-2.0 | 2026-07-17 |
+| [LightRAG](https://github.com/HKUDS/LightRAG) | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" | 37.8k | Python | MIT | 2026-07-17 |
+| [AgentGPT](https://github.com/reworkd/AgentGPT) | 🤖 Assemble, configure, and deploy autonomous AI Agents in your browser. | 36.3k | TypeScript | GPL-3.0 | 2026-07-17 |
+| [PageIndex](https://github.com/VectifyAI/PageIndex) | 📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG | 34.1k | Python | MIT | 2026-07-17 |
+| [Langfuse](https://github.com/langfuse/langfuse) | Open Source LLM Engineering Platform 🪢 Tracing, Evaluations, Prompt Management, Evaluations and P... | 31.3k | TypeScript | NOASSERTION | 2026-07-17 |
+| [SGLang](https://github.com/sgl-project/sglang) | SGLang is a fast serving framework for large language models and vision language models. | 30.4k | Python | Apache-2.0 | 2026-07-17 |
+| [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) | This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) sy... | 28.6k | Jupyter Notebook | NOASSERTION | 2026-07-17 |
+| [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | Microsoft C# SDK to integrate cutting-edge LLM technology quickly and easily into your apps !GitH... | 28.3k | C# | MIT | 2026-07-17 |
+| [open-r1](https://github.com/huggingface/open-r1) | Fully open reproduction of DeepSeek-R1 | 26.4k | Python | Apache-2.0 | 2026-07-17 |
+| [Mastra](https://github.com/mastra-ai/mastra) | Mastra is an opinionated TypeScript framework that helps you build AI applications and features q... | 26.3k | TypeScript | NOASSERTION | 2026-07-17 |
+| [haystack](https://github.com/deepset-ai/haystack) | Open-source AI orchestration framework for building context-engineered, production-ready LLM appl... | 25.9k | MDX | Apache-2.0 | 2026-07-17 |
+| [Memgpt](https://github.com/cpacker/memgpt) | Create LLM agents with long-term memory and custom tools 📚🦙 !Github Repo stars | 23.8k | Python | Apache-2.0 | 2026-07-17 |
+| [vanna](https://github.com/vanna-ai/vanna) | 🤖 Chat with your SQL database 📊. Accurate Text-to-SQL Generation via LLMs using Agentic Retrieval 🔄. | 23.8k | Python | MIT | 2026-07-17 |
+| [promptfoo](https://github.com/typpo/promptfoo) | Test your prompts. Evaluate and compare LLM outputs, catch regressions, and improve prompt quality. | 23.3k | TypeScript | MIT | 2026-07-17 |
+| [Awesome-Chinese-LLM](https://github.com/HqWu-HITCS/Awesome-Chinese-LLM) | 整理开源的中文大语言模型，以规模较小、可私有化部署、训练成本较低的模型为主，包括底座模型，垂直领域微调及应用，数据集与教程等。 | 22.7k | — | — | 2026-07-17 |
+| [Guidance](https://github.com/microsoft/guidance) | A handy looking Python library from Microsoft that uses Handlebars templating to interleave gener... | 21.7k | Jupyter Notebook | MIT | 2026-07-17 |
+| [Opik](https://github.com/comet-ml/opik) | Confidently evaluate, test, and ship LLM applications with a suite of observability tools to cali... | 20.6k | Python | Apache-2.0 | 2026-07-17 |
+| [Screenpipe](https://github.com/screenpipe/screenpipe) | 24/7 local screen + microphone recording with OCR, audio transcription, and semantic search. Give... | 20.2k | Rust | NOASSERTION | 2026-07-17 |
+| [mediar-ai/screenpipe](https://github.com/mediar-ai/screenpipe) | 🎖️ 🦀 🏠 🍎 Local-first system capturing screen/audio with timestamped indexing, SQL/embedding stora... | 20.2k | Rust | NOASSERTION | 2026-07-17 |
+| [SWE-agent](https://github.com/princeton-nlp/SWE-agent) | SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can... | 19.8k | Python | MIT | 2026-07-17 |
+| [DB GPT](https://github.com/csunny/DB-GPT) | Interact your data and environment using the local GPT, no data leaks, 100% privately, 100% secur... | 19.5k | Python | MIT | 2026-07-17 |
+| [OpenAI Evals](https://github.com/openai/evals) | An open-source library for evaluating task performance of language models and prompts. | 18.9k | Python | NOASSERTION | 2026-07-17 |
+| [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) | SuperAGI - A dev-first open source autonomous AI agent framework !GitHub Repo stars | 17.6k | Python | MIT | 2026-07-17 |
+| [Megatron-LM](https://github.com/NVIDIA/Megatron-LM) | Ongoing research training transformer models at scale. | 17.1k | Python | NOASSERTION | 2026-07-17 |
+| [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox) | 🏎️ ☁️ - Open source MCP server specializing in easy, fast, and secure tools for Databases. | 16.0k | Go | Apache-2.0 | 2026-07-17 |
+| [memvid](https://github.com/memvid/memvid) | Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory l... | 16.0k | Rust | Apache-2.0 | 2026-07-17 |
+| [WrenAI](https://github.com/Canner/WrenAI) | GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context... | 15.8k | Python | NOASSERTION | 2026-07-17 |
+| [MNN-LLM](https://github.com/alibaba/MNN) | - A Device-Inference framework, including LLM Inference on device(Mobile Phone/PC/IOT) | 15.7k | C++ | Apache-2.0 | 2026-07-17 |
+| [Plandex](https://github.com/plandex-ai/plandex) | An AI coding engine for complex tasks !GitHub Repo stars | 15.5k | Go | MIT | 2026-07-16 |
+| [Ragas](https://github.com/explodinggradients/ragas) | a framework that helps you evaluate your Retrieval Augmented Generation (RAG) pipelines. | 14.9k | Python | Apache-2.0 | 2026-07-17 |
+| [llmware](https://github.com/llmware-ai/llmware) | Unified framework for building enterprise RAG pipelines with small, specialized models | 14.8k | Python | Apache-2.0 | 2026-07-16 |
 
 ## MCP Servers {#cat-mcp}
 
@@ -232,139 +234,139 @@ date-format: "YYYY-MM-DD"
 
 | Outil | Description | Stars | Langage | Licence | Dernière MAJ |
 |-------|-------------|-------|---------|---------|-------------|
-| [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) | Connect and unify data across various platforms and databases with MindsDB as a single MCP server. | 39.4k | Makefile | MIT | 2026-07-16 |
-| [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | Official Microsoft Playwright MCP server, enabling LLMs to interact with web pages through struct... | 35.2k | TypeScript | Apache-2.0 | 2026-07-16 |
-| [github/github-mcp-server](https://github.com/github/github-mcp-server) | 📇 ☁️ - Official GitHub server for integration with repository management, PRs, issues, and more. | 31.5k | Go | MIT | 2026-07-16 |
-| [GPT Researcher](https://github.com/assafelovic/gpt-researcher) | GPT Researcher is an autonomous agent designed for comprehensive online research on a variety of ... | 28.3k | Python | Apache-2.0 | 2026-07-16 |
-| [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) | 📇 ☁️ 🏠 - AI-powered task management system for AI-driven development. Features PRD parsing, task ... | 27.9k | JavaScript | NOASSERTION | 2026-07-16 |
-| [FastMCP](https://github.com/jlowin/fastmcp) | 🐍 - A high-level framework for building MCP servers in Python | 26.2k | Python | Apache-2.0 | 2026-07-16 |
-| [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp) | 🐍 - MCP server for working with Blender | 24.3k | Python | MIT | 2026-07-16 |
-| [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk) | The official Python SDK for Model Context Protocol servers and clients | 23.6k | Python | MIT | 2026-07-16 |
-| [GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP) | 📇 🏠 - Provide coding agents direct access to Figma data to help them one-shot design implementation. | 15.4k | TypeScript | MIT | 2026-07-16 |
-| [skill-seekers/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | !yusufkaraaslan/Skill_Seekers MCP server 🐍 🏠 🍎 🪟 🐧 - Transform 17 source types (docs, GitHub repo... | 14.5k | Python | MIT | 2026-07-16 |
-| [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk) | The official TypeScript SDK for Model Context Protocol servers and clients | 12.9k | TypeScript | NOASSERTION | 2026-07-16 |
-| [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | 🐍 🏠 - MCP server for IDA Pro, allowing you to perform binary analysis with AI assistants. This pl... | 10.3k | Python | MIT | 2026-07-16 |
-| [LaurieWired/GhidraMCP](https://github.com/LaurieWired/GhidraMCP) | ☕ 🏠 - A Model Context Protocol server for Ghidra that enables LLMs to autonomously reverse engine... | 9.5k | Java | Apache-2.0 | 2026-07-16 |
-| [awslabs/mcp](https://github.com/awslabs/mcp) | 🎖️ ☁️ - AWS MCP servers for seamless integration with AWS services and resources. | 9.5k | Python | Apache-2.0 | 2026-07-16 |
-| [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | 📇 🏠 🍎 🪟 🐧 - A swiss-army-knife that can manage/execute programs and read/write/search/edit code a... | 8.4k | TypeScript | MIT | 2026-07-16 |
-| [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) | !firecrawl/firecrawl-mcp-server MCP server 🎖️ 📇 ☁️ 🏠 - Official Firecrawl server with live browse... | 7.0k | JavaScript | MIT | 2026-07-16 |
+| [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) | Connect and unify data across various platforms and databases with MindsDB as a single MCP server. | 39.4k | Makefile | MIT | 2026-07-17 |
+| [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | Official Microsoft Playwright MCP server, enabling LLMs to interact with web pages through struct... | 35.2k | TypeScript | Apache-2.0 | 2026-07-17 |
+| [github/github-mcp-server](https://github.com/github/github-mcp-server) | 📇 ☁️ - Official GitHub server for integration with repository management, PRs, issues, and more. | 31.5k | Go | MIT | 2026-07-17 |
+| [GPT Researcher](https://github.com/assafelovic/gpt-researcher) | GPT Researcher is an autonomous agent designed for comprehensive online research on a variety of ... | 28.4k | Python | Apache-2.0 | 2026-07-17 |
+| [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) | 📇 ☁️ 🏠 - AI-powered task management system for AI-driven development. Features PRD parsing, task ... | 27.9k | JavaScript | NOASSERTION | 2026-07-17 |
+| [FastMCP](https://github.com/jlowin/fastmcp) | 🐍 - A high-level framework for building MCP servers in Python | 26.2k | Python | Apache-2.0 | 2026-07-17 |
+| [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp) | 🐍 - MCP server for working with Blender | 24.3k | Python | MIT | 2026-07-17 |
+| [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk) | The official Python SDK for Model Context Protocol servers and clients | 23.6k | Python | MIT | 2026-07-17 |
+| [GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP) | 📇 🏠 - Provide coding agents direct access to Figma data to help them one-shot design implementation. | 15.4k | TypeScript | MIT | 2026-07-17 |
+| [skill-seekers/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | !yusufkaraaslan/Skill_Seekers MCP server 🐍 🏠 🍎 🪟 🐧 - Transform 17 source types (docs, GitHub repo... | 14.5k | Python | MIT | 2026-07-17 |
+| [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk) | The official TypeScript SDK for Model Context Protocol servers and clients | 12.9k | TypeScript | NOASSERTION | 2026-07-17 |
+| [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | 🐍 🏠 - MCP server for IDA Pro, allowing you to perform binary analysis with AI assistants. This pl... | 10.3k | Python | MIT | 2026-07-17 |
+| [LaurieWired/GhidraMCP](https://github.com/LaurieWired/GhidraMCP) | ☕ 🏠 - A Model Context Protocol server for Ghidra that enables LLMs to autonomously reverse engine... | 9.5k | Java | Apache-2.0 | 2026-07-17 |
+| [awslabs/mcp](https://github.com/awslabs/mcp) | 🎖️ ☁️ - AWS MCP servers for seamless integration with AWS services and resources. | 9.5k | Python | Apache-2.0 | 2026-07-17 |
+| [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | 📇 🏠 🍎 🪟 🐧 - A swiss-army-knife that can manage/execute programs and read/write/search/edit code a... | 8.4k | TypeScript | MIT | 2026-07-17 |
+| [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) | !firecrawl/firecrawl-mcp-server MCP server 🎖️ 📇 ☁️ 🏠 - Official Firecrawl server with live browse... | 7.0k | JavaScript | MIT | 2026-07-17 |
 | [browsermcp/mcp](https://github.com/browsermcp/mcp) | 📇 🏠 - Automate your local Chrome browser | 6.8k | TypeScript | Apache-2.0 | 2026-07-16 |
-| [lharries/whatsapp-mcp](https://github.com/lharries/whatsapp-mcp) | 🐍 🏎️ - An MCP server for searching your personal WhatsApp messages, contacts and sending messages... | 5.9k | Go | MIT | 2026-07-16 |
-| [executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright) | 📇 - An MCP server using Playwright for browser automation and webscrapping | 5.6k | TypeScript | MIT | 2026-07-15 |
-| [sooperset/mcp-atlassian](https://github.com/sooperset/mcp-atlassian) | 🐍 ☁️ - MCP server for Atlassian products (Confluence and Jira). Supports Confluence Cloud, Jira C... | 5.6k | Python | MIT | 2026-07-16 |
-| [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp) | 📇 🏠 🐧 🍎 - MCP Server for Android/iOS application and device automation, development and app scrap... | 5.5k | TypeScript | Apache-2.0 | 2026-07-16 |
-| [21st-dev/Magic-MCP](https://github.com/21st-dev/magic-mcp) | Create crafted UI components inspired by the best 21st.dev design engineers. | 5.4k | TypeScript | — | 2026-07-16 |
-| [bram2w/baserow](https://github.com/bram2w/baserow) | Baserow database integration with table search, list, and row create, read, update, and delete ca... | 5.3k | Python | NOASSERTION | 2026-07-16 |
-| [rocketride-org/rocketride-server](https://github.com/rocketride-org/rocketride-server) | !rocketride-org/rocketride-server MCP server 📇 🏠 - MCP server that exposes RocketRide AI pipeline... | 5.2k | Python | MIT | 2026-07-16 |
-| [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk) | The official Go SDK for Model Context Protocol servers and clients. Maintained in collaboration w... | 4.8k | Go | NOASSERTION | 2026-07-16 |
-| [Coding-Solo/godot-mcp](https://github.com/Coding-Solo/godot-mcp) | 📇 🏠 - A MCP server for interacting with the Godot game engine, providing tools for editing, runni... | 4.7k | JavaScript | MIT | 2026-07-16 |
-| [exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) | 🎖️ 📇 ☁️ – A Model Context Protocol (MCP) server lets AI assistants like Claude use the Exa AI Sea... | 4.7k | TypeScript | MIT | 2026-07-16 |
-| [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk) | The official C# SDK for Model Context Protocol servers and clients. Maintained in collaboration w... | 4.4k | C# | NOASSERTION | 2026-07-16 |
+| [lharries/whatsapp-mcp](https://github.com/lharries/whatsapp-mcp) | 🐍 🏎️ - An MCP server for searching your personal WhatsApp messages, contacts and sending messages... | 5.9k | Go | MIT | 2026-07-17 |
+| [executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright) | 📇 - An MCP server using Playwright for browser automation and webscrapping | 5.6k | TypeScript | MIT | 2026-07-17 |
+| [sooperset/mcp-atlassian](https://github.com/sooperset/mcp-atlassian) | 🐍 ☁️ - MCP server for Atlassian products (Confluence and Jira). Supports Confluence Cloud, Jira C... | 5.6k | Python | MIT | 2026-07-17 |
+| [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp) | 📇 🏠 🐧 🍎 - MCP Server for Android/iOS application and device automation, development and app scrap... | 5.5k | TypeScript | Apache-2.0 | 2026-07-17 |
+| [21st-dev/Magic-MCP](https://github.com/21st-dev/magic-mcp) | Create crafted UI components inspired by the best 21st.dev design engineers. | 5.5k | TypeScript | — | 2026-07-16 |
+| [bram2w/baserow](https://github.com/bram2w/baserow) | Baserow database integration with table search, list, and row create, read, update, and delete ca... | 5.4k | Python | NOASSERTION | 2026-07-17 |
+| [rocketride-org/rocketride-server](https://github.com/rocketride-org/rocketride-server) | !rocketride-org/rocketride-server MCP server 📇 🏠 - MCP server that exposes RocketRide AI pipeline... | 5.2k | Python | MIT | 2026-07-17 |
+| [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk) | The official Go SDK for Model Context Protocol servers and clients. Maintained in collaboration w... | 4.8k | Go | NOASSERTION | 2026-07-17 |
+| [Coding-Solo/godot-mcp](https://github.com/Coding-Solo/godot-mcp) | 📇 🏠 - A MCP server for interacting with the Godot game engine, providing tools for editing, runni... | 4.8k | JavaScript | MIT | 2026-07-17 |
+| [exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) | 🎖️ 📇 ☁️ – A Model Context Protocol (MCP) server lets AI assistants like Claude use the Exa AI Sea... | 4.7k | TypeScript | MIT | 2026-07-17 |
+| [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk) | The official C# SDK for Model Context Protocol servers and clients. Maintained in collaboration w... | 4.4k | C# | NOASSERTION | 2026-07-17 |
 | [txn2/kubefwd](https://github.com/txn2/kubefwd) | 🏎️ 🏠 - Kubernetes bulk port forwarding with service discovery, /etc/hosts management, traffic mon... | 4.1k | Go | Apache-2.0 | 2026-07-15 |
-| [MarkusPfundstein/mcp-obsidian](https://github.com/MarkusPfundstein/mcp-obsidian) | 🐍 ☁️ 🏠 - Interacting with Obsidian via REST API | 4.1k | Python | MIT | 2026-07-16 |
-| [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare) | 🎖️ 📇 ☁️ - Integration with Cloudflare services including Workers, KV, R2, and D1 | 4.0k | TypeScript | Apache-2.0 | 2026-07-16 |
-| [shashankss1205/codegraphcontext](https://github.com/Shashankss1205/CodeGraphContext) | 🐍 🏠 🍎 🪟 🐧 An MCP server that indexes local code into a graph database to provide context to AI as... | 3.9k | Python | MIT | 2026-07-16 |
-| [dagger/container-use](https://github.com/dagger/container-use) | 🏎️ 🏠 🐧 🍎 🪟 - Containerized environments for coding agents. Multiple agents can work independently... | 3.9k | Go | Apache-2.0 | 2026-07-15 |
-| [Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk) | The official Rust SDK for the Model Context Protocol | 3.6k | Rust | NOASSERTION | 2026-07-16 |
+| [MarkusPfundstein/mcp-obsidian](https://github.com/MarkusPfundstein/mcp-obsidian) | 🐍 ☁️ 🏠 - Interacting with Obsidian via REST API | 4.1k | Python | MIT | 2026-07-17 |
+| [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare) | 🎖️ 📇 ☁️ - Integration with Cloudflare services including Workers, KV, R2, and D1 | 4.0k | TypeScript | Apache-2.0 | 2026-07-17 |
+| [shashankss1205/codegraphcontext](https://github.com/Shashankss1205/CodeGraphContext) | 🐍 🏠 🍎 🪟 🐧 An MCP server that indexes local code into a graph database to provide context to AI as... | 3.9k | Python | MIT | 2026-07-17 |
+| [dagger/container-use](https://github.com/dagger/container-use) | 🏎️ 🏠 🐧 🍎 🪟 - Containerized environments for coding agents. Multiple agents can work independently... | 3.9k | Go | Apache-2.0 | 2026-07-16 |
+| [Generative-Media-Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) | Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality... | 3.8k | Shell | MIT | 2026-07-17 |
+| [Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk) | The official Rust SDK for the Model Context Protocol | 3.6k | Rust | NOASSERTION | 2026-07-17 |
 | [Java MCP SDK](https://github.com/modelcontextprotocol/java-sdk) | The official Java SDK for Model Context Protocol servers and clients. Maintained in collaboration... | 3.6k | Java | MIT | 2026-07-16 |
-| [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device) | !callstackincubator/agent-device MCP server 📇 🏠 🍎 🐧 - Discovery router for the agent-device CLI. ... | 3.4k | TypeScript | MIT | 2026-07-16 |
-| [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) | 🎖️ 📇 - Automate browser interactions in the cloud (e.g. web navigation, data extraction, form fil... | 3.4k | TypeScript | Apache-2.0 | 2026-07-15 |
-| [metorial/metorial](https://github.com/metorial/metorial) | 🎖️ 📇 ☁️ Connect AI agents to 600+ integrations with a single interface - OAuth, scaling, and moni... | 3.3k | TypeScript | NOASSERTION | 2026-07-16 |
-| [grafana/mcp-grafana](https://github.com/grafana/mcp-grafana) | 🎖️ 🐍 🏠 ☁️ - Search dashboards, investigate incidents and query datasources in your Grafana instance | 3.2k | Go | Apache-2.0 | 2026-07-16 |
-| [FastMCP](https://github.com/punkpeye/fastmcp) | 📇 - A high-level framework for building MCP servers in TypeScript | 3.2k | TypeScript | MIT | 2026-07-16 |
-| [crystaldba/postgres-mcp](https://github.com/crystaldba/postgres-mcp) | 🐍 🏠 - All-in-one MCP server for Postgres development and operations, with tools for performance a... | 3.1k | Python | MIT | 2026-07-16 |
-| [Jpisnice/shadcn-ui-mcp-server](https://github.com/Jpisnice/shadcn-ui-mcp-server) | 📇 🏠 - MCP server that gives AI assistants seamless access to shadcn/ui v4 components, blocks, dem... | 2.9k | TypeScript | MIT | 2026-07-16 |
-| [zcaceres/markdownify-mcp](https://github.com/zcaceres/markdownify-mcp) | 📇 🏠 - An MCP server to convert almost any file or web content into Markdown | 2.8k | TypeScript | MIT | 2026-07-16 |
+| [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device) | !callstackincubator/agent-device MCP server 📇 🏠 🍎 🐧 - Discovery router for the agent-device CLI. ... | 3.4k | TypeScript | MIT | 2026-07-17 |
+| [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) | 🎖️ 📇 - Automate browser interactions in the cloud (e.g. web navigation, data extraction, form fil... | 3.4k | TypeScript | Apache-2.0 | 2026-07-17 |
+| [metorial/metorial](https://github.com/metorial/metorial) | 🎖️ 📇 ☁️ Connect AI agents to 600+ integrations with a single interface - OAuth, scaling, and moni... | 3.3k | TypeScript | NOASSERTION | 2026-07-17 |
+| [grafana/mcp-grafana](https://github.com/grafana/mcp-grafana) | 🎖️ 🐍 🏠 ☁️ - Search dashboards, investigate incidents and query datasources in your Grafana instance | 3.2k | Go | Apache-2.0 | 2026-07-17 |
+| [FastMCP](https://github.com/punkpeye/fastmcp) | 📇 - A high-level framework for building MCP servers in TypeScript | 3.2k | TypeScript | MIT | 2026-07-17 |
+| [crystaldba/postgres-mcp](https://github.com/crystaldba/postgres-mcp) | 🐍 🏠 - All-in-one MCP server for Postgres development and operations, with tools for performance a... | 3.1k | Python | MIT | 2026-07-17 |
+| [Jpisnice/shadcn-ui-mcp-server](https://github.com/Jpisnice/shadcn-ui-mcp-server) | 📇 🏠 - MCP server that gives AI assistants seamless access to shadcn/ui v4 components, blocks, dem... | 2.9k | TypeScript | MIT | 2026-07-17 |
+| [zcaceres/markdownify-mcp](https://github.com/zcaceres/markdownify-mcp) | 📇 🏠 - An MCP server to convert almost any file or web content into Markdown | 2.9k | TypeScript | MIT | 2026-07-17 |
 | [supabase-community/supabase-mcp](https://github.com/supabase-community/supabase-mcp) | 🎖️ 📇 ☁️ - Official Supabase MCP server to connect AI assistants directly with your Supabase proje... | 2.8k | TypeScript | Apache-2.0 | 2026-07-16 |
-| [nteract/semiotic](https://github.com/nteract/semiotic) | !nteract/semiotic MCP server 📇 🏠 🍎 🪟 🐧 - React data visualization MCP server with 30+ chart types... | 2.7k | TypeScript | Apache-2.0 | 2026-07-16 |
-| [gamosoft/NoteDiscovery](https://github.com/gamosoft/NoteDiscovery) | !gamosoft/NoteDiscovery 🐍 🏠 🍎 🪟 🐧 - Self-hosted plain-markdown knowledge base with a built-in MCP... | 2.7k | JavaScript | MIT | 2026-07-16 |
-| [skyhook-io/radar](https://github.com/skyhook-io/radar) | !radar MCP server 🎖️ 🏎️ 🏠 🍎 🪟 🐧 - Built-in MCP server for Radar, a modern Kubernetes visibility t... | 2.6k | Go | Apache-2.0 | 2026-07-16 |
-| [metatool-ai/metatool-app](https://github.com/metatool-ai/metatool-app) | 📇 ☁️ 🏠 🍎 🪟 🐧 - MetaMCP is the one unified middleware MCP server that manages your MCP connections... | 2.5k | TypeScript | MIT | 2026-07-15 |
-| [ios-simulator-mcp](https://github.com/joshuayoes/ios-simulator-mcp) | 📇 🏠 🍎 - A Model Context Protocol (MCP) server for interacting with iOS simulators. This server al... | 2.1k | JavaScript | MIT | 2026-07-16 |
-| [chrishayuk/mcp-cli](https://github.com/chrishayuk/mcp-cli) | 🐍 🏠 - Yet another CLI tool for testing MCP servers | 2.0k | Python | Apache-2.0 | 2026-07-15 |
+| [open-connector](https://github.com/oomol-lab/open-connector) | Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP... | 2.8k | TypeScript | Apache-2.0 | 2026-07-17 |
+| [nteract/semiotic](https://github.com/nteract/semiotic) | !nteract/semiotic MCP server 📇 🏠 🍎 🪟 🐧 - React data visualization MCP server with 30+ chart types... | 2.7k | TypeScript | Apache-2.0 | 2026-07-17 |
+| [gamosoft/NoteDiscovery](https://github.com/gamosoft/NoteDiscovery) | !gamosoft/NoteDiscovery 🐍 🏠 🍎 🪟 🐧 - Self-hosted plain-markdown knowledge base with a built-in MCP... | 2.7k | JavaScript | MIT | 2026-07-17 |
+| [skyhook-io/radar](https://github.com/skyhook-io/radar) | !radar MCP server 🎖️ 🏎️ 🏠 🍎 🪟 🐧 - Built-in MCP server for Radar, a modern Kubernetes visibility t... | 2.6k | Go | Apache-2.0 | 2026-07-17 |
+| [metatool-ai/metatool-app](https://github.com/metatool-ai/metatool-app) | 📇 ☁️ 🏠 🍎 🪟 🐧 - MetaMCP is the one unified middleware MCP server that manages your MCP connections... | 2.5k | TypeScript | MIT | 2026-07-16 |
 
 ## RAG & GraphRAG {#cat-rag}
 
-**55 outils** dans cette catégorie.
+**60 outils** dans cette catégorie.
 
 | Outil | Description | Stars | Langage | Licence | Dernière MAJ |
 |-------|-------------|-------|---------|---------|-------------|
-| [Flowise](https://github.com/FlowiseAI/Flowise) | Build AI Agents, Visually | 54.7k | TypeScript | NOASSERTION | 2026-07-16 |
-| [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | !DeusData/codebase-memory-mcp MCP server 🌊 🏠 🍎 🪟 🐧 - Code-intelligence engine that indexes a repo... | 32.1k | C | MIT | 2026-07-16 |
-| [EvoAgentX](https://github.com/EvoAgentX/EvoAgentX) | EvoAgentX is building a Self-Evolving Ecosystem of AI Agents, it will give you automated framewor... | 3.1k | Python | NOASSERTION | 2026-07-16 |
+| [ragflow](https://github.com/infiniflow/ragflow) | RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-e... | 85.3k | Go | Apache-2.0 | 2026-07-17 |
+| [Flowise](https://github.com/FlowiseAI/Flowise) | Build AI Agents, Visually | 54.7k | TypeScript | NOASSERTION | 2026-07-17 |
+| [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | !DeusData/codebase-memory-mcp MCP server 🌊 🏠 🍎 🪟 🐧 - Code-intelligence engine that indexes a repo... | 32.2k | C | MIT | 2026-07-17 |
+| [storm](https://github.com/stanford-oval/storm) | An LLM-powered knowledge curation system that researches a topic and generates a full-length repo... | 30.1k | Python | MIT | 2026-07-17 |
+| [RAG-Anything](https://github.com/HKUDS/RAG-Anything) | "RAG-Anything: All-in-One RAG Framework" | 22.2k | Python | MIT | 2026-07-17 |
+| [Agent-S](https://github.com/simular-ai/Agent-S) | Agent S: an open agentic framework that uses computers like a human | 12.0k | Python | Apache-2.0 | 2026-07-17 |
+| [EvoAgentX](https://github.com/EvoAgentX/EvoAgentX) | EvoAgentX is building a Self-Evolving Ecosystem of AI Agents, it will give you automated framewor... | 3.1k | Python | NOASSERTION | 2026-07-17 |
 | [Agentset](https://github.com/agentset-ai/agentset) | Open-source production-ready RAG platform with built-in agentic reasoning, hybrid search, and mul... | 2.0k | TypeScript | MIT | 2026-07-15 |
-| [apecloud/ApeRAG](https://github.com/apecloud/ApeRAG) | 🐍 ☁️ 🏠 - Production-ready RAG platform combining Graph RAG, vector search, and full-text search. ... | 1.3k | Python | Apache-2.0 | 2026-07-16 |
-| [RepoAgent](https://github.com/OpenBMB/RepoAgent) | An LLM-powered repository agent designed to assist developers and teams in generating documentati... | 1.0k | Python | Apache-2.0 | 2026-07-16 |
-| [heymrun/heym](https://github.com/heymrun/heym) | !heymrun/heym MCP server 🐍 📇 🏠 - Source-available, self-hosted AI workflow automation platform. B... | 747 | Python | NOASSERTION | 2026-07-16 |
+| [apecloud/ApeRAG](https://github.com/apecloud/ApeRAG) | 🐍 ☁️ 🏠 - Production-ready RAG platform combining Graph RAG, vector search, and full-text search. ... | 1.3k | Python | Apache-2.0 | 2026-07-17 |
+| [SearchCLI](https://github.com/volcengine/SearchCLI) | Open CLI for integrating AI search, recommendation, and conversational retrieval into agent syste... | 1.1k | TypeScript | Apache-2.0 | 2026-07-17 |
+| [RepoAgent](https://github.com/OpenBMB/RepoAgent) | An LLM-powered repository agent designed to assist developers and teams in generating documentati... | 1.0k | Python | Apache-2.0 | 2026-07-17 |
+| [heymrun/heym](https://github.com/heymrun/heym) | !heymrun/heym MCP server 🐍 📇 🏠 - Source-available, self-hosted AI workflow automation platform. B... | 750 | Python | NOASSERTION | 2026-07-17 |
 | [MindSQL](https://github.com/Mindinventory/MindSQL) | A python package for Txt-to-SQL with self hosting functionalities and RESTful APIs compatible wit... | 445 | Python | GPL-3.0 | 2026-07-09 |
-| [muvon/octocode](https://github.com/Muvon/octocode) | !octocode 🦀 🏠 🍎 🪟 🐧 - Semantic code indexer with GraphRAG knowledge graph. Index your codebase, s... | 428 | Rust | Apache-2.0 | 2026-07-16 |
+| [muvon/octocode](https://github.com/Muvon/octocode) | !octocode 🦀 🏠 🍎 🪟 🐧 - Semantic code indexer with GraphRAG knowledge graph. Index your codebase, s... | 429 | Rust | Apache-2.0 | 2026-07-16 |
 | [Open-RAG-Eval](https://github.com/vectara/open-rag-eval) | an open source RAG evaluation framework that does not require golden answers, and can be used to ... | 384 | Python | Apache-2.0 | 2026-07-09 |
 | [shinpr/mcp-local-rag](https://github.com/shinpr/mcp-local-rag) | 📇 🏠 - Privacy-first document search server running entirely locally. Supports semantic search ove... | 344 | TypeScript | MIT | 2026-07-16 |
-| [MemClaw](https://github.com/caura-ai/caura-memclaw) | Open-source governed shared memory for AI agent fleets with cross-agent recall, permissions, audi... | 322 | Python | Apache-2.0 | 2026-07-16 |
+| [MemClaw](https://github.com/caura-ai/caura-memclaw) | Open-source governed shared memory for AI agent fleets with cross-agent recall, permissions, audi... | 323 | Python | Apache-2.0 | 2026-07-17 |
 | [sachitrafa/YourMemory](https://github.com/sachitrafa/YourMemory) | !sachitrafa/YourMemory MCP server 🐍 🏠 🍎 🪟 🐧 - Persistent memory for AI agents with Ebbinghaus for... | 256 | Python | NOASSERTION | 2026-07-16 |
 | [varun29ankuS/shodh-memory](https://github.com/varun29ankuS/shodh-memory) | 🦀 🏠 - Cognitive memory for AI agents with Hebbian learning, 3-tier architecture, and knowledge gr... | 235 | Rust | Apache-2.0 | 2026-07-16 |
 | [lyonzin/knowledge-rag](https://github.com/lyonzin/knowledge-rag) | !lyonzin/knowledge-rag MCP server 🐍 🏠 🍎 🪟 🐧 - Local RAG system for Claude Code with hybrid search... | 229 | Python | MIT | 2026-07-16 |
-| [fabio-rovai/open-ontologies](https://github.com/fabio-rovai/open-ontologies) | !open-ontologies MCP server 🦀 🏠 - AI-native ontology engineering with 39 tools and 5 prompts for ... | 192 | Rust | MIT | 2026-07-14 |
+| [fabio-rovai/open-ontologies](https://github.com/fabio-rovai/open-ontologies) | !open-ontologies MCP server 🦀 🏠 - AI-native ontology engineering with 39 tools and 5 prompts for ... | 193 | Rust | MIT | 2026-07-17 |
 | [VictoriaMetrics-Community/mcp-victoriametrics](https://github.com/VictoriaMetrics-Community/mcp-victoriametrics) | 🎖️ 🏎️ 🏠 - Provides comprehensive integration with your VictoriaMetrics instance APIs and document... | 191 | Go | Apache-2.0 | 2026-07-14 |
 | [alibaizhanov/mengram](https://github.com/alibaizhanov/mengram) | !mengram MCP server 🐍 ☁️ 🏠 🍎 🪟 🐧 - Human-like memory layer for AI agents with semantic, episodic,... | 183 | Python | Apache-2.0 | 2026-07-05 |
 | [sirmews/mcp-pinecone](https://github.com/sirmews/mcp-pinecone) | 🐍 ☁️ - Pinecone integration with vector search capabilities | 150 | Python | MIT | 2026-07-06 |
 | [nkapila6/mcp-local-rag](https://github.com/nkapila6/mcp-local-rag) | 🏠 🐍 - "primitive" RAG-like web search model context protocol (MCP) server that runs locally. No A... | 130 | Python | MIT | 2026-07-15 |
 | [Vectara-agentic](https://github.com/vectara/py-vectara-agentic) | Vectara-agentic is a framework for creating AI Assistants and agents using Vectara. | 115 | Python | Apache-2.0 | 2026-05-31 |
-| [elvismdev/mem0-mcp-selfhosted](https://github.com/elvismdev/mem0-mcp-selfhosted) | !mem0-mcp-selfhosted MCP server 🐍 🏠 🍎 🪟 🐧 - Self-hosted mem0 MCP server for Claude Code with Qdra... | 99 | Python | MIT | 2026-07-13 |
-| [nikolai-vysotskyi/trace-mcp](https://github.com/nikolai-vysotskyi/trace-mcp) | !nikolai-vysotskyi/trace-mcp MCP server 📇 🏠 🍎 🪟 🐧 - Framework-aware code intelligence that indexe... | 94 | TypeScript | MIT | 2026-07-15 |
+| [elvismdev/mem0-mcp-selfhosted](https://github.com/elvismdev/mem0-mcp-selfhosted) | !mem0-mcp-selfhosted MCP server 🐍 🏠 🍎 🪟 🐧 - Self-hosted mem0 MCP server for Claude Code with Qdra... | 100 | Python | MIT | 2026-07-17 |
+| [nikolai-vysotskyi/trace-mcp](https://github.com/nikolai-vysotskyi/trace-mcp) | !nikolai-vysotskyi/trace-mcp MCP server 📇 🏠 🍎 🪟 🐧 - Framework-aware code intelligence that indexe... | 94 | TypeScript | MIT | 2026-07-16 |
 | [decisionnode/DecisionNode](https://github.com/decisionnode/DecisionNode) | !decisionnode/DecisionNode MCP server 📇 🏠 🍎 🪟 🐧 - Record development decisions as structured JSON... | 80 | TypeScript | MIT | 2026-07-15 |
 | [dnotitia/akb](https://github.com/dnotitia/akb) | !dnotitia/akb MCP server 🐍 📇 🏠 🍎 🪟 🐧 - Organizational knowledge base for AI agents. Vault-scoped ... | 72 | Python | NOASSERTION | 2026-07-16 |
 | [tomohiro-owada/devrag](https://github.com/tomohiro-owada/devrag) | 🏎️ 🏠 🍎 🪟 🐧 - Lightweight local RAG MCP server for semantic vector search over markdown documents.... | 62 | Go | — | 2026-07-06 |
 | [wende/cicada](https://github.com/wende/cicada) | 🐍 🏠 🍎 🪟 🐧 - Code Intelligence for Elixir: module search, function tracking, and PR attribution th... | 40 | Python | MIT | 2026-07-07 |
-| [tobocop2/lilbee](https://github.com/tobocop2/lilbee) | !tobocop2/lilbee MCP server 🐍 🏠 🍎 🪟 🐧 - Runs and manages its own local models, or uses your exist... | 38 | Python | MIT | 2026-07-16 |
+| [tobocop2/lilbee](https://github.com/tobocop2/lilbee) | !tobocop2/lilbee MCP server 🐍 🏠 🍎 🪟 🐧 - Runs and manages its own local models, or uses your exist... | 38 | Python | MIT | 2026-07-17 |
 | [WenyuChiou/research-hub](https://github.com/WenyuChiou/research-hub) | !WenyuChiou/research-hub MCP server 🐍 🏠 ☁️ 🍎 🪟 🐧 - Research workspace MCP integrating Zotero, Obs... | 36 | Python | MIT | 2026-07-16 |
 | [nonatofabio/local-faiss-mcp](https://github.com/nonatofabio/local_faiss_mcp) | 🐍 🏠 🍎 🐧 - Local FAISS vector database for RAG with document ingestion (PDF/TXT/MD/DOCX), semantic... | 33 | Python | MIT | 2026-07-05 |
-| [Abhigyan-Shekhar/Waggle-mcp](https://github.com/Abhigyan-Shekhar/Waggle-mcp) | !Abhigyan-Shekhar/Waggle-mcp MCP server 🐍 🏠 🍎 🪟 🐧 - Persistent graph memory for AI agents. Drop a... | 30 | Python | Apache-2.0 | 2026-07-16 |
+| [Abhigyan-Shekhar/Waggle-mcp](https://github.com/Abhigyan-Shekhar/Waggle-mcp) | !Abhigyan-Shekhar/Waggle-mcp MCP server 🐍 🏠 🍎 🪟 🐧 - Persistent graph memory for AI agents. Drop a... | 32 | Python | Apache-2.0 | 2026-07-17 |
 | [kage-core/Kage](https://github.com/kage-core/Kage) | !kage-core/Kage MCP server 📇 🏠 🍎 🪟 🐧 - Verified, git-native memory for coding agents. Memory is p... | 28 | TypeScript | GPL-3.0 | 2026-07-14 |
 | [wazionapps/nexo](https://github.com/wazionapps/nexo) | !wazionapps/nexo MCP server 🐍 🏠 - Cognitive memory for AI agents with Atkinson-Shiffrin memory mo... | 28 | Python | NOASSERTION | 2026-07-05 |
 | [Quantum3-Labs/ARBuilder](https://github.com/Quantum3-Labs/ARBuilder) | !ARBuilder MCP server 🐍 ☁️ 🏠 🍎 🪟 🐧 - AI-powered code generator for the Arbitrum ecosystem. 19 MCP... | 24 | TypeScript | MIT | 2026-07-05 |
-| [oomkapwn/enquire-mcp](https://github.com/oomkapwn/enquire-mcp) | !oomkapwn/enquire-mcp MCP server 📇 🏠 🍎 🪟 🐧 - Long-term memory for AI agents (Claude Code/Desktop,... | 19 | TypeScript | MIT | 2026-07-16 |
-| [ccf/agentcairn](https://github.com/ccf/agentcairn) | !ccf/agentcairn MCP server 🐍 🏠 🍎 🪟 🐧 - Local-first agent memory: a plain-Markdown Obsidian vault ... | 18 | Python | Apache-2.0 | 2026-07-16 |
+| [ccf/agentcairn](https://github.com/ccf/agentcairn) | !ccf/agentcairn MCP server 🐍 🏠 🍎 🪟 🐧 - Local-first agent memory: a plain-Markdown Obsidian vault ... | 19 | Python | Apache-2.0 | 2026-07-17 |
+| [oomkapwn/enquire-mcp](https://github.com/oomkapwn/enquire-mcp) | !oomkapwn/enquire-mcp MCP server 📇 🏠 🍎 🪟 🐧 - Long-term memory for AI agents (Claude Code/Desktop,... | 19 | TypeScript | MIT | 2026-07-17 |
 | [STiFLeR7/memex](https://github.com/STiFLeR7/memex) | !STiFLeR7/memex MCP server 🐍 🏠 🍎 🪟 🐧 - Developer context continuity system. Watches your git repo... | 12 | Python | MIT | 2026-07-13 |
 | [wd041216-bit/free-web-search-ultimate](https://github.com/wd041216-bit/free-web-search-ultimate) | 🐍 🏠 !wd041216-bit/free-web-search-ultimate MCP server - Zero-cost, privacy-first universal web se... | 12 | Python | MIT | 2026-07-15 |
-| [serkan-ozal/driflyte-mcp-server](https://github.com/serkan-ozal/driflyte-mcp-server) | 🎖️ 📇 ☁️ 🏠 - The Driflyte MCP Server exposes tools that allow AI assistants to query and retrieve ... | 10 | TypeScript | MIT | 2026-07-05 |
+| [serkan-ozal/driflyte-mcp-server](https://github.com/serkan-ozal/driflyte-mcp-server) | 🎖️ 📇 ☁️ 🏠 - The Driflyte MCP Server exposes tools that allow AI assistants to query and retrieve ... | 11 | TypeScript | MIT | 2026-07-17 |
 | [HBarefoot/engram](https://github.com/HBarefoot/engram) | !HBarefoot/engram MCP server 📇 🏠 🍎 🪟 🐧 - Local-first persistent memory for AI agents. SQLite + lo... | 7 | JavaScript | MIT | 2026-07-12 |
 | [disco-trooper/apple-notes-mcp](https://github.com/disco-trooper/apple-notes-mcp) | 📇 🏠 🍎 - Apple Notes MCP with semantic search, hybrid vector+keyword search, full CRUD operations,... | 7 | TypeScript | MIT | 2026-07-12 |
-| [jagoff/memo](https://github.com/jagoff/memo) | !jagoff/memo MCP server 🐍 🏠 🍎 🐧 - Local-first semantic memory server with hybrid search, plain Ma... | 6 | Python | MIT | 2026-07-16 |
+| [jagoff/memo](https://github.com/jagoff/memo) | !jagoff/memo MCP server 🐍 🏠 🍎 🐧 - Local-first semantic memory server with hybrid search, plain Ma... | 6 | Python | MIT | 2026-07-17 |
 | [udjin-labs/mnemostack](https://github.com/udjin-labs/mnemostack) | !udjin-labs/mnemostack MCP server 🐍 🏠 🍎 🪟 🐧 - Durable hybrid memory for AI agents. Combines vecto... | 6 | Python | Apache-2.0 | 2026-07-09 |
 | [khalidsaidi/ragmap](https://github.com/khalidsaidi/ragmap) | 📇 ☁️ 🏠 🍎 🪟 🐧 - MapRag: RAG-focused subregistry + MCP server to discover and route to retrieval-ca... | 5 | TypeScript | MIT | 2026-07-05 |
 | [Semiotronika/LINZA-MCP](https://github.com/Semiotronika/LINZA-MCP) | !Semiotronika/LINZA-MCP MCP server 🐍 🏠 🍎 🪟 🐧 - Local-first review-gated sidecar for Markdown work... | 4 | Python | MIT | 2026-07-05 |
-| [zzallirog/weighted-compact](https://github.com/zzallirog/weighted-compact) | !zzallirog/weighted-compact MCP server 🐍 🏠 - Inspectable memory substrate for Claude Code. Three ... | 4 | Python | MIT | 2026-07-05 |
-| [Auctalis/nocturnusai](https://github.com/Auctalis/nocturnusai) | !Auctalis/nocturnusai MCP server 🐍 🏠 - Deterministic reasoning engine for AI agent context compre... | 3 | Kotlin | NOASSERTION | 2026-07-05 |
-| [ChrisGVE/workspace-qdrant-mcp](https://github.com/ChrisGVE/workspace-qdrant-mcp) | !workspace-qdrant-mcp MCP server 🦀 📇 🏠 🍎 🪟 🐧 - Project-scoped semantic workspace memory for AI co... | 3 | Rust | Apache-2.0 | 2026-07-05 |
-| [TechDocsStudio/biel-mcp](https://github.com/TechDocsStudio/biel-mcp) | 📇 ☁️ - Let AI tools like Cursor, VS Code, or Claude Desktop answer questions using your product d... | 3 | Python | MIT | 2026-07-07 |
-| [SVerITG/Metis](https://github.com/SVerITG/Metis) | !Metis MCP server 🐍 🏠 🍎 🪟 🐧 - A private, local research "second brain" for Claude: project-aware ... | 3 | Python | AGPL-3.0 | 2026-07-13 |
 
 ## Sandboxes & Exécution {#cat-sandbox}
 
-**26 outils** dans cette catégorie.
+**27 outils** dans cette catégorie.
 
 | Outil | Description | Stars | Langage | Licence | Dernière MAJ |
 |-------|-------------|-------|---------|---------|-------------|
-| [microsandbox](https://github.com/superradcompany/microsandbox) | 🧱 easy, fast and local-first microVM runtime | 7.0k | Rust | Apache-2.0 | 2026-07-16 |
-| [smolvm](https://github.com/smol-machines/smolvm) | Portable, lightweight, self-contained virtual machine. | 4.4k | Rust | Apache-2.0 | 2026-07-16 |
-| [microvm.nix](https://github.com/microvm-nix/microvm.nix) | NixOS MicroVMs | 2.8k | Nix | MIT | 2026-07-16 |
-| [forkd](https://github.com/deeplethe/forkd) | Fork() for AI agent microVMs. Spawn 100 children in ~100ms from a warm parent; BRANCH a live VM i... | 2.7k | Rust | Apache-2.0 | 2026-07-16 |
-| [flintlock](https://github.com/liquidmetal-dev/flintlock) | Lock, Stock, and Two Smoking MicroVMs. Create and manage the lifecycle of MicroVMs backed by cont... | 1.4k | Go | MPL-2.0 | 2026-07-14 |
-| [kuasar](https://github.com/kuasar-io/kuasar) | A multi-sandbox container runtime that provides cloud-native, all-scenario multiple sandbox conta... | 1.4k | Rust | Apache-2.0 | 2026-07-10 |
-| [infra](https://github.com/e2b-dev/infra) | Infrastructure that's powering E2B Cloud. | 1.2k | Go | Apache-2.0 | 2026-07-16 |
-| [Wllama](https://github.com/ngxson/wllama) | WebAssembly binding for llama.cpp - Enabling in-browser LLM inference | 1.1k | TypeScript | MIT | 2026-07-16 |
-| [mayastor](https://github.com/openebs/mayastor) | Dynamically provision Stateful Persistent Replicated Cluster-wide Fabric Volumes & Filesystems fo... | 1.1k | Rust | Apache-2.0 | 2026-07-16 |
-| [smolBSD](https://github.com/NetBSDfr/smolBSD) | smolBSD is a tiny BSD UNIX (NetBSD) system creation tool, primarily aimed at building modern, lig... | 692 | Shell | BSD-2-Clause | 2026-07-16 |
-| [clawk](https://github.com/clawkwork/clawk) | Give coding agents a disposable Linux VM, not your laptop | 637 | Go | Apache-2.0 | 2026-07-16 |
-| [vHive](https://github.com/vhive-serverless/vHive) | vHive: Open-source framework for serverless experimentation | 338 | Go | MIT | 2026-07-08 |
-| [pve-microvm](https://github.com/rcarmo/pve-microvm) | Firecracker-like microVMs for Proxmox VE — KVM isolation, under 200 ms boot. | 309 | Shell | Apache-2.0 | 2026-07-16 |
+| [firecracker](https://github.com/firecracker-microvm/firecracker) | Secure and fast microVMs for serverless computing. | 35.5k | Rust | Apache-2.0 | 2026-07-17 |
+| [gvisor](https://github.com/google/gvisor) | Application Kernel for Containers | 18.8k | Go | Apache-2.0 | 2026-07-17 |
+| [wasmtime](https://github.com/bytecodealliance/wasmtime) | A lightweight WebAssembly runtime that is fast, secure, and standards-compliant | 18.4k | Rust | Apache-2.0 | 2026-07-17 |
+| [memU](https://github.com/NevaMind-AI/memU) | Personal memory across agents | 14.0k | Python | NOASSERTION | 2026-07-17 |
+| [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox) | Secure, Fast, and Extensible Sandbox runtime for AI agents. | 12.0k | Python | Apache-2.0 | 2026-07-17 |
+| [CubeSandbox](https://github.com/TencentCloud/CubeSandbox) | Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents. | 10.4k | Rust | NOASSERTION | 2026-07-17 |
+| [astrid](https://github.com/astrid-runtime/astrid) | Astrid is a portable, capability-secure operating system for composable software. | 10.3k | Rust | Apache-2.0 | 2026-07-17 |
+| [openbrowser](https://github.com/ntegrals/openbrowser) | Let AI agents browse the web. An autonomous toolkit for browser-based AI agents. | 9.5k | TypeScript | MIT | 2026-07-17 |
+| [react-cosmos](https://github.com/react-cosmos/react-cosmos) | Sandbox for developing and testing UI components in isolation | 8.7k | TypeScript | MIT | 2026-07-14 |
+| [OpenTTD](https://github.com/OpenTTD/OpenTTD) | OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe | 8.1k | C++ | NOASSERTION | 2026-07-17 |
+| [wasm3](https://github.com/wasm3/wasm3) | 🚀 A fast WebAssembly interpreter and the most universal WASM runtime | 8.0k | C | MIT | 2026-07-15 |
+| [omnigent](https://github.com/omnigent-ai/omnigent) | Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, C... | 7.4k | Python | Apache-2.0 | 2026-07-17 |
+| [microsandbox](https://github.com/superradcompany/microsandbox) | 🧱 easy, fast and local-first microVM runtime | 7.0k | Rust | Apache-2.0 | 2026-07-17 |
+| [fragments](https://github.com/e2b-dev/fragments) | Open-source Next.js template for building apps that are fully generated by AI. By E2B. | 6.3k | TypeScript | Apache-2.0 | 2026-07-17 |
+| [x11docker](https://github.com/mviereck/x11docker) | Run GUI applications and desktops in docker and podman containers. Focus on security. | 6.3k | Shell | MIT | 2026-07-16 |
+| [Wllama](https://github.com/ngxson/wllama) | WebAssembly binding for llama.cpp - Enabling in-browser LLM inference | 1.1k | TypeScript | MIT | 2026-07-17 |
 | [Greywall](https://github.com/GreyhavenHQ/greywall) | Deny-by-default command sandbox for AI coding agents with filesystem isolation, network control v... | 266 | Go | Apache-2.0 | 2026-07-15 |
-| [boring-computers](https://github.com/michaelshimeles/boring-computers) | On-demand Linux computers you can hand to an AI — real Firecracker microVMs with a browser, termi... | 264 | Go | Apache-2.0 | 2026-07-16 |
-| [Containarium](https://github.com/FootprintAI/Containarium) | Open-source agent runtime — SSH-native isolation, eBPF egress policy, Kubernetes + LXC backends, ... | 261 | Go | Apache-2.0 | 2026-07-16 |
-| [skyflake](https://github.com/astro/skyflake) | NixOS Hyperconverged Infrastructure on Nomad/NixOS | 244 | Nix | MIT | 2026-07-09 |
-| [netclode](https://github.com/angristan/netclode) | Self hosted cloud coding agent with k3s + kata containers + cloud hypervisor microVMs + tailscale... | 201 | Swift | — | 2026-07-16 |
-| [sandboxes](https://github.com/nalgeon/sandboxes) | Sandboxes for running code and tools | 127 | Shell | Apache-2.0 | 2026-07-16 |
+| [Containarium](https://github.com/FootprintAI/Containarium) | Open-source agent runtime — SSH-native isolation, eBPF egress policy, Kubernetes + LXC backends, ... | 261 | Go | Apache-2.0 | 2026-07-17 |
+| [sandboxes](https://github.com/nalgeon/sandboxes) | Sandboxes for running code and tools | 127 | Shell | Apache-2.0 | 2026-07-17 |
 | [sample-autonomous-cloud-coding-agents](https://github.com/aws-samples/sample-autonomous-cloud-coding-agents) | Autonomous background coding agents on AWS. Turn tasks into pull requests via isolated runtimes, ... | 111 | TypeScript | MIT-0 | 2026-07-14 |
 | [ajitpratap0/GoSQLX](https://github.com/ajitpratap0/GoSQLX) | !ajitpratap0/GoSQLX MCP server 🏎️ ☁️ 🏠 - 7 SQL tools (validate, format, parse, lint, security sca... | 105 | Go | Apache-2.0 | 2026-07-09 |
 | [ipybox](https://github.com/gradion-ai/ipybox) | Unified execution environment for Python code, shell commands, and programmatic MCP tool calls. | 73 | Python | Apache-2.0 | 2026-07-06 |
@@ -372,15 +374,22 @@ date-format: "YYYY-MM-DD"
 | [AryanBV/pdf-toolkit-mcp](https://github.com/AryanBV/pdf-toolkit-mcp) | !AryanBV/pdf-toolkit-mcp MCP server 📇 🏠 🍎 🪟 🐧 - Create PDFs from Markdown with tables and formatt... | 8 | TypeScript | MIT | 2026-07-05 |
 | [Sowiedu/Edict](https://github.com/Sowiedu/Edict) | !Sowiedu/Edict MCP server 📇 🏠 – Agent-first programming language: agents produce JSON AST, the co... | 7 | JavaScript | MIT | 2026-07-05 |
 | [davidlandais/ovh-api-mcp](https://github.com/davidlandais/ovh-api-mcp) | !ovh-api-mcp MCP server 🦀 ☁️ - Code Mode MCP server for the entire OVH API. Two tools (search + e... | 1 | Rust | MIT | 2026-07-05 |
+| [@vercel/agent-eval](https://www.npmjs.com/package/@vercel/agent-eval) | Framework for testing AI coding agents in isolated sandboxes | 0 | TypeScript | MIT | 2026-07-06 |
 
 ## Skills & Outils {#cat-skill}
 
-**5 outils** dans cette catégorie.
+**11 outils** dans cette catégorie.
 
 | Outil | Description | Stars | Langage | Licence | Dernière MAJ |
 |-------|-------------|-------|---------|---------|-------------|
-| [privateGPT](https://github.com/imartinez/privateGPT) | Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-... | 57.3k | Python | Apache-2.0 | 2026-07-16 |
+| [privateGPT](https://github.com/imartinez/privateGPT) | Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-... | 57.3k | Python | Apache-2.0 | 2026-07-17 |
+| [mirage](https://github.com/strukto-ai/mirage) | The World's First Unified Virtual Filesystem For AI Agents | 3.3k | TypeScript | Apache-2.0 | 2026-07-17 |
+| [deepbot](https://github.com/kevinluosl/deepbot) | DeepBot is a system-level AI assistant built for both personal productivity and enterprise workfl... | 2.4k | TypeScript | MIT | 2026-07-15 |
+| [hermes-desktop](https://github.com/dodo-reach/hermes-desktop) | The safest, simplest way to manage Hermes from your Mac. Pure SSH. No gateways, no exposed ports,... | 2.0k | Swift | MIT | 2026-07-16 |
+| [fieldtheory-cli](https://github.com/afar1/fieldtheory-cli) | Field Theory CLI for bookmarks, Library, commands, and agent workflows | 1.9k | TypeScript | MIT | 2026-07-15 |
+| [harbor-sdk](https://github.com/zonko-ai/harbor-sdk) | Connect your agents with anything. Make your tools composable. Secrets stay out of agent context. | 392 | Python | MIT | 2026-07-16 |
 | [Dorothy](https://github.com/Charlie85270/Dorothy) | Open-source desktop app to orchestrate multiple AI CLI agents (Claude Code, Codex, Gemini) simult... | 323 | TypeScript | MIT | 2026-07-15 |
+| [scenario-lab](https://github.com/YSLAB-ai/scenario-lab) | Experimental scenario analysis for real-life events forecasting with Codex or Claude | 303 | Python | MIT | 2026-07-16 |
 | [pi22by7/In-Memoria](https://github.com/pi22by7/In-Memoria) | 📇 🦀 🏠 🍎 🐧 🪟 - Persistent intelligence infrastructure for agentic development that gives AI coding... | 170 | Rust | MIT | 2026-07-05 |
 | [Archerkattri/mathlas](https://github.com/Archerkattri/mathlas) | !Archerkattri/mathlas MCP server 🐍 🏠 - Airtight math for agents: 3.7M-theorem search, PSLQ consta... | 7 | Python | Apache-2.0 | 2026-07-15 |
 | [twtrubiks/odoo19-mcp-server](https://github.com/twtrubiks/odoo19-mcp-server) | !twtrubiks/odoo19-mcp-server MCP server 🐍 ☁️ 🏠 🍎 🪟 🐧 - MCP Server for Odoo 19 ERP using JSON-RPC ... | 3 | Python | Apache-2.0 | 2026-07-08 |

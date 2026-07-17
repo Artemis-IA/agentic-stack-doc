@@ -125,22 +125,46 @@ graph LR
 ## Frameworks RAG découverts automatiquement
 
 <!-- TOOLS_RAG_START -->
+### [ragflow](https://github.com/infiniflow/ragflow)
+RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
+
+⭐ 85.3k | `Go` | Licence: Apache-2.0 | MAJ: 2026-07-17
+**Tags** : `agent-harness`, `agentic-ai`, `agentic-retrieval`, `agentic-search`, `ai`, `ai-agents`, `context-engine`, `context-engineering`
+
 ### [Flowise](https://github.com/FlowiseAI/Flowise)
 Build AI Agents, Visually
 
-⭐ 54.7k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-07-16
+⭐ 54.7k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-07-17
 **Tags** : `agentic-ai`, `agentic-workflow`, `agents`, `artificial-intelligence`, `chatbot`, `chatgpt`, `javascript`, `langchain`
 
 ### [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
 !DeusData/codebase-memory-mcp MCP server 🌊 🏠 🍎 🪟 🐧 - Code-intelligence engine that indexes a repo into a persistent knowledge graph — functions, classes, call chains, HTTP routes, cross-service lin...
 
-⭐ 32.1k | `C` | Licence: MIT | MAJ: 2026-07-16
+⭐ 32.2k | `C` | Licence: MIT | MAJ: 2026-07-17
 **Tags** : `aider`, `ast`, `claude-code`, `code-analysis`, `code-intelligence`, `codex`, `cursor`, `cypher`
+
+### [storm](https://github.com/stanford-oval/storm)
+An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.
+
+⭐ 30.1k | `Python` | Licence: MIT | MAJ: 2026-07-17
+**Tags** : `agentic-rag`, `deep-research`, `emnlp2024`, `knowledge-curation`, `large-language-models`, `naacl`, `nlp`, `report-generation`
+
+### [RAG-Anything](https://github.com/HKUDS/RAG-Anything)
+"RAG-Anything: All-in-One RAG Framework"
+
+⭐ 22.2k | `Python` | Licence: MIT | MAJ: 2026-07-17
+**Tags** : `multi-modal-rag`, `retrieval-augmented-generation`
+
+### [Agent-S](https://github.com/simular-ai/Agent-S)
+Agent S: an open agentic framework that uses computers like a human
+
+⭐ 12.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-17
+**Tags** : `agent-computer-interface`, `ai-agents`, `computer-automation`, `computer-use`, `computer-use-agent`, `cua`, `grounding`, `gui-agents`
 
 ### [EvoAgentX](https://github.com/EvoAgentX/EvoAgentX)
 EvoAgentX is building a Self-Evolving Ecosystem of AI Agents, it will give you automated framework for evaluating and evolving agentic workflows. !GitHub Repo stars
 
-⭐ 3.1k | `Python` | Licence: NOASSERTION | MAJ: 2026-07-16
+⭐ 3.1k | `Python` | Licence: NOASSERTION | MAJ: 2026-07-17
 **Tags** : `agent`, `ai`, `ai-agents`, `llms`, `memory`, `multi-agent-systems`, `natural-language-processing`, `rag`
 
 ### [Agentset](https://github.com/agentset-ai/agentset)
@@ -152,19 +176,25 @@ Open-source production-ready RAG platform with built-in agentic reasoning, hybri
 ### [apecloud/ApeRAG](https://github.com/apecloud/ApeRAG)
 🐍 ☁️ 🏠 - Production-ready RAG platform combining Graph RAG, vector search, and full-text search. Best choice for building your own Knowledge Graph and for Context Engineering
 
-⭐ 1.3k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-16
+⭐ 1.3k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-17
 **Tags** : `agents`, `context-engineering`, `graphrag`, `knowledge-graph`, `mcp`
+
+### [SearchCLI](https://github.com/volcengine/SearchCLI)
+Open CLI for integrating AI search, recommendation, and conversational retrieval into agent systems and business systems
+
+⭐ 1.1k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-07-17
+**Tags** : `agent-tools`, `ai-agents`, `ai-search`, `ai-search-engine`, `automation`, `cli`, `command-line-tool`, `conversational-search`
 
 ### [RepoAgent](https://github.com/OpenBMB/RepoAgent)
 An LLM-powered repository agent designed to assist developers and teams in generating documentation and understanding repositories quickly !GitHub Repo stars
 
-⭐ 1.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-16
+⭐ 1.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-17
 **Tags** : `agent`, `chatglm`, `chatgpt`, `chatgpt-api`, `gpt`, `gpt-4`, `langchain`, `llama`
 
 ### [heymrun/heym](https://github.com/heymrun/heym)
 !heymrun/heym MCP server 🐍 📇 🏠 - Source-available, self-hosted AI workflow automation platform. Build multi-agent, RAG, and tool-using pipelines on a visual canvas, then expose any workflow as an M...
 
-⭐ 747 | `Python` | Licence: NOASSERTION | MAJ: 2026-07-16
+⭐ 750 | `Python` | Licence: NOASSERTION | MAJ: 2026-07-17
 **Tags** : `ai-agents`, `ai-agents-framework`, `ai-assistant`, `automation`, `automation-tool`, `autonomous-agents`, `coding-agent`, `evals`
 
 ### [MindSQL](https://github.com/Mindinventory/MindSQL)
@@ -176,7 +206,7 @@ A python package for Txt-to-SQL with self hosting functionalities and RESTful AP
 ### [muvon/octocode](https://github.com/Muvon/octocode)
 !octocode 🦀 🏠 🍎 🪟 🐧 - Semantic code indexer with GraphRAG knowledge graph. Index your codebase, search in natural language, and expose everything via MCP so AI agents understand architecture — not ...
 
-⭐ 428 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-07-16
+⭐ 429 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-07-16
 **Tags** : `ai`, `ai-tools`, `cli`, `cli-app`, `code-search`, `developer-tool`, `developer-tools`, `doc-search`
 
 ### [Open-RAG-Eval](https://github.com/vectara/open-rag-eval)
@@ -194,7 +224,7 @@ an open source RAG evaluation framework that does not require golden answers, an
 ### [MemClaw](https://github.com/caura-ai/caura-memclaw)
 Open-source governed shared memory for AI agent fleets with cross-agent recall, permissions, audit trails, and persistent memory.
 
-⭐ 322 | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-16
+⭐ 323 | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-17
 **Tags** : `agent-memory`, `agentic-ai`, `ai-agents`, `ai-infrastructure`, `claude`, `fastapi`, `knowledge-graph`, `llm-memory`
 
 ### [sachitrafa/YourMemory](https://github.com/sachitrafa/YourMemory)
@@ -214,35 +244,5 @@ Open-source governed shared memory for AI agent fleets with cross-agent recall, 
 
 ⭐ 229 | `Python` | Licence: MIT | MAJ: 2026-07-16
 **Tags** : `antigravity`, `claude`, `claude-code`, `claude-code-cli`, `codex`, `cursor-ai`, `document-search`, `hybrid-search`
-
-### [fabio-rovai/open-ontologies](https://github.com/fabio-rovai/open-ontologies)
-!open-ontologies MCP server 🦀 🏠 - AI-native ontology engineering with 39 tools and 5 prompts for OWL/RDF/SPARQL. Validate, query, diff, lint, version, and govern knowledge graphs via Oxigraph tripl...
-
-⭐ 192 | `Rust` | Licence: MIT | MAJ: 2026-07-14
-**Tags** : `ai-native`, `claude`, `description-logics`, `knowledge-graph`, `linked-data`, `mcp`, `mcp-server`, `ontology`
-
-### [VictoriaMetrics-Community/mcp-victoriametrics](https://github.com/VictoriaMetrics-Community/mcp-victoriametrics)
-🎖️ 🏎️ 🏠 - Provides comprehensive integration with your VictoriaMetrics instance APIs and documentation for monitoring, observability, and debugging tasks related to your VictoriaMetrics instances
-
-⭐ 191 | `Go` | Licence: Apache-2.0 | MAJ: 2026-07-14
-**Tags** : `ai`, `mcp`, `mcp-server`, `monitoring`, `observability`, `rag`, `victoriametrics`
-
-### [alibaizhanov/mengram](https://github.com/alibaizhanov/mengram)
-!mengram MCP server 🐍 ☁️ 🏠 🍎 🪟 🐧 - Human-like memory layer for AI agents with semantic, episodic, and procedural memory. Claude Code hooks (auto-save, auto-recall, cognitive profile). 29 MCP tools,...
-
-⭐ 183 | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-05
-**Tags** : `agent-memory`, `ai-agents`, `ai-memory`, `claude-desktop`, `cognitive-architecture`, `cohere`, `cursor-ai`, `episodic-memory`
-
-### [sirmews/mcp-pinecone](https://github.com/sirmews/mcp-pinecone)
-🐍 ☁️ - Pinecone integration with vector search capabilities
-
-⭐ 150 | `Python` | Licence: MIT | MAJ: 2026-07-06
-**Tags** : `claude`, `mcp`, `mcp-server`, `model-context-protocol`, `pinecone`, `rag`
-
-### [nkapila6/mcp-local-rag](https://github.com/nkapila6/mcp-local-rag)
-🏠 🐍 - "primitive" RAG-like web search model context protocol (MCP) server that runs locally. No APIs needed.
-
-⭐ 130 | `Python` | Licence: MIT | MAJ: 2026-07-15
-**Tags** : `mcp`, `mcp-server`, `model-context-protocol`, `rag`, `web-seach`
 
 <!-- TOOLS_RAG_END -->
