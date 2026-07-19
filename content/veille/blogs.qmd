@@ -153,6 +153,15 @@ graph LR
 - **Résumé** : A big day for OpenAI....
 - **Lien** : https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna
 
+### Claude Code uses Bun written in Rust now
+- **Source** : Simon Willison
+- **Date** : 2026-07-19T03:54
+- **Score** : 1
+- **Résumé** : In Rewriting Bun in Rust Jarred Sumner made the following claim:
+
+Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely an...
+- **Lien** : https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything
+
 ### Claude make Fable 5 permanent
 - **Source** : Simon Willison
 - **Date** : 2026-07-18T06:00
@@ -177,16 +186,6 @@ Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium p
 - **Score** : 1
 - **Résumé** : Chinese AI lab Moonshot AI announced Kimi K3 this morning, describing it as their "most capable model to date, with 2.8 trillion parameters". It's currently available via their website and API, but an...
 - **Lien** : https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything
-
-### Quoting Thibault Sottiaux
-- **Source** : Simon Willison
-- **Date** : 2026-07-16T17:45
-- **Score** : 1
-- **Résumé** : On file deletions. We’ve investigated a handful of reports where GPT-5.6 unexpectedly deleted files. 
-What we have  found is that this most commonly occurs when:
-
-Full access mode is enabled and codex...
-- **Lien** : https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything
 
 ### What building Shippy taught us about building agents
 - **Source** : Hugging Face Blog
