@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### Bridge Evidence: Static Retrieval Utility Does Not Predict Causal Utility in Multi-Step Agentic Search
-- **arXiv** : 2607.15253v1
-- **Date** : 2026-07-16
-- **Auteurs** : Debayan Mukhopadhyay, Utshab Kumar Ghosh, Shubham Chatterjee
-- **Score** : 9
-- **Résumé** : Retrieval systems are trained and evaluated on a static idea of usefulness: hand a document and a question to a reader model, see whether the answer improves, and score the document accordingly. The idea holds up when a document is read on its own. It breaks when a language model works as a search a...
-- **Lien** : https://arxiv.org/abs/2607.15253v1
+### LLM-Powered Agentic AI for 5G/6G Networks: A Tutorial and Survey on Architectures, Protocols, and Standardization
+- **arXiv** : 2607.16066v1
+- **Date** : 2026-07-17
+- **Auteurs** : Mazene Ameur, Abdelkader Mekrache, Bouziane Brik, Adlen Ksentini
+- **Score** : 16
+- **Résumé** : Agentic Artificial Intelligence (AI), enabled by Large Language Models, marks a shift from rule-based automation toward autonomous, goal-driven control of Next-Generation Networks (NGNs). Existing surveys treat the two domains in isolation, leaving protocol integration, evaluation, and standardizati...
+- **Lien** : https://arxiv.org/abs/2607.16066v1
 
-### When Words Are Safe But Actions Kill: Probing Physical Danger Beyond Text Safety in Hidden-State Risk Space
-- **arXiv** : 2607.15218v1
-- **Date** : 2026-07-16
-- **Auteurs** : Weimeng Wang, Ziqiang Wang, Zihang Zhan, Chuanpu Fu, Qi Li
-- **Score** : 9
-- **Résumé** : Large language models (LLMs) increasingly serve as high-level planners for embodied agents, where linguistically benign instructions can become unsafe once grounded in the physical world. We study whether this physically grounded danger is the same safety problem as ordinary text-level content dange...
-- **Lien** : https://arxiv.org/abs/2607.15218v1
+### Frontier AI performance across the business disciplines: a case-grounded benchmark of knowledge work and analytical reasoning
+- **arXiv** : 2607.16057v1
+- **Date** : 2026-07-17
+- **Auteurs** : Ajay Patel, Kartik Hosanagar, Ramayya Krishnan, Chris Callison-Burch, Karim Lakhani
+- **Score** : 16
+- **Résumé** : Large language models (LLMs) are improving rapidly as reflected in benchmark scores, yet these AI benchmarks largely test capabilities such as factual recall, narrow question answering, mathematical problem-solving, and coding and agentic tool-use. What remains poorly measured is AI progress on the ...
+- **Lien** : https://arxiv.org/abs/2607.16057v1
 
-### Digital Pantheon: Simulating and Auditing Coalition Formation with LLM Agents
-- **arXiv** : 2607.15095v1
-- **Date** : 2026-07-16
-- **Auteurs** : Dylan Van Mulders, Matthias Bogaert, Dirk Van den Poel
-- **Score** : 9
-- **Résumé** : The formation of political coalitions is a complex negotiation driven by both concrete policy objectives and deep-seated ideological convictions. While Large Language Models (LLMs) open new avenues for computational political science, the neutrality and helpfulness biases instilled by Reinforcement ...
-- **Lien** : https://arxiv.org/abs/2607.15095v1
+### PagedWeight: Efficient MoE LLM Serving with Dynamic Quality-Aware Weight Quantization
+- **arXiv** : 2607.16184v1
+- **Date** : 2026-07-17
+- **Auteurs** : Yuchen Yang, Yifan Zhao, Anisha Dasgupta, Sasa Misailovic
+- **Score** : 7
+- **Résumé** : Mixture-of-Experts (MoE) is a popular class of large language models (LLMs), offering high efficiency and accuracy. However, in KV-cache-intensive serving scenarios, MoEs often exhibit a tension between the GPU memory requirements of the model weights and the growing KV cache. We propose PagedWeight...
+- **Lien** : https://arxiv.org/abs/2607.16184v1
 
-### Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models
-- **arXiv** : 2607.15277v1
-- **Date** : 2026-07-16
-- **Auteurs** : Patrik Wolf, Thomas Kleine Buening, Andreas Krause, Celestine Mendler-Dünner
-- **Score** : 8
-- **Résumé** : In-context learning is commonly interpreted as a form of conditional inference, in which the prompt specifies a context and the model's output is treated as an estimate of the corresponding conditional distribution. If this interpretation holds, then LLM estimates should satisfy basic probabilistic ...
-- **Lien** : https://arxiv.org/abs/2607.15277v1
+### When Does Muon Help Agentic Reinforcement Learning?
+- **arXiv** : 2607.16169v1
+- **Date** : 2026-07-17
+- **Auteurs** : Kai Ruan, Jinghao Lin, Zihe Huang, Ziqi Zhou, Qianshan Wei
+- **Score** : 7
+- **Résumé** : Muon is competitive with AdamW in large-scale pre-training, but its value for reinforcement-learning (RL) post-training remains unclear. We study vanilla Muon in sparse-reward agentic RL through matched single-seed comparisons with AdamW on ALFWorld using Qwen2.5-0.5B-Instruct. Under Group-in-Group ...
+- **Lien** : https://arxiv.org/abs/2607.16169v1
 
-### Benchmarking Multimodal Large Language Models for Scientific Visualization Literacy
-- **arXiv** : 2607.15176v1
-- **Date** : 2026-07-16
-- **Auteurs** : Patrick Phuoc Do, Chau M. Ta, Chaoli Wang
-- **Score** : 8
-- **Résumé** : Multimodal large language models (MLLMs) are increasingly used to interpret visualizations, yet current evaluations remain largely chart-centric and provide limited evidence of understanding of scientific visualization (SciVis). We benchmark six MLLMs on the scientific visualization literacy assessm...
-- **Lien** : https://arxiv.org/abs/2607.15176v1
-
-### SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration
-- **arXiv** : 2607.15257v1
-- **Date** : 2026-07-16
-- **Auteurs** : Yuyao Zhang, Junjie Gao, Zhengxian Wu, Jiaming Fan, Jin Zhang
+### Evaluating Open-Weight LLMs for Generating Structured Threat Information for Autonomous Vehicle Vulnerabilities
+- **arXiv** : 2607.16175v1
+- **Date** : 2026-07-17
+- **Auteurs** : Md Erfan, Ahmed Ryan, Md Kamal Hossain Chowdhury, Md Rayhanur Rahman
 - **Score** : 6
-- **Résumé** : Recent advances in Tool-Integrated Large Language Models have made web search a core capability of information-seeking agents. However, as interaction histories grow, agents increasingly struggle to track task progress. When search attempts fail to yield useful evidence, current single- and multi-ag...
-- **Lien** : https://arxiv.org/abs/2607.15257v1
+- **Résumé** : Connected and Autonomous Vehicles (CAVs) rely on interconnected software and hardware components, including sensors, Electronic Control Units, in-vehicle infotainment systems, and telematics units, where vulnerabilities can compromise assets, users, and vehicle operations. These vulnerabilities are ...
+- **Lien** : https://arxiv.org/abs/2607.16175v1
 
-### AutoSynthesis: An agentic system for automated meta-analysis
-- **arXiv** : 2607.15247v1
-- **Date** : 2026-07-16
-- **Auteurs** : Moein Taherinezhad, Sebastian Maier, Gerardo Vitagliano, Francesco Pierri, Stefan Feuerriegel
+### When Do Multi-Agent Systems Help? An Information Bottleneck Perspective
+- **arXiv** : 2607.16133v1
+- **Date** : 2026-07-17
+- **Auteurs** : Wendi Yu, Lianhao Zhou, Xiangjue Dong, Sai Sudarshan Barath, Declan Staunton
 - **Score** : 6
-- **Résumé** : Evidence synthesis is crucial for turning primary research into reliable knowledge for science, medicine, education, and policy. Yet, quantitative evidence synthesis remains largely manual and difficult to scale. Here, we introduce AutoSynthesis, an end-to-end multi-agent system for automated meta-a...
-- **Lien** : https://arxiv.org/abs/2607.15247v1
+- **Résumé** : LLM powered multi-agent systems (MAS) have emerged as a promising paradigm for complex tasks. However, their advantages over single-agent systems (SAS) remain unclear, with performance varying inconsistently across settings. Here, we provide an information bottleneck perspective on elucidating the d...
+- **Lien** : https://arxiv.org/abs/2607.16133v1
 
-### Symbal: Detecting Systematic Misalignments in Model-Generated Captions
-- **arXiv** : 2607.15216v1
-- **Date** : 2026-07-16
-- **Auteurs** : Maya Varma, Jean-Benoit Delbrouck, Sophie Ostmeier, Akshay Chaudhari, Curtis Langlotz
+### The Honest Quorum Problem: Epistemic Byzantine Fault Tolerance for Agentic Infrastructure
+- **arXiv** : 2607.16109v1
+- **Date** : 2026-07-17
+- **Auteurs** : Jun He, Deying Yu
 - **Score** : 6
-- **Résumé** : Multimodal large language models (MLLMs) often introduce errors when generating image captions, resulting in misaligned image-text pairs. Our work focuses on a class of captioning errors that we refer to as systematic misalignments, where a recurring error in MLLM-generated captions is closely assoc...
-- **Lien** : https://arxiv.org/abs/2607.15216v1
+- **Résumé** : State machine replication (SMR) and Byzantine fault-tolerant (BFT) consensus guarantee agreement despite a bounded number of arbitrary, colluding faulty participants. However, these guarantees rely on participants outside this set correctly executing the protocol's transition semantics. Agentic vali...
+- **Lien** : https://arxiv.org/abs/2607.16109v1
 
-### Expanding the Lexicon of Ge'ez Based African Languages: A Comparative Study of Amharic and Tigrinya
-- **arXiv** : 2607.15209v1
-- **Date** : 2026-07-16
-- **Auteurs** : Hailay Kidu Teklehaymanot, Debela Desalegn Yadeta, Wolfgang Nejdl
+### Understanding Reasoning from Pretraining to Post-Training
+- **arXiv** : 2607.16097v1
+- **Date** : 2026-07-17
+- **Auteurs** : Jingyan Shen, Ang Li, Salman Rahman, Yifan Sun, Micah Goldblum
 - **Score** : 6
-- **Résumé** : Multilingual pre-trained language models (PLMs) exhibit degraded performance on low-resource, non-Latin-script languages, driven by high out-of-vocabulary (OOV) rates and excessive subword fragmentation that result from Latin-script-centric tokenizer training. We introduce VEXMLM, a vocabulary-exten...
-- **Lien** : https://arxiv.org/abs/2607.15209v1
+- **Résumé** : Reinforcement learning (RL) has become central to improving large language models (LLMs) on complex reasoning tasks, yet RL post-training is largely studied in isolation from the pretraining that precedes it. As a result, two basic questions remain open: (1) how do pretraining choices (model size, d...
+- **Lien** : https://arxiv.org/abs/2607.16097v1
 
-### Plover: Steering GUI Agents through Plan-Centric Interaction
-- **arXiv** : 2607.15193v1
-- **Date** : 2026-07-16
-- **Auteurs** : Madhumitha Venkatesan, Shicheng Wen, Jiajing Guo, Jorge Piazentin Ono, Liu Ren
+### What Does It Take to Research with AI? A Rapid Review of Competencies to Train LLM-Literate Researchers
+- **arXiv** : 2607.16083v1
+- **Date** : 2026-07-17
+- **Auteurs** : Danilo Monteiro Ribeiro, Ronnie de Souza Santos, Rodrigo Siqueira, Breno Andrade, Rafael Batista Duarte
 - **Score** : 6
-- **Résumé** : Graphical user interface (GUI) automation remains challenging in real-world environments, where dynamic layouts, unexpected dialogs, and evolving interface states can cause autonomous agents to drift from user intent. Recent vision-based multimodal agents improve flexibility by operating directly ov...
-- **Lien** : https://arxiv.org/abs/2607.15193v1
+- **Résumé** : The growing adoption of Large Language Models in scientific research has created a need to understand what competencies researchers and graduate students require to use these tools critically and responsibly. This rapid review analyzed 194 articles retrieved from Elicit and Google Scholar (2022 to 2...
+- **Lien** : https://arxiv.org/abs/2607.16083v1
 
-### Stigmergic Graph Memory: An Environment-Aware Approach for Many-to-Many Multi-Agent Pickup and Delivery
-- **arXiv** : 2607.15182v1
-- **Date** : 2026-07-16
-- **Auteurs** : Aditya Dutta, Joon-Seok Kim
+### Frontier Language Models Struggle to Copy: Text Can Be Better Viewed in 2D
+- **arXiv** : 2607.16072v1
+- **Date** : 2026-07-17
+- **Auteurs** : Haodong Wen, Yiran Zhang, Yingfa Chen, Kaifeng Lyu
 - **Score** : 6
-- **Résumé** : Automated fulfillment warehouses must continuously assign and execute pickup-and-delivery work while avoiding congestion. In many-to-many Multi-Agent Pickup and Delivery (MAPD), a request specifies a stock-keeping unit rather than fixed endpoints, requiring the controller to select an agent, source,...
-- **Lien** : https://arxiv.org/abs/2607.15182v1
+- **Résumé** : While large language models (LLMs) can solve advanced reasoning problems in seconds, we show that even frontier models fail to perform a much simpler operation: exactly copying an input string that lies well within their context windows. We attribute this failure to positional encodings in Transform...
+- **Lien** : https://arxiv.org/abs/2607.16072v1
 
-### Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents
-- **arXiv** : 2607.15263v1
-- **Date** : 2026-07-16
-- **Auteurs** : Paul Kassianik, Blaine Nelson, Yaron Singer
-- **Score** : 5
-- **Résumé** : Security-agent evaluations commonly measure peak offensive capability under generous inference budgets, emphasizing vulnerability discovery, exploit development, penetration testing, and CTF completion. Such measurements are useful but incomplete: in operational security, every reasoning step, tool ...
-- **Lien** : https://arxiv.org/abs/2607.15263v1
+### CRAFT: Clustering Rubrics to Diagnose Weak LLM Capabilities and Generate Targeted Fine-Tuning Data
+- **arXiv** : 2607.16122v1
+- **Date** : 2026-07-17
+- **Auteurs** : Vipul Gupta, Zihao Wang, Razvan-Gabriel Dumitru, MohammadHossein Rezaei, Aakash Sabharwal
+- **Score** : 4
+- **Résumé** : Evaluations should do more than measure a models current performance. They should tell us what to fix for the next model iteration and provide a way to generate targeted post training data. Most evaluation pipelines identify weak examples, topics, or categories, but they leave the underlying capabil...
+- **Lien** : https://arxiv.org/abs/2607.16122v1
 
-### Can We Trust Item Response Theory for AI Evaluation?
-- **arXiv** : 2607.15190v1
-- **Date** : 2026-07-16
-- **Auteurs** : Han Jiang, Sunbeom Kwon, Jinwen Luo, Ziang Xiao, Susu Zhang
-- **Score** : 5
-- **Résumé** : AI benchmarks increasingly leverage item-level statistical models, particularly item response theory (IRT), to estimate model capabilities, rank systems, select informative examples, and diagnose benchmark quality. However, AI benchmark data often departs from the data regime of human testing, for w...
-- **Lien** : https://arxiv.org/abs/2607.15190v1
+### AI Watermark Evidence Fails Forensic Readiness: An Empirical Evaluation
+- **arXiv** : 2607.16010v1
+- **Date** : 2026-07-17
+- **Auteurs** : Saifur Rahman Tamim, Amir Labib Khan
+- **Score** : 4
+- **Résumé** : Governments are increasingly mandating that LLM-generated content carry watermarks. The EU AI Act calls for markings that are "sufficiently reliable and robust." California's SB 942 requires disclosure that is "permanent or extraordinarily difficult to remove." Both mandates rest on an untested assu...
+- **Lien** : https://arxiv.org/abs/2607.16010v1
 
-### MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity Generators
-- **arXiv** : 2607.15273v1
-- **Date** : 2026-07-16
-- **Auteurs** : Yushi Huang, Xiangxin Zhou, Jun Zhang, Liefeng Bo, Tianyu Pang
+### A Blueprint for Equilibrium-Based Differentiable Continuous-Variable Thermodynamic Computing
+- **arXiv** : 2607.16183v1
+- **Date** : 2026-07-17
+- **Auteurs** : Owen Lockwood, Jérémy Béjanin, Joost Bus, Christopher Chamberland, Patrick Huembeli
 - **Score** : 3
-- **Résumé** : MeanFlow generators achieve fast few-step sampling by predicting average velocities over time intervals, making them attractive for efficient generation. Reinforcement learning (RL) has become a powerful way to align diffusion and flow models with human preferences and task-specific objectives. In p...
-- **Lien** : https://arxiv.org/abs/2607.15273v1
+- **Résumé** : To address the escalating energy and latency demands of machine-learning workloads, we introduce a blueprint for an energy-efficient and fast thermodynamic computing stack that leverages stochastic analog processes in physical hardware. In this work, we focus on energy-based thermodynamic computing ...
+- **Lien** : https://arxiv.org/abs/2607.16183v1
 
-### teLLMe Why (Ain't Nothing but a Jam): Exploratory Causal Analysis of Urban Driving Data
-- **arXiv** : 2607.15254v1
-- **Date** : 2026-07-16
-- **Auteurs** : Qiwei Li, Jorge Ortiz
+### An Exam for Active Observers
+- **arXiv** : 2607.16165v1
+- **Date** : 2026-07-17
+- **Auteurs** : Jiarui Zhang, Muzi Tao, Shangshang Wang, Ollie Liu, Xuezhe Ma
 - **Score** : 3
-- **Résumé** : Traffic agencies now have access to large volumes of video-derived data for studying safety and congestion. Most of these data are observational and collected without interventions, which makes causal questions such as "How would rain change traffic density?" difficult to answer. We present teLLMe, ...
-- **Lien** : https://arxiv.org/abs/2607.15254v1
+- **Résumé** : Human vision is a closed loop: gaze is continuously redirected by intermediate hypotheses rather than a single snapshot. Decades of psychophysics and cognitive science have argued that this active observation is essential for a wide range of tasks. Whether today's multimodal large language models (M...
+- **Lien** : https://arxiv.org/abs/2607.16165v1
 
-### In-Place Tokenizer Expansion for Pre-trained LLMs
-- **arXiv** : 2607.15232v1
-- **Date** : 2026-07-16
-- **Auteurs** : Jimmy T. H. Smith, Tarek Dakhran, Alberto Cabrera, Simon S. Lee, Paul Pak
+### PRISA: Proactive Infrastructure LiDAR Framework for Intersection Safety Assessment
+- **arXiv** : 2607.16156v1
+- **Date** : 2026-07-17
+- **Auteurs** : Tam Bang, Hussam Abubakr, Emiliano de la Garza Villarreal, Truc Phuong Nguyen, Austin Harris
 - **Score** : 3
-- **Résumé** : A tokenizer fixed at the start of pre-training allocates vocabulary in proportion to the pre-training corpus, reflecting the deployment priorities at that time. When those priorities shift, languages added later are split into many more tokens per word, which can raise latency, compute, and energy c...
-- **Lien** : https://arxiv.org/abs/2607.15232v1
+- **Résumé** : Urban intersections are among the most hazardous locations in road networks, posing significant risks to vehicles and vulnerable road users (VRUs) such as pedestrians and cyclists. The complexity of multi-agent interactions demands continuous, real-time monitoring systems capable of anticipating con...
+- **Lien** : https://arxiv.org/abs/2607.16156v1
 
-### Mask-Aware Policy Gradients for Diffusion Language Models
-- **arXiv** : 2607.15200v1
-- **Date** : 2026-07-16
-- **Auteurs** : Haran Raajesh, Kulin Shah, Adam Klivans, Philipp Krähenbühl
+### Toward Semantic Communication for Real-time Mobile 3D Reconstruction
+- **arXiv** : 2607.16128v1
+- **Date** : 2026-07-17
+- **Auteurs** : Fangzhou Zhao, Yao Sun, Xuesong Liu, Runze Cheng, Shang Kai
 - **Score** : 3
-- **Résumé** : Reinforcement learning has proven effective for improving reasoning in large language models, but extending it to Masked Diffusion Language Models (MDLMs) remains challenging due to the intractability of the log-likelihood estimation. Existing approaches approximate this log-likelihood by modeling o...
-- **Lien** : https://arxiv.org/abs/2607.15200v1
+- **Résumé** : Real-time mobile 3D reconstruction is fundamental to many emerging applications such as autonomous navigation and digital twin construction, where a moving platform continuously captures an image stream and transmit to a computing server for scene understanding. Unlike offline reconstruction, camera...
+- **Lien** : https://arxiv.org/abs/2607.16128v1
 
-### Linear representations of grammaticality in neural language models
-- **arXiv** : 2607.15175v1
-- **Date** : 2026-07-16
-- **Auteurs** : Jane Li, Najoung Kim
+### CADAQUES: A Cost-Aware Dual Architecture for Query-Efficient Autonomous Discovery
+- **arXiv** : 2607.16127v1
+- **Date** : 2026-07-17
+- **Auteurs** : Jorge Bravo-Abad
 - **Score** : 3
-- **Résumé** : Whether neural language models (NLMs) possess the ability to distinguish strings on the basis of their grammaticality remains a debated topic in the computational linguistics literature. Existing evidence has largely relied on probability-based measures, testing whether models assign higher probabil...
-- **Lien** : https://arxiv.org/abs/2607.15175v1
+- **Résumé** : Autonomous discovery systems couple a resource that answers queries (a simulator, instrument, or analytic model) to an algorithm that selects what to query next. Most software frameworks for this loop inherit the control structure of numerical optimization: campaigns run for a fixed number of iterat...
+- **Lien** : https://arxiv.org/abs/2607.16127v1
 
-### The Industrialization of Research ; On AI-Driven Science and Its Consequences
-- **arXiv** : 2607.15164v1
-- **Date** : 2026-07-16
-- **Auteurs** : Emmanuel Jeannot
+### Rate-Utility Frontiers for Language Encodings: Comparing Tokens, Bytes, and Pixels Under Controlled Linguistic Content
+- **arXiv** : 2607.16117v1
+- **Date** : 2026-07-17
+- **Auteurs** : Ingo Ziegler, Martin Krebs, Desmond Elliott
 - **Score** : 3
-- **Résumé** : Artificial intelligence is transforming scientific research -- not merely as a more powerful instrument, but as an autonomous participant in the research cycle itself. This transition constitutes, in the most precise sense of the term, the industrialization of research: a shift from a craft model, i...
-- **Lien** : https://arxiv.org/abs/2607.15164v1
+- **Résumé** : Language models encode text as subword tokens, raw bytes, or rendered pixels, but these encodings are usually compared under modeling constraints that expose different amounts of linguistic content to models across different languages. We instead ask what each encoding preserves when both the conten...
+- **Lien** : https://arxiv.org/abs/2607.16117v1
 
-### Scaling Behavior Foundation Model for Humanoid Robots
-- **arXiv** : 2607.15163v1
-- **Date** : 2026-07-16
-- **Auteurs** : Weishuai Zeng, Kangning Yin, Xiaojie Niu, Shunlin Lu, Weixiang Zhong
+### When Model Merging Rivals Joint Multi-Task Reinforcement Learning: A Task-Vector Geometry Analysis
+- **arXiv** : 2607.16062v1
+- **Date** : 2026-07-17
+- **Auteurs** : S. Aaron McClendon
 - **Score** : 3
-- **Résumé** : Humanoid control requires natural whole-body coordination, precise real-time responses to control signals, and robust generalization across diverse environmental contexts, making it a cornerstone for generalist embodied agents. Behavior Foundation Models (BFMs) have recently emerged as a promising s...
-- **Lien** : https://arxiv.org/abs/2607.15163v1
+- **Résumé** : Model merging is promoted as a substitute for joint multi-task training, yet in the reinforcement-learning setting this substitution is essentially never tested against the baseline it claims to replace: methods merge independently released agents precisely because a joint model is unavailable. We b...
+- **Lien** : https://arxiv.org/abs/2607.16062v1
+
+### DiffTestGen: Change-Directed LLM-Based Testing for Exposing Behavioral Differences
+- **arXiv** : 2607.16024v1
+- **Date** : 2026-07-17
+- **Auteurs** : Huimin Hu, Cristian Cadar, Michael Pradel
+- **Score** : 3
+- **Résumé** : As software evolves over time, it is important to ensure that any behavioral changes occur as intended by developers. A promising approach for this goal is to generate tests that expose behavioral differences between the old and new versions of a program. However, current approaches fail to trigger ...
+- **Lien** : https://arxiv.org/abs/2607.16024v1
 
 <!-- ARXIV_FEED_END -->
