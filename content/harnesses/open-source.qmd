@@ -131,7 +131,7 @@ export GOOSE_TELEMETRY_ENABLED=false
 ### [rtk](https://github.com/rtk-ai/rtk)
 CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
 
-⭐ 72.2k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-07-21
+⭐ 72.3k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-07-21
 **Tags** : `agentic-coding`, `ai-coding`, `anthropic`, `claude-code`, `cli`, `command-line-tool`, `cost-reduction`, `developer-tools`
 
 ### [ruflo](https://github.com/ruvnet/ruflo)
@@ -146,23 +146,11 @@ CLI platform to experiment with codegen. Precursor to: https://lovable.dev
 ⭐ 55.2k | `Python` | Licence: MIT | MAJ: 2026-07-21
 **Tags** : `ai`, `autonomous-agent`, `code-generation`, `codebase-generation`, `codegen`, `coding-assistant`, `gpt-4`, `gpt-engineer`
 
-### [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
-A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectab...
-
-⭐ 50.5k | `Python` | Licence: NOASSERTION | MAJ: 2026-07-21
-**Tags** : `agent-skills`, `agentic-code`, `agentic-coding`, `ai-workflow-optimization`, `ai-workflows`, `anthropic`, `anthropic-claude`, `awesome`
-
 ### [agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)
 AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 1,969+ agentic skills. Includes CLI, local MCP, cat...
 
 ⭐ 43.7k | `Python` | Licence: MIT | MAJ: 2026-07-21
 **Tags** : `agent-skills`, `agentic-skills`, `ai-agent-skills`, `ai-agents`, `ai-coding`, `ai-workflows`, `antigravity`, `antigravity-skills`
-
-### [tabby](https://github.com/TabbyML/tabby)
-Self-hosted AI coding assistant
-
-⭐ 33.8k | `Rust` | Licence: NOASSERTION | MAJ: 2026-07-21
-**Tags** : `ai`, `codegen`, `coding-assistant`, `coding-language`, `developer-experience`, `developer-tools`, `gen-ai`, `ide`
 
 ### [gpt-pilot](https://github.com/Pythagora-io/gpt-pilot)
 The first real AI developer
@@ -173,7 +161,7 @@ The first real AI developer
 ### [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix)
 DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.
 
-⭐ 27.4k | `Go` | Licence: MIT | MAJ: 2026-07-21
+⭐ 27.5k | `Go` | Licence: MIT | MAJ: 2026-07-21
 **Tags** : `agent`, `agent-framework`, `ai-agent`, `ai-coding`, `cli`, `coding-agent`, `deepseek`, `developer-tools`
 
 ### [serena](https://github.com/oraios/serena)
@@ -191,26 +179,8 @@ Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate fa
 ### [code-review-graph](https://github.com/tirth8205/code-review-graph)
 Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-rep...
 
-⭐ 23.9k | `Python` | Licence: MIT | MAJ: 2026-07-21
+⭐ 24.4k | `Python` | Licence: MIT | MAJ: 2026-07-21
 **Tags** : `ai-coding`, `claude`, `claude-code`, `code-review`, `graphrag`, `incremental`, `knowledge-graph`, `llm`
-
-### [Archon](https://github.com/coleam00/Archon)
-The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.
-
-⭐ 23.0k | `TypeScript` | Licence: MIT | MAJ: 2026-07-21
-**Tags** : `ai`, `automation`, `bun`, `claude`, `cli`, `coding-assistant`, `developer-tools`, `typescript`
-
-### [oh-my-pi](https://github.com/can1357/oh-my-pi)
-⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more
-
-⭐ 18.8k | `TypeScript` | Licence: MIT | MAJ: 2026-07-21
-**Tags** : `ai-agent`, `ai-coding-agent`, `anthropic`, `bun`, `claude`, `cli`, `coding-assistant`, `llm`
-
-### [pr-agent](https://github.com/The-PR-Agent/pr-agent)
-🚀 PR Agent: The Original Open-Source PR Reviewer. This project It is not the Qodo free tier.
-
-⭐ 12.2k | `Python` | Licence: MIT | MAJ: 2026-07-21
-**Tags** : `code-review`, `codereview`, `coding-assistant`, `devtools`, `gpt-4`, `openai`, `pull-request`, `pull-requests`
 
 ### [claude-context](https://github.com/zilliztech/claude-context)
 Code search MCP for Claude Code. Make entire codebase the context for any coding agent.
@@ -239,7 +209,7 @@ Project management skill system for Agents that uses GitHub Issues and Git workt
 ### [my-git](https://github.com/xirong/my-git)
 A practical Git & GitHub handbook for modern engineering teams and AI-native development workflows. | 现代工程团队与 AI 编程时代的 Git / GitHub 实战手册
 
-⭐ 7.4k | `Python` | Licence: MIT | MAJ: 2026-07-20
+⭐ 7.4k | `Python` | Licence: MIT | MAJ: 2026-07-21
 **Tags** : `ai-coding`, `ai-native-development`, `git`, `git-flow`, `git-workflow`, `gitflow`, `github`, `github-flow`
 
 ### [superpowers-zh](https://github.com/jnMetaCode/superpowers-zh)
@@ -247,5 +217,35 @@ A practical Git & GitHub handbook for modern engineering teams and AI-native dev
 
 ⭐ 7.1k | `JavaScript` | Licence: MIT | MAJ: 2026-07-21
 **Tags** : `agent-skills`, `agentic-coding`, `ai-coding`, `chinese`, `claude-code`, `code-review`, `cursor`, `gemini-cli`
+
+### [bananas](https://github.com/mistweaverco/bananas)
+Bananas🍌, Cross-Platform screen 🖥️ sharing 📡 made simple ⚡.
+
+⭐ 6.2k | `Svelte` | Licence: MIT | MAJ: 2026-07-21
+**Tags** : `cross-platform`, `multi-cursor`, `p2p`, `pair-programming`, `pairing`, `peer-to-peer`, `screensharing`
+
+### [Kaku](https://github.com/tw93/Kaku)
+🎃 A fast, out-of-the-box terminal built for AI coding.
+
+⭐ 5.7k | `Rust` | Licence: NOASSERTION | MAJ: 2026-07-21
+**Tags** : `ai-coding`, `macos`, `rust`, `serial`, `terminal`, `terminal-app`, `terminal-emulator`, `vibe-coding`
+
+### [claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide)
+The most comprehensive Claude Code guide: agentic workflows, hooks, skills, MCP servers, quizzes, and production-ready templates. 430K+ lines.
+
+⭐ 5.5k | `Python` | Licence: CC-BY-SA-4.0 | MAJ: 2026-07-21
+**Tags** : `agentic-coding`, `ai-assistant`, `ai-coding`, `ai-pair-programming`, `ai-security`, `anthropic`, `best-practices`, `claude`
+
+### [awesome-devteam](https://github.com/leehosung/awesome-devteam)
+좋은 개발팀을 만드는데 도움이 되는 자료
+
+⭐ 3.4k | Licence: MIT | MAJ: 2026-07-08
+**Tags** : `cto`, `devteam`, `pair-programming`
+
+### [teleconsole](https://github.com/gravitational/teleconsole)
+Command line tool to share your UNIX terminal and forward local TCP ports to people you trust.
+
+⭐ 2.8k | `Go` | Licence: Apache-2.0 | MAJ: 2026-06-15
+**Tags** : `cli`, `collaboration`, `pair-programming`, `ssh`, `terminal-based`, `tools`, `tunnel`
 
 <!-- TOOLS_HARNESS_OSS_END -->

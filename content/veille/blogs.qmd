@@ -76,6 +76,13 @@ graph LR
 - **Résumé** : Elon Musk Loses $150 Billion Suit Against OpenAI and Sam Altman, Google updates its Gemini app to take on ChatGPT and Claude at IO 2026, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-341-musk-loses-to
 
+### A Fireside Chat with Cat and Thariq from the Claude Code team
+- **Source** : Simon Willison
+- **Date** : 2026-07-21T12:54
+- **Score** : 2
+- **Résumé** : Earlier this month I hosted a fireside chat session at the AI Engineer World's Fair with Cat Wu and Thariq Shihipar from Anthropic's Claude Code team. We talked about Claude Code, Claude Tag, Fable, c...
+- **Lien** : https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything
+
 ### Native-speed vLLM transformers modeling backend
 - **Source** : Hugging Face Blog
 - **Date** : Wed, 08 Jul 2026
@@ -103,27 +110,6 @@ graph LR
 - **Score** : 2
 - **Résumé** : Google unveils AI model Gemini 3.5 and AI agent Gemini Spark, Omni turns images, audio, and text into video, Musk loses OpenAI court battle...
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-246-gemini-35-omni
-
-### LWiAI Podcast #243 - GPT 5.5, DeepSeek V4, AI safety sabotage
-- **Source** : Last Week in AI
-- **Date** : Mon, 04 May 2026
-- **Score** : 2
-- **Résumé** : Our 243rd episode with a summary and discussion of last week&#8217;s big AI news!...
-- **Lien** : https://lastweekin.ai/p/lwiai-podcast-243-gpt-55-deepseek
-
-### LWiAI Podcast #242 - ChatGPT Images 2.0, Qwen 3.6 Max, Kimi-K2.6
-- **Source** : Last Week in AI
-- **Date** : Thu, 30 Apr 2026
-- **Score** : 2
-- **Résumé** : ChatGPT&#8217;s new Images 2.0 model is surprisingly good at generating text , Alibaba Drops Qwen 3.6 Max Preview , SpaceX is working with Cursor...
-- **Lien** : https://lastweekin.ai/p/lwiai-podcast-242-chatgpt-images
-
-### LWiAI Podcast #237 - Nemotron 3 Super, xAI reborn, Anthropic Lawsuit, Research!
-- **Source** : Last Week in AI
-- **Date** : Mon, 16 Mar 2026
-- **Score** : 2
-- **Résumé** : Nemotron 3 Super: An Open Hybrid Mamba-Transformer MoE for Agentic Reasoning, Another XAI Cofounder Has Left, Anthropic Sues Department of Defense...
-- **Lien** : https://lastweekin.ai/p/lwiai-podcast-237-nemotron-3-super
 
 ### [AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)
 - **Source** : latent.space
@@ -153,6 +139,15 @@ graph LR
 - **Résumé** : A big day for OpenAI....
 - **Lien** : https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna
 
+### Nativ: Run AI models locally on your Mac
+- **Source** : Simon Willison
+- **Date** : 2026-07-21T14:22
+- **Score** : 1
+- **Résumé** : Nativ: Run AI models locally on your Mac
+Prince Canuma is the developer behind the excellent MLX-VLM Python library for running vision-LLMs using MLX on a Mac.
+I'm really ex...
+- **Lien** : https://simonwillison.net/2026/Jul/21/nativ/#atom-everything
+
 ### Reverse-engineering is cheap now
 - **Source** : Simon Willison
 - **Date** : 2026-07-20T19:24
@@ -180,20 +175,19 @@ An update from the @claudeai account on Twitter:
 Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans, at 50% o...
 - **Lien** : https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything
 
-### LLM cliché highlighter
-- **Source** : Simon Willison
-- **Date** : 2026-07-17T12:11
-- **Score** : 1
-- **Résumé** : Tool: LLM cliché highlighter
-        I got frustrated reading yet another article that was crammed with the clichés of LLM-generated writing - "no fluff, no filler, no jargon" type stuff - so I h...
-- **Lien** : https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-everything
-
 ### What building Shippy taught us about building agents
 - **Source** : Hugging Face Blog
 - **Date** : Wed, 15 Jul 2026
 - **Score** : 1
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/allenai/shippy-tech-blog
+
+### Introducing the ChatGPT for small business program
+- **Source** : OpenAI Blog
+- **Date** : Tue, 21 Jul 2026
+- **Score** : 1
+- **Résumé** : OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work....
+- **Lien** : https://openai.com/index/introducing-chatgpt-small-business-program
 
 ### Why teens deserve access to safe AI
 - **Source** : OpenAI Blog
@@ -223,25 +217,39 @@ Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium p
 - **Résumé** : See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs....
 - **Lien** : https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex
 
+### LWiAI Podcast #252 - GPT 5.6, Grok 4.5, Nemotron-Labs-Diffusion, AI 2040
+- **Source** : Last Week in AI
+- **Date** : Tue, 21 Jul 2026
+- **Score** : 1
+- **Résumé** : GPT-5.6 and Grok 4.5, Meta's Muse Spark 1.1, regulatory developments in AI and data centers, interpretability research from Anthropic, and the future of AI policy with AI 2040...
+- **Lien** : https://lastweekin.ai/p/lwiai-podcast-252-gpt-56-grok-45
+
+### Last Week in AI #251 - Mythos Back, Sonnet 5, Etched, LongCat
+- **Source** : Last Week in AI
+- **Date** : Tue, 21 Jul 2026
+- **Score** : 1
+- **Résumé** : Trump lifts restrictions on Anthropic, Anthropic launches Claude Sonnet 5, Google's NotebookLM updates, chips stories from Etched and Baidu, and more!...
+- **Lien** : https://lastweekin.ai/p/last-week-in-ai-251-mythos-back-sonnet
+
+### Last Week in AI #250 - Mythos Mess, GPT 5.6-Sol, GLM 5.2
+- **Source** : Last Week in AI
+- **Date** : Tue, 21 Jul 2026
+- **Score** : 1
+- **Résumé** : Anthropic's AI treaty discussions, US government's influence on AI model releases, OpenAI's processor development, memory market impacts, and more!...
+- **Lien** : https://lastweekin.ai/p/last-week-in-ai-250-mythos-mess-gpt
+
+### LWiAI Podcast #248 - Opus 4.8, MAI, Anthropic IPO, Minimax-M3
+- **Source** : Last Week in AI
+- **Date** : Tue, 21 Jul 2026
+- **Score** : 1
+- **Résumé** : Exploring Claude Fable 5&#8217;s impact, Siri AI&#8217;s latest enhancements, and the competitive IPO landscape shaping AI&#8217;s future...
+- **Lien** : https://lastweekin.ai/p/lwiai-podcast-248-opus-48-mai-anthropic
+
 ### LWiAI Podcast #245 - TML-Interaction, Claude For Legal, Sam Altman on Stand
 - **Source** : Last Week in AI
 - **Date** : Wed, 20 May 2026
 - **Score** : 1
 - **Résumé** : OpenAI launches new voice intelligence features in its API, Thinking Machines drops a new, highly responsive model designed for humanlike interactions in real time, and more!...
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-245-tml-interaction
-
-### Last Week in AI #340 - OpenAI vs Musk + Microsoft, DeepSeek v4, Vision Banana
-- **Source** : Last Week in AI
-- **Date** : Tue, 05 May 2026
-- **Score** : 1
-- **Résumé** : First week of Musk v. Altman, OpenAI ends Microsoft legal peril over its $50B Amazon deal, DeepSeek previews new AI model that &#8216;closes the gap&#8217; with frontier models, and more!...
-- **Lien** : https://lastweekin.ai/p/last-week-in-ai-340-openai-vs-musk
-
-### LWiAI Podcast #238 - GPT 5.4 mini, OpenAI Pivot, Mamba 3, Attention Residuals
-- **Source** : Last Week in AI
-- **Date** : Wed, 01 Apr 2026
-- **Score** : 1
-- **Résumé** : OpenAI ships GPT-5.4 mini and nano, faster and more capable but up to 4x pricier, DLSS 5 looks like a real-time generative AI filter for video games | The Verge, and more!...
-- **Lien** : https://lastweekin.ai/p/lwiai-podcast-238-gpt-54-mini-openai
 
 <!-- BLOG_FEED_END -->
