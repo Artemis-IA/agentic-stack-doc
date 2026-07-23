@@ -83,33 +83,19 @@ graph LR
 - **Résumé** : Earlier this month I hosted a fireside chat session at the AI Engineer World's Fair with Cat Wu and Thariq Shihipar from Anthropic's Claude Code team. We talked about Claude Code, Claude Tag, Fable, c...
 - **Lien** : https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything
 
-### Native-speed vLLM transformers modeling backend
-- **Source** : Hugging Face Blog
-- **Date** : Wed, 08 Jul 2026
-- **Score** : 2
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/native-speed-vllm-transformers-backend
-
-### How Cars24 scales conversations and builds faster with OpenAI
-- **Source** : OpenAI Blog
-- **Date** : Thu, 16 Jul 2026
-- **Score** : 2
-- **Résumé** : Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company....
-- **Lien** : https://openai.com/index/cars24
-
-### How to manage AI investments in the agentic era
-- **Source** : OpenAI Blog
-- **Date** : Tue, 14 Jul 2026
-- **Score** : 2
-- **Résumé** : Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows....
-- **Lien** : https://openai.com/index/managing-ai-investments-in-agentic-era
-
 ### LWiAI Podcast #246 - Gemini 3.5 + Omni, Musk Loses, OpenAI vs Erdős
 - **Source** : Last Week in AI
 - **Date** : Tue, 26 May 2026
 - **Score** : 2
 - **Résumé** : Google unveils AI model Gemini 3.5 and AI agent Gemini Spark, Omni turns images, audio, and text into video, Musk loses OpenAI court battle...
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-246-gemini-35-omni
+
+### [AINews] "Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro"
+- **Source** : latent.space
+- **Date** : Thu, 23 Jul 2026
+- **Score** : 1
+- **Résumé** : a quiet day lets us highlight a new neolab win....
+- **Lien** : https://www.latent.space/p/ainews-laguna-s-21-released-cheaper
 
 ### [AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)
 - **Source** : latent.space
@@ -118,26 +104,19 @@ graph LR
 - **Résumé** : Thinky's first full LLM release is a banger and bonus: it's open weights!...
 - **Lien** : https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b
 
-### 5 Trends That Defined AI Engineering at World’s Fair 2026
-- **Source** : latent.space
-- **Date** : Tue, 14 Jul 2026
+### Quoting Thomas Ptacek
+- **Source** : Simon Willison
+- **Date** : 2026-07-22T23:59
 - **Score** : 1
-- **Résumé** : At this year's AIE World&#8217;s Fair, AI engineering entered a new phase: building systems around agents, rather than just building with agents....
-- **Lien** : https://www.latent.space/p/aiewf26trends
+- **Résumé** : I genuinely believe that if you took an open weights model from 2025 and built a pentest harness for it, it could do this kind of sandbox escape and scan/hack in most networks. This is only surprising...
+- **Lien** : https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything
 
-### [AINews] Codex usage up >10x in 6 months to 7M users, +1M in the past ~day; did Codex overtake Claude Code??
-- **Source** : latent.space
-- **Date** : Tue, 14 Jul 2026
+### OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened
+- **Source** : Simon Willison
+- **Date** : 2026-07-22T23:51
 - **Score** : 1
-- **Résumé** : a quiet day lets us fact check some numbers against the sound of silence of Claude Code reporting......
-- **Lien** : https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months
-
-### [AINews] OpenAI launches GPT 5.6 Sol/Terra/Luna, Codex becomes ChatGPT superapp
-- **Source** : latent.space
-- **Date** : Fri, 10 Jul 2026
-- **Score** : 1
-- **Résumé** : A big day for OpenAI....
-- **Lien** : https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna
+- **Résumé** : This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model's guardrail features turned off. Rather than solve the test, the model broke...
+- **Lien** : https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-everything
 
 ### Nativ: Run AI models locally on your Mac
 - **Source** : Simon Willison
@@ -156,24 +135,12 @@ I'm really ex...
 I think this is an interesting illustration of the impact of the reduced cost of wr...
 - **Lien** : https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything
 
-### Claude Code uses Bun written in Rust now
-- **Source** : Simon Willison
-- **Date** : 2026-07-19T03:54
+### Bringing Nunchaku 4-bit Diffusion Inference to Diffusers
+- **Source** : Hugging Face Blog
+- **Date** : Thu, 23 Jul 2026
 - **Score** : 1
-- **Résumé** : In Rewriting Bun in Rust Jarred Sumner made the following claim:
-
-Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely an...
-- **Lien** : https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything
-
-### Claude make Fable 5 permanent
-- **Source** : Simon Willison
-- **Date** : 2026-07-18T06:00
-- **Score** : 1
-- **Résumé** : Claude make Fable 5 permanent
-An update from the @claudeai account on Twitter:
-
-Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans, at 50% o...
-- **Lien** : https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything
+- **Résumé** : ...
+- **Lien** : https://huggingface.co/blog/nunchaku-diffusers
 
 ### What building Shippy taught us about building agents
 - **Source** : Hugging Face Blog
@@ -182,40 +149,26 @@ Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium p
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/allenai/shippy-tech-blog
 
+### Introducing OpenAI Presence
+- **Source** : OpenAI Blog
+- **Date** : Wed, 22 Jul 2026
+- **Score** : 1
+- **Résumé** : Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows....
+- **Lien** : https://openai.com/index/introducing-openai-presence
+
+### NTT DATA Group cuts incident analysis to 30 minutes with Codex
+- **Source** : OpenAI Blog
+- **Date** : Wed, 22 Jul 2026
+- **Score** : 1
+- **Résumé** : NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption....
+- **Lien** : https://openai.com/index/ntt-data
+
 ### Introducing the ChatGPT for small business program
 - **Source** : OpenAI Blog
 - **Date** : Tue, 21 Jul 2026
 - **Score** : 1
 - **Résumé** : OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work....
 - **Lien** : https://openai.com/index/introducing-chatgpt-small-business-program
-
-### Why teens deserve access to safe AI
-- **Source** : OpenAI Blog
-- **Date** : Thu, 16 Jul 2026
-- **Score** : 1
-- **Résumé** : Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships....
-- **Lien** : https://openai.com/index/why-teens-deserve-access-safe-ai
-
-### GPT-Red: Unlocking Self-Improvement for Robustness
-- **Source** : OpenAI Blog
-- **Date** : Wed, 15 Jul 2026
-- **Score** : 1
-- **Résumé** : Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness....
-- **Lien** : https://openai.com/index/unlocking-self-improvement-gpt-red
-
-### How sales teams use ChatGPT Work
-- **Source** : OpenAI Blog
-- **Date** : Tue, 14 Jul 2026
-- **Score** : 1
-- **Résumé** : See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs....
-- **Lien** : https://openai.com/academy/codex-for-work/how-sales-teams-use-codex
-
-### How data science teams use ChatGPT Work
-- **Source** : OpenAI Blog
-- **Date** : Tue, 14 Jul 2026
-- **Score** : 1
-- **Résumé** : See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs....
-- **Lien** : https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex
 
 ### LWiAI Podcast #252 - GPT 5.6, Grok 4.5, Nemotron-Labs-Diffusion, AI 2040
 - **Source** : Last Week in AI
@@ -251,5 +204,12 @@ Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium p
 - **Score** : 1
 - **Résumé** : OpenAI launches new voice intelligence features in its API, Thinking Machines drops a new, highly responsive model designed for humanlike interactions in real time, and more!...
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-245-tml-interaction
+
+### Last Week in AI #340 - OpenAI vs Musk + Microsoft, DeepSeek v4, Vision Banana
+- **Source** : Last Week in AI
+- **Date** : Tue, 05 May 2026
+- **Score** : 1
+- **Résumé** : First week of Musk v. Altman, OpenAI ends Microsoft legal peril over its $50B Amazon deal, DeepSeek previews new AI model that &#8216;closes the gap&#8217; with frontier models, and more!...
+- **Lien** : https://lastweekin.ai/p/last-week-in-ai-340-openai-vs-musk
 
 <!-- BLOG_FEED_END -->
