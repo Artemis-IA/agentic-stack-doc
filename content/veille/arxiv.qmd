@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### The Ethics of Autonomous AI Agents for Offensive Security
-- **arXiv** : 2607.20255v1
-- **Date** : 2026-07-22
-- **Auteurs** : Andreas Happe, Jürgen Cito, Jasmin Wachter
+### Agentic coding without the cloud: evaluating open-weight large language models on longitudinal data preparation tasks
+- **arXiv** : 2607.21482v1
+- **Date** : 2026-07-23
+- **Auteurs** : Mack Nixon, Liam Wright, Yevgeniya Kovalchuk, Alison Fang-Wei Wu, Martin Danka
 - **Score** : 12
-- **Résumé** : LLM-driven autonomous agents are reshaping offensive security. Unlike traditional penetration-testing tooling -- deterministic, narrowly scoped, and operated by trained practitioners -- agentic security tools exhibit 	extit{indeterminacy} along three independent dimensions. First, their actions are...
-- **Lien** : https://arxiv.org/abs/2607.20255v1
+- **Résumé** : Large language models (LLMs) and agents are now widely used tools in code development, with data typically sent to third-party cloud-based models. Their adoption in research using personal data is constrained by governance requirements that typically prohibit data transmission to external services. ...
+- **Lien** : https://arxiv.org/abs/2607.21482v1
 
-### LKValues: Aligning Large Language Models with Sri Lankan Societal Values
-- **arXiv** : 2607.20410v1
-- **Date** : 2026-07-22
-- **Auteurs** : Nethmi Muthugala,  Supryadi, Surangika Ranathunga, Nisansa de Silva, Ruijie Tao
+### From Resource Flow to Executable Tests: Petri-Net-Guided LLM Test Generation for Concurrent Stateful Rust APIs
+- **arXiv** : 2607.21530v1
+- **Date** : 2026-07-23
+- **Auteurs** : Kaiwen Zhang, Guanjun Liu
 - **Score** : 7
-- **Résumé** : Value alignment of Large Language Models (LLMs) has been shown to be culturally biased toward Western norms. This results in the mishandling of local values in multilingual societies such as Sri Lanka that have their unique cultural dynamics. Existing benchmarks overlook Sri Lankan-contextualized va...
-- **Lien** : https://arxiv.org/abs/2607.20410v1
+- **Résumé** : Concurrent stateful library APIs expose behavior through evolving resource ownership, lifecycle states, and competing interleavings. Large language models can synthesize executable Rust tests, but their outputs often violate API preconditions, remain shallow, or reduce concurrency to accidental sequ...
+- **Lien** : https://arxiv.org/abs/2607.21530v1
 
-### PyroDash: Cost-Efficient Token-Level Small-Large Language Model Collaborative Inference
-- **arXiv** : 2607.20327v1
-- **Date** : 2026-07-22
-- **Auteurs** : Niqi Lyu, Pengtao Shi, Wei Qiu, Jianlin Zhong, Sicong Xia
+### Same Dangerous Objective, Opposite Advice: Direct Exposure versus Multi-Agent Mediation
+- **arXiv** : 2607.21518v1
+- **Date** : 2026-07-23
+- **Auteurs** : Linjun Li
 - **Score** : 7
-- **Résumé** : Large language models (LLMs) provide strong reasoning capabilities but are expensive to serve at scale, whereas small language models (SLMs) are cheaper but less reliable on difficult problems. We introduce PyroDash, a cost-aware framework for token-level SLM-LLM collaborative inference. During gene...
-- **Lien** : https://arxiv.org/abs/2607.20327v1
+- **Résumé** : Even a current high-capability LLM can appear safer when shown a dangerous objective directly than when other agents transform and relay its direction. Using OpenAI's gpt-5.6-sol model alias, we test 25 pre-specified mirrored trade-off profiles. Direct exposure to an objective authorizing concealmen...
+- **Lien** : https://arxiv.org/abs/2607.21518v1
 
-### Sound Probabilistic Safety Bounds for Large Language Models
-- **arXiv** : 2607.20286v1
-- **Date** : 2026-07-22
-- **Auteurs** : Mahdi Nazeri, Anne-Kathrin Schmuck, Sadegh Soudjani, Alessandro Abate
+### Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems
+- **arXiv** : 2607.21503v1
+- **Date** : 2026-07-23
+- **Auteurs** : Gaurav Dadhich
 - **Score** : 7
-- **Résumé** : We propose a novel framework for computing rigorous bounds on the probability that a large language model (LLM) generates harmful output to a given prompt. We study a new application of the Clopper-Pearson confidence intervals to obtain probably approximately correct (PAC) bounds for this problem. A...
-- **Lien** : https://arxiv.org/abs/2607.20286v1
+- **Résumé** : Production AI agents' failures are less often due to an inability to reason well and more often because they cannot manage what is in their reasoning context: conversation histories, large prompts, large tool definitions, and ballooning tool outputs. Agents drown in their own accumulating history wh...
+- **Lien** : https://arxiv.org/abs/2607.21503v1
 
-### Which Values Do LLMs Confuse? A Schwartz-Based Recognition Study
-- **arXiv** : 2607.20270v1
-- **Date** : 2026-07-22
-- **Auteurs** : Andrei Chetvergov, Stepan Ukolov, Timofei Sivoraksha, Alexander Evseev, Mikhail Solovev
-- **Score** : 7
-- **Résumé** : Large language models are increasingly evaluated through the values they endorse, but such evaluations presuppose that models can identify the value expressed in a concrete situation. We study this prerequisite as controlled top-1 recognition over Schwartz's ten basic values. Our evaluation set cont...
-- **Lien** : https://arxiv.org/abs/2607.20270v1
-
-### HalluTruthQA: A Fine-Grained Benchmark for Hallucination Detection, Localization, and Explanation in Arabic Question Answering
-- **arXiv** : 2607.20219v1
-- **Date** : 2026-07-22
-- **Auteurs** : Abdessalam Bouchekif, Mohammed-En-Nadhir Zighem, Salah Eddine Bekhouche, Hichem Telli, Somaya Eltanbouly
-- **Score** : 7
-- **Résumé** : Large language models (LLMs) can generate fluent Arabic answers, yet factual errors remain difficult to detect, localize, explain, and verify. Existing hallucination benchmarks often provide response-level labels, with limited support for identifying the exact erroneous content, explaining why it is...
-- **Lien** : https://arxiv.org/abs/2607.20219v1
-
-### Notes to Self: Can LLMs Benefit from Experiential Abstractions?
-- **arXiv** : 2607.20372v1
-- **Date** : 2026-07-22
-- **Auteurs** : Chang Liu, Xinyu Li, Artur Dubrawski
+### MedGame: Storytelling Gamification Empowered by Large Language Models for Medical Education
+- **arXiv** : 2607.21570v1
+- **Date** : 2026-07-23
+- **Auteurs** : Qian Wu, Xinrong Zhou, Zizhan Ma, Kai Chen, Zheyao Gao
 - **Score** : 6
-- **Résumé** : Humans distill experience into reusable abstractions, e.g., strategies and cautionary reminders, and apply them to gradually solve problems more effectively. We study whether Large Language Models (LLMs) can similarly benefit from such experiential abstractions. From LLMs' solution traces on the MAT...
-- **Lien** : https://arxiv.org/abs/2607.20372v1
+- **Résumé** : Large Language Models (LLMs) show promise for medical education, but most existing systems focus on localized interactions such as question answering or single-turn feedback, rather than organizing an entire clinical case into a decision-centered learning trajectory. We introduce 	extit{MedGame}, a...
+- **Lien** : https://arxiv.org/abs/2607.21570v1
 
-### The Blessing of Dimensionality: How Near-Orthogonality in High-Dimensional Spaces Explains Temporal Portability
-- **arXiv** : 2607.20301v1
-- **Date** : 2026-07-22
-- **Auteurs** : Abigail Woodring, Adrian Chan, Rana Muhammad Shahroz Khan, Sukwon Yun, Chau-Wai Wong
+### Beyond Sycophancy: Structured Resistance and Compliance in LLM Moral Reasoning
+- **arXiv** : 2607.21558v1
+- **Date** : 2026-07-23
+- **Auteurs** : Baihui Wang, Bernard Koch
 - **Score** : 6
-- **Résumé** : Fine-tuning has been widely used to adapt large language models (LLMs) for domain-specific tasks. Parameter efficient fine-tuning (PEFT) methods such as low-rank adaptation (LoRA) are frequently used to reduce computational costs. PortLLM is a training-free and data-free scheme used to adapt LLMs af...
-- **Lien** : https://arxiv.org/abs/2607.20301v1
+- **Résumé** : Building socially calibrated large language models, which can learn from others without simply yielding to them, requires more than reducing sycophancy as a one-dimensional failure mode. Models must distinguish when to incorporate others' perspectives from when to maintain a well-grounded moral judg...
+- **Lien** : https://arxiv.org/abs/2607.21558v1
 
-### PoTRE: Test-Time Reasoning inspired by Cognitive Heterogeneity
-- **arXiv** : 2607.20268v1
-- **Date** : 2026-07-22
-- **Auteurs** : Anmol Kankariya, Sercan Ö. Arık
+### MIRROR: Learning from the Other View for Multi-Modal Reasoning
+- **arXiv** : 2607.21552v1
+- **Date** : 2026-07-23
+- **Auteurs** : Wen Ye, Yuxiao Qu, Aviral Kumar, Xuezhe Ma
 - **Score** : 6
-- **Résumé** : While Large Language Models (LLMs) excel at many tasks, they frequently struggle with complex reasoning that requires long-horizon planning and iterative error correction. Furthermore, standard single-stream prompting proves brittle when models encounter novel abstractions or rigorous domain constra...
-- **Lien** : https://arxiv.org/abs/2607.20268v1
+- **Résumé** : Unlike large language models (LLMs) that exhibit strong reasoning capabilities, vision-language models (VLMs) struggle with visual reasoning, even on geometry problems that admit equivalent text, diagram, and combined diagram+text views. We show that these views often elicit different behaviors: a m...
+- **Lien** : https://arxiv.org/abs/2607.21552v1
 
-### On the Systematic Challenges of Culturally Loaded Machine Translation: Dream of the Red Chamber as the Cultural Lens
-- **arXiv** : 2607.20241v1
-- **Date** : 2026-07-22
-- **Auteurs** : Yiming Wang, Jiayuan Di
+### Compact Latent Coordination for Autonomous Vehicles at Unsignalized Intersections
+- **arXiv** : 2607.21488v1
+- **Date** : 2026-07-23
+- **Auteurs** : Gil Lifshits, Igal Bilik, Gilad Katz
 - **Score** : 6
-- **Résumé** : Culturally loaded translation poses unique challenges for machine translation (MT), as meanings are deeply embedded in socio-cultural contexts beyond surface linguistic forms. Although large language models (LLMs) have enabled MT systems to achieve human-like quality in many scenarios, their ability...
-- **Lien** : https://arxiv.org/abs/2607.20241v1
+- **Résumé** : Coordinating autonomous vehicles at unsignalized intersections remains a critical challenge for multi-agent reinforcement learning (MARL) systems, which typically struggle with combinatorial action spaces, reliance on privileged information, or rigid agent designs. We propose Master-Agent Proto-plan...
+- **Lien** : https://arxiv.org/abs/2607.21488v1
 
-### Small, Free, and Effective: Orchestrating Open-Weight Small Language Models to Outperform Single LLM for Malware Analysis
-- **arXiv** : 2607.20216v1
-- **Date** : 2026-07-22
-- **Auteurs** : Adel ElZemity, Shujun Li, Budi Arief
+### Thinkink: 2D Spatial Ink-native Interaction with LLMs
+- **arXiv** : 2607.21468v1
+- **Date** : 2026-07-23
+- **Auteurs** : Mohammad Hasan Payandeh, Daniel Vogel, Jian Zhao
 - **Score** : 6
-- **Résumé** : Malware analysis demands rapid interpretation of complex detonation reports spanning filesystem, network, and process behaviours. While large language models (LLMs) demonstrate impressive capabilities for technical artifact interpretation, the opacity and escalating API costs of closed-weight fronti...
-- **Lien** : https://arxiv.org/abs/2607.20216v1
+- **Résumé** : People often use handwritten notes and sketches to externalize ideas for ideation. To integrate large language models (LLMs) into this practice, we propose Thinkink. Prompts can be handwritten text or drawn sketches with LLM-generated responses visualized as ink-like text and sketches spatially inte...
+- **Lien** : https://arxiv.org/abs/2607.21468v1
 
-### Test-Time Training for Modality Order Consistency in Vision-Language Models
-- **arXiv** : 2607.20351v1
-- **Date** : 2026-07-22
-- **Auteurs** : Aditi Gupta, Yossi Gandelsman
+### When Trivia Is Not Trivial: Everyday Knowledge Failures in Multilingual LLMs
+- **arXiv** : 2607.21445v1
+- **Date** : 2026-07-23
+- **Auteurs** : Anna Mosolova, Djamé Seddah
+- **Score** : 6
+- **Résumé** : Quiz rooms, trivia nights, and quiz shows challenge human knowledge across a wide range of topics, from canonical facts to everyday culture. In this paper, we examine whether large language models (LLMs) can perform competitively in such settings, using quiz-style questions to test them on both comm...
+- **Lien** : https://arxiv.org/abs/2607.21445v1
+
+### OpenForgeRL: Train Harness-native Agents in Any Environment
+- **arXiv** : 2607.21557v1
+- **Date** : 2026-07-23
+- **Auteurs** : Xiao Yu, Baolin Peng, Ruize Xu, Hao Zou, Qianhui Wu
+- **Score** : 5
+- **Résumé** : Modern AI agents rely on elaborate inference harnesses such as Claude Code, Codex, and OpenClaw to drive multi-turn reasoning, tool use, and access to external systems. While powerful, these complex harnesses also make agents hard to train end-to-end with open infrastructure, whose SFT/RL stacks can...
+- **Lien** : https://arxiv.org/abs/2607.21557v1
+
+### What, Where, and How: Disentangling the Roles of Task, Language, and Model in Code Model Representations
+- **arXiv** : 2607.21491v1
+- **Date** : 2026-07-23
+- **Auteurs** : Piotr Wilam
+- **Score** : 5
+- **Résumé** : Do independently trained language models come to represent the same thing in the same way? We answer for code, extending a recently introduced concept-circuit extraction method to a 2x2 design -- Python and Rust crossed with Qwen2.5-Coder-7B and DeepSeek-Coder-V1-6.7B -- and measuring a complete inv...
+- **Lien** : https://arxiv.org/abs/2607.21491v1
+
+### Test-Time Scaling via Error Localization
+- **arXiv** : 2607.21453v1
+- **Date** : 2026-07-23
+- **Auteurs** : Rajiv Shailesh Chitale, Rahul Madhavan, Taneesh Gupta, Deepanway Ghosal, Aravindan Raghuveer
 - **Score** : 4
-- **Résumé** : We find that vision-language models are sensitive to a specific semantically irrelevant change: the order in which the image and question are presented. Across three models and three benchmarks, image first prompting consistently outperforms question-first prompting, revealing a repeatable modality ...
-- **Lien** : https://arxiv.org/abs/2607.20351v1
+- **Résumé** : Scaling inference-time computation has emerged as a reliable method to improve the performance of large language models on complex reasoning and programming tasks. However, standard approaches such as independent sampling and sequential multi-turn refinement operate without token-level credit assign...
+- **Lien** : https://arxiv.org/abs/2607.21453v1
 
-### SoftReason: A Fully Differentiable Neuro-Soft-Symbolic Deductive Reasoning Architecture over High-Dimensional Perceptual Data
-- **arXiv** : 2607.20402v1
-- **Date** : 2026-07-22
-- **Auteurs** : Wael AbdAlmageed
+### RUMBA: Russian User Memory Benchmark
+- **arXiv** : 2607.21447v1
+- **Date** : 2026-07-23
+- **Auteurs** : Elizaveta Shevtsova, Inna Glebkina, Mark Baushenko, Pavel Gulyaev, Alena Fenogenova
+- **Score** : 4
+- **Résumé** : The ability to handle long-term memory in LLMs is becoming increasingly critical, yet existing benchmarks remain English-centric and rely on aggregate retrieval metrics, failing to capture interactions between long-range context, temporal information, and reasoning. To address this, we introduce RUM...
+- **Lien** : https://arxiv.org/abs/2607.21447v1
+
+### 3D-Aware VLMs with Implicit and Explicit Geometries
+- **arXiv** : 2607.21595v1
+- **Date** : 2026-07-23
+- **Auteurs** : Wenhao Li, Xueying Jiang, Quanhao Qian, Deli Zhao, Ran Xu
 - **Score** : 3
-- **Résumé** : In many reasoning problems, the premises are not observed as discrete symbols, but must be inferred from high-dimensional inputs. Further, the predicate vocabulary, argument structure, and trusted evidence are supplied by a Knowledge Graph (KG), or rule definitions. Classical neuro-symbolic pipeline...
-- **Lien** : https://arxiv.org/abs/2607.20402v1
+- **Résumé** : Despite rapid progress, most existing vision-language models (VLMs) built from 2D visual inputs often struggle when handling various 3D tasks that require fine-grained spatial understanding and reasoning. To bridge this gap, we present VLM-IE3D, a unified framework that enhances the 3D spatial aware...
+- **Lien** : https://arxiv.org/abs/2607.21595v1
 
-### Multi-Source and Cross-Scenario Strategy-Guided Code Optimization
-- **arXiv** : 2607.20353v1
-- **Date** : 2026-07-22
-- **Auteurs** : Yuwei Zhao, Qianyu Xiao, Ye Cui, Yijun Yu, Yingfei Xiong
+### Surprisal Theory is Tautological (without Rational Grounding)
+- **arXiv** : 2607.21574v1
+- **Date** : 2026-07-23
+- **Auteurs** : Ryan Cotterell
 - **Score** : 3
-- **Résumé** : Automated code optimization improves program performance by refactoring source code, and recent studies use LLMs to generate optimization patches. The newest approaches are strategy-guided: they summarize strategies from historical optimization commits as static analysis rules, and use these rules t...
-- **Lien** : https://arxiv.org/abs/2607.20353v1
+- **Résumé** : Surprisal theory holds that the human processing difficulty of a linguistic unit in context is an affine function of its surprisal under some language model. I argue this claim is a tautology without further constraint: for any non-negative difficulty measure over units in context, there exists a la...
+- **Lien** : https://arxiv.org/abs/2607.21574v1
 
-### Label-Free Finite-Volume-Residual Training of Attention Graph Neural Networks for Coupled Thermo-Fluid Fields
-- **arXiv** : 2607.20321v1
-- **Date** : 2026-07-22
-- **Auteurs** : Tianyu Li, Zhiwei Cao, Qingang Zhang, Ruihang Wang, Binyang Song
+### X$^3$-OPD: Distilling Reasoning into Large Audio-Language Models via On-Policy Alignment
+- **arXiv** : 2607.21550v1
+- **Date** : 2026-07-23
+- **Auteurs** : Dongjie Fu, Di Cao, Xize Cheng, Zihan Zhang, Wenxu Jia
 - **Score** : 3
-- **Résumé** : Neural surrogates are widely used in scientific machine learning for fast prediction of three-dimensional (3D) thermo-fluid fields. However, generating training data using conventional numerical solvers often incurs substantial computational and storage costs. We propose to train an attention graph ...
-- **Lien** : https://arxiv.org/abs/2607.20321v1
+- **Résumé** : While large audio-language models have achieved remarkable progress in auditory perception, they still lag behind text-based large language models in deep logical reasoning, primarily due to the scarcity of high-quality audio reasoning data. To bridge this gap, we propose X$^3$-OPD, a cross-modal on...
+- **Lien** : https://arxiv.org/abs/2607.21550v1
 
-### Classical Hardware Acceleration of Quantum Autoencoders for Real-Time Anomaly Detection in Collider Experiments
-- **arXiv** : 2607.20302v1
-- **Date** : 2026-07-22
-- **Auteurs** : Ivan Ge, Sagar Addepalli, Abhilasha Dave, Julia Gonski
+### GS-Agent: Creating 4D Physical Worlds With Generative Simulation
+- **arXiv** : 2607.21522v1
+- **Date** : 2026-07-23
+- **Auteurs** : Hongxin Zhang, Chunru Lin, Junyan Li, Zhou Xian, Tsun-Hsuan Wang
 - **Score** : 3
-- **Résumé** : Quantum machine learning (QML) algorithms in high energy physics (HEP) can efficiently represent and leverage long-range, high-order correlations in high-dimensional collider data, potentially with fewer parameters and favorable scaling relative to classical models. Deployment of QML in real-time co...
-- **Lien** : https://arxiv.org/abs/2607.20302v1
+- **Résumé** : Creating dynamic and physically realistic 4D worlds from natural language descriptions is both fascinating and challenging. Traditional computer graphics methods rely on manual creation, requiring extensive human effort to fine-tune materials, motions, and visual fidelity. Recent advances in generat...
+- **Lien** : https://arxiv.org/abs/2607.21522v1
 
-### The Maskability Index: Predicting Task-Objective Alignment in Pretrained Language Models
-- **arXiv** : 2607.20265v1
-- **Date** : 2026-07-22
-- **Auteurs** : Ahmad Pouramini, Mahsa Afsharzadeh
+### Artificial Epanorthosis: Why large language models overuse a classical rhetorical figure, and how to mitigate it
+- **arXiv** : 2607.21498v1
+- **Date** : 2026-07-23
+- **Auteurs** : Federico Boggia
 - **Score** : 3
-- **Résumé** : Large-scale pretrained language models such as T5 and BERT have demonstrated strong capabilities for generating structured knowledge. However, their performance depends on how closely the prompting strategy matches the objectives used during pretraining. We introduce the Maskability Index (MI), a qu...
-- **Lien** : https://arxiv.org/abs/2607.20265v1
+- **Résumé** : A rhetorical figure that Cicero and Quintilian catalogued two thousand years ago reappears, systematically, in the text of large language models: epanorthosis, the self-correction of the specimen «This is not a course. It is a journey of transformation». This essay argues that the overuse is a train...
+- **Lien** : https://arxiv.org/abs/2607.21498v1
 
-### Exposure is Optional: Learning Unlike Coordination in Language Models
-- **arXiv** : 2607.20251v1
-- **Date** : 2026-07-22
-- **Auteurs** : Jiamu Luo, Shane Steinert-Threlkeld
+### Toward Generalizable Cognitive Impairment Detection with Speech-Based Multimodal Large Language Models
+- **arXiv** : 2607.21496v1
+- **Date** : 2026-07-23
+- **Auteurs** : Yingchao Huang, Xin Wang, Yuhan Su, Shanshan Yao
 - **Score** : 3
-- **Résumé** : Coordination, a fundamental linguistic structure, remains a subject of intense debate, and its exact nature continues to elude theoretical linguistics. A common view holds that only same-category constituents can be conjoined, which has been challenged by the many grammatical unlike coordinations fo...
-- **Lien** : https://arxiv.org/abs/2607.20251v1
-
-### Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids
-- **arXiv** : 2607.20345v1
-- **Date** : 2026-07-22
-- **Auteurs** : Roger Sala Sisó, Tiago Silvério, Jakob Sand, Tran Nguyen Le
-- **Score** : 1
-- **Résumé** : Closing the gap between benchmark performance and reliable real-world operation remains a central challenge for Vision-Language-Action (VLA) humanoid robots, which must handle execution errors, distribution shifts, and environmental variability. This paper presents DEED (Data-Efficient Post-Training...
-- **Lien** : https://arxiv.org/abs/2607.20345v1
-
-### PhaseAware: Interpretable Human-in-the-Loop Rehabilitation Scoring with Boundary Monitoring
-- **arXiv** : 2607.20237v1
-- **Date** : 2026-07-22
-- **Auteurs** : Yankai Zheng, Yuhe Liu, Yuxin Ma, Tianci Xue, Jiayuan Tian
-- **Score** : 1
-- **Résumé** : Rehabilitation scoring systems are most useful when their outputs can be reviewed and interpreted within clinical workflows. This study presents PhaseAware, a compact framework for continuous rehabilitation quality assessment that combines a temporal backbone with phase- and body-group descriptors t...
-- **Lien** : https://arxiv.org/abs/2607.20237v1
+- **Résumé** : Cognitive impairment (CI) is a growing public health concern. Early and accurate diagnosis is critical for enabling timely intervention and improving patient outcomes. Speech-based CI detection has emerged as a promising non-invasive approach, as speech signals encode both linguistic and acoustic ma...
+- **Lien** : https://arxiv.org/abs/2607.21496v1
 
 <!-- ARXIV_FEED_END -->
