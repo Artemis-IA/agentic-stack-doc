@@ -76,19 +76,19 @@ graph LR
 - **Résumé** : Elon Musk Loses $150 Billion Suit Against OpenAI and Sam Altman, Google updates its Gemini app to take on ChatGPT and Claude at IO 2026, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-341-musk-loses-to
 
-### A Fireside Chat with Cat and Thariq from the Claude Code team
-- **Source** : Simon Willison
-- **Date** : 2026-07-21T12:54
-- **Score** : 2
-- **Résumé** : Earlier this month I hosted a fireside chat session at the AI Engineer World's Fair with Cat Wu and Thariq Shihipar from Anthropic's Claude Code team. We talked about Claude Code, Claude Tag, Fable, c...
-- **Lien** : https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything
-
 ### LWiAI Podcast #246 - Gemini 3.5 + Omni, Musk Loses, OpenAI vs Erdős
 - **Source** : Last Week in AI
 - **Date** : Tue, 26 May 2026
 - **Score** : 2
 - **Résumé** : Google unveils AI model Gemini 3.5 and AI agent Gemini Spark, Omni turns images, audio, and text into video, Musk loses OpenAI court battle...
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-246-gemini-35-omni
+
+### [AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)
+- **Source** : latent.space
+- **Date** : Sat, 25 Jul 2026
+- **Score** : 1
+- **Résumé** : ain't nobody beats Anthropic at distilling Fable!...
+- **Lien** : https://www.latent.space/p/ainews-claude-opus-5-fable-level
 
 ### [AINews] Black Forest Labs FLUX 3 - Multimodal Flow Models that beat Seedance 2.0, Gemini Omni and Grok Imagine, and FLUX-mimic video-action robotics model
 - **Source** : latent.space
@@ -104,12 +104,13 @@ graph LR
 - **Résumé** : a quiet day lets us highlight a new neolab win....
 - **Lien** : https://www.latent.space/p/ainews-laguna-s-21-released-cheaper
 
-### [AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)
-- **Source** : latent.space
-- **Date** : Thu, 16 Jul 2026
+### Introducing Claude Opus 5
+- **Source** : Simon Willison
+- **Date** : 2026-07-24T23:48
 - **Score** : 1
-- **Résumé** : Thinky's first full LLM release is a banger and bonus: it's open weights!...
-- **Lien** : https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b
+- **Résumé** : Introducing Claude Opus 5
+I've been offline kayaking with sea otters for much of today so I haven't had a chance to put Anthropic's new model Claude Opus 5 th...
+- **Lien** : https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything
 
 ### The first known runaway AI agent - or a very bad marketing stunt?
 - **Source** : Simon Willison
@@ -141,14 +142,6 @@ Martin Alderson's commentary on the OpenAI accidental cyberattack a...
 Prince Canuma is the developer behind the excellent MLX-VLM Python library for running vision-LLMs using MLX on a Mac.
 I'm really ex...
 - **Lien** : https://simonwillison.net/2026/Jul/21/nativ/#atom-everything
-
-### Reverse-engineering is cheap now
-- **Source** : Simon Willison
-- **Date** : 2026-07-20T19:24
-- **Score** : 1
-- **Résumé** : I keep hearing anecdotes from people who used coding agents to reverse-engineer and automate devices in their homes.
-I think this is an interesting illustration of the impact of the reduced cost of wr...
-- **Lien** : https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything
 
 ### Bringing Nunchaku 4-bit Diffusion Inference to Diffusers
 - **Source** : Hugging Face Blog
