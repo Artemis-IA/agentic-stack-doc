@@ -129,13 +129,13 @@ an experimental open-source application showcasing the capabilities of the GPT-4
 ### [ollama](https://github.com/ollama/ollama)
 Get up and running with Llama 3, Mistral, Gemma, and other large language models.
 
-⭐ 176.8k | `Go` | Licence: MIT | MAJ: 2026-07-25
+⭐ 176.9k | `Go` | Licence: MIT | MAJ: 2026-07-25
 **Tags** : `deepseek`, `gemma`, `gemma3`, `glm`, `go`, `golang`, `gpt-oss`, `llama`
 
 ### [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
 A collection of prompt examples to be used with the ChatGPT model.
 
-⭐ 166.3k | `HTML` | Licence: NOASSERTION | MAJ: 2026-07-25
+⭐ 166.4k | `HTML` | Licence: NOASSERTION | MAJ: 2026-07-25
 **Tags** : `ai`, `artificial-intelligence`, `awesome-list`, `chatgpt`, `chatgpt-prompts`, `claude`, `gemini`, `gpt`
 
 ### [Dify](https://github.com/langgenius/dify)
@@ -153,25 +153,13 @@ the original 🐍 !GitHub Repo stars
 ### [llama.cpp](https://github.com/ggerganov/llama.cpp)
 LLM inference in C/C++.
 
-⭐ 121.5k | `C++` | Licence: MIT | MAJ: 2026-07-25
+⭐ 121.6k | `C++` | Licence: MIT | MAJ: 2026-07-25
 **Tags** : `ggml`
-
-### [generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners)
-21 Lessons, Get Started Building with Generative AI
-
-⭐ 113.5k | `Jupyter Notebook` | Licence: MIT | MAJ: 2026-07-25
-**Tags** : `ai`, `azure`, `chatgpt`, `dall-e`, `generative-ai`, `generativeai`, `gpt`, `language-model`
 
 ### [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
 First open-sourced GPT-4o level model.
 
 ⭐ 104.0k | `Python` | Licence: MIT | MAJ: 2026-07-25
-
-### [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
-Implement a ChatGPT-like LLM in PyTorch from scratch, step by step
-
-⭐ 99.8k | `Jupyter Notebook` | Licence: NOASSERTION | MAJ: 2026-07-25
-**Tags** : `ai`, `artificial-intelligence`, `attention-mechanism`, `deep-learning`, `finetuning`, `from-scratch`, `generative-ai`, `gpt`
 
 ### [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)
 First-generation reasoning models from DeepSeek.
@@ -187,13 +175,13 @@ A high-throughput and memory-efficient inference and serving engine for LLMs.
 ### [OpenDevin](https://github.com/OpenDevin/OpenDevin)
 🙌 OpenHands: AI-Driven Development
 
-⭐ 82.0k | `Python` | Licence: NOASSERTION | MAJ: 2026-07-25
+⭐ 82.1k | `Python` | Licence: NOASSERTION | MAJ: 2026-07-25
 **Tags** : `agent`, `artificial-intelligence`, `chatgpt`, `claude-ai`, `cli`, `developer-tools`, `gpt`, `llm`
 
 ### [OpenHands](https://github.com/All-Hands-AI/OpenHands)
 🙌 OpenHands: Code Less, Make More. (formerly OpenDevin), a platform for software development agents powered by AI !GitHub Repo stars
 
-⭐ 82.0k | `Python` | Licence: NOASSERTION | MAJ: 2026-07-25
+⭐ 82.1k | `Python` | Licence: NOASSERTION | MAJ: 2026-07-25
 **Tags** : `agent`, `artificial-intelligence`, `chatgpt`, `claude-ai`, `cli`, `developer-tools`, `gpt`, `llm`
 
 ### [llm-course](https://github.com/mlabonne/llm-course)
@@ -202,28 +190,16 @@ Course to get into Large Language Models (LLMs) with roadmaps and Colab notebook
 ⭐ 81.2k | Licence: Apache-2.0 | MAJ: 2026-07-25
 **Tags** : `course`, `large-language-models`, `llm`, `machine-learning`, `roadmap`
 
-### [Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
-🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.
-
-⭐ 76.9k | `MDX` | Licence: MIT | MAJ: 2026-07-25
-**Tags** : `agent`, `agents`, `ai-agents`, `chatgpt`, `deep-learning`, `generative-ai`, `language-model`, `llms`
-
-### [gpt4free](https://github.com/xtekky/gpt4free)
-The official gpt4free repository | various collection of powerful language models | opus 4.6 gpt 5.3 kimi 2.5 deepseek v3.2 gemini 3
-
-⭐ 66.5k | `Python` | Licence: GPL-3.0 | MAJ: 2026-07-25
-**Tags** : `chatbot`, `chatbots`, `chatgpt`, `chatgpt-4`, `chatgpt-api`, `chatgpt-free`, `chatgpt4`, `deepseek`
-
 ### [Embedchain](https://github.com/embedchain/embedchain)
 Framework to create ChatGPT like bots over your dataset.
 
-⭐ 61.6k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-07-25
+⭐ 61.7k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-07-25
 **Tags** : `agents`, `ai`, `ai-agents`, `application`, `chatbots`, `chatgpt`, `genai`, `llm`
 
 ### [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
 A Chinese collection of prompt examples to be used with the ChatGPT model.
 
-⭐ 61.1k | Licence: MIT | MAJ: 2026-07-25
+⭐ 61.2k | Licence: MIT | MAJ: 2026-07-25
 **Tags** : `chat-gpt`, `chatgpt`, `chatgpt3`, `chatgpt4`, `gpt`
 
 ### [upstash/context7](https://github.com/upstash/context7)
@@ -237,5 +213,28 @@ provides a central interface to connect your LLM's with external data. !GitHub R
 
 ⭐ 51.1k | `Python` | Licence: MIT | MAJ: 2026-07-25
 **Tags** : `agents`, `application`, `data`, `fine-tuning`, `framework`, `llamaindex`, `llm`, `multi-agents`
+
+### [DeepSpeed](https://github.com/microsoft/DeepSpeed)
+DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.
+
+⭐ 42.8k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-25
+**Tags** : `billion-parameters`, `compression`, `data-parallelism`, `deep-learning`, `gpu`, `inference`, `machine-learning`, `mixture-of-experts`
+
+### [FastChat](https://github.com/lm-sys/FastChat)
+A distributed multi-model LLM serving system with web UI and OpenAI-compatible RESTful APIs.
+
+⭐ 39.5k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-25
+
+### [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)
+Formerly langchain-ChatGLM, local knowledge based LLM (like ChatGLM) QA app with langchain.
+
+⭐ 38.5k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-25
+**Tags** : `chatbot`, `chatchat`, `chatglm`, `chatgpt`, `embedding`, `faiss`, `fastchat`, `gpt`
+
+### [AgentGPT](https://github.com/reworkd/AgentGPT)
+🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.
+
+⭐ 36.3k | `TypeScript` | Licence: GPL-3.0 | MAJ: 2026-07-25
+**Tags** : `agent`, `agentgpt`, `agents`, `agi`, `ai`, `ai-agents`, `autogpt`, `baby-agi`
 
 <!-- TOOLS_LLM_END -->
