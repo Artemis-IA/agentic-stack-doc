@@ -115,19 +115,13 @@ subprocess.run([
 ### [daytona](https://github.com/daytonaio/daytona)
 Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code
 
-⭐ 72.2k | MAJ: 2026-07-25
+⭐ 72.2k | MAJ: 2026-07-26
 **Tags** : `agentic-workflow`, `ai`, `ai-agents`, `ai-runtime`, `ai-sandboxes`, `code-execution`, `code-interpreter`, `developer-tools`
-
-### [omnigent](https://github.com/omnigent-ai/omnigent)
-Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, an...
-
-⭐ 7.7k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-25
-**Tags** : `agent-framework`, `agent-governance`, `agent-orchestration`, `agents`, `ai`, `ai-agent`, `ai-agents`, `claude-code`
 
 ### [microsandbox](https://github.com/superradcompany/microsandbox)
 🧱 easy fast local-first microVM library and toolkit
 
-⭐ 7.0k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-07-25
+⭐ 7.0k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-07-26
 **Tags** : `agents`, `docker`, `golang`, `linux`, `local`, `macos`, `microvm`, `nodejs`
 
 ### [smolvm](https://github.com/smol-machines/smolvm)
@@ -139,13 +133,13 @@ Portable, lightweight, self-contained virtual machine.
 ### [judge0](https://github.com/judge0/judge0)
 Robust, fast, scalable, and sandboxed open-source online code execution system for humans and AI.
 
-⭐ 4.3k | `HTML` | Licence: GPL-3.0 | MAJ: 2026-07-25
+⭐ 4.3k | `HTML` | Licence: GPL-3.0 | MAJ: 2026-07-26
 **Tags** : `ai-agent-tools`, `ai-agents`, `ai-tools`, `code-execution`, `code-executor`, `code-runner`, `competitive-programming`, `online-compiler`
 
 ### [nono](https://github.com/nolabs-ai/nono)
 Sandbox any AI agent in seconds - zero setup, zero latency.
 
-⭐ 3.1k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-07-25
+⭐ 3.1k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-07-26
 **Tags** : `agent-sandbox`, `agent-security`, `ai-agent-sandbox`, `ai-agent-security`, `ai-agents`, `ai-security`, `ai-security-tool`, `code-execution`
 
 ### [microvm.nix](https://github.com/microvm-nix/microvm.nix)
@@ -157,7 +151,7 @@ NixOS MicroVMs
 ### [piston](https://github.com/engineer-man/piston)
 A high performance general purpose code execution engine.
 
-⭐ 2.8k | `JavaScript` | Licence: MIT | MAJ: 2026-07-25
+⭐ 2.8k | `JavaScript` | Licence: MIT | MAJ: 2026-07-26
 **Tags** : `code-execution`, `lxc`, `nodejs`, `piston`, `shell`
 
 ### [forkd](https://github.com/deeplethe/forkd)
@@ -172,16 +166,16 @@ Sub-millisecond VM sandboxes for AI agents via copy-on-write forking
 ⭐ 2.4k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-07-24
 **Tags** : `ai-agents`, `code-execution`, `copy-on-write`, `firecracker`, `kvm`, `rust`, `sandbox`, `virtual-machine`
 
-### [aici](https://github.com/microsoft/aici)
-AICI: Prompts as (Wasm) Programs
+### [awesome-wasm-runtimes](https://github.com/appcypher/awesome-wasm-runtimes)
+A list of webassemby runtimes
 
-⭐ 2.1k | `Rust` | Licence: MIT | MAJ: 2026-07-12
-**Tags** : `ai`, `inference`, `language-model`, `llm`, `llm-framework`, `llm-inference`, `llm-serving`, `llmops`
+⭐ 1.6k | MAJ: 2026-07-20
+**Tags** : `cranelift`, `engine`, `javascript`, `rust`, `virtual-machine`, `vm`, `wasm`, `wasm-runtime`
 
 ### [flintlock](https://github.com/liquidmetal-dev/flintlock)
 Lock, Stock, and Two Smoking MicroVMs. Create and manage the lifecycle of MicroVMs backed by containerd.
 
-⭐ 1.5k | `Go` | Licence: MPL-2.0 | MAJ: 2026-07-23
+⭐ 1.5k | `Go` | Licence: MPL-2.0 | MAJ: 2026-07-26
 **Tags** : `cni`, `firecracker`, `kvm`, `microvm`, `oci`
 
 ### [kuasar](https://github.com/kuasar-io/kuasar)
@@ -211,13 +205,13 @@ WebAssembly binding for llama.cpp - Enabling in-browser LLM inference
 ### [mayastor](https://github.com/openebs/mayastor)
 Dynamically provision Stateful Persistent Replicated Cluster-wide Fabric Volumes & Filesystems for Kubernetes that is provisioned from an optimized NVME SPDK backend data storage stack.
 
-⭐ 1.1k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-07-22
+⭐ 1.1k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-07-26
 **Tags** : `containers`, `data-plane`, `k8s`, `kubernetes`, `microvm`, `nvme`, `pvc`, `rust`
 
 ### [tensorlake](https://github.com/tensorlakeai/tensorlake)
 Tensorlake is a serverless runtime for sandboxes and deploying background agentic applications
 
-⭐ 971 | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-25
+⭐ 972 | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-25
 **Tags** : `ai-agents`, `code-execution`, `code-interpreter`, `llm`, `rl`, `sandbox`, `sandboxes`
 
 ### [secure-exec](https://github.com/rivet-dev/secure-exec)
@@ -231,5 +225,11 @@ Official repository for the paper "LiveCodeBench: Holistic and Contamination Fre
 
 ⭐ 913 | `Python` | Licence: MIT | MAJ: 2026-07-23
 **Tags** : `code-execution`, `code-generation`, `code-llms`, `code-repair`, `gpt-4`, `test-generation`
+
+### [clawk](https://github.com/clawkwork/clawk)
+Give coding agents a disposable Linux VM, not your laptop
+
+⭐ 793 | `Go` | Licence: Apache-2.0 | MAJ: 2026-07-25
+**Tags** : `agent-sandbox`, `ai-agent-sandbox`, `ai-agents`, `claude`, `claude-code`, `codex`, `microvm`, `sandbox`
 
 <!-- TOOLS_SANDBOX_END -->
