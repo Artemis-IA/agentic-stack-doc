@@ -153,7 +153,7 @@ the original 🐍 !GitHub Repo stars
 ### [llama.cpp](https://github.com/ggerganov/llama.cpp)
 LLM inference in C/C++.
 
-⭐ 121.7k | `C++` | Licence: MIT | MAJ: 2026-07-27
+⭐ 121.8k | `C++` | Licence: MIT | MAJ: 2026-07-27
 **Tags** : `ggml`
 
 ### [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
@@ -175,13 +175,13 @@ A high-throughput and memory-efficient inference and serving engine for LLMs.
 ### [OpenDevin](https://github.com/OpenDevin/OpenDevin)
 🙌 OpenHands: AI-Driven Development
 
-⭐ 82.3k | `Python` | Licence: NOASSERTION | MAJ: 2026-07-27
+⭐ 82.3k | `TypeScript` | Licence: MIT | MAJ: 2026-07-27
 **Tags** : `agent`, `artificial-intelligence`, `chatgpt`, `claude-ai`, `cli`, `developer-tools`, `gpt`, `llm`
 
 ### [OpenHands](https://github.com/All-Hands-AI/OpenHands)
 🙌 OpenHands: Code Less, Make More. (formerly OpenDevin), a platform for software development agents powered by AI !GitHub Repo stars
 
-⭐ 82.3k | `Python` | Licence: NOASSERTION | MAJ: 2026-07-27
+⭐ 82.3k | `TypeScript` | Licence: MIT | MAJ: 2026-07-27
 **Tags** : `agent`, `artificial-intelligence`, `chatgpt`, `claude-ai`, `cli`, `developer-tools`, `gpt`, `llm`
 
 ### [llm-course](https://github.com/mlabonne/llm-course)
@@ -202,8 +202,14 @@ A Chinese collection of prompt examples to be used with the ChatGPT model.
 ⭐ 61.2k | Licence: MIT | MAJ: 2026-07-27
 **Tags** : `chat-gpt`, `chatgpt`, `chatgpt3`, `chatgpt4`, `gpt`
 
-### [upstash/context7](https://github.com/upstash/context7)
-📇 ☁️ - Up-to-date code documentation for LLMs and AI code editors.
+### [TrendRadar](https://github.com/sansan0/TrendRadar)
+⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构...
+
+⭐ 60.9k | `Python` | Licence: GPL-3.0 | MAJ: 2026-07-27
+**Tags** : `ai`, `bark`, `data-analysis`, `docker`, `hot-news`, `llm`, `mail`, `mcp`
+
+### [context7](https://github.com/upstash/context7)
+Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors
 
 ⭐ 59.8k | `TypeScript` | Licence: MIT | MAJ: 2026-07-27
 **Tags** : `llm`, `mcp`, `mcp-server`, `vibe-coding`
@@ -214,11 +220,11 @@ provides a central interface to connect your LLM's with external data. !GitHub R
 ⭐ 51.1k | `Python` | Licence: MIT | MAJ: 2026-07-27
 **Tags** : `agents`, `application`, `data`, `fine-tuning`, `framework`, `llamaindex`, `llm`, `multi-agents`
 
-### [ray](https://github.com/ray-project/ray)
-Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.
+### [LocalAI](https://github.com/mudler/LocalAI)
+LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.
 
-⭐ 43.4k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-27
-**Tags** : `data-science`, `deep-learning`, `deployment`, `distributed`, `hyperparameter-optimization`, `hyperparameter-search`, `large-language-models`, `llm`
+⭐ 47.9k | `Go` | Licence: MIT | MAJ: 2026-07-27
+**Tags** : `agents`, `ai`, `api`, `audio-generation`, `decentralized`, `distributed`, `image-generation`, `libp2p`
 
 ### [DeepSpeed](https://github.com/microsoft/DeepSpeed)
 DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.
@@ -230,11 +236,5 @@ DeepSpeed is a deep learning optimization library that makes distributed trainin
 A distributed multi-model LLM serving system with web UI and OpenAI-compatible RESTful APIs.
 
 ⭐ 39.5k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-27
-
-### [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)
-Formerly langchain-ChatGLM, local knowledge based LLM (like ChatGLM) QA app with langchain.
-
-⭐ 38.5k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-27
-**Tags** : `chatbot`, `chatchat`, `chatglm`, `chatgpt`, `embedding`, `faiss`, `fastchat`, `gpt`
 
 <!-- TOOLS_LLM_END -->

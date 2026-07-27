@@ -131,10 +131,10 @@ Build AI Agents, Visually
 ⭐ 55.0k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-07-27
 **Tags** : `agentic-ai`, `agentic-workflow`, `agents`, `artificial-intelligence`, `chatbot`, `chatgpt`, `javascript`, `langchain`
 
-### [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
-!DeusData/codebase-memory-mcp MCP server 🌊 🏠 🍎 🪟 🐧 - Code-intelligence engine that indexes a repo into a persistent knowledge graph — functions, classes, call chains, HTTP routes, cross-service lin...
+### [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
+High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static bin...
 
-⭐ 35.7k | `C` | Licence: MIT | MAJ: 2026-07-27
+⭐ 35.9k | `C` | Licence: MIT | MAJ: 2026-07-27
 **Tags** : `aider`, `ast`, `claude-code`, `code-analysis`, `code-intelligence`, `codex`, `cursor`, `cypher`
 
 ### [EvoAgentX](https://github.com/EvoAgentX/EvoAgentX)
@@ -161,12 +161,6 @@ Markdown knowledge graph for you and your AI agents — editor LSP plus CLI and 
 ⭐ 1.3k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-24
 **Tags** : `agents`, `context-engineering`, `graphrag`, `knowledge-graph`, `mcp`
 
-### [SearchCLI](https://github.com/volcengine/SearchCLI)
-Open CLI for integrating AI search, recommendation, and conversational retrieval into agent systems and business systems
-
-⭐ 1.1k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-07-27
-**Tags** : `agent-tools`, `ai-agents`, `ai-search`, `ai-search-engine`, `automation`, `cli`, `command-line-tool`, `conversational-search`
-
 ### [RepoAgent](https://github.com/OpenBMB/RepoAgent)
 An LLM-powered repository agent designed to assist developers and teams in generating documentation and understanding repositories quickly !GitHub Repo stars
 
@@ -176,7 +170,7 @@ An LLM-powered repository agent designed to assist developers and teams in gener
 ### [heymrun/heym](https://github.com/heymrun/heym)
 !heymrun/heym MCP server 🐍 📇 🏠 - Source-available, self-hosted AI workflow automation platform. Build multi-agent, RAG, and tool-using pipelines on a visual canvas, then expose any workflow as an M...
 
-⭐ 807 | `Python` | Licence: NOASSERTION | MAJ: 2026-07-27
+⭐ 812 | `Python` | Licence: NOASSERTION | MAJ: 2026-07-27
 **Tags** : `ai-agents`, `ai-agents-framework`, `ai-assistant`, `automation`, `automation-tool`, `autonomous-agents`, `coding-agent`, `evals`
 
 ### [MindSQL](https://github.com/Mindinventory/MindSQL)
@@ -218,7 +212,7 @@ Open-source governed shared memory for AI agent fleets with cross-agent recall, 
 ### [varun29ankuS/shodh-memory](https://github.com/varun29ankuS/shodh-memory)
 🦀 🏠 - Cognitive memory for AI agents with Hebbian learning, 3-tier architecture, and knowledge graphs. Single ~15MB binary, runs offline on edge devices.
 
-⭐ 239 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-07-27
+⭐ 240 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-07-27
 **Tags** : `agent-memory`, `agentic-ai`, `ai-agents`, `ai-memory`, `claude`, `cognitive-memory`, `edge-ai`, `graphrag`
 
 ### [lyonzin/knowledge-rag](https://github.com/lyonzin/knowledge-rag)
@@ -242,7 +236,13 @@ Open-source governed shared memory for AI agent fleets with cross-agent recall, 
 ### [alibaizhanov/mengram](https://github.com/alibaizhanov/mengram)
 !mengram MCP server 🐍 ☁️ 🏠 🍎 🪟 🐧 - Human-like memory layer for AI agents with semantic, episodic, and procedural memory. Claude Code hooks (auto-save, auto-recall, cognitive profile). 29 MCP tools,...
 
-⭐ 183 | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-24
+⭐ 183 | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-27
 **Tags** : `agent-memory`, `ai-agents`, `ai-memory`, `claude-desktop`, `cognitive-architecture`, `cohere`, `cursor-ai`, `episodic-memory`
+
+### [sirmews/mcp-pinecone](https://github.com/sirmews/mcp-pinecone)
+🐍 ☁️ - Pinecone integration with vector search capabilities
+
+⭐ 150 | `Python` | Licence: MIT | MAJ: 2026-07-06
+**Tags** : `claude`, `mcp`, `mcp-server`, `model-context-protocol`, `pinecone`, `rag`
 
 <!-- TOOLS_RAG_END -->
