@@ -134,7 +134,7 @@ Build AI Agents, Visually
 ### [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
 !DeusData/codebase-memory-mcp MCP server 🌊 🏠 🍎 🪟 🐧 - Code-intelligence engine that indexes a repo into a persistent knowledge graph — functions, classes, call chains, HTTP routes, cross-service lin...
 
-⭐ 36.0k | `C` | Licence: MIT | MAJ: 2026-07-28
+⭐ 36.2k | `C` | Licence: MIT | MAJ: 2026-07-28
 **Tags** : `aider`, `ast`, `claude-code`, `code-analysis`, `code-intelligence`, `codex`, `cursor`, `cypher`
 
 ### [EvoAgentX](https://github.com/EvoAgentX/EvoAgentX)
@@ -164,13 +164,13 @@ Markdown knowledge graph for you and your AI agents — editor LSP plus CLI and 
 ### [RepoAgent](https://github.com/OpenBMB/RepoAgent)
 An LLM-powered repository agent designed to assist developers and teams in generating documentation and understanding repositories quickly !GitHub Repo stars
 
-⭐ 1.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-25
+⭐ 1.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-28
 **Tags** : `agent`, `chatglm`, `chatgpt`, `chatgpt-api`, `gpt`, `gpt-4`, `langchain`, `llama`
 
 ### [heymrun/heym](https://github.com/heymrun/heym)
 !heymrun/heym MCP server 🐍 📇 🏠 - Source-available, self-hosted AI workflow automation platform. Build multi-agent, RAG, and tool-using pipelines on a visual canvas, then expose any workflow as an M...
 
-⭐ 815 | `Python` | Licence: NOASSERTION | MAJ: 2026-07-28
+⭐ 820 | `Python` | Licence: NOASSERTION | MAJ: 2026-07-28
 **Tags** : `ai-agents`, `ai-agents-framework`, `ai-assistant`, `automation`, `automation-tool`, `autonomous-agents`, `coding-agent`, `evals`
 
 ### [MindSQL](https://github.com/Mindinventory/MindSQL)
@@ -185,17 +185,17 @@ A python package for Txt-to-SQL with self hosting functionalities and RESTful AP
 ⭐ 436 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-07-26
 **Tags** : `ai`, `ai-tools`, `cli`, `cli-app`, `code-search`, `developer-tool`, `developer-tools`, `doc-search`
 
+### [MemClaw](https://github.com/caura-ai/caura-memclaw)
+Open-source governed shared memory for AI agent fleets with cross-agent recall, permissions, audit trails, and persistent memory.
+
+⭐ 386 | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-28
+**Tags** : `agent-memory`, `agentic-ai`, `ai-agents`, `ai-infrastructure`, `claude`, `fastapi`, `knowledge-graph`, `llm-memory`
+
 ### [Open-RAG-Eval](https://github.com/vectara/open-rag-eval)
 an open source RAG evaluation framework that does not require golden answers, and can be used to evaluate performance of RAG tools connected to an AI Agent (Agentic RAG)
 
 ⭐ 385 | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-23
 **Tags** : `evaluation-metrics`, `metrics`, `rag`, `rag-evaluation`, `retrieval-augmented-generation`, `vectara`
-
-### [MemClaw](https://github.com/caura-ai/caura-memclaw)
-Open-source governed shared memory for AI agent fleets with cross-agent recall, permissions, audit trails, and persistent memory.
-
-⭐ 383 | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-28
-**Tags** : `agent-memory`, `agentic-ai`, `ai-agents`, `ai-infrastructure`, `claude`, `fastapi`, `knowledge-graph`, `llm-memory`
 
 ### [shinpr/mcp-local-rag](https://github.com/shinpr/mcp-local-rag)
 📇 🏠 - Privacy-first document search server running entirely locally. Supports semantic search over PDFs, DOCX, TXT, and Markdown files with LanceDB vector storage and local embeddings - no API keys...

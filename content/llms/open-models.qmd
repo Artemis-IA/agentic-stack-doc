@@ -141,7 +141,7 @@ A collection of prompt examples to be used with the ChatGPT model.
 ### [Dify](https://github.com/langgenius/dify)
 An open-source LLM app development platform with an intuitive interface that streamlines AI workflows, model management, and production deployment.
 
-⭐ 150.5k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-07-28
+⭐ 150.6k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-07-28
 **Tags** : `agent`, `agentic-ai`, `agentic-framework`, `agentic-workflow`, `ai`, `automation`, `claude`, `genai`
 
 ### [LangChain](https://github.com/hwchase17/langchain)
@@ -153,23 +153,35 @@ the original 🐍 !GitHub Repo stars
 ### [llama.cpp](https://github.com/ggerganov/llama.cpp)
 LLM inference in C/C++.
 
-⭐ 121.8k | `C++` | Licence: MIT | MAJ: 2026-07-28
+⭐ 121.9k | `C++` | Licence: MIT | MAJ: 2026-07-28
 **Tags** : `ggml`
+
+### [generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners)
+21 Lessons, Get Started Building with Generative AI
+
+⭐ 113.6k | `Jupyter Notebook` | Licence: MIT | MAJ: 2026-07-28
+**Tags** : `ai`, `azure`, `chatgpt`, `dall-e`, `generative-ai`, `generativeai`, `gpt`, `language-model`
 
 ### [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
 First open-sourced GPT-4o level model.
 
 ⭐ 104.0k | `Python` | Licence: MIT | MAJ: 2026-07-28
 
+### [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
+Implement a ChatGPT-like LLM in PyTorch from scratch, step by step
+
+⭐ 100.0k | `Jupyter Notebook` | Licence: NOASSERTION | MAJ: 2026-07-28
+**Tags** : `ai`, `artificial-intelligence`, `attention-mechanism`, `deep-learning`, `finetuning`, `from-scratch`, `generative-ai`, `gpt`
+
 ### [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)
 First-generation reasoning models from DeepSeek.
 
 ⭐ 92.0k | Licence: MIT | MAJ: 2026-07-28
 
-### [vLLM](https://github.com/vllm-project/vllm)
-A high-throughput and memory-efficient inference and serving engine for LLMs.
+### [vllm](https://github.com/vllm-project/vllm)
+A high-throughput and memory-efficient inference and serving engine for LLMs
 
-⭐ 87.4k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-28
+⭐ 87.5k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-28
 **Tags** : `amd`, `blackwell`, `cuda`, `deepseek`, `deepseek-v3`, `gpt`, `gpt-oss`, `inference`
 
 ### [OpenDevin](https://github.com/OpenDevin/OpenDevin)
@@ -190,6 +202,18 @@ Course to get into Large Language Models (LLMs) with roadmaps and Colab notebook
 ⭐ 81.3k | Licence: Apache-2.0 | MAJ: 2026-07-28
 **Tags** : `course`, `large-language-models`, `llm`, `machine-learning`, `roadmap`
 
+### [Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
+🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.
+
+⭐ 77.1k | `MDX` | Licence: MIT | MAJ: 2026-07-28
+**Tags** : `agent`, `agents`, `ai-agents`, `chatgpt`, `deep-learning`, `generative-ai`, `language-model`, `llms`
+
+### [gpt4free](https://github.com/xtekky/gpt4free)
+The official gpt4free repository | various collection of powerful language models | opus 4.6 gpt 5.3 kimi 2.5 deepseek v3.2 gemini 3
+
+⭐ 66.5k | `Python` | Licence: GPL-3.0 | MAJ: 2026-07-28
+**Tags** : `chatbot`, `chatbots`, `chatgpt`, `chatgpt-4`, `chatgpt-api`, `chatgpt-free`, `chatgpt4`, `deepseek`
+
 ### [Embedchain](https://github.com/embedchain/embedchain)
 Framework to create ChatGPT like bots over your dataset.
 
@@ -208,33 +232,10 @@ A Chinese collection of prompt examples to be used with the ChatGPT model.
 ⭐ 59.9k | `TypeScript` | Licence: MIT | MAJ: 2026-07-28
 **Tags** : `llm`, `mcp`, `mcp-server`, `vibe-coding`
 
-### [LlamaIndex](https://github.com/jerryjliu/llama_index)
-A Python library for augmenting LLM apps with data.
+### [yolov5](https://github.com/ultralytics/yolov5)
+Ultralytics YOLOv5 in PyTorch for object detection, instance segmentation, classification, training, and export.
 
-⭐ 51.2k | `Python` | Licence: MIT | MAJ: 2026-07-28
-**Tags** : `agents`, `application`, `data`, `fine-tuning`, `framework`, `llamaindex`, `llm`, `multi-agents`
-
-### [DeepSpeed](https://github.com/deepspeedai/DeepSpeed)
-DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.
-
-⭐ 42.8k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-28
-**Tags** : `billion-parameters`, `compression`, `data-parallelism`, `deep-learning`, `gpu`, `inference`, `machine-learning`, `mixture-of-experts`
-
-### [DeepSpeed](https://github.com/microsoft/DeepSpeed)
-DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.
-
-⭐ 42.8k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-28
-**Tags** : `billion-parameters`, `compression`, `data-parallelism`, `deep-learning`, `gpu`, `inference`, `machine-learning`, `mixture-of-experts`
-
-### [FastChat](https://github.com/lm-sys/FastChat)
-A distributed multi-model LLM serving system with web UI and OpenAI-compatible RESTful APIs.
-
-⭐ 39.5k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-28
-
-### [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)
-Formerly langchain-ChatGLM, local knowledge based LLM (like ChatGLM) QA app with langchain.
-
-⭐ 38.5k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-28
-**Tags** : `chatbot`, `chatchat`, `chatglm`, `chatgpt`, `embedding`, `faiss`, `fastchat`, `gpt`
+⭐ 57.8k | `Python` | Licence: AGPL-3.0 | MAJ: 2026-07-28
+**Tags** : `computer-vision`, `coreml`, `deep-learning`, `image-classification`, `inference`, `instance-segmentation`, `model-export`, `model-training`
 
 <!-- TOOLS_LLM_END -->
