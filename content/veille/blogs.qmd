@@ -83,6 +83,13 @@ graph LR
 - **Résumé** : OpenAI's core product engineering lead on how they are building ChatGPT Work to make AGI accessible to all of humanity: Sites, OpenClaw, Memory, Subagents, Finance, No-Code and advice....
 - **Lien** : https://www.latent.space/p/chatgpt-work
 
+### Quoting Akshat Bubna
+- **Source** : Simon Willison
+- **Date** : 2026-07-28T22:05
+- **Score** : 2
+- **Résumé** : We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was use...
+- **Lien** : https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything
+
 ### Scientific computing in the age of agentic AI
 - **Source** : OpenAI Blog
 - **Date** : Tue, 28 Jul 2026
@@ -118,6 +125,22 @@ graph LR
 - **Résumé** : a quiet day lets us highlight a new neolab win....
 - **Lien** : https://www.latent.space/p/ainews-laguna-s-21-released-cheaper
 
+### Discovering cryptographic weaknesses with Claude
+- **Source** : Simon Willison
+- **Date** : 2026-07-28T22:45
+- **Score** : 1
+- **Résumé** : Discovering cryptographic weaknesses with Claude
+The best part of this article (here's the repo) about how Anthropic re...
+- **Lien** : https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything
+
+### Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident
+- **Source** : Simon Willison
+- **Date** : 2026-07-28T21:28
+- **Score** : 1
+- **Résumé** : Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident
+Hugging Face just released this extremely detailed technical description of <a href="https://simonwillison.ne...
+- **Lien** : https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything
+
 ### An Inside Look at the Relay Market Powering Token Resellers and Fraud
 - **Source** : Simon Willison
 - **Date** : 2026-07-26T19:30
@@ -125,36 +148,6 @@ graph LR
 - **Résumé** : An Inside Look at the Relay Market Powering Token Resellers and Fraud
 Fascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling A...
 - **Lien** : https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything
-
-### Introducing Claude Opus 5
-- **Source** : Simon Willison
-- **Date** : 2026-07-24T23:48
-- **Score** : 1
-- **Résumé** : Introducing Claude Opus 5
-I've been offline kayaking with sea otters for much of today so I haven't had a chance to put Anthropic's new model Claude Opus 5 th...
-- **Lien** : https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything
-
-### The first known runaway AI agent - or a very bad marketing stunt?
-- **Source** : Simon Willison
-- **Date** : 2026-07-23T22:53
-- **Score** : 1
-- **Résumé** : The first known runaway AI agent - or a very bad marketing stunt?
-Martin Alderson's commentary on the OpenAI accidental cyberattack a...
-- **Lien** : https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything
-
-### Quoting Thomas Ptacek
-- **Source** : Simon Willison
-- **Date** : 2026-07-22T23:59
-- **Score** : 1
-- **Résumé** : I genuinely believe that if you took an open weights model from 2025 and built a pentest harness for it, it could do this kind of sandbox escape and scan/hack in most networks. This is only surprising...
-- **Lien** : https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything
-
-### OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened
-- **Source** : Simon Willison
-- **Date** : 2026-07-22T23:51
-- **Score** : 1
-- **Résumé** : This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model's guardrail features turned off. Rather than solve the test, the model broke...
-- **Lien** : https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-everything
 
 ### The OlmoEarth Platform: Geospatial inference at planetary scale
 - **Source** : Hugging Face Blog
@@ -169,6 +162,13 @@ Martin Alderson's commentary on the OpenAI accidental cyberattack a...
 - **Score** : 1
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/LiquidAI/lfm2-5-encoders
+
+### Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident
+- **Source** : Hugging Face Blog
+- **Date** : Mon, 27 Jul 2026
+- **Score** : 1
+- **Résumé** : ...
+- **Lien** : https://huggingface.co/blog/agent-intrusion-technical-timeline
 
 ### Bringing Nunchaku 4-bit Diffusion Inference to Diffusers
 - **Source** : Hugging Face Blog

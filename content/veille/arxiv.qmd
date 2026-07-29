@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### Agentic Permissions Policy Algebra for Taint Confinement in LLM Agents
-- **arXiv** : 2607.24625v1
-- **Date** : 2026-07-27
-- **Auteurs** : Arseny Kravchenko, Vadim Liventsev, Innokentii Konstantinov, Ildar Iskhakov, Matvey Kukuy
-- **Score** : 12
-- **Résumé** : Autonomous LLM agents processing mixed-confidentiality data face severe security risks from prompt injection attacks and reasoning errors. While dynamic Information Flow Control (IFC) provides structural security guarantees, traditional taint tracking permanently taints an agent's context upon readi...
-- **Lien** : https://arxiv.org/abs/2607.24625v1
-
-### A corrective agentic hybrid RAG and an operations-grounded evaluation for a scientific facility
-- **arXiv** : 2607.24663v1
-- **Date** : 2026-07-27
-- **Auteurs** : Rajat Sainju, Dariusz Jarosz, Hairong Shang, Michael Prince, Ryan M. Aydelott
+### Evaluating VLMs for Autonomous Agent-Driven Geometry Clipping Detection in Video Game QA
+- **arXiv** : 2607.25921v1
+- **Date** : 2026-07-28
+- **Auteurs** : Carlos Celemin, Benedict Wilkins, Adrián Barahona-Ríos, Saman Zadtootaghaj, Nabajeet Barman
 - **Score** : 10
-- **Résumé** : Scientific user facilities accumulate decades of operational knowledge that no single search index covers: electronic logbooks, technical documents, internal wikis, operations chat messages, maintenance records, and live control-system data. We present APS-RAG, Advanced Photon Source Retrieval Augme...
-- **Lien** : https://arxiv.org/abs/2607.24663v1
+- **Résumé** : In this work, we study the use of Vision-Language Models (VLMs) for anomaly detection in an agent-driven game Quality Assurance (QA) pipeline focusing on geometry clipping. In this evaluation, a custom exploration agent navigates a game level to collect visual observations, while the automatic annot...
+- **Lien** : https://arxiv.org/abs/2607.25921v1
 
-### ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding
-- **arXiv** : 2607.24743v1
-- **Date** : 2026-07-27
-- **Auteurs** : Hangjie Yuan, Yichen Qian, Zhiwei Tang, Xianzhe Xu, Lirong Wu
+### VetClaw: An Edge-Cloud Multimodal Agentic System for Veterinary Disease Screening
+- **arXiv** : 2607.26042v1
+- **Date** : 2026-07-28
+- **Auteurs** : Syed Mhamudul Hasan, Anas AlSobeh, Hussein Zangoti, Abdur R. Shahid
+- **Score** : 9
+- **Résumé** : We present VetClaw, an edge-cloud multimodal agentic system for early veterinary disease screening. VetClaw uses a camera module as an edge sensing device and sends captured images, together with optional symptom descriptions, to a server-hosted vision-language model for zero-shot disease classifica...
+- **Lien** : https://arxiv.org/abs/2607.26042v1
+
+### Messier: A High-Resolution Corpus for Cross-Benchmark Agent Evaluation
+- **arXiv** : 2607.25891v1
+- **Date** : 2026-07-28
+- **Auteurs** : Stefan Krsteski, Charlotte Meyer, Guillaume Allegre, Tony O'Halloran, Alexandre Sallinen
+- **Score** : 8
+- **Résumé** : Evaluating AI agents in interactive environments is hindered by fragmented tasks, scaffolds, verifiers, and scoring rules. Existing efforts focus on narrow settings, remain limited in scale, or require costly reruns, leaving much of the empirical record incomparable. We introduce Messier, a unified ...
+- **Lien** : https://arxiv.org/abs/2607.25891v1
+
+### RepoReasoner: Evaluating Repository-Level Code Reasoning Ability of Long-Context Language Models
+- **arXiv** : 2607.25996v1
+- **Date** : 2026-07-28
+- **Auteurs** : Yanlin Wang, Suiquan Wang, Yanli Wang, Bowen Zhang, Daya Guo
 - **Score** : 7
-- **Résumé** : Multimodal large language models (MLLMs) hold immense potential to revolutionize clinical practice, yet deploying them in the medical domain is fundamentally a vision-centric challenge: models must absorb knowledge from heterogeneous 2D and 3D medical images, and evaluation protocols must align with...
-- **Lien** : https://arxiv.org/abs/2607.24743v1
+- **Résumé** : Recent large language models (LLMs) have shown strong performance on software engineering tasks, yet most existing benchmarks evaluate code reasoning at the function level, where all relevant information is localized. This setting fails to reflect real-world development, which requires reasoning acr...
+- **Lien** : https://arxiv.org/abs/2607.25996v1
 
-### Efficient LLM-Generated Shuttling Compilers for Complex Trapped-Ion Architectures
-- **arXiv** : 2607.24714v1
-- **Date** : 2026-07-27
-- **Auteurs** : Fabian Kreppel, Reza Salkhordeh, Ferdinand Schmidt-Kaler, André Brinkmann
+### 	extsc{IH-Benchmark}: A Conflict-Centered Benchmark for Instruction-Hierarchy Robustness in LLM Applications
+- **arXiv** : 2607.25987v1
+- **Date** : 2026-07-28
+- **Auteurs** : Conor McCauley, Zeliang Kan, Jason Martin
 - **Score** : 7
-- **Résumé** : Trapped-ion quantum computers rely on shuttling compilers, which cast an input algorithm into a sequence of ion-qubit movements within a given architecture. We present the first study in which a single frontier large language model (LLM), Claude Opus 4.7, generates and iteratively refines the full P...
-- **Lien** : https://arxiv.org/abs/2607.24714v1
+- **Résumé** : When a language model receives conflicting instructions from different priority levels, which one does it actually follow? This question lies at the heart of reliable LLM deployment. Existing benchmarks answer this only partially, often focusing on a single hierarchy edge or adapting public datasets...
+- **Lien** : https://arxiv.org/abs/2607.25987v1
 
-### Reason-Mediated Behavioral Models for Auditing LLM Social Simulators
-- **arXiv** : 2607.24649v1
-- **Date** : 2026-07-27
-- **Auteurs** : Atharva Pandey, Gautam Jajoo
-- **Score** : 7
-- **Résumé** : Large language models are increasingly used as social simulators, including as synthetic survey respondents. Most evaluations ask whether simulated outcomes resemble human outcomes. We argue that this is necessary but too weak: a simulator can match the final answer while using the wrong rationale-d...
-- **Lien** : https://arxiv.org/abs/2607.24649v1
-
-### LLM-SoccerArena: Benchmarking LLMs on Real-World Predictions in Sports
-- **arXiv** : 2607.24573v1
-- **Date** : 2026-07-27
-- **Auteurs** : Jonas Schröder, Jonas Schweisthal, Oliver Müller, Markus Weinmann, Stefan Feuerriegel
-- **Score** : 7
-- **Résumé** : Large language models (LLMs) increasingly support decisions about uncertain future events, yet evaluating their ability to forecast real-world outcomes remains difficult. In particular, existing benchmarks are typically static and retrospective, and therefore cannot test how information is synthesiz...
-- **Lien** : https://arxiv.org/abs/2607.24573v1
-
-### The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation
-- **arXiv** : 2607.24720v1
-- **Date** : 2026-07-27
-- **Auteurs** : Tianyi Men, Zhuoran Jin, Kang Liu, Jun Zhao
+### UniMem: Complementary Episodic-to-Parametric Memory for Boundary-Agnostic Task Streams
+- **arXiv** : 2607.26017v1
+- **Date** : 2026-07-28
+- **Auteurs** : Siyu Xia, Chenheng Zhang, Yanting Wu, Haoxuan Li, Jiajun Chai
 - **Score** : 6
-- **Résumé** : Multi-turn long-horizon planning is critical for foundation model agents, yet how to fundamentally improve it remains unclear. Existing models are trained on uncontrollable and opaque Internet data, making it difficult to identify how planning ability is acquired, shaped, and integrated. To address ...
-- **Lien** : https://arxiv.org/abs/2607.24720v1
+- **Résumé** : Memory is essential for LLM agents to accumulate task experience and reuse task-specific execution strategies. However, real-world deployment over boundary-agnostic and evolving task streams exposes a fundamental stability-plasticity dilemma. External retrieval-based memory can rapidly absorb new ev...
+- **Lien** : https://arxiv.org/abs/2607.26017v1
 
-### DataOrchestra: Learning to Orchestrate Per-Example Curation of Pretraining Data
-- **arXiv** : 2607.24717v1
-- **Date** : 2026-07-27
-- **Auteurs** : Zhen Huang, Yikun Wang, Shijie Xia, Pengfei Liu
+### Does Runtime Topology Context Improve LLM-Generated Kubernetes Security Patches?
+- **arXiv** : 2607.25995v1
+- **Date** : 2026-07-28
+- **Auteurs** : Farooq Shaikh
 - **Score** : 6
-- **Résumé** : Pretraining data processing is critical to the downstream performance of Large Language Models (LLMs). However, many existing approaches define a fixed processing strategy at the corpus or domain level and apply it uniformly to many examples, without adapting to the needs of each example. We propose...
-- **Lien** : https://arxiv.org/abs/2607.24717v1
+- **Résumé** : Kubernetes is central to the cloud-native ecosystem, orchestrating containerised workloads. Recent work suggests that large language models (LLMs) can automate cluster security remediation, generating configuration patches from Kubernetes Security Posture Management (KSPM) findings without human aut...
+- **Lien** : https://arxiv.org/abs/2607.25995v1
 
-### Eviction as Estimation: A Fixed-Lag Smoothing View of Test-Time Memory, and When Measuring Beats Accumulating
-- **arXiv** : 2607.24667v1
-- **Date** : 2026-07-27
-- **Auteurs** : Maruthi Vemula, Neeraj Praneeth Gajula
+### MemLens: A Value-Aware Memory Management System with Interactive Analytics for LLM-based Agents
+- **arXiv** : 2607.25992v1
+- **Date** : 2026-07-28
+- **Auteurs** : Shuyue Wei, Chang Liu, Zimu Zhou, Yongxin Tong, Lizhen Cui
 - **Score** : 6
-- **Résumé** : A language model with a bounded working memory must repeatedly decide which stored items to keep. Every deployed method decides the moment an item arrives, from the past (StreamingLLM, H2O) or from a guess about the future (SnapKV). We recast the choice as an estimation problem on a hidden signal, w...
-- **Lien** : https://arxiv.org/abs/2607.24667v1
+- **Résumé** : Recently, memory management has become a key infrastructure for LLM-based agents, as it directly affects long-horizon reasoning, personalized responses, and knowledge reuse. However, existing LLM memory systems typically adopt a coarse-grained (utility-agnostic) manner that treats heterogeneous user...
+- **Lien** : https://arxiv.org/abs/2607.25992v1
 
-### Looping Is Not Reliability: State-Bound Evidence and Typed Revision Contracts for Agentic Code Repair
-- **arXiv** : 2607.24604v1
-- **Date** : 2026-07-27
-- **Auteurs** : Xueping Gao, Jianwei Yang, Qiang Yang
+### Detecting Knowledge Inconsistencies Across Text, Tables, and Knowledge Graphs
+- **arXiv** : 2607.25959v1
+- **Date** : 2026-07-28
+- **Auteurs** : Fanfu Wei, Thibault Ehrhart, Raphaël Troncy
 - **Score** : 6
-- **Résumé** : Generate--test--revise loops are common in coding agents, but repetition alone provides no reliability guarantee. We study the gap between finding a correct patch and retaining, verifying, and submitting it. A sealed five-seed study over 30 HumanEval repairs produces 900 three-revision trajectories....
-- **Lien** : https://arxiv.org/abs/2607.24604v1
+- **Résumé** : Wikipedia and Wikidata are widely used for information access, LLM pre-training, and retrieval-augmented generation. Their knowledge is deeply connected but scattered across text, tables, and knowledge graphs. This raises a practical question: when these modalities disagree, how can we detect and ex...
+- **Lien** : https://arxiv.org/abs/2607.25959v1
 
-### Evaluating the Impact of Explainable AI on Trust in AI-Assisted Code Review
-- **arXiv** : 2607.24601v1
-- **Date** : 2026-07-27
-- **Auteurs** : Zhenhan Gao, Marvin Muñoz Barón, Umm-e Habiba, Daniel Graziotin, Stefan Wagner
+### A Cost-Effective Multimodal LLM Reasoning Framework for Question Answering over Irregular Clinical Time Series
+- **arXiv** : 2607.25947v1
+- **Date** : 2026-07-28
+- **Auteurs** : Frank Nie, Ethan B Liu, Yuan Zhu, Wei Fan, Jindong Han
 - **Score** : 6
-- **Résumé** : Background: Large language models (LLMs) are increasingly used to automate code review, but the reasoning behind their decisions remains hard to understand. Developers struggle to assess the validity of LLM-generated reviews, making it difficult to gauge how much trust to place in them. The role of ...
-- **Lien** : https://arxiv.org/abs/2607.24601v1
+- **Résumé** : Question answering (QA) over irregular clinical time series (ICTS) plays a pivotal role in a wide range of healthcare applications. Although recent multimodal time-series large language models (LLMs) have shown considerable promise in general-purpose time-series QA, they remain poorly equipped to mo...
+- **Lien** : https://arxiv.org/abs/2607.25947v1
 
-### SIREN: Towards End-to-End Extreme-Weather Early Warning with Experience-Grounded LLM Agents
-- **arXiv** : 2607.24588v1
-- **Date** : 2026-07-27
-- **Auteurs** : Hang Ni, Weijia Zhang, Fan Liu, Mengqian Lu, Hao Liu
+### Toward Standardized Cross-Vendor Agent Tool Trust Management in Autonomous Networks
+- **arXiv** : 2607.25914v1
+- **Date** : 2026-07-28
+- **Auteurs** : Ravi Kant Sharma, Ashutosh Uttam, Ajay Kumar
 - **Score** : 6
-- **Résumé** : Early warning of extreme weather is essential for mitigating the societal, economic, and environmental risks posed by hazardous weather events. However, expert-centered warning workflows are costly, labor-intensive, and difficult to scale throughout the warning-to-action process. Although recent adv...
-- **Lien** : https://arxiv.org/abs/2607.24588v1
+- **Résumé** : Autonomous Network Levels 4-5 require AI agents to invoke tools across vendor boundaries without human oversight, yet existing management standards lack a standardized mechanism for cross-vendor trust visibility. When a tool from Vendor B is compromised, agents from Vendor A continue invoking it -- ...
+- **Lien** : https://arxiv.org/abs/2607.25914v1
 
-### From Data to Device: ELMOD An Efficient German-First 2.7B Language Model for Mobile Inference
-- **arXiv** : 2607.24585v1
-- **Date** : 2026-07-27
-- **Auteurs** : Darina Gold, Alexander Schwirjow, Viktor Haag, Viktor Hangya, Joel Schlotthauer
+### Distributing Security Controls Through Harness Engineering
+- **arXiv** : 2607.25890v1
+- **Date** : 2026-07-28
+- **Auteurs** : William Robert Gore
 - **Score** : 6
-- **Résumé** : We present ELMOD - Efficient Language Model for On-Device Deployment - a compact (2.7B) German language model designed for efficient inference on resource-constrained hardware. ELMOD was trained on a limited computational budget (55k H100 GPU hours) using exclusively publicly available data. We deve...
-- **Lien** : https://arxiv.org/abs/2607.24585v1
+- **Résumé** : AI coding agents are being adopted at historic speed, yet security and risk concerns remain the primary barrier to scaling agentic AI across organizations. Existing security controls for coding agents are not systematically distributed to engineering teams, and vendor-native solutions introduce ecos...
+- **Lien** : https://arxiv.org/abs/2607.25890v1
 
-### Evaluating Fuzz Testing for Reinforcement Learning Agents
-- **arXiv** : 2607.24577v1
-- **Date** : 2026-07-27
-- **Auteurs** : Zhibin Kang, Hanmo You, Dong Wang, Haiming Zheng, Junjie Chen
-- **Score** : 6
-- **Résumé** : Reinforcement Learning (RL) agents are increasingly deployed in safety-critical domains such as robotics, autonomous driving, and drone control, where unexpected behaviors may lead to severe real-world consequences. Fuzz testing has recently emerged as a promising method for exploring the vast state...
-- **Lien** : https://arxiv.org/abs/2607.24577v1
+### Minimizing Targeted Activations: Input-Only Suppression of Evaluation-Awareness Latents in Large Language Models
+- **arXiv** : 2607.25907v1
+- **Date** : 2026-07-28
+- **Auteurs** : Deepanshu Mody, Samarth Agarwal, Utkarsh Mittal, Dipesh Mahato
+- **Score** : 5
+- **Résumé** : Activation steering controls model behavior by editing internal activations at inference time. We study its input-side dual: optimizing a fluent prompt so that a chosen internal latent is driven toward zero, with no inference-time model access. Our target is an "evaluation-awareness" latent-linearly...
+- **Lien** : https://arxiv.org/abs/2607.25907v1
 
-### ERUnderstand: Evaluating Vision-Language Models on Structured ER Diagrams
-- **arXiv** : 2607.24707v1
-- **Date** : 2026-07-27
-- **Auteurs** : Ali Ansari, Yasmin Mohammadi, Farnoush Nili, Parsa Esmaeilkhani, Longin Jan Latecki
+### Desktop-Delta Bench: Do Computer-Use Models Understand Desktop GUI Transitions?
+- **arXiv** : 2607.26041v1
+- **Date** : 2026-07-28
+- **Auteurs** : Abhishek Pillai, Samir Kumar Nayak, Yuan Chen
 - **Score** : 4
-- **Résumé** : Entity-Relationship Diagrams (ERDs) are central to conceptual database design, yet they are typically available only as rendered images rather than machine-readable schemas, limiting AI-assisted database engineering. We introduce ERUnderstand, the first large-scale benchmark for structured understan...
-- **Lien** : https://arxiv.org/abs/2607.24707v1
+- **Résumé** : Computer-use agents (CUAs) increasingly act through desktop GUIs to complete long-horizon tasks. Current benchmarks primarily measure end-task success or single-frame grounding. Neither isolates whether a model can reconstruct the causal, task-relevant transition produced by an action- crucial for r...
+- **Lien** : https://arxiv.org/abs/2607.26041v1
 
-### CADER: Confidence-Aware Dynamic Evidence Reasoning for Long-Video Understanding
-- **arXiv** : 2607.24582v1
-- **Date** : 2026-07-27
-- **Auteurs** : Jinlong Yang, Wenhao Zhang, Kuanwei Lin, Sijie Cheng
+### Polistemics: Evaluating LLMs as Information Mediators in Politics &amp; Elections
+- **arXiv** : 2607.25953v1
+- **Date** : 2026-07-28
+- **Auteurs** : Baran Peters
 - **Score** : 4
-- **Résumé** : Long-video understanding increasingly relies on large vision-language models and tool-augmented reasoning, but most systems apply the same inference procedure to every example regardless of difficulty. This uniform strategy invokes unnecessary tool-assisted processing for easy questions and provides...
-- **Lien** : https://arxiv.org/abs/2607.24582v1
+- **Résumé** : As LLMs increasingly mediate the political information citizens rely on, there is still no standardized way to assess whether they do so responsibly. We introduce Polistemics, a theory-grounded benchmark for evaluating LLMs as mediators of political information in elections. Prior work has treated t...
+- **Lien** : https://arxiv.org/abs/2607.25953v1
 
-### TRACE-CTI: Auditable Post-Extraction Governance of TTP Claims with Knowledge Graphs
-- **arXiv** : 2607.24563v1
-- **Date** : 2026-07-27
-- **Auteurs** : Federico Valletta, Giacomo Longo, Enrico Russo, Alessio Merlo
+### Interactive Reward Agent: GUI Task Evaluation via Environment-State Verification
+- **arXiv** : 2607.25904v1
+- **Date** : 2026-07-28
+- **Auteurs** : Chenrui Shi, Yuwei Wu, Yang Liu, Ruining Feng, Zirui Shang
 - **Score** : 4
-- **Résumé** : Security Operations Centers increasingly rely on automated mapping of Cyber Threat Intelligence reports to MITRE ATT&amp;CK, yet extractor outputs remain fallible and are often stored without the evidence, provenance, and validation history needed to decide whether an individual mapping should be tr...
-- **Lien** : https://arxiv.org/abs/2607.24563v1
+- **Résumé** : Graphical user interface task evaluation aims to determine whether a GUI agent has successfully completed a user instruction. Automated GUI task evaluation has received increasing attention because the evaluation results can serve as reward signals for both test-time scaling and post-training. Howev...
+- **Lien** : https://arxiv.org/abs/2607.25904v1
 
-### KANEx: Translating Kolmogorov-Arnold Networks' Interpretability to Medical Explainability
-- **arXiv** : 2607.24730v1
-- **Date** : 2026-07-27
-- **Auteurs** : Krithi Shailya, Ananya Lakshmi Ravi, Venkatanathan K. V., Sowmya S. Sundaram, Gokul S. Krishnan
+### Reinformed Dreamer: An Asymmetric World Model Efficiently Trained through Latent Guidance
+- **arXiv** : 2607.26040v1
+- **Date** : 2026-07-28
+- **Auteurs** : Gaspard Lambrechts, Adrien Bolland, Daniel Ebi, Damien Ernst
 - **Score** : 3
-- **Résumé** : Computer vision models have become highly effective for medical applications, yet their black-box nature continues to undermine clinician trust. In clinical workflows, chest X-ray classifiers are increasingly paired with Vision-Language Models (VLMs) to generate natural-language explanations. Howeve...
-- **Lien** : https://arxiv.org/abs/2607.24730v1
+- **Résumé** : Much like humans benefit from guidance while learning, reinforcement learning algorithms may benefit from additional supervision beyond rewards. Leveraging additional information during training to learn better representations and behaviors has been the focus of asymmetric reinforcement learning. Th...
+- **Lien** : https://arxiv.org/abs/2607.26040v1
 
-### Beyond Scale and Generation: Understanding Language Model-based Entity Matching
-- **arXiv** : 2607.24688v1
-- **Date** : 2026-07-27
-- **Auteurs** : Zeyu Zhang, Xue Li, Iacer Calixto, Paul Groth, Sebastian Schelter
+### Instruction-Tuned Models Locally Reuse Human Syntax More Than Humans Do
+- **arXiv** : 2607.26015v1
+- **Date** : 2026-07-28
+- **Auteurs** : Zandi Eberstadt
 - **Score** : 3
-- **Résumé** : Entity matching identifies records that refer to the same real-world entity. Language models can be adapted to this task through bi-encoder, cross-encoder, and generative matcher architectures. However, prior studies often conflate matcher architecture with differences in model backbone, model varia...
-- **Lien** : https://arxiv.org/abs/2607.24688v1
+- **Résumé** : Syntactic convergence (the tendency of speakers to adapt in language towards the grammatical profiles of their interlocutors) is a well-documented feature of human dialogue widely considered to operate below conscious awareness. Whether large language models exhibit analogous syntactic convergence t...
+- **Lien** : https://arxiv.org/abs/2607.26015v1
 
-### Co-Learning for Missing Arbitrary Modalities in Multi-modal Classification
-- **arXiv** : 2607.24683v1
-- **Date** : 2026-07-27
-- **Auteurs** : Francisco Mena, Dino Ienco, Roberto Interdonato, Cassio F. Dantas, Simon Besnard
+### Pictura: Perspective-View Self-Play at Scale for Driving
+- **arXiv** : 2607.26005v1
+- **Date** : 2026-07-28
+- **Auteurs** : Yuan Yin, Elias Ramzi, Marc Lafon, Valentin Charraut, Victor Bares
 - **Score** : 3
-- **Résumé** : Multi-modal classification leverages complementary information across diverse data sources to enhance predictive performance. However, real-world scenarios subject to operational constraints, such as sensor failures or privacy restrictions, lead to inconsistent modality availability between training...
-- **Lien** : https://arxiv.org/abs/2607.24683v1
+- **Résumé** : Self-play in simulation produces robust driving policies at scale. Demonstrations of such behavior have been made using privileged vectorized observations such as exact poses and velocities, even for occluded agents. This assumes that perception is solved and introduces a representation gap with the...
+- **Lien** : https://arxiv.org/abs/2607.26005v1
+
+### Sharpness-Aware Minimization and Muon: Robustness under the Spectral Norm
+- **arXiv** : 2607.26001v1
+- **Date** : 2026-07-28
+- **Auteurs** : Wenzhi Zhong, Edward Milsom, Michael Murray
+- **Score** : 3
+- **Résumé** : Sharpness-Aware Minimization (SAM) aims to improve generalization by encouraging insensitivity to small, worst-case parameter perturbations. However, the notion of a "small" perturbation is inherently geometry-dependent: while existing SAM variants have explored a wide range of choices, a clear pers...
+- **Lien** : https://arxiv.org/abs/2607.26001v1
 
 <!-- ARXIV_FEED_END -->
