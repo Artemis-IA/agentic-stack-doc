@@ -123,6 +123,36 @@ graph TD
 ## Outils & frameworks hardware découverts automatiquement
 
 <!-- TOOLS_HARDWARE_START -->
+### [gpt4all](https://github.com/nomic-ai/gpt4all)
+GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.
+
+⭐ 77.4k | `C++` | Licence: MIT | MAJ: 2026-07-29
+**Tags** : `ai-chat`, `llm-inference`
+
+### [dynamo](https://github.com/ai-dynamo/dynamo)
+A Datacenter Scale Distributed Inference Serving Framework
+
+⭐ 7.6k | `Rust` | Licence: NOASSERTION | MAJ: 2026-07-29
+**Tags** : `diffusion`, `disaggregated-serving`, `kubernetes`, `llm-inference`, `omni`, `routing-engine`, `rust`, `sglang`
+
+### [plano](https://github.com/katanemo/plano)
+Plano is an AI-native proxy server and data plane for agentic apps. Smart LLM routing, observability, agent orchestration, and guardrails so you stay focused on your agents core logic.
+
+⭐ 6.9k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-07-29
+**Tags** : `ai-gateway`, `ai-gateway-support`, `envoy`, `envoyproxy`, `gateway`, `generative-ai`, `llm-gateway`, `llm-inference`
+
+### [openevolve](https://github.com/algorithmicsuperintelligence/openevolve)
+Open-source implementation of AlphaEvolve
+
+⭐ 6.8k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-29
+**Tags** : `alpha-evolve`, `alphacode`, `alphaevolve`, `coding-agent`, `deepmind`, `deepmind-lab`, `discovery`, `distributed-evolutionary-algorithms`
+
+### [flashinfer](https://github.com/flashinfer-ai/flashinfer)
+FlashInfer: Kernel Library for LLM Serving
+
+⭐ 6.1k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-29
+**Tags** : `attention`, `cuda`, `distributed-inference`, `gpu`, `jit`, `large-large-models`, `llm-inference`, `moe`
+
 ### [gpartin/WaveGuardClient](https://github.com/gpartin/WaveGuardClient)
 !WaveGuard MCP server 🐍 ☁️ 🍎 🪟 🐧 - Physics-based anomaly detection via MCP. Uses Klein-Gordon wave equations on GPU to detect anomalies with high precision (avg 0.90). 9 tools: scan, fingerprint, c...
 

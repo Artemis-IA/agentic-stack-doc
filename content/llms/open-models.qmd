@@ -147,25 +147,31 @@ An open-source LLM app development platform with an intuitive interface that str
 ### [LangChain](https://github.com/hwchase17/langchain)
 the original 🐍 !GitHub Repo stars
 
-⭐ 142.8k | `Python` | Licence: MIT | MAJ: 2026-07-29
+⭐ 142.9k | `Python` | Licence: MIT | MAJ: 2026-07-29
 **Tags** : `agents`, `ai`, `ai-agents`, `anthropic`, `chatgpt`, `deepagents`, `enterprise`, `framework`
 
 ### [llama.cpp](https://github.com/ggerganov/llama.cpp)
 LLM inference in C/C++.
 
-⭐ 121.9k | `C++` | Licence: MIT | MAJ: 2026-07-29
+⭐ 122.0k | `C++` | Licence: MIT | MAJ: 2026-07-29
 **Tags** : `ggml`
+
+### [generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners)
+21 Lessons, Get Started Building with Generative AI
+
+⭐ 113.7k | `Jupyter Notebook` | Licence: MIT | MAJ: 2026-07-29
+**Tags** : `ai`, `azure`, `chatgpt`, `dall-e`, `generative-ai`, `generativeai`, `gpt`, `language-model`
 
 ### [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
 First open-sourced GPT-4o level model.
 
 ⭐ 104.0k | `Python` | Licence: MIT | MAJ: 2026-07-29
 
-### [graphify](https://github.com/Graphify-Labs/graphify)
-Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing...
+### [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
+Implement a ChatGPT-like LLM in PyTorch from scratch, step by step
 
-⭐ 98.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-29
-**Tags** : `ai-agents`, `antigravity`, `ast`, `claude-code`, `code-analysis`, `code-search`, `codex`, `cursor`
+⭐ 100.1k | `Jupyter Notebook` | Licence: NOASSERTION | MAJ: 2026-07-29
+**Tags** : `ai`, `artificial-intelligence`, `attention-mechanism`, `deep-learning`, `finetuning`, `from-scratch`, `generative-ai`, `gpt`
 
 ### [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)
 First-generation reasoning models from DeepSeek.
@@ -175,7 +181,7 @@ First-generation reasoning models from DeepSeek.
 ### [vLLM](https://github.com/vllm-project/vllm)
 A high-throughput and memory-efficient inference and serving engine for LLMs.
 
-⭐ 87.5k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-29
+⭐ 87.6k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-29
 **Tags** : `amd`, `blackwell`, `cuda`, `deepseek`, `deepseek-v3`, `gpt`, `gpt-oss`, `inference`
 
 ### [OpenDevin](https://github.com/OpenDevin/OpenDevin)
@@ -196,10 +202,22 @@ Course to get into Large Language Models (LLMs) with roadmaps and Colab notebook
 ⭐ 81.3k | Licence: Apache-2.0 | MAJ: 2026-07-29
 **Tags** : `course`, `large-language-models`, `llm`, `machine-learning`, `roadmap`
 
+### [Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
+🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.
+
+⭐ 77.1k | `MDX` | Licence: MIT | MAJ: 2026-07-29
+**Tags** : `agent`, `agents`, `ai-agents`, `chatgpt`, `deep-learning`, `generative-ai`, `language-model`, `llms`
+
+### [gpt4free](https://github.com/xtekky/gpt4free)
+The official gpt4free repository | various collection of powerful language models | opus 4.6 gpt 5.3 kimi 2.5 deepseek v3.2 gemini 3
+
+⭐ 66.5k | `Python` | Licence: GPL-3.0 | MAJ: 2026-07-29
+**Tags** : `chatbot`, `chatbots`, `chatgpt`, `chatgpt-4`, `chatgpt-api`, `chatgpt-free`, `chatgpt4`, `deepseek`
+
 ### [Embedchain](https://github.com/embedchain/embedchain)
 Framework to create ChatGPT like bots over your dataset.
 
-⭐ 62.0k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-07-29
+⭐ 62.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-29
 **Tags** : `agents`, `ai`, `ai-agents`, `application`, `chatbots`, `chatgpt`, `genai`, `llm`
 
 ### [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
@@ -208,33 +226,16 @@ A Chinese collection of prompt examples to be used with the ChatGPT model.
 ⭐ 61.2k | Licence: MIT | MAJ: 2026-07-29
 **Tags** : `chat-gpt`, `chatgpt`, `chatgpt3`, `chatgpt4`, `gpt`
 
-### [upstash/context7](https://github.com/upstash/context7)
-📇 ☁️ - Up-to-date code documentation for LLMs and AI code editors.
+### [TrendRadar](https://github.com/sansan0/TrendRadar)
+⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构...
 
-⭐ 59.9k | `TypeScript` | Licence: MIT | MAJ: 2026-07-29
+⭐ 61.0k | `Python` | Licence: GPL-3.0 | MAJ: 2026-07-29
+**Tags** : `ai`, `bark`, `data-analysis`, `docker`, `hot-news`, `llm`, `mail`, `mcp`
+
+### [context7](https://github.com/upstash/context7)
+Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors
+
+⭐ 60.0k | `TypeScript` | Licence: MIT | MAJ: 2026-07-29
 **Tags** : `llm`, `mcp`, `mcp-server`, `vibe-coding`
-
-### [llm-app](https://github.com/pathwaycom/llm-app)
-Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs,...
-
-⭐ 59.0k | `Jupyter Notebook` | Licence: MIT | MAJ: 2026-07-29
-**Tags** : `chatbot`, `hugging-face`, `llm`, `llm-local`, `llm-prompting`, `llm-security`, `llmops`, `machine-learning`
-
-### [LlamaIndex](https://github.com/jerryjliu/llama_index)
-provides a central interface to connect your LLM's with external data. !GitHub Repo stars
-
-⭐ 51.2k | `Python` | Licence: MIT | MAJ: 2026-07-29
-**Tags** : `agents`, `application`, `data`, `fine-tuning`, `framework`, `llamaindex`, `llm`, `multi-agents`
-
-### [DeepSpeed](https://github.com/microsoft/DeepSpeed)
-DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.
-
-⭐ 42.8k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-29
-**Tags** : `billion-parameters`, `compression`, `data-parallelism`, `deep-learning`, `gpu`, `inference`, `machine-learning`, `mixture-of-experts`
-
-### [FastChat](https://github.com/lm-sys/FastChat)
-A distributed multi-model LLM serving system with web UI and OpenAI-compatible RESTful APIs.
-
-⭐ 39.5k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-29
 
 <!-- TOOLS_LLM_END -->

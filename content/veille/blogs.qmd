@@ -69,6 +69,14 @@ graph LR
 | Hardware | `GPU`, `H100`, `B200`, `TPU`, `LPU`, `Groq` |
 
 <!-- BLOG_FEED_START -->
+### Adding a custom MCP server to Claude and ChatGPT
+- **Source** : Simon Willison
+- **Date** : 2026-07-29T00:13
+- **Score** : 4
+- **Résumé** : TIL: Adding a custom MCP server to Claude and ChatGPT
+        Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps....
+- **Lien** : https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything
+
 ### Last Week in AI #341 - Musk loses to OpenAI, Google's IO updates, OpenAI solves Erdős
 - **Source** : Last Week in AI
 - **Date** : Wed, 27 May 2026
@@ -177,6 +185,13 @@ Fascinating investigation by Matt Lenhard into the market that has grown up arou
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/nunchaku-diffusers
 
+### Accelerating scientific discovery with ChatGPT for Academic Researchers
+- **Source** : OpenAI Blog
+- **Date** : Wed, 29 Jul 2026
+- **Score** : 1
+- **Résumé** : OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery....
+- **Lien** : https://openai.com/index/chatgpt-for-academic-researchers
+
 ### How AI is expanding what people do at work
 - **Source** : OpenAI Blog
 - **Date** : Mon, 27 Jul 2026
@@ -232,19 +247,5 @@ Fascinating investigation by Matt Lenhard into the market that has grown up arou
 - **Score** : 1
 - **Résumé** : Anthropic's AI treaty discussions, US government's influence on AI model releases, OpenAI's processor development, memory market impacts, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-250-mythos-mess-gpt
-
-### LWiAI Podcast #248 - Opus 4.8, MAI, Anthropic IPO, Minimax-M3
-- **Source** : Last Week in AI
-- **Date** : Tue, 21 Jul 2026
-- **Score** : 1
-- **Résumé** : Exploring Claude Fable 5&#8217;s impact, Siri AI&#8217;s latest enhancements, and the competitive IPO landscape shaping AI&#8217;s future...
-- **Lien** : https://lastweekin.ai/p/lwiai-podcast-248-opus-48-mai-anthropic
-
-### LWiAI Podcast #245 - TML-Interaction, Claude For Legal, Sam Altman on Stand
-- **Source** : Last Week in AI
-- **Date** : Wed, 20 May 2026
-- **Score** : 1
-- **Résumé** : OpenAI launches new voice intelligence features in its API, Thinking Machines drops a new, highly responsive model designed for humanlike interactions in real time, and more!...
-- **Lien** : https://lastweekin.ai/p/lwiai-podcast-245-tml-interaction
 
 <!-- BLOG_FEED_END -->
