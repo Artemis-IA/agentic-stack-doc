@@ -134,7 +134,7 @@ Build AI Agents, Visually
 ### [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
 High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static bin...
 
-⭐ 36.5k | `C` | Licence: MIT | MAJ: 2026-07-30
+⭐ 36.6k | `C` | Licence: MIT | MAJ: 2026-07-30
 **Tags** : `aider`, `ast`, `claude-code`, `code-analysis`, `code-intelligence`, `codex`, `cursor`, `cypher`
 
 ### [EvoAgentX](https://github.com/EvoAgentX/EvoAgentX)
@@ -161,6 +161,12 @@ Markdown knowledge graph for you and your AI agents — editor LSP plus CLI and 
 ⭐ 1.3k | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-30
 **Tags** : `agents`, `context-engineering`, `graphrag`, `knowledge-graph`, `mcp`
 
+### [SearchCLI](https://github.com/volcengine/SearchCLI)
+Open CLI for integrating AI search, recommendation, and conversational retrieval into agent systems and business systems
+
+⭐ 1.2k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-07-30
+**Tags** : `agent-tools`, `ai-agents`, `ai-search`, `ai-search-engine`, `automation`, `cli`, `command-line-tool`, `conversational-search`
+
 ### [RepoAgent](https://github.com/OpenBMB/RepoAgent)
 An LLM-powered repository agent designed to assist developers and teams in generating documentation and understanding repositories quickly !GitHub Repo stars
 
@@ -170,7 +176,7 @@ An LLM-powered repository agent designed to assist developers and teams in gener
 ### [heymrun/heym](https://github.com/heymrun/heym)
 !heymrun/heym MCP server 🐍 📇 🏠 - Source-available, self-hosted AI workflow automation platform. Build multi-agent, RAG, and tool-using pipelines on a visual canvas, then expose any workflow as an M...
 
-⭐ 825 | `Python` | Licence: NOASSERTION | MAJ: 2026-07-30
+⭐ 827 | `Python` | Licence: NOASSERTION | MAJ: 2026-07-30
 **Tags** : `ai-agents`, `ai-agents-framework`, `ai-assistant`, `automation`, `automation-tool`, `autonomous-agents`, `coding-agent`, `evals`
 
 ### [MindSQL](https://github.com/Mindinventory/MindSQL)
@@ -182,13 +188,13 @@ A python package for Txt-to-SQL with self hosting functionalities and RESTful AP
 ### [muvon/octocode](https://github.com/Muvon/octocode)
 !octocode 🦀 🏠 🍎 🪟 🐧 - Semantic code indexer with GraphRAG knowledge graph. Index your codebase, search in natural language, and expose everything via MCP so AI agents understand architecture — not ...
 
-⭐ 435 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-07-29
+⭐ 436 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-07-30
 **Tags** : `ai`, `ai-tools`, `cli`, `cli-app`, `code-search`, `developer-tool`, `developer-tools`, `doc-search`
 
 ### [MemClaw](https://github.com/caura-ai/caura-memclaw)
 Open-source governed shared memory for AI agent fleets with cross-agent recall, permissions, audit trails, and persistent memory.
 
-⭐ 392 | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-30
+⭐ 394 | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-30
 **Tags** : `agent-memory`, `agentic-ai`, `ai-agents`, `ai-infrastructure`, `claude`, `fastapi`, `knowledge-graph`, `llm-memory`
 
 ### [Open-RAG-Eval](https://github.com/vectara/open-rag-eval)
@@ -200,7 +206,7 @@ an open source RAG evaluation framework that does not require golden answers, an
 ### [shinpr/mcp-local-rag](https://github.com/shinpr/mcp-local-rag)
 📇 🏠 - Privacy-first document search server running entirely locally. Supports semantic search over PDFs, DOCX, TXT, and Markdown files with LanceDB vector storage and local embeddings - no API keys...
 
-⭐ 357 | `TypeScript` | Licence: MIT | MAJ: 2026-07-29
+⭐ 358 | `TypeScript` | Licence: MIT | MAJ: 2026-07-30
 **Tags** : `agent-skills`, `developer-tools`, `hybrid-search`, `local-first`, `local-rag`, `mcp`, `mcp-server`, `privacy-first`
 
 ### [sachitrafa/YourMemory](https://github.com/sachitrafa/YourMemory)
@@ -224,7 +230,7 @@ an open source RAG evaluation framework that does not require golden answers, an
 ### [fabio-rovai/open-ontologies](https://github.com/fabio-rovai/open-ontologies)
 !open-ontologies MCP server 🦀 🏠 - AI-native ontology engineering with 39 tools and 5 prompts for OWL/RDF/SPARQL. Validate, query, diff, lint, version, and govern knowledge graphs via Oxigraph tripl...
 
-⭐ 219 | `Rust` | Licence: MIT | MAJ: 2026-07-30
+⭐ 221 | `Rust` | Licence: MIT | MAJ: 2026-07-30
 **Tags** : `ai-native`, `claude`, `description-logics`, `knowledge-graph`, `linked-data`, `mcp`, `mcp-server`, `ontology`
 
 ### [VictoriaMetrics-Community/mcp-victoriametrics](https://github.com/VictoriaMetrics-Community/mcp-victoriametrics)
@@ -238,11 +244,5 @@ an open source RAG evaluation framework that does not require golden answers, an
 
 ⭐ 184 | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-30
 **Tags** : `agent-memory`, `ai-agents`, `ai-memory`, `claude-desktop`, `cognitive-architecture`, `cohere`, `cursor-ai`, `episodic-memory`
-
-### [sirmews/mcp-pinecone](https://github.com/sirmews/mcp-pinecone)
-🐍 ☁️ - Pinecone integration with vector search capabilities
-
-⭐ 150 | `Python` | Licence: MIT | MAJ: 2026-07-06
-**Tags** : `claude`, `mcp`, `mcp-server`, `model-context-protocol`, `pinecone`, `rag`
 
 <!-- TOOLS_RAG_END -->
