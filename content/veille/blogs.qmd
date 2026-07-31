@@ -91,19 +91,12 @@ graph LR
 - **Résumé** : Elon Musk Loses $150 Billion Suit Against OpenAI and Sam Altman, Google updates its Gemini app to take on ChatGPT and Claude at IO 2026, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-341-musk-loses-to
 
-### Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI
-- **Source** : latent.space
-- **Date** : Tue, 28 Jul 2026
+### How avatarin built a 24/7 retail agent with GPT-Realtime
+- **Source** : OpenAI Blog
+- **Date** : Thu, 30 Jul 2026
 - **Score** : 2
-- **Résumé** : OpenAI's core product engineering lead on how they are building ChatGPT Work to make AGI accessible to all of humanity: Sites, OpenClaw, Memory, Subagents, Finance, No-Code and advice....
-- **Lien** : https://www.latent.space/p/chatgpt-work
-
-### Quoting Akshat Bubna
-- **Source** : Simon Willison
-- **Date** : 2026-07-28T22:05
-- **Score** : 2
-- **Résumé** : We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was use...
-- **Lien** : https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything
+- **Résumé** : avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive....
+- **Lien** : https://openai.com/index/avatarin
 
 ### How enabling two settings tripled our scores on the ARC-AGI-3 benchmark
 - **Source** : OpenAI Blog
@@ -126,49 +119,38 @@ graph LR
 - **Résumé** : Google unveils AI model Gemini 3.5 and AI agent Gemini Spark, Omni turns images, audio, and text into video, Musk loses OpenAI court battle...
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-246-gemini-35-omni
 
-### Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web
-- **Source** : latent.space
-- **Date** : Thu, 30 Jul 2026
-- **Score** : 1
-- **Résumé** : AI engineers are rediscovering ontologies as a way to keep probabilistic agents inside deterministic boundaries....
-- **Lien** : https://www.latent.space/p/ontologies-agentic-systems
-
-### [AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)
-- **Source** : latent.space
-- **Date** : Sat, 25 Jul 2026
-- **Score** : 1
-- **Résumé** : ain't nobody beats Anthropic at distilling Fable!...
-- **Lien** : https://www.latent.space/p/ainews-claude-opus-5-fable-level
-
-### [AINews] Black Forest Labs FLUX 3 - Multimodal Flow Models that beat Seedance 2.0, Gemini Omni and Grok Imagine, and FLUX-mimic video-action robotics model
-- **Source** : latent.space
-- **Date** : Fri, 24 Jul 2026
-- **Score** : 1
-- **Résumé** : A HUGE win for BFL!...
-- **Lien** : https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal
-
-### [AINews] "Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro"
-- **Source** : latent.space
-- **Date** : Thu, 23 Jul 2026
-- **Score** : 1
-- **Résumé** : a quiet day lets us highlight a new neolab win....
-- **Lien** : https://www.latent.space/p/ainews-laguna-s-21-released-cheaper
-
-### Discovering cryptographic weaknesses with Claude
+### Advancing the price-performance frontier with GPT‑5.6
 - **Source** : Simon Willison
-- **Date** : 2026-07-28T22:45
+- **Date** : 2026-07-30T23:58
 - **Score** : 1
-- **Résumé** : Discovering cryptographic weaknesses with Claude
-The best part of this article (here's the repo) about how Anthropic re...
-- **Lien** : https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything
+- **Résumé** : Advancing the price-performance frontier with GPT‑5.6
+Huge price drop from OpenAI today: GPT-5.6 Terra got a 20% reduction, and GPT-5.6 Luna got a massive 80% drop.
+OpenAI cre...
+- **Lien** : https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything
 
-### Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident
+### llm 0.32rc2
 - **Source** : Simon Willison
-- **Date** : 2026-07-28T21:28
+- **Date** : 2026-07-30T22:52
 - **Score** : 1
-- **Résumé** : Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident
-Hugging Face just released this extremely detailed technical description of <a href="https://simonwillison.ne...
-- **Lien** : https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything
+- **Résumé** : Release: llm 0.32rc2
+        Hot on the heels of RC1, this fixes a dependency issue and also adds two neat new features:...
+- **Lien** : https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything
+
+### llm-chat-completions-server 0.1a0
+- **Source** : Simon Willison
+- **Date** : 2026-07-30T15:43
+- **Score** : 1
+- **Résumé** : Release: llm-chat-completions-server 0.1a0
+        A key goal of the new content-addressable logs in LLM 0.32rc1 was being ab...
+- **Lien** : https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything
+
+### llm 0.32rc1
+- **Source** : Simon Willison
+- **Date** : 2026-07-30T15:30
+- **Score** : 1
+- **Résumé** : Release: llm 0.32rc1
+        This RC for LLM 0.32 finishes the work that started in LLM 0.32a0 - it adds a <a href="https://llm.datasette.io/en/latest/...
+- **Lien** : https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything
 
 ### GPU Management: Why Idle GPUs Are the New Grounded Aircraft
 - **Source** : Hugging Face Blog
@@ -246,5 +228,26 @@ Hugging Face just released this extremely detailed technical description of <a h
 - **Score** : 1
 - **Résumé** : Trump lifts restrictions on Anthropic, Anthropic launches Claude Sonnet 5, Google's NotebookLM updates, chips stories from Etched and Baidu, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-251-mythos-back-sonnet
+
+### Last Week in AI #250 - Mythos Mess, GPT 5.6-Sol, GLM 5.2
+- **Source** : Last Week in AI
+- **Date** : Tue, 21 Jul 2026
+- **Score** : 1
+- **Résumé** : Anthropic's AI treaty discussions, US government's influence on AI model releases, OpenAI's processor development, memory market impacts, and more!...
+- **Lien** : https://lastweekin.ai/p/last-week-in-ai-250-mythos-mess-gpt
+
+### LWiAI Podcast #248 - Opus 4.8, MAI, Anthropic IPO, Minimax-M3
+- **Source** : Last Week in AI
+- **Date** : Tue, 21 Jul 2026
+- **Score** : 1
+- **Résumé** : Exploring Claude Fable 5&#8217;s impact, Siri AI&#8217;s latest enhancements, and the competitive IPO landscape shaping AI&#8217;s future...
+- **Lien** : https://lastweekin.ai/p/lwiai-podcast-248-opus-48-mai-anthropic
+
+### LWiAI Podcast #245 - TML-Interaction, Claude For Legal, Sam Altman on Stand
+- **Source** : Last Week in AI
+- **Date** : Wed, 20 May 2026
+- **Score** : 1
+- **Résumé** : OpenAI launches new voice intelligence features in its API, Thinking Machines drops a new, highly responsive model designed for humanlike interactions in real time, and more!...
+- **Lien** : https://lastweekin.ai/p/lwiai-podcast-245-tml-interaction
 
 <!-- BLOG_FEED_END -->
