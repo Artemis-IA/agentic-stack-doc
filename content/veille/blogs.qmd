@@ -69,20 +69,20 @@ graph LR
 | Hardware | `GPU`, `H100`, `B200`, `TPU`, `LPU`, `Groq` |
 
 <!-- BLOG_FEED_START -->
-### Adding a custom MCP server to Claude and ChatGPT
-- **Source** : Simon Willison
-- **Date** : 2026-07-29T00:13
-- **Score** : 4
-- **Résumé** : TIL: Adding a custom MCP server to Claude and ChatGPT
-        Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps....
-- **Lien** : https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything
-
 ### How GPT-5.6 fuses frontier intelligence with frontier efficiency
 - **Source** : OpenAI Blog
 - **Date** : Wed, 29 Jul 2026
 - **Score** : 4
 - **Résumé** : GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar....
 - **Lien** : https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency
+
+### deepseek-ai/DeepSeek-V4-Flash-0731
+- **Source** : Simon Willison
+- **Date** : 2026-07-31T23:59
+- **Score** : 3
+- **Résumé** : deepseek-ai/DeepSeek-V4-Flash-0731
+The latest release in DeepSeek's V4 family, "with substantially enhanced agentic capabilities". It's 304 billion parameters - 167GB on Hugging Face - but it appears ...
+- **Lien** : https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything
 
 ### Last Week in AI #341 - Musk loses to OpenAI, Google's IO updates, OpenAI solves Erdős
 - **Source** : Last Week in AI
@@ -98,6 +98,24 @@ graph LR
 - **Résumé** : OpenAI's core product engineering lead on how they are building ChatGPT Work to make AGI accessible to all of humanity: Sites, OpenClaw, Memory, Subagents, Finance, No-Code and advice....
 - **Lien** : https://www.latent.space/p/chatgpt-work
 
+### Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)
+- **Source** : Simon Willison
+- **Date** : 2026-07-31T23:13
+- **Score** : 2
+- **Résumé** : Tuesday was Stateless MCP day - the rollout of MCP 2.0, or the 2026-07-28 Model Context Protocol specification to use the more formal but less memorable name. T...
+- **Lien** : https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything
+
+### llm-mcp-client 0.1a0
+- **Source** : Simon Willison
+- **Date** : 2026-07-31T23:03
+- **Score** : 2
+- **Résumé** : Release: llm-mcp-client 0.1a0
+        See this blog entry.
+    
+    
+        Tags: <a href="https://simonwilli...
+- **Lien** : https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything
+
 ### How avatarin built a 24/7 retail agent with GPT-Realtime
 - **Source** : OpenAI Blog
 - **Date** : Thu, 30 Jul 2026
@@ -112,19 +130,19 @@ graph LR
 - **Résumé** : How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction....
 - **Lien** : https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores
 
-### Scientific computing in the age of agentic AI
-- **Source** : OpenAI Blog
-- **Date** : Tue, 28 Jul 2026
-- **Score** : 2
-- **Résumé** : A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond....
-- **Lien** : https://openai.com/index/scientific-computing-agentic-ai
-
 ### LWiAI Podcast #246 - Gemini 3.5 + Omni, Musk Loses, OpenAI vs Erdős
 - **Source** : Last Week in AI
 - **Date** : Tue, 26 May 2026
 - **Score** : 2
 - **Résumé** : Google unveils AI model Gemini 3.5 and AI agent Gemini Spark, Omni turns images, audio, and text into video, Musk loses OpenAI court battle...
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-246-gemini-35-omni
+
+### [AINews] not much happened today
+- **Source** : latent.space
+- **Date** : Sat, 01 Aug 2026
+- **Score** : 1
+- **Résumé** : apart from DeepSeek V4-Flash 0731, a quiet day....
+- **Lien** : https://www.latent.space/p/ainews-not-much-happened-today-038
 
 ### [AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization
 - **Source** : latent.space
@@ -161,6 +179,16 @@ graph LR
 - **Résumé** : a quiet day lets us highlight a new neolab win....
 - **Lien** : https://www.latent.space/p/ainews-laguna-s-21-released-cheaper
 
+### datasette-agent 0.4a0
+- **Source** : Simon Willison
+- **Date** : 2026-07-31T14:14
+- **Score** : 1
+- **Résumé** : Release: datasette-agent 0.4a0
+        
+
+New await context.browser_task() mechanism allowing agent tools to run code directly in the user's browser. <a href="https:/...
+- **Lien** : https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything
+
 ### Advancing the price-performance frontier with GPT‑5.6
 - **Source** : Simon Willison
 - **Date** : 2026-07-30T23:58
@@ -177,22 +205,6 @@ OpenAI cre...
 - **Résumé** : Release: llm 0.32rc2
         Hot on the heels of RC1, this fixes a dependency issue and also adds two neat new features:...
 - **Lien** : https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything
-
-### llm-chat-completions-server 0.1a0
-- **Source** : Simon Willison
-- **Date** : 2026-07-30T15:43
-- **Score** : 1
-- **Résumé** : Release: llm-chat-completions-server 0.1a0
-        A key goal of the new content-addressable logs in LLM 0.32rc1 was being ab...
-- **Lien** : https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything
-
-### llm 0.32rc1
-- **Source** : Simon Willison
-- **Date** : 2026-07-30T15:30
-- **Score** : 1
-- **Résumé** : Release: llm 0.32rc1
-        This RC for LLM 0.32 finishes the work that started in LLM 0.32a0 - it adds a <a href="https://llm.datasette.io/en/latest/...
-- **Lien** : https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything
 
 ### GPU Management: Why Idle GPUs Are the New Grounded Aircraft
 - **Source** : Hugging Face Blog
@@ -229,13 +241,6 @@ OpenAI cre...
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/nunchaku-diffusers
 
-### Disrupting a Criminal Scam Operation
-- **Source** : OpenAI Blog
-- **Date** : Tue, 04 Aug 2026
-- **Score** : 1
-- **Résumé** : OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes....
-- **Lien** : https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation
-
 ### Univé builds an AI-ready workforce
 - **Source** : OpenAI Blog
 - **Date** : Fri, 31 Jul 2026
@@ -243,11 +248,11 @@ OpenAI cre...
 - **Résumé** : See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale....
 - **Lien** : https://openai.com/index/unive
 
-### Advancing the price-performance frontier with GPT-5.6
+### Disrupting a Criminal Scam Operation
 - **Source** : OpenAI Blog
-- **Date** : Thu, 30 Jul 2026
+- **Date** : Fri, 31 Jul 2026
 - **Score** : 1
-- **Résumé** : Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale....
-- **Lien** : https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6
+- **Résumé** : OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes....
+- **Lien** : https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation
 
 <!-- BLOG_FEED_END -->

@@ -128,25 +128,25 @@ graph LR
 ### [Flowise](https://github.com/FlowiseAI/Flowise)
 Build AI Agents, Visually
 
-⭐ 55.1k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-07-31
+⭐ 55.1k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-08-01
 **Tags** : `agentic-ai`, `agentic-workflow`, `agents`, `artificial-intelligence`, `chatbot`, `chatgpt`, `javascript`, `langchain`
 
-### [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
-!DeusData/codebase-memory-mcp MCP server 🌊 🏠 🍎 🪟 🐧 - Code-intelligence engine that indexes a repo into a persistent knowledge graph — functions, classes, call chains, HTTP routes, cross-service lin...
+### [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
+High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static bin...
 
-⭐ 36.8k | `C` | Licence: MIT | MAJ: 2026-07-31
+⭐ 36.9k | `C` | Licence: MIT | MAJ: 2026-08-01
 **Tags** : `aider`, `ast`, `claude-code`, `code-analysis`, `code-intelligence`, `codex`, `cursor`, `cypher`
 
 ### [EvoAgentX](https://github.com/EvoAgentX/EvoAgentX)
 EvoAgentX is building a Self-Evolving Ecosystem of AI Agents, it will give you automated framework for evaluating and evolving agentic workflows. !GitHub Repo stars
 
-⭐ 3.2k | `Python` | Licence: NOASSERTION | MAJ: 2026-07-31
+⭐ 3.2k | `Python` | Licence: NOASSERTION | MAJ: 2026-08-01
 **Tags** : `agent`, `ai`, `ai-agents`, `llms`, `memory`, `multi-agent-systems`, `natural-language-processing`, `rag`
 
 ### [Agentset](https://github.com/agentset-ai/agentset)
 Open-source production-ready RAG platform with built-in agentic reasoning, hybrid search, and multimodal support. !GitHub Repo stars
 
-⭐ 2.0k | `TypeScript` | Licence: MIT | MAJ: 2026-07-30
+⭐ 2.0k | `TypeScript` | Licence: MIT | MAJ: 2026-08-01
 **Tags** : `agentic-rag`, `ai`, `ai-agents`, `ai-sdk`, `chatbots`, `embeddings`, `genai`, `llms`
 
 ### [IWE](https://github.com/iwe-org/iwe)
@@ -170,7 +170,7 @@ An LLM-powered repository agent designed to assist developers and teams in gener
 ### [heymrun/heym](https://github.com/heymrun/heym)
 !heymrun/heym MCP server 🐍 📇 🏠 - Source-available, self-hosted AI workflow automation platform. Build multi-agent, RAG, and tool-using pipelines on a visual canvas, then expose any workflow as an M...
 
-⭐ 835 | `Python` | Licence: NOASSERTION | MAJ: 2026-07-31
+⭐ 837 | `Python` | Licence: NOASSERTION | MAJ: 2026-08-01
 **Tags** : `ai-agents`, `ai-agents-framework`, `ai-assistant`, `automation`, `automation-tool`, `autonomous-agents`, `coding-agent`, `evals`
 
 ### [MindSQL](https://github.com/Mindinventory/MindSQL)
@@ -182,19 +182,19 @@ A python package for Txt-to-SQL with self hosting functionalities and RESTful AP
 ### [muvon/octocode](https://github.com/Muvon/octocode)
 !octocode 🦀 🏠 🍎 🪟 🐧 - Semantic code indexer with GraphRAG knowledge graph. Index your codebase, search in natural language, and expose everything via MCP so AI agents understand architecture — not ...
 
-⭐ 438 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-07-31
+⭐ 440 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-08-01
 **Tags** : `ai`, `ai-tools`, `cli`, `cli-app`, `code-search`, `developer-tool`, `developer-tools`, `doc-search`
 
 ### [MemClaw](https://github.com/caura-ai/caura-memclaw)
 Open-source governed shared memory for AI agent fleets with cross-agent recall, permissions, audit trails, and persistent memory.
 
-⭐ 396 | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-31
+⭐ 399 | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-01
 **Tags** : `agent-memory`, `agentic-ai`, `ai-agents`, `ai-infrastructure`, `claude`, `fastapi`, `knowledge-graph`, `llm-memory`
 
 ### [Open-RAG-Eval](https://github.com/vectara/open-rag-eval)
 an open source RAG evaluation framework that does not require golden answers, and can be used to evaluate performance of RAG tools connected to an AI Agent (Agentic RAG)
 
-⭐ 386 | `Python` | Licence: Apache-2.0 | MAJ: 2026-07-29
+⭐ 387 | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-01
 **Tags** : `evaluation-metrics`, `metrics`, `rag`, `rag-evaluation`, `retrieval-augmented-generation`, `vectara`
 
 ### [shinpr/mcp-local-rag](https://github.com/shinpr/mcp-local-rag)
@@ -212,7 +212,7 @@ an open source RAG evaluation framework that does not require golden answers, an
 ### [lyonzin/knowledge-rag](https://github.com/lyonzin/knowledge-rag)
 !lyonzin/knowledge-rag MCP server 🐍 🏠 🍎 🪟 🐧 - Local RAG system for Claude Code with hybrid search (BM25 + semantic), cross-encoder reranking, markdown-aware chunking, query expansion, and 28 MCP to...
 
-⭐ 239 | `Python` | Licence: MIT | MAJ: 2026-07-31
+⭐ 240 | `Python` | Licence: MIT | MAJ: 2026-08-01
 **Tags** : `antigravity`, `claude`, `claude-code`, `claude-code-cli`, `codex`, `cursor-ai`, `document-search`, `hybrid-search`
 
 ### [varun29ankuS/shodh-memory](https://github.com/varun29ankuS/shodh-memory)
@@ -230,7 +230,7 @@ an open source RAG evaluation framework that does not require golden answers, an
 ### [VictoriaMetrics-Community/mcp-victoriametrics](https://github.com/VictoriaMetrics-Community/mcp-victoriametrics)
 🎖️ 🏎️ 🏠 - Provides comprehensive integration with your VictoriaMetrics instance APIs and documentation for monitoring, observability, and debugging tasks related to your VictoriaMetrics instances
 
-⭐ 207 | `Go` | Licence: Apache-2.0 | MAJ: 2026-07-29
+⭐ 208 | `Go` | Licence: Apache-2.0 | MAJ: 2026-08-01
 **Tags** : `ai`, `mcp`, `mcp-server`, `monitoring`, `observability`, `rag`, `victoriametrics`
 
 ### [alibaizhanov/mengram](https://github.com/alibaizhanov/mengram)
