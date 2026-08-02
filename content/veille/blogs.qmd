@@ -179,32 +179,32 @@ The latest release in DeepSeek's V4 family, "with substantially enhanced agentic
 - **Résumé** : a quiet day lets us highlight a new neolab win....
 - **Lien** : https://www.latent.space/p/ainews-laguna-s-21-released-cheaper
 
-### datasette-agent 0.4a0
+### Quoting Greg Brockman
 - **Source** : Simon Willison
-- **Date** : 2026-07-31T14:14
+- **Date** : 2026-08-01T22:29
 - **Score** : 1
-- **Résumé** : Release: datasette-agent 0.4a0
+- **Résumé** : at openai, many people hook their chatgpt up to slack.
+people really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly happy doing that same...
+- **Lien** : https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything
+
+### datasette-apps 0.2a0
+- **Source** : Simon Willison
+- **Date** : 2026-08-01T21:23
+- **Score** : 1
+- **Résumé** : Release: datasette-apps 0.2a0
         
+Changes that improve Datasette Apps when created and edited using Datasette Agent:
 
-New await context.browser_task() mechanism allowing agent tools to run code directly in the user's browser. <a href="https:/...
-- **Lien** : https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything
+New <co...
+- **Lien** : https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything
 
-### Advancing the price-performance frontier with GPT‑5.6
+### Ten advances in mathematics and theoretical computer science
 - **Source** : Simon Willison
-- **Date** : 2026-07-30T23:58
+- **Date** : 2026-08-01T20:34
 - **Score** : 1
-- **Résumé** : Advancing the price-performance frontier with GPT‑5.6
-Huge price drop from OpenAI today: GPT-5.6 Terra got a 20% reduction, and GPT-5.6 Luna got a massive 80% drop.
-OpenAI cre...
-- **Lien** : https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything
-
-### llm 0.32rc2
-- **Source** : Simon Willison
-- **Date** : 2026-07-30T22:52
-- **Score** : 1
-- **Résumé** : Release: llm 0.32rc2
-        Hot on the heels of RC1, this fixes a dependency issue and also adds two neat new features:...
-- **Lien** : https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything
+- **Résumé** : Ten advances in mathematics and theoretical computer science
+A few days ago it was Anthropic discovering crypt...
+- **Lien** : https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything
 
 ### GPU Management: Why Idle GPUs Are the New Grounded Aircraft
 - **Source** : Hugging Face Blog
