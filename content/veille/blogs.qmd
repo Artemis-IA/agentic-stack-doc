@@ -76,19 +76,19 @@ graph LR
 - **Résumé** : Elon Musk Loses $150 Billion Suit Against OpenAI and Sam Altman, Google updates its Gemini app to take on ChatGPT and Claude at IO 2026, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-341-musk-loses-to
 
+### Unpacking ChatGPT Work: the Agent for a Billion Users
+- **Source** : latent.space
+- **Date** : Tue, 04 Aug 2026
+- **Score** : 2
+- **Résumé** : An external reconstruction of how Memory, Proactivity, Scheduling, Browser Use, Plugins, Skills and Tools work in the new ChatGPT Work....
+- **Lien** : https://www.latent.space/p/unpacking-chatgpt-work
+
 ### Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI
 - **Source** : latent.space
 - **Date** : Tue, 28 Jul 2026
 - **Score** : 2
 - **Résumé** : OpenAI's core product engineering lead on how they are building ChatGPT Work to make AGI accessible to all of humanity: Sites, OpenClaw, Memory, Subagents, Finance, No-Code and advice....
 - **Lien** : https://www.latent.space/p/chatgpt-work
-
-### How avatarin built a 24/7 retail agent with GPT-Realtime
-- **Source** : OpenAI Blog
-- **Date** : Thu, 30 Jul 2026
-- **Score** : 2
-- **Résumé** : avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive....
-- **Lien** : https://openai.com/index/avatarin
 
 ### LWiAI Podcast #246 - Gemini 3.5 + Omni, Musk Loses, OpenAI vs Erdős
 - **Source** : Last Week in AI
@@ -132,13 +132,6 @@ graph LR
 - **Résumé** : AI engineers are rediscovering ontologies as a way to keep probabilistic agents inside deterministic boundaries....
 - **Lien** : https://www.latent.space/p/ontologies-agentic-systems
 
-### [AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)
-- **Source** : latent.space
-- **Date** : Sat, 25 Jul 2026
-- **Score** : 1
-- **Résumé** : ain't nobody beats Anthropic at distilling Fable!...
-- **Lien** : https://www.latent.space/p/ainews-claude-opus-5-fable-level
-
 ### Quoting Greg Brockman
 - **Source** : Simon Willison
 - **Date** : 2026-08-01T22:29
@@ -166,6 +159,13 @@ New <co...
 A few days ago it was Anthropic discovering crypt...
 - **Lien** : https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything
 
+### Deploy local agents everywhere with LFM2.5-2.6B
+- **Source** : Hugging Face Blog
+- **Date** : Tue, 04 Aug 2026
+- **Score** : 1
+- **Résumé** : ...
+- **Lien** : https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b
+
 ### GPU Management: Why Idle GPUs Are the New Grounded Aircraft
 - **Source** : Hugging Face Blog
 - **Date** : Thu, 30 Jul 2026
@@ -180,13 +180,6 @@ A few days ago it was Anthropic discovering crypt...
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/allenai/olmoearth-infrastructure
 
-### LFM2.5-Encoders for Fast Long-Context Inference on CPU
-- **Source** : Hugging Face Blog
-- **Date** : Tue, 28 Jul 2026
-- **Score** : 1
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/LiquidAI/lfm2-5-encoders
-
 ### Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident
 - **Source** : Hugging Face Blog
 - **Date** : Mon, 27 Jul 2026
@@ -200,6 +193,13 @@ A few days ago it was Anthropic discovering crypt...
 - **Score** : 1
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/nunchaku-diffusers
+
+### New ways to learn and teach with ChatGPT Work and Codex
+- **Source** : OpenAI Blog
+- **Date** : Tue, 04 Aug 2026
+- **Score** : 1
+- **Résumé** : Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build....
+- **Lien** : https://openai.com/index/learn-teach-chatgpt-work-codex
 
 ### How we built a realtime system for responsive voice AI in six months
 - **Source** : OpenAI Blog
