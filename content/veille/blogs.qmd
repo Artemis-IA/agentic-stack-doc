@@ -69,21 +69,6 @@ graph LR
 | Hardware | `GPU`, `H100`, `B200`, `TPU`, `LPU`, `Groq` |
 
 <!-- BLOG_FEED_START -->
-### How GPT-5.6 fuses frontier intelligence with frontier efficiency
-- **Source** : OpenAI Blog
-- **Date** : Wed, 29 Jul 2026
-- **Score** : 4
-- **Résumé** : GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar....
-- **Lien** : https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency
-
-### deepseek-ai/DeepSeek-V4-Flash-0731
-- **Source** : Simon Willison
-- **Date** : 2026-07-31T23:59
-- **Score** : 3
-- **Résumé** : deepseek-ai/DeepSeek-V4-Flash-0731
-The latest release in DeepSeek's V4 family, "with substantially enhanced agentic capabilities". It's 304 billion parameters - 167GB on Hugging Face - but it appears ...
-- **Lien** : https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything
-
 ### Last Week in AI #341 - Musk loses to OpenAI, Google's IO updates, OpenAI solves Erdős
 - **Source** : Last Week in AI
 - **Date** : Wed, 27 May 2026
@@ -98,24 +83,6 @@ The latest release in DeepSeek's V4 family, "with substantially enhanced agentic
 - **Résumé** : OpenAI's core product engineering lead on how they are building ChatGPT Work to make AGI accessible to all of humanity: Sites, OpenClaw, Memory, Subagents, Finance, No-Code and advice....
 - **Lien** : https://www.latent.space/p/chatgpt-work
 
-### Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)
-- **Source** : Simon Willison
-- **Date** : 2026-07-31T23:13
-- **Score** : 2
-- **Résumé** : Tuesday was Stateless MCP day - the rollout of MCP 2.0, or the 2026-07-28 Model Context Protocol specification to use the more formal but less memorable name. T...
-- **Lien** : https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything
-
-### llm-mcp-client 0.1a0
-- **Source** : Simon Willison
-- **Date** : 2026-07-31T23:03
-- **Score** : 2
-- **Résumé** : Release: llm-mcp-client 0.1a0
-        See this blog entry.
-    
-    
-        Tags: <a href="https://simonwilli...
-- **Lien** : https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything
-
 ### How avatarin built a 24/7 retail agent with GPT-Realtime
 - **Source** : OpenAI Blog
 - **Date** : Thu, 30 Jul 2026
@@ -123,19 +90,26 @@ The latest release in DeepSeek's V4 family, "with substantially enhanced agentic
 - **Résumé** : avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive....
 - **Lien** : https://openai.com/index/avatarin
 
-### How enabling two settings tripled our scores on the ARC-AGI-3 benchmark
-- **Source** : OpenAI Blog
-- **Date** : Wed, 29 Jul 2026
-- **Score** : 2
-- **Résumé** : How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction....
-- **Lien** : https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores
-
 ### LWiAI Podcast #246 - Gemini 3.5 + Omni, Musk Loses, OpenAI vs Erdős
 - **Source** : Last Week in AI
 - **Date** : Tue, 26 May 2026
 - **Score** : 2
 - **Résumé** : Google unveils AI model Gemini 3.5 and AI agent Gemini Spark, Omni turns images, audio, and text into video, Musk loses OpenAI court battle...
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-246-gemini-35-omni
+
+### [AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork
+- **Source** : latent.space
+- **Date** : Tue, 04 Aug 2026
+- **Score** : 1
+- **Résumé** : Qwen is so back!...
+- **Lien** : https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new
+
+### The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten
+- **Source** : latent.space
+- **Date** : Mon, 03 Aug 2026
+- **Score** : 1
+- **Résumé** : Baseten just raised a $13B Series F and is now one of the leading kings of inference engineering. We go into everything you need to know for autoregressive and diffusion engineering....
+- **Lien** : https://www.latent.space/p/inference-eng
 
 ### [AINews] not much happened today
 - **Source** : latent.space
@@ -164,20 +138,6 @@ The latest release in DeepSeek's V4 family, "with substantially enhanced agentic
 - **Score** : 1
 - **Résumé** : ain't nobody beats Anthropic at distilling Fable!...
 - **Lien** : https://www.latent.space/p/ainews-claude-opus-5-fable-level
-
-### [AINews] Black Forest Labs FLUX 3 - Multimodal Flow Models that beat Seedance 2.0, Gemini Omni and Grok Imagine, and FLUX-mimic video-action robotics model
-- **Source** : latent.space
-- **Date** : Fri, 24 Jul 2026
-- **Score** : 1
-- **Résumé** : A HUGE win for BFL!...
-- **Lien** : https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal
-
-### [AINews] "Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro"
-- **Source** : latent.space
-- **Date** : Thu, 23 Jul 2026
-- **Score** : 1
-- **Résumé** : a quiet day lets us highlight a new neolab win....
-- **Lien** : https://www.latent.space/p/ainews-laguna-s-21-released-cheaper
 
 ### Quoting Greg Brockman
 - **Source** : Simon Willison
@@ -241,6 +201,13 @@ A few days ago it was Anthropic discovering crypt...
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/nunchaku-diffusers
 
+### How we built a realtime system for responsive voice AI in six months
+- **Source** : OpenAI Blog
+- **Date** : Mon, 03 Aug 2026
+- **Score** : 1
+- **Résumé** : GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations....
+- **Lien** : https://openai.com/index/continuous-voice-interaction-with-gpt-live
+
 ### Univé builds an AI-ready workforce
 - **Source** : OpenAI Blog
 - **Date** : Fri, 31 Jul 2026
@@ -254,5 +221,33 @@ A few days ago it was Anthropic discovering crypt...
 - **Score** : 1
 - **Résumé** : OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes....
 - **Lien** : https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation
+
+### Advancing the price-performance frontier with GPT-5.6
+- **Source** : OpenAI Blog
+- **Date** : Thu, 30 Jul 2026
+- **Score** : 1
+- **Résumé** : Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale....
+- **Lien** : https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6
+
+### LWiAI Podcast #253 - Opus 5, Gemini 3.6, Kimi K3, Hugging Face Hack
+- **Source** : Last Week in AI
+- **Date** : Mon, 03 Aug 2026
+- **Score** : 1
+- **Résumé** : Anthropic releases Opus 5 promising Fable 5-like capabilities, Google Releases Three New Gemini A.I. Models, and more!...
+- **Lien** : https://lastweekin.ai/p/lwiai-podcast-253-opus-5-gemini-36
+
+### LWiAI Podcast #252 - GPT 5.6, Grok 4.5, Nemotron-Labs-Diffusion, AI 2040
+- **Source** : Last Week in AI
+- **Date** : Tue, 21 Jul 2026
+- **Score** : 1
+- **Résumé** : GPT-5.6 and Grok 4.5, Meta's Muse Spark 1.1, regulatory developments in AI and data centers, interpretability research from Anthropic, and the future of AI policy with AI 2040...
+- **Lien** : https://lastweekin.ai/p/lwiai-podcast-252-gpt-56-grok-45
+
+### Last Week in AI #251 - Mythos Back, Sonnet 5, Etched, LongCat
+- **Source** : Last Week in AI
+- **Date** : Tue, 21 Jul 2026
+- **Score** : 1
+- **Résumé** : Trump lifts restrictions on Anthropic, Anthropic launches Claude Sonnet 5, Google's NotebookLM updates, chips stories from Etched and Baidu, and more!...
+- **Lien** : https://lastweekin.ai/p/last-week-in-ai-251-mythos-back-sonnet
 
 <!-- BLOG_FEED_END -->

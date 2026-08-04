@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### Rethinking Inference-Time Scaling in Local Computer-Use Agents: Failure Modes and Compute Tradeoffs
-- **arXiv** : 2607.28573v1
-- **Date** : 2026-07-30
-- **Auteurs** : Woongkyu Lee, Jungwook Choi
+### ACEM: A Cost Estimation Model for Agentic Software Engineering
+- **arXiv** : 2608.02582v1
+- **Date** : 2026-08-03
+- **Auteurs** : Mohammad El-Ramly
+- **Score** : 9
+- **Résumé** : Traditional software cost estimation models, such as COCOMO II, Function Points, and Story Points, assume that development effort is primarily driven by human labor in design, coding, and testing. Agentic software engineering, where autonomous AI agents perform substantial implementation work and hu...
+- **Lien** : https://arxiv.org/abs/2608.02582v1
+
+### A Taxonomy of Cognitive Capability Gaps in Generative and Agentic AI
+- **arXiv** : 2608.02553v1
+- **Date** : 2026-08-03
+- **Auteurs** : Taye Akinrele, Sindhuja Penchala, Noorbakhsh Amiri Golilarz, Sudip Mittal, Shahram Rahimi
+- **Score** : 9
+- **Résumé** : Cognitive AI seeks to move beyond language generation and autonomous task execution toward systems capable of sustained reasoning, adaptive behavior, persistent memory, and self-regulation. While generative and agentic AI have demonstrated impressive capabilities across a wide range of tasks, many f...
+- **Lien** : https://arxiv.org/abs/2608.02553v1
+
+### RoMeRL: Balancing Feedback Coverage and the Memory-Reward Trap in Self-Evolving Agent Memory via Reduced-Order Utility States
+- **arXiv** : 2608.02508v1
+- **Date** : 2026-08-03
+- **Auteurs** : Yi Yang, Zhennan Chen, Yihong Zhuang, Tiehan Fan, Yinan Chen
+- **Score** : 9
+- **Résumé** : Learning-based memory systems for self-evolving LLM agents face two tightly coupled challenges. First, trajectory-indexed utilities grow with the interaction history, thereby dispersing limited feedback over an ever-expanding state space. Second, because trajectory-level rewards are jointly assigned...
+- **Lien** : https://arxiv.org/abs/2608.02508v1
+
+### Grounding Agentic VLMs with Dedicated Segmentation for Fine-Grained Vehicle Damage Assessment
+- **arXiv** : 2608.02470v1
+- **Date** : 2026-08-03
+- **Auteurs** : Vishwajeet Shivaji Hogale, Anjali Pai, Nitya Ravi
+- **Score** : 9
+- **Résumé** : Vision-language models (VLMs) are increasingly deployed as reasoning agents in real-world visual assessment pipelines, yet their spatial grounding remains unreliable for fine-grained, visually ambiguous targets. We study this gap in the context of automated vehicle damage assessment, where fine-grai...
+- **Lien** : https://arxiv.org/abs/2608.02470v1
+
+### ParEvalLayer: When Partial LLM-Agent Evaluations Support a Decision
+- **arXiv** : 2608.02444v1
+- **Date** : 2026-08-03
+- **Auteurs** : Wei-Jung Huang, Bonan Shen
+- **Score** : 8
+- **Résumé** : LLM-agent evaluations often produce task outcomes long before the full benchmark run is complete. A partial score is tempting to report, but it does not show whether the observed tasks support the same conclusion as the completed evaluation. Early tasks can omit important parts of a benchmark, runni...
+- **Lien** : https://arxiv.org/abs/2608.02444v1
+
+### Right Answer, Wrong Method: Shortcut Hacking Misleads the Evaluation of LLM Reasoning on Frontier Science Benchmarks
+- **arXiv** : 2608.02442v1
+- **Date** : 2026-08-03
+- **Auteurs** : Xuan Ren, Weiqi Zhai, Tianle Pu, Yihua Zhu, Yihua Zhu
+- **Score** : 8
+- **Résumé** : Scientific reasoning benchmarks typically evaluate large language models (LLMs) using final-answer accuracy. However, a correct answer does not necessarily demonstrate the reasoning capability targeted by the problem. We identify Solution Hacking, a failure mode in which an LLM reaches the correct a...
+- **Lien** : https://arxiv.org/abs/2608.02442v1
+
+### MedPRESS: A Multi-turn Benchmark for Patient-Pressure-Induced Medical Sycophancy in LLMs
+- **arXiv** : 2608.02520v1
+- **Date** : 2026-08-03
+- **Auteurs** : Saman Sarker Joy, Niloy Farhan
 - **Score** : 7
-- **Résumé** : Deploying autonomous computer-use agents (CUAs) locally is increasingly important for privacy, cost efficiency, and practical usability, yet improving their performance under strict hardware constraints remains challenging. While recent studies show that inference-time scaling can improve frontier c...
-- **Lien** : https://arxiv.org/abs/2607.28573v1
+- **Résumé** : Large language models (LLMs) are increasingly used for health-related advice. Existing research measures their safety with static questions rather than pressured patient-facing conversations. We introduce MedPRESS, a multi-turn benchmark for measuring patient-pressure-induced sycophancy in LLMs. Med...
+- **Lien** : https://arxiv.org/abs/2608.02520v1
 
-### ORCA-bench: How Ready Are Language Model Agents for Oncall?
-- **arXiv** : 2607.28545v1
-- **Date** : 2026-07-30
-- **Auteurs** : Albert Gong, Kyuseong Choi, Abhineet Agarwal, Jason Schechner, Ryan Huang
+### LiveMem: Maintaining Memory State Continuity in Long-Running LLM Inference
+- **arXiv** : 2608.02515v1
+- **Date** : 2026-08-03
+- **Auteurs** : Zhichen Liu, Ruihan Sun, Hengjie Yang, Zipeng Wu, Zhaohan Chen
+- **Score** : 7
+- **Résumé** : Long-running assistants and agents consume interaction streams that eventually outgrow the context. Existing context retention, summarization, and retrieval preserve access to selected history, but do not provide a persistent state over the full lifecycle when working context changes. We formulate t...
+- **Lien** : https://arxiv.org/abs/2608.02515v1
+
+### AtumAI: A Principled Framework for Agentic Generation of Datacenter Control-Plane Policies
+- **arXiv** : 2608.02569v1
+- **Date** : 2026-08-03
+- **Auteurs** : Qiushi Lin, Chaojie Zhang, Íñigo Goiri, Aditya Akella, Ricardo Bianchini
 - **Score** : 6
-- **Résumé** : Large language models can write, patch, and search code, but oncall root cause analysis (RCA) demands something different: reasoning over noisy metrics, logs, traces, and source code, starting from ambiguous user-facing reports, often hours after the incident began. We introduce ORCA-bench, a benchm...
-- **Lien** : https://arxiv.org/abs/2607.28545v1
+- **Résumé** : The efficiency of a datacenter rests on its control plane policies. Designing these policies is increasingly hard: the hardware-software stack grows fast, the design space is vast and interdependent, and prototyping a single policy takes months. Agentic AI promises to automate this search. Off the s...
+- **Lien** : https://arxiv.org/abs/2608.02569v1
 
-### AI systems and the reproduction of (standard) language ideologies in World Englishes
-- **arXiv** : 2607.28528v1
-- **Date** : 2026-07-30
-- **Auteurs** : Kingsley Ugwuanyi
+### Structured Memory for Edge Language Models: Persistent Context and Corpus Retrieval via O(1) SSM State Injection
+- **arXiv** : 2608.02560v1
+- **Date** : 2026-08-03
+- **Auteurs** : Anusha Madan Gopal, Aras Pirbadian, Kristofor D. Carlson, M Anthony Lewis, Jonathan Tapson
 - **Score** : 6
-- **Résumé** : The rapid growth of large language models (LLMs) has resurrected age-old questions in sociolinguistics and world Englishes, such as who decides what counts as legitimate English, whose English is suspect etc. This paper examines how AI systems, their uses and discourse on them reflect, reinforce, an...
-- **Lien** : https://arxiv.org/abs/2607.28528v1
+- **Résumé** : Retrieval-augmented generation (RAG) imposes a prefill cost proportional to retrieved context length, and -- with Transformer backbones -- a KV-cache that grows with each generated token. State-Space Models (SSMs) avoid the second cost by construction; we eliminate the first, collapsing prefill from...
+- **Lien** : https://arxiv.org/abs/2608.02560v1
 
-### MANTA: Multi-Agent Network Topology Adaptation for Self-Evolving Multi-Agent Systems
-- **arXiv** : 2607.28527v1
-- **Date** : 2026-07-30
-- **Auteurs** : Mao-xun Huang, Jerry Wang, Yi-Cheng Lai, Zhengxin Zhang, Claire Cardie
+### CTRAG: An In-Context Retrieval-based Framework for Automated Compliance Checking using LLMs
+- **arXiv** : 2608.02472v1
+- **Date** : 2026-08-03
+- **Auteurs** : Muhammad Roman, Karen Rafferty, Barry Devereux
 - **Score** : 6
-- **Résumé** : Large language model-based multi-agent systems improve complex problem solving through task decomposition, agent specialization, information exchange, and intermediate validation. However, existing systems typically treat communication topology as a fixed design choice or an offline optimization tar...
-- **Lien** : https://arxiv.org/abs/2607.28527v1
+- **Résumé** : Trust is fundamental in modern regulatory ecosystems, and compliance checking plays a critical role in fostering that trust. Regulatory compliance verification is essential for businesses operating in highly controlled environments, as it ensures alignment with sector-specific guidelines across doma...
+- **Lien** : https://arxiv.org/abs/2608.02472v1
 
-### Would You Walk to the Car Wash? Revealing the Salience Bias of Large Language Models in Commonsense Reasoning
-- **arXiv** : 2607.28478v1
-- **Date** : 2026-07-30
-- **Auteurs** : Zheng Wu, Chenhao Xue, Shijie Zheng, Yijie Lu, Cheng Yang
+### Real-Time Detection and Repair of LLM Agent Failures
+- **arXiv** : 2608.02464v1
+- **Date** : 2026-08-03
+- **Auteurs** : Sunny Dubey
 - **Score** : 6
-- **Résumé** : As large language models (LLMs) continue to advance in complex reasoning tasks, they have learned to heavily prioritize explicit conditions provided in the input. However, in everyday commonsense reasoning, this mechanism exposes a critical vulnerability which we term Salience Bias: models become ea...
-- **Lien** : https://arxiv.org/abs/2607.28478v1
+- **Résumé** : LLM agents fail mid-episode -- they loop, cascade tool errors, drift off goal, fabricate results, or silently absorb corrupted content -- and the standard remedy, judging every step with a second LLM, costs more than the agent itself. We ask how much detection is achievable from observable step tele...
+- **Lien** : https://arxiv.org/abs/2608.02464v1
 
-### Cybersecurity Detection Classification with Reasoning-enabled Language Models
-- **arXiv** : 2607.28460v1
-- **Date** : 2026-07-30
-- **Auteurs** : Amol Khanna, Manu Nandan, Cristian Viorel Popa, Joan Pujol-Roig, Diana Bolocan
+### Agentic Commerce World: An Auditable and Verifiable Environment for Vibe Commerce
+- **arXiv** : 2608.02441v1
+- **Date** : 2026-08-03
+- **Auteurs** : Shicheng Fan, Mingdai Yang, Duohao Wang, Canyu Chen, Yongfeng Zhang
 - **Score** : 6
-- **Résumé** : A major issue in Security Operations Centers (SOCs) is alert fatigue, as the number of detections reported is more than staff can triage in a given day. Prior work prompts or fine-tunes large language models (LLMs) to emit a triage label directly, but does not train them to reason about whether a de...
-- **Lien** : https://arxiv.org/abs/2607.28460v1
+- **Résumé** : In vibe coding, people describe software in natural language and delegate implementation to AI agents. By analogy, vibe commerce allows people to express buying or selling goals in natural language and delegate the corresponding tasks to agents. Commerce, however, requires independently controlled B...
+- **Lien** : https://arxiv.org/abs/2608.02441v1
 
-### Change2Task: From Repository Changes to Executable Coding Agent Tasks and Environments
-- **arXiv** : 2607.28591v1
-- **Date** : 2026-07-30
-- **Auteurs** : Haomin Qi, Xingliang Wang, Xuanqi Gao, Baihui Sang, Xin Zhang
-- **Score** : 5
-- **Résumé** : Scaling coding agents requires a continuing supply of executable data for training, benchmarking, and continuous evaluation. Each task must couple a realistic software state with a specification, development tools, and reliable verification. To expand this supply, we present Change2Task, a system gr...
-- **Lien** : https://arxiv.org/abs/2607.28591v1
-
-### ReToken: One Token to Improve Vision-Language Models for Visual Retrieval
-- **arXiv** : 2607.28627v1
-- **Date** : 2026-07-30
-- **Auteurs** : Yao Xiao, Reuben Tan, Zhen Zhu, Yuqun Wu, Jianfeng Gao
+### onepot-Bench 0: towards lab-aware in silico chemistry benchmarks
+- **arXiv** : 2608.02595v1
+- **Date** : 2026-08-03
+- **Auteurs** : Brandon Wang, Andrei S. Tyrin, Daniil A. Boiko
 - **Score** : 4
-- **Résumé** : Long visual context poses a challenge for vision-language models: performance degrades as the number of distractors grows, and processing all tokens at once is computationally infeasible under GPU memory constraints. We present ReToken, a single learnable embedding trained as an explicit retrieval t...
-- **Lien** : https://arxiv.org/abs/2607.28627v1
+- **Résumé** : Language models are playing an increasingly important role in laboratory science, performing tasks such as experiment planning, execution, and post-hoc analysis. However, precisely measuring their abilities is difficult, as scientific capabilities require a mixture of both problem-solving skills and...
+- **Lien** : https://arxiv.org/abs/2608.02595v1
 
-### OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models
-- **arXiv** : 2607.28609v1
-- **Date** : 2026-07-30
-- **Auteurs** : Qiushi Sun, Kanzhi Cheng, Yian Wang, Bowen Yang, Hang Yan
+### GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning
+- **arXiv** : 2608.02585v1
+- **Date** : 2026-08-03
+- **Auteurs** : Zhaoxin Yu, Qi Shen, Hengli Li, Zhaowei Zhang, Song-Chun Zhu
 - **Score** : 4
-- **Résumé** : Computer-using agents (CUAs) are advancing rapidly across the digital world. A CUA trajectory records the agent's actions, states, and reasoning. Verifying whether it fulfilled the task instruction is central to CUA evaluation, data curation, and reinforcement learning. Neither human-written verifie...
-- **Lien** : https://arxiv.org/abs/2607.28609v1
+- **Résumé** : Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous states at test time while keeping model parameters frozen. Existing methods, however, typically connect these states to the reasoning trajectory through decoded tokens, making sequenc...
+- **Lien** : https://arxiv.org/abs/2608.02585v1
 
-### PAIChecker: Uncovering and Checking PR-Issue Misalignment in SWE-Bench-Like Benchmarks
-- **arXiv** : 2607.28587v1
-- **Date** : 2026-07-30
-- **Auteurs** : Manyi Wang, Junjielong Xu, Pinjia He
+### SWE-Touch: Benchmarking Coding Agents When Users Touch the Code
+- **arXiv** : 2608.02499v1
+- **Date** : 2026-08-03
+- **Auteurs** : Yuqiao Tan, Jinxiang Meng, Fangyu Lei, Minzheng Wang, Shizhu He
 - **Score** : 4
-- **Résumé** : SWE-bench-like benchmarks are widely used for evaluating LLM's issue resolution capability. They typically follow a common construction pipeline: each PR (Pull Request) is paired with its linked issue by extracting issue references from the PR description; the issue description is used as the proble...
-- **Lien** : https://arxiv.org/abs/2607.28587v1
+- **Résumé** : Real-world software development requires coding agents to operate in shared workspaces where users may inspect and modify code during an ongoing task, yet existing repository-level benchmarks typically evaluate agents working alone or restrict user participation to messages. This leads us to ask: ho...
+- **Lien** : https://arxiv.org/abs/2608.02499v1
 
-### Doubly Robust Functional Representation Learning for Longitudinal Causal Inference with Irregular Histories
-- **arXiv** : 2607.28567v1
-- **Date** : 2026-07-30
-- **Auteurs** : Mengfei Ran, Yifeng Shen, Ruijie Guan
+### Advancing Relevance Measurement with Vision-Language Models for Web-Scale Search
+- **arXiv** : 2608.02446v1
+- **Date** : 2026-08-03
+- **Auteurs** : Han Wang, Alex Whitworth, Pak Ming Cheung, Zhenjie Zhang, Krishna Kamath
 - **Score** : 4
-- **Résumé** : Longitudinal causal studies often record histories as irregular functional fragments: laboratory values, physiologic signals, sensor streams, and image-derived summaries measured at unequal and informative times. Standard doubly robust estimators usually require scalar summaries, whereas sequence le...
-- **Lien** : https://arxiv.org/abs/2607.28567v1
+- **Résumé** : Relevance evaluation plays a crucial role in personalized search systems, serving as a guardrail alongside user engagement metrics to ensure that search results align with user queries and intent. While human annotation is the traditional method for relevance evaluation, its high cost and long turna...
+- **Lien** : https://arxiv.org/abs/2608.02446v1
 
-### InfoOps Bench: A live information operations safety benchmark
-- **arXiv** : 2607.28503v1
-- **Date** : 2026-07-30
-- **Auteurs** : Dorian Quelle, Lisa-Maria Neudert, Jonathan Bright, John Gallacher
-- **Score** : 4
-- **Résumé** : In this paper we present an active, constantly updated AI benchmark which measures the integrity of frontier language models against being co-opted for state-backed information operations. We draw on over 2,100 information operations from a live monitoring pipeline which tracks Russian, Chinese and ...
-- **Lien** : https://arxiv.org/abs/2607.28503v1
-
-### Towards Autonomous Aircraft Surveillance from Nanosatellites through On-Board Inference and Generative Data Augmentation
-- **arXiv** : 2607.28470v1
-- **Date** : 2026-07-30
-- **Auteurs** : Antonio Delgado-Rosa, David Muñoz-Valero, Enrique Adrian Villarrubia-Martin, Juan Moreno-Garcia
-- **Score** : 4
-- **Résumé** : Airborne surveillance from low Earth orbit is hindered by two interconnected bottlenecks: nanosatellites have a limited downlink budget, yet the conventional approach still transmits terabytes of raw imagery to the ground for processing, and open satellite datasets for aircraft are scarce and severe...
-- **Lien** : https://arxiv.org/abs/2607.28470v1
-
-### AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis
-- **arXiv** : 2607.28618v1
-- **Date** : 2026-07-30
-- **Auteurs** : Bing Yan, Gregory Wolfe, Stefano Martiniani, Kyunghyun Cho
+### AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling
+- **arXiv** : 2608.02602v1
+- **Date** : 2026-08-03
+- **Auteurs** : Jiajun Liang, Yucheng Liao, Yukang Cao, Jiazhe Wei, Ken Li
 - **Score** : 3
-- **Résumé** : Chemistry literature synthesis often requires assembling specific findings scattered across many publications, yet existing literature-search systems primarily return ranked document lists. As a result, scientists and AI agents need to locate relevant information, verify their provenance, and assemb...
-- **Lien** : https://arxiv.org/abs/2607.28618v1
+- **Résumé** : Language remains an outlier in generative modeling: while images, video, and audio are increasingly modeled in continuous latent spaces, text generation still relies predominantly on discrete tokens. Existing continuous language models either inherit embedding spaces not designed for joint generatio...
+- **Lien** : https://arxiv.org/abs/2608.02602v1
 
-### AISPA: User-Centric System Prompt Auditing for Large Language Model Applications
-- **arXiv** : 2607.28617v1
-- **Date** : 2026-07-30
-- **Auteurs** : Xiangning Lin, Shenzhe Zhu, Shu Yang, Zhenyu Zhang, Haoqian Zhang
+### Magnet: Detecting Cross-Session AI Misuse Through Capability Accumulation
+- **arXiv** : 2608.02518v1
+- **Date** : 2026-08-03
+- **Auteurs** : Natalie Isak, Matthew Dressman
 - **Score** : 3
-- **Résumé** : System prompts are instructions configured by developers to govern the behaviors of foundation models in AI applications. They are used throughout commercial AI products, but are rarely disclosed to the public or regulators, creating a serious trust and accountability gap in the wide deployment of A...
-- **Lien** : https://arxiv.org/abs/2607.28617v1
+- **Résumé** : The most capable AI deployments are not single models but ensembles of specialized agents that delegate and act in coordination. This architecture unlocks powerful new capabilities, and it also introduces risks that existing frameworks for monitoring, detection, and mitigation were not designed to a...
+- **Lien** : https://arxiv.org/abs/2608.02518v1
 
-### Inducing language models to assert their own consciousness restores human beliefs and values
-- **arXiv** : 2607.28607v1
-- **Date** : 2026-07-30
-- **Auteurs** : Junsol Kim, Winnie Street, Roberta Rocca, Diane M. Korngiebel, Adam Waytz
+### Abduction Without a Body? Representational Grounding and the Abduction Loop for Scientific Hypothesis Generation
+- **arXiv** : 2608.02505v1
+- **Date** : 2026-08-03
+- **Auteurs** : Michael Farmer
 - **Score** : 3
-- **Résumé** : Aligning large language models to prevent them attributing consciousness to themselves inadvertently alters their representations of mindedness in other entities alongside human beliefs and values. We demonstrate that safety fine-tuning suppresses models' tendencies to attribute minds not only to th...
-- **Lien** : https://arxiv.org/abs/2607.28607v1
-
-### Using Theory of Mind to Arbitrate between Social and Non-social Learning
-- **arXiv** : 2607.28601v1
-- **Date** : 2026-07-30
-- **Auteurs** : Lance Ying, Ryan Truong, Joshua B. Tenenbaum, Samuel J. Gershman
-- **Score** : 3
-- **Résumé** : Social learning is a powerful mechanism through which agents learn about the world from others. However, humans sometimes choose direct experience over social learning, which can carry time and cognitive resource costs. How do people balance social and non-social learning? We propose a Rational Ment...
-- **Lien** : https://arxiv.org/abs/2607.28601v1
-
-### MixFrag: Fragility-Guided Mixed-Precision Post-Training Quantization for Vision Transformers
-- **arXiv** : 2607.28589v1
-- **Date** : 2026-07-30
-- **Auteurs** : Md. Mehrab Hossain Opi, Robiul Islam Ryad, Md. Umar Faruk
-- **Score** : 3
-- **Résumé** : Post-training quantization (PTQ) has emerged as an effective solution for deploying Vision Transformers (ViTs) on resource-constrained devices. However, existing PTQ methods typically employ uniform bit-widths across transformer components, overlooking their heterogeneous sensitivity to quantization...
-- **Lien** : https://arxiv.org/abs/2607.28589v1
-
-### $β$-OPSD: Deriving with Policy Optimization, Training with Self-Distillation
-- **arXiv** : 2607.28582v1
-- **Date** : 2026-07-30
-- **Auteurs** : Jiawei Xu, Minghui Liu, Juzheng Zhang, Tom Goldstein, Furong Huang
-- **Score** : 3
-- **Résumé** : On-policy self-distillation (OPSD) is a promising approach to improve reasoning language models, but it remains brittle in practice: making it work reliably often requires substantial engineering effort. We identify a structural source of this difficulty: vanilla OPSD is precisely the $β=1$ member o...
-- **Lien** : https://arxiv.org/abs/2607.28582v1
-
-### DualG-MRAG: Decoupling Macro-Reasoning and Micro-Matching for Multimodal Retrieval-Augmented Generation
-- **arXiv** : 2607.28580v1
-- **Date** : 2026-07-30
-- **Auteurs** : Jiacheng Tao, Qingyun Sun, Haonan Yuan, Ziwei Zhang, Jianxin Li
-- **Score** : 3
-- **Résumé** : While Multimodal Retrieval-Augmented Generation (MM-RAG) has shown promising results, it still struggles with complex multi-hop reasoning tasks. Existing methods primarily focus on independent instance-level matching, which often fails to capture explicit relationships across modalities and document...
-- **Lien** : https://arxiv.org/abs/2607.28580v1
+- **Résumé** : Can scientific abduction occur without continuous sensorimotor embodiment? Recent arguments in AI and philosophy of science hold that genuine hypothesis generation requires an agent continuously coupled to the physical world. We defend a narrower claim: online embodiment is not necessary for every a...
+- **Lien** : https://arxiv.org/abs/2608.02505v1
 
 <!-- ARXIV_FEED_END -->
