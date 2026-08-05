@@ -90,6 +90,17 @@ graph LR
 - **Résumé** : OpenAI's core product engineering lead on how they are building ChatGPT Work to make AGI accessible to all of humanity: Sites, OpenClaw, Memory, Subagents, Finance, No-Code and advice....
 - **Lien** : https://www.latent.space/p/chatgpt-work
 
+### llm-anthropic 0.26
+- **Source** : Simon Willison
+- **Date** : 2026-08-04T22:00
+- **Score** : 2
+- **Résumé** : Release: llm-anthropic 0.26
+        Includes new features enabled by LLM 0.32:
+
+
+New models: claude-...
+- **Lien** : https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything
+
 ### LWiAI Podcast #246 - Gemini 3.5 + Omni, Musk Loses, OpenAI vs Erdős
 - **Source** : Last Week in AI
 - **Date** : Tue, 26 May 2026
@@ -132,32 +143,31 @@ graph LR
 - **Résumé** : AI engineers are rediscovering ontologies as a way to keep probabilistic agents inside deterministic boundaries....
 - **Lien** : https://www.latent.space/p/ontologies-agentic-systems
 
-### Quoting Greg Brockman
+### New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging
 - **Source** : Simon Willison
-- **Date** : 2026-08-01T22:29
+- **Date** : 2026-08-04T23:58
 - **Score** : 1
-- **Résumé** : at openai, many people hook their chatgpt up to slack.
-people really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly happy doing that same...
-- **Lien** : https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything
+- **Résumé** : I released LLM 0.32 this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider t...
+- **Lien** : https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything
 
-### datasette-apps 0.2a0
+### llm 0.32
 - **Source** : Simon Willison
-- **Date** : 2026-08-01T21:23
+- **Date** : 2026-08-04T17:15
 - **Score** : 1
-- **Résumé** : Release: datasette-apps 0.2a0
-        
-Changes that improve Datasette Apps when created and edited using Datasette Agent:
+- **Résumé** : Release: llm 0.32
+        See my detailed blog post about this release.
+    
+    
+        Tags: <a href="https://simonwillison.net/ta...
+- **Lien** : https://simonwillison.net/2026/Aug/4/llm/#atom-everything
 
-New <co...
-- **Lien** : https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything
-
-### Ten advances in mathematics and theoretical computer science
+### condense-json 1.1
 - **Source** : Simon Willison
-- **Date** : 2026-08-01T20:34
+- **Date** : 2026-08-03T04:56
 - **Score** : 1
-- **Résumé** : Ten advances in mathematics and theoretical computer science
-A few days ago it was Anthropic discovering crypt...
-- **Lien** : https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything
+- **Résumé** : Release: condense-json 1.1
+        After shipping condense-json 1.0 I started integrating it into LLM, and found there were some desirab...
+- **Lien** : https://simonwillison.net/2026/Aug/3/condense-json/#atom-everything
 
 ### Deploy local agents everywhere with LFM2.5-2.6B
 - **Source** : Hugging Face Blog
@@ -221,13 +231,6 @@ A few days ago it was Anthropic discovering crypt...
 - **Score** : 1
 - **Résumé** : OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes....
 - **Lien** : https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation
-
-### Advancing the price-performance frontier with GPT-5.6
-- **Source** : OpenAI Blog
-- **Date** : Thu, 30 Jul 2026
-- **Score** : 1
-- **Résumé** : Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale....
-- **Lien** : https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6
 
 ### LWiAI Podcast #253 - Opus 5, Gemini 3.6, Kimi K3, Hugging Face Hack
 - **Source** : Last Week in AI
