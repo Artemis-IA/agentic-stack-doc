@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### SocietyBench: Forecasting Counterfactual Social-World Evolution
-- **arXiv** : 2608.04009v1
-- **Date** : 2026-08-04
-- **Auteurs** : Zhenran Wang, Zhonghan Bian, Jinsong Li, Zhangyang Qi
+### SparseDitto: Customizing GPU Kernels for Different Sparsity Patterns with LLM-Based Agentic System
+- **arXiv** : 2608.05033v1
+- **Date** : 2026-08-05
+- **Auteurs** : Shiyang Li, Guangyan Sun, Jinwei Tang, Yanzhi Wang, Mingyi Hong
 - **Score** : 10
-- **Résumé** : Large language models (LLMs), and the agents built on top of them, are now benchmarked heavily on whether they can finish a task -- fix a bug, drive a browser, operate a GUI. A complementary social ability, namely how well a model understands and forecasts the way real social events unfold, has bare...
-- **Lien** : https://arxiv.org/abs/2608.04009v1
+- **Résumé** : Sparse matrix kernels are fundamental to scientific computing, graph analytics, and machine learning. Their GPU performance depends strongly on the input sparsity pattern and execution strategy. For the same SpMM on the same matrix, cuSPARSE exhibits a 350x performance gap between CSR and Blocked-EL...
+- **Lien** : https://arxiv.org/abs/2608.05033v1
 
-### Should We Type or Talk to LLM Agents? A Comprehensive Study of Voice and Keyboard Input Perturbations
-- **arXiv** : 2608.03970v1
-- **Date** : 2026-08-04
-- **Auteurs** : Zizhao Hu, Nathan Elijah Segura, Mohammad Rostami, Jesse Thomason
+### OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling
+- **arXiv** : 2608.05141v1
+- **Date** : 2026-08-05
+- **Auteurs** : Indraneil Paul, Falko Helm, Goran Glavaš, Iryna Gurevych
 - **Score** : 9
-- **Résumé** : Human input reaches language models by typing or speaking, and each channel leaves a distinct signature: orthographic noise for keyboards; for voice, disfluency from conventional transcription and restructuring from AI-backed dictation tools. How do they impact an LLM's performance? In this paper we...
-- **Lien** : https://arxiv.org/abs/2608.03970v1
+- **Résumé** : Context lengths of language models (LMs) have dramatically increased, driven by the demands for in-context learning, self-improvement, and long-horizon agentic workflows. Existing long-context corpora, however, are dominated by books, academic articles, and code repositories, which are finite resour...
+- **Lien** : https://arxiv.org/abs/2608.05141v1
 
-### ContinualSkillBench: Can LLM Agents Truly Evolve Their Capabilities?
-- **arXiv** : 2608.03874v1
-- **Date** : 2026-08-04
-- **Auteurs** : Tianyi Guan, Yiding Wang, Haotong Yang, Siyuan Cao, Shirui Liu
-- **Score** : 9
-- **Résumé** : Modern agent frameworks equip large language models with external skill libraries to solve complex tasks. However, it remains unclear whether these systems can effectively evolve their skills and whether the resulting skills improve task-solving capabilities. To bridge this gap, we introduce Continu...
-- **Lien** : https://arxiv.org/abs/2608.03874v1
-
-### WorldCup Arena: Prospective, Leakage-Free Evaluation of Frontier LLMs on a Live Tournament
-- **arXiv** : 2608.04008v1
-- **Date** : 2026-08-04
-- **Auteurs** : Zhenran Wang, Zhonghan Bian, Jinsong Li, Zhangyang Qi
-- **Score** : 8
-- **Résumé** : Benchmarks that measure the forecasting ability of large language models are almost always retrospective: the event has happened, the answer is somewhere on the Web, and the evaluation must defend itself against memorisation. We report the opposite design. Over the 39 days of the 2026 FIFA World Cup...
-- **Lien** : https://arxiv.org/abs/2608.04008v1
-
-### Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility
-- **arXiv** : 2608.04001v1
-- **Date** : 2026-08-04
-- **Auteurs** : Mohsen Hariri, Weicong Chen, Nahal Shahini, Vikash Singh, Kai Ye
-- **Score** : 8
-- **Résumé** : Large language models can solve substantially harder reasoning problems with more inference-time compute. The term "test-time scaling," however, now covers diverse inference algorithms that extend deliberation along a single trajectory, sample completed candidates and aggregate them through voting o...
-- **Lien** : https://arxiv.org/abs/2608.04001v1
-
-### ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs
-- **arXiv** : 2608.04010v1
-- **Date** : 2026-08-04
-- **Auteurs** : Yang Yang, Qinyu Zhao, Mouxiang Chen, Xiaohui Li, Lixin Gu
+### Chained Recursive Language Models for Multi-Iteration Reasoning
+- **arXiv** : 2608.05124v1
+- **Date** : 2026-08-05
+- **Auteurs** : Purbesh Mitra, Sennur Ulukus
 - **Score** : 7
-- **Résumé** : Existing scaling strategies for Multimodal Large Language Models (MLLMs) typically expand either model parameters or sequential inference computation, incurring substantial memory or latency overhead. More importantly, most existing methods fail to alter the rigid, fixed computation allocation betwe...
-- **Lien** : https://arxiv.org/abs/2608.04010v1
+- **Résumé** : Long context reasoning in large language models (LLMs) is usually constrained by the fact that a single inference trajectory has to simultaneously explore the context, store intermediate state, verify evidence, and produce the final answer. This becomes particularly difficult in tasks that require e...
+- **Lien** : https://arxiv.org/abs/2608.05124v1
 
-### Agogic: Performance-Timed Music Tokens for LLM-Native Text-to-Symbolic-Music Generation
-- **arXiv** : 2608.03999v1
-- **Date** : 2026-08-04
-- **Auteurs** : Junhao Chen, Mingjin Chen, Jingjia Mao, Lin Chen, Saining Zhang
-- **Score** : 7
-- **Résumé** : Text-to-music language models begin with a choice usually made by default: how to tokenize music. Normally entangled with backbone, data, and recipe, its effect has never been measured in isolation. We fix pretrained Qwen3.5 (0.8B-27B), data, budget, and decoding, and swap only the representation ac...
-- **Lien** : https://arxiv.org/abs/2608.03999v1
-
-### A game theory for foundation models shows new paths to rational cooperation through similarity inference
-- **arXiv** : 2608.03958v1
-- **Date** : 2026-08-04
-- **Auteurs** : Alexander Meulemans, Maciej Wołczyk, Marissa A. Weis, Rajai Nasser, Roberta Rocca
-- **Score** : 7
-- **Résumé** : As autonomous agents powered by foundation models are increasingly integrated into social and economic systems, understanding the principles governing their collective behavior is essential for ensuring safety and cooperation. Classical game theory, the dominant framework for modeling rational inter...
-- **Lien** : https://arxiv.org/abs/2608.03958v1
-
-### MultiGlobeQA: A Multilingual and Globally Diverse Benchmark for Geospatial Reasoning
-- **arXiv** : 2608.03882v1
-- **Date** : 2026-08-04
-- **Auteurs** : Martin Böckling, Elizaveta Nosova, Heiko Paulheim, Andreea Iana
-- **Score** : 7
-- **Résumé** : Geospatial reasoning, i.e., computing distances, containment, and other spatial relations over real-world entities, is central to navigation and logistics, yet large language models (LLMs) struggle with the required geometric and topological computation despite storing considerable geographic knowle...
-- **Lien** : https://arxiv.org/abs/2608.03882v1
-
-### Can Large Language Models Recover Semantic Optimization Opportunities That Compilers Miss?
-- **arXiv** : 2608.03983v1
-- **Date** : 2026-08-04
-- **Auteurs** : Hailong Jiang, Feng Yu, Emran Hossain, Jianfeng Zhu, Mengfei Ren
+### Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning
+- **arXiv** : 2608.05144v1
+- **Date** : 2026-08-05
+- **Auteurs** : Boxiu Li, Zimo Wen, Yijia Fan, Junxiang Lei, Sufeng Guo
 - **Score** : 6
-- **Résumé** : Optimizing compilers miss profitable transformations when their enabling semantics are absent from the analyzed program representation. We ask whether large language models (LLMs) can recover such semantics from heterogeneous C/C++ context and realize them as validated, contract-preserving artifacts...
-- **Lien** : https://arxiv.org/abs/2608.03983v1
+- **Résumé** : Long-horizon reasoning requires an agentic runtime that can persist when evidence supports its current approach and pivot when measurements reveal failure, hidden constraints, or a misspecified objective. We present Argus, a persistent, self-evolving runtime in which Manager, Planner, Engineer, and ...
+- **Lien** : https://arxiv.org/abs/2608.05144v1
 
-### Separating quantum circuits from classical LLMs
-- **arXiv** : 2608.03962v1
-- **Date** : 2026-08-04
-- **Auteurs** : Srinivasan Arunachalam, Arkopal Dutt, Hari Krovi, Rik Sengupta
+### OPD-V: Visual On-Policy Self-Distillation with Modality Balance
+- **arXiv** : 2608.05131v1
+- **Date** : 2026-08-05
+- **Auteurs** :  Aniri, Jinhe Bi, Peng Liao, Zengjie Jin, Volker Tresp
 - **Score** : 6
-- **Résumé** : Modern large language models - transformers and diffusion language models - are built around two canonical algorithmic tasks: prediction and generation. We prove unconditional separations between low-depth quantum computation and the corresponding bounded-resource classical language-model architectu...
-- **Lien** : https://arxiv.org/abs/2608.03962v1
+- **Résumé** : On-Policy Self-Distillation (OPSD) has become a standard post-training approach for improving visual reasoning in multimodal large language models (MLLMs). Existing methods draw privileged information from diverse input sources to guide self-distillation. Yet these designs overlook Modality Imbalanc...
+- **Lien** : https://arxiv.org/abs/2608.05131v1
 
-### TACT: Taxonomy-Aligned Post-Training for Pedagogically Adaptive English Tutoring
-- **arXiv** : 2608.03952v1
-- **Date** : 2026-08-04
-- **Auteurs** : Dongjie Yang, Siyan Lin, Leixian Shen, Rui Sheng, Huamin Qu
+### Spoken Function Calling: A New Perspective on Spoken Language Understanding for Large Audio Language Models
+- **arXiv** : 2608.05126v1
+- **Date** : 2026-08-05
+- **Auteurs** : Yuezhang Peng, Yuxin Liu, Changfeng Gao, Zhifu Gao, Xiangang Li
 - **Score** : 6
-- **Résumé** : Large language models (LLMs) are increasingly used to provide conversational practice for English-as-a-second-language (ESL) learners. Effective ESL tutoring, however, requires more than fluent response generation: a tutor must select an appropriate pedagogical action based on learner behavior and d...
-- **Lien** : https://arxiv.org/abs/2608.03952v1
+- **Résumé** : Spoken Language Understanding (SLU) is the core component of task-oriented dialogue systems and a pivotal link in achieving seamless human-agent interaction. While traditional SLU can effectively extract user semantics for closed-set tasks after in-domain supervised fine-tuning, it faces significant...
+- **Lien** : https://arxiv.org/abs/2608.05126v1
 
-### When and Where to Look: Adaptive Visual Evidence Scheduling for Efficient Long Video Understanding
-- **arXiv** : 2608.03918v1
-- **Date** : 2026-08-04
-- **Auteurs** : Ke Li, Jiayu Chen, Maoliang Li, Zihao Zheng, Hailong Zou
+### Hierarchical Graph Memory for LLM Agents with Path-level Localization and Rewrite
+- **arXiv** : 2608.05095v1
+- **Date** : 2026-08-05
+- **Auteurs** : Xiawei Yue, Boran Wang, Xiaoqing Zhang, Shuxin Zheng, Ziwei Zhang
 - **Score** : 6
-- **Résumé** : Efficient long-video understanding requires vision--language models (VLMs) to reason over a small number of frames selected as sparse visual evidence. Existing relevance-based methods rely on static one-shot selection with fixed frame budgets and candidate pools, while agent-based schedulers achieve...
-- **Lien** : https://arxiv.org/abs/2608.03918v1
+- **Résumé** : Agents for long term reasoning require a memory that can be efficiently and effectively updated over time, as new facts and external feedback continue to arrive. Recently, graph memory has been adopted to offer structural organization for multi-hop retrieval and reasoning. However, existing methods ...
+- **Lien** : https://arxiv.org/abs/2608.05095v1
 
-### Socially Grounded Agentic AI: Coordinating Plural Perspectives through Social Theory
-- **arXiv** : 2608.03910v1
-- **Date** : 2026-08-04
-- **Auteurs** : Matt Ratto, Abhishek Moturu, Daniel Silver
+### Hardware Design and Security in the Era of Chiplets and LLMs
+- **arXiv** : 2608.05063v1
+- **Date** : 2026-08-05
+- **Auteurs** : Johann Knechtel, Ozgur Sinanoglu, Paul V. Gratz, Ramesh Karri
 - **Score** : 6
-- **Résumé** : As AI systems are deployed across increasingly diverse social contexts, alignment can no longer be framed as the optimization of a single, unified set of values. Instead, systems must be able to recognize, represent, and respond to multiple legitimate perspectives. This has led to growing interest i...
-- **Lien** : https://arxiv.org/abs/2608.03910v1
+- **Résumé** : The semiconductor industry is undergoing a dual revolution: the shift toward heterogeneous 2.5D chiplet systems and the integration of Large Language Models (LLMs) into Electronic Design Automation (EDA) flows. While these paradigms offer unprecedented benefits in yield, modularity, design productiv...
+- **Lien** : https://arxiv.org/abs/2608.05063v1
 
-### Omega-S: A Functional Resilience Index for LLM Fine-Tuning
-- **arXiv** : 2608.03887v1
-- **Date** : 2026-08-04
-- **Auteurs** : Alberto Acedo
+### ArtAnno: Annotating Implicit Semantics in Artworks through LLM Agent-Driven Bidirectional Human-AI Augmentation
+- **arXiv** : 2608.05026v1
+- **Date** : 2026-08-05
+- **Auteurs** : Xiaoyan Gu, Yifang Wang, Wenqing Zheng, Haozhong Liu, Yixia Zheng
 - **Score** : 6
-- **Résumé** : Fine-tuning a large language model on new data degrades what it previously learned. We present Omega-S, a drop-in penalty computed from the weight matrix alone: it needs no previous-task data, no Fisher matrix and no stored copy of the old weights. It is three lines in an existing training loop and ...
-- **Lien** : https://arxiv.org/abs/2608.03887v1
+- **Résumé** : High-quality annotation of artworks is essential for computational art research, yet extracting implicit semantics remains challenging due to the reliance on culturally grounded meanings and deep contextual knowledge behind the images. Current AI-assisted annotation tools often lack assistance or re...
+- **Lien** : https://arxiv.org/abs/2608.05026v1
 
-### The Transformer Revolution, Part 1: Dynamic Processing through Output- Weight Interconnections
-- **arXiv** : 2608.03921v1
-- **Date** : 2026-08-04
-- **Auteurs** : Marco Giunti, Fabrizia Giulia Garavaglia
+### DelusionEval: Measuring Delusion-Linked Behaviors in AI Chatbots
+- **arXiv** : 2608.05004v1
+- **Date** : 2026-08-05
+- **Auteurs** : Jared Moore, Andrea Mock, Yifan Mai, Jacy Reese Anthis, Ryan Louie
+- **Score** : 6
+- **Résumé** : Mental health professionals have raised concerns about risks of psychological harm from interaction with large language models (LLMs), including "delusional spirals" in which concerning human and LLM behaviors reinforce each other over time. With growing public use of LLM-powered chatbots, there is ...
+- **Lien** : https://arxiv.org/abs/2608.05004v1
+
+### Item Response Theory for AI Safety
+- **arXiv** : 2608.05086v1
+- **Date** : 2026-08-05
+- **Auteurs** : Joshua Fonseca Rivera, Neil Shah, David Demitri Africa, Konstantinos Voudouris
 - **Score** : 5
-- **Résumé** : This paper offers a new interpretation of the Transformer during inference. Against the "stochastic parrot" view that large language models merely reproduce statistical regularities learned in training, we argue that Transformers construct and apply prompt-dependent transformations whose parameters ...
-- **Lien** : https://arxiv.org/abs/2608.03921v1
+- **Résumé** : Language models differ in how safely they behave and these differences are measured by safety benchmarks. But aggregated benchmark scores are hard to trust and interpret, because benchmarks duplicate one another, correlate heavily, and models may sandbag when they detect evaluation. To address these...
+- **Lien** : https://arxiv.org/abs/2608.05086v1
 
-### PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents
-- **arXiv** : 2608.04003v1
-- **Date** : 2026-08-04
-- **Auteurs** : Shuhan Xue, Zixin Ding, Yichen Shen, Yinjie Wang, Zhenfei Yin
+### Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning
+- **arXiv** : 2608.05139v1
+- **Date** : 2026-08-05
+- **Auteurs** : Yinghui He, Ling Yang, Jiarui Liu, Yongjin Yang, Lechen Zhang
 - **Score** : 4
-- **Résumé** : Recursive self-improvement requires agents to turn accumulated experience into better future behavior. Personal AI agents offer a concrete setting for studying this capability because they retain preferences, task histories, tool routines, and learned skills across sessions. Yet whether retained exp...
-- **Lien** : https://arxiv.org/abs/2608.04003v1
+- **Résumé** : Long-horizon reasoning in recent LLMs demands that the model switch between distinct skills inside a reasoning chain, such as first doing a math derivation, then using the result to plan a schedule. We call such problems cross-skill long-horizon tasks: multi-step tasks whose steps require different ...
+- **Lien** : https://arxiv.org/abs/2608.05139v1
 
-### Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent
-- **arXiv** : 2608.03979v1
-- **Date** : 2026-08-04
-- **Auteurs** : Zhen Fang, Yu Zeng, Wenxuan Huang, Yiming Zhao, Shiting Huang
+### Teaching Nemotron Greek: Mining a Corpus, Adapting Retrieval, and Grounding Generation for Modern Greek across Specialist Domains
+- **arXiv** : 2608.05138v1
+- **Date** : 2026-08-05
+- **Auteurs** : Ayoub Kirouane, Christos Petrocheilos
 - **Score** : 4
-- **Résumé** : We introduce Video-DeepResearch (Video-DR), extending multimodal agents from static images to continuous video streams, a setting that demands dense spatiotemporal grounding coupled with open-web exploration. Preliminary evaluations reveal two critical bottlenecks in current models: (1) modality bia...
-- **Lien** : https://arxiv.org/abs/2608.03979v1
+- **Résumé** : Modern Greek is absent from NVIDIA's Nemotron retrieval models and from major multilingual retrieval benchmarks, despite being important for retrieval-augmented generation (RAG) in legal, energy, financial, and medical applications. We present an end-to-end adaptation of the Nemotron retrieval stack...
+- **Lien** : https://arxiv.org/abs/2608.05138v1
 
-### Intertemporal Preference Steering in Qwen3 via Contrastive Activation Addition
-- **arXiv** : 2608.03892v1
-- **Date** : 2026-08-04
-- **Auteurs** : Michal Mráz, Justin Shenk
+### Characterizing Visual Accessibility Issues in AI Developer Tools: An Empirical Study
+- **arXiv** : 2608.05116v1
+- **Date** : 2026-08-05
+- **Auteurs** : Sabrina Haque, Christoph Csallner
 - **Score** : 4
-- **Résumé** : We study linear representations of temporal horizon in the large language model Qwen3-32B and use them to change the model's time-related preferences, recommendations, and capabilities. We train contrastive linear probes on teacher-forced temporal-choice answers to find a short-term versus long-term...
-- **Lien** : https://arxiv.org/abs/2608.03892v1
+- **Résumé** : AI-assisted developer tools increasingly mediate programming through chat panels, terminal agents, generated diffs, and streaming status output. These interaction surfaces may create visual accessibility barriers for blind, low-vision, and color-vision-deficient developers, yet little is known about...
+- **Lien** : https://arxiv.org/abs/2608.05116v1
 
-### BanglaWild: An In-the-Wild Bengali Scene Text Recognition Benchmark for OCR and Vision-Language Models
-- **arXiv** : 2608.03884v1
-- **Date** : 2026-08-04
-- **Auteurs** : Sadab Shiper, Tawsif Tashwar Dipto, Mir Md Inzamam, Eshat Tanzeem
+### Same Formulas, Different Semantics: Do Language Models Follow Modal Logic Specifications?
+- **arXiv** : 2608.05097v1
+- **Date** : 2026-08-05
+- **Auteurs** : Réemi Andrieu, Damien Sileo
 - **Score** : 4
-- **Résumé** : In-the-wild Bengali scene text recognition is largely unmeasured: existing resources target handwritten documents or constrained sign-board parsing, report only aggregate edit-distance metrics, and evaluate either conventional OCR or VLMs, never both on the same in-the-wild data. To address this gap...
-- **Lien** : https://arxiv.org/abs/2608.03884v1
+- **Résumé** : Reasoning about necessity and possibility depends on assumptions about accessibility between worlds and about which objects exist at each one. The same inference may therefore hold under one modal system and fail under another. Evaluating language models on such problems requires testing whether the...
+- **Lien** : https://arxiv.org/abs/2608.05097v1
+
+### Revealed Rationality: Label-Free Evaluation and Regularization from Representation Theorems
+- **arXiv** : 2608.05015v1
+- **Date** : 2026-08-05
+- **Auteurs** : Isaiah Andrews
+- **Score** : 4
+- **Résumé** : Representation theorems in decision theory establish that behavior satisfies certain axioms if and only if it can be rationalized by a well-defined objective. I argue that this ``if and only if'' structure provides a potentially useful foundation for label-free evaluation and regularization of LLMs ...
+- **Lien** : https://arxiv.org/abs/2608.05015v1
+
+### DASyR-LLM: Domain-Aware Symbolic Regression with LLMs for Kinetic Model Discovery
+- **arXiv** : 2608.05120v1
+- **Date** : 2026-08-05
+- **Auteurs** : Roberto Aliaga Medina, Paulina Quintanilla, Antonio del Rio Chanona
+- **Score** : 3
+- **Résumé** : Kinetic model discovery is a central challenge in chemical engineering, as accurate rate expressions are essential for understanding and controlling chemical and biological processes. Symbolic regression (SR) has emerged as a powerful data-driven approach for identifying interpretable kinetic models...
+- **Lien** : https://arxiv.org/abs/2608.05120v1
+
+### Reward Structure Shapes the Interaction Between Episodic Exploration and Neural Memory in Reinforcement Learning
+- **arXiv** : 2608.05111v1
+- **Date** : 2026-08-05
+- **Auteurs** : Jai Malegaonkar, Rohan Patil, Henrik I. Christensen
+- **Score** : 3
+- **Résumé** : In partially observable reinforcement learning, agents face a dual bottleneck: they must explore to encounter rewarding states and retain that experience in memory to optimize their policies. Exploration bonuses and memory architectures are traditionally evaluated in isolation, leaving their interac...
+- **Lien** : https://arxiv.org/abs/2608.05111v1
+
+### BnBERT-iPET: Sparse Few-Shot Language Modeling for Bengali via Lottery Ticket Pruning
+- **arXiv** : 2608.05104v1
+- **Date** : 2026-08-05
+- **Auteurs** : Sajib Hossain, Md Kamrus Samad, Anan Ghosh, Labib Imam Chowdhury, Nabeel Mohammed
+- **Score** : 3
+- **Résumé** : Deep neural networks have shown impressive success in NLP tasks owing to their complex structure and huge number of edges. Achieving state-of-the-art performance in natural language processing with a large pre-trained model such as BERT is expensive and time-consuming, carries a large carbon footpri...
+- **Lien** : https://arxiv.org/abs/2608.05104v1
+
+### ABSeeker: Training Long-Horizon Search Agents via Answer-Backtracked Credit Assignment
+- **arXiv** : 2608.05102v1
+- **Date** : 2026-08-05
+- **Auteurs** : Yijun Lu, Rui Ye, Jiajun Wang, Yuwen Du, Tian Jin
+- **Score** : 3
+- **Résumé** : Long-horizon search agents must make multiple sequential actions (steps) to search, retrieve, verify, and integrate evidence to reach a final answer. However, existing methods for training these agents typically treat all steps within a trajectory uniformly during both supervised fine-tuning (SFT) a...
+- **Lien** : https://arxiv.org/abs/2608.05102v1
 
 <!-- ARXIV_FEED_END -->
