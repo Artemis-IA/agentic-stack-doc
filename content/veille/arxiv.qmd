@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### SparseDitto: Customizing GPU Kernels for Different Sparsity Patterns with LLM-Based Agentic System
-- **arXiv** : 2608.05033v1
-- **Date** : 2026-08-05
-- **Auteurs** : Shiyang Li, Guangyan Sun, Jinwei Tang, Yanzhi Wang, Mingyi Hong
+### The Bitter Lesson of Tool Calling
+- **arXiv** : 2608.06370v1
+- **Date** : 2026-08-06
+- **Auteurs** : Ishan Patel, Sahil Sen, Elias Lumer, Vamse Kumar Subbiah
 - **Score** : 10
-- **Résumé** : Sparse matrix kernels are fundamental to scientific computing, graph analytics, and machine learning. Their GPU performance depends strongly on the input sparsity pattern and execution strategy. For the same SpMM on the same matrix, cuSPARSE exhibits a 350x performance gap between CSR and Blocked-EL...
-- **Lien** : https://arxiv.org/abs/2608.05033v1
+- **Résumé** : Tool use transforms LLMs into agents that act beyond their training data, and for code-capable models, programmatic tool calling extends this further by replacing rigid JSON calls with scripts that chain and parallelize naturally. However, a systematic evaluation of tools as code on an established b...
+- **Lien** : https://arxiv.org/abs/2608.06370v1
 
-### OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling
-- **arXiv** : 2608.05141v1
-- **Date** : 2026-08-05
-- **Auteurs** : Indraneil Paul, Falko Helm, Goran Glavaš, Iryna Gurevych
+### HarnessOpt-Bench: Evaluating LLMs at Harness Optimization
+- **arXiv** : 2608.06301v1
+- **Date** : 2026-08-06
+- **Auteurs** : Varun Ursekar, Apaar Shanker, Yash Maurya, Shehab Yasser, Vijay S. Kalmath
+- **Score** : 10
+- **Résumé** : As LLMs are increasingly deployed within agentic systems, their capabilities depend not only on the model weights but also on the harness: the prompts, tools, control flow, memory, and orchestration code surrounding them. This makes automated harness optimization -- the iterative and evaluation-guid...
+- **Lien** : https://arxiv.org/abs/2608.06301v1
+
+### TRAJDEBUG: Tracing Error Lifecycle to Identify Critical Failures in Long-Horizon Agent Trajectories
+- **arXiv** : 2608.06346v1
+- **Date** : 2026-08-06
+- **Auteurs** : Yunjia Qi, Zehua Yin, Xintong Shi, Hao Peng, Songyuanyi Lu
 - **Score** : 9
-- **Résumé** : Context lengths of language models (LMs) have dramatically increased, driven by the demands for in-context learning, self-improvement, and long-horizon agentic workflows. Existing long-context corpora, however, are dominated by books, academic articles, and code repositories, which are finite resour...
-- **Lien** : https://arxiv.org/abs/2608.05141v1
+- **Résumé** : LLM-based agentic systems have shown remarkable capabilities in complex domains, while suffering from cascading errors and difficulty in debugging. Critical error detection aims to locate the earliest error step in a failed trajectory that is responsible for the final failure. However, progress face...
+- **Lien** : https://arxiv.org/abs/2608.06346v1
 
-### Chained Recursive Language Models for Multi-Iteration Reasoning
-- **arXiv** : 2608.05124v1
-- **Date** : 2026-08-05
-- **Auteurs** : Purbesh Mitra, Sennur Ulukus
+### NeSy-RAG: Neuro-Symbolic RAG for Explainable Question Answering
+- **arXiv** : 2608.06292v1
+- **Date** : 2026-08-06
+- **Auteurs** : Jonas Gann, Michael Gertz
+- **Score** : 9
+- **Résumé** : Retrieval-augmented generation (RAG) improves question answering by grounding large language models (LLMs) in external knowledge such as text corpora. However, its reasoning process remains largely opaque: intermediate reasoning steps are difficult to verify and cannot be reliably attributed to spec...
+- **Lien** : https://arxiv.org/abs/2608.06292v1
+
+### Benchmarking the Benchmarks: Evaluating Benchmarks for Conversational Agents
+- **arXiv** : 2608.06329v1
+- **Date** : 2026-08-06
+- **Auteurs** : Noam Koren, Roy Bar-Haim, Abigail Goldsteen
+- **Score** : 8
+- **Résumé** : Task-oriented conversational agents are evaluated using curated or automatically generated benchmarks, yet benchmark quality is rarely assessed. Poor benchmarks may contain inconsistent tasks, simplistic scenarios, or limited policy coverage, leading to unreliable evaluations. We introduce a referen...
+- **Lien** : https://arxiv.org/abs/2608.06329v1
+
+### The Low Frequency Trap: Video Language Models Fail at Simple Event Bookkeeping
+- **arXiv** : 2608.06361v1
+- **Date** : 2026-08-06
+- **Auteurs** : Sarvesh Baskar, Zikui Cai, Shayan Shabihi, Anirudh Satheesh, Muhammad R. Islam
 - **Score** : 7
-- **Résumé** : Long context reasoning in large language models (LLMs) is usually constrained by the fact that a single inference trajectory has to simultaneously explore the context, store intermediate state, verify evidence, and produce the final answer. This becomes particularly difficult in tasks that require e...
-- **Lien** : https://arxiv.org/abs/2608.05124v1
+- **Résumé** : Real-world video benchmarks provide broad coverage, but their fixed clips entangle event count, rate, duration, and visual complexity, making failure modes hard to isolate. While existing programmatic benchmarks offer better control, they score only the final answer rather than auditing reported eve...
+- **Lien** : https://arxiv.org/abs/2608.06361v1
 
-### Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning
-- **arXiv** : 2608.05144v1
-- **Date** : 2026-08-05
-- **Auteurs** : Boxiu Li, Zimo Wen, Yijia Fan, Junxiang Lei, Sufeng Guo
+### Benchmarking and Enhancing LLMs for Rule-Intensive Review of National Standard Documents
+- **arXiv** : 2608.06312v1
+- **Date** : 2026-08-06
+- **Auteurs** : Tao Wang, Qihao Yang, Rongjiao Liang, Lianghong Lin, Haitao Wang
+- **Score** : 7
+- **Résumé** : Large language models (LLMs) increasingly support complex professional tasks, yet their capabilities in rule-intensive document review remain insufficiently evaluated. National standard documents, such as China GB/T standards, offer a representative testbed: they are lengthy, highly structured, and ...
+- **Lien** : https://arxiv.org/abs/2608.06312v1
+
+### The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images
+- **arXiv** : 2608.06270v1
+- **Date** : 2026-08-06
+- **Auteurs** : Zhiheng Wang, Bo Peng, Lai Wei, Chaochao Lu
+- **Score** : 7
+- **Résumé** : The "thinking-with-images" paradigm equips multimodal LLMs with active visual operations such as crop-and-zoom. However, models using these operations often achieve only marginal or negative gains over direct inference at substantially higher token cost. They may also repeatedly crop irrelevant regi...
+- **Lien** : https://arxiv.org/abs/2608.06270v1
+
+### RP-OPSD: Reasoning-Pivot-Guided On-Policy Self-Distillation for Multilingual Reasoning Transfer
+- **arXiv** : 2608.06347v1
+- **Date** : 2026-08-06
+- **Auteurs** : Xinye Wang, Junxiao Liu, Shujian Huang
 - **Score** : 6
-- **Résumé** : Long-horizon reasoning requires an agentic runtime that can persist when evidence supports its current approach and pivot when measurements reveal failure, hidden constraints, or a misspecified objective. We present Argus, a persistent, self-evolving runtime in which Manager, Planner, Engineer, and ...
-- **Lien** : https://arxiv.org/abs/2608.05144v1
+- **Résumé** : Multilingual reasoning transfer is crucial for extending reasoning capabilities of large language models (LLMs) beyond high-resource languages. On-policy self-distillation (OPSD) and its variants have emerged as a promising paradigm, providing dense token-level supervision on student-generated rollo...
+- **Lien** : https://arxiv.org/abs/2608.06347v1
 
-### OPD-V: Visual On-Policy Self-Distillation with Modality Balance
-- **arXiv** : 2608.05131v1
-- **Date** : 2026-08-05
-- **Auteurs** :  Aniri, Jinhe Bi, Peng Liao, Zengjie Jin, Volker Tresp
+### Beyond Top-K: Replacing Black-Box Retrieval with Interpretable Agentic Operations
+- **arXiv** : 2608.06305v1
+- **Date** : 2026-08-06
+- **Auteurs** : Sagar Tamang, Ayush Vyas, Tabarakul Hazarika
 - **Score** : 6
-- **Résumé** : On-Policy Self-Distillation (OPSD) has become a standard post-training approach for improving visual reasoning in multimodal large language models (MLLMs). Existing methods draw privileged information from diverse input sources to guide self-distillation. Yet these designs overlook Modality Imbalanc...
-- **Lien** : https://arxiv.org/abs/2608.05131v1
+- **Résumé** : Retrieval-augmented generation over long documents is dominated by one design: chunk the text, embed the chunks, and surface the top-k nearest neighbours of the query. We argue that for an important class of documents -- financial statements, audit reports, regulatory returns -- this design is struc...
+- **Lien** : https://arxiv.org/abs/2608.06305v1
 
-### Spoken Function Calling: A New Perspective on Spoken Language Understanding for Large Audio Language Models
-- **arXiv** : 2608.05126v1
-- **Date** : 2026-08-05
-- **Auteurs** : Yuezhang Peng, Yuxin Liu, Changfeng Gao, Zhifu Gao, Xiangang Li
+### On-Policy Self-Distillation without Any Supervision
+- **arXiv** : 2608.06296v1
+- **Date** : 2026-08-06
+- **Auteurs** : Yijiang Li, Bingyang Wang, Yijun Liang, Yunjie Tian, Di Fu
 - **Score** : 6
-- **Résumé** : Spoken Language Understanding (SLU) is the core component of task-oriented dialogue systems and a pivotal link in achieving seamless human-agent interaction. While traditional SLU can effectively extract user semantics for closed-set tasks after in-domain supervised fine-tuning, it faces significant...
-- **Lien** : https://arxiv.org/abs/2608.05126v1
+- **Résumé** : On-policy (Self-)Distillation (OPD / OPSD) has shown strong potential for post-training large language models (LLMs). However, existing methods still rely heavily on external supervision, including ground-truth signals, environmental feedback, or guidance from larger models, and therefore fall short...
+- **Lien** : https://arxiv.org/abs/2608.06296v1
 
-### Hierarchical Graph Memory for LLM Agents with Path-level Localization and Rewrite
-- **arXiv** : 2608.05095v1
-- **Date** : 2026-08-05
-- **Auteurs** : Xiawei Yue, Boran Wang, Xiaoqing Zhang, Shuxin Zheng, Ziwei Zhang
+### QuanTiMedAI: Quantum-Enhanced Time-Series Model guided by Agentic AI for Cardiac Arrest Mortality Prediction
+- **arXiv** : 2608.06294v1
+- **Date** : 2026-08-06
+- **Auteurs** : Mutasim Fuad Sarker, Adiba Rahman Namira, Wafa Binte Alam, Md Adnan Arefeen, Mahzabeen Emu
 - **Score** : 6
-- **Résumé** : Agents for long term reasoning require a memory that can be efficiently and effectively updated over time, as new facts and external feedback continue to arrive. Recently, graph memory has been adopted to offer structural organization for multi-hop retrieval and reasoning. However, existing methods ...
-- **Lien** : https://arxiv.org/abs/2608.05095v1
+- **Résumé** : Cardiac arrest remains one of the most lethal conditions encountered in intensive care units. Despite the growing availability of electronic health record data, existing mortality prediction studies in this population largely depend on static summaries derived from early admission. Such approaches i...
+- **Lien** : https://arxiv.org/abs/2608.06294v1
 
-### Hardware Design and Security in the Era of Chiplets and LLMs
-- **arXiv** : 2608.05063v1
-- **Date** : 2026-08-05
-- **Auteurs** : Johann Knechtel, Ozgur Sinanoglu, Paul V. Gratz, Ramesh Karri
+### MetaboLLM: a metabolomics-specialized large language model for biochemical knowledge integration and predictive metabolite graph construction
+- **arXiv** : 2608.06253v1
+- **Date** : 2026-08-06
+- **Auteurs** : Dohyun Ku, Min Gu Kwak, Francisco J. Pasquel, Jing Li
 - **Score** : 6
-- **Résumé** : The semiconductor industry is undergoing a dual revolution: the shift toward heterogeneous 2.5D chiplet systems and the integration of Large Language Models (LLMs) into Electronic Design Automation (EDA) flows. While these paradigms offer unprecedented benefits in yield, modularity, design productiv...
-- **Lien** : https://arxiv.org/abs/2608.05063v1
+- **Résumé** : Metabolomics knowledge is distributed across heterogeneous resources and remains difficult to translate into predictive representations. We developed MetaboLLM, a metabolomics-specialized large language model adapted through continual pretraining, supervised fine-tuning, and structured retrieval, to...
+- **Lien** : https://arxiv.org/abs/2608.06253v1
 
-### ArtAnno: Annotating Implicit Semantics in Artworks through LLM Agent-Driven Bidirectional Human-AI Augmentation
-- **arXiv** : 2608.05026v1
-- **Date** : 2026-08-05
-- **Auteurs** : Xiaoyan Gu, Yifang Wang, Wenqing Zheng, Haozhong Liu, Yixia Zheng
+### TS-RAG: Retrieval Augmented Generation for Time Series Forecasting
+- **arXiv** : 2608.06223v1
+- **Date** : 2026-08-06
+- **Auteurs** : Yixiong Xiao, Congxi Xiao, Jingbo Zhou
 - **Score** : 6
-- **Résumé** : High-quality annotation of artworks is essential for computational art research, yet extracting implicit semantics remains challenging due to the reliance on culturally grounded meanings and deep contextual knowledge behind the images. Current AI-assisted annotation tools often lack assistance or re...
-- **Lien** : https://arxiv.org/abs/2608.05026v1
+- **Résumé** : While deep learning models, particularly transformer-based architectures, have shown impressive performance in time series forecasting, the application of retrieval-augmented generation (RAG) in this domain remains limited. Since RAG has proven effective in enhancing the capabilities of large langua...
+- **Lien** : https://arxiv.org/abs/2608.06223v1
 
-### DelusionEval: Measuring Delusion-Linked Behaviors in AI Chatbots
-- **arXiv** : 2608.05004v1
-- **Date** : 2026-08-05
-- **Auteurs** : Jared Moore, Andrea Mock, Yifan Mai, Jacy Reese Anthis, Ryan Louie
-- **Score** : 6
-- **Résumé** : Mental health professionals have raised concerns about risks of psychological harm from interaction with large language models (LLMs), including "delusional spirals" in which concerning human and LLM behaviors reinforce each other over time. With growing public use of LLM-powered chatbots, there is ...
-- **Lien** : https://arxiv.org/abs/2608.05004v1
-
-### Item Response Theory for AI Safety
-- **arXiv** : 2608.05086v1
-- **Date** : 2026-08-05
-- **Auteurs** : Joshua Fonseca Rivera, Neil Shah, David Demitri Africa, Konstantinos Voudouris
+### AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games
+- **arXiv** : 2608.06362v1
+- **Date** : 2026-08-06
+- **Auteurs** : Boning Li, Yu Chen, Longbo Huang
 - **Score** : 5
-- **Résumé** : Language models differ in how safely they behave and these differences are measured by safety benchmarks. But aggregated benchmark scores are hard to trust and interpret, because benchmarks duplicate one another, correlate heavily, and models may sandbag when they detect evaluation. To address these...
-- **Lien** : https://arxiv.org/abs/2608.05086v1
+- **Résumé** : Deciding which of two agents is stronger means playing games until skill outweighs luck, and every game costs money, model inference, or expert time. Since the number of games needed is unknown, fixed-budget evaluations either keep paying after the result is settled or stop before the agents can be ...
+- **Lien** : https://arxiv.org/abs/2608.06362v1
 
-### Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning
-- **arXiv** : 2608.05139v1
-- **Date** : 2026-08-05
-- **Auteurs** : Yinghui He, Ling Yang, Jiarui Liu, Yongjin Yang, Lechen Zhang
+### Scalable estimation of VARMA models
+- **arXiv** : 2608.06340v1
+- **Date** : 2026-08-06
+- **Auteurs** : Daniel Paulin, Victor Elvira
 - **Score** : 4
-- **Résumé** : Long-horizon reasoning in recent LLMs demands that the model switch between distinct skills inside a reasoning chain, such as first doing a math derivation, then using the result to plan a schedule. We call such problems cross-skill long-horizon tasks: multi-step tasks whose steps require different ...
-- **Lien** : https://arxiv.org/abs/2608.05139v1
+- **Résumé** : Vector autoregressive moving-average (VARMA) models have long been considered impractical beyond moderate dimensions: the likelihood is non-convex, the parametrization is identified only up to equivalence, and every evaluation costs a pass over the entire series. Yet their moving-average term captur...
+- **Lien** : https://arxiv.org/abs/2608.06340v1
 
-### Teaching Nemotron Greek: Mining a Corpus, Adapting Retrieval, and Grounding Generation for Modern Greek across Specialist Domains
-- **arXiv** : 2608.05138v1
-- **Date** : 2026-08-05
-- **Auteurs** : Ayoub Kirouane, Christos Petrocheilos
+### Improving the Realism of Synthetic Clinical Benchmarks Under Utility Constraints
+- **arXiv** : 2608.06265v1
+- **Date** : 2026-08-06
+- **Auteurs** : Omid Bazgir, Md Nasir, Jacob Hoffman, Yang Yang, Manu Agrawal
 - **Score** : 4
-- **Résumé** : Modern Greek is absent from NVIDIA's Nemotron retrieval models and from major multilingual retrieval benchmarks, despite being important for retrieval-augmented generation (RAG) in legal, energy, financial, and medical applications. We present an end-to-end adaptation of the Nemotron retrieval stack...
-- **Lien** : https://arxiv.org/abs/2608.05138v1
+- **Résumé** : Synthetic clinical benchmarks for enterprise AI agents can pass existing utility checks and still remain structurally unrealistic, especially in privacy-sensitive healthcare settings where operational data are hard to access. We study how to improve such benchmarks without breaking the downstream ut...
+- **Lien** : https://arxiv.org/abs/2608.06265v1
 
-### Characterizing Visual Accessibility Issues in AI Developer Tools: An Empirical Study
-- **arXiv** : 2608.05116v1
-- **Date** : 2026-08-05
-- **Auteurs** : Sabrina Haque, Christoph Csallner
-- **Score** : 4
-- **Résumé** : AI-assisted developer tools increasingly mediate programming through chat panels, terminal agents, generated diffs, and streaming status output. These interaction surfaces may create visual accessibility barriers for blind, low-vision, and color-vision-deficient developers, yet little is known about...
-- **Lien** : https://arxiv.org/abs/2608.05116v1
-
-### Same Formulas, Different Semantics: Do Language Models Follow Modal Logic Specifications?
-- **arXiv** : 2608.05097v1
-- **Date** : 2026-08-05
-- **Auteurs** : Réemi Andrieu, Damien Sileo
-- **Score** : 4
-- **Résumé** : Reasoning about necessity and possibility depends on assumptions about accessibility between worlds and about which objects exist at each one. The same inference may therefore hold under one modal system and fail under another. Evaluating language models on such problems requires testing whether the...
-- **Lien** : https://arxiv.org/abs/2608.05097v1
-
-### Revealed Rationality: Label-Free Evaluation and Regularization from Representation Theorems
-- **arXiv** : 2608.05015v1
-- **Date** : 2026-08-05
-- **Auteurs** : Isaiah Andrews
-- **Score** : 4
-- **Résumé** : Representation theorems in decision theory establish that behavior satisfies certain axioms if and only if it can be rationalized by a well-defined objective. I argue that this ``if and only if'' structure provides a potentially useful foundation for label-free evaluation and regularization of LLMs ...
-- **Lien** : https://arxiv.org/abs/2608.05015v1
-
-### DASyR-LLM: Domain-Aware Symbolic Regression with LLMs for Kinetic Model Discovery
-- **arXiv** : 2608.05120v1
-- **Date** : 2026-08-05
-- **Auteurs** : Roberto Aliaga Medina, Paulina Quintanilla, Antonio del Rio Chanona
+### Learning When to Trust via Selective Context Preference Optimization
+- **arXiv** : 2608.06377v1
+- **Date** : 2026-08-06
+- **Auteurs** : Xian Sun, Wei Chow, Yingshuo Wang, Junhao Liu, Wei Gao
 - **Score** : 3
-- **Résumé** : Kinetic model discovery is a central challenge in chemical engineering, as accurate rate expressions are essential for understanding and controlling chemical and biological processes. Symbolic regression (SR) has emerged as a powerful data-driven approach for identifying interpretable kinetic models...
-- **Lien** : https://arxiv.org/abs/2608.05120v1
+- **Résumé** : Language models increasingly condition their answers on external signals, and a single misleading one can turn a correct answer wrong. The obvious remedy, training models to resist such signals, hides a failure mode: a model that ignores all context looks robust yet is useless when the context is wo...
+- **Lien** : https://arxiv.org/abs/2608.06377v1
 
-### Reward Structure Shapes the Interaction Between Episodic Exploration and Neural Memory in Reinforcement Learning
-- **arXiv** : 2608.05111v1
-- **Date** : 2026-08-05
-- **Auteurs** : Jai Malegaonkar, Rohan Patil, Henrik I. Christensen
+### Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering
+- **arXiv** : 2608.06366v1
+- **Date** : 2026-08-06
+- **Auteurs** : Soorya Ram Shimgekar, Michelle Hu, Dorisa Shehi, Daniel Kang, Roy Ka-Wei Lee
 - **Score** : 3
-- **Résumé** : In partially observable reinforcement learning, agents face a dual bottleneck: they must explore to encounter rewarding states and retain that experience in memory to optimize their policies. Exploration bonuses and memory architectures are traditionally evaluated in isolation, leaving their interac...
-- **Lien** : https://arxiv.org/abs/2608.05111v1
+- **Résumé** : Electronic health record (EHR) feature engineering is a major bottleneck in clinical research and AI, accounting for 39-45% of data scientists' workload. This is especially pronounced in heart failure, which affects an estimated 6.7 million U.S. adults and requires integrating fragmented EHR data wi...
+- **Lien** : https://arxiv.org/abs/2608.06366v1
 
-### BnBERT-iPET: Sparse Few-Shot Language Modeling for Bengali via Lottery Ticket Pruning
-- **arXiv** : 2608.05104v1
-- **Date** : 2026-08-05
-- **Auteurs** : Sajib Hossain, Md Kamrus Samad, Anan Ghosh, Labib Imam Chowdhury, Nabeel Mohammed
+### Resourced Authority A Mechanism-Design Model for Participatory Governance of Deployed AI Agents
+- **arXiv** : 2608.06353v1
+- **Date** : 2026-08-06
+- **Auteurs** : Praphul Chandra, Sujit Gujar, Ganesh Ghalme
 - **Score** : 3
-- **Résumé** : Deep neural networks have shown impressive success in NLP tasks owing to their complex structure and huge number of edges. Achieving state-of-the-art performance in natural language processing with a large pre-trained model such as BERT is expensive and time-consuming, carries a large carbon footpri...
-- **Lien** : https://arxiv.org/abs/2608.05104v1
-
-### ABSeeker: Training Long-Horizon Search Agents via Answer-Backtracked Credit Assignment
-- **arXiv** : 2608.05102v1
-- **Date** : 2026-08-05
-- **Auteurs** : Yijun Lu, Rui Ye, Jiajun Wang, Yuwen Du, Tian Jin
-- **Score** : 3
-- **Résumé** : Long-horizon search agents must make multiple sequential actions (steps) to search, retrieve, verify, and integrate evidence to reach a final answer. However, existing methods for training these agents typically treat all steps within a trajectory uniformly during both supervised fine-tuning (SFT) a...
-- **Lien** : https://arxiv.org/abs/2608.05102v1
+- **Résumé** : We give a formal mechanism design model for the continuous participatory governance of a deployed AI agent. The mechanism is built on the principle that governance should control an AI agent through resource allocation so as to make authorization self enforcing via compute budgets. The mechanism see...
+- **Lien** : https://arxiv.org/abs/2608.06353v1
 
 <!-- ARXIV_FEED_END -->
