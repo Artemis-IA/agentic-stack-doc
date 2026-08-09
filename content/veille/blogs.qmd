@@ -69,14 +69,6 @@ graph LR
 | Hardware | `GPU`, `H100`, `B200`, `TPU`, `LPU`, `Groq` |
 
 <!-- BLOG_FEED_START -->
-### Introducing Muse Code and Muse Spark 1.2
-- **Source** : Simon Willison
-- **Date** : 2026-08-05T23:58
-- **Score** : 3
-- **Résumé** : Introducing Muse Code and Muse Spark 1.2
-Yet more evidence that the most important characteristic of any model these days is long-sequence agentic tool calling. Meta shipped their own coding...
-- **Lien** : https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything
-
 ### Last Week in AI #341 - Musk loses to OpenAI, Google's IO updates, OpenAI solves Erdős
 - **Source** : Last Week in AI
 - **Date** : Wed, 27 May 2026
@@ -154,6 +146,14 @@ On Wednesday I wrote about One-shotting a Raccoon Heist game using Claude Fable 
 - **Score** : 1
 - **Résumé** : AI engineers are rediscovering ontologies as a way to keep probabilistic agents inside deterministic boundaries....
 - **Lien** : https://www.latent.space/p/ontologies-agentic-systems
+
+### Auto mode is now the default in Claude Code for Pro, Max, and Team plans
+- **Source** : Simon Willison
+- **Date** : 2026-08-08T22:36
+- **Score** : 1
+- **Résumé** : Auto mode is now the default in Claude Code for Pro, Max, and Team plans
+Anthropic are really confident in Claude Code's auto mode, t...
+- **Lien** : https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything
 
 ### Baseten on Hugging Face Inference Providers 🔥
 - **Source** : Hugging Face Blog
