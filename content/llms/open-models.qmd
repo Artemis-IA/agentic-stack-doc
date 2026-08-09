@@ -123,7 +123,7 @@ DeepSeek R1 est le premier modèle de raisonnement open weights (RL-trained). Pe
 ### [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT)
 an experimental open-source application showcasing the capabilities of the GPT-4 language model.
 
-⭐ 186.4k | `Python` | Licence: NOASSERTION | MAJ: 2026-08-09
+⭐ 186.5k | `Python` | Licence: NOASSERTION | MAJ: 2026-08-09
 **Tags** : `agentic-ai`, `agents`, `ai`, `artificial-intelligence`, `autonomous-agents`, `claude`, `gpt`, `llama-api`
 
 ### [ollama](https://github.com/ollama/ollama)
@@ -141,7 +141,7 @@ A collection of prompt examples to be used with the ChatGPT model.
 ### [Dify](https://github.com/langgenius/dify)
 An open-source LLM app development platform with an intuitive interface that streamlines AI workflows, model management, and production deployment.
 
-⭐ 151.8k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-08-09
+⭐ 151.9k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-08-09
 **Tags** : `agent`, `agentic-ai`, `agentic-framework`, `agentic-workflow`, `ai`, `automation`, `claude`, `genai`
 
 ### [LangChain](https://github.com/hwchase17/langchain)
@@ -156,11 +156,11 @@ LLM inference in C/C++.
 ⭐ 123.2k | `C++` | Licence: MIT | MAJ: 2026-08-09
 **Tags** : `ggml`
 
-### [browser-use](https://github.com/browser-use/browser-use)
-🌐 Make websites accessible for AI agents. Automate tasks online with ease.
+### [graphify](https://github.com/Graphify-Labs/graphify)
+Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing...
 
-⭐ 108.4k | `Python` | Licence: MIT | MAJ: 2026-08-09
-**Tags** : `ai-agents`, `ai-tools`, `browser-automation`, `browser-use`, `llm`, `playwright`, `python`
+⭐ 104.5k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-09
+**Tags** : `ai-agents`, `antigravity`, `ast`, `claude-code`, `code-analysis`, `code-search`, `codex`, `cursor`
 
 ### [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
 First open-sourced GPT-4o level model.
@@ -199,7 +199,7 @@ Course to get into Large Language Models (LLMs) with roadmaps and Colab notebook
 ### [Embedchain](https://github.com/embedchain/embedchain)
 Framework to create ChatGPT like bots over your dataset.
 
-⭐ 62.8k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-09
+⭐ 62.9k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-09
 **Tags** : `agents`, `ai`, `ai-agents`, `application`, `chatbots`, `chatgpt`, `genai`, `llm`
 
 ### [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
@@ -208,8 +208,14 @@ A Chinese collection of prompt examples to be used with the ChatGPT model.
 ⭐ 61.4k | Licence: MIT | MAJ: 2026-08-09
 **Tags** : `chat-gpt`, `chatgpt`, `chatgpt3`, `chatgpt4`, `gpt`
 
-### [upstash/context7](https://github.com/upstash/context7)
-📇 ☁️ - Up-to-date code documentation for LLMs and AI code editors.
+### [TrendRadar](https://github.com/sansan0/TrendRadar)
+⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构...
+
+⭐ 61.3k | `Python` | Licence: GPL-3.0 | MAJ: 2026-08-09
+**Tags** : `ai`, `bark`, `data-analysis`, `docker`, `hot-news`, `llm`, `mail`, `mcp`
+
+### [context7](https://github.com/upstash/context7)
+Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors
 
 ⭐ 60.5k | `TypeScript` | Licence: MIT | MAJ: 2026-08-09
 **Tags** : `llm`, `mcp`, `mcp-server`, `vibe-coding`
@@ -231,10 +237,5 @@ DeepSpeed is a deep learning optimization library that makes distributed trainin
 
 ⭐ 42.9k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-09
 **Tags** : `billion-parameters`, `compression`, `data-parallelism`, `deep-learning`, `gpu`, `inference`, `machine-learning`, `mixture-of-experts`
-
-### [FastChat](https://github.com/lm-sys/FastChat)
-A distributed multi-model LLM serving system with web UI and OpenAI-compatible RESTful APIs.
-
-⭐ 39.5k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-09
 
 <!-- TOOLS_LLM_END -->
