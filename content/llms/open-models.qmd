@@ -120,12 +120,6 @@ DeepSeek R1 est le premier modèle de raisonnement open weights (RL-trained). Pe
 ## Outils & frameworks d'inference découverts automatiquement
 
 <!-- TOOLS_LLM_START -->
-### [ECC](https://github.com/affaan-m/ECC)
-The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
-
-⭐ 239.1k | `JavaScript` | Licence: MIT | MAJ: 2026-08-10
-**Tags** : `ai-agents`, `anthropic`, `claude`, `claude-code`, `developer-tools`, `llm`, `mcp`, `productivity`
-
 ### [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT)
 an experimental open-source application showcasing the capabilities of the GPT-4 language model.
 
@@ -141,13 +135,13 @@ Get up and running with Llama 3, Mistral, Gemma, and other large language models
 ### [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
 A collection of prompt examples to be used with the ChatGPT model.
 
-⭐ 166.9k | `HTML` | Licence: NOASSERTION | MAJ: 2026-08-10
+⭐ 167.0k | `HTML` | Licence: NOASSERTION | MAJ: 2026-08-10
 **Tags** : `ai`, `artificial-intelligence`, `awesome-list`, `chatgpt`, `chatgpt-prompts`, `claude`, `gemini`, `gpt`
 
 ### [dify](https://github.com/langgenius/dify)
 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without ...
 
-⭐ 151.9k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-08-10
+⭐ 152.0k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-08-10
 **Tags** : `agent`, `agentic-ai`, `agentic-framework`, `agentic-workflow`, `ai`, `automation`, `claude`, `genai`
 
 ### [open-webui](https://github.com/open-webui/open-webui)
@@ -156,10 +150,16 @@ User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
 ⭐ 148.4k | `Python` | Licence: NOASSERTION | MAJ: 2026-08-10
 **Tags** : `ai`, `llm`, `llm-ui`, `llm-webui`, `llms`, `mcp`, `ollama`, `ollama-webui`
 
+### [langchain](https://github.com/langchain-ai/langchain)
+The agent engineering platform.
+
+⭐ 143.9k | `Python` | Licence: MIT | MAJ: 2026-08-10
+**Tags** : `agents`, `ai`, `ai-agents`, `anthropic`, `chatgpt`, `deepagents`, `enterprise`, `framework`
+
 ### [LangChain](https://github.com/hwchase17/langchain)
 the original 🐍 !GitHub Repo stars
 
-⭐ 143.8k | `Python` | Licence: MIT | MAJ: 2026-08-10
+⭐ 143.9k | `Python` | Licence: MIT | MAJ: 2026-08-10
 **Tags** : `agents`, `ai`, `ai-agents`, `anthropic`, `chatgpt`, `deepagents`, `enterprise`, `framework`
 
 ### [llama.cpp](https://github.com/ggerganov/llama.cpp)
@@ -171,24 +171,24 @@ LLM inference in C/C++.
 ### [generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners)
 21 Lessons, Get Started Building with Generative AI
 
-⭐ 117.2k | `Jupyter Notebook` | Licence: MIT | MAJ: 2026-08-10
+⭐ 117.3k | `Jupyter Notebook` | Licence: MIT | MAJ: 2026-08-10
 **Tags** : `ai`, `azure`, `chatgpt`, `dall-e`, `generative-ai`, `generativeai`, `gpt`, `language-model`
 
 ### [graphify](https://github.com/Graphify-Labs/graphify)
 Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing...
 
-⭐ 104.7k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-10
+⭐ 104.9k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-10
 **Tags** : `ai-agents`, `antigravity`, `ast`, `claude-code`, `code-analysis`, `code-search`, `codex`, `cursor`
 
 ### [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
 First open-sourced GPT-4o level model.
 
-⭐ 104.1k | `Python` | Licence: MIT | MAJ: 2026-08-10
+⭐ 104.2k | `Python` | Licence: MIT | MAJ: 2026-08-10
 
 ### [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
 Implement a ChatGPT-like LLM in PyTorch from scratch, step by step
 
-⭐ 102.1k | `Jupyter Notebook` | Licence: NOASSERTION | MAJ: 2026-08-10
+⭐ 102.3k | `Jupyter Notebook` | Licence: NOASSERTION | MAJ: 2026-08-10
 **Tags** : `ai`, `artificial-intelligence`, `attention-mechanism`, `deep-learning`, `finetuning`, `from-scratch`, `generative-ai`, `gpt`
 
 ### [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)
@@ -196,10 +196,10 @@ First-generation reasoning models from DeepSeek.
 
 ⭐ 92.0k | Licence: MIT | MAJ: 2026-08-10
 
-### [vLLM](https://github.com/vllm-project/vllm)
-A high-throughput and memory-efficient inference and serving engine for LLMs.
+### [vllm](https://github.com/vllm-project/vllm)
+A high-throughput and memory-efficient inference and serving engine for LLMs
 
-⭐ 88.6k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-10
+⭐ 88.7k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-10
 **Tags** : `amd`, `blackwell`, `cuda`, `deepseek`, `deepseek-v3`, `gpt`, `gpt-oss`, `inference`
 
 ### [OpenDevin](https://github.com/OpenDevin/OpenDevin)
@@ -226,16 +226,16 @@ Course to get into Large Language Models (LLMs) with roadmaps and Colab notebook
 ⭐ 77.4k | `MDX` | Licence: MIT | MAJ: 2026-08-10
 **Tags** : `agent`, `agents`, `ai-agents`, `chatgpt`, `deep-learning`, `generative-ai`, `language-model`, `llms`
 
+### [hello-agents](https://github.com/datawhalechina/hello-agents)
+📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程
+
+⭐ 72.1k | `Python` | Licence: NOASSERTION | MAJ: 2026-08-10
+**Tags** : `agent`, `llm`, `rag`, `tutorial`
+
 ### [gpt4free](https://github.com/xtekky/gpt4free)
 The official gpt4free repository | various collection of powerful language models | opus 4.6 gpt 5.3 kimi 2.5 deepseek v3.2 gemini 3
 
 ⭐ 66.5k | `Python` | Licence: GPL-3.0 | MAJ: 2026-08-10
 **Tags** : `chatbot`, `chatbots`, `chatgpt`, `chatgpt-4`, `chatgpt-api`, `chatgpt-free`, `chatgpt4`, `deepseek`
-
-### [headroom](https://github.com/headroomlabs-ai/headroom)
-Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.
-
-⭐ 65.7k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-10
-**Tags** : `agent`, `ai`, `anthropic`, `claude-code`, `compression`, `context-engineering`, `context-window`, `cursor`
 
 <!-- TOOLS_LLM_END -->
