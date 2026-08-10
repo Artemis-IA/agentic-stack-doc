@@ -112,170 +112,172 @@ crew = Crew(
 ### [OpenClaw](https://github.com/openclaw/openclaw)
 Open-source AI agent framework that turns LLMs into persistent, proactive personal AI agents with multi-channel messaging (Signal, Telegram, Discord, WhatsApp), cron scheduling, memory systems, MCP...
 
-⭐ 385.7k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-08-09
+⭐ 385.7k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-08-10
 **Tags** : `ai`, `assistant`, `crustacean`, `molty`, `openclaw`, `own-your-data`, `personal`
 
 ### [Hermes Agent](https://github.com/nousresearch/hermes-agent)
 The agent that grows with you
 
-⭐ 227.9k | `Python` | Licence: MIT | MAJ: 2026-08-09
+⭐ 228.1k | `Python` | Licence: MIT | MAJ: 2026-08-10
 **Tags** : `ai`, `ai-agent`, `ai-agents`, `anthropic`, `chatgpt`, `claude`, `claude-code`, `clawdbot`
 
 ### [OpenCode](https://github.com/sst/opencode)
 The AI coding agent built for the terminal. !GitHub Repo stars
 
-⭐ 195.4k | `TypeScript` | Licence: MIT | MAJ: 2026-08-09
+⭐ 195.6k | `TypeScript` | Licence: MIT | MAJ: 2026-08-10
 
 ### [deer-flow](https://github.com/bytedance/deer-flow)
 An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of...
 
-⭐ 79.6k | `Python` | Licence: MIT | MAJ: 2026-08-09
+⭐ 79.6k | `Python` | Licence: MIT | MAJ: 2026-08-10
 **Tags** : `agent`, `agentic`, `agentic-framework`, `agentic-workflow`, `ai`, `ai-agents`, `deep-research`, `harness`
 
 ### [Paperclip](https://github.com/paperclipai/paperclip)
 Open-source platform to run coding agents as managed workers with tasks, approvals, budgets, and workspaces. !GitHub Repo stars
 
-⭐ 76.0k | `TypeScript` | Licence: MIT | MAJ: 2026-08-09
+⭐ 76.1k | `TypeScript` | Licence: MIT | MAJ: 2026-08-10
+
+### [Agent-Reach](https://github.com/Panniantong/Agent-Reach)
+Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
+
+⭐ 69.9k | `Python` | Licence: MIT | MAJ: 2026-08-10
+**Tags** : `agent-infrastructure`, `ai-agent`, `ai-search`, `automation`, `bilibili`, `claude-code`, `cli`, `cursor`
+
+### [MetaGPT](https://github.com/FoundationAgents/MetaGPT)
+🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming
+
+⭐ 69.8k | `Python` | Licence: MIT | MAJ: 2026-08-10
+**Tags** : `agent`, `gpt`, `llm`, `metagpt`, `multi-agent`
 
 ### [MetaGPT](https://github.com/geekan/MetaGPT)
 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming
 
-⭐ 69.7k | `Python` | Licence: MIT | MAJ: 2026-08-09
+⭐ 69.8k | `Python` | Licence: MIT | MAJ: 2026-08-10
 **Tags** : `agent`, `gpt`, `llm`, `metagpt`, `multi-agent`
 
 ### [open-interpreter](https://github.com/KillianLucas/open-interpreter)
 A coding agent for open models like Kimi K3
 
-⭐ 67.9k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-08-09
+⭐ 67.9k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-08-10
 **Tags** : `acp`, `coding-agent`, `deepseek`, `kimi`, `qwen`, `rust`
 
 ### [Cline](https://github.com/cline/cline)
 Open-source AI coding agent giving developers direct access to frontier models with full transparency. !GitHub Repo stars
 
-⭐ 65.9k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-08-09
+⭐ 65.9k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-08-10
 
 ### [autogen](https://github.com/microsoft/autogen)
 A programming framework for agentic AI
 
-⭐ 60.3k | `Python` | Licence: CC-BY-4.0 | MAJ: 2026-08-09
+⭐ 60.3k | `Python` | Licence: CC-BY-4.0 | MAJ: 2026-08-10
 **Tags** : `agentic`, `agentic-agi`, `agents`, `ai`, `autogen`, `autogen-ecosystem`, `chatgpt`, `framework`
 
 ### [crewai](https://github.com/joaomdmoura/crewai)
 Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
 
-⭐ 56.9k | `Python` | Licence: MIT | MAJ: 2026-08-09
+⭐ 56.9k | `Python` | Licence: MIT | MAJ: 2026-08-10
 **Tags** : `agents`, `ai`, `ai-agents`, `aiagentframework`, `llms`
 
 ### [Aider](https://github.com/Aider-AI/aider)
 aider is AI pair programming in your terminal !GitHub Repo stars
 
-⭐ 48.1k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-09
+⭐ 48.1k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-10
 **Tags** : `anthropic`, `chatgpt`, `claude-3`, `cli`, `command-line`, `gemini`, `gpt-3`, `gpt-35-turbo`
 
 ### [nanobot](https://github.com/HKUDS/nanobot)
-Ultra-lightweight personal AI assistant framework (~4,000 lines of Python). Supports MCP, 9+ chat channels, and extensible skills system. !GitHub Repo stars
+Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps
 
-⭐ 46.8k | `Python` | Licence: MIT | MAJ: 2026-08-09
+⭐ 46.8k | `Python` | Licence: MIT | MAJ: 2026-08-10
 **Tags** : `agent-framework`, `ai-agent`, `ai-agents`, `chatbot`, `chatops`, `discord-bot`, `llm-agents`, `llms`
+
+### [CowAgent](https://github.com/zhayujie/CowAgent)
+Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install. (f...
+
+⭐ 46.4k | `Python` | Licence: MIT | MAJ: 2026-08-10
+**Tags** : `ai`, `ai-agent`, `ai-agents`, `chatgpt-on-wechat`, `claude`, `claude-code`, `codex`, `cowagent`
 
 ### [Phidata](https://github.com/phidatahq/phidata)
 Build AI Assistants with memory, knowledge and tools. !GitHub Repo stars
 
-⭐ 41.6k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-09
+⭐ 41.6k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-10
 **Tags** : `agents`, `ai`, `ai-agents`, `developer-tools`, `python`
 
-### [tidb](https://github.com/pingcap/tidb)
-TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastruc...
+### [agents](https://github.com/wshobson/agents)
+Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI
 
-⭐ 40.4k | `Go` | Licence: Apache-2.0 | MAJ: 2026-08-09
-**Tags** : `agent`, `agent-context`, `agent-memory`, `agentic`, `ai`, `cloud-native`, `database`, `distributed-database`
+⭐ 38.7k | `Python` | Licence: MIT | MAJ: 2026-08-10
+**Tags** : `agent-skills`, `agentic-ai`, `agents`, `ai-agents`, `anthropic`, `automation`, `claude-code`, `claude-code-plugins`
 
 ### [DSPy](https://github.com/stanfordnlp/dspy)
 The framework for programming—not prompting—foundation models !GitHub Repo stars
 
-⭐ 36.9k | `Python` | Licence: MIT | MAJ: 2026-08-09
+⭐ 37.0k | `Python` | Licence: MIT | MAJ: 2026-08-10
 
 ### [continue](https://github.com/continuedev/continue)
 open-source coding agent
 
-⭐ 35.4k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-08-09
+⭐ 35.4k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-08-10
 **Tags** : `agent`, `ai`, `cli`, `developer-tools`, `open-source`
+
+### [ai-agent-book](https://github.com/bojieli/ai-agent-book)
+《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码
+
+⭐ 35.4k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-10
+**Tags** : `agent`, `agent-memory`, `ai-agent`, `book`, `coding-agent`, `context-engineering`, `large-language-models`, `llm`
 
 ### [ChatDev](https://github.com/OpenBMB/ChatDev)
 ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration
 
-⭐ 34.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-09
+⭐ 34.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-10
 
 ### [GitHub (Issue Only)](https://github.com/getcursor/cursor)
 
-⭐ 33.1k | MAJ: 2026-08-09
-
-### [zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)
-Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀
-
-⭐ 32.5k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-08-09
-**Tags** : `agent`, `agentic`, `ai`, `infra`, `ml`, `openclaw`, `os`, `zeroclaw`
+⭐ 33.1k | MAJ: 2026-08-10
 
 ### [Storm](https://github.com/stanford-oval/storm)
 An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations. !GitHub Repo stars
 
-⭐ 30.9k | `Python` | Licence: MIT | MAJ: 2026-08-09
+⭐ 30.9k | `Python` | Licence: MIT | MAJ: 2026-08-10
 **Tags** : `agentic-rag`, `deep-research`, `emnlp2024`, `knowledge-curation`, `large-language-models`, `naacl`, `nlp`, `report-generation`
+
+### [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)
+"Vibe-Trading: Your Personal Trading Agent"
+
+⭐ 30.5k | `Python` | Licence: MIT | MAJ: 2026-08-10
+**Tags** : `ai-agent`, `algorithmic-trading`, `backtesting`, `fintech`, `llm`, `mcp`, `multi-agent`, `python`
+
+### [agentscope](https://github.com/agentscope-ai/agentscope)
+Build and run agents you can see, understand and trust.
+
+⭐ 28.8k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-10
+**Tags** : `agent`, `chatbot`, `large-language-models`, `llm`, `llm-agent`, `mcp`, `multi-agent`, `multi-modal`
 
 ### [AgentScope](https://github.com/modelscope/agentscope)
 Start building LLM-empowered multi-agent applications in an easier way. !GitHub Repo stars
 
-⭐ 28.7k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-09
+⭐ 28.8k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-10
 **Tags** : `agent`, `chatbot`, `large-language-models`, `llm`, `llm-agent`, `mcp`, `multi-agent`, `multi-modal`
 
 ### [smolagents](https://github.com/huggingface/smolagents)
 Open-source Python library designed to make it extremely easy to build and run agents using just a few lines of code. !GitHub Repo stars
 
-⭐ 28.7k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-09
+⭐ 28.7k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-10
 
-### [Haystack](https://github.com/deepset-ai/haystack)
-NLP framework to interact with your data using Transformer models and LLMs !GitHub Repo stars
+### [haystack](https://github.com/deepset-ai/haystack)
+Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing...
 
-⭐ 26.2k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-09
+⭐ 26.2k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-10
 **Tags** : `agent-framework`, `agentic-ai`, `agentic-rag`, `agents`, `ai`, `ai-agents`, `context-engineering`, `framework`
 
-### [activepieces](https://github.com/activepieces/activepieces)
-AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents
+### [GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents)
+50+ tutorials and implementations for Generative AI Agent techniques, from basic conversational bots to complex multi-agent systems.
 
-⭐ 23.7k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-08-09
-**Tags** : `ai-agent`, `ai-agent-tools`, `ai-agents`, `ai-agents-framework`, `mcp`, `mcp-server`, `mcp-tools`, `mcps`
+⭐ 23.7k | `Jupyter Notebook` | Licence: NOASSERTION | MAJ: 2026-08-10
+**Tags** : `agentic-ai`, `agents`, `ai`, `ai-agents`, `autonomous-agents`, `genai`, `generative-ai`, `langchain`
 
 ### [localGPT](https://github.com/PromtEngineer/localGPT)
 Chat with your documents on your local device using GPT models. No data leaves your device and 100% private.
 
 ⭐ 22.2k | `Python` | Licence: MIT | MAJ: 2026-08-09
-
-### [Swarm](https://github.com/openai/swarm)
-Educational framework exploring ergonomic, lightweight multi-agent orchestration by OpenAI. !GitHub Repo stars
-
-⭐ 21.9k | `Python` | Licence: MIT | MAJ: 2026-08-09
-
-### [adk-python](https://github.com/google/adk-python)
-An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
-
-⭐ 21.1k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-09
-**Tags** : `agent`, `agentic`, `agentic-ai`, `agents`, `agents-sdk`, `ai`, `ai-agents`, `aiagentframework`
-
-### [OpenCodeReview](https://github.com/alibaba/open-code-review)
-An open-source hybrid code reviewer combining deterministic rules with an LLM agent (tool-use, line-level comments); self-hostable, bring-your-own model. !GitHub Repo stars
-
-⭐ 19.8k | `Go` | Licence: Apache-2.0 | MAJ: 2026-08-09
-**Tags** : `agent`, `agent-skills`, `code-review`, `code-review-assistant`, `harness`, `repository-level-context`
-
-### [devika](https://github.com/stitionai/devika)
-Devika is the first open-source implementation of an Agentic Software Engineer. Initially started as an open-source alternative to Devin.
-
-⭐ 19.6k | `Python` | Licence: MIT | MAJ: 2026-08-09
-
-### [WeKnora](https://github.com/Tencent/WeKnora)
-Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.
-
-⭐ 19.6k | `Go` | Licence: NOASSERTION | MAJ: 2026-08-09
-**Tags** : `agent`, `agentic`, `ai`, `chatbot`, `embeddings`, `evaluation`, `generative-ai`, `golang`
 
 <!-- TOOLS_FRAMEWORK_END -->
