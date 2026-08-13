@@ -124,7 +124,7 @@ MCP devient le **standard de facto** pour connecter les agents IA aux outils ext
 ### [n8n](https://github.com/n8n-io/n8n)
 Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
 
-⭐ 200.4k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-08-13
+⭐ 200.5k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-08-13
 **Tags** : `ai`, `apis`, `automation`, `cli`, `data-flow`, `development`, `integration-framework`, `integrations`
 
 ### [gemini-cli](https://github.com/google-gemini/gemini-cli)
@@ -136,7 +136,7 @@ An open-source AI agent that brings the power of Gemini directly into your termi
 ### [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb)
 Connect and unify data across various platforms and databases with MindsDB as a single MCP server.
 
-⭐ 39.5k | `Makefile` | Licence: MIT | MAJ: 2026-08-13
+⭐ 39.6k | `Makefile` | Licence: MIT | MAJ: 2026-08-13
 **Tags** : `agents`, `ai`, `anton`, `artificial-inteligence`, `claude`, `claude-cowork`, `codex`, `cowork`
 
 ### [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)
@@ -270,6 +270,12 @@ Open source MCP Servers for AWS
 ⭐ 5.7k | `Python` | Licence: MIT | MAJ: 2026-08-13
 **Tags** : `atlassian`, `confluence`, `jira`, `mcp`
 
+### [repowise-dev/repowise](https://github.com/repowise-dev/repowise)
+!repowise-dev/repowise MCP server 🐍 🏠 ☁️ - Codebase intelligence for AI coding agents. Indexes a repo into a dependency graph, git history, defect-risk code health, auto-generated docs, and archite...
+
+⭐ 5.7k | `Python` | Licence: AGPL-3.0 | MAJ: 2026-08-13
+**Tags** : `ai`, `code-complexity`, `code-health`, `code-intelligence`, `code-quality`, `dead-code`, `developer-tools`, `documentation`
+
 ### [21st-dev/Magic-MCP](https://github.com/21st-dev/magic-mcp)
 Create crafted UI components inspired by the best 21st.dev design engineers.
 
@@ -286,12 +292,6 @@ Baserow database integration with table search, list, and row create, read, upda
 
 ⭐ 5.6k | `Python` | Licence: NOASSERTION | MAJ: 2026-08-13
 **Tags** : `airtable`, `airtable-alternative`, `airtable-replacement`, `application-builder`, `automations`, `dashboards`, `database`, `low-code`
-
-### [repowise-dev/repowise](https://github.com/repowise-dev/repowise)
-!repowise-dev/repowise MCP server 🐍 🏠 ☁️ - Codebase intelligence for AI coding agents. Indexes a repo into a dependency graph, git history, defect-risk code health, auto-generated docs, and archite...
-
-⭐ 5.6k | `Python` | Licence: AGPL-3.0 | MAJ: 2026-08-13
-**Tags** : `ai`, `code-complexity`, `code-health`, `code-intelligence`, `code-quality`, `dead-code`, `developer-tools`, `documentation`
 
 ### [5ire](https://github.com/nanbingxyz/5ire)
 5ire is a cross-platform desktop AI assistant, MCP client. It compatible with major service providers, supports local knowledge base and tools via model context protocol servers .
