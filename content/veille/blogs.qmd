@@ -69,6 +69,21 @@ graph LR
 | Hardware | `GPU`, `H100`, `B200`, `TPU`, `LPU`, `Groq` |
 
 <!-- BLOG_FEED_START -->
+### Introducing Muse Glimmer
+- **Source** : Simon Willison
+- **Date** : 2026-08-10T23:56
+- **Score** : 3
+- **Résumé** : Introducing Muse Glimmer
+Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old).</p...
+- **Lien** : https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/
+
+### From assistance to execution: How enterprises put AI to work
+- **Source** : OpenAI Blog
+- **Date** : Wed, 12 Aug 2026
+- **Score** : 3
+- **Résumé** : OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption....
+- **Lien** : https://openai.com/index/how-enterprises-put-ai-to-work
+
 ### Last Week in AI #341 - Musk loses to OpenAI, Google's IO updates, OpenAI solves Erdős
 - **Source** : Last Week in AI
 - **Date** : Wed, 27 May 2026
@@ -83,14 +98,6 @@ graph LR
 - **Résumé** : An external reconstruction of how Memory, Proactivity, Scheduling, Browser Use, Plugins, Skills and Tools work in the new ChatGPT Work....
 - **Lien** : https://www.latent.space/p/unpacking-chatgpt-work
 
-### Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)
-- **Source** : Simon Willison
-- **Date** : 2026-08-07T19:18
-- **Score** : 2
-- **Résumé** : Moonlight &amp; Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)
-On Wednesday I wrote about One-shotting a Raccoon Heist game using Claude Fable 5,...
-- **Lien** : https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything
-
 ### Meta is back with Muse Glimmer: local, agentic, multimodal, and open source
 - **Source** : Hugging Face Blog
 - **Date** : Mon, 10 Aug 2026
@@ -104,6 +111,13 @@ On Wednesday I wrote about One-shotting a Raccoon Heist game using Claude Fable 
 - **Score** : 2
 - **Résumé** : Google unveils AI model Gemini 3.5 and AI agent Gemini Spark, Omni turns images, audio, and text into video, Musk loses OpenAI court battle...
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-246-gemini-35-omni
+
+### 🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery
+- **Source** : latent.space
+- **Date** : Tue, 11 Aug 2026
+- **Score** : 1
+- **Résumé** : Pharma is suddenly paying for Bio &#215; AI tools, and Chai is leading the pack with four deals closed this summer. Cofounder Matt McPartlon and Product leader Neil Patil explain why....
+- **Lien** : https://www.latent.space/p/chai-discovery
 
 ### [AINews] Zawinski's Law of MultiAgents
 - **Source** : latent.space
@@ -126,48 +140,30 @@ On Wednesday I wrote about One-shotting a Raccoon Heist game using Claude Fable 
 - **Résumé** : Qwen is so back!...
 - **Lien** : https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new
 
-### The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten
-- **Source** : latent.space
-- **Date** : Mon, 03 Aug 2026
+### DeepSeek V4 Pro 0813 (on OpenRouter)
+- **Source** : Simon Willison
+- **Date** : 2026-08-12T23:59
 - **Score** : 1
-- **Résumé** : Baseten just raised a $13B Series F and is now one of the leading kings of inference engineering. We go into everything you need to know for autoregressive and diffusion engineering....
-- **Lien** : https://www.latent.space/p/inference-eng
+- **Résumé** : DeepSeek V4 Pro 0813 (on OpenRouter)
+The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new m...
+- **Lien** : https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/
 
-### [AINews] not much happened today
-- **Source** : latent.space
-- **Date** : Sat, 01 Aug 2026
+### Stealing Reasoning Traces from Proprietary LLM APIs
+- **Source** : Simon Willison
+- **Date** : 2026-08-11T22:40
 - **Score** : 1
-- **Résumé** : apart from DeepSeek V4-Flash 0731, a quiet day....
-- **Lien** : https://www.latent.space/p/ainews-not-much-happened-today-038
+- **Résumé** : Stealing Reasoning Traces from Proprietary LLM APIs
+A vanity domain name (stolen-thoughts.com) for a neat paper:
 
-### [AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization
-- **Source** : latent.space
-- **Date** : Fri, 31 Jul 2026
-- **Score** : 1
-- **Résumé** : Distillation is all you need!...
-- **Lien** : https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80
-
-### Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web
-- **Source** : latent.space
-- **Date** : Thu, 30 Jul 2026
-- **Score** : 1
-- **Résumé** : AI engineers are rediscovering ontologies as a way to keep probabilistic agents inside deterministic boundaries....
-- **Lien** : https://www.latent.space/p/ontologies-agentic-systems
+Anthropic, OpenAI, and Google ret...
+- **Lien** : https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/
 
 ### Quoting Claude Opus 5 system prompt
 - **Source** : Simon Willison
 - **Date** : 2026-08-09T23:31
 - **Score** : 1
 - **Résumé** : Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Dep...
-- **Lien** : https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything
-
-### Auto mode is now the default in Claude Code for Pro, Max, and Team plans
-- **Source** : Simon Willison
-- **Date** : 2026-08-08T22:36
-- **Score** : 1
-- **Résumé** : Auto mode is now the default in Claude Code for Pro, Max, and Team plans
-Anthropic are really confident in Claude Code's auto mode, t...
-- **Lien** : https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything
+- **Lien** : https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/
 
 ### Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS
 - **Source** : Hugging Face Blog
@@ -183,13 +179,6 @@ Anthropic are really confident in Claude Code's auto mode, t...
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/baseten
 
-### Deploy local agents everywhere with LFM2.5-2.6B
-- **Source** : Hugging Face Blog
-- **Date** : Tue, 04 Aug 2026
-- **Score** : 1
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b
-
 ### GPU Management: Why Idle GPUs Are the New Grounded Aircraft
 - **Source** : Hugging Face Blog
 - **Date** : Thu, 30 Jul 2026
@@ -204,12 +193,19 @@ Anthropic are really confident in Claude Code's auto mode, t...
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/agent-intrusion-technical-timeline
 
-### Bringing Nunchaku 4-bit Diffusion Inference to Diffusers
-- **Source** : Hugging Face Blog
-- **Date** : Thu, 23 Jul 2026
+### How RingCentral builds AI-native work from engineering to ops
+- **Source** : OpenAI Blog
+- **Date** : Wed, 12 Aug 2026
 - **Score** : 1
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/nunchaku-diffusers
+- **Résumé** : See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations....
+- **Lien** : https://openai.com/index/ringcentral
+
+### Testing ads in ChatGPT
+- **Source** : OpenAI Blog
+- **Date** : Tue, 11 Aug 2026
+- **Score** : 1
+- **Résumé** : OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control....
+- **Lien** : https://openai.com/index/testing-ads-in-chatgpt
 
 ### Model ML completes finance work more efficiently with GPT-5.6 Sol
 - **Source** : OpenAI Blog
@@ -225,25 +221,32 @@ Anthropic are really confident in Claude Code's auto mode, t...
 - **Résumé** : Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing....
 - **Lien** : https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows
 
-### Premium seats are coming to ChatGPT Business
+### Virgin Atlantic sharpens customer journeys with ChatGPT Work
 - **Source** : OpenAI Blog
 - **Date** : Mon, 10 Aug 2026
 - **Score** : 1
-- **Résumé** : Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work....
-- **Lien** : https://openai.com/index/premium-seats-chatgpt-business
+- **Résumé** : Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey....
+- **Lien** : https://openai.com/index/virgin-atlantic/chatgpt-work
 
-### How HSP GRUPPE builds AI capabilities for tax advisory
-- **Source** : OpenAI Blog
-- **Date** : Fri, 07 Aug 2026
+### LWiAI Podcast #253 - Opus 5, Gemini 3.6, Kimi K3, Hugging Face Hack
+- **Source** : Last Week in AI
+- **Date** : Mon, 03 Aug 2026
 - **Score** : 1
-- **Résumé** : Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service....
-- **Lien** : https://openai.com/index/hsp-gruppe
+- **Résumé** : Anthropic releases Opus 5 promising Fable 5-like capabilities, Google Releases Three New Gemini A.I. Models, and more!...
+- **Lien** : https://lastweekin.ai/p/lwiai-podcast-253-opus-5-gemini-36
 
-### Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users
-- **Source** : OpenAI Blog
-- **Date** : Thu, 06 Aug 2026
+### LWiAI Podcast #252 - GPT 5.6, Grok 4.5, Nemotron-Labs-Diffusion, AI 2040
+- **Source** : Last Week in AI
+- **Date** : Tue, 21 Jul 2026
 - **Score** : 1
-- **Résumé** : ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna....
-- **Lien** : https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt
+- **Résumé** : GPT-5.6 and Grok 4.5, Meta's Muse Spark 1.1, regulatory developments in AI and data centers, interpretability research from Anthropic, and the future of AI policy with AI 2040...
+- **Lien** : https://lastweekin.ai/p/lwiai-podcast-252-gpt-56-grok-45
+
+### Last Week in AI #251 - Mythos Back, Sonnet 5, Etched, LongCat
+- **Source** : Last Week in AI
+- **Date** : Tue, 21 Jul 2026
+- **Score** : 1
+- **Résumé** : Trump lifts restrictions on Anthropic, Anthropic launches Claude Sonnet 5, Google's NotebookLM updates, chips stories from Etched and Baidu, and more!...
+- **Lien** : https://lastweekin.ai/p/last-week-in-ai-251-mythos-back-sonnet
 
 <!-- BLOG_FEED_END -->

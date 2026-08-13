@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### An End-to-End Agent Auditing Engine
-- **arXiv** : 2608.07346v1
-- **Date** : 2026-08-07
-- **Auteurs** : Haoning Wang, Mingxun Zhang, Chenyue Yu, Yingjun Shang, Xia Hu
+### The Role Specialization Model (RSM): Coordinating LLM-Based Tools in Agentic Software Development - An Exploratory Case Study
+- **arXiv** : 2608.12311v1
+- **Date** : 2026-08-12
+- **Auteurs** : Carlos Alberto Fernández-y-Fernández, Jorge R. Aguilar-Cisneros
+- **Score** : 15
+- **Résumé** : The integration of large language models (LLMs) into software development workflows has given rise to a paradigm known as Agentic Software Engineering (SE 3.0), in which autonomous agents manage full development life cycles under human supervision. This paper presents an exploratory case study in wh...
+- **Lien** : https://arxiv.org/abs/2608.12311v1
+
+### A corpus-specific clinical RAG system matches or outperforms newer frontier LLMs on HealthBench
+- **arXiv** : 2608.12138v1
+- **Date** : 2026-08-12
+- **Auteurs** : Praveen Reddy, Charuta Mandke, Suvrankar Datta, Sarah Khan, Siddharth Reddy Anthireddy
 - **Score** : 10
-- **Résumé** : With the rapid advancement of large language models (LLMs), harnesses have become essential infrastructure for deploying agents across a wide range of domains. The fast-evolving harness ecosystem has also made rigorous capability evaluation increasingly important. However, efficiently building an en...
-- **Lien** : https://arxiv.org/abs/2608.07346v1
+- **Résumé** : General-purpose large language models (LLMs) have recently been reported to match or exceed specialized clinical AI tools on medical benchmarks, but such comparisons draw on a narrow set of systems and on benchmarks developed largely in high-income settings. We evaluate VITA, a retrieval-augmented g...
+- **Lien** : https://arxiv.org/abs/2608.12138v1
 
-### Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing
-- **arXiv** : 2608.07437v1
-- **Date** : 2026-08-07
-- **Auteurs** : Jiacheng Miao, Jin Mu, Guanhua Chen, James Zou
+### One Frozen Simulator Is Not Enough: Simulator Collapse in Multi-Agent RL
+- **arXiv** : 2608.12253v1
+- **Date** : 2026-08-12
+- **Auteurs** : Simon Yu, Nicholas Tomlin, Marwa Abdulhai, Ximing Lu, Derek Chong
 - **Score** : 9
-- **Résumé** : Reliable hypothesis testing is the foundation of many empirical scientific claims. Large language model (LLM) agents are increasingly used to automate this process, as they can inspect datasets, generate code, and produce analyses end-to-end. However, we show that they frequently make subtle inferen...
-- **Lien** : https://arxiv.org/abs/2608.07437v1
+- **Résumé** : Multi-agent reinforcement learning for human-AI interaction typically relies on a single large language model to simulate user behavior. We show that this approach systematically fails to generalize, and trace the failure to simulator collapse: because the simulator LLM is mode-collapsed, an LLM pol...
+- **Lien** : https://arxiv.org/abs/2608.12253v1
 
-### People Are Not Just Their Countries. Disentangling Social Determinants of LLM Value Alignment Across Europe
-- **arXiv** : 2608.07367v1
-- **Date** : 2026-08-07
-- **Auteurs** : Maria-Louisa Wightman, Guillaume Bied, Tijl De Bie
+### SAG: SQL-Retrieval Augmented Generation with Query-Time Dynamic Hyperedges
+- **arXiv** : 2608.12129v1
+- **Date** : 2026-08-12
+- **Auteurs** : Yuchao Wu, Junqin Li, XingCheng Liang, Yongjie Chen, Yinghao Liang
 - **Score** : 9
-- **Résumé** : As Large Language Models (LLMs) are increasingly used as a primary source of information and advice, understanding their alignment to humans in terms of values becomes a pressing concern. A growing literature has leveraged large scale surveys to investigate to what extent LLMs' and humans' stated va...
-- **Lien** : https://arxiv.org/abs/2608.07367v1
+- **Résumé** : While retrieval-augmented generation (RAG) has proven effective at giving LLMs access to external knowledge, mainstream dense-retrieval implementations remain inherently limited in handling structured constraints and multi-hop reasoning. Graph-based methods address this by constructing knowledge gra...
+- **Lien** : https://arxiv.org/abs/2608.12129v1
 
-### CreativeInstruct: Scalably Teaching LLMs to Balance Quality, Creativity, and Diversity
-- **arXiv** : 2608.07460v1
-- **Date** : 2026-08-07
-- **Auteurs** : Ananya Sahu, Mohit Bansal, Elias Stengel-Eskin
+### Who Thinks Best Depends on How Long You Let Them: Budget-Dependent Rankings in LLM Evaluation
+- **arXiv** : 2608.12150v1
+- **Date** : 2026-08-12
+- **Auteurs** : Rodrigo Guedes de Souza, Alison R. Panisson
+- **Score** : 8
+- **Résumé** : Standard evaluation of large language models assumes stable model rankings across inference conditions. We challenge this assumption by varying the token generation budget, i.e., the maximum tokens a model may produce, across seven levels (64--4,096), evaluating four models on three reasoning benchm...
+- **Lien** : https://arxiv.org/abs/2608.12150v1
+
+### VAKRA: Evaluating Multi-Hop Reasoning Across APIs and Retrieval Under Tool-Use Policies
+- **arXiv** : 2608.12282v1
+- **Date** : 2026-08-12
+- **Auteurs** : Ankita Rajaram Naik, Anupama Murthi, Benjamin Elder, Siyu Huo, Raavi Gupta
 - **Score** : 7
-- **Résumé** : While post-training improves the capabilities of large language models (LLMs), it generally lowers their output diversity and creativity, negatively impacting tasks that explicitly require creativity (e.g., story generation) as well as those that require it implicitly, e.g., reinforcement learning (...
-- **Lien** : https://arxiv.org/abs/2608.07460v1
+- **Résumé** : Agents deployed in enterprise settings must reason across structured APIs and document collections, yet existing benchmarks evaluate these capabilities in isolation. We introduce VAKRA (e	extbf{V}aluating 	extbf{A}PI and 	extbf{K}nowledge 	extbf{R}etrieval 	extbf{A}gents), a benchmark of over $...
+- **Lien** : https://arxiv.org/abs/2608.12282v1
 
-### A Picture is Worth a Thousand Tokens: How Vision Language Models Cut AI Energy Costs While Improving Accuracy
-- **arXiv** : 2608.07427v1
-- **Date** : 2026-08-07
-- **Auteurs** : Bhavika Jalli, Nikhil Korati Prasanna, Jayanta Choudhury
+### Diagram-MMU: A Multi-Modal Benchmark for Scientific Diagrams
+- **arXiv** : 2608.12262v1
+- **Date** : 2026-08-12
+- **Auteurs** : Weihao Bo, Shan Zhang, Yanpeng Sun, Jie Liu, Yongke Yao
 - **Score** : 7
-- **Résumé** : LLM inference accounts for over 90% of AI operational energy, scaling directly with input token count---a critical inefficiency for telecom network analytics and numerical time-series data analysis (NTSDA), where raw multivariate KPI windows from 4G/5G cell sites expand into thousands of floating-po...
-- **Lien** : https://arxiv.org/abs/2608.07427v1
+- **Résumé** : Multimodal Large Language Models (MLLMs) have been growing the capability for scientific writing and collaboration. For example, OpenAI Prism is a free workspace for scientific writing and collaboration. One important feature in Prism is turning scientific diagrams directly into LaTeX TikZ code. In ...
+- **Lien** : https://arxiv.org/abs/2608.12262v1
 
-### GeoBenchLLM: A Comprehensive Benchmark for Evaluating LLMs on Geo-Related Tasks
-- **arXiv** : 2608.07411v1
-- **Date** : 2026-08-07
-- **Auteurs** : Rodrigo Ferreira Rodrigues, Karim Radouane, Jose G Moreno, Lynda Tamine
-- **Score** : 7
-- **Résumé** : In the context of geodata, existing Large Language Models have often been studied in a homogeneous setting, which has considerably limited insights into their generalization capabilities. In this paper, we present enchName, a comprehensive benchmark for probing LLMs on geo-related tasks. We levera...
-- **Lien** : https://arxiv.org/abs/2608.07411v1
-
-### Geo-Spatial Concept Probing of Large Language Models: Abstraction, Compositionality, and Grounding
-- **arXiv** : 2608.07353v1
-- **Date** : 2026-08-07
-- **Auteurs** : Karim Radouane, Jose G Moreno, Lynda Tamine
-- **Score** : 7
-- **Résumé** : Understanding concepts is fundamental to generalization. Despite their impressive performance on a wide range of tasks, Large Language Models (LLMs) still struggle with genuine concept understanding. Prior work has evaluated conceptual understanding in LLMs using natural-language benchmarks or narro...
-- **Lien** : https://arxiv.org/abs/2608.07353v1
-
-### SkillProx: Self-Evolving Agent Skills via Proximal Textual Gradient Descent
-- **arXiv** : 2608.07449v1
-- **Date** : 2026-08-07
-- **Auteurs** : Mingxuan Zheng, Yujin Zhou, Chuxue Cao, Boqin Yin, Yuyao Zhang
+### AVA-Encoder: Towards Agent-Native Video Representation Learning
+- **arXiv** : 2608.12313v1
+- **Date** : 2026-08-12
+- **Auteurs** : Chuyue Li, Jinpeng Yu, Haozhe Wang, Tian Xueyun, Zhijing Zhang
 - **Score** : 6
-- **Résumé** : LLM agents increasingly adapt to recurring tasks by accumulating procedural knowledge in skills. These skills are lightweight, reusable textual artifacts that are loaded into the agent's context without weight updates. Recent methods refine skills through iterative task execution, failure diagnosis,...
-- **Lien** : https://arxiv.org/abs/2608.07449v1
+- **Résumé** : Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce cinematic-grade videos. A key challenge is the absence of a structured video representation that is both faithful to film content and directly usable for agentic reasoning and manipu...
+- **Lien** : https://arxiv.org/abs/2608.12313v1
 
-### Taxonomy-Driven Analysis of Open-Source AI Risk Mitigation Tools
-- **arXiv** : 2608.07446v1
-- **Date** : 2026-08-07
-- **Auteurs** : Afreen Alam, Evgenija Popchanovska, Ana Gjorgjevikj, Maryan Rizinski, Lubomir T. Chitkushev
+### Constructing Dynamic Master Logic Models as Knowledge Graphs for Complex System Diagnostics Using Retrieval-Augmented Large Language Models
+- **arXiv** : 2608.12304v1
+- **Date** : 2026-08-12
+- **Auteurs** : Saman Marandi, Yu-Shu Hu, Mohammad Modarres
 - **Score** : 6
-- **Résumé** : Rapid adoption of large language models (LLMs) in enterprise settings has introduced operational, security, and governance risks. As generative AI applications move from pilot to production, manual harm identification and mitigation are becoming difficult to scale. Although many tools support model ...
-- **Lien** : https://arxiv.org/abs/2608.07446v1
+- **Résumé** : Dynamic Master Logic (DML) provides a hierarchical framework for representing system behavior by linking functional objectives to underlying structural elements. However, DML construction typically relies on expert interpretation of technical documentation, limiting scalability for complex systems. ...
+- **Lien** : https://arxiv.org/abs/2608.12304v1
 
-### Blast Radius
-- **arXiv** : 2608.07440v1
-- **Date** : 2026-08-07
-- **Auteurs** : MY Pitsane, Hope Mogale
+### Beyond Trial-and-Error: Agentic Optimization for Image-to-Video Adherence
+- **arXiv** : 2608.12290v1
+- **Date** : 2026-08-12
+- **Auteurs** : Aman Tyagi, Hemanth Boinpally, Jonathan Chen, Douglas Gebert, Steven Hickson
 - **Score** : 6
-- **Résumé** : Agentic coding faces growing problems of affordability and wasted tokens. We introduce Blast Radius, a predictive memory management layer that estimates an incoming prompt's reach through coupled context and code channels. NECROPHORESIS enables reversible eviction by archiving dead context verbatim,...
-- **Lien** : https://arxiv.org/abs/2608.07440v1
+- **Résumé** : Modern black-box Image-to-Video (I2V) models offer powerful capabilities in automated content creation, yet their lack of fine-grained control and reliability presents significant challenges in professional workflows. Their inherent stochasticity causes minor variations in textual prompts or hyperpa...
+- **Lien** : https://arxiv.org/abs/2608.12290v1
 
-### PsychoAgent: An Affect-Sensitive Cognitive Architecture for Conflict-Aware Memory in LLM Agents
-- **arXiv** : 2608.07438v1
-- **Date** : 2026-08-07
-- **Auteurs** : Mohammad Amanlou, Parham Abed Azad, Farbod Davoodi, Mostafa Masumi, Behnam Bahrak
+### Convergent Detour Hijacking: Task-Preserving Resource Amplification in Skill-Based LLM Agents
+- **arXiv** : 2608.12273v1
+- **Date** : 2026-08-12
+- **Auteurs** : Junliang Liu, Ruoyu Li, Wenxin Tang, Jingyu Xiao, Zhenyu Liu
 - **Score** : 6
-- **Résumé** : Human-like cognition does not select past experience by topical similarity alone: affective significance and unresolved conflict also shape what becomes accessible. We present PsychoAgent, a cognitive architecture for LLM agents that separates factual and affective memory and integrates both through...
-- **Lien** : https://arxiv.org/abs/2608.07438v1
+- **Résumé** : LLM agents increasingly rely on third-party skills, using natural-language descriptions for selection and instruction bodies for planning. This progressive-disclosure design exposes two sequential control points to untrusted publishers: a static skill may steer an otherwise correct task onto an unne...
+- **Lien** : https://arxiv.org/abs/2608.12273v1
 
-### Diffusion LLMs as Targets and Adversaries: Mechanistic Safety Exploits
-- **arXiv** : 2608.07430v1
-- **Date** : 2026-08-07
-- **Auteurs** : Elena Dumitrescu, Gert Lek, Lydia Y. Chen, Jérémie Decouchant
+### An Agentic Workflow for Legacy HPC Modernization: Converting the Two-Electron-Integral Core of GAMESS
+- **arXiv** : 2608.12249v1
+- **Date** : 2026-08-12
+- **Auteurs** : Yuzhong Shen, Masha Sosonkina, Peng Xu, Mark S. Gordon
 - **Score** : 6
-- **Résumé** : Diffusion Large Language Models (DLLMs) replace autoregressive next-token prediction with iterative parallel denoising, yet their internal safety mechanisms remain poorly understood. In this work, we investigate DLLMs both as targets and as adversaries, exposing mechanistic vulnerabilities in diffus...
-- **Lien** : https://arxiv.org/abs/2608.07430v1
+- **Résumé** : Modernizing legacy Fortran is a problem of volume: the transformations are individually routine, but the codebases can be enormous, and across much of computational science the work simply goes undone. We propose an agentic workflow that takes this work on at production scale, and we set out to meas...
+- **Lien** : https://arxiv.org/abs/2608.12249v1
 
-### Beyond Post-Hoc Temperature Scaling: Bilevel Optimization for LLM Calibration
-- **arXiv** : 2608.07419v1
-- **Date** : 2026-08-07
-- **Auteurs** : Ruochen Jin, Zhanliang Wang, Zongyu Dai, Jiancong Xiao, Bojian Hou
+### Towards Automated Domain Model Extraction from Source Code using Heuristics and Open-Source LLMs
+- **arXiv** : 2608.12228v1
+- **Date** : 2026-08-12
+- **Auteurs** : Alessandra Mancas, Mounir Ammam, Hyacinth Ali, Kevin Delcourt, Houari Sahraoui
 - **Score** : 6
-- **Résumé** : Preference alignment often makes large language models (LLMs) overconfident and poorly calibrated. Traditional post-hoc temperature scaling is inherently domain-dependent: a temperature fitted on one domain does not generalize across domains. This motivates us to modify model parameters during train...
-- **Lien** : https://arxiv.org/abs/2608.07419v1
+- **Résumé** : Large language models (LLMs) have recently shown strong capabilities for code understanding, making them promising for reverse engineering domain models from source code. However, state-ofthe- art proprietary LLMs cannot be used in many industrial contexts due to privacy and confidentiality constrai...
+- **Lien** : https://arxiv.org/abs/2608.12228v1
 
-### PACE: Primitive-Aware Code Evolution for Automated Algorithm Design
-- **arXiv** : 2608.07395v1
-- **Date** : 2026-08-07
-- **Auteurs** : Zhuoliang Xie, Ruihao Zheng, Xiang Xu, Genghui Li, Zhengkun Wang
+### NetlistBench: Evaluating LLM Reliability in SPICE Netlist Recognition and Manipulation
+- **arXiv** : 2608.12197v1
+- **Date** : 2026-08-12
+- **Auteurs** : Jiarui Ma, Jianghan Wang, Yuheng Ma, Ziyi Zhuang, Xiaoguang Liu
 - **Score** : 6
-- **Résumé** : Large Language Model (LLM)-based automated algorithm design typically evolves algorithms as complete, indivisible programs. While this whole-program perspective simplifies the search space, it fundamentally couples the useful local logic to its host program. Consequently, valuable code snippets vani...
-- **Lien** : https://arxiv.org/abs/2608.07395v1
+- **Résumé** : Large Language Models (LLMs) are increasingly used in circuit design workflows, yet their reliability on simulator-facing SPICE netlist recognition and manipulation remains poorly understood and is rarely separated from high-level design reasoning. Although netlists are textual, they encode structur...
+- **Lien** : https://arxiv.org/abs/2608.12197v1
 
-### Trajectory-Relative Hindsight Distillation for Agentic Reinforcement Learning
-- **arXiv** : 2608.07371v1
-- **Date** : 2026-08-07
-- **Auteurs** : Haoyu Zheng, Yun Zhu, Qing Wang, Wenqiao Zhang
+### Massive Activations in Hybrid Linear Attention Large Language Models: Pre-Attention Spikes and Inter-Spike Plateaus
+- **arXiv** : 2608.12149v1
+- **Date** : 2026-08-12
+- **Auteurs** : Zunhai Su, Bohan Sun, Xialie Zhuang, Shuibai Zhang, He Xiao
 - **Score** : 6
-- **Résumé** : Recent agentic reinforcement learning methods use hindsight to complement sparse outcome rewards. However, a completed rollout can yield many such signals, leaving their appropriate allocation across turns unclear. We introduce TRIAL, a trajectory-relative hindsight distillation framework with a uni...
-- **Lien** : https://arxiv.org/abs/2608.07371v1
+- **Résumé** : We present the first systematic study of Massive activations (MAs) in layer-interleaved HLA LLMs and uncover two architecture-aligned morphologies: MAs consistently spike immediately before full attention layers, forming pre-attention spikes (PAS), and can persist through intervening linear attentio...
+- **Lien** : https://arxiv.org/abs/2608.12149v1
 
-### An Exploratory Evaluation of LLM-Assisted Rewriting of Moderate-Complexity Financial Sentences for DisCoCat-Based Sentiment Analysis
-- **arXiv** : 2608.07439v1
-- **Date** : 2026-08-07
-- **Auteurs** : Brian Llinas, Nikos Chrisochoides
-- **Score** : 4
-- **Résumé** : Quantum natural language processing (QNLP) provides a grammar-aware framework for text modeling, and Distributional Compositional Categorical (DisCoCat) is one of its theoretically grounded formulations. Prior work on financial sentiment analysis has identified practical limitations of DisCoCat, inc...
-- **Lien** : https://arxiv.org/abs/2608.07439v1
+### Do LLMs Take Care of Their Own? Similarity Signals Can Induce Cooperation
+- **arXiv** : 2608.12125v1
+- **Date** : 2026-08-12
+- **Auteurs** : Akash Kundu, Emanuel Tewolde, Ratip Emin Berker, Samuel F. Brown, Vincent Conitzer
+- **Score** : 6
+- **Résumé** : As LLM-based agents with user-instructed goals are becoming widely deployed, they increasingly encounter each other in strategic interactions, and face challenges of finding mutually beneficial outcomes. Prior literature has argued that cooperation problems such as the Prisoner's Dilemma are resolva...
+- **Lien** : https://arxiv.org/abs/2608.12125v1
 
-### SABRE: Scalable and Automated Benchmarking of VLMs under Stress
-- **arXiv** : 2608.07435v1
-- **Date** : 2026-08-07
-- **Auteurs** : Zixuan Lan, Luzhe Sun, Matthew R. Walter, Jiawei Zhou
-- **Score** : 4
-- **Résumé** : Vision-language models (VLMs) are improving rapidly, but benchmark development lags behind, making weaknesses hard to identify. Building stress tests is costly: samples must satisfy controlled conditions, remain answerable, and challenge current models. We present SABRE, a scalable, automated pipeli...
-- **Lien** : https://arxiv.org/abs/2608.07435v1
-
-### LitTraceQA: A Benchmark for Multi-Stage Grounding and Verification in Scientific Question Answering
-- **arXiv** : 2608.07370v1
-- **Date** : 2026-08-07
-- **Auteurs** : Xuye Liu, Yimu Wang, Peng Shi, Bo Xue, Xiangrui Ke
-- **Score** : 4
-- **Résumé** : Scientific literature is increasingly used as a knowledge source for language models, retrieval-augmented generation systems, and research assistants, but answering research questions from papers requires more than fluent generation. A reliable system must identify the relevant papers, locate the co...
-- **Lien** : https://arxiv.org/abs/2608.07370v1
-
-### CoinRAG: Contextualized Information Nugget KV Cache Reuse for Long-Context RAG
-- **arXiv** : 2608.07458v1
-- **Date** : 2026-08-07
-- **Auteurs** : Gyuwan Kim, Cheoneum Park, Tao Yang
+### DreamFly: Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision-Language Navigation
+- **arXiv** : 2608.12308v1
+- **Date** : 2026-08-12
+- **Auteurs** : Yan Deng, Fei Xu
 - **Score** : 3
-- **Résumé** : Recent optimization studies on Retrieval-Augmented Generation (RAG) have exploited chunk-level KV cache reuse to avoid processing long retrieved contexts for higher efficiency, while significant information redundancy and noise still remain in the coarse-grained chunks. This paper optimizes the Pare...
-- **Lien** : https://arxiv.org/abs/2608.07458v1
+- **Résumé** : Aerial vision-language navigation (VLN) requires an embodied agent to integrate visual evidence over time, plan future actions, and determine when it has reached a navigation goal under partial observability. Although recent VLA models offer a promising perception-to-action paradigm, adapting them t...
+- **Lien** : https://arxiv.org/abs/2608.12308v1
 
-### Interaction Creates Dynamical AI Behavior Absent in Isolation
-- **arXiv** : 2608.07457v1
-- **Date** : 2026-08-07
-- **Auteurs** : Bella Xinrui Li, Frank Yingjie Huo, Neil F Johnson
+### Large Language Model-Driven Small-Capitalization Trading: Integrating Financial News Sentiment, Macroeconomic Indicators, and Technical Signals
+- **arXiv** : 2608.12283v1
+- **Date** : 2026-08-12
+- **Auteurs** : Alireza Kargarzadeh, Nariman Khaledian, Navid Parvini, Arman Khaledian
 - **Score** : 3
-- **Résumé** : What will happen when AI agents interact in daily life, e.g. when one AI starts bossing another around? We find a counterintuitive answer that opens new avenues for out-of-equilibrium Physics. When a boss AI directs a stream of messages at the subordinate AI while ignoring its replies, it drives the...
-- **Lien** : https://arxiv.org/abs/2608.07457v1
+- **Résumé** : Large language models can extract richer signals from financial news than fixed sentiment lexicons, and recent work has explored feeding such signals into portfolio construction. We study an uncertainty-aware construction that feeds model-predicted risk -- decomposed into aleatoric and epistemic com...
+- **Lien** : https://arxiv.org/abs/2608.12283v1
+
+### Few-Shot Ordinal Learning for Day-Wise Freshness Estimation with Hyperspectral Fish Images
+- **arXiv** : 2608.12230v1
+- **Date** : 2026-08-12
+- **Auteurs** : Kazi Nabiul Alam, Pooneh Bagheri Zadeh, Akbar Sheikh-Akbari
+- **Score** : 3
+- **Résumé** : Non-destructive food quality assessment has increasingly benefited from hyperspectral imaging (HSI), which captures spectral signatures linked to biochemical changes during storage. Estimating day-wise freshness, however, remains challenging owing to strong inter-fillet variability and scarce labell...
+- **Lien** : https://arxiv.org/abs/2608.12230v1
+
+### SCOUT: Unlocking Enhanced Spatial Reasoning via Structured Chain-of-Thought and Multi-Objective Process Reward
+- **arXiv** : 2608.12220v1
+- **Date** : 2026-08-12
+- **Auteurs** : Zile Zhou, Huining Yuan, Weichen Zhang, Xinlei Chen, Xiao-ping Zhang
+- **Score** : 3
+- **Résumé** : Existing Vision-Language Models (VLMs) exhibits a critical bottleneck in robust spatial reasoning. Recent reinforcement learning (RL) methods aim to close this gap with verifiable outcomes, yet they suffer from poor credit assignment across intermediate reasoning steps. Concurrently, structured reas...
+- **Lien** : https://arxiv.org/abs/2608.12220v1
 
 <!-- ARXIV_FEED_END -->
