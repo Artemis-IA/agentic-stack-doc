@@ -219,7 +219,7 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ### [lharries/whatsapp-mcp](https://github.com/lharries/whatsapp-mcp)
 🐍 🏎️ - An MCP server for searching your personal WhatsApp messages, contacts and sending messages to individuals or groups
 
-⭐ 6.1k | `Go` | Licence: MIT | MAJ: 2026-08-13
+⭐ 6.1k | `Go` | Licence: MIT | MAJ: 2026-08-14
 **Tags** : `ai`, `mcp`, `whatsapp`, `whatsapp-api`
 
 ### [rocketride-org/rocketride-server](https://github.com/rocketride-org/rocketride-server)
@@ -245,6 +245,12 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 
 ⭐ 5.7k | `Python` | Licence: MIT | MAJ: 2026-08-14
 **Tags** : `atlassian`, `confluence`, `jira`, `mcp`
+
+### [awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers)
+Awesome MCP Servers - A curated list of Model Context Protocol servers
+
+⭐ 5.7k | MAJ: 2026-08-14
+**Tags** : `ai`, `anthropic-claude`, `awesome`, `context`, `mcp`, `model-context-protocol`, `servers`, `tool-use`
 
 ### [21st-dev/Magic-MCP](https://github.com/21st-dev/magic-mcp)
 Create crafted UI components inspired by the best 21st.dev design engineers.
@@ -281,21 +287,16 @@ The official Go SDK for Model Context Protocol servers and clients. Maintained i
 ⭐ 4.9k | `TypeScript` | Licence: MIT | MAJ: 2026-08-14
 **Tags** : `code-search`, `codesearch`, `crawling`, `mcp`, `mcp-server`, `model-context-protocol`, `web-search`, `websearch`
 
+### [open-connector](https://github.com/oomol-lab/open-connector)
+Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.
+
+⭐ 4.7k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-08-14
+**Tags** : `agent-tools`, `ai-agents`, `api-gateway`, `automation`, `cli`, `cloudflare-workers`, `connectors`, `integration-platform`
+
 ### [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)
 The official C# SDK for Model Context Protocol servers and clients. Maintained in collaboration with Microsoft.
 
-⭐ 4.5k | `C#` | Licence: NOASSERTION | MAJ: 2026-08-13
+⭐ 4.5k | `C#` | Licence: NOASSERTION | MAJ: 2026-08-14
 **Tags** : `csharp`, `dotnet`, `mcp`, `mcp-client`, `mcp-server`, `modelcontextprotocol`
-
-### [MarkusPfundstein/mcp-obsidian](https://github.com/MarkusPfundstein/mcp-obsidian)
-🐍 ☁️ 🏠 - Interacting with Obsidian via REST API
-
-⭐ 4.3k | `Python` | Licence: MIT | MAJ: 2026-08-14
-
-### [txn2/kubefwd](https://github.com/txn2/kubefwd)
-🏎️ 🏠 - Kubernetes bulk port forwarding with service discovery, /etc/hosts management, traffic monitoring, and pod log streaming
-
-⭐ 4.2k | `Go` | Licence: Apache-2.0 | MAJ: 2026-08-13
-**Tags** : `api-rest`, `developer-tools`, `devops`, `devops-tools`, `devtools`, `k8s`, `kubefwd`, `kubernetes`
 
 <!-- TOOLS_MCP_END -->
