@@ -69,14 +69,6 @@ graph LR
 | Hardware | `GPU`, `H100`, `B200`, `TPU`, `LPU`, `Groq` |
 
 <!-- BLOG_FEED_START -->
-### Introducing Muse Glimmer
-- **Source** : Simon Willison
-- **Date** : 2026-08-10T23:56
-- **Score** : 3
-- **Résumé** : Introducing Muse Glimmer
-Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old).</p...
-- **Lien** : https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/
-
 ### From assistance to execution: How enterprises put AI to work
 - **Source** : OpenAI Blog
 - **Date** : Wed, 12 Aug 2026
@@ -97,6 +89,14 @@ Meta are back in the open weights game! Muse Glimmer is a brand new 30B model un
 - **Score** : 2
 - **Résumé** : An external reconstruction of how Memory, Proactivity, Scheduling, Browser Use, Plugins, Skills and Tools work in the new ChatGPT Work....
 - **Lien** : https://www.latent.space/p/unpacking-chatgpt-work
+
+### llm-gemini 0.33
+- **Source** : Simon Willison
+- **Date** : 2026-08-13T19:37
+- **Score** : 2
+- **Résumé** : Release: llm-gemini 0.33
+        It's been a while since the last llm-gemini release. This version of the plugin adds support for today's <a href="https://blog.google/innovation-and-ai/models...
+- **Lien** : https://simonwillison.net/2026/Aug/13/llm-gemini/
 
 ### Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets
 - **Source** : Hugging Face Blog
@@ -126,6 +126,13 @@ Meta are back in the open weights game! Muse Glimmer is a brand new 30B model un
 - **Résumé** : Google unveils AI model Gemini 3.5 and AI agent Gemini Spark, Omni turns images, audio, and text into video, Musk loses OpenAI court battle...
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-246-gemini-35-omni
 
+### [AINews] Gemini 3.7 Flash brings GDM back to the forefront
+- **Source** : latent.space
+- **Date** : Fri, 14 Aug 2026
+- **Score** : 1
+- **Résumé** : Down, but not out!...
+- **Lien** : https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm
+
 ### 🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery
 - **Source** : latent.space
 - **Date** : Tue, 11 Aug 2026
@@ -147,13 +154,6 @@ Meta are back in the open weights game! Muse Glimmer is a brand new 30B model un
 - **Résumé** : The Inference Inflection is HEATING up....
 - **Lien** : https://www.latent.space/p/ainews-amd-buys-taalas
 
-### [AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork
-- **Source** : latent.space
-- **Date** : Tue, 04 Aug 2026
-- **Score** : 1
-- **Résumé** : Qwen is so back!...
-- **Lien** : https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new
-
 ### DeepSeek V4 Pro 0813 (on OpenRouter)
 - **Source** : Simon Willison
 - **Date** : 2026-08-12T23:59
@@ -171,13 +171,6 @@ A vanity domain name (stolen-thoughts.com) for a neat paper:
 
 Anthropic, OpenAI, and Google ret...
 - **Lien** : https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/
-
-### Quoting Claude Opus 5 system prompt
-- **Source** : Simon Willison
-- **Date** : 2026-08-09T23:31
-- **Score** : 1
-- **Résumé** : Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Dep...
-- **Lien** : https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/
 
 ### Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS
 - **Source** : Hugging Face Blog
@@ -248,5 +241,12 @@ Anthropic, OpenAI, and Google ret...
 - **Score** : 1
 - **Résumé** : Trump lifts restrictions on Anthropic, Anthropic launches Claude Sonnet 5, Google's NotebookLM updates, chips stories from Etched and Baidu, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-251-mythos-back-sonnet
+
+### Last Week in AI #250 - Mythos Mess, GPT 5.6-Sol, GLM 5.2
+- **Source** : Last Week in AI
+- **Date** : Tue, 21 Jul 2026
+- **Score** : 1
+- **Résumé** : Anthropic's AI treaty discussions, US government's influence on AI model releases, OpenAI's processor development, memory market impacts, and more!...
+- **Lien** : https://lastweekin.ai/p/last-week-in-ai-250-mythos-mess-gpt
 
 <!-- BLOG_FEED_END -->

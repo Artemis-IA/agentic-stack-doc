@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### The Role Specialization Model (RSM): Coordinating LLM-Based Tools in Agentic Software Development - An Exploratory Case Study
-- **arXiv** : 2608.12311v1
-- **Date** : 2026-08-12
-- **Auteurs** : Carlos Alberto Fernández-y-Fernández, Jorge R. Aguilar-Cisneros
-- **Score** : 15
-- **Résumé** : The integration of large language models (LLMs) into software development workflows has given rise to a paradigm known as Agentic Software Engineering (SE 3.0), in which autonomous agents manage full development life cycles under human supervision. This paper presents an exploratory case study in wh...
-- **Lien** : https://arxiv.org/abs/2608.12311v1
-
-### A corpus-specific clinical RAG system matches or outperforms newer frontier LLMs on HealthBench
-- **arXiv** : 2608.12138v1
-- **Date** : 2026-08-12
-- **Auteurs** : Praveen Reddy, Charuta Mandke, Suvrankar Datta, Sarah Khan, Siddharth Reddy Anthireddy
-- **Score** : 10
-- **Résumé** : General-purpose large language models (LLMs) have recently been reported to match or exceed specialized clinical AI tools on medical benchmarks, but such comparisons draw on a narrow set of systems and on benchmarks developed largely in high-income settings. We evaluate VITA, a retrieval-augmented g...
-- **Lien** : https://arxiv.org/abs/2608.12138v1
-
-### One Frozen Simulator Is Not Enough: Simulator Collapse in Multi-Agent RL
-- **arXiv** : 2608.12253v1
-- **Date** : 2026-08-12
-- **Auteurs** : Simon Yu, Nicholas Tomlin, Marwa Abdulhai, Ximing Lu, Derek Chong
-- **Score** : 9
-- **Résumé** : Multi-agent reinforcement learning for human-AI interaction typically relies on a single large language model to simulate user behavior. We show that this approach systematically fails to generalize, and trace the failure to simulator collapse: because the simulator LLM is mode-collapsed, an LLM pol...
-- **Lien** : https://arxiv.org/abs/2608.12253v1
-
-### SAG: SQL-Retrieval Augmented Generation with Query-Time Dynamic Hyperedges
-- **arXiv** : 2608.12129v1
-- **Date** : 2026-08-12
-- **Auteurs** : Yuchao Wu, Junqin Li, XingCheng Liang, Yongjie Chen, Yinghao Liang
-- **Score** : 9
-- **Résumé** : While retrieval-augmented generation (RAG) has proven effective at giving LLMs access to external knowledge, mainstream dense-retrieval implementations remain inherently limited in handling structured constraints and multi-hop reasoning. Graph-based methods address this by constructing knowledge gra...
-- **Lien** : https://arxiv.org/abs/2608.12129v1
-
-### Who Thinks Best Depends on How Long You Let Them: Budget-Dependent Rankings in LLM Evaluation
-- **arXiv** : 2608.12150v1
-- **Date** : 2026-08-12
-- **Auteurs** : Rodrigo Guedes de Souza, Alison R. Panisson
-- **Score** : 8
-- **Résumé** : Standard evaluation of large language models assumes stable model rankings across inference conditions. We challenge this assumption by varying the token generation budget, i.e., the maximum tokens a model may produce, across seven levels (64--4,096), evaluating four models on three reasoning benchm...
-- **Lien** : https://arxiv.org/abs/2608.12150v1
-
-### VAKRA: Evaluating Multi-Hop Reasoning Across APIs and Retrieval Under Tool-Use Policies
-- **arXiv** : 2608.12282v1
-- **Date** : 2026-08-12
-- **Auteurs** : Ankita Rajaram Naik, Anupama Murthi, Benjamin Elder, Siyu Huo, Raavi Gupta
+### AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design
+- **arXiv** : 2608.13560v1
+- **Date** : 2026-08-13
+- **Auteurs** : Yaxin Luo, Haobin Jiang, Jialv Zou, Xu Huang, Wenhao Yan
 - **Score** : 7
-- **Résumé** : Agents deployed in enterprise settings must reason across structured APIs and document collections, yet existing benchmarks evaluate these capabilities in isolation. We introduce VAKRA (e	extbf{V}aluating 	extbf{A}PI and 	extbf{K}nowledge 	extbf{R}etrieval 	extbf{A}gents), a benchmark of over $...
-- **Lien** : https://arxiv.org/abs/2608.12282v1
+- **Résumé** : Transforming multimodal sources into condensed and structured media outputs can be fundamentally conceptualized as a long-horizon agentic process centered on a model-harness system. While an ideal harness system should align with human design priors and accumulate reusable experience through empiric...
+- **Lien** : https://arxiv.org/abs/2608.13560v1
 
-### Diagram-MMU: A Multi-Modal Benchmark for Scientific Diagrams
-- **arXiv** : 2608.12262v1
-- **Date** : 2026-08-12
-- **Auteurs** : Weihao Bo, Shan Zhang, Yanpeng Sun, Jie Liu, Yongke Yao
+### QuoteBench: How Matched Scores Can Hide Command-Path Failures
+- **arXiv** : 2608.13547v1
+- **Date** : 2026-08-13
+- **Auteurs** : Shangao Li, Yao Zhang, Volker Tresp, Yuanyuan Yang
 - **Score** : 7
-- **Résumé** : Multimodal Large Language Models (MLLMs) have been growing the capability for scientific writing and collaboration. For example, OpenAI Prism is a free workspace for scientific writing and collaboration. One important feature in Prism is turning scientific diagrams directly into LaTeX TikZ code. In ...
-- **Lien** : https://arxiv.org/abs/2608.12262v1
+- **Résumé** : LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched execution scores alone cannot distinguish command-generation errors from failures introduced after generation. QuoteBench measures this boundary with exact final-state validation on 5...
+- **Lien** : https://arxiv.org/abs/2608.13547v1
 
-### AVA-Encoder: Towards Agent-Native Video Representation Learning
-- **arXiv** : 2608.12313v1
-- **Date** : 2026-08-12
-- **Auteurs** : Chuyue Li, Jinpeng Yu, Haozhe Wang, Tian Xueyun, Zhijing Zhang
+### MARC v1: An Open-Source Multi-Agent Framework for Clinical AI Reasoning and Coordination
+- **arXiv** : 2608.13476v1
+- **Date** : 2026-08-13
+- **Auteurs** : Saisha Shetty, Satvik Tripathi, Austin Lin, Colin Zhao, Theodore Kim
+- **Score** : 7
+- **Résumé** : We present Multi-Agent Reasoning and Coordination (MARC), an open-source framework that replaces monolithic LLM prompting with deterministic multi-agent orchestration for clinical reasoning. MARC coordinates role-specialized agents for extraction, reasoning, answer generation, and evaluation, with e...
+- **Lien** : https://arxiv.org/abs/2608.13476v1
+
+### Reduced Matrix Multiplication: Input-Adaptive Matrix-Product Reduction for LLM Inference
+- **arXiv** : 2608.13426v1
+- **Date** : 2026-08-13
+- **Auteurs** : Zixuan Lan, Yanhong Li, Jiawei Zhou
+- **Score** : 7
+- **Résumé** : Transformer-based language models achieve strong performance but incur substantial inference cost due to repeated high-dimensional matrix multiplications. We propose Reduced Matrix Multiplication (RMM), a training-free, input-adaptive inference method that reduces Transformer matrix products by sele...
+- **Lien** : https://arxiv.org/abs/2608.13426v1
+
+### Beyond Final Scores: A Systematic Evaluation of Agents for Long-Horizon AI Research and Development
+- **arXiv** : 2608.13417v1
+- **Date** : 2026-08-13
+- **Auteurs** : Yiwei Li, Wanli Yang, Hexiang Tan, Xiangzhou Huang, Zhengyu Chen
+- **Score** : 7
+- **Résumé** : Autonomous agents are increasingly capable of improving models, systems, and other technical artifacts through long-horizon experimentation. To understand the current state of this capability, however, evaluation must go beyond final scores, which neither reveal where progress is gained or lost nor ...
+- **Lien** : https://arxiv.org/abs/2608.13417v1
+
+### SAEVerbalizer: Generating Explanations for Sparse Autoencoder Features via Representation Verbalization
+- **arXiv** : 2608.13538v1
+- **Date** : 2026-08-13
+- **Auteurs** : Weihan Meng, Hongzhu Guo, Yi Jing, Dewen Liu, Zijun Yao
 - **Score** : 6
-- **Résumé** : Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce cinematic-grade videos. A key challenge is the absence of a structured video representation that is both faithful to film content and directly usable for agentic reasoning and manipu...
-- **Lien** : https://arxiv.org/abs/2608.12313v1
+- **Résumé** : Sparse autoencoders (SAEs) are proposed to extract numerous features from large language model (LLM) representations, yet explaining these features still relies primarily on external observation. This reliance leads to superficial explanations inferred from observed model behavior and computational ...
+- **Lien** : https://arxiv.org/abs/2608.13538v1
 
-### Constructing Dynamic Master Logic Models as Knowledge Graphs for Complex System Diagnostics Using Retrieval-Augmented Large Language Models
-- **arXiv** : 2608.12304v1
-- **Date** : 2026-08-12
-- **Auteurs** : Saman Marandi, Yu-Shu Hu, Mohammad Modarres
+### Intern-S2-Preview: Scientific Agentic Foundation Model
+- **arXiv** : 2608.13505v1
+- **Date** : 2026-08-13
+- **Auteurs** : Lei Bai, Jiaqi Cao, Chiyu Chen, Guanzhou Chen, Kai Chen
 - **Score** : 6
-- **Résumé** : Dynamic Master Logic (DML) provides a hierarchical framework for representing system behavior by linking functional objectives to underlying structural elements. However, DML construction typically relies on expert interpretation of technical documentation, limiting scalability for complex systems. ...
-- **Lien** : https://arxiv.org/abs/2608.12304v1
+- **Résumé** : Scientific discovery increasingly requires AI systems that can reason over scientific evidence of heterogeneous modalities, interact with scientific tools and environments, and sustain progress across long task horizons. We present Intern-S2-Preview, a series of scientific agentic foundation models ...
+- **Lien** : https://arxiv.org/abs/2608.13505v1
 
-### Beyond Trial-and-Error: Agentic Optimization for Image-to-Video Adherence
-- **arXiv** : 2608.12290v1
-- **Date** : 2026-08-12
-- **Auteurs** : Aman Tyagi, Hemanth Boinpally, Jonathan Chen, Douglas Gebert, Steven Hickson
+### AaLLM: An End-to-End Analog Circuit Design Framework from Topology Generation to Sizing Using Large Language Models
+- **arXiv** : 2608.13472v1
+- **Date** : 2026-08-13
+- **Auteurs** : Mohammed Ayman Habib, Rylan Hart, Morteza Fayazi
 - **Score** : 6
-- **Résumé** : Modern black-box Image-to-Video (I2V) models offer powerful capabilities in automated content creation, yet their lack of fine-grained control and reliability presents significant challenges in professional workflows. Their inherent stochasticity causes minor variations in textual prompts or hyperpa...
-- **Lien** : https://arxiv.org/abs/2608.12290v1
+- **Résumé** : Analog circuit design is a time-consuming, iterative process in a nonlinear and high-dimensional design space that relies heavily on expert intuition. Among recent developments, LLMs have introduced a promising approach by bringing natural language reasoning to circuit design tasks. The majority of ...
+- **Lien** : https://arxiv.org/abs/2608.13472v1
 
-### Convergent Detour Hijacking: Task-Preserving Resource Amplification in Skill-Based LLM Agents
-- **arXiv** : 2608.12273v1
-- **Date** : 2026-08-12
-- **Auteurs** : Junliang Liu, Ruoyu Li, Wenxin Tang, Jingyu Xiao, Zhenyu Liu
+### CAPRI: Contract-Aware Proof Repair for Isabelle
+- **arXiv** : 2608.13459v1
+- **Date** : 2026-08-13
+- **Auteurs** : Jim Woodcock, Gabriel Leite, Augusto Sampaio, Ran Wei
 - **Score** : 6
-- **Résumé** : LLM agents increasingly rely on third-party skills, using natural-language descriptions for selection and instruction bodies for planning. This progressive-disclosure design exposes two sequential control points to untrusted publishers: a static skill may steer an otherwise correct task onto an unne...
-- **Lien** : https://arxiv.org/abs/2608.12273v1
+- **Résumé** : We address the use of large language models (LLMs) to help discover Isabelle proofs. An Isabelle build establishes that the submitted theory is accepted, but not that an LLM changed only what the developer authorised. We present CAPRI, a contract-aware repair workflow in which Isabelle checks the pr...
+- **Lien** : https://arxiv.org/abs/2608.13459v1
 
-### An Agentic Workflow for Legacy HPC Modernization: Converting the Two-Electron-Integral Core of GAMESS
-- **arXiv** : 2608.12249v1
-- **Date** : 2026-08-12
-- **Auteurs** : Yuzhong Shen, Masha Sosonkina, Peng Xu, Mark S. Gordon
+### LLM-Assisted Dynamic Threat Analysis for Attacker-Reachable Software Weaknesses in Autonomous Vehicles
+- **arXiv** : 2608.13450v1
+- **Date** : 2026-08-13
+- **Auteurs** : Md Wasiul Haque, Sagar Dasgupta, Mizanur Rahman, Md Rayhanur Rahman
 - **Score** : 6
-- **Résumé** : Modernizing legacy Fortran is a problem of volume: the transformations are individually routine, but the codebases can be enormous, and across much of computational science the work simply goes undone. We propose an agentic workflow that takes this work on at production scale, and we set out to meas...
-- **Lien** : https://arxiv.org/abs/2608.12249v1
+- **Résumé** : Autonomous vehicles depend on large safety-critical software stacks, where weaknesses reachable from adversarial inputs may affect steering, braking, or other control decisions. Static analysis can identify candidate sites, but dynamically confirming exploitability requires executable test artifacts...
+- **Lien** : https://arxiv.org/abs/2608.13450v1
 
-### Towards Automated Domain Model Extraction from Source Code using Heuristics and Open-Source LLMs
-- **arXiv** : 2608.12228v1
-- **Date** : 2026-08-12
-- **Auteurs** : Alessandra Mancas, Mounir Ammam, Hyacinth Ali, Kevin Delcourt, Houari Sahraoui
-- **Score** : 6
-- **Résumé** : Large language models (LLMs) have recently shown strong capabilities for code understanding, making them promising for reverse engineering domain models from source code. However, state-ofthe- art proprietary LLMs cannot be used in many industrial contexts due to privacy and confidentiality constrai...
-- **Lien** : https://arxiv.org/abs/2608.12228v1
+### HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark
+- **arXiv** : 2608.13555v1
+- **Date** : 2026-08-13
+- **Auteurs** : Dairu Liu, Zekun Qi, Jiayu Zeng, Ruixi Yu, Yu Guan
+- **Score** : 5
+- **Résumé** : Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what people perceive in videos. Kinematic errors average per-frame pose differences but miss the physical artifacts that matter most, particularly unstable support and incorrect contact...
+- **Lien** : https://arxiv.org/abs/2608.13555v1
 
-### NetlistBench: Evaluating LLM Reliability in SPICE Netlist Recognition and Manipulation
-- **arXiv** : 2608.12197v1
-- **Date** : 2026-08-12
-- **Auteurs** : Jiarui Ma, Jianghan Wang, Yuheng Ma, Ziyi Zhuang, Xiaoguang Liu
-- **Score** : 6
-- **Résumé** : Large Language Models (LLMs) are increasingly used in circuit design workflows, yet their reliability on simulator-facing SPICE netlist recognition and manipulation remains poorly understood and is rarely separated from high-level design reasoning. Although netlists are textual, they encode structur...
-- **Lien** : https://arxiv.org/abs/2608.12197v1
+### Enhancing Virtual Agents through SLMs and Edge-Computing: An Exploratory Evaluation of Think and Memory Processes
+- **arXiv** : 2608.13420v1
+- **Date** : 2026-08-13
+- **Auteurs** : Aimilios Hadjiliasi, Louis Nisiotis
+- **Score** : 4
+- **Résumé** : Embodied intelligent virtual agents are expected to operate as persistent, adaptive, and context-aware entities within complex virtual and Metaverse worlds. However, implementing cognitively capable agents in such environments is conceptually and technologically challenging. Among a range of bluepri...
+- **Lien** : https://arxiv.org/abs/2608.13420v1
 
-### Massive Activations in Hybrid Linear Attention Large Language Models: Pre-Attention Spikes and Inter-Spike Plateaus
-- **arXiv** : 2608.12149v1
-- **Date** : 2026-08-12
-- **Auteurs** : Zunhai Su, Bohan Sun, Xialie Zhuang, Shuibai Zhang, He Xiao
-- **Score** : 6
-- **Résumé** : We present the first systematic study of Massive activations (MAs) in layer-interleaved HLA LLMs and uncover two architecture-aligned morphologies: MAs consistently spike immediately before full attention layers, forming pre-attention spikes (PAS), and can persist through intervening linear attentio...
-- **Lien** : https://arxiv.org/abs/2608.12149v1
-
-### Do LLMs Take Care of Their Own? Similarity Signals Can Induce Cooperation
-- **arXiv** : 2608.12125v1
-- **Date** : 2026-08-12
-- **Auteurs** : Akash Kundu, Emanuel Tewolde, Ratip Emin Berker, Samuel F. Brown, Vincent Conitzer
-- **Score** : 6
-- **Résumé** : As LLM-based agents with user-instructed goals are becoming widely deployed, they increasingly encounter each other in strategic interactions, and face challenges of finding mutually beneficial outcomes. Prior literature has argued that cooperation problems such as the Prisoner's Dilemma are resolva...
-- **Lien** : https://arxiv.org/abs/2608.12125v1
-
-### DreamFly: Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision-Language Navigation
-- **arXiv** : 2608.12308v1
-- **Date** : 2026-08-12
-- **Auteurs** : Yan Deng, Fei Xu
+### OmniScientist: An Omni-Modal Omni-Discipline AI Scientist
+- **arXiv** : 2608.13558v1
+- **Date** : 2026-08-13
+- **Auteurs** : Bobo Li, Hao Fei, Tianjie Ju, Mong-Li Lee, Wynne Hsu
 - **Score** : 3
-- **Résumé** : Aerial vision-language navigation (VLN) requires an embodied agent to integrate visual evidence over time, plan future actions, and determine when it has reached a navigation goal under partial observability. Although recent VLA models offer a promising perception-to-action paradigm, adapting them t...
-- **Lien** : https://arxiv.org/abs/2608.12308v1
+- **Résumé** : Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depend...
+- **Lien** : https://arxiv.org/abs/2608.13558v1
 
-### Large Language Model-Driven Small-Capitalization Trading: Integrating Financial News Sentiment, Macroeconomic Indicators, and Technical Signals
-- **arXiv** : 2608.12283v1
-- **Date** : 2026-08-12
-- **Auteurs** : Alireza Kargarzadeh, Nariman Khaledian, Navid Parvini, Arman Khaledian
+### LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure
+- **arXiv** : 2608.13545v1
+- **Date** : 2026-08-13
+- **Auteurs** : Fanfei Li, Jana Zeller, Manuel Prada-Corral, Thaddäus Wiedemer, Prasanna Mayilvahanan
 - **Score** : 3
-- **Résumé** : Large language models can extract richer signals from financial news than fixed sentiment lexicons, and recent work has explored feeding such signals into portfolio construction. We study an uncertainty-aware construction that feeds model-predicted risk -- decomposed into aleatoric and epistemic com...
-- **Lien** : https://arxiv.org/abs/2608.12283v1
+- **Résumé** : Modern language models are trained on heterogeneous web-scale text corpora. Consequently, studying knowledge and skill acquisition is difficult, as prior exposure to related content is hard to characterize. To address this challenge, we introduce LITTLECURRICULUM, a curated 88B-token pretraining cor...
+- **Lien** : https://arxiv.org/abs/2608.13545v1
 
-### Few-Shot Ordinal Learning for Day-Wise Freshness Estimation with Hyperspectral Fish Images
-- **arXiv** : 2608.12230v1
-- **Date** : 2026-08-12
-- **Auteurs** : Kazi Nabiul Alam, Pooneh Bagheri Zadeh, Akbar Sheikh-Akbari
+### Joint Communication-Control Strategy Optimization with Partially Nested Information Structures: The Linear-Quadratic Case
+- **arXiv** : 2608.13535v1
+- **Date** : 2026-08-13
+- **Auteurs** : Haoyi You, Kaiqing Zhang
 - **Score** : 3
-- **Résumé** : Non-destructive food quality assessment has increasingly benefited from hyperspectral imaging (HSI), which captures spectral signatures linked to biochemical changes during storage. Estimating day-wise freshness, however, remains challenging owing to strong inter-fillet variability and scarce labell...
-- **Lien** : https://arxiv.org/abs/2608.12230v1
+- **Résumé** : In this paper, we formalize a joint communication-control strategy optimization (JCCO) problem in multi-agent linear systems with quadratic costs, under the common-information-based (CIB) framework from decentralized stochastic control. For computational tractability, we focus on such JCCO problems ...
+- **Lien** : https://arxiv.org/abs/2608.13535v1
 
-### SCOUT: Unlocking Enhanced Spatial Reasoning via Structured Chain-of-Thought and Multi-Objective Process Reward
-- **arXiv** : 2608.12220v1
-- **Date** : 2026-08-12
-- **Auteurs** : Zile Zhou, Huining Yuan, Weichen Zhang, Xinlei Chen, Xiao-ping Zhang
+### DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees
+- **arXiv** : 2608.13524v1
+- **Date** : 2026-08-13
+- **Auteurs** : Tianyi Li, Yaxin Luo, Xinyi Shang, Zhiqiang Shen
 - **Score** : 3
-- **Résumé** : Existing Vision-Language Models (VLMs) exhibits a critical bottleneck in robust spatial reasoning. Recent reinforcement learning (RL) methods aim to close this gap with verifiable outcomes, yet they suffer from poor credit assignment across intermediate reasoning steps. Concurrently, structured reas...
-- **Lien** : https://arxiv.org/abs/2608.12220v1
+- **Résumé** : Speculative decoding losslessly accelerates autoregressive language models by verifying multiple draft tokens in parallel. Diffusion-based drafters further reduce proposal latency by predicting an entire token block in parallel, but their position-wise distributions are marginal rather than conditio...
+- **Lien** : https://arxiv.org/abs/2608.13524v1
+
+### Vero: Can AI Agents Build Formally Verified Software Repositories?
+- **arXiv** : 2608.13522v1
+- **Date** : 2026-08-13
+- **Auteurs** : Zhe Ye, Hantao Lou, Yuechun Sun, Peiyang Song, Zhengxu Yan
+- **Score** : 3
+- **Résumé** : AI agents are increasingly used for programming, but do not provide any guarantee on the correctness of generated code. Verified code generation, in which an agent produces both an implementation and a machine-checked proof of its specification, offers a stronger path toward trustworthy AI-generated...
+- **Lien** : https://arxiv.org/abs/2608.13522v1
+
+### DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data
+- **arXiv** : 2608.13517v1
+- **Date** : 2026-08-13
+- **Auteurs** : Peter Schneider-Kamp, Jacob Nielsen, Gianluca Barmina, Kenneth Enevoldsen, Lukas Galke Poech
+- **Score** : 3
+- **Résumé** : Current large language model development relies on massive, often non-permissible datasets, creating a high barrier for researchers committed to open-source and ethically sourced data. We introduce Mimir v1, a 1-billion-parameter language model based on the Hierarchical Reasoning Model (HRM) archite...
+- **Lien** : https://arxiv.org/abs/2608.13517v1
+
+### Measuring Task-Agnostic Training Data Influence Across Language Model Pretraining
+- **arXiv** : 2608.13515v1
+- **Date** : 2026-08-13
+- **Auteurs** : Yuto Nishida, Hirokazu Kiyomaru, Yusuke Oda, Takashi Kodama, Chaoran Liu
+- **Score** : 3
+- **Résumé** : Measuring training data influence consistently across language model pretraining is challenging. It is difficult to select downstream tasks or validation sets representative of a model's general capabilities, and reliance on task performance at intermediate checkpoints complicates comparisons across...
+- **Lien** : https://arxiv.org/abs/2608.13515v1
+
+### TabSOM: A tabular-to-image encoding method based on self-organizing maps
+- **arXiv** : 2608.13513v1
+- **Date** : 2026-08-13
+- **Auteurs** : David Chushig-Muzo, María Ángeles Rodríguez de Cara, Eva Milara, Francisco J. Lara-Abelenda, Luis Zhinin-Vera
+- **Score** : 3
+- **Résumé** : Tabular-to-image methods have emerged as novel approaches to leverage the high predictive performance of convolutional neural networks and vision transformers. They convert tabular data into image representations, mapping each feature at a fixed pixel location derived from a dimensionality-reduction...
+- **Lien** : https://arxiv.org/abs/2608.13513v1
 
 <!-- ARXIV_FEED_END -->
