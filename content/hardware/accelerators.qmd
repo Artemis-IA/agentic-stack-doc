@@ -123,6 +123,18 @@ graph TD
 ## Outils & frameworks hardware découverts automatiquement
 
 <!-- TOOLS_HARDWARE_START -->
+### [tritonparse](https://github.com/meta-pytorch/tritonparse)
+TritonParse: A Compiler Tracer, Visualizer, and Reproducer for Triton Kernels
+
+⭐ 213 | `Python` | Licence: BSD-3-Clause | MAJ: 2026-08-14
+**Tags** : `compiler`, `debugging`, `gpu-kernel`, `interactive-visualization`, `ir-analysis`, `ir-visualization`, `pytorch`, `structured-logging`
+
+### [atrex-kernel-agent](https://github.com/alibaba/atrex-kernel-agent)
+An end-to-end agent project for GPU kernel implementation, analysis, profiling, and iterative optimization. It helps an agent turn PyTorch logic or an existing kernel into a high-performance GPU ke...
+
+⭐ 84 | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-14
+**Tags** : `agent`, `agentic-workflow`, `amd-gpu`, `autoresearch`, `gpu`, `gpu-kernel`, `gpu-programming`, `kernel-generation`
+
 ### [gpartin/WaveGuardClient](https://github.com/gpartin/WaveGuardClient)
 !WaveGuard MCP server 🐍 ☁️ 🍎 🪟 🐧 - Physics-based anomaly detection via MCP. Uses Klein-Gordon wave equations on GPU to detect anomalies with high precision (avg 0.90). 9 tools: scan, fingerprint, c...
 
