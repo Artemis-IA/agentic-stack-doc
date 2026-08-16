@@ -155,17 +155,65 @@ An LLM-powered knowledge curation system that researches a topic and generates a
 ⭐ 22.9k | `Python` | Licence: MIT | MAJ: 2026-08-16
 **Tags** : `multi-modal-rag`, `retrieval-augmented-generation`
 
+### [nebula](https://github.com/vesoft-inc/nebula)
+A distributed, fast open-source graph database featuring horizontal scalability and high availability
+
+⭐ 12.3k | `C++` | Licence: Apache-2.0 | MAJ: 2026-08-16
+**Tags** : `big-data`, `cpp`, `database`, `distributed`, `distributed-systems`, `graph`, `graph-database`, `graphdb`
+
 ### [Agent-S](https://github.com/simular-ai/Agent-S)
 Agent S: an open agentic framework that uses computers like a human
 
 ⭐ 12.2k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-15
 **Tags** : `agent-computer-interface`, `ai-agents`, `computer-automation`, `computer-use`, `computer-use-agent`, `cua`, `grounding`, `gui-agents`
 
+### [FalkorDB](https://github.com/FalkorDB/FalkorDB)
+A super fast Graph Database uses GraphBLAS under the hood for its sparse adjacency matrix graph representation. Our goal is to provide the best Knowledge Graph for LLM (GraphRAG).
+
+⭐ 5.6k | `Rust` | Licence: NOASSERTION | MAJ: 2026-08-16
+**Tags** : `cloud-database`, `database`, `database-as-a-service`, `developer-tools`, `devtools`, `graph-database`, `graphrag`, `knowledge-graph`
+
+### [llm-graph-builder](https://github.com/neo4j-labs/llm-graph-builder)
+Neo4j graph construction from unstructured data using LLMs
+
+⭐ 5.2k | `Jupyter Notebook` | Licence: Apache-2.0 | MAJ: 2026-08-16
+**Tags** : `data-import`, `genai`, `graph`, `graph-rag`, `graph-search`, `graphdb`, `graphrag`, `knowledge-graph`
+
+### [memgraph](https://github.com/memgraph/memgraph)
+High-performance open-source in-memory graph database for GraphRAG, AI memory, agentic AI, and real-time graph analytics. Cypher-compatible, built in C++.
+
+⭐ 4.3k | `C++` | Licence: NOASSERTION | MAJ: 2026-08-16
+**Tags** : `ai`, `ai-agents`, `ai-memory`, `context-graph`, `cypher`, `enterprise-context`, `graph`, `graph-algorithms`
+
 ### [EvoAgentX](https://github.com/EvoAgentX/EvoAgentX)
 EvoAgentX is building a Self-Evolving Ecosystem of AI Agents, it will give you automated framework for evaluating and evolving agentic workflows. !GitHub Repo stars
 
-⭐ 3.2k | `Python` | Licence: NOASSERTION | MAJ: 2026-08-15
+⭐ 3.2k | `Python` | Licence: NOASSERTION | MAJ: 2026-08-16
 **Tags** : `agent`, `ai`, `ai-agents`, `llms`, `memory`, `multi-agent-systems`, `natural-language-processing`, `rag`
+
+### [autoflow](https://github.com/pingcap/autoflow)
+pingcap/autoflow is a Graph RAG based and conversational knowledge base tool built with TiDB Serverless Vector Storage. Demo: https://tidb.ai
+
+⭐ 3.0k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-08-15
+**Tags** : `chatbot`, `cot`, `graphrag`, `knowledge-graph`, `mysql`, `rag`, `serverless`, `vector-database`
+
+### [Awesome-GraphRAG](https://github.com/DEEP-PolyU/Awesome-GraphRAG)
+Awesome-GraphRAG: A curated list of resources (surveys, papers, benchmarks, and opensource projects) on graph-based retrieval-augmented generation.
+
+⭐ 2.6k | Licence: MIT | MAJ: 2026-08-16
+**Tags** : `graphrag`, `graphrag-paper`, `graphrag-survey`, `knowledge-graph`, `large-language-models`, `rag`, `retrieval-augmented-generation`
+
+### [comfyui_LLM_party](https://github.com/heshengtao/comfyui_LLM_party)
+LLM Agent Framework in ComfyUI includes MCP sever, Omost,GPT-sovits, ChatTTS,GOT-OCR2.0, and FLUX prompt nodes,access to Feishu,discord,and adapts to all llms with similar openai / aisuite interfac...
+
+⭐ 2.3k | `Python` | Licence: AGPL-3.0 | MAJ: 2026-08-15
+**Tags** : `agent`, `comfyui`, `dify`, `flux`, `gemini`, `gguf`, `gpt-sovits`, `graphrag`
+
+### [graph-rag-agent](https://github.com/1517005260/graph-rag-agent)
+拼好RAG：手搓并融合了GraphRAG、LightRAG、Neo4j-llm-graph-builder进行知识图谱构建以及搜索；整合DeepSearch技术实现私域RAG的推理；自制针对GraphRAG的评估框架| Integrate GraphRAG, LightRAG, and Neo4j-llm-graph-builder for knowledge graph construct...
+
+⭐ 2.3k | `Python` | Licence: MIT | MAJ: 2026-08-16
+**Tags** : `agentic-rag`, `chain-of-exploration`, `deepresearch`, `deepsearch`, `evaluation`, `graphrag`, `graphsearch`, `kg`
 
 ### [Agentset](https://github.com/agentset-ai/agentset)
 Open-source production-ready RAG platform with built-in agentic reasoning, hybrid search, and multimodal support. !GitHub Repo stars
@@ -188,7 +236,7 @@ Markdown knowledge graph for you and your AI agents — editor LSP plus CLI and 
 ### [RepoAgent](https://github.com/OpenBMB/RepoAgent)
 An LLM-powered repository agent designed to assist developers and teams in generating documentation and understanding repositories quickly !GitHub Repo stars
 
-⭐ 1.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-15
+⭐ 1.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-16
 **Tags** : `agent`, `chatglm`, `chatgpt`, `chatgpt-api`, `gpt`, `gpt-4`, `langchain`, `llama`
 
 ### [heymrun/heym](https://github.com/heymrun/heym)
@@ -196,53 +244,5 @@ An LLM-powered repository agent designed to assist developers and teams in gener
 
 ⭐ 939 | `Python` | Licence: NOASSERTION | MAJ: 2026-08-16
 **Tags** : `ai-agents`, `ai-agents-framework`, `ai-assistant`, `automation`, `automation-tool`, `autonomous-agents`, `coding-agent`, `evals`
-
-### [MindSQL](https://github.com/Mindinventory/MindSQL)
-A python package for Txt-to-SQL with self hosting functionalities and RESTful APIs compatible with proprietary as well as open source LLM.
-
-⭐ 447 | `Python` | Licence: GPL-3.0 | MAJ: 2026-07-31
-**Tags** : `chatbot`, `gemini`, `langchain`, `rag`, `retrival-augmented`, `text-to-sql`
-
-### [muvon/octocode](https://github.com/Muvon/octocode)
-!octocode 🦀 🏠 🍎 🪟 🐧 - Semantic code indexer with GraphRAG knowledge graph. Index your codebase, search in natural language, and expose everything via MCP so AI agents understand architecture — not ...
-
-⭐ 447 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-08-15
-**Tags** : `ai`, `ai-tools`, `cli`, `cli-app`, `code-search`, `developer-tool`, `developer-tools`, `doc-search`
-
-### [MemClaw](https://github.com/caura-ai/caura-memclaw)
-Open-source governed shared memory for AI agent fleets with cross-agent recall, permissions, audit trails, and persistent memory.
-
-⭐ 429 | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-16
-**Tags** : `agent-memory`, `agentic-ai`, `ai-agents`, `ai-infrastructure`, `claude`, `fastapi`, `knowledge-graph`, `llm-memory`
-
-### [fabio-rovai/open-ontologies](https://github.com/fabio-rovai/open-ontologies)
-!open-ontologies MCP server 🦀 🏠 - AI-native ontology engineering with 39 tools and 5 prompts for OWL/RDF/SPARQL. Validate, query, diff, lint, version, and govern knowledge graphs via Oxigraph tripl...
-
-⭐ 415 | `Rust` | Licence: MIT | MAJ: 2026-08-15
-**Tags** : `ai-native`, `claude`, `description-logics`, `knowledge-graph`, `linked-data`, `mcp`, `mcp-server`, `ontology`
-
-### [Open-RAG-Eval](https://github.com/vectara/open-rag-eval)
-an open source RAG evaluation framework that does not require golden answers, and can be used to evaluate performance of RAG tools connected to an AI Agent (Agentic RAG)
-
-⭐ 396 | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-13
-**Tags** : `evaluation-metrics`, `metrics`, `rag`, `rag-evaluation`, `retrieval-augmented-generation`, `vectara`
-
-### [shinpr/mcp-local-rag](https://github.com/shinpr/mcp-local-rag)
-📇 🏠 - Privacy-first document search server running entirely locally. Supports semantic search over PDFs, DOCX, TXT, and Markdown files with LanceDB vector storage and local embeddings - no API keys...
-
-⭐ 368 | `TypeScript` | Licence: MIT | MAJ: 2026-08-14
-**Tags** : `agent-skills`, `developer-tools`, `hybrid-search`, `local-first`, `local-rag`, `mcp`, `mcp-server`, `privacy-first`
-
-### [varun29ankuS/shodh-memory](https://github.com/varun29ankuS/shodh-memory)
-🦀 🏠 - Cognitive memory for AI agents with Hebbian learning, 3-tier architecture, and knowledge graphs. Single ~15MB binary, runs offline on edge devices.
-
-⭐ 272 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-08-14
-**Tags** : `agent-memory`, `agentic-ai`, `ai-agents`, `ai-memory`, `claude`, `cognitive-memory`, `edge-ai`, `graphrag`
-
-### [sachitrafa/YourMemory](https://github.com/sachitrafa/YourMemory)
-!sachitrafa/YourMemory MCP server 🐍 🏠 🍎 🪟 🐧 - Persistent memory for AI agents with Ebbinghaus forgetting-curve decay, hybrid BM25+vector retrieval, and entity graph for multi-hop reasoning. Memorie...
-
-⭐ 263 | `Python` | Licence: NOASSERTION | MAJ: 2026-08-11
-**Tags** : `agent-memory`, `ai-agents`, `claude`, `devtools`, `ebbinghaus`, `llm-memory`, `mcp`, `mcp-server`
 
 <!-- TOOLS_RAG_END -->

@@ -112,35 +112,35 @@ crew = Crew(
 ### [OpenClaw](https://github.com/openclaw/openclaw)
 Open-source AI agent framework that turns LLMs into persistent, proactive personal AI agents with multi-channel messaging (Signal, Telegram, Discord, WhatsApp), cron scheduling, memory systems, MCP...
 
-⭐ 386.4k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-08-16
+⭐ 386.5k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-08-16
 **Tags** : `ai`, `assistant`, `crustacean`, `molty`, `openclaw`, `own-your-data`, `personal`
 
 ### [Hermes Agent](https://github.com/nousresearch/hermes-agent)
 The agent that grows with you
 
-⭐ 231.2k | `Python` | Licence: MIT | MAJ: 2026-08-16
+⭐ 231.4k | `Python` | Licence: MIT | MAJ: 2026-08-16
 **Tags** : `ai`, `ai-agent`, `ai-agents`, `anthropic`, `chatgpt`, `claude`, `claude-code`, `codex`
 
 ### [OpenCode](https://github.com/anomalyco/opencode)
 The AI coding agent built for the terminal. !GitHub Repo stars
 
-⭐ 197.9k | `TypeScript` | Licence: MIT | MAJ: 2026-08-16
+⭐ 198.1k | `TypeScript` | Licence: MIT | MAJ: 2026-08-16
 
 ### [Paperclip](https://github.com/paperclipai/paperclip)
 Open-source platform to run coding agents as managed workers with tasks, approvals, budgets, and workspaces. !GitHub Repo stars
 
-⭐ 78.3k | `TypeScript` | Licence: MIT | MAJ: 2026-08-16
+⭐ 78.5k | `TypeScript` | Licence: MIT | MAJ: 2026-08-16
 
 ### [MetaGPT](https://github.com/geekan/MetaGPT)
 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming
 
-⭐ 69.8k | `Python` | Licence: MIT | MAJ: 2026-08-16
+⭐ 69.9k | `Python` | Licence: MIT | MAJ: 2026-08-16
 **Tags** : `agent`, `gpt`, `llm`, `metagpt`, `multi-agent`
 
 ### [MetaGPT](https://github.com/FoundationAgents/MetaGPT)
 The Multi-Agent Meta Programming Framework: Given one line Requirement, return PRD, Design, Tasks, Repo and CI !GitHub Repo stars
 
-⭐ 69.8k | `Python` | Licence: MIT | MAJ: 2026-08-16
+⭐ 69.9k | `Python` | Licence: MIT | MAJ: 2026-08-16
 **Tags** : `agent`, `gpt`, `llm`, `metagpt`, `multi-agent`
 
 ### [open-interpreter](https://github.com/KillianLucas/open-interpreter)
@@ -152,24 +152,24 @@ A coding agent for open models like Kimi K3
 ### [Cline](https://github.com/cline/cline)
 Open-source AI coding agent giving developers direct access to frontier models with full transparency. !GitHub Repo stars
 
-⭐ 66.2k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-08-16
+⭐ 66.3k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-08-16
 
-### [autogen](https://github.com/microsoft/autogen)
-A programming framework for agentic AI
+### [Autogen](https://github.com/microsoft/autogen)
+Enable Next-Gen Large Language Model Applications. !GitHub Repo stars
 
-⭐ 60.4k | `Python` | Licence: CC-BY-4.0 | MAJ: 2026-08-16
+⭐ 60.5k | `Python` | Licence: CC-BY-4.0 | MAJ: 2026-08-16
 **Tags** : `agentic`, `agentic-agi`, `agents`, `ai`, `autogen`, `autogen-ecosystem`, `chatgpt`, `framework`
 
 ### [crewai](https://github.com/joaomdmoura/crewai)
 Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
 
-⭐ 57.1k | `Python` | Licence: MIT | MAJ: 2026-08-16
+⭐ 57.2k | `Python` | Licence: MIT | MAJ: 2026-08-16
 **Tags** : `agents`, `ai`, `ai-agents`, `aiagentframework`, `llms`
 
 ### [CrewAI](https://github.com/crewAIInc/crewAI)
 Cutting-edge framework for orchestrating role-playing, autonomous AI agents. !GitHub Repo stars
 
-⭐ 57.1k | `Python` | Licence: MIT | MAJ: 2026-08-16
+⭐ 57.2k | `Python` | Licence: MIT | MAJ: 2026-08-16
 **Tags** : `agents`, `ai`, `ai-agents`, `aiagentframework`, `llms`
 
 ### [Aider](https://github.com/Aider-AI/aider)
@@ -179,10 +179,16 @@ aider is AI pair programming in your terminal !GitHub Repo stars
 **Tags** : `anthropic`, `chatgpt`, `claude-3`, `cli`, `command-line`, `gemini`, `gpt-3`, `gpt-35-turbo`
 
 ### [nanobot](https://github.com/HKUDS/nanobot)
-Ultra-lightweight personal AI assistant framework (~4,000 lines of Python). Supports MCP, 9+ chat channels, and extensible skills system. !GitHub Repo stars
+Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps
 
-⭐ 47.0k | `Python` | Licence: MIT | MAJ: 2026-08-16
+⭐ 47.1k | `Python` | Licence: MIT | MAJ: 2026-08-16
 **Tags** : `agent-framework`, `ai-agent`, `ai-agents`, `chatbot`, `chatops`, `discord-bot`, `llm-agents`, `llms`
+
+### [BettaFish](https://github.com/666ghj/BettaFish)
+微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。
+
+⭐ 42.0k | `Python` | Licence: GPL-2.0 | MAJ: 2026-08-16
+**Tags** : `agent-framework`, `data-analysis`, `deep-research`, `deep-search`, `llms`, `multi-agent-system`, `nlp`, `public-opinion-analysis`
 
 ### [Agno](https://github.com/agno-agi/agno)
 Build, run, and manage agent platforms. !GitHub Repo stars
@@ -224,7 +230,7 @@ Open-source Python library designed to make it extremely easy to build and run a
 ### [OpenViking](https://github.com/volcengine/OpenViking)
 Self-evolving Context Database for AI Agents — unifies Agent Memory, Knowledge RAG, and Skills behind a single interface, with a portable Agent Plugins package format (agent-plugins.org). !GitHub R...
 
-⭐ 28.5k | `Python` | Licence: AGPL-3.0 | MAJ: 2026-08-16
+⭐ 28.6k | `Python` | Licence: AGPL-3.0 | MAJ: 2026-08-16
 **Tags** : `agent-memory`, `agent-plugins`, `agentic-rag`, `context-database`, `dsh-plugin`, `self-evolving`
 
 ### [haystack](https://github.com/deepset-ai/haystack)
@@ -232,12 +238,6 @@ Open-source AI orchestration framework for building context-engineered, producti
 
 ⭐ 26.2k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-16
 **Tags** : `agent-framework`, `agentic-ai`, `agentic-rag`, `agents`, `ai`, `ai-agents`, `context-engineering`, `framework`
-
-### [activepieces](https://github.com/activepieces/activepieces)
-AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents
-
-⭐ 23.8k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-08-16
-**Tags** : `ai-agent`, `ai-agent-tools`, `ai-agents`, `ai-agents-framework`, `mcp`, `mcp-server`, `mcp-tools`, `mcps`
 
 ### [localGPT](https://github.com/PromtEngineer/localGPT)
 Chat with your documents on your local device using GPT models. No data leaves your device and 100% private.
@@ -248,6 +248,12 @@ Chat with your documents on your local device using GPT models. No data leaves y
 Educational framework exploring ergonomic, lightweight multi-agent orchestration by OpenAI. !GitHub Repo stars
 
 ⭐ 21.9k | `Python` | Licence: MIT | MAJ: 2026-08-16
+
+### [agents-towards-production](https://github.com/NirDiamant/agents-towards-production)
+End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment.
+
+⭐ 21.3k | `Jupyter Notebook` | Licence: NOASSERTION | MAJ: 2026-08-16
+**Tags** : `agent`, `agent-framework`, `agentic-ai`, `agents`, `ai-agents`, `deployment`, `genai`, `generative-ai`
 
 ### [OpenCodeReview](https://github.com/alibaba/open-code-review)
 An open-source hybrid code reviewer combining deterministic rules with an LLM agent (tool-use, line-level comments); self-hostable, bring-your-own model. !GitHub Repo stars
@@ -266,15 +272,10 @@ Devika is the first open-source implementation of an Agentic Software Engineer. 
 
 ⭐ 19.6k | `Python` | Licence: MIT | MAJ: 2026-08-16
 
-### [camel](https://github.com/camel-ai/camel)
-🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org
+### [pydantic-ai](https://github.com/pydantic/pydantic-ai)
+How Python does AI: agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end.
 
-⭐ 17.6k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-16
-**Tags** : `agent`, `ai-societies`, `artificial-intelligence`, `communicative-ai`, `cooperative-ai`, `deep-learning`, `large-language-models`, `multi-agent-systems`
-
-### [AI Scientist](https://github.com/SakanaAI/AI-Scientist)
-The AI Scientist: Towards Fully Automated Open-Ended Scientific !GitHub Repo stars
-
-⭐ 14.4k | `Jupyter Notebook` | Licence: NOASSERTION | MAJ: 2026-08-16
+⭐ 19.3k | `Python` | Licence: MIT | MAJ: 2026-08-16
+**Tags** : `agent-framework`, `genai`, `harness`, `harness-engineering`, `llm`, `pydantic`, `python`
 
 <!-- TOOLS_FRAMEWORK_END -->

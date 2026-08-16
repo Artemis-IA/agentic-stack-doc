@@ -121,47 +121,11 @@ MCP devient le **standard de facto** pour connecter les agents IA aux outils ext
 ## MCP Servers découverts automatiquement
 
 <!-- TOOLS_MCP_START -->
-### [n8n](https://github.com/n8n-io/n8n)
-Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
-
-⭐ 200.8k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-08-16
-**Tags** : `ai`, `apis`, `automation`, `cli`, `data-flow`, `development`, `integration-framework`, `integrations`
-
-### [gemini-cli](https://github.com/google-gemini/gemini-cli)
-An open-source AI agent that brings the power of Gemini directly into your terminal.
-
-⭐ 106.5k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-08-16
-**Tags** : `ai`, `ai-agents`, `cli`, `gemini`, `gemini-api`, `mcp-client`, `mcp-server`
-
-### [worldmonitor](https://github.com/koala73/worldmonitor)
-Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface
-
-⭐ 82.2k | `TypeScript` | Licence: AGPL-3.0 | MAJ: 2026-08-16
-**Tags** : `agent`, `ai`, `dashboard`, `geopolitics`, `mcp`, `mcp-server`, `monitoring`, `news`
-
-### [Scrapling](https://github.com/D4Vinci/Scrapling)
-🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!
-
-⭐ 74.3k | `Python` | Licence: BSD-3-Clause | MAJ: 2026-08-16
-**Tags** : `ai`, `ai-scraping`, `automation`, `crawler`, `crawling`, `crawling-python`, `data`, `data-extraction`
-
-### [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)
-Chrome DevTools for coding agents
-
-⭐ 49.2k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-08-16
-**Tags** : `browser`, `chrome`, `chrome-devtools`, `debugging`, `devtools`, `mcp`, `mcp-server`, `puppeteer`
-
 ### [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb)
 Connect and unify data across various platforms and databases with MindsDB as a single MCP server.
 
-⭐ 39.6k | `Makefile` | Licence: MIT | MAJ: 2026-08-15
+⭐ 39.6k | `Makefile` | Licence: MIT | MAJ: 2026-08-16
 **Tags** : `agents`, `ai`, `anton`, `artificial-inteligence`, `claude`, `claude-cowork`, `codex`, `cowork`
-
-### [UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop)
-The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra
-
-⭐ 38.6k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-08-16
-**Tags** : `agent`, `agent-tars`, `browser-use`, `computer-use`, `cowork`, `gui-agent`, `gui-operator`, `mcp`
 
 ### [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)
 Official Microsoft Playwright MCP server, enabling LLMs to interact with web pages through structured accessibility snapshots
@@ -169,14 +133,14 @@ Official Microsoft Playwright MCP server, enabling LLMs to interact with web pag
 ⭐ 36.2k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-08-16
 **Tags** : `mcp`, `playwright`
 
-### [github-mcp-server](https://github.com/github/github-mcp-server)
-GitHub's official MCP Server
+### [github/github-mcp-server](https://github.com/github/github-mcp-server)
+📇 ☁️ - Official GitHub server for integration with repository management, PRs, issues, and more.
 
 ⭐ 32.3k | `Go` | Licence: MIT | MAJ: 2026-08-16
 **Tags** : `github`, `mcp`, `mcp-server`
 
-### [gpt-researcher](https://github.com/assafelovic/gpt-researcher)
-An autonomous agent that conducts deep research on any data using any LLM providers
+### [GPT Researcher](https://github.com/assafelovic/gpt-researcher)
+GPT Researcher is an autonomous agent designed for comprehensive online research on a variety of tasks. !GitHub Repo stars
 
 ⭐ 29.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-16
 **Tags** : `agent`, `ai`, `automation`, `deepresearch`, `llms`, `mcp`, `mcp-server`, `python`
@@ -187,17 +151,29 @@ An autonomous agent that conducts deep research on any data using any LLM provid
 ⭐ 28.0k | `JavaScript` | Licence: NOASSERTION | MAJ: 2026-08-16
 **Tags** : `ai`, `cursor`, `cursor-ai`, `cursorai`, `lovable`, `lovable-dev`, `roocode`, `task-manager`
 
+### [fastmcp](https://github.com/PrefectHQ/fastmcp)
+🚀 The fast, Pythonic way to build MCP servers and clients.
+
+⭐ 27.2k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-16
+**Tags** : `agents`, `fastmcp`, `llms`, `mcp`, `mcp-clients`, `mcp-servers`, `mcp-tools`, `model-context-protocol`
+
 ### [FastMCP](https://github.com/jlowin/fastmcp)
 🐍 - A high-level framework for building MCP servers in Python
 
 ⭐ 27.2k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-16
 **Tags** : `agents`, `fastmcp`, `llms`, `mcp`, `mcp-clients`, `mcp-servers`, `mcp-tools`, `model-context-protocol`
 
-### [python-sdk](https://github.com/modelcontextprotocol/python-sdk)
+### [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)
 The official Python SDK for Model Context Protocol servers and clients
 
 ⭐ 24.0k | `Python` | Licence: MIT | MAJ: 2026-08-16
 **Tags** : `mcp`, `mcp-client`, `mcp-server`, `python`
+
+### [mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners)
+This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed ...
+
+⭐ 17.0k | `Jupyter Notebook` | Licence: MIT | MAJ: 2026-08-16
+**Tags** : `csharp`, `java`, `javascript`, `javascript-applications`, `mcp`, `mcp-client`, `mcp-security`, `mcp-server`
 
 ### [GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP)
 📇 🏠 - Provide coding agents direct access to Figma data to help them one-shot design implementation.
@@ -223,6 +199,12 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ⭐ 11.4k | `Python` | Licence: MIT | MAJ: 2026-08-16
 **Tags** : `ai`, `aiagent`, `binary-analysis`, `ida-plugin`, `ida-pro`, `mcp`, `mcp-server`, `modelcontextprotocol`
 
+### [mcp-use](https://github.com/mcp-use/mcp-use)
+The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Servers for AI Agents.
+
+⭐ 10.5k | `TypeScript` | Licence: MIT | MAJ: 2026-08-16
+**Tags** : `agent-plugins`, `agentic-framework`, `ai`, `apps-sdk`, `chatgpt`, `claude-code`, `claude-connectors`, `llms`
+
 ### [LaurieWired/GhidraMCP](https://github.com/LaurieWired/GhidraMCP)
 ☕ 🏠 - A Model Context Protocol server for Ghidra that enables LLMs to autonomously reverse engineer applications. Provides tools for decompiling binaries, renaming methods and data, and listing met...
 
@@ -231,19 +213,19 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ### [awslabs/mcp](https://github.com/awslabs/mcp)
 🎖️ ☁️ - AWS MCP servers for seamless integration with AWS services and resources.
 
-⭐ 9.6k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-15
+⭐ 9.6k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-16
 **Tags** : `aws`, `mcp`, `mcp-client`, `mcp-clients`, `mcp-host`, `mcp-server`, `mcp-servers`, `mcp-tools`
 
 ### [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP)
 📇 🏠 🍎 🪟 🐧 - A swiss-army-knife that can manage/execute programs and read/write/search/edit code and text files.
 
-⭐ 9.3k | `TypeScript` | Licence: MIT | MAJ: 2026-08-15
+⭐ 9.3k | `TypeScript` | Licence: MIT | MAJ: 2026-08-16
 **Tags** : `agent`, `ai`, `code-analysis`, `code-generation`, `gemini-cli-extension`, `mcp`, `terminal-ai`, `terminal-automation`
 
-### [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server)
-!firecrawl/firecrawl-mcp-server MCP server 🎖️ 📇 ☁️ 🏠 - Official Firecrawl server with live browser interaction (firecrawl_interact) — navigate, click, type, and scroll on a page before extraction, ...
+### [firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server)
+🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients.
 
-⭐ 7.2k | `JavaScript` | Licence: MIT | MAJ: 2026-08-15
+⭐ 7.2k | `JavaScript` | Licence: MIT | MAJ: 2026-08-16
 **Tags** : `batch-processing`, `claude`, `content-extraction`, `data-collection`, `firecrawl`, `firecrawl-ai`, `javascript-rendering`, `llm-tools`
 
 ### [browsermcp/mcp](https://github.com/browsermcp/mcp)
@@ -252,17 +234,29 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ⭐ 7.0k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-08-16
 **Tags** : `browser-automation`, `browser-extension`, `claude`, `cursor`, `mcp`, `mcp-server`
 
-### [lharries/whatsapp-mcp](https://github.com/lharries/whatsapp-mcp)
-🐍 🏎️ - An MCP server for searching your personal WhatsApp messages, contacts and sending messages to individuals or groups
-
-⭐ 6.2k | `Go` | Licence: MIT | MAJ: 2026-08-15
-**Tags** : `ai`, `mcp`, `whatsapp`, `whatsapp-api`
-
 ### [rocketride-org/rocketride-server](https://github.com/rocketride-org/rocketride-server)
 !rocketride-org/rocketride-server MCP server 📇 🏠 - MCP server that exposes RocketRide AI pipelines as tools for Claude, Cursor, and Windsurf. Self-hosted, open-source pipeline tool with multi-LLM s...
 
-⭐ 6.1k | `Python` | Licence: MIT | MAJ: 2026-08-16
+⭐ 6.4k | `Python` | Licence: MIT | MAJ: 2026-08-16
 **Tags** : `ai`, `cpp`, `data-pipeline`, `data-processing`, `machine-learning`, `mcp`, `python`, `sdk`
+
+### [XcodeBuildMCP](https://github.com/getsentry/XcodeBuildMCP)
+A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.
+
+⭐ 6.2k | `TypeScript` | Licence: MIT | MAJ: 2026-08-16
+**Tags** : `mcp`, `mcp-server`, `model-context-protocol`, `model-context-protocol-servers`, `tag-production`, `xcode`, `xcodebuild`
+
+### [lharries/whatsapp-mcp](https://github.com/lharries/whatsapp-mcp)
+🐍 🏎️ - An MCP server for searching your personal WhatsApp messages, contacts and sending messages to individuals or groups
+
+⭐ 6.2k | `Go` | Licence: MIT | MAJ: 2026-08-16
+**Tags** : `ai`, `mcp`, `whatsapp`, `whatsapp-api`
+
+### [repowise-dev/repowise](https://github.com/repowise-dev/repowise)
+!repowise-dev/repowise MCP server 🐍 🏠 ☁️ - Codebase intelligence for AI coding agents. Indexes a repo into a dependency graph, git history, defect-risk code health, auto-generated docs, and archite...
+
+⭐ 5.9k | `Python` | Licence: AGPL-3.0 | MAJ: 2026-08-16
+**Tags** : `ai`, `code-complexity`, `code-health`, `code-intelligence`, `code-quality`, `dead-code`, `developer-tools`, `documentation`
 
 ### [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp)
 📇 🏠 🐧 🍎 - MCP Server for Android/iOS application and device automation, development and app scraping. Simulator/Emulator/Physical devices like iPhone, Google Pixel, Samsung supported.
@@ -270,11 +264,17 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ⭐ 5.9k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-08-16
 **Tags** : `agent`, `android`, `emulator`, `ios`, `mcp`, `mobile`, `physical`, `real`
 
-### [repowise-dev/repowise](https://github.com/repowise-dev/repowise)
-!repowise-dev/repowise MCP server 🐍 🏠 ☁️ - Codebase intelligence for AI coding agents. Indexes a repo into a dependency graph, git history, defect-risk code health, auto-generated docs, and archite...
+### [semble](https://github.com/MinishLab/semble)
+Fast and Accurate Code Search for Agents. Uses 99% fewer tokens than grep+read
 
-⭐ 5.9k | `Python` | Licence: AGPL-3.0 | MAJ: 2026-08-16
-**Tags** : `ai`, `code-complexity`, `code-health`, `code-intelligence`, `code-quality`, `dead-code`, `developer-tools`, `documentation`
+⭐ 5.9k | `Python` | Licence: MIT | MAJ: 2026-08-16
+**Tags** : `agents`, `code-search`, `embeddings`, `mcp`, `mcp-server`, `model-context-protocol`, `retrieval`
+
+### [awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers)
+Awesome MCP Servers - A curated list of Model Context Protocol servers
+
+⭐ 5.7k | MAJ: 2026-08-15
+**Tags** : `ai`, `anthropic-claude`, `awesome`, `context`, `mcp`, `model-context-protocol`, `servers`, `tool-use`
 
 ### [sooperset/mcp-atlassian](https://github.com/sooperset/mcp-atlassian)
 🐍 ☁️ - MCP server for Atlassian products (Confluence and Jira). Supports Confluence Cloud, Jira Cloud, and Jira Server/Data Center. Provides comprehensive tools for searching, reading, creating, an...
@@ -291,7 +291,7 @@ Create crafted UI components inspired by the best 21st.dev design engineers.
 ### [executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright)
 📇 - An MCP server using Playwright for browser automation and webscrapping
 
-⭐ 5.6k | `TypeScript` | Licence: MIT | MAJ: 2026-08-14
+⭐ 5.6k | `TypeScript` | Licence: MIT | MAJ: 2026-08-16
 
 ### [bram2w/baserow](https://github.com/bram2w/baserow)
 Baserow database integration with table search, list, and row create, read, update, and delete capabilities.
