@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design
-- **arXiv** : 2608.13560v1
-- **Date** : 2026-08-13
-- **Auteurs** : Yaxin Luo, Haobin Jiang, Jialv Zou, Xu Huang, Wenhao Yan
+### SheetCompass: Hierarchical Relation Graphs for Agentic Spreadsheet Reasoning
+- **arXiv** : 2608.14452v1
+- **Date** : 2026-08-14
+- **Auteurs** : Panjing He, Mingyue Cheng, Yucong Luo, Li Li, Xiaohan Zhang
+- **Score** : 12
+- **Résumé** : Spreadsheets are widely used to organize, analyze, and manipulate semi-structured data, yet automated spreadsheet reasoning remains challenging for large language models (LLMs). Real-world workbooks often contain implicit cross-table associations, fine-grained column dependencies, and complex spatia...
+- **Lien** : https://arxiv.org/abs/2608.14452v1
+
+### Validating LLM-Modernized Scientific Software Through Differential Fault Injection
+- **arXiv** : 2608.14527v1
+- **Date** : 2026-08-14
+- **Auteurs** : Evan Coleman, Yuzhong Shen, Masha Sosonkina, Peng Xu
+- **Score** : 9
+- **Résumé** : Large language model (LLM) agents are increasingly used to modernize the legacy Fortran underlying production scientific software, but validation of these transformations emphasizes nominal executions and may not test whether a modernization preserves the original code's response to faults, perturba...
+- **Lien** : https://arxiv.org/abs/2608.14527v1
+
+### Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training
+- **arXiv** : 2608.14498v1
+- **Date** : 2026-08-14
+- **Auteurs** : Hanfeng Lu, Tianyu Feng, Suyi Li, Yuheng Zhao, Wei Gao
 - **Score** : 7
-- **Résumé** : Transforming multimodal sources into condensed and structured media outputs can be fundamentally conceptualized as a long-horizon agentic process centered on a model-harness system. While an ideal harness system should align with human design priors and accumulate reusable experience through empiric...
-- **Lien** : https://arxiv.org/abs/2608.13560v1
+- **Résumé** : Vision-language models (VLMs) enable embodied agents to reason and act from visual observations and language instructions. Reinforcement learning (RL) post-training enhances these capabilities using task feedback, but current on-policy RL runtimes execute rollout, reference scoring, and actor traini...
+- **Lien** : https://arxiv.org/abs/2608.14498v1
 
-### QuoteBench: How Matched Scores Can Hide Command-Path Failures
-- **arXiv** : 2608.13547v1
-- **Date** : 2026-08-13
-- **Auteurs** : Shangao Li, Yao Zhang, Volker Tresp, Yuanyuan Yang
-- **Score** : 7
-- **Résumé** : LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched execution scores alone cannot distinguish command-generation errors from failures introduced after generation. QuoteBench measures this boundary with exact final-state validation on 5...
-- **Lien** : https://arxiv.org/abs/2608.13547v1
-
-### MARC v1: An Open-Source Multi-Agent Framework for Clinical AI Reasoning and Coordination
-- **arXiv** : 2608.13476v1
-- **Date** : 2026-08-13
-- **Auteurs** : Saisha Shetty, Satvik Tripathi, Austin Lin, Colin Zhao, Theodore Kim
-- **Score** : 7
-- **Résumé** : We present Multi-Agent Reasoning and Coordination (MARC), an open-source framework that replaces monolithic LLM prompting with deterministic multi-agent orchestration for clinical reasoning. MARC coordinates role-specialized agents for extraction, reasoning, answer generation, and evaluation, with e...
-- **Lien** : https://arxiv.org/abs/2608.13476v1
-
-### Reduced Matrix Multiplication: Input-Adaptive Matrix-Product Reduction for LLM Inference
-- **arXiv** : 2608.13426v1
-- **Date** : 2026-08-13
-- **Auteurs** : Zixuan Lan, Yanhong Li, Jiawei Zhou
-- **Score** : 7
-- **Résumé** : Transformer-based language models achieve strong performance but incur substantial inference cost due to repeated high-dimensional matrix multiplications. We propose Reduced Matrix Multiplication (RMM), a training-free, input-adaptive inference method that reduces Transformer matrix products by sele...
-- **Lien** : https://arxiv.org/abs/2608.13426v1
-
-### Beyond Final Scores: A Systematic Evaluation of Agents for Long-Horizon AI Research and Development
-- **arXiv** : 2608.13417v1
-- **Date** : 2026-08-13
-- **Auteurs** : Yiwei Li, Wanli Yang, Hexiang Tan, Xiangzhou Huang, Zhengyu Chen
-- **Score** : 7
-- **Résumé** : Autonomous agents are increasingly capable of improving models, systems, and other technical artifacts through long-horizon experimentation. To understand the current state of this capability, however, evaluation must go beyond final scores, which neither reveal where progress is gained or lost nor ...
-- **Lien** : https://arxiv.org/abs/2608.13417v1
-
-### SAEVerbalizer: Generating Explanations for Sparse Autoencoder Features via Representation Verbalization
-- **arXiv** : 2608.13538v1
-- **Date** : 2026-08-13
-- **Auteurs** : Weihan Meng, Hongzhu Guo, Yi Jing, Dewen Liu, Zijun Yao
+### Handover of In-Context Learning State Across Session Boundaries
+- **arXiv** : 2608.14528v1
+- **Date** : 2026-08-14
+- **Auteurs** : Masahiro Kato, Taka Kato
 - **Score** : 6
-- **Résumé** : Sparse autoencoders (SAEs) are proposed to extract numerous features from large language model (LLM) representations, yet explaining these features still relies primarily on external observation. This reliance leads to superficial explanations inferred from observed model behavior and computational ...
-- **Lien** : https://arxiv.org/abs/2608.13538v1
+- **Résumé** : This study investigates the methodological and theoretical properties of session handover in applications that use large language models. A task may continue in a new session when the context reaches the model's input limit, when the application restarts, or when another agent is asked to finish the...
+- **Lien** : https://arxiv.org/abs/2608.14528v1
 
-### Intern-S2-Preview: Scientific Agentic Foundation Model
-- **arXiv** : 2608.13505v1
-- **Date** : 2026-08-13
-- **Auteurs** : Lei Bai, Jiaqi Cao, Chiyu Chen, Guanzhou Chen, Kai Chen
+### Wyvern: An Agentic Framework for Generating Grounded Multimodal Reports
+- **arXiv** : 2608.14446v1
+- **Date** : 2026-08-14
+- **Auteurs** : Beatrice Alessandra Motetti, Emilien Guandalino, Daniele Jahier Pagliari, Alessio Burrello, Lorenz K. Müller
 - **Score** : 6
-- **Résumé** : Scientific discovery increasingly requires AI systems that can reason over scientific evidence of heterogeneous modalities, interact with scientific tools and environments, and sustain progress across long task horizons. We present Intern-S2-Preview, a series of scientific agentic foundation models ...
-- **Lien** : https://arxiv.org/abs/2608.13505v1
+- **Résumé** : In the current artificial intelligence-driven innovation era, the pace of knowledge growth is accelerating, and is hard to keep up with. While generative models are increasingly used to synthesize content, they often lack in information grounding. To address these peculiarities of our time, we propo...
+- **Lien** : https://arxiv.org/abs/2608.14446v1
 
-### AaLLM: An End-to-End Analog Circuit Design Framework from Topology Generation to Sizing Using Large Language Models
-- **arXiv** : 2608.13472v1
-- **Date** : 2026-08-13
-- **Auteurs** : Mohammed Ayman Habib, Rylan Hart, Morteza Fayazi
+### Whose doctor does the AI recommend? An algorithm audit of reputation and demographic signals in large language model-assisted physician choice
+- **arXiv** : 2608.14399v1
+- **Date** : 2026-08-14
+- **Auteurs** : Syeda Anshrah Gillani, Mirza Samad Ahmed Baig
 - **Score** : 6
-- **Résumé** : Analog circuit design is a time-consuming, iterative process in a nonlinear and high-dimensional design space that relies heavily on expert intuition. Among recent developments, LLMs have introduced a promising approach by bringing natural language reasoning to circuit design tasks. The majority of ...
-- **Lien** : https://arxiv.org/abs/2608.13472v1
+- **Résumé** : Patients increasingly ask large language model (LLM) assistants which doctor to see, making these systems AI infomediaries: algorithms that intermediate one person's choice among other people and thereby decide, silently and at scale, which physicians become visible. We report a prespecified randomi...
+- **Lien** : https://arxiv.org/abs/2608.14399v1
 
-### CAPRI: Contract-Aware Proof Repair for Isabelle
-- **arXiv** : 2608.13459v1
-- **Date** : 2026-08-13
-- **Auteurs** : Jim Woodcock, Gabriel Leite, Augusto Sampaio, Ran Wei
+### LLMs Don't Pay for the Jump
+- **arXiv** : 2608.14397v1
+- **Date** : 2026-08-14
+- **Auteurs** : Paras Balani, Subhrakanta Panda
 - **Score** : 6
-- **Résumé** : We address the use of large language models (LLMs) to help discover Isabelle proofs. An Isabelle build establishes that the submitted theory is accepted, but not that an LLM changed only what the developer authorised. We present CAPRI, a contract-aware repair workflow in which Isabelle checks the pr...
-- **Lien** : https://arxiv.org/abs/2608.13459v1
+- **Résumé** : Zahavy [2026] argues that Large Language Models, despite their capabilities in induction and deduction, cannot perform the abductive "Jump" that produced Einstein's equivalence principle, and attributes this limitation to the absence of embodied simulation. Zheng-Xin [2026] and Farmer [2026] questio...
+- **Lien** : https://arxiv.org/abs/2608.14397v1
 
-### LLM-Assisted Dynamic Threat Analysis for Attacker-Reachable Software Weaknesses in Autonomous Vehicles
-- **arXiv** : 2608.13450v1
-- **Date** : 2026-08-13
-- **Auteurs** : Md Wasiul Haque, Sagar Dasgupta, Mizanur Rahman, Md Rayhanur Rahman
+### Tripwire: Triggering Aligned Refusal via Statistically Certified Safety Neurons
+- **arXiv** : 2608.14392v1
+- **Date** : 2026-08-14
+- **Auteurs** : Wei Zhao, Zhe Li, Peixin Zhang, Jun Sun
 - **Score** : 6
-- **Résumé** : Autonomous vehicles depend on large safety-critical software stacks, where weaknesses reachable from adversarial inputs may affect steering, braking, or other control decisions. Static analysis can identify candidate sites, but dynamically confirming exploitability requires executable test artifacts...
-- **Lien** : https://arxiv.org/abs/2608.13450v1
+- **Résumé** : Neuron- and path-level interventions offer the finest-grained route to defending large language models (LLMs) against jailbreak attacks, yet existing methods fall short of this promise, i.e., they often compromise model utility significantly. Specifically, one line of work suppresses toxic neurons t...
+- **Lien** : https://arxiv.org/abs/2608.14392v1
 
-### HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark
-- **arXiv** : 2608.13555v1
-- **Date** : 2026-08-13
-- **Auteurs** : Dairu Liu, Zekun Qi, Jiayu Zeng, Ruixi Yu, Yu Guan
+### AgentRewind: Recoverable Execution for Long-Horizon LLM Agents
+- **arXiv** : 2608.14380v1
+- **Date** : 2026-08-14
+- **Auteurs** : Yu Zhuang, Kefei Chen, Yitong Duan, Shuxin Zheng, Jian Li
+- **Score** : 6
+- **Résumé** : Many real-world tasks require LLM agents to interact with their environments over long execution horizons. Errors that occur early in execution may propagate through both the agent context and environment state, and their effects may be difficult to reverse through subsequent actions. Existing metho...
+- **Lien** : https://arxiv.org/abs/2608.14380v1
+
+### A Survey of Large Models in Sports
+- **arXiv** : 2608.14377v1
+- **Date** : 2026-08-14
+- **Auteurs** : Yichen Xu, Jianzhe Ma, Chuhan Wang, Zhonghao Cao, Liangyu Chen
+- **Score** : 6
+- **Résumé** : Sports have witnessed growing global enthusiasm in recent years, serving as a vital force for physical health, cultural exchange, social connection, and economic growth. The rapid advancement of large models, particularly (multimodal) large language models (M)LLMs, has demonstrated transformative po...
+- **Lien** : https://arxiv.org/abs/2608.14377v1
+
+### PACE-Bench: Benchmarking Physics Adaptation via Code Evolution in Dynamic Environments
+- **arXiv** : 2608.14441v1
+- **Date** : 2026-08-14
+- **Auteurs** : Yuhao Zhan, Bingxiang He, Zecong Tang, Chaojun Xiao
 - **Score** : 5
-- **Résumé** : Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what people perceive in videos. Kinematic errors average per-frame pose differences but miss the physical artifacts that matter most, particularly unstable support and incorrect contact...
-- **Lien** : https://arxiv.org/abs/2608.13555v1
+- **Résumé** : Self-evolving agents improve future behavior from interaction experience, yet existing evaluations typically optimize under fixed execution conditions and do not test recovery after those conditions change. To address this gap, we introduce PACE-Bench (Physics Adaptation via Code Evolution), a simul...
+- **Lien** : https://arxiv.org/abs/2608.14441v1
 
-### Enhancing Virtual Agents through SLMs and Edge-Computing: An Exploratory Evaluation of Think and Memory Processes
-- **arXiv** : 2608.13420v1
-- **Date** : 2026-08-13
-- **Auteurs** : Aimilios Hadjiliasi, Louis Nisiotis
+### Twin: Playing an Unknown Game with a Test-Time Digital Twin
+- **arXiv** : 2608.14490v1
+- **Date** : 2026-08-14
+- **Auteurs** : Alexy Skoutnev, Kirill Acharya, Gaston Longhitano, Madeleine Udell, Kevin Ellis
 - **Score** : 4
-- **Résumé** : Embodied intelligent virtual agents are expected to operate as persistent, adaptive, and context-aware entities within complex virtual and Metaverse worlds. However, implementing cognitively capable agents in such environments is conceptually and technologically challenging. Among a range of bluepri...
-- **Lien** : https://arxiv.org/abs/2608.13420v1
+- **Résumé** : We present a Test-time World-model Inference (Twin) system, in which a frontier coding agent writes an executable world model for completing continual learning tasks, such as ARC-AGI-3 games. Traditional approaches hand-engineer such models, one custom design per task. Each game hides its rules and ...
+- **Lien** : https://arxiv.org/abs/2608.14490v1
 
-### OmniScientist: An Omni-Modal Omni-Discipline AI Scientist
-- **arXiv** : 2608.13558v1
-- **Date** : 2026-08-13
-- **Auteurs** : Bobo Li, Hao Fei, Tianjie Ju, Mong-Li Lee, Wynne Hsu
-- **Score** : 3
-- **Résumé** : Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depend...
-- **Lien** : https://arxiv.org/abs/2608.13558v1
+### Knowing When to Stop: Bayesian Optimal Stopping for LLM Evaluations
+- **arXiv** : 2608.14425v1
+- **Date** : 2026-08-14
+- **Auteurs** : Toby D. Pilditch
+- **Score** : 4
+- **Résumé** : LLM evaluations often use fixed sampling budgets, testing every item the same number of times even after estimates are precise. We introduce optstop, a precision-based adaptive stopping framework that treats evaluation as a sequential measurement problem: keep sampling where uncertainty remains high...
+- **Lien** : https://arxiv.org/abs/2608.14425v1
 
-### LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure
-- **arXiv** : 2608.13545v1
-- **Date** : 2026-08-13
-- **Auteurs** : Fanfei Li, Jana Zeller, Manuel Prada-Corral, Thaddäus Wiedemer, Prasanna Mayilvahanan
-- **Score** : 3
-- **Résumé** : Modern language models are trained on heterogeneous web-scale text corpora. Consequently, studying knowledge and skill acquisition is difficult, as prior exposure to related content is hard to characterize. To address this challenge, we introduce LITTLECURRICULUM, a curated 88B-token pretraining cor...
-- **Lien** : https://arxiv.org/abs/2608.13545v1
+### More Correct Mass, Worse Answers: Why Power Sampling Can Fail and How to Fix It
+- **arXiv** : 2608.14420v1
+- **Date** : 2026-08-14
+- **Auteurs** : Haohui Yang, Jiaxing Sun, Xiujun Ma
+- **Score** : 4
+- **Résumé** : Power Sampling sharpens a language model's distribution over complete generation trajectories, offering a verifier-free way to improve reasoning at inference time. It also has the potential to serve as a general-purpose front end for a broad range of downstream sampling methods. However, we uncover ...
+- **Lien** : https://arxiv.org/abs/2608.14420v1
 
-### Joint Communication-Control Strategy Optimization with Partially Nested Information Structures: The Linear-Quadratic Case
-- **arXiv** : 2608.13535v1
-- **Date** : 2026-08-13
-- **Auteurs** : Haoyi You, Kaiqing Zhang
-- **Score** : 3
-- **Résumé** : In this paper, we formalize a joint communication-control strategy optimization (JCCO) problem in multi-agent linear systems with quadratic costs, under the common-information-based (CIB) framework from decentralized stochastic control. For computational tractability, we focus on such JCCO problems ...
-- **Lien** : https://arxiv.org/abs/2608.13535v1
+### Online Inference in Distributional Temporal-Difference Learning
+- **arXiv** : 2608.14408v1
+- **Date** : 2026-08-14
+- **Auteurs** : Yang Peng, Liangyu Zhang
+- **Score** : 4
+- **Résumé** : We study online statistical inference for functionals of the return distribution under a fixed policy. The return distribution is estimated by nonparametric distributional temporal-difference learning from a single Markov trajectory. For the Polyak--Ruppert averaged estimator, we prove that its root...
+- **Lien** : https://arxiv.org/abs/2608.14408v1
 
-### DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees
-- **arXiv** : 2608.13524v1
-- **Date** : 2026-08-13
-- **Auteurs** : Tianyi Li, Yaxin Luo, Xinyi Shang, Zhiqiang Shen
+### Split the Labor: Separating Evidence Interpretation from Decision Aggregation
+- **arXiv** : 2608.14509v1
+- **Date** : 2026-08-14
+- **Auteurs** : Zhelun Wu
 - **Score** : 3
-- **Résumé** : Speculative decoding losslessly accelerates autoregressive language models by verifying multiple draft tokens in parallel. Diffusion-based drafters further reduce proposal latency by predicting an entire token block in parallel, but their position-wise distributions are marginal rather than conditio...
-- **Lien** : https://arxiv.org/abs/2608.13524v1
+- **Résumé** : Systems that ask a language model to reach a conclusion from many sources usually concatenate them into one prompt. This conflates two operations with different requirements. Interpreting a source rewards capacity and context. Combining interpretations rewards fixed arithmetic, comparability across ...
+- **Lien** : https://arxiv.org/abs/2608.14509v1
 
-### Vero: Can AI Agents Build Formally Verified Software Repositories?
-- **arXiv** : 2608.13522v1
-- **Date** : 2026-08-13
-- **Auteurs** : Zhe Ye, Hantao Lou, Yuechun Sun, Peiyang Song, Zhengxu Yan
+### Universal Thermodynamic Interatomic Potentials for Crystalline Materials
+- **arXiv** : 2608.14502v1
+- **Date** : 2026-08-14
+- **Auteurs** : Juno Nam, Bowen Deng, Xiaochen Du, Luis Barroso-Luque, Benjamin Kurt Miller
 - **Score** : 3
-- **Résumé** : AI agents are increasingly used for programming, but do not provide any guarantee on the correctness of generated code. Verified code generation, in which an agent produces both an implementation and a machine-checked proof of its specification, offers a stronger path toward trustworthy AI-generated...
-- **Lien** : https://arxiv.org/abs/2608.13522v1
+- **Résumé** : Free energies govern solid-state phase stability, yet computational materials discovery still relies largely on ground-state energies because free energy calculations require ensemble averages. We introduce the thermodynamic interatomic potential (TIP), which extends an interatomic potential from it...
+- **Lien** : https://arxiv.org/abs/2608.14502v1
 
-### DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data
-- **arXiv** : 2608.13517v1
-- **Date** : 2026-08-13
-- **Auteurs** : Peter Schneider-Kamp, Jacob Nielsen, Gianluca Barmina, Kenneth Enevoldsen, Lukas Galke Poech
+### Expected Free Energy-based Informative Path Planning for Robotic Mars Exploration
+- **arXiv** : 2608.14466v1
+- **Date** : 2026-08-14
+- **Auteurs** : Ajith Anil Meera, Pablo Lanillos, Wouter Kouw
 - **Score** : 3
-- **Résumé** : Current large language model development relies on massive, often non-permissible datasets, creating a high barrier for researchers committed to open-source and ethically sourced data. We introduce Mimir v1, a 1-billion-parameter language model based on the Hierarchical Reasoning Model (HRM) archite...
-- **Lien** : https://arxiv.org/abs/2608.13517v1
+- **Résumé** : An autonomous robot efficiently exploring an unknown environment, such as looking for water sources on Mars, faces two simultaneous demands: building an accurate information map while quickly finding the regions of greatest value, and paying for every meter of travel and the cost of every measuremen...
+- **Lien** : https://arxiv.org/abs/2608.14466v1
 
-### Measuring Task-Agnostic Training Data Influence Across Language Model Pretraining
-- **arXiv** : 2608.13515v1
-- **Date** : 2026-08-13
-- **Auteurs** : Yuto Nishida, Hirokazu Kiyomaru, Yusuke Oda, Takashi Kodama, Chaoran Liu
+### You Only Pass Once: Answering and Abstaining Together in a Single Forward Pass of a Frozen Language Model
+- **arXiv** : 2608.14465v1
+- **Date** : 2026-08-14
+- **Auteurs** : Ziyang Luo, Zhongyao Chu, Xinjie He, Youting Wang, Xukui Qin
 - **Score** : 3
-- **Résumé** : Measuring training data influence consistently across language model pretraining is challenging. It is difficult to select downstream tasks or validation sets representative of a model's general capabilities, and reliance on task performance at intermediate checkpoints complicates comparisons across...
-- **Lien** : https://arxiv.org/abs/2608.13515v1
+- **Résumé** : A frozen language model on reasoning tasks has two coupled weaknesses: it under-uses evidence its own residual stream already encodes, and it fails to detect when the input is insufficient to answer, so it confabulates. This paper consolidates two research lines that address these on the same residu...
+- **Lien** : https://arxiv.org/abs/2608.14465v1
 
-### TabSOM: A tabular-to-image encoding method based on self-organizing maps
-- **arXiv** : 2608.13513v1
-- **Date** : 2026-08-13
-- **Auteurs** : David Chushig-Muzo, María Ángeles Rodríguez de Cara, Eva Milara, Francisco J. Lara-Abelenda, Luis Zhinin-Vera
+### Designing Reinforcement Learning for Diffusion Models: A Unified Path-Space View
+- **arXiv** : 2608.14430v1
+- **Date** : 2026-08-14
+- **Auteurs** : Yixian Xu, Yuanrui Zhang, Shengjie Luo, Liwei Wang, Di He
 - **Score** : 3
-- **Résumé** : Tabular-to-image methods have emerged as novel approaches to leverage the high predictive performance of convolutional neural networks and vision transformers. They convert tabular data into image representations, mapping each feature at a fixed pixel location derived from a dimensionality-reduction...
-- **Lien** : https://arxiv.org/abs/2608.13513v1
+- **Résumé** : Reinforcement learning (RL) post-training provides a direct way to align diffusion models with human preferences and task-specific rewards. However, current RL algorithms for diffusion models remain fragmented: reverse-trajectory methods rely on discretized likelihood ratios, whereas forward-matchin...
+- **Lien** : https://arxiv.org/abs/2608.14430v1
 
 <!-- ARXIV_FEED_END -->

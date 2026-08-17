@@ -128,43 +128,43 @@ graph LR
 ### [ragflow](https://github.com/infiniflow/ragflow)
 RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
 
-⭐ 88.6k | `Go` | Licence: Apache-2.0 | MAJ: 2026-08-16
+⭐ 88.6k | `Go` | Licence: Apache-2.0 | MAJ: 2026-08-17
 **Tags** : `agent-harness`, `agentic-ai`, `agentic-retrieval`, `agentic-search`, `ai`, `ai-agents`, `context-engine`, `context-engineering`
 
 ### [Flowise](https://github.com/FlowiseAI/Flowise)
 Build AI Agents, Visually
 
-⭐ 55.4k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-08-16
+⭐ 55.4k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-08-17
 **Tags** : `agentic-ai`, `agentic-workflow`, `agents`, `artificial-intelligence`, `chatbot`, `chatgpt`, `javascript`, `langchain`
 
-### [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
-High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static bin...
+### [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
+!DeusData/codebase-memory-mcp MCP server 🌊 🏠 🍎 🪟 🐧 - Code-intelligence engine that indexes a repo into a persistent knowledge graph — functions, classes, call chains, HTTP routes, cross-service lin...
 
-⭐ 39.1k | `C` | Licence: MIT | MAJ: 2026-08-16
+⭐ 39.2k | `C` | Licence: MIT | MAJ: 2026-08-17
 **Tags** : `aider`, `ast`, `claude-code`, `code-analysis`, `code-intelligence`, `codex`, `cursor`, `cypher`
 
 ### [storm](https://github.com/stanford-oval/storm)
 An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.
 
-⭐ 31.0k | `Python` | Licence: MIT | MAJ: 2026-08-16
+⭐ 31.0k | `Python` | Licence: MIT | MAJ: 2026-08-17
 **Tags** : `agentic-rag`, `deep-research`, `emnlp2024`, `knowledge-curation`, `large-language-models`, `naacl`, `nlp`, `report-generation`
 
 ### [RAG-Anything](https://github.com/HKUDS/RAG-Anything)
 "RAG-Anything: All-in-One RAG Framework"
 
-⭐ 22.9k | `Python` | Licence: MIT | MAJ: 2026-08-16
+⭐ 22.9k | `Python` | Licence: MIT | MAJ: 2026-08-17
 **Tags** : `multi-modal-rag`, `retrieval-augmented-generation`
 
 ### [nebula](https://github.com/vesoft-inc/nebula)
 A distributed, fast open-source graph database featuring horizontal scalability and high availability
 
-⭐ 12.3k | `C++` | Licence: Apache-2.0 | MAJ: 2026-08-16
+⭐ 12.3k | `C++` | Licence: Apache-2.0 | MAJ: 2026-08-17
 **Tags** : `big-data`, `cpp`, `database`, `distributed`, `distributed-systems`, `graph`, `graph-database`, `graphdb`
 
 ### [Agent-S](https://github.com/simular-ai/Agent-S)
 Agent S: an open agentic framework that uses computers like a human
 
-⭐ 12.2k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-15
+⭐ 12.2k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-16
 **Tags** : `agent-computer-interface`, `ai-agents`, `computer-automation`, `computer-use`, `computer-use-agent`, `cua`, `grounding`, `gui-agents`
 
 ### [FalkorDB](https://github.com/FalkorDB/FalkorDB)
@@ -182,7 +182,7 @@ Neo4j graph construction from unstructured data using LLMs
 ### [memgraph](https://github.com/memgraph/memgraph)
 High-performance open-source in-memory graph database for GraphRAG, AI memory, agentic AI, and real-time graph analytics. Cypher-compatible, built in C++.
 
-⭐ 4.3k | `C++` | Licence: NOASSERTION | MAJ: 2026-08-16
+⭐ 4.3k | `C++` | Licence: NOASSERTION | MAJ: 2026-08-17
 **Tags** : `ai`, `ai-agents`, `ai-memory`, `context-graph`, `cypher`, `enterprise-context`, `graph`, `graph-algorithms`
 
 ### [EvoAgentX](https://github.com/EvoAgentX/EvoAgentX)
@@ -206,7 +206,7 @@ Awesome-GraphRAG: A curated list of resources (surveys, papers, benchmarks, and 
 ### [comfyui_LLM_party](https://github.com/heshengtao/comfyui_LLM_party)
 LLM Agent Framework in ComfyUI includes MCP sever, Omost,GPT-sovits, ChatTTS,GOT-OCR2.0, and FLUX prompt nodes,access to Feishu,discord,and adapts to all llms with similar openai / aisuite interfac...
 
-⭐ 2.3k | `Python` | Licence: AGPL-3.0 | MAJ: 2026-08-15
+⭐ 2.3k | `Python` | Licence: AGPL-3.0 | MAJ: 2026-08-16
 **Tags** : `agent`, `comfyui`, `dify`, `flux`, `gemini`, `gguf`, `gpt-sovits`, `graphrag`
 
 ### [graph-rag-agent](https://github.com/1517005260/graph-rag-agent)
@@ -224,7 +224,7 @@ Open-source production-ready RAG platform with built-in agentic reasoning, hybri
 ### [IWE](https://github.com/iwe-org/iwe)
 Markdown knowledge graph for you and your AI agents — editor LSP plus CLI and MCP server so agents can search, retrieve, and refactor plain-text notes. !GitHub Repo stars
 
-⭐ 1.5k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-08-16
+⭐ 1.5k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-08-17
 **Tags** : `ai-agents`, `ai-memory`, `cli`, `helix`, `knowledge-graph`, `knowledge-management`, `language-server`, `local-first`
 
 ### [apecloud/ApeRAG](https://github.com/apecloud/ApeRAG)
@@ -242,7 +242,7 @@ An LLM-powered repository agent designed to assist developers and teams in gener
 ### [heymrun/heym](https://github.com/heymrun/heym)
 !heymrun/heym MCP server 🐍 📇 🏠 - Source-available, self-hosted AI workflow automation platform. Build multi-agent, RAG, and tool-using pipelines on a visual canvas, then expose any workflow as an M...
 
-⭐ 939 | `Python` | Licence: NOASSERTION | MAJ: 2026-08-16
+⭐ 941 | `Python` | Licence: NOASSERTION | MAJ: 2026-08-17
 **Tags** : `ai-agents`, `ai-agents-framework`, `ai-assistant`, `automation`, `automation-tool`, `autonomous-agents`, `coding-agent`, `evals`
 
 <!-- TOOLS_RAG_END -->

@@ -83,6 +83,13 @@ graph LR
 - **Résumé** : Elon Musk Loses $150 Billion Suit Against OpenAI and Sam Altman, Google updates its Gemini app to take on ChatGPT and Claude at IO 2026, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-341-musk-loses-to
 
+### Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things
+- **Source** : Simon Willison
+- **Date** : 2026-08-16T22:00
+- **Score** : 2
+- **Résumé** : Friday's big release was Qwen 3.8 27B, an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for runni...
+- **Lien** : https://simonwillison.net/2026/Aug/16/qwen-38-27b/
+
 ### CORS Chat
 - **Source** : Simon Willison
 - **Date** : 2026-08-15T14:49
@@ -161,14 +168,6 @@ graph LR
 - **Score** : 1
 - **Résumé** : The Inference Inflection is HEATING up....
 - **Lien** : https://www.latent.space/p/ainews-amd-buys-taalas
-
-### DeepSeek V4 Pro 0813 (on OpenRouter)
-- **Source** : Simon Willison
-- **Date** : 2026-08-12T23:59
-- **Score** : 1
-- **Résumé** : DeepSeek V4 Pro 0813 (on OpenRouter)
-The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new m...
-- **Lien** : https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/
 
 ### Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS
 - **Source** : Hugging Face Blog
