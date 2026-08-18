@@ -69,6 +69,14 @@ graph LR
 | Hardware | `GPU`, `H100`, `B200`, `TPU`, `LPU`, `Groq` |
 
 <!-- BLOG_FEED_START -->
+### Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index
+- **Source** : Simon Willison
+- **Date** : 2026-08-17T23:58
+- **Score** : 3
+- **Résumé** : Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index
+That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 7...
+- **Lien** : https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/
+
 ### From assistance to execution: How enterprises put AI to work
 - **Source** : OpenAI Blog
 - **Date** : Wed, 12 Aug 2026
@@ -82,6 +90,13 @@ graph LR
 - **Score** : 3
 - **Résumé** : Elon Musk Loses $150 Billion Suit Against OpenAI and Sam Altman, Google updates its Gemini app to take on ChatGPT and Claude at IO 2026, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-341-musk-loses-to
+
+### [AINews] Stripe buys OpenRouter for $7B
+- **Source** : latent.space
+- **Date** : Mon, 17 Aug 2026
+- **Score** : 2
+- **Résumé** : No GPUs, no Agents, just really, really, really good infra and distribution....
+- **Lien** : https://www.latent.space/p/ainews-stripe-buys-openrouter-for
 
 ### Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things
 - **Source** : Simon Willison
@@ -97,14 +112,6 @@ graph LR
 - **Résumé** : Tool: CORS Chat
         I built this today (with GPT-5.6-Sol xhigh) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pr...
 - **Lien** : https://simonwillison.net/2026/Aug/15/cors-chat/
-
-### llm-gemini 0.33
-- **Source** : Simon Willison
-- **Date** : 2026-08-13T19:37
-- **Score** : 2
-- **Résumé** : Release: llm-gemini 0.33
-        It's been a while since the last llm-gemini release. This version of the plugin adds support for today's <a href="https://blog.google/innovation-and-ai/models...
-- **Lien** : https://simonwillison.net/2026/Aug/13/llm-gemini/
 
 ### Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets
 - **Source** : Hugging Face Blog
@@ -175,13 +182,6 @@ graph LR
 - **Score** : 1
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents
-
-### Baseten on Hugging Face Inference Providers 🔥
-- **Source** : Hugging Face Blog
-- **Date** : Thu, 06 Aug 2026
-- **Score** : 1
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/baseten
 
 ### Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed
 - **Source** : OpenAI Blog

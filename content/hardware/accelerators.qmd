@@ -132,38 +132,26 @@ GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial 
 ### [dynamo](https://github.com/ai-dynamo/dynamo)
 A Datacenter Scale Distributed Inference Serving Framework
 
-⭐ 7.8k | `Rust` | Licence: NOASSERTION | MAJ: 2026-08-17
+⭐ 7.8k | `Rust` | Licence: NOASSERTION | MAJ: 2026-08-18
 **Tags** : `diffusion`, `disaggregated-serving`, `kubernetes`, `llm-inference`, `omni`, `routing-engine`, `rust`, `sglang`
 
 ### [openevolve](https://github.com/algorithmicsuperintelligence/openevolve)
 Open-source implementation of AlphaEvolve
 
-⭐ 7.2k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-17
+⭐ 7.2k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-18
 **Tags** : `alpha-evolve`, `alphacode`, `alphaevolve`, `coding-agent`, `deepmind`, `deepmind-lab`, `discovery`, `distributed-evolutionary-algorithms`
 
 ### [plano](https://github.com/katanemo/plano)
 Plano is an AI-native proxy server and data plane for agentic apps. Smart LLM routing, observability, agent orchestration, and guardrails so you stay focused on your agents core logic.
 
-⭐ 7.0k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-08-17
+⭐ 7.0k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-08-18
 **Tags** : `ai-gateway`, `ai-gateway-support`, `envoy`, `envoyproxy`, `gateway`, `generative-ai`, `llm-gateway`, `llm-inference`
 
 ### [flashinfer](https://github.com/flashinfer-ai/flashinfer)
 FlashInfer: Kernel Library for LLM Serving
 
-⭐ 6.2k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-17
+⭐ 6.2k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-18
 **Tags** : `attention`, `cuda`, `distributed-inference`, `gpu`, `jit`, `large-large-models`, `llm-inference`, `moe`
-
-### [onediff](https://github.com/siliconflow/onediff)
-OneDiff: An out-of-the-box acceleration library for diffusion models.
-
-⭐ 2.0k | `Jupyter Notebook` | Licence: Apache-2.0 | MAJ: 2026-07-31
-**Tags** : `aigc-serving`, `comfyui`, `comfyui-workflow`, `cuda`, `diffusers`, `diffusion-models`, `inference-engine`, `lcm`
-
-### [sonar](https://github.com/dphnAI/sonar)
-Large-scale LLM inference engine
-
-⭐ 1.8k | `C++` | Licence: AGPL-3.0 | MAJ: 2026-08-16
-**Tags** : `api-rest`, `cuda`, `inference-engine`, `inferentia`, `intel`, `lora`, `machine-learning`, `rocm`
 
 ### [gpartin/WaveGuardClient](https://github.com/gpartin/WaveGuardClient)
 !WaveGuard MCP server 🐍 ☁️ 🍎 🪟 🐧 - Physics-based anomaly detection via MCP. Uses Klein-Gordon wave equations on GPU to detect anomalies with high precision (avg 0.90). 9 tools: scan, fingerprint, c...
