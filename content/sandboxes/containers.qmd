@@ -115,31 +115,37 @@ subprocess.run([
 ### [daytona](https://github.com/daytonaio/daytona)
 Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code
 
-⭐ 72.0k | MAJ: 2026-08-18
+⭐ 72.0k | MAJ: 2026-08-19
 **Tags** : `agentic-workflow`, `ai`, `ai-agents`, `ai-runtime`, `ai-sandboxes`, `code-execution`, `code-interpreter`, `developer-tools`
+
+### [omnigent](https://github.com/omnigent-ai/omnigent)
+Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, an...
+
+⭐ 9.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-19
+**Tags** : `agent-framework`, `agent-governance`, `agent-orchestration`, `agents`, `ai`, `ai-agent`, `ai-agents`, `claude-code`
 
 ### [judge0](https://github.com/judge0/judge0)
 Robust, fast, scalable, and sandboxed open-source online code execution system for humans and AI.
 
-⭐ 4.4k | `HTML` | Licence: GPL-3.0 | MAJ: 2026-08-18
+⭐ 4.4k | `HTML` | Licence: GPL-3.0 | MAJ: 2026-08-19
 **Tags** : `ai-agent-tools`, `ai-agents`, `ai-tools`, `code-execution`, `code-executor`, `code-runner`, `competitive-programming`, `online-compiler`
 
 ### [nono](https://github.com/nolabs-ai/nono)
 Sandbox any AI agent in seconds - zero setup, zero latency.
 
-⭐ 3.7k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-08-18
+⭐ 3.7k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-08-19
 **Tags** : `agent-sandbox`, `agent-security`, `ai-agent-sandbox`, `ai-agent-security`, `ai-agents`, `ai-security`, `ai-security-tool`, `code-execution`
 
 ### [piston](https://github.com/engineer-man/piston)
 A high performance general purpose code execution engine.
 
-⭐ 2.8k | `JavaScript` | Licence: MIT | MAJ: 2026-08-18
+⭐ 2.8k | `JavaScript` | Licence: MIT | MAJ: 2026-08-19
 **Tags** : `code-execution`, `lxc`, `nodejs`, `piston`, `shell`
 
 ### [zeroboot](https://github.com/zerobootdev/zeroboot)
 Sub-millisecond VM sandboxes for AI agents via copy-on-write forking
 
-⭐ 2.4k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-08-18
+⭐ 2.4k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-08-19
 **Tags** : `ai-agents`, `code-execution`, `copy-on-write`, `firecracker`, `kvm`, `rust`, `sandbox`, `virtual-machine`
 
 ### [aici](https://github.com/microsoft/aici)
@@ -147,12 +153,6 @@ AICI: Prompts as (Wasm) Programs
 
 ⭐ 2.1k | `Rust` | Licence: MIT | MAJ: 2026-08-13
 **Tags** : `ai`, `inference`, `language-model`, `llm`, `llm-framework`, `llm-inference`, `llm-serving`, `llmops`
-
-### [awesome-wasm-runtimes](https://github.com/appcypher/awesome-wasm-runtimes)
-A list of webassemby runtimes
-
-⭐ 1.6k | MAJ: 2026-08-06
-**Tags** : `cranelift`, `engine`, `javascript`, `rust`, `virtual-machine`, `vm`, `wasm`, `wasm-runtime`
 
 ### [Wllama](https://github.com/ngxson/wllama)
 WebAssembly binding for llama.cpp - Enabling in-browser LLM inference
@@ -169,25 +169,25 @@ WebAssembly binding for llama.cpp - Enabling in-browser LLM inference
 ### [tensorlake](https://github.com/tensorlakeai/tensorlake)
 Tensorlake is a serverless runtime for sandboxes and deploying background agentic applications
 
-⭐ 988 | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-18
+⭐ 989 | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-19
 **Tags** : `ai-agents`, `ai-infra`, `ai-infrastructure`, `code-execution`, `code-interpreter`, `llm`, `rl`, `sandbox`
 
 ### [LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench)
 Official repository for the paper "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code"
 
-⭐ 935 | `Python` | Licence: MIT | MAJ: 2026-08-18
+⭐ 934 | `Python` | Licence: MIT | MAJ: 2026-08-19
 **Tags** : `code-execution`, `code-generation`, `code-llms`, `code-repair`, `gpt-4`, `test-generation`
 
 ### [Dormice](https://github.com/BitMiracle-AI/Dormice)
 The SQLite of agent sandboxes — self-hosted, E2B-compatible. One machine, sandboxes that live forever, idle costs nothing.
 
-⭐ 729 | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-08-18
+⭐ 741 | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-08-19
 **Tags** : `agents`, `ai-agents`, `code-execution`, `docker`, `e2b`, `gvisor`, `sandbox`, `self-hosted`
 
 ### [SandBase Harness](https://github.com/sandbaseai/sandbase-harness)
 Local-first managed agent runtime with persistent sessions, sandboxed execution, MCP tools, audit, replay, and a human console. !GitHub Repo stars
 
-⭐ 621 | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-08-18
+⭐ 621 | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-08-19
 **Tags** : `agent-framework`, `agent-observability`, `agent-runtime`, `agent-sandbox`, `ai-agents`, `ai-infrastructure`, `deepseek`, `deepseek-harness`
 
 ### [haiku.rag](https://github.com/ggozad/haiku.rag)

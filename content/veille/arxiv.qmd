@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### Topological Attribution Distance (TAD): Revealing Segment-Level RAG Influence on LLM Output Geometry for Incident Log Analysis
-- **arXiv** : 2608.16775v1
-- **Date** : 2026-08-17
-- **Auteurs** : Reza Fayyazi, Michael Zuzak, Shanchieh Jay Yang
-- **Score** : 10
-- **Résumé** : Large Language Models (LLMs) are increasingly being deployed in cybersecurity operations to assist cybersecurity analysts with rapid decision-making against emerging threats. However, there is a main criteria that must be met when using LLMs in cybersecurity, that is, trust in the generated outputs....
-- **Lien** : https://arxiv.org/abs/2608.16775v1
+### Delegation Asymmetry in Agentic Recommender Systems: Measuring Two-Sided Receptivity in Online Dating
+- **arXiv** : 2608.18058v1
+- **Date** : 2026-08-18
+- **Auteurs** : Daria Leshchikova, Valentina V. Kuskova, Dmitry Zaytsev, Valerii Klimov
+- **Score** : 12
+- **Résumé** : Autonomous LLM agents that converse on a user's behalf are an emerging design pattern in matching platforms, yet their viability depends on a condition rarely examined: users must accept not only delegating conversation to an agent, but also receiving agent-mediated communication from others. We stu...
+- **Lien** : https://arxiv.org/abs/2608.18058v1
 
-### When State Becomes an Attack Surface: State-Semantic Injection in LLM-Driven Embodied Agents
-- **arXiv** : 2608.16806v1
-- **Date** : 2026-08-17
-- **Auteurs** : Jiawei Liu, Jiacheng Guo, Tian Zhang, Yiwei Xu, Juan Wang
+### Policy-Invariant Reward Shaping from LLM Feedback: A Framework for Hybrid RL Agents
+- **arXiv** : 2608.18008v1
+- **Date** : 2026-08-18
+- **Auteurs** : Christophe D. Hounwanou, John Emeka Eze, Yaé U. Gaba
 - **Score** : 9
-- **Résumé** : Large Language Models (LLMs) have demonstrated capabilities in in-context learning, task decomposition, step-by-step reasoning, and code generation, driving their gradual evolution from text generation models into the core of agents capable of perceiving environments, invoking tools, and executing t...
-- **Lien** : https://arxiv.org/abs/2608.16806v1
+- **Résumé** : Combining large language models with reinforcement learning is increasingly explored, yet the theoretical status of LLM-derived reward signals is often left implicit. We formalize the hybrid LLM-planner and RL-controller architecture as a Goal-Augmented Markov Decision Process and show that when the...
+- **Lien** : https://arxiv.org/abs/2608.18008v1
 
-### TDD-Agent: Test-Driven Reasoning for Code Generation
-- **arXiv** : 2608.16742v1
-- **Date** : 2026-08-17
-- **Auteurs** : Hongyue Yu, Kefan Li, Jiakun Li, Hongzheng Chai, Yuan Yuan
+### SIGMA: SHAP-Guided Implicit-Trajectory Generation for Metadata-Free LLM-Based AutoFE
+- **arXiv** : 2608.17948v1
+- **Date** : 2026-08-18
+- **Auteurs** : Xuan Zheng, Kento Uchida, Shinichi Shirakawa
 - **Score** : 9
-- **Résumé** : Large Language Models (LLMs) have achieved remarkable progress in code generation, yet ensuring correctness in complex, repository-level tasks remains challenging. Existing approaches often use generated tests as static post-hoc validators, which limits their ability to guide implementation and may ...
-- **Lien** : https://arxiv.org/abs/2608.16742v1
+- **Résumé** : Recent research has leveraged Large Language Models (LLMs) to enhance Automated Feature Engineering (AutoFE) through semantic descriptions and trajectory-based prompting. However, there exist two challenges that limit their applicability and scalability in long-horizon optimization: (1) semantic met...
+- **Lien** : https://arxiv.org/abs/2608.17948v1
 
-### Semantic Bandits: In-Context Exploration-Exploitation is Biased by Semantic Priors
-- **arXiv** : 2608.16707v1
-- **Date** : 2026-08-17
-- **Auteurs** : David Eric Austin, Kaheer Suleman, Jackie Chi Kit Cheung
-- **Score** : 9
-- **Résumé** : Large language models (LLMs) are increasingly deployed as decision-making agents in settings that require sophisticated environmental exploration. However, existing work has raised questions about how LLMs actually balance exploration and exploitation. Unlike classical agents, LLM agents engage with...
-- **Lien** : https://arxiv.org/abs/2608.16707v1
+### Chain-of-Experience for Continual LLM Improvement
+- **arXiv** : 2608.18027v1
+- **Date** : 2026-08-18
+- **Auteurs** : Haoqin Tu, Yunhao Fang, Yizhong Wang, Cihang Xie, Shen Yan
+- **Score** : 8
+- **Résumé** : Humans continuously learn from experience, whereas conventional large language model (LLM) evaluations ignore the models' ability to improve through inference-time interaction. In this paper, we study how LLMs learn from iterative experience at test time, a setting we refer to as Chain-of-Experience...
+- **Lien** : https://arxiv.org/abs/2608.18027v1
 
-### Neurosymbolic Embodied Agents
-- **arXiv** : 2608.16794v1
-- **Date** : 2026-08-17
-- **Auteurs** : Mohammad Albinhassan, Yuming Feng, Alessandra Russo, Pranava Madhyastha
-- **Score** : 7
-- **Résumé** : Language and vision-language models generate plausible embodied plans but do not guarantee executability, as their outputs can violate environment dynamics or act on incorrectly grounded entities. We present a neurosymbolic agent that factors long-horizon household tasks into task-directed visual ex...
-- **Lien** : https://arxiv.org/abs/2608.16794v1
-
-### Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory
-- **arXiv** : 2608.16889v1
-- **Date** : 2026-08-17
-- **Auteurs** : Bingxin Xu, Yuzhang Shang, Emilio Ferrara
+### On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification
+- **arXiv** : 2608.18066v1
+- **Date** : 2026-08-18
+- **Auteurs** : Qinyuan Ye, Yu Li, Yada Pruksachatkun, Jiaxin Zhang, Chien-Sheng Wu
 - **Score** : 6
-- **Résumé** : Long-horizon robot manipulation chains many contact-rich skills into one multi-stage task. Vision-language-action (VLA) models increasingly master the individual skills, yet the chain still fails: errors compound beyond the policy's ability to correct, and one subtask silently constrains the next. A...
-- **Lien** : https://arxiv.org/abs/2608.16889v1
+- **Résumé** : Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, the reliability aspects of these methods have been critically overlooked. In this work, we conduct a...
+- **Lien** : https://arxiv.org/abs/2608.18066v1
 
-### Quipu: A Governed Bitemporal Knowledge Graph Store
-- **arXiv** : 2608.16813v1
-- **Date** : 2026-08-17
-- **Auteurs** : Steve Brown
+### Can Large Language Models Explain Flight Safety Events? A Prior-Guided Semantic LLM-based Approach
+- **arXiv** : 2608.18017v1
+- **Date** : 2026-08-18
+- **Auteurs** : Lu Xu, Xu Li, Linjiang Zheng, Fan Li, Riquan Zhang
 - **Score** : 6
-- **Résumé** : Agents now write knowledge graphs, but knowledge-graph stores still carry defaults set when humans curated them: accept writes now and clean later, keep one time axis or none, treat every writer's facts as equally trustworthy, and leave governance to dashboards and middleware. These four defaults ar...
-- **Lien** : https://arxiv.org/abs/2608.16813v1
+- **Résumé** : Improving flight safety with flight data requires not only accurate detection of risk events, but more importantly, clear interpretation of their underlying causes at the level of pilot control behavior. Existing explainable AI techniques, such as feature importance maps, often require considerable ...
+- **Lien** : https://arxiv.org/abs/2608.18017v1
 
-### On the Principles Behind Neural Network Optimizers
-- **arXiv** : 2608.16760v1
-- **Date** : 2026-08-17
-- **Auteurs** : Yushun Zhang
+### Do Large Language Models Play Six Degrees of Separation? Measuring Topological Compression in Long-Context Manifolds
+- **arXiv** : 2608.17950v1
+- **Date** : 2026-08-18
+- **Auteurs** : Md. Faiyaz Abdullah Sayeedi
 - **Score** : 6
-- **Résumé** : Reliable optimization is central to neural network (NN) training, yet Adam, the default optimizer for modern LLMs, rests on a fragile foundation. This thesis develops a principled grounding for Adam and motivates new designs. First, we revisit Adam's divergence--convergence debate and show the exist...
-- **Lien** : https://arxiv.org/abs/2608.16760v1
+- **Résumé** : Large Language Models (LLMs) demonstrate remarkable multi-hop reasoning capabilities over long contexts, yet the internal mechanisms enabling these distant cognitive leaps remain poorly understood. Traditional attention-based interpretability often fails to capture true semantic proximity due to rou...
+- **Lien** : https://arxiv.org/abs/2608.17950v1
 
-### Would this change your answer? Evaluating Explanations of LLM Behavior In The Wild with Counterfactual Experiments
-- **arXiv** : 2608.16747v1
-- **Date** : 2026-08-17
-- **Auteurs** : Adam Karvonen, Euan Ong, Subhash Kantamneni, Samuel Marks
+### EvoTS-Agent: A Self-Evolving LLM Agent for Financial Time Series Change Point Detection
+- **arXiv** : 2608.17933v1
+- **Date** : 2026-08-18
+- **Auteurs** : Lei Jiang, Ye Wei, Xinyu Xi, Jordan Langham-Lopez, Yifan Bao
 - **Score** : 6
-- **Résumé** : Many areas of AI research, such as language model interpretability and chain of thought faithfulness, seek to explain model behaviors. But what constitutes a "good" explanation? In this work, we evaluate explanations through the lens of counterfactual simulatability-whether the explanation is useful...
-- **Lien** : https://arxiv.org/abs/2608.16747v1
+- **Résumé** : Financial time series exhibit non-stationary and heterogeneous statistical properties, making change-point detection challenging because no single unsupervised algorithm performs consistently across assets and market regimes. Conventional workflows consequently depend heavily on expert-driven model ...
+- **Lien** : https://arxiv.org/abs/2608.17933v1
 
-### Le Critique: Privileged Value Functions for LLM Reinforcement Learning
-- **arXiv** : 2608.16739v1
-- **Date** : 2026-08-17
-- **Auteurs** : Siddarth Venkatraman, Matthieu Dinot, Laurence Aitchison
+### CABLE: Extending the Reach of Memory Retrieval via Complementary Antecedent-Based Linking and Expansion
+- **arXiv** : 2608.17911v1
+- **Date** : 2026-08-18
+- **Auteurs** : Zheling Tan, Jin Gao, Dequan Wang
 - **Score** : 6
-- **Résumé** : Reinforcement learning algorithms for Large Language Models (LLMs) are largely distinguished by their variance reduction strategy. Group-relative methods like GRPO reduce gradient variance by sampling multiple rollouts per prompt, but provide only sequence-level credit. Training is also blocked by s...
-- **Lien** : https://arxiv.org/abs/2608.16739v1
+- **Résumé** : As LLM agents operate across structured workflows and sessions, preserving long-term history does not ensure that later contexts can recover relevant evidence through a bounded memory interface. We study this evidence-reachability problem in long-term conversational memory, where retrieval still rel...
+- **Lien** : https://arxiv.org/abs/2608.17911v1
 
-### Towards Computational Provenance: Carrying Causal-State Evidence in Generated Text
-- **arXiv** : 2608.16868v1
-- **Date** : 2026-08-17
-- **Auteurs** : Benjamin Belay
+### Multi-Agent AI System for Radiology Report Structuring and Quality Assurance with Independent Radiologist Evaluation
+- **arXiv** : 2608.18072v1
+- **Date** : 2026-08-18
+- **Auteurs** : Iryna Hartsock, Cesar Lam, Christopher Otteni, Aliya Qayyum, Robert Gatenby
 - **Score** : 4
-- **Résumé** : A language model's output does not by itself provide verifiable evidence about the internal computation that produced it. We study computational provenance: whether generated text can carry detectable evidence of which causally relevant internal state occurred. We test a bounded form of this idea in...
-- **Lien** : https://arxiv.org/abs/2608.16868v1
+- **Résumé** : Purpose: To develop and evaluate a locally deployed multi-agent AI system for radiology report structuring and quality assurance. Materials and Methods: This retrospective study included 638 radiology reports from CT examinations of the chest, abdomen, and pelvis dictated by 15 board-certified radio...
+- **Lien** : https://arxiv.org/abs/2608.18072v1
 
-### What Do Compliance Detectors Read? An Audit of Activation Probes and Guard Models
-- **arXiv** : 2608.16852v1
-- **Date** : 2026-08-17
-- **Auteurs** : Saisab Sadhu, Aadit Sengupta, Vinay Kumar Sankarapu, Pratinav Seth
+### TokEval: A Tokenizer Evaluation Suite
+- **arXiv** : 2608.18062v1
+- **Date** : 2026-08-18
+- **Auteurs** : Clara Meister
 - **Score** : 4
-- **Résumé** : Regulatory compliance monitoring in deployed language models is increasingly implemented as a legal and audit control, checking model outputs against written rules spanning data protection, healthcare, financial regulation, and platform policy. Such monitoring is meaningful only if a detector's verd...
-- **Lien** : https://arxiv.org/abs/2608.16852v1
+- **Résumé** : Language model tokenizers are typically selected with minimal evaluation, despite the fact that their design choices directly impact model capabilities. This can be partly attributed to a limited understanding of which tokenizer properties affect which aspects of downstream performance. We introduce...
+- **Lien** : https://arxiv.org/abs/2608.18062v1
 
-### When Agents Coordinate: Measuring Coordination in Multi-Agent AI Coding
-- **arXiv** : 2608.16801v1
-- **Date** : 2026-08-17
-- **Auteurs** : Giuseppe Destefanis, Tomaso Aste
+### Judge, Retrieve, or Abstain: Uncertainty-Guarded LLM Judging with Provable Risk Guarantees
+- **arXiv** : 2608.17994v1
+- **Date** : 2026-08-18
+- **Auteurs** : Sher Badshah, Ali Emami, Hassan Sajjad
 - **Score** : 4
-- **Résumé** : We study how teams of AI coding agents coordinate while solving programming tasks. Current evaluations usually report whether the agents complete the task and how much the run costs, leaving the coordination inside the team largely unmeasured. We introduce an instrument to measure this coordination....
-- **Lien** : https://arxiv.org/abs/2608.16801v1
+- **Résumé** : Using LLMs as judges has become standard practice for evaluating model outputs at scale. This is particularly common for subjective, open-ended tasks such as assessing helpfulness or alignment, where no single reference answer exists. However, objective tasks introduce a distinct reliability challen...
+- **Lien** : https://arxiv.org/abs/2608.17994v1
 
-### TRACE-Bench: Decomposing and Diagnosing Multi-Reference Image Generation
-- **arXiv** : 2608.16765v1
-- **Date** : 2026-08-17
-- **Auteurs** : Haoran Wang, Chaofan Ma, Ran Yi, Lizhuang Ma
-- **Score** : 4
-- **Résumé** : Despite recent advances in unified multimodal models for multi-reference image generation, existing benchmarks remain organized around predefined task types (e.g., "subject composition"), which are ill-suited to this combinatorial setting and lead to fragmented coverage, uncontrolled complexity, and...
-- **Lien** : https://arxiv.org/abs/2608.16765v1
-
-### HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL
-- **arXiv** : 2608.16837v1
-- **Date** : 2026-08-17
-- **Auteurs** : Langzhe Gu, Chengkai Hou, Meng Li, Xinhua Wang, Jiaming Liu
+### StagedWorkspace: A Versioned Workspace for Knowledge-Work Agents
+- **arXiv** : 2608.18050v1
+- **Date** : 2026-08-18
+- **Auteurs** : Yining Hua, Hongbin Na, Yifan Zhou, Akshay Kalose, Cyrus Ayubcha
 - **Score** : 3
-- **Résumé** : Humanoid robots hold great promise as general-purpose agents in human-centered environments, yet generalist vision-language-action (VLA) foundation models are not readily applicable to humanoid whole-body loco-manipulation. The high dimensionality and interdependence of humanoid motions make it chal...
-- **Lien** : https://arxiv.org/abs/2608.16837v1
+- **Résumé** : AI agents increasingly perform knowledge work (i.e., produce and modify persistent digital artifacts such as code repositories, documents, spreadsheets, slides, reports), yet the parsed views they search, the native files they edit, the changes they review, and the artifacts they submit can refer to...
+- **Lien** : https://arxiv.org/abs/2608.18050v1
 
-### Diagnosing Dense Same-Class Attribute Misbinding in Large Vision-Language Models
-- **arXiv** : 2608.16805v1
-- **Date** : 2026-08-17
-- **Auteurs** : Yuanzhi Xu, Qian Gao, Jun Fan, Guohui Ding, Zhenyu Yang
+### Where A Small Language Model Helps in Invoice Categorisation, Understood Through Embedding Geometry
+- **arXiv** : 2608.18033v1
+- **Date** : 2026-08-18
+- **Auteurs** : Emma Ceccherini, Daniel Lawson, Anjulika Salhan
 - **Score** : 3
-- **Résumé** : Large vision-language models can recognize the objects and attributes in a crowded scene yet assign an attribute to the wrong same-class instance. Generic visual-question-answering accuracy marks the response as wrong, while object-hallucination metrics may regard both the object and attribute as im...
-- **Lien** : https://arxiv.org/abs/2608.16805v1
+- **Résumé** : Categorising invoices into the correct General Ledger (GL) code underpins financial reporting and tax compliance. This is a skilled accounting judgement rather than a routine task: the correct category depends subtly on the nature of the purchasing business, the vendor and the invoice text. Whilst A...
+- **Lien** : https://arxiv.org/abs/2608.18033v1
 
-### ClawGym II: Exploring Black-Box RL on Agent Harness
-- **arXiv** : 2608.16798v1
-- **Date** : 2026-08-17
-- **Auteurs** : Huatong Song, Fei Bai, Ming Yang, Renyuan Li, Jia Deng
+### The IOL-AI Challenge: An Open Challenge towards Advancing Linguistic Reasoning
+- **arXiv** : 2608.18011v1
+- **Date** : 2026-08-18
+- **Auteurs** : Eduardo Sánchez, Rita Berrada, Dan-Mircea Mirea, Sara Rajaee, Alexander Piperski
 - **Score** : 3
-- **Résumé** : Agent harnesses have substantially improved performance on long-horizon tasks by coordinating agent interactions with the environment. However, reinforcement learning through complex harnesses remains largely unexplored, as scaling such training to long-horizon agent tasks introduces fundamental cha...
-- **Lien** : https://arxiv.org/abs/2608.16798v1
+- **Résumé** : Reasoning in LLMs is overwhelmingly studied in domains that provide a model with rules: mathematics and code. Linguistic puzzles invert this: the solver must first discover the system before reasoning within it. We present the IOL-AI Challenge, an open-science competition run on the unseen problems ...
+- **Lien** : https://arxiv.org/abs/2608.18011v1
 
-### Historical Backtesting for Scientific Question Discovery: A Protocol and Astronomy Pilot
-- **arXiv** : 2608.16795v1
-- **Date** : 2026-08-17
-- **Auteurs** : Hui Mao
+### Too Sure to Be Safe: Model Calibration for Reliable Log Anomaly Detection
+- **arXiv** : 2608.17965v1
+- **Date** : 2026-08-18
+- **Auteurs** : Bin Li, Dongdong Wang, Siyang Lu
 - **Score** : 3
-- **Résumé** : Systems that generate scientific research questions are evaluated today by expert scores, LLM-as-judge ratings, or curated case studies -- all subjective, none falsifiable. We formalize historical backtesting as an alternative: a system generates questions from a corpus frozen at a historical cutoff...
-- **Lien** : https://arxiv.org/abs/2608.16795v1
+- **Résumé** : Online log anomaly detection is critical for maintaining the reliability of large-scale computing systems. Although recent language model-based log anomaly detectors achieve strong detection performance, their confidence estimates remain poorly calibrated. We show that these detectors frequently ass...
+- **Lien** : https://arxiv.org/abs/2608.17965v1
 
-### GRIP: Grounded Reasoning via Information-Restricted Premises
-- **arXiv** : 2608.16776v1
-- **Date** : 2026-08-17
-- **Auteurs** : Lirui Teng
+### An Omitted Mode Is a Rare Rule: The Sampling-Verification Danger Law in Continuous Code World Models
+- **arXiv** : 2608.17956v1
+- **Date** : 2026-08-18
+- **Auteurs** : Javier Aguilar Martín
 - **Score** : 3
-- **Résumé** : High-capacity encoders in retrieval-augmented generation (RAG) can let the query dominate the latent state, leaving retrieved evidence functionally irrelevant. We call this failure mode query dominance. To address it, we introduce 	extbf{GRIP} (Grounded Reasoning via Information-Restricted Premises...
-- **Lien** : https://arxiv.org/abs/2608.16776v1
+- **Résumé** : In the Code World Model paradigm an LLM synthesizes an executable world model that a classical planner searches, and the model is accepted when it reproduces sampled transitions. We ask what that acceptance certifies in continuous control. We define the pipeline's danger as an expected risk and isol...
+- **Lien** : https://arxiv.org/abs/2608.17956v1
 
-### Beyond $L_2$: Generalizing Abductive Latent Explanations to Diverse Prototype-Based Architectures
-- **arXiv** : 2608.16773v1
-- **Date** : 2026-08-17
-- **Auteurs** : Jules Soria, Alban Grastien, Romain Xu-Darme, Julien Girard-Satabin, Zakaria Chihani
+### Procedural Content Metageneration via Program Search and Continual Abstraction Discovery
+- **arXiv** : 2608.17947v1
+- **Date** : 2026-08-18
+- **Auteurs** : Matthew Siper, Ahmed Khalifa, Julian Togelius
 - **Score** : 3
-- **Résumé** : Prototype-based neural networks are hailed as interpretable-by-design architectures. Recently, Abductive Latent Explanations (ALE) were introduced to provide formal, mathematically guaranteed explanations that leverage the intrinsic structure of these networks to ensure both predictive safety and hu...
-- **Lien** : https://arxiv.org/abs/2608.16773v1
+- **Résumé** : Large language models can generate executable programs, which makes it possible to search directly over procedural content generators rather than individual levels. We study this approach in Sokoban, Zelda, Dangerous Dave, and Lode Runner. Each run evolves complete Python generators through language...
+- **Lien** : https://arxiv.org/abs/2608.17947v1
+
+### Efficient RLVR Scheduling via Graph-Structured Online Difficulty Estimation
+- **arXiv** : 2608.17941v1
+- **Date** : 2026-08-18
+- **Auteurs** : Zhizhao Liu, Zhiliang Tian, Xi Wang, Zhihua Wen, Yihang Xiong
+- **Score** : 3
+- **Résumé** : Reinforcement learning with verifiable rewards (RLVR) improves the reasoning capabilities of large language models but relies on costly rollout exploration. Assigning the same exploration budget to samples with different difficulty levels is inefficient: easy samples may receive redundant rollouts, ...
+- **Lien** : https://arxiv.org/abs/2608.17941v1
+
+### Grading Needs a Rubric, Not Intelligence
+- **arXiv** : 2608.17938v1
+- **Date** : 2026-08-18
+- **Auteurs** : Jhen-Ke Lin
+- **Score** : 3
+- **Résumé** : Small language models can grade open-ended examination answers as reliably as substantially more expensive models when they grade against an explicit rubric. We test this claim as the design principle behind any-to-bench: a frontier model reads source documents once, at ingestion, to extract each qu...
+- **Lien** : https://arxiv.org/abs/2608.17938v1
 
 <!-- ARXIV_FEED_END -->
