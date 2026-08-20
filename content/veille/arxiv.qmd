@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### Delegation Asymmetry in Agentic Recommender Systems: Measuring Two-Sided Receptivity in Online Dating
-- **arXiv** : 2608.18058v1
-- **Date** : 2026-08-18
-- **Auteurs** : Daria Leshchikova, Valentina V. Kuskova, Dmitry Zaytsev, Valerii Klimov
-- **Score** : 12
-- **Résumé** : Autonomous LLM agents that converse on a user's behalf are an emerging design pattern in matching platforms, yet their viability depends on a condition rarely examined: users must accept not only delegating conversation to an agent, but also receiving agent-mediated communication from others. We stu...
-- **Lien** : https://arxiv.org/abs/2608.18058v1
-
-### Policy-Invariant Reward Shaping from LLM Feedback: A Framework for Hybrid RL Agents
-- **arXiv** : 2608.18008v1
-- **Date** : 2026-08-18
-- **Auteurs** : Christophe D. Hounwanou, John Emeka Eze, Yaé U. Gaba
+### What is Missing from AI Post-Training AI: An Empirical Analysis
+- **arXiv** : 2608.19072v1
+- **Date** : 2026-08-19
+- **Auteurs** : Joy Jia Yin Lim, Xin Huang, Hao Peng, Yaxi Lu, Xin Cong
 - **Score** : 9
-- **Résumé** : Combining large language models with reinforcement learning is increasingly explored, yet the theoretical status of LLM-derived reward signals is often left implicit. We formalize the hybrid LLM-planner and RL-controller architecture as a Goal-Augmented Markov Decision Process and show that when the...
-- **Lien** : https://arxiv.org/abs/2608.18008v1
+- **Résumé** : Large language model (LLM) agents can now post-train an LLM end-to-end. They can write code, launch training, evaluate checkpoints, and improve downstream performance, raising the prospect of AI-for-AI. We argue that this picture conflates two distinct capabilities: execution-level capability, itera...
+- **Lien** : https://arxiv.org/abs/2608.19072v1
 
-### SIGMA: SHAP-Guided Implicit-Trajectory Generation for Metadata-Free LLM-Based AutoFE
-- **arXiv** : 2608.17948v1
-- **Date** : 2026-08-18
-- **Auteurs** : Xuan Zheng, Kento Uchida, Shinichi Shirakawa
-- **Score** : 9
-- **Résumé** : Recent research has leveraged Large Language Models (LLMs) to enhance Automated Feature Engineering (AutoFE) through semantic descriptions and trajectory-based prompting. However, there exist two challenges that limit their applicability and scalability in long-horizon optimization: (1) semantic met...
-- **Lien** : https://arxiv.org/abs/2608.17948v1
-
-### Chain-of-Experience for Continual LLM Improvement
-- **arXiv** : 2608.18027v1
-- **Date** : 2026-08-18
-- **Auteurs** : Haoqin Tu, Yunhao Fang, Yizhong Wang, Cihang Xie, Shen Yan
+### Grouping the Stochastic Machine: Precision, Not Capability, as the Frontier Metric for AI Systems
+- **arXiv** : 2608.19140v1
+- **Date** : 2026-08-19
+- **Auteurs** : George Andrikopoulos
 - **Score** : 8
-- **Résumé** : Humans continuously learn from experience, whereas conventional large language model (LLM) evaluations ignore the models' ability to improve through inference-time interaction. In this paper, we study how LLMs learn from iterative experience at test time, a setting we refer to as Chain-of-Experience...
-- **Lien** : https://arxiv.org/abs/2608.18027v1
+- **Résumé** : Frontier language models are compared, marketed, and benchmarked on capability -- what their best or average output can achieve. I argue this measures the wrong axis. The models have saturated accuracy: their mean output lands on the target. What now separates one system from another in practice is ...
+- **Lien** : https://arxiv.org/abs/2608.19140v1
 
-### On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification
-- **arXiv** : 2608.18066v1
-- **Date** : 2026-08-18
-- **Auteurs** : Qinyuan Ye, Yu Li, Yada Pruksachatkun, Jiaxin Zhang, Chien-Sheng Wu
+### Autonomous Cyber Defense in Connected Vehicles: A Multi-Agent Approach to V2X Security
+- **arXiv** : 2608.19135v1
+- **Date** : 2026-08-19
+- **Auteurs** : Krishna Teja Medam
 - **Score** : 6
-- **Résumé** : Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, the reliability aspects of these methods have been critically overlooked. In this work, we conduct a...
-- **Lien** : https://arxiv.org/abs/2608.18066v1
+- **Résumé** : A connected vehicle has roughly 100 milliseconds to decide whether an incoming Basic Safety Message is real or fabricated. If a false emergency braking alert reaches the planning pipeline in time, the car brakes - a safety failure triggered by a security failure. Existing intrusion detection systems...
+- **Lien** : https://arxiv.org/abs/2608.19135v1
 
-### Can Large Language Models Explain Flight Safety Events? A Prior-Guided Semantic LLM-based Approach
-- **arXiv** : 2608.18017v1
-- **Date** : 2026-08-18
-- **Auteurs** : Lu Xu, Xu Li, Linjiang Zheng, Fan Li, Riquan Zhang
+### Comment-level Topic Drift Analysis in the Reddit Corpus
+- **arXiv** : 2608.19133v1
+- **Date** : 2026-08-19
+- **Auteurs** : Steven Morse, Daniel Runfola, Trenton W. Ford
 - **Score** : 6
-- **Résumé** : Improving flight safety with flight data requires not only accurate detection of risk events, but more importantly, clear interpretation of their underlying causes at the level of pilot control behavior. Existing explainable AI techniques, such as feature importance maps, often require considerable ...
-- **Lien** : https://arxiv.org/abs/2608.18017v1
+- **Résumé** : We present a novel application of embedding-based dynamic topic modeling techniques to detect and quantify topic drift at the comment level in a massive corpus. By leveraging pretrained language models to generate contextualized semantic embeddings for short text, we analyzed 12.7 billion Reddit com...
+- **Lien** : https://arxiv.org/abs/2608.19133v1
 
-### Do Large Language Models Play Six Degrees of Separation? Measuring Topological Compression in Long-Context Manifolds
-- **arXiv** : 2608.17950v1
-- **Date** : 2026-08-18
-- **Auteurs** : Md. Faiyaz Abdullah Sayeedi
+### Multi-Agent Off-Policy Deep Reinforcement Learning for Smart Campus Coverage
+- **arXiv** : 2608.19049v1
+- **Date** : 2026-08-19
+- **Auteurs** : Omar Rady, Mohamed Ayman, Ali Arafa, Mohamed Shalma
 - **Score** : 6
-- **Résumé** : Large Language Models (LLMs) demonstrate remarkable multi-hop reasoning capabilities over long contexts, yet the internal mechanisms enabling these distant cognitive leaps remain poorly understood. Traditional attention-based interpretability often fails to capture true semantic proximity due to rou...
-- **Lien** : https://arxiv.org/abs/2608.17950v1
+- **Résumé** : Deep reinforcement learning (DRL) has recently gained a great attention due to its real-time adaptation and effectiveness in complex optimization problems. This paper investigates the optimal deployment of millimeter-wave (mmWave) base stations (BSs) in a realistic, non-convex campus topology. The o...
+- **Lien** : https://arxiv.org/abs/2608.19049v1
 
-### EvoTS-Agent: A Self-Evolving LLM Agent for Financial Time Series Change Point Detection
-- **arXiv** : 2608.17933v1
-- **Date** : 2026-08-18
-- **Auteurs** : Lei Jiang, Ye Wei, Xinyu Xi, Jordan Langham-Lopez, Yifan Bao
+### Self-prompting and cross-model consensus enable reproducible data extraction from scientific literature with large language models
+- **arXiv** : 2608.19025v1
+- **Date** : 2026-08-19
+- **Auteurs** : Valentin Romanov, Monique Bax, Steven Niederer
 - **Score** : 6
-- **Résumé** : Financial time series exhibit non-stationary and heterogeneous statistical properties, making change-point detection challenging because no single unsupervised algorithm performs consistently across assets and market regimes. Conventional workflows consequently depend heavily on expert-driven model ...
-- **Lien** : https://arxiv.org/abs/2608.17933v1
+- **Résumé** : Accurately extracting nuanced, contextualized data from research articles is laborious and time intensive. Here, we investigate the performance of frontier, browser-based large language models (LLMs) to extract highly contextualized information. We demonstrate four escalating workflows, 1) given an ...
+- **Lien** : https://arxiv.org/abs/2608.19025v1
 
-### CABLE: Extending the Reach of Memory Retrieval via Complementary Antecedent-Based Linking and Expansion
-- **arXiv** : 2608.17911v1
-- **Date** : 2026-08-18
-- **Auteurs** : Zheling Tan, Jin Gao, Dequan Wang
+### Grading the Graders: Verification Autonomy Levels (L0-L5) for LLM Reasoning
+- **arXiv** : 2608.19009v1
+- **Date** : 2026-08-19
+- **Auteurs** : Yajie Yin
 - **Score** : 6
-- **Résumé** : As LLM agents operate across structured workflows and sessions, preserving long-term history does not ensure that later contexts can recover relevant evidence through a bounded memory interface. We study this evidence-reachability problem in long-term conversational memory, where retrieval still rel...
-- **Lien** : https://arxiv.org/abs/2608.17911v1
+- **Résumé** : Large language models (LLMs) are increasingly paired with verifiers (step checkers, self-consistency filters, tool-based fact checkers, formal proof assistants) that claim to detect the model's errors. Yet the verification literature uses the word "level" to mean at least five different things: veri...
+- **Lien** : https://arxiv.org/abs/2608.19009v1
 
-### Multi-Agent AI System for Radiology Report Structuring and Quality Assurance with Independent Radiologist Evaluation
-- **arXiv** : 2608.18072v1
-- **Date** : 2026-08-18
-- **Auteurs** : Iryna Hartsock, Cesar Lam, Christopher Otteni, Aliya Qayyum, Robert Gatenby
-- **Score** : 4
-- **Résumé** : Purpose: To develop and evaluate a locally deployed multi-agent AI system for radiology report structuring and quality assurance. Materials and Methods: This retrospective study included 638 radiology reports from CT examinations of the chest, abdomen, and pelvis dictated by 15 board-certified radio...
-- **Lien** : https://arxiv.org/abs/2608.18072v1
+### Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets
+- **arXiv** : 2608.19147v1
+- **Date** : 2026-08-19
+- **Auteurs** : Tate Berenbaum, Muthaiah Venkatachalam
+- **Score** : 5
+- **Résumé** : Modern Intel AI PCs ship capable integrated GPUs and NPUs with 16+ GB of unified memory, and they spend considerable time idle. That is not enough memory to fit a large model such as a 70B-parameter LLM. We show that a handful of AIPCs, working together over an ordinary network, can serve models bey...
+- **Lien** : https://arxiv.org/abs/2608.19147v1
 
-### TokEval: A Tokenizer Evaluation Suite
-- **arXiv** : 2608.18062v1
-- **Date** : 2026-08-18
-- **Auteurs** : Clara Meister
-- **Score** : 4
-- **Résumé** : Language model tokenizers are typically selected with minimal evaluation, despite the fact that their design choices directly impact model capabilities. This can be partly attributed to a limited understanding of which tokenizer properties affect which aspects of downstream performance. We introduce...
-- **Lien** : https://arxiv.org/abs/2608.18062v1
-
-### Judge, Retrieve, or Abstain: Uncertainty-Guarded LLM Judging with Provable Risk Guarantees
-- **arXiv** : 2608.17994v1
-- **Date** : 2026-08-18
-- **Auteurs** : Sher Badshah, Ali Emami, Hassan Sajjad
-- **Score** : 4
-- **Résumé** : Using LLMs as judges has become standard practice for evaluating model outputs at scale. This is particularly common for subjective, open-ended tasks such as assessing helpfulness or alignment, where no single reference answer exists. However, objective tasks introduce a distinct reliability challen...
-- **Lien** : https://arxiv.org/abs/2608.17994v1
-
-### StagedWorkspace: A Versioned Workspace for Knowledge-Work Agents
-- **arXiv** : 2608.18050v1
-- **Date** : 2026-08-18
-- **Auteurs** : Yining Hua, Hongbin Na, Yifan Zhou, Akshay Kalose, Cyrus Ayubcha
+### SPADE: Self-Play in Adaptive Synthetic Executable Environments
+- **arXiv** : 2608.19197v1
+- **Date** : 2026-08-19
+- **Auteurs** : Bo Liu, Simon Yu, Yiding Jiang, Ao Qu, Andrew Zhao
 - **Score** : 3
-- **Résumé** : AI agents increasingly perform knowledge work (i.e., produce and modify persistent digital artifacts such as code repositories, documents, spreadsheets, slides, reports), yet the parsed views they search, the native files they edit, the changes they review, and the artifacts they submit can refer to...
-- **Lien** : https://arxiv.org/abs/2608.18050v1
+- **Résumé** : Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language agents, existing training environment pools (hand-curated, statically synthesized, or frozen-verifier) keep the goal distribution fixed as the learner scales. We introduce SPADE (Self...
+- **Lien** : https://arxiv.org/abs/2608.19197v1
 
-### Where A Small Language Model Helps in Invoice Categorisation, Understood Through Embedding Geometry
-- **arXiv** : 2608.18033v1
-- **Date** : 2026-08-18
-- **Auteurs** : Emma Ceccherini, Daniel Lawson, Anjulika Salhan
+### Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication
+- **arXiv** : 2608.19161v1
+- **Date** : 2026-08-19
+- **Auteurs** : Ramneet Kaur, Pradyumna Chari, Ramesh Raskar, Jugad Singh, Sumit Kumar Jha
 - **Score** : 3
-- **Résumé** : Categorising invoices into the correct General Ledger (GL) code underpins financial reporting and tax compliance. This is a skilled accounting judgement rather than a routine task: the correct category depends subtly on the nature of the purchasing business, the vendor and the invoice text. Whilst A...
-- **Lien** : https://arxiv.org/abs/2608.18033v1
+- **Résumé** : Language-model agents can communicate through continuous hidden states that are invisible in public transcripts, creating opportunities for covert harmful coordination. We introduce Verifiable Latent Alignments (VLA), an activation-aware framework for monitoring and steering these private communicat...
+- **Lien** : https://arxiv.org/abs/2608.19161v1
 
-### The IOL-AI Challenge: An Open Challenge towards Advancing Linguistic Reasoning
-- **arXiv** : 2608.18011v1
-- **Date** : 2026-08-18
-- **Auteurs** : Eduardo Sánchez, Rita Berrada, Dan-Mircea Mirea, Sara Rajaee, Alexander Piperski
+### Beyond Trial Averaging: Anchoring Neural and Visual Representations for Few-Repetition Brain-to-Image Retrieval
+- **arXiv** : 2608.19128v1
+- **Date** : 2026-08-19
+- **Auteurs** : Zhenyao Cui, Siyuan Kan, Dingkun Liu, Dongrui Wu
 - **Score** : 3
-- **Résumé** : Reasoning in LLMs is overwhelmingly studied in domains that provide a model with rules: mathematics and code. Linguistic puzzles invert this: the solver must first discover the system before reasoning within it. We present the IOL-AI Challenge, an open-science competition run on the unseen problems ...
-- **Lien** : https://arxiv.org/abs/2608.18011v1
+- **Résumé** : Decoding visual information from brain signals probes neural representations and enables neuro-rehabilitation and dream decoding. Recent brain-to-image retrieval approaches have achieved promising performance, typically by averaging many (up to 80) neural trials per image, requiring repeated stimulu...
+- **Lien** : https://arxiv.org/abs/2608.19128v1
 
-### Too Sure to Be Safe: Model Calibration for Reliable Log Anomaly Detection
-- **arXiv** : 2608.17965v1
-- **Date** : 2026-08-18
-- **Auteurs** : Bin Li, Dongdong Wang, Siyang Lu
+### Tuning the Stochastic Machine: A Systems Engineer's Operating Model for Human-AI Engineering
+- **arXiv** : 2608.19125v1
+- **Date** : 2026-08-19
+- **Auteurs** : George Andrikopoulos
 - **Score** : 3
-- **Résumé** : Online log anomaly detection is critical for maintaining the reliability of large-scale computing systems. Although recent language model-based log anomaly detectors achieve strong detection performance, their confidence estimates remain poorly calibrated. We show that these detectors frequently ass...
-- **Lien** : https://arxiv.org/abs/2608.17965v1
+- **Résumé** : When an expert corrects an LLM assistant's error, the correction usually dies with the session, and the error class returns. I argue this is an operations problem, not a tooling problem: mechanisms for persisting corrections exist and are shipping, but the discipline for governing them -- versioning...
+- **Lien** : https://arxiv.org/abs/2608.19125v1
 
-### An Omitted Mode Is a Rare Rule: The Sampling-Verification Danger Law in Continuous Code World Models
-- **arXiv** : 2608.17956v1
-- **Date** : 2026-08-18
-- **Auteurs** : Javier Aguilar Martín
+### DA-WAM: Decision-Aligned Future Latents for Driving World Models
+- **arXiv** : 2608.19085v1
+- **Date** : 2026-08-19
+- **Auteurs** : Ruiguo Zhong, Benshan Ma, Xiaolong Chen, Lang Zhang, Mingyue Feng
 - **Score** : 3
-- **Résumé** : In the Code World Model paradigm an LLM synthesizes an executable world model that a classical planner searches, and the model is accepted when it reproduces sampled transitions. We ask what that acceptance certifies in continuous control. We define the pipeline's danger as an expected risk and isol...
-- **Lien** : https://arxiv.org/abs/2608.17956v1
+- **Résumé** : Anticipating how scenes evolve under ego actions is fundamental to safe autonomous driving, yet the full potential of world models for decision-making remains unrealized. The critical challenge lies in ensuring that future modeling is not merely predictive, but decision-informative: the predicted fu...
+- **Lien** : https://arxiv.org/abs/2608.19085v1
 
-### Procedural Content Metageneration via Program Search and Continual Abstraction Discovery
-- **arXiv** : 2608.17947v1
-- **Date** : 2026-08-18
-- **Auteurs** : Matthew Siper, Ahmed Khalifa, Julian Togelius
+### ReWEIGH the Evidence: Calibrating Token-Level Ordinal Visual Evidence to Mitigate Hallucinations in Large Vision-Language Models
+- **arXiv** : 2608.19075v1
+- **Date** : 2026-08-19
+- **Auteurs** : Jihae Jeong, Junha Choi, Hwanjo Yu
 - **Score** : 3
-- **Résumé** : Large language models can generate executable programs, which makes it possible to search directly over procedural content generators rather than individual levels. We study this approach in Sokoban, Zelda, Dangerous Dave, and Lode Runner. Each run evolves complete Python generators through language...
-- **Lien** : https://arxiv.org/abs/2608.17947v1
+- **Résumé** : Large vision-language models (LVLMs) often hallucinate, generating content that the input image does not support. Preventing such content during decoding calls for a candidate-specific measure of how strongly the image supports the token under consideration. The model's visual-token states offer a n...
+- **Lien** : https://arxiv.org/abs/2608.19075v1
 
-### Efficient RLVR Scheduling via Graph-Structured Online Difficulty Estimation
-- **arXiv** : 2608.17941v1
-- **Date** : 2026-08-18
-- **Auteurs** : Zhizhao Liu, Zhiliang Tian, Xi Wang, Zhihua Wen, Yihang Xiong
+### Robust Risk Under Evolving Uncertainty: A Wasserstein Counterpart of the Entropic Value-at-Risk
+- **arXiv** : 2608.19073v1
+- **Date** : 2026-08-19
+- **Auteurs** : Deep Kumar Ganguly, Jan Křetínský
 - **Score** : 3
-- **Résumé** : Reinforcement learning with verifiable rewards (RLVR) improves the reasoning capabilities of large language models but relies on costly rollout exploration. Assigning the same exploration budget to samples with different difficulty levels is inefficient: easy samples may receive redundant rollouts, ...
-- **Lien** : https://arxiv.org/abs/2608.17941v1
+- **Résumé** : An agent still learning its environment should be cautious while ignorant and bold once confident. The entropic value-at-risk captures this through a robust-optimization identity---a confidence level fixes the radius of a relative-entropy ball of alternative models---but that ball cannot reach catas...
+- **Lien** : https://arxiv.org/abs/2608.19073v1
 
-### Grading Needs a Rubric, Not Intelligence
-- **arXiv** : 2608.17938v1
-- **Date** : 2026-08-18
-- **Auteurs** : Jhen-Ke Lin
+### GS-VLA: Plug-and-Play Viewpoint Canonicalization for Frozen VLA Policies via Gaussian Splatting
+- **arXiv** : 2608.19066v1
+- **Date** : 2026-08-19
+- **Auteurs** : Yechan Park, HyunJin Kim
 - **Score** : 3
-- **Résumé** : Small language models can grade open-ended examination answers as reliably as substantially more expensive models when they grade against an explicit rubric. We test this claim as the design principle behind any-to-bench: a frontier model reads source documents once, at ingestion, to extract each qu...
-- **Lien** : https://arxiv.org/abs/2608.17938v1
+- **Résumé** : This paper proposes a lightweight, plug-and-play framework that improves robustness to viewpoint shifts in Vision-Language-Action (VLA) policies without policy retraining. To our knowledge, this is the first approach to directly leverage 3D Gaussian-based novel-view synthesis for observation-space a...
+- **Lien** : https://arxiv.org/abs/2608.19066v1
+
+### Eureka: Task-Conditioned Meta-Agent Orchestration for Scientific Discovery
+- **arXiv** : 2608.19047v1
+- **Date** : 2026-08-19
+- **Auteurs** : Alizer Wong, Heng Cui, Yi Tan, Xiongchao Zhan, Liang Lin
+- **Score** : 3
+- **Résumé** : We present Eureka, a task-conditioned Meta-Agent architecture that compiles long-horizon tasks into dynamic obligation graphs with explicit acceptance semantics. During execution, Eureka forms Macro-Agents with specialized state, memory, operators, tools, verifiers, and local topology via receding-h...
+- **Lien** : https://arxiv.org/abs/2608.19047v1
+
+### Bernstein-Vazirani Networks: Quantum Machine Learning by Interference
+- **arXiv** : 2608.19043v1
+- **Date** : 2026-08-19
+- **Auteurs** : Natacha Kuete Meli, Tolga Birdal, Prayag Tiwari, Vladislav Golyanik, Michael Moeller
+- **Score** : 3
+- **Résumé** : We introduce Bernstein-Vazirani Networks (BVNs), a non-variational quantum machine learning framework that leverages quantum interference for supervised learning, demonstrated on vision and representation learning tasks. In their standard form, BVNs follow the principle of quantum Fourier sampling: ...
+- **Lien** : https://arxiv.org/abs/2608.19043v1
+
+### Adaptive Memory and Reflection Multi-Agent System for Medical Question Answering
+- **arXiv** : 2608.19029v1
+- **Date** : 2026-08-19
+- **Auteurs** : Pradeep Murugesan, Luoxiao Yang, Xueli Chen, Xinqi Fan
+- **Score** : 3
+- **Résumé** : Accurate and responsible medical question answering (QA) is important in healthcare, where complex cases require factual knowledge and nuanced reasoning. Existing medical QA systems, typically based on single-agent architectures and static retrieval, often lack adaptability, persistent memory, and s...
+- **Lien** : https://arxiv.org/abs/2608.19029v1
+
+### One-Stage Object Detectors in Autonomous Driving
+- **arXiv** : 2608.19014v1
+- **Date** : 2026-08-19
+- **Auteurs** : Jonel Roman, Ryan Sirjue, Peter Nguyen, Daniel Krutky, Juan Jesus
+- **Score** : 3
+- **Résumé** : Autonomous vehicles depend on fast and reliable perception systems to detect surrounding vehicles, pedestrians, cyclists, traffic signs, and other road objects in real time. This paper presents a comprehensive survey and analysis of one-stage object detectors for autonomous driving rather than an im...
+- **Lien** : https://arxiv.org/abs/2608.19014v1
 
 <!-- ARXIV_FEED_END -->
