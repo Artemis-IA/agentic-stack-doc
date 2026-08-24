@@ -116,7 +116,7 @@ Windsurf utilise les prompts/outputs pour le training sans opt-out clair. Le ZDR
 ### [rtk](https://github.com/rtk-ai/rtk)
 CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
 
-⭐ 77.2k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-08-24
+⭐ 77.3k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-08-24
 **Tags** : `agentic-coding`, `ai-coding`, `anthropic`, `claude-code`, `cli`, `command-line-tool`, `cost-reduction`, `developer-tools`
 
 ### [gpt-engineer](https://github.com/AntonOsika/gpt-engineer)
@@ -152,13 +152,13 @@ DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cach
 ### [tabby](https://github.com/TabbyML/tabby)
 Self-hosted AI coding assistant
 
-⭐ 33.8k | `Rust` | Licence: NOASSERTION | MAJ: 2026-08-23
+⭐ 33.8k | `Rust` | Licence: NOASSERTION | MAJ: 2026-08-24
 **Tags** : `ai`, `codegen`, `coding-assistant`, `coding-language`, `developer-experience`, `developer-tools`, `gen-ai`, `ide`
 
 ### [gpt-pilot](https://github.com/Pythagora-io/gpt-pilot)
 The first real AI developer
 
-⭐ 33.7k | `Python` | Licence: NOASSERTION | MAJ: 2026-08-23
+⭐ 33.7k | `Python` | Licence: NOASSERTION | MAJ: 2026-08-24
 **Tags** : `ai`, `codegen`, `coding-assistant`, `developer-tools`, `gpt-4`, `research-project`
 
 ### [code-review-graph](https://github.com/tirth8205/code-review-graph)
@@ -179,17 +179,17 @@ An open-source AI coding agent that lives in your terminal.
 ⭐ 27.3k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-08-24
 **Tags** : `agentic`, `ai`, `ai-agent`, `ai-coding`, `cli`, `coding-agent`, `developer-tools`, `llm`
 
+### [oh-my-pi](https://github.com/can1357/oh-my-pi)
+⌥ Coding agent with the IDE wired in
+
+⭐ 27.1k | `TypeScript` | Licence: MIT | MAJ: 2026-08-24
+**Tags** : `ai-agent`, `ai-coding-agent`, `anthropic`, `bun`, `claude`, `cli`, `coding-assistant`, `llm`
+
 ### [kilocode](https://github.com/Kilo-Org/kilocode)
 Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.
 
 ⭐ 27.0k | `TypeScript` | Licence: MIT | MAJ: 2026-08-24
 **Tags** : `ai`, `ai-age`, `ai-coding`, `ai-developer-tools`, `chatgpt`, `claude`, `cli`, `gemini`
-
-### [oh-my-pi](https://github.com/can1357/oh-my-pi)
-⌥ Coding agent with the IDE wired in
-
-⭐ 26.9k | `TypeScript` | Licence: MIT | MAJ: 2026-08-24
-**Tags** : `ai-agent`, `ai-coding-agent`, `anthropic`, `bun`, `claude`, `cli`, `coding-assistant`, `llm`
 
 ### [Archon](https://github.com/coleam00/Archon)
 The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.
@@ -230,7 +230,7 @@ Free, local tool to track AI coding token usage and cost across 37 tools and age
 ### [ccpm](https://github.com/automazeio/ccpm)
 Project management skill system for Agents that uses GitHub Issues and Git worktrees for parallel agent execution.
 
-⭐ 8.3k | `Shell` | Licence: MIT | MAJ: 2026-08-23
+⭐ 8.3k | `Shell` | Licence: MIT | MAJ: 2026-08-24
 **Tags** : `ai-agents`, `ai-coding`, `claude`, `claude-code`, `project-management`, `vibe-coding`
 
 <!-- TOOLS_HARNESS_PROP_END -->
