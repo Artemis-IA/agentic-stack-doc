@@ -69,14 +69,6 @@ graph LR
 | Hardware | `GPU`, `H100`, `B200`, `TPU`, `LPU`, `Groq` |
 
 <!-- BLOG_FEED_START -->
-### Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index
-- **Source** : Simon Willison
-- **Date** : 2026-08-17T23:58
-- **Score** : 3
-- **Résumé** : Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index
-That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is <...
-- **Lien** : https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/
-
 ### Last Week in AI #341 - Musk loses to OpenAI, Google's IO updates, OpenAI solves Erdős
 - **Source** : Last Week in AI
 - **Date** : Wed, 27 May 2026
@@ -90,36 +82,6 @@ That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (
 - **Score** : 2
 - **Résumé** : No GPUs, no Agents, just really, really, really good infra and distribution....
 - **Lien** : https://www.latent.space/p/ainews-stripe-buys-openrouter-for
-
-### smolmachines / smolvm as a sandbox for untrusted Python & JavaScript
-- **Source** : Simon Willison
-- **Date** : 2026-08-19T23:16
-- **Score** : 2
-- **Résumé** : Research: smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript
-        I tasked Claude Fable 5 running in Claude Code for web with the following research ta...
-- **Lien** : https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/
-
-### Quoting Jeremy Morrell
-- **Source** : Simon Willison
-- **Date** : 2026-08-19T22:56
-- **Score** : 2
-- **Résumé** : My hypothesis is that there is a new opportunity for Extensible Software on the web. LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment...
-- **Lien** : https://simonwillison.net/2026/Aug/19/jeremy-morrell/
-
-### Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things
-- **Source** : Simon Willison
-- **Date** : 2026-08-16T22:00
-- **Score** : 2
-- **Résumé** : Friday's big release was Qwen 3.8 27B, an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for runni...
-- **Lien** : https://simonwillison.net/2026/Aug/16/qwen-38-27b/
-
-### CORS Chat
-- **Source** : Simon Willison
-- **Date** : 2026-08-15T14:49
-- **Score** : 2
-- **Résumé** : Tool: CORS Chat
-        I built this today (with GPT-5.6-Sol xhigh) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pr...
-- **Lien** : https://simonwillison.net/2026/Aug/15/cors-chat/
 
 ### Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets
 - **Source** : Hugging Face Blog
@@ -135,6 +97,20 @@ That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (
 - **Résumé** : Google unveils AI model Gemini 3.5 and AI agent Gemini Spark, Omni turns images, audio, and text into video, Musk loses OpenAI court battle...
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-246-gemini-35-omni
 
+### The Evolution of the Agent Harness
+- **Source** : latent.space
+- **Date** : Sat, 22 Aug 2026
+- **Score** : 1
+- **Résumé** : Models keep absorbing the harness into their weights &#8212; soon, it will be a harness for human attention rather than for the model....
+- **Lien** : https://www.latent.space/p/attention-interface
+
+### Simulation: the new Scaling Law — Joon Sung Park, Simile AI
+- **Source** : latent.space
+- **Date** : Fri, 21 Aug 2026
+- **Score** : 1
+- **Résumé** : Simile&#8217;s CEO about his journey from the viral Generative Agents to creating 8 Billion Digital Twins of every living human... and why it&#8217;s gone from fun exploration to very serious business...
+- **Lien** : https://www.latent.space/p/simile
+
 ### React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue
 - **Source** : latent.space
 - **Date** : Sat, 15 Aug 2026
@@ -142,19 +118,69 @@ That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (
 - **Résumé** : Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why he added hooks and why agents are defined by their harnesses....
 - **Lien** : https://www.latent.space/p/flue-2
 
-### [AINews] Gemini 3.7 Flash brings GDM back to the forefront
-- **Source** : latent.space
-- **Date** : Fri, 14 Aug 2026
+### llm 0.33
+- **Source** : Simon Willison
+- **Date** : 2026-08-22T17:01
 - **Score** : 1
-- **Résumé** : Down, but not out!...
-- **Lien** : https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm
+- **Résumé** : Release: llm 0.33
+        My highlights from this release:
 
-### 🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery
-- **Source** : latent.space
-- **Date** : Tue, 11 Aug 2026
+
+Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from httpx to httpx2</cod...
+- **Lien** : https://simonwillison.net/2026/Aug/22/llm/
+
+### More than just code review
+- **Source** : Simon Willison
+- **Date** : 2026-08-22T15:56
 - **Score** : 1
-- **Résumé** : Pharma is suddenly paying for Bio &#215; AI tools, and Chai is leading the pack with four deals closed this summer. Cofounder Matt McPartlon and Product leader Neil Patil explain why....
-- **Lien** : https://www.latent.space/p/chai-discovery
+- **Résumé** : The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the...
+- **Lien** : https://simonwillison.net/2026/Aug/22/more-than-just-code-review/
+
+### llm 0.32.1
+- **Source** : Simon Willison
+- **Date** : 2026-08-21T17:16
+- **Score** : 1
+- **Résumé** : Release: llm 0.32.1
+        Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx, and it turned out LLM depended on that library but onl...
+- **Lien** : https://simonwillison.net/2026/Aug/21/llm/
+
+### llm-openrouter 0.7
+- **Source** : Simon Willison
+- **Date** : 2026-08-21T16:58
+- **Score** : 1
+- **Résumé** : Release: llm-openrouter 0.7
+        Now that this plugin is compatible with LLM 0.32 it can display the reasoning traces for LLMs...
+- **Lien** : https://simonwillison.net/2026/Aug/21/llm-openrouter/
+
+### Stop Making TUIs
+- **Source** : Simon Willison
+- **Date** : 2026-08-21T16:07
+- **Score** : 1
+- **Résumé** : Stop Making TUIs
+Thomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up...
+- **Lien** : https://simonwillison.net/2026/Aug/21/stop-making-tuis/
+
+### Quoting Matt Webb
+- **Source** : Simon Willison
+- **Date** : 2026-08-21T15:06
+- **Score** : 1
+- **Résumé** : After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With a patient, interacti...
+- **Lien** : https://simonwillison.net/2026/Aug/21/matt-webb/
+
+### ChatGPT search now uses the site:operator at scale
+- **Source** : Simon Willison
+- **Date** : 2026-08-20T23:57
+- **Score** : 1
+- **Résumé** : ChatGPT search now uses the site:operator at scale
+Promptwatch is part of the emerging "GEO" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and con...
+- **Lien** : https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/
+
+### Measuring benchmark optimization in speech recognition
+- **Source** : Hugging Face Blog
+- **Date** : Fri, 21 Aug 2026
+- **Score** : 1
+- **Résumé** : ...
+- **Lien** : https://huggingface.co/blog/asr-benchmark-optimization
 
 ### Up to 3.2x Faster Inference with LFM2.5-DSpark
 - **Source** : Hugging Face Blog
@@ -170,14 +196,7 @@ That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/ibm-research/altk-evolve-hmm
 
-### Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS
-- **Source** : Hugging Face Blog
-- **Date** : Mon, 10 Aug 2026
-- **Score** : 1
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents
-
-### How ChatGPT Work helps Stampli move ideas to market
+### Stampli cuts launch hours by 68% using ChatGPT Work
 - **Source** : OpenAI Blog
 - **Date** : Thu, 20 Aug 2026
 - **Score** : 1
@@ -232,19 +251,5 @@ That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (
 - **Score** : 1
 - **Résumé** : Trump lifts restrictions on Anthropic, Anthropic launches Claude Sonnet 5, Google's NotebookLM updates, chips stories from Etched and Baidu, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-251-mythos-back-sonnet
-
-### Last Week in AI #250 - Mythos Mess, GPT 5.6-Sol, GLM 5.2
-- **Source** : Last Week in AI
-- **Date** : Tue, 21 Jul 2026
-- **Score** : 1
-- **Résumé** : Anthropic's AI treaty discussions, US government's influence on AI model releases, OpenAI's processor development, memory market impacts, and more!...
-- **Lien** : https://lastweekin.ai/p/last-week-in-ai-250-mythos-mess-gpt
-
-### LWiAI Podcast #248 - Opus 4.8, MAI, Anthropic IPO, Minimax-M3
-- **Source** : Last Week in AI
-- **Date** : Tue, 21 Jul 2026
-- **Score** : 1
-- **Résumé** : Exploring Claude Fable 5&#8217;s impact, Siri AI&#8217;s latest enhancements, and the competitive IPO landscape shaping AI&#8217;s future...
-- **Lien** : https://lastweekin.ai/p/lwiai-podcast-248-opus-48-mai-anthropic
 
 <!-- BLOG_FEED_END -->
