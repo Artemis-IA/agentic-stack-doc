@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### Personalized Privacy Control in LLMs via Attention Head Intervention
-- **arXiv** : 2608.21209v1
-- **Date** : 2026-08-21
-- **Auteurs** : Junseok Kim, Nakyeong Yang, Kyomin Jung
+### SPO++: Stream-Aligned Policy Optimization for Asynchronous Agentic RL
+- **arXiv** : 2608.24870v1
+- **Date** : 2026-08-25
+- **Auteurs** : Kai Ruan, Jinghao Lin, Qianshan Wei, Ziqi Zhou, Zihe Huang
 - **Score** : 9
-- **Résumé** : The rise of agentic AI enables LLMs to access diverse user data, raising critical privacy concerns. Prior work on contextual privacy studies whether LLMs regulate information disclosure according to context-dependent norms. However, acceptable disclosure boundaries may vary across users even within ...
-- **Lien** : https://arxiv.org/abs/2608.21209v1
+- **Résumé** : Group-relative reinforcement learning waits for sibling rollouts of the same prompt, which is costly for long and variable tool-use trajectories. Single-stream Policy Optimization (SPO) removes this dependency with a persistent prompt-level value estimate, but its recipe whitens one advantage per tr...
+- **Lien** : https://arxiv.org/abs/2608.24870v1
 
-### Beyond Fault Localization: A Trajectory-Level Study of LLM Agents for Microservice Root Cause Analysis
-- **arXiv** : 2608.21310v1
-- **Date** : 2026-08-21
-- **Auteurs** : Qisheng Lu, Aoyang Fang, Junjielong Xu, Jin'ao Shang, Songhan Zhang
-- **Score** : 7
-- **Résumé** : Existing evaluations of automated root cause analysis (RCA) for microservices assess diagnostic performance mainly by endpoint correctness: whether a method localizes the responsible service. This criterion enables comparison but does not reveal the evidentiary basis of a diagnosis or the fault-prop...
-- **Lien** : https://arxiv.org/abs/2608.21310v1
+### Prompt Structure Redistributes, Not Reduces: An Empirical Analysis of Security-Weaknesses in LLM-Generated Python Code
+- **arXiv** : 2608.24857v1
+- **Date** : 2026-08-25
+- **Auteurs** : Maitreyee Das Urmi, Jessica Pourleyli, Fabio Santos, Glaucia Melo
+- **Score** : 9
+- **Résumé** : Large Language Models (LLMs) increasingly generate code from natural-language prompts, making prompt engineering a key mechanism for shaping the security of generated software. Structured and security-oriented prompts are widely used to encourage safer code, yet their effects extend beyond whether d...
+- **Lien** : https://arxiv.org/abs/2608.24857v1
 
-### Level-k Distinguishable Mechanisms for Evaluating Bounded Rationality in LLMs
-- **arXiv** : 2608.21296v1
-- **Date** : 2026-08-21
-- **Auteurs** : Binchi Zhang, Atrisha Sarkar
-- **Score** : 7
-- **Résumé** : Strategic depth of reasoning is essential for human interaction of Large Language Models (LLMs) operating in boundedly rational environments. However, existing evaluations are primarily based on canonical games prevalent in pretraining corpora, making it difficult to disentangle true strategic reaso...
-- **Lien** : https://arxiv.org/abs/2608.21296v1
+### BrowserForge: Scaling Web Episode via Parallel Browser Sandboxes
+- **arXiv** : 2608.24848v1
+- **Date** : 2026-08-25
+- **Auteurs** : Fei Tang, Huawen Shen, Zhiqiong Lu, Zhengxi Lu, Pengyuan Lyu
+- **Score** : 9
+- **Résumé** : Web agents that act from rendered pixels avoid the fragility and heavy token cost of reading a page's HTML or accessibility tree, but training them depends on large amounts of high-quality interaction trajectories, and how to produce such data at scale remains an open problem. Public datasets typica...
+- **Lien** : https://arxiv.org/abs/2608.24848v1
 
-### Benchmarking Patent Drafting from Inventor-Style Disclosures
-- **arXiv** : 2608.21249v1
-- **Date** : 2026-08-21
-- **Auteurs** : Lekang Jiang, Wenjun Sun, Stephan Goetz
-- **Score** : 7
-- **Résumé** : While recent large language models (LLMs) have achieved promising results on individual patent drafting tasks, they fundamentally fail to investigate the core challenge of real-world patent drafting: generating a complete and legally coherent patent application directly from early-stage invention ma...
-- **Lien** : https://arxiv.org/abs/2608.21249v1
+### Constrained Entity Selection under Partial Knowledge for LLM-Based Knowledge Graph QA
+- **arXiv** : 2608.24824v1
+- **Date** : 2026-08-25
+- **Auteurs** : Emanuel Kitzelmann
+- **Score** : 9
+- **Résumé** : Large language models are increasingly used for knowledge graph question answering (KGQA), but can fail to correctly ground answers in the underlying graph. Current approaches to LLM-based KGQA either rely on full semantic parsing into executable queries such as SPARQL, which is brittle in practice ...
+- **Lien** : https://arxiv.org/abs/2608.24824v1
 
-### Asymmetric Capacity Allocation in Self-Refinement Pipelines
-- **arXiv** : 2608.21345v1
-- **Date** : 2026-08-21
-- **Auteurs** : Zhuoyi Yang, Ian G. Harris, Salar Hashemitaheri, Cassie Huang, Yuangang Li
+### SkillForge: Evolving Verifiable Skills for Reinforcement Learning Agents
+- **arXiv** : 2608.24747v1
+- **Date** : 2026-08-25
+- **Auteurs** : Shidong Yang, Ziyu Ma, Tongwen Huang, Xucong Wang, Renda Li
+- **Score** : 9
+- **Résumé** : Large language model (LLM) agents are trained with reinforcement learning (RL) for complex decision-making tasks. However, most RL-trained agents remain episodic and cannot accumulate reusable knowledge across episodes. Recent skill-based approaches, such as SkillRL, attempt to address this issue by...
+- **Lien** : https://arxiv.org/abs/2608.24747v1
+
+### Reading Is Not Using: Retrieval, Judgment, and the Design of AI Financial Research Workflows
+- **arXiv** : 2608.24842v1
+- **Date** : 2026-08-25
+- **Auteurs** : Miao Liu, Zhizhe Liu
 - **Score** : 6
-- **Résumé** : Self-refinement, typically structured as generation, critique, and revision, is a widely adopted paradigm for improving LLM generation and serves as a core mechanism in many LLM agents. While the three stages involve different cognitive demands, most existing approaches conveniently treat the model ...
-- **Lien** : https://arxiv.org/abs/2608.21345v1
+- **Résumé** : Large language models (LLMs) are increasingly deployed as AI analysts to process financial disclosures and support AI-assisted investment decisions. Yet such systems are usually evaluated by what they can retrieve, not whether retrieved information affects their judgments. We identify a retrieval-in...
+- **Lien** : https://arxiv.org/abs/2608.24842v1
 
-### Move by Move: Measuring and Steering How LLMs Conduct Psychotherapy
-- **arXiv** : 2608.21325v1
-- **Date** : 2026-08-21
-- **Auteurs** : Afonso Baldo, Hugo Pitorro, Areti Vassilopoulos, Anabela C. Areias, Maya D'Eon
+### Structurally-bounded Agentic Graph Exploration for Evidence-Grounded Scholarly DeepSearch
+- **arXiv** : 2608.24809v1
+- **Date** : 2026-08-25
+- **Auteurs** : Rima Hazra, Sayan Layek, Somnath Banerjee, Soumen Chakrabarti, Animesh Mukherjee
 - **Score** : 6
-- **Résumé** : Users increasingly turn to large language models for emotional support, yet little is known about how these models actually conduct a psychotherapy interaction. We introduce an ontology of ten therapeutic moves: compact, function-based categories grounded in the MULTI-60 inventory, validated through...
-- **Lien** : https://arxiv.org/abs/2608.21325v1
+- **Résumé** : We present Crase, a bounded and inspectable alternative to deep research agents for scholarly search. Instead of an open-ended search loop, Crase queries a search engine once for seed papers, expands them along their 1.5-hop citation neighborhood, prunes citation edges whose claims lack entailment s...
+- **Lien** : https://arxiv.org/abs/2608.24809v1
 
-### Re$^3$Cap: Retrieval-Guided Refinement for Image Captioning Enhancement via Reinforcement Learning
-- **arXiv** : 2608.21305v1
-- **Date** : 2026-08-21
-- **Auteurs** : Haonan Jia, Shichao Dong, Zenghui Sun, Jiawen Zheng, Ziqi Miao
+### StarHarness: Evolving Harnesses with Stratified Search for Enterprise Environments
+- **arXiv** : 2608.24804v1
+- **Date** : 2026-08-25
+- **Auteurs** : Esakkivel Esakkiraja, Denis Akhiyarov, Vikas Yadav, Sai Rajeswar, Patrice Bechard
 - **Score** : 6
-- **Résumé** : Reinforcement Learning (RL) has demonstrated significant gains in image captioning, yet it is still limited in encouraging Large Vision-Language Models (LVLMs) to explore novel reasoning strategies. This limitation leads to a performance gap between RL and Supervised Fine-Tuning (SFT). In this paper...
-- **Lien** : https://arxiv.org/abs/2608.21305v1
+- **Résumé** : We present StarHarness, a framework for evolving environment-specific agent harnesses while keeping model weights fixed. The evolved harness can include prompt and task framing, tool interfaces, skills, MCP-backed providers, subagent structure, and agent-loop configuration. StarHarness constructs a ...
+- **Lien** : https://arxiv.org/abs/2608.24804v1
 
-### Human-AI Collaboration in Requirements Engineering: Evidence of the Negative Effect of LLMs on Requirements Inspection
-- **arXiv** : 2608.21298v1
-- **Date** : 2026-08-21
-- **Auteurs** : Giovanna Broccia, Julian Frattini, Chetan Arora, Maurice H. ter Beek, Alessandro Fantechi
+### StepGuard: Learning Step-Level Guardrails with Scalable Supervision and Safety-Utility Balancing
+- **arXiv** : 2608.24777v1
+- **Date** : 2026-08-25
+- **Auteurs** : Zhijie Zheng, Yu Li, Chen Qian, Yuqian Fu, Yanwei Fu
 - **Score** : 6
-- **Résumé** : Background. Requirements inspection (RI) is a well-established practice for detecting potential defects in requirements artifacts early in the software lifecycle. Recent advances in large language models (LLMs) have stimulated interest in their potential to support requirements engineering (RE) task...
-- **Lien** : https://arxiv.org/abs/2608.21298v1
+- **Résumé** : LLM-based agents can interact with external environments through tool invocation, but this capability also introduces security risks such as file modification, information leakage, and unauthorized actions. Existing guardrails often evaluate completed trajectories, leaving pre-execution monitoring o...
+- **Lien** : https://arxiv.org/abs/2608.24777v1
 
-### CLEAR: Continuous Latent Adapter Routing for Utility-Preserving LLM Safety Alignment
-- **arXiv** : 2608.21278v1
-- **Date** : 2026-08-21
-- **Auteurs** : Chengxiao Wang, Enyi Jiang, Xiaojing Liao, Sanmi Koyejo
+### Evidence Blindness in Direct Corpus Interaction: Persistent Navigation with AtlasNav
+- **arXiv** : 2608.24764v1
+- **Date** : 2026-08-25
+- **Auteurs** : Hongyu Guo, Zhiyu Zheng, Zhao Cao
 - **Score** : 6
-- **Résumé** : Improving the safety of large language models (LLMs) often comes at the expense of utility, as globally applied safety tuning may affect model responses to both harmful and benign inputs. We propose 	extbf{C}ontinuous 	extbf{L}at	extbf{E}nt 	extbf{A}dapter 	extbf{R}outing (CLEAR), a conditional...
-- **Lien** : https://arxiv.org/abs/2608.21278v1
+- **Résumé** : Large language model agents are moving beyond conventional retrieval-augmented generation toward direct interaction with external corpora. Direct Corpus Interaction (DCI) keeps the full corpus accessible, yet reachable evidence can remain unusable under finite interaction budgets. Required evidence ...
+- **Lien** : https://arxiv.org/abs/2608.24764v1
 
-### Affective Context Amplifies Sycophancy in LLM Responses
-- **arXiv** : 2608.21242v1
-- **Date** : 2026-08-21
-- **Auteurs** : Jiayi Li, Sanjana Menon, Brett Frischmann, Shomir Wilson, Sarah Rajtmajer
+### Meta$^n$: Recursive Self-Improvement through Emergent Depth
+- **arXiv** : 2608.24735v1
+- **Date** : 2026-08-25
+- **Auteurs** : Zae Myung Kim, Young-Jun Lee, Seungyeon Jwa, Dongyeop Kang
 - **Score** : 6
-- **Résumé** : As conversational companions, large language models (LLMs) often have access to users' emotional states. We study how this affective context modulates LLM sycophancy in subjective, evaluative interactions, where users share actions or opinions that invite feedback. Drawing on ingratiation theory, we...
-- **Lien** : https://arxiv.org/abs/2608.21242v1
+- **Résumé** : Self-improving LLM agents refine answers, not the process that produces those answers. Systems that add a meta-level hold that level fixed, and those that edit themselves must leave part of their own editing machinery untouched to stay stable, capping the meta-depth they realize at roughly two. We p...
+- **Lien** : https://arxiv.org/abs/2608.24735v1
 
-### Specification Portability Across LLM Development Agents: Cross-Agent Compatibility in Specification-Driven Software Migration
-- **arXiv** : 2608.21208v1
-- **Date** : 2026-08-21
-- **Auteurs** : Oleg Grynets, Oleksii Ilchuk, Dariia Zatulna, Vasyl Lyashkevych
-- **Score** : 6
-- **Résumé** : This paper investigates cross-agent specification portability using Oracle-to-PostgreSQL migration as a controlled software transformation task. The study combines two experimental stages. First, a specification-first migration pipeline was evaluated on 1,006 PL/SQL files, of which 623 were successf...
-- **Lien** : https://arxiv.org/abs/2608.21208v1
-
-### From Regulation to Implementation: A Critical Evaluation of LLM-Assisted Regulatory Compliance in Industry
-- **arXiv** : 2608.21317v1
-- **Date** : 2026-08-21
-- **Auteurs** : Adriana Watson, Marco Bücheler, Grant Richards
+### Right Diagnoses, Decorative Reasoning:A Perturbation Audit of Medical Chain-of-Thought
+- **arXiv** : 2608.24790v1
+- **Date** : 2026-08-25
+- **Auteurs** : Mengzhu Xu, Jifan Gao, Xia Jiang, Yaoxin Wu, Xi Long
 - **Score** : 4
-- **Résumé** : The European Union (EU) has emerged as a leading regulatory body in the development of sustainability and privacy regulations. While new regulation requirements vary, many include a documentation artifact to ensure compliance. Notably, the Ecodesign for Sustainable Products Regulation (ESPR) introdu...
-- **Lien** : https://arxiv.org/abs/2608.21317v1
+- **Résumé** : Clinicians read chain-of-thought (CoT) rationales as evidence of medical reasoning, but whether the visible chain plays that role is rarely tested. General-domain CoT-faithfulness probes ignore clinical cost, and medical LLM evaluations treat the chain as a black box. We close this gap with a medica...
+- **Lien** : https://arxiv.org/abs/2608.24790v1
 
-### Memory Augmentation Unlocks Efficient Chain-of-Thought Reasoning
-- **arXiv** : 2608.21265v1
-- **Date** : 2026-08-21
-- **Auteurs** : Simeng Zhang, Yilong Chen, Wenyuan Zhang, Zhenyu Zhang, Yao Chen
+### Test-Time Collaborative Classification over Multi-Agent Networks
+- **arXiv** : 2608.24787v1
+- **Date** : 2026-08-25
+- **Auteurs** : Ping Hu, Mert Kayaalp, Ali H. Sayed
 - **Score** : 4
-- **Résumé** : Large language models often rely on Chain-of-Thought (CoT) reasoning to solve complex tasks, but verbose reasoning traces introduce substantial inference overhead. CoT compression shortens generation, yet aggressive compression may disrupt logical coherence and degrade performance. We formalize this...
-- **Lien** : https://arxiv.org/abs/2608.21265v1
+- **Résumé** : The increasing heterogeneity of multi-agent systems poses significant challenges for jointly training a global model across agents. At the same time, cooperative inference between agents has long been recognized as a powerful mechanism for distributed decision making over networks. Motivated by thes...
+- **Lien** : https://arxiv.org/abs/2608.24787v1
 
-### No PUN Intended: Plausible Unknown Names for Person-Centred LLM Evaluation
-- **arXiv** : 2608.21206v1
-- **Date** : 2026-08-21
-- **Auteurs** : Dimitri Staufer, David Hartmann, Ibrahim Baroud
+### The RAT: A Unified Bayesian Model for RAG Evaluation
+- **arXiv** : 2608.24753v1
+- **Date** : 2026-08-25
+- **Auteurs** : Pius von Däniken, Felix Matthias Saaro, Mark Cieliebak, Jan Deriu
 - **Score** : 4
-- **Résumé** : Person names are widely used as prompt variables in LLM evaluations of factuality, privacy leakage, bias and abstention, but when a name's evidential status is uncontrolled, measurements may conflate memorisation, retrieval, name priors and wrong-person attribution. We operationalise an unknown name...
-- **Lien** : https://arxiv.org/abs/2608.21206v1
+- **Résumé** : Evaluating Retrieval-Augmented Generation (RAG) systems requires assessing not only end-to-end correctness but also how individual components interact and how errors propagate through the pipeline. We introduce a Bayesian evaluation framework that jointly models retrieval success, abstention behavio...
+- **Lien** : https://arxiv.org/abs/2608.24753v1
 
-### Natural-Language Workflows Are Not Software Yet: Artifact-Driven Compilation for Reliable Agent Execution
-- **arXiv** : 2608.21341v1
-- **Date** : 2026-08-21
-- **Auteurs** : Xiangzhe Xu, Hanxi Guo, Guangyu Shen, Siyuan Cheng, Xiangyu Zhang
+### Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses
+- **arXiv** : 2608.24876v1
+- **Date** : 2026-08-25
+- **Auteurs** : Zhaochen Yu, Yingcheng Wu, Zhenfei Yin, Kaiyuan Chen, Zhe Zhao
 - **Score** : 3
-- **Résumé** : Natural-language workflows offer a software-like interface for agents: domain experts can write reusable procedures, and agents can execute them as instructions. This promise is not yet reliable. Workflow descriptions often leave data dependencies implicit, so the executor must infer which prior res...
-- **Lien** : https://arxiv.org/abs/2608.21341v1
+- **Résumé** : Recursive self-improvement (RSI) remains hard in long-horizon tasks, where growing histories obscure the task state and misalign skill invocation. We introduce Recuris, a recursive Experiential-Working Memory architecture for long-horizon agent harnesses, in which Working Memory tracks task progress...
+- **Lien** : https://arxiv.org/abs/2608.24876v1
 
-### AI-to-AI Code Reviews of GitHub Pull Requests
-- **arXiv** : 2608.21311v1
-- **Date** : 2026-08-21
-- **Auteurs** : Niruthiha Selvanayagam, Taher A. Ghaleb
+### Bellman Calibration for Marginalized Importance Weighting in Offline Reinforcement Learning
+- **arXiv** : 2608.24858v1
+- **Date** : 2026-08-25
+- **Auteurs** : Lars van der Laan, Nathan Kallus
 - **Score** : 3
-- **Résumé** : AI coding agents are increasingly integrated into software development workflows, operating on both sides of the pull-request (PR) process: AI authoring agents create or modify PRs, while AI reviewers evaluate them. This creates a closed loop in which one AI coding agent reviews a contribution attri...
-- **Lien** : https://arxiv.org/abs/2608.21311v1
+- **Résumé** : Marginalized importance weighting evaluates a target policy by reweighting offline state-action samples with its discounted occupancy ratio, characterized by an adjoint Bellman equation. Existing minimax, primal-dual, and fitted fixed-point estimators can leave residual occupancy-balance violations ...
+- **Lien** : https://arxiv.org/abs/2608.24858v1
 
-### AUSO: Action-Level Unified Skill Optimization from Internalization to Utilization
-- **arXiv** : 2608.21292v1
-- **Date** : 2026-08-21
-- **Auteurs** : Huizu Lin, Chengkai Huang, Tianqi Gao, Tao Huang, Daijiao Liu
+### FedV-KGQA: Multi-Hop Question Answering over Vertically Partitioned Knowledge Graphs
+- **arXiv** : 2608.24846v1
+- **Date** : 2026-08-25
+- **Auteurs** : Md Saikat Islam Khan Bappy, Oshani Seneviratne
 - **Score** : 3
-- **Résumé** : Skills play different roles as an agent's policy evolves: they should first provide learnable knowledge, then support capability formation, and finally be invoked only when they improve individual decisions. Existing methods rarely model this lifecycle. They either keep skills outside the model, ful...
-- **Lien** : https://arxiv.org/abs/2608.21292v1
+- **Résumé** : Real-world data for knowledge graph question answering is often distributed across different organizations due to governance and data sovereignty constraints. While centralized systems exist, they cannot answer multi-hop questions when the required facts are split across vertically partitioned silos...
+- **Lien** : https://arxiv.org/abs/2608.24846v1
 
-### ConceptTS: LLM-Guided Concept Bottlenecks for Interpretable Multivariate Time-Series Forecasting
-- **arXiv** : 2608.21277v1
-- **Date** : 2026-08-21
-- **Auteurs** : Yichen Jiang, Yueqiao Chen, Dongyu Liu
+### A Dual-Dimensional LLM Framework for Automated Item Incidental Content Similarity Analysis in Large-Scale Assessments
+- **arXiv** : 2608.24825v1
+- **Date** : 2026-08-25
+- **Auteurs** : Jing Huang, Jihong Zhang, Hua-Hua Chang
 - **Score** : 3
-- **Résumé** : State-of-the-art multivariate time-series forecasters can model complex temporal and cross-variable dependencies, yet their opaque representations provide limited insight into why a particular forecast is produced. This lack of transparency restricts their use in settings where practitioners must un...
-- **Lien** : https://arxiv.org/abs/2608.21277v1
+- **Résumé** : The rapid expansion of large-scale assessments and the growing adoption of automatic item generation have intensified concerns about incidental content redundancy, where construct-irrelevant elements such as wording or contextual framing become unintentionally repetitive across items. Traditional si...
+- **Lien** : https://arxiv.org/abs/2608.24825v1
 
-### The Exceedance Design Effect: Effective Sample Size for Thresholds under Clustering
-- **arXiv** : 2608.21262v1
-- **Date** : 2026-08-21
-- **Auteurs** : Adam Noonan
+### Effective Learning Rate Governs Loss Dynamics in Language Model Pretraining
+- **arXiv** : 2608.24814v1
+- **Date** : 2026-08-25
+- **Auteurs** : Zihan Liu, Ruiheng Zheng, Shaobo Zhang, Changxin Tian, Kunlong Chen
 - **Score** : 3
-- **Résumé** : Many machine-learning systems set a threshold at a quantile of a calibration set: conformal predictors that promise 90% coverage by drawing their cutoff at the calibration set's 90th percentile, abstention gates that decline to answer when a model's score falls below the calibration set's tenth perc...
-- **Lien** : https://arxiv.org/abs/2608.21262v1
+- **Résumé** : We uncover ELR collapse in language model pretraining: learning rate (LR) and parameter norm govern loss dynamics primarily through their ratio, the effective learning rate (ELR). When ELR is matched across runs, their loss trajectories collapse throughout training despite substantially different LR...
+- **Lien** : https://arxiv.org/abs/2608.24814v1
 
-### EnSI-RAG: Entity-Structure-Indexed Retrieval-Augmented Generation for Long-Document Question Answering
-- **arXiv** : 2608.21252v1
-- **Date** : 2026-08-21
-- **Auteurs** : Xuanyu Meng, Jiashuo Sun, Jash Rajesh Parekh, Jiawei Han
+### Automatic Model Card Generation Using an LLM
+- **arXiv** : 2608.24807v1
+- **Date** : 2026-08-25
+- **Auteurs** : Tajkia Rahman Toma, Balreet Grewal, Cor-Paul Bezemer
 - **Score** : 3
-- **Résumé** : Question answering (QA) over long, connected documents remains challenging because relevant evidence may span multiple entities and their relationships. Existing retrieval-augmented generation (RAG) methods typically index documents as raw chunks and retrieve them through embedding similarity. Their...
-- **Lien** : https://arxiv.org/abs/2608.21252v1
+- **Résumé** : Model cards are structured documents that summarize key information about machine learning models to improve transparency, usability, and accountability. However, they often lack a consistent structure, and many models provide no model cards, making comparison and interpretation difficult. This pape...
+- **Lien** : https://arxiv.org/abs/2608.24807v1
 
 <!-- ARXIV_FEED_END -->

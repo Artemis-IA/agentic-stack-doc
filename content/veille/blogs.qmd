@@ -83,13 +83,6 @@ graph LR
 - **Résumé** : No GPUs, no Agents, just really, really, really good infra and distribution....
 - **Lien** : https://www.latent.space/p/ainews-stripe-buys-openrouter-for
 
-### Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets
-- **Source** : Hugging Face Blog
-- **Date** : Thu, 13 Aug 2026
-- **Score** : 2
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop
-
 ### LWiAI Podcast #246 - Gemini 3.5 + Omni, Musk Loses, OpenAI vs Erdős
 - **Source** : Last Week in AI
 - **Date** : Tue, 26 May 2026
@@ -111,12 +104,13 @@ graph LR
 - **Résumé** : Simile&#8217;s CEO about his journey from the viral Generative Agents to creating 8 Billion Digital Twins of every living human... and why it&#8217;s gone from fun exploration to very serious business...
 - **Lien** : https://www.latent.space/p/simile
 
-### React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue
-- **Source** : latent.space
-- **Date** : Sat, 15 Aug 2026
+### llm-anthropic 0.27
+- **Source** : Simon Willison
+- **Date** : 2026-08-24T16:27
 - **Score** : 1
-- **Résumé** : Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why he added hooks and why agents are defined by their harnesses....
-- **Lien** : https://www.latent.space/p/flue-2
+- **Résumé** : Release: llm-anthropic 0.27
+        This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released <a href="https://github...
+- **Lien** : https://simonwillison.net/2026/Aug/24/llm-anthropic/
 
 ### llm 0.33
 - **Source** : Simon Willison
@@ -152,20 +146,19 @@ Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependenc
         Now that this plugin is compatible with LLM 0.32 it can display the reasoning traces for LLMs...
 - **Lien** : https://simonwillison.net/2026/Aug/21/llm-openrouter/
 
-### Stop Making TUIs
-- **Source** : Simon Willison
-- **Date** : 2026-08-21T16:07
+### Granite 4.2 LLMs: How They're Built
+- **Source** : Hugging Face Blog
+- **Date** : Tue, 25 Aug 2026
 - **Score** : 1
-- **Résumé** : Stop Making TUIs
-Thomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up...
-- **Lien** : https://simonwillison.net/2026/Aug/21/stop-making-tuis/
+- **Résumé** : ...
+- **Lien** : https://huggingface.co/blog/ibm-granite/granite-4-2
 
-### Quoting Matt Webb
-- **Source** : Simon Willison
-- **Date** : 2026-08-21T15:06
+### How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code
+- **Source** : Hugging Face Blog
+- **Date** : Fri, 21 Aug 2026
 - **Score** : 1
-- **Résumé** : After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With a patient, interacti...
-- **Lien** : https://simonwillison.net/2026/Aug/21/matt-webb/
+- **Résumé** : ...
+- **Lien** : https://huggingface.co/blog/pwc-search
 
 ### Measuring benchmark optimization in speech recognition
 - **Source** : Hugging Face Blog
@@ -188,6 +181,27 @@ Thomas Ptacek advocates for building real native user interfaces for even the sm
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/ibm-research/altk-evolve-hmm
 
+### Jalapeño’s first results show industry-leading speed and efficiency in AI inference
+- **Source** : OpenAI Blog
+- **Date** : Tue, 25 Aug 2026
+- **Score** : 1
+- **Résumé** : Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models....
+- **Lien** : https://openai.com/index/jalapeno-first-results
+
+### Introducing the Admin plugin for ChatGPT Work and Codex
+- **Source** : OpenAI Blog
+- **Date** : Tue, 25 Aug 2026
+- **Score** : 1
+- **Résumé** : Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests....
+- **Lien** : https://openai.com/index/introducing-admin-plugin
+
+### Advancing price-performance for developers with GPT‑5.6 in Kiro
+- **Source** : OpenAI Blog
+- **Date** : Mon, 24 Aug 2026
+- **Score** : 1
+- **Résumé** : GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance....
+- **Lien** : https://openai.com/index/gpt-5-6-in-kiro
+
 ### Stampli cuts launch hours by 68% using ChatGPT Work
 - **Source** : OpenAI Blog
 - **Date** : Thu, 20 Aug 2026
@@ -208,20 +222,6 @@ Thomas Ptacek advocates for building real native user interfaces for even the sm
 - **Score** : 1
 - **Résumé** : ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions....
 - **Lien** : https://openai.com/index/chatgpt-ads-expands-across-europe
-
-### Introducing ChatGPT for Teens: Built for learning, backed by protections
-- **Source** : OpenAI Blog
-- **Date** : Tue, 18 Aug 2026
-- **Score** : 1
-- **Résumé** : ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents....
-- **Lien** : https://openai.com/index/chatgpt-for-teens
-
-### How NVIDIA scales expertise with ChatGPT Work
-- **Source** : OpenAI Blog
-- **Date** : Tue, 18 Aug 2026
-- **Score** : 1
-- **Résumé** : NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally....
-- **Lien** : https://openai.com/index/nvidia/chatgpt-work
 
 ### LWiAI Podcast #253 - Opus 5, Gemini 3.6, Kimi K3, Hugging Face Hack
 - **Source** : Last Week in AI
