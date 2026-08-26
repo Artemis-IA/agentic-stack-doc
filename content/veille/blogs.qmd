@@ -76,12 +76,12 @@ graph LR
 - **Résumé** : Elon Musk Loses $150 Billion Suit Against OpenAI and Sam Altman, Google updates its Gemini app to take on ChatGPT and Claude at IO 2026, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-341-musk-loses-to
 
-### [AINews] Stripe buys OpenRouter for $7B
+### The Future of SaaS Is Apps That Agents Can Use
 - **Source** : latent.space
-- **Date** : Mon, 17 Aug 2026
+- **Date** : Wed, 26 Aug 2026
 - **Score** : 2
-- **Résumé** : No GPUs, no Agents, just really, really, really good infra and distribution....
-- **Lien** : https://www.latent.space/p/ainews-stripe-buys-openrouter-for
+- **Résumé** : Lovable is branching out from AI-powered web app creation and into MCP-powered &#8216;capabilities&#8217;. We talk to CTO Fabian Hedin....
+- **Lien** : https://www.latent.space/p/lovable-future-of-saas
 
 ### LWiAI Podcast #246 - Gemini 3.5 + Omni, Musk Loses, OpenAI vs Erdős
 - **Source** : Last Week in AI
@@ -138,14 +138,6 @@ Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependenc
         Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx, and it turned out LLM depended on that library but onl...
 - **Lien** : https://simonwillison.net/2026/Aug/21/llm/
 
-### llm-openrouter 0.7
-- **Source** : Simon Willison
-- **Date** : 2026-08-21T16:58
-- **Score** : 1
-- **Résumé** : Release: llm-openrouter 0.7
-        Now that this plugin is compatible with LLM 0.32 it can display the reasoning traces for LLMs...
-- **Lien** : https://simonwillison.net/2026/Aug/21/llm-openrouter/
-
 ### Granite 4.2 LLMs: How They're Built
 - **Source** : Hugging Face Blog
 - **Date** : Tue, 25 Aug 2026
@@ -181,6 +173,20 @@ Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependenc
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/ibm-research/altk-evolve-hmm
 
+### Bringing ChatGPT for Teachers to more U.S. school districts
+- **Source** : OpenAI Blog
+- **Date** : Wed, 26 Aug 2026
+- **Score** : 1
+- **Résumé** : ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff....
+- **Lien** : https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts
+
+### Learning never stops: How AI makes learning continuous
+- **Source** : OpenAI Blog
+- **Date** : Wed, 26 Aug 2026
+- **Score** : 1
+- **Résumé** : OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom....
+- **Lien** : https://openai.com/index/learning-never-stops
+
 ### Jalapeño’s first results show industry-leading speed and efficiency in AI inference
 - **Source** : OpenAI Blog
 - **Date** : Tue, 25 Aug 2026
@@ -209,20 +215,6 @@ Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependenc
 - **Résumé** : With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days....
 - **Lien** : https://openai.com/index/stampli
 
-### Replit expands access to software creation with GPT-5.6 Luna
-- **Source** : OpenAI Blog
-- **Date** : Wed, 19 Aug 2026
-- **Score** : 1
-- **Résumé** : Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs....
-- **Lien** : https://openai.com/index/replit
-
-### ChatGPT Ads expands across Europe
-- **Source** : OpenAI Blog
-- **Date** : Tue, 18 Aug 2026
-- **Score** : 1
-- **Résumé** : ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions....
-- **Lien** : https://openai.com/index/chatgpt-ads-expands-across-europe
-
 ### LWiAI Podcast #253 - Opus 5, Gemini 3.6, Kimi K3, Hugging Face Hack
 - **Source** : Last Week in AI
 - **Date** : Mon, 03 Aug 2026
@@ -250,5 +242,12 @@ Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependenc
 - **Score** : 1
 - **Résumé** : Anthropic's AI treaty discussions, US government's influence on AI model releases, OpenAI's processor development, memory market impacts, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-250-mythos-mess-gpt
+
+### LWiAI Podcast #248 - Opus 4.8, MAI, Anthropic IPO, Minimax-M3
+- **Source** : Last Week in AI
+- **Date** : Tue, 21 Jul 2026
+- **Score** : 1
+- **Résumé** : Exploring Claude Fable 5&#8217;s impact, Siri AI&#8217;s latest enhancements, and the competitive IPO landscape shaping AI&#8217;s future...
+- **Lien** : https://lastweekin.ai/p/lwiai-podcast-248-opus-48-mai-anthropic
 
 <!-- BLOG_FEED_END -->

@@ -178,7 +178,7 @@ The official Python SDK for Model Context Protocol servers and clients
 ### [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)
 The official TypeScript SDK for Model Context Protocol servers and clients
 
-⭐ 13.2k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-08-26
+⭐ 13.3k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-08-26
 **Tags** : `mcp`, `mcp-client`, `mcp-server`, `typescript`
 
 ### [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp)
@@ -210,17 +210,17 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ⭐ 7.3k | `JavaScript` | Licence: MIT | MAJ: 2026-08-26
 **Tags** : `batch-processing`, `claude`, `content-extraction`, `data-collection`, `firecrawl`, `firecrawl-ai`, `javascript-rendering`, `llm-tools`
 
+### [rocketride-org/rocketride-server](https://github.com/rocketride-org/rocketride-server)
+!rocketride-org/rocketride-server MCP server 📇 🏠 - MCP server that exposes RocketRide AI pipelines as tools for Claude, Cursor, and Windsurf. Self-hosted, open-source pipeline tool with multi-LLM s...
+
+⭐ 7.1k | `Python` | Licence: MIT | MAJ: 2026-08-26
+**Tags** : `ai`, `cpp`, `data-pipeline`, `data-processing`, `machine-learning`, `mcp`, `python`, `sdk`
+
 ### [browsermcp/mcp](https://github.com/browsermcp/mcp)
 📇 🏠 - Automate your local Chrome browser
 
 ⭐ 7.0k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-08-26
 **Tags** : `browser-automation`, `browser-extension`, `claude`, `cursor`, `mcp`, `mcp-server`
-
-### [rocketride-org/rocketride-server](https://github.com/rocketride-org/rocketride-server)
-!rocketride-org/rocketride-server MCP server 📇 🏠 - MCP server that exposes RocketRide AI pipelines as tools for Claude, Cursor, and Windsurf. Self-hosted, open-source pipeline tool with multi-LLM s...
-
-⭐ 7.0k | `Python` | Licence: MIT | MAJ: 2026-08-26
-**Tags** : `ai`, `cpp`, `data-pipeline`, `data-processing`, `machine-learning`, `mcp`, `python`, `sdk`
 
 ### [repowise-dev/repowise](https://github.com/repowise-dev/repowise)
 !repowise-dev/repowise MCP server 🐍 🏠 ☁️ - Codebase intelligence for AI coding agents. Indexes a repo into a dependency graph, git history, defect-risk code health, auto-generated docs, and archite...
@@ -243,7 +243,7 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ### [sooperset/mcp-atlassian](https://github.com/sooperset/mcp-atlassian)
 🐍 ☁️ - MCP server for Atlassian products (Confluence and Jira). Supports Confluence Cloud, Jira Cloud, and Jira Server/Data Center. Provides comprehensive tools for searching, reading, creating, an...
 
-⭐ 5.8k | `Python` | Licence: MIT | MAJ: 2026-08-25
+⭐ 5.8k | `Python` | Licence: MIT | MAJ: 2026-08-26
 **Tags** : `atlassian`, `confluence`, `jira`, `mcp`
 
 ### [21st-dev/Magic-MCP](https://github.com/21st-dev/magic-mcp)
@@ -261,7 +261,7 @@ Baserow database integration with table search, list, and row create, read, upda
 ### [executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright)
 📇 - An MCP server using Playwright for browser automation and webscrapping
 
-⭐ 5.6k | `TypeScript` | Licence: MIT | MAJ: 2026-08-25
+⭐ 5.6k | `TypeScript` | Licence: MIT | MAJ: 2026-08-26
 
 ### [Coding-Solo/godot-mcp](https://github.com/Coding-Solo/godot-mcp)
 📇 🏠 - A MCP server for interacting with the Godot game engine, providing tools for editing, running, debugging, and managing scenes in Godot projects.
@@ -269,17 +269,17 @@ Baserow database integration with table search, list, and row create, read, upda
 ⭐ 5.4k | `JavaScript` | Licence: MIT | MAJ: 2026-08-26
 **Tags** : `ai`, `godot`, `mcp`
 
-### [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)
-The official Go SDK for Model Context Protocol servers and clients. Maintained in collaboration with Google.
-
-⭐ 5.0k | `Go` | Licence: NOASSERTION | MAJ: 2026-08-25
-**Tags** : `go`, `mcp`
-
 ### [apify/actors-mcp-server](https://github.com/apify/actors-mcp-server)
 📇 ☁️ - Use 3,000+ pre-built cloud tools, known as Actors, to extract data from websites, e-commerce, social media, search engines, maps, and more
 
 ⭐ 5.0k | `TypeScript` | Licence: MIT | MAJ: 2026-08-26
 **Tags** : `agents`, `ai`, `mcp`, `mcp-server`
+
+### [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)
+The official Go SDK for Model Context Protocol servers and clients. Maintained in collaboration with Google.
+
+⭐ 5.0k | `Go` | Licence: NOASSERTION | MAJ: 2026-08-26
+**Tags** : `go`, `mcp`
 
 ### [exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server)
 🎖️ 📇 ☁️ – A Model Context Protocol (MCP) server lets AI assistants like Claude use the Exa AI Search API for web searches. This setup allows AI models to get real-time web information in a safe and...
@@ -290,7 +290,7 @@ The official Go SDK for Model Context Protocol servers and clients. Maintained i
 ### [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)
 The official C# SDK for Model Context Protocol servers and clients. Maintained in collaboration with Microsoft.
 
-⭐ 4.5k | `C#` | Licence: NOASSERTION | MAJ: 2026-08-25
+⭐ 4.5k | `C#` | Licence: NOASSERTION | MAJ: 2026-08-26
 **Tags** : `csharp`, `dotnet`, `mcp`, `mcp-client`, `mcp-server`, `modelcontextprotocol`
 
 ### [MarkusPfundstein/mcp-obsidian](https://github.com/MarkusPfundstein/mcp-obsidian)
