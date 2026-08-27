@@ -128,19 +128,19 @@ graph LR
 ### [Flowise](https://github.com/FlowiseAI/Flowise)
 Build AI Agents, Visually
 
-⭐ 55.4k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-08-26
+⭐ 55.4k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-08-27
 **Tags** : `agentic-ai`, `agentic-workflow`, `agents`, `artificial-intelligence`, `chatbot`, `chatgpt`, `javascript`, `langchain`
 
 ### [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
 !DeusData/codebase-memory-mcp MCP server 🌊 🏠 🍎 🪟 🐧 - Code-intelligence engine that indexes a repo into a persistent knowledge graph — functions, classes, call chains, HTTP routes, cross-service lin...
 
-⭐ 40.8k | `C` | Licence: MIT | MAJ: 2026-08-26
+⭐ 40.9k | `C` | Licence: MIT | MAJ: 2026-08-27
 **Tags** : `aider`, `ast`, `claude-code`, `code-analysis`, `code-intelligence`, `codex`, `cursor`, `cypher`
 
 ### [EvoAgentX](https://github.com/EvoAgentX/EvoAgentX)
 EvoAgentX is building a Self-Evolving Ecosystem of AI Agents, it will give you automated framework for evaluating and evolving agentic workflows. !GitHub Repo stars
 
-⭐ 3.3k | `Python` | Licence: NOASSERTION | MAJ: 2026-08-26
+⭐ 3.3k | `Python` | Licence: NOASSERTION | MAJ: 2026-08-27
 **Tags** : `agent`, `ai`, `ai-agents`, `llms`, `memory`, `multi-agent-systems`, `natural-language-processing`, `rag`
 
 ### [Agentset](https://github.com/agentset-ai/agentset)
@@ -152,50 +152,50 @@ Open-source production-ready RAG platform with built-in agentic reasoning, hybri
 ### [IWE](https://github.com/iwe-org/iwe)
 Markdown knowledge graph for you and your AI agents — editor LSP plus CLI and MCP server so agents can search, retrieve, and refactor plain-text notes. !GitHub Repo stars
 
-⭐ 1.6k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-08-26
+⭐ 1.6k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-08-27
 **Tags** : `ai-agents`, `ai-memory`, `cli`, `helix`, `knowledge-graph`, `knowledge-management`, `language-server`, `local-first`
 
 ### [apecloud/ApeRAG](https://github.com/apecloud/ApeRAG)
 🐍 ☁️ 🏠 - Production-ready RAG platform combining Graph RAG, vector search, and full-text search. Best choice for building your own Knowledge Graph and for Context Engineering
 
-⭐ 1.3k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-26
+⭐ 1.3k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-27
 **Tags** : `agents`, `context-engineering`, `graphrag`, `knowledge-graph`, `mcp`
-
-### [RepoAgent](https://github.com/OpenBMB/RepoAgent)
-An LLM-powered repository agent designed to assist developers and teams in generating documentation and understanding repositories quickly !GitHub Repo stars
-
-⭐ 1.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-21
-**Tags** : `agent`, `chatglm`, `chatgpt`, `chatgpt-api`, `gpt`, `gpt-4`, `langchain`, `llama`
 
 ### [heymrun/heym](https://github.com/heymrun/heym)
 !heymrun/heym MCP server 🐍 📇 🏠 - Source-available, self-hosted AI workflow automation platform. Build multi-agent, RAG, and tool-using pipelines on a visual canvas, then expose any workflow as an M...
 
-⭐ 1.0k | `Python` | Licence: NOASSERTION | MAJ: 2026-08-26
+⭐ 1.0k | `Python` | Licence: NOASSERTION | MAJ: 2026-08-27
 **Tags** : `ai-agents`, `ai-agents-framework`, `ai-assistant`, `automation`, `automation-tool`, `autonomous-agents`, `coding-agent`, `evals`
+
+### [RepoAgent](https://github.com/OpenBMB/RepoAgent)
+An LLM-powered repository agent designed to assist developers and teams in generating documentation and understanding repositories quickly !GitHub Repo stars
+
+⭐ 1.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-27
+**Tags** : `agent`, `chatglm`, `chatgpt`, `chatgpt-api`, `gpt`, `gpt-4`, `langchain`, `llama`
 
 ### [MemClaw](https://github.com/caura-ai/caura-memclaw)
 Open-source governed shared memory for AI agent fleets with cross-agent recall, permissions, audit trails, and persistent memory.
 
-⭐ 458 | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-26
+⭐ 463 | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-27
 **Tags** : `agent-memory`, `agentic-ai`, `ai-agents`, `ai-infrastructure`, `claude`, `fastapi`, `knowledge-graph`, `llm-memory`
 
 ### [muvon/octocode](https://github.com/Muvon/octocode)
 !octocode 🦀 🏠 🍎 🪟 🐧 - Semantic code indexer with GraphRAG knowledge graph. Index your codebase, search in natural language, and expose everything via MCP so AI agents understand architecture — not ...
 
-⭐ 457 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-08-26
+⭐ 457 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-08-27
 **Tags** : `ai`, `ai-tools`, `cli`, `cli-app`, `code-search`, `developer-tool`, `developer-tools`, `doc-search`
+
+### [fabio-rovai/open-ontologies](https://github.com/fabio-rovai/open-ontologies)
+!open-ontologies MCP server 🦀 🏠 - AI-native ontology engineering with 39 tools and 5 prompts for OWL/RDF/SPARQL. Validate, query, diff, lint, version, and govern knowledge graphs via Oxigraph tripl...
+
+⭐ 450 | `Rust` | Licence: MIT | MAJ: 2026-08-27
+**Tags** : `ai-native`, `claude`, `description-logics`, `knowledge-graph`, `linked-data`, `mcp`, `mcp-server`, `ontology`
 
 ### [MindSQL](https://github.com/Mindinventory/MindSQL)
 A python package for Txt-to-SQL with self hosting functionalities and RESTful APIs compatible with proprietary as well as open source LLM.
 
 ⭐ 447 | `Python` | Licence: GPL-3.0 | MAJ: 2026-08-21
 **Tags** : `chatbot`, `gemini`, `langchain`, `rag`, `retrival-augmented`, `text-to-sql`
-
-### [fabio-rovai/open-ontologies](https://github.com/fabio-rovai/open-ontologies)
-!open-ontologies MCP server 🦀 🏠 - AI-native ontology engineering with 39 tools and 5 prompts for OWL/RDF/SPARQL. Validate, query, diff, lint, version, and govern knowledge graphs via Oxigraph tripl...
-
-⭐ 446 | `Rust` | Licence: MIT | MAJ: 2026-08-26
-**Tags** : `ai-native`, `claude`, `description-logics`, `knowledge-graph`, `linked-data`, `mcp`, `mcp-server`, `ontology`
 
 ### [Open-RAG-Eval](https://github.com/vectara/open-rag-eval)
 an open source RAG evaluation framework that does not require golden answers, and can be used to evaluate performance of RAG tools connected to an AI Agent (Agentic RAG)
@@ -206,7 +206,7 @@ an open source RAG evaluation framework that does not require golden answers, an
 ### [shinpr/mcp-local-rag](https://github.com/shinpr/mcp-local-rag)
 📇 🏠 - Privacy-first document search server running entirely locally. Supports semantic search over PDFs, DOCX, TXT, and Markdown files with LanceDB vector storage and local embeddings - no API keys...
 
-⭐ 372 | `TypeScript` | Licence: MIT | MAJ: 2026-08-26
+⭐ 373 | `TypeScript` | Licence: MIT | MAJ: 2026-08-27
 **Tags** : `agent-skills`, `cli-tool`, `developer-tools`, `hybrid-search`, `local-first`, `local-rag`, `mcp`, `mcp-server`
 
 ### [varun29ankuS/shodh-memory](https://github.com/varun29ankuS/shodh-memory)
@@ -224,7 +224,7 @@ an open source RAG evaluation framework that does not require golden answers, an
 ### [lyonzin/knowledge-rag](https://github.com/lyonzin/knowledge-rag)
 !lyonzin/knowledge-rag MCP server 🐍 🏠 🍎 🪟 🐧 - Local RAG system for Claude Code with hybrid search (BM25 + semantic), cross-encoder reranking, markdown-aware chunking, query expansion, and 28 MCP to...
 
-⭐ 259 | `Python` | Licence: MIT | MAJ: 2026-08-26
+⭐ 261 | `Python` | Licence: MIT | MAJ: 2026-08-27
 **Tags** : `antigravity`, `claude`, `claude-code`, `claude-code-cli`, `codex`, `cursor-ai`, `document-search`, `hybrid-search`
 
 ### [VictoriaMetrics-Community/mcp-victoriametrics](https://github.com/VictoriaMetrics-Community/mcp-victoriametrics)
@@ -236,7 +236,7 @@ an open source RAG evaluation framework that does not require golden answers, an
 ### [alibaizhanov/mengram](https://github.com/alibaizhanov/mengram)
 !mengram MCP server 🐍 ☁️ 🏠 🍎 🪟 🐧 - Human-like memory layer for AI agents with semantic, episodic, and procedural memory. Claude Code hooks (auto-save, auto-recall, cognitive profile). 29 MCP tools,...
 
-⭐ 189 | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-24
+⭐ 189 | `Python` | Licence: Apache-2.0 | MAJ: 2026-08-27
 **Tags** : `agent-memory`, `ai-agents`, `ai-memory`, `claude-desktop`, `cognitive-architecture`, `cohere`, `cursor-ai`, `episodic-memory`
 
 ### [roomi-fields/notebooklm-mcp](https://github.com/roomi-fields/notebooklm-mcp)

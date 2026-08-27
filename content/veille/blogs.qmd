@@ -76,7 +76,7 @@ graph LR
 - **Résumé** : Elon Musk Loses $150 Billion Suit Against OpenAI and Sam Altman, Google updates its Gemini app to take on ChatGPT and Claude at IO 2026, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-341-musk-loses-to
 
-### The Future of SaaS Is Apps That Agents Can Use
+### Lovable CTO: The Future of SaaS Is Apps That Agents Can Use
 - **Source** : latent.space
 - **Date** : Wed, 26 Aug 2026
 - **Score** : 2
@@ -104,6 +104,15 @@ graph LR
 - **Résumé** : Simile&#8217;s CEO about his journey from the viral Generative Agents to creating 8 Billion Digital Twins of every living human... and why it&#8217;s gone from fun exploration to very serious business...
 - **Lien** : https://www.latent.space/p/simile
 
+### Qwen3.8-Flash-Next
+- **Source** : Simon Willison
+- **Date** : 2026-08-26T23:52
+- **Score** : 1
+- **Résumé** : Qwen3.8-Flash-Next
+Another open weights model from Qwen. This one is "a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4".
+It's pretty big: 125B tokens, but ...
+- **Lien** : https://simonwillison.net/2026/Aug/26/qwen38-flash-next/
+
 ### llm-anthropic 0.27
 - **Source** : Simon Willison
 - **Date** : 2026-08-24T16:27
@@ -129,14 +138,6 @@ Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependenc
 - **Score** : 1
 - **Résumé** : The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the...
 - **Lien** : https://simonwillison.net/2026/Aug/22/more-than-just-code-review/
-
-### llm 0.32.1
-- **Source** : Simon Willison
-- **Date** : 2026-08-21T17:16
-- **Score** : 1
-- **Résumé** : Release: llm 0.32.1
-        Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx, and it turned out LLM depended on that library but onl...
-- **Lien** : https://simonwillison.net/2026/Aug/21/llm/
 
 ### Granite 4.2 LLMs: How They're Built
 - **Source** : Hugging Face Blog
@@ -173,6 +174,13 @@ Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependenc
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/ibm-research/altk-evolve-hmm
 
+### Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training
+- **Source** : OpenAI Blog
+- **Date** : Thu, 27 Aug 2026
+- **Score** : 1
+- **Résumé** : A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment....
+- **Lien** : https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training
+
 ### Bringing ChatGPT for Teachers to more U.S. school districts
 - **Source** : OpenAI Blog
 - **Date** : Wed, 26 Aug 2026
@@ -200,20 +208,6 @@ Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependenc
 - **Score** : 1
 - **Résumé** : Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests....
 - **Lien** : https://openai.com/index/introducing-admin-plugin
-
-### Advancing price-performance for developers with GPT‑5.6 in Kiro
-- **Source** : OpenAI Blog
-- **Date** : Mon, 24 Aug 2026
-- **Score** : 1
-- **Résumé** : GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance....
-- **Lien** : https://openai.com/index/gpt-5-6-in-kiro
-
-### Stampli cuts launch hours by 68% using ChatGPT Work
-- **Source** : OpenAI Blog
-- **Date** : Thu, 20 Aug 2026
-- **Score** : 1
-- **Résumé** : With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days....
-- **Lien** : https://openai.com/index/stampli
 
 ### LWiAI Podcast #253 - Opus 5, Gemini 3.6, Kimi K3, Hugging Face Hack
 - **Source** : Last Week in AI
