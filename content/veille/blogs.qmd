@@ -91,12 +91,12 @@ graph LR
 Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection atta...
 - **Lien** : https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/
 
-### LWiAI Podcast #246 - Gemini 3.5 + Omni, Musk Loses, OpenAI vs Erdős
+### LWiAI Podcast #255 - Gemini 3.7, Jalapeño, Qwen 3.8, Drones
 - **Source** : Last Week in AI
-- **Date** : Tue, 26 May 2026
+- **Date** : Mon, 31 Aug 2026
 - **Score** : 2
-- **Résumé** : Google unveils AI model Gemini 3.5 and AI agent Gemini Spark, Omni turns images, audio, and text into video, Musk loses OpenAI court battle...
-- **Lien** : https://lastweekin.ai/p/lwiai-podcast-246-gemini-35-omni
+- **Résumé** : Google announces Gemini 3.7 Flash, Jalape&#241;o&#8217;s first results show industry-leading speed, A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I....
+- **Lien** : https://lastweekin.ai/p/lwiai-podcast-255-gemini-37-jalapeno
 
 ### The Evolution of the Agent Harness
 - **Source** : latent.space
@@ -111,6 +111,21 @@ Anthropic are putting a great deal of faith in Claude Code's auto mode for prote
 - **Score** : 1
 - **Résumé** : Simile&#8217;s CEO about his journey from the viral Generative Agents to creating 8 Billion Digital Twins of every living human... and why it&#8217;s gone from fun exploration to very serious business...
 - **Lien** : https://www.latent.space/p/simile
+
+### Understanding ChatGPT Work
+- **Source** : Simon Willison
+- **Date** : 2026-08-30T23:59
+- **Score** : 1
+- **Résumé** : OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so fa...
+- **Lien** : https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/
+
+### Introducing Hy4 Preview
+- **Source** : Simon Willison
+- **Date** : 2026-08-29T23:53
+- **Score** : 1
+- **Résumé** : Introducing Hy4 Preview
+New open weight text input (no vision)  LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, <a href="https://huggingf...
+- **Lien** : https://simonwillison.net/2026/Aug/29/hy4/
 
 ### Qwen3.8-Flash-Next
 - **Source** : Simon Willison
@@ -128,17 +143,6 @@ It's pretty big: 125B tokens, but ...
 - **Résumé** : Release: llm-anthropic 0.27
         This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released <a href="https://github...
 - **Lien** : https://simonwillison.net/2026/Aug/24/llm-anthropic/
-
-### llm 0.33
-- **Source** : Simon Willison
-- **Date** : 2026-08-22T17:01
-- **Score** : 1
-- **Résumé** : Release: llm 0.33
-        My highlights from this release:
-
-
-Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from httpx to httpx2</cod...
-- **Lien** : https://simonwillison.net/2026/Aug/22/llm/
 
 ### Granite 4.2 LLMs: How They're Built
 - **Source** : Hugging Face Blog
@@ -182,13 +186,6 @@ Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependenc
 - **Résumé** : A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment....
 - **Lien** : https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training
 
-### Bringing ChatGPT for Teachers to more U.S. school districts
-- **Source** : OpenAI Blog
-- **Date** : Wed, 26 Aug 2026
-- **Score** : 1
-- **Résumé** : ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff....
-- **Lien** : https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts
-
 ### Learning never stops: How AI makes learning continuous
 - **Source** : OpenAI Blog
 - **Date** : Wed, 26 Aug 2026
@@ -196,19 +193,19 @@ Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependenc
 - **Résumé** : OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom....
 - **Lien** : https://openai.com/index/learning-never-stops
 
+### Bringing ChatGPT for Teachers to more U.S. school districts
+- **Source** : OpenAI Blog
+- **Date** : Wed, 26 Aug 2026
+- **Score** : 1
+- **Résumé** : ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff....
+- **Lien** : https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts
+
 ### Jalapeño’s first results show industry-leading speed and efficiency in AI inference
 - **Source** : OpenAI Blog
 - **Date** : Tue, 25 Aug 2026
 - **Score** : 1
 - **Résumé** : Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models....
 - **Lien** : https://openai.com/index/jalapeno-first-results
-
-### Introducing the Admin plugin for ChatGPT Work and Codex
-- **Source** : OpenAI Blog
-- **Date** : Tue, 25 Aug 2026
-- **Score** : 1
-- **Résumé** : Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests....
-- **Lien** : https://openai.com/index/introducing-admin-plugin
 
 ### LWiAI Podcast #253 - Opus 5, Gemini 3.6, Kimi K3, Hugging Face Hack
 - **Source** : Last Week in AI

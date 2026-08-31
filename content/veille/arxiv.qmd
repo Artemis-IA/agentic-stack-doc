@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### GRAIN: Bridging Name and Narrative Shifts in Real-World Graph Reasoning through Invariance-Rewarded Agentic RL
-- **arXiv** : 2608.27142v1
-- **Date** : 2026-08-27
-- **Auteurs** : Zike Yuan, Han Zhang, Jianzhi Yan, Le Liu, Cai Ke
-- **Score** : 15
-- **Résumé** : Despite their potential in standardized graph tasks, Large Language Models (LLMs) remain brittle to real-world shifts in node identifiers and task formulation. While deterministic graph tools are invariant to such shifts, extracting topological structures from noisy text is highly fragile for LLMs, ...
-- **Lien** : https://arxiv.org/abs/2608.27142v1
-
-### AgentDV: Closed-Loop Agentic AI for Hardware Design Verification
-- **arXiv** : 2608.27148v1
-- **Date** : 2026-08-27
-- **Auteurs** : Navya Goli, Junzhe Liu, Zhenge Jia, Umamaheswara Rao Tida
+### ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL
+- **arXiv** : 2608.28476v1
+- **Date** : 2026-08-28
+- **Auteurs** : Zhuoshi Pan, Qizhi Pei, Junru Lu, Honglin Lin, H. Vicky Zhao
 - **Score** : 12
-- **Résumé** : Register-transfer level (RTL) verification consumes a major part of modern system-on-chip (SoC) development effort. Yet, recent LLM-based verification-code generation often fails to produce runnable, design-consistent, and coverage-producing testbenches. We present AgentDV, a closed-loop agentic AI ...
-- **Lien** : https://arxiv.org/abs/2608.27148v1
+- **Résumé** : Long-horizon agentic tasks require large language models (LLMs) to iteratively retrieve, integrate, and maintain dispersed information across multi-turn interactions, but preserving all interaction histories leads to a continuously growing working context. Recent proactive context management methods...
+- **Lien** : https://arxiv.org/abs/2608.28476v1
 
-### Safety Does Not Compose: Non-Decaying Loop State for Autonomous LLM Agents
-- **arXiv** : 2608.27141v1
-- **Date** : 2026-08-27
-- **Auteurs** : Chenhao Wu, Haoxuan Jia, Yang Liu, Yingguang Yang, Yuhan Lin
-- **Score** : 12
-- **Résumé** : Large language model agents are increasingly deployed as autonomous loops. Starting from one human goal, such a system repeatedly discovers work, plans, executes tool calls, verifies outcomes and persists state across many unattended iterations. The agent safeguards in wide use, however, are defined...
-- **Lien** : https://arxiv.org/abs/2608.27141v1
+### LLM-Based Agents for Software and Systems Security: Approaches, Applications, and Assessment
+- **arXiv** : 2608.28490v1
+- **Date** : 2026-08-28
+- **Auteurs** : Jingjing Nie, Jiawei Guo, Krishna Meda, Haipeng Cai
+- **Score** : 10
+- **Résumé** : Software and systems security workflows are typically procedural: analysts inspect heterogeneous artifacts, form hypotheses, invoke tools, interpret outputs, and revise plans. Large language model (LLM)-based agents, which can plan, use tools, retain state, and revise actions across multi-step workf...
+- **Lien** : https://arxiv.org/abs/2608.28490v1
 
-### TraceBench: Controlled Evaluation of LLM Agents for Time-Series Root-Cause Attribution
-- **arXiv** : 2608.27182v1
-- **Date** : 2026-08-27
-- **Auteurs** : Tommaso Bendinelli, Artur Dox, Christian Holz
+### Learning to Use Tools: Reinforcement Learning for Tool-Integrated Mathematical Reasoning
+- **arXiv** : 2608.28447v1
+- **Date** : 2026-08-28
+- **Auteurs** : Minghui Xu, Zi Wang
+- **Score** : 9
+- **Résumé** : Current large language models (LLMs) increasingly benefit from external tool integration, especially for tasks requiring reliable computation and verification. Motivated by this, we study calculator tool calling for improving mathematical reasoning on the Countdown task. We first analyze reasoning f...
+- **Lien** : https://arxiv.org/abs/2608.28447v1
+
+### NL2AGBench: Benchmarking LLM Auto-Formalization for AlphaGeometry
+- **arXiv** : 2608.28481v1
+- **Date** : 2026-08-28
+- **Auteurs** : Samuel Xiao, Judy Song, Rory Hu, Ziliang Zong
 - **Score** : 7
-- **Résumé** : LLM agents are increasingly applied to anomaly detection and root-cause analysis in time-series observations collected from real-world systems; however, their performance on these tasks has not been systematically evaluated under controlled conditions. We introduce TraceBench, a simulation-based fra...
-- **Lien** : https://arxiv.org/abs/2608.27182v1
+- **Résumé** : Recent advances in large language models (LLMs) have demonstrated strong capabilities in natural language understanding and mathematical reasoning. However, their ability to translate informal mathematical problems into formal representations remains underexplored. This limitation is particularly im...
+- **Lien** : https://arxiv.org/abs/2608.28481v1
 
-### Prediction of Prediction (PoP): Inter-Layer Activation Fusion for Single-Pass Hallucination Detection in Large Language Models
-- **arXiv** : 2608.27165v1
-- **Date** : 2026-08-27
-- **Auteurs** : Himal Badu
+### Fidelity Is Not Enough: Dispatch-Level Instrumentation for Agentic Datasheet Extraction
+- **arXiv** : 2608.28439v1
+- **Date** : 2026-08-28
+- **Auteurs** : Qing Ye, Meng-Hsuan Lin
 - **Score** : 7
-- **Résumé** : Autoregressive large language models (LLMs) routinely generate factually incorrect outputs with high decoding confidence, limiting their deployment in high-stakes workflows. Existing output-stage uncertainty metrics can fail when models are overconfident on false assertions, while multi-sample verif...
-- **Lien** : https://arxiv.org/abs/2608.27165v1
+- **Résumé** : One model passed our fidelity check without ever opening the datasheet. We found it while qualifying models for an internal extraction service: a structured-output constraint had silently disabled tool use, and the model answered anyway, with fabricated source text. Only the per-tool trace exposed i...
+- **Lien** : https://arxiv.org/abs/2608.28439v1
 
-### When Tool Outputs Become Commands: Separating Action Induction from Runtime Authorization in Tool-Augmented LLM Agents
-- **arXiv** : 2608.27146v1
-- **Date** : 2026-08-27
-- **Auteurs** : Xiaokun Guo, Zhen Xu, Dongdong Huo, Yanqiu Zhang, Wei Wang
+### CultureConverse: A Multilingual Multi-turn Simulation Harness for Culturally Grounded Assistance in East and Southeast Asia
+- **arXiv** : 2608.28405v1
+- **Date** : 2026-08-28
+- **Auteurs** : Bryan Chen Zhengyu Tan, Weihua Zheng, Thong T. Doan, Bich Ngoc Doan, Jia Wang Peh
 - **Score** : 7
-- **Résumé** : Tool-augmented LLM agents must rely on untrusted runtime Observations to complete open-ended tasks; however, when tool outputs no longer merely provide data but begin to specify concrete actions, they effectively become ``commands'' that can drive real-world side effects beyond user intent. We argue...
-- **Lien** : https://arxiv.org/abs/2608.27146v1
+- **Résumé** : Current cultural evaluations for large language models (LLMs) often reduce culture to single-turn factual recall via MCQs, failing to capture a common use case: users seeking practical help over multiple turns in culturally grounded scenarios. We introduce CultureConverse, a scalable, multilingual s...
+- **Lien** : https://arxiv.org/abs/2608.28405v1
 
-### LAAF: A Layered Accountability Architecture Framework for LLM Applications
-- **arXiv** : 2608.27102v1
-- **Date** : 2026-08-27
-- **Auteurs** : Prachi Chaturvedi, Shahnawaz Ahmad, Ehsan Nowroozi, Muhammad Waqas, George Loukas
-- **Score** : 7
-- **Résumé** : Large Language Models (LLMs) operate in hospitals, courtrooms, banks, and public service desks, where fluent, confident outputs are treated as authoritative even when ungrounded or incorrect. When such an output contributes to harm, who is answerable, and through what mechanisms can responsibility b...
-- **Lien** : https://arxiv.org/abs/2608.27102v1
-
-### A Contract-Centered Architecture for Scalable and Manageable Agentic Runtimes
-- **arXiv** : 2608.27086v1
-- **Date** : 2026-08-27
-- **Auteurs** : Yaxiao Liu, Pengbo Liu, Yiwen Liu, Yihua Guan, Zhenghe Hou
-- **Score** : 7
-- **Résumé** : Enterprise AI deployment is a coordination problem across business units, application and AI teams, testing, platform engineering, infrastructure, security, operations, and data governance. Use-case benchmarks show whether one agent completes one task, but not how changing capabilities, models, runt...
-- **Lien** : https://arxiv.org/abs/2608.27086v1
-
-### LLMs in Digital EDA: A perspective on shifting roles from Generation to Orchestration
-- **arXiv** : 2608.27184v1
-- **Date** : 2026-08-27
-- **Auteurs** : Matthew Youngman, Cristian Sestito, Themis Prodromakis
+### Ladders in Chaos: When, How, (and Perhaps Why) Does Test-Time Scaling Improve LLM Machine Translation
+- **arXiv** : 2608.28496v1
+- **Date** : 2026-08-28
+- **Auteurs** : Di Wu, Sergey Troshin, Christof Monz, Antske Fokkens, Vlad Niculae
 - **Score** : 6
-- **Résumé** : Electronic design automation (EDA) has advanced engineering productivity through successive generations of tooling that progressively automate synthesis, optimisation, and verification. Large language models (LLMs) extend this trajectory by enabling direct translation from design intent to hardware ...
-- **Lien** : https://arxiv.org/abs/2608.27184v1
+- **Résumé** : Two forms of test-time scaling for Large Language Models (LLMs) have emerged as effective and widely adopted paradigms: sequential, in which later answer attempts depend on earlier ones, and parallel, such as i.i.d. sampling with reranking. In this study, we investigate their properties in translati...
+- **Lien** : https://arxiv.org/abs/2608.28496v1
 
-### Calibrated Enough to Know, Not Calibrated to Act: Fabricated Evidence Makes LLM Agents Commit to the Unknowable
-- **arXiv** : 2608.27167v1
-- **Date** : 2026-08-27
-- **Auteurs** : Pranav Aggarwal
+### Blind Men and the Elephant: Probing the Epistemic Myopia of LLMs under Long-Tail Divergent Knowledge
+- **arXiv** : 2608.28478v1
+- **Date** : 2026-08-28
+- **Auteurs** : Zhuoshi Pan, Junru Lu, Yan Qian, H. Vicky Zhao, Di Yin
 - **Score** : 6
-- **Résumé** : An LLM agent shown a professional-looking market panel commits to a directional call on a provably unpredictable question far more often than one asked the bare question: across 12 frontier models, commitment rises from 6.5% to 54.0% as evidence is escalated. It commits just as readily when every nu...
-- **Lien** : https://arxiv.org/abs/2608.27167v1
+- **Résumé** : Factual question answering (QA) typically assumes a single canonical answer, obscuring whether large language models (LLMs) retain divergent accounts of long-tail facts. To address this gap, we introduce ElephantBench, a closed-book knowledge probe comprising 1,094 questions generated through an aud...
+- **Lien** : https://arxiv.org/abs/2608.28478v1
 
-### STAR : Sentence Translation Alignment Rate for Document-to-Document Machine Translation
-- **arXiv** : 2608.27161v1
-- **Date** : 2026-08-27
-- **Auteurs** : Yichen Dong, Hao Wang, Junhui Li, Linlong Xu, Longyue Wang
+### Sliding-window beats linear attention
+- **arXiv** : 2608.28444v1
+- **Date** : 2026-08-28
+- **Auteurs** : Alexia Jolicoeur-Martineau, Rhea Sanjay Sukthanker, Pashmina Cameron, Emy Gervais
 - **Score** : 6
-- **Résumé** : Large Language Models (LLMs) have enabled a shift from sentence-level to document-to-document (Doc2Doc) machine translation, promising improved global coherence. However, document-to-document generation in a single pass frequently suffers from structural misalignment, manifesting as sentence omissio...
-- **Lien** : https://arxiv.org/abs/2608.27161v1
+- **Résumé** : Due to the nature of quadratic attention, Large Language Models (LLMs) consume a lot of memory and energy. Every new token costs more than the previous one. For each additional token, the keys and values must be stored in memory indefinitely, which is unsustainable. Several alternatives have been pr...
+- **Lien** : https://arxiv.org/abs/2608.28444v1
 
-### pro-team at LLMs4OL 2026 Tasks Flagship and Reuse: Retrieval-Augmented Generation and Vocabulary-Constrained Filtering for Ontology Learning
-- **arXiv** : 2608.27101v1
-- **Date** : 2026-08-27
-- **Auteurs** : Shivam Mishra, Dhannu Ram Meena, Muneendra Ojha, Krishna Pratap Singh, Kuldeep Singh
+### Program Learning with Verifiable Rewards: Symbolic Backpropagation for Post-Training LLMs
+- **arXiv** : 2608.28421v1
+- **Date** : 2026-08-28
+- **Auteurs** : Vishvesh Bhat
 - **Score** : 6
-- **Résumé** : Ontology learning from text remains challenging despite significant progress in Large Language Models (LLMs), which can hallucinate domain terms, produce inconsistent formats, and favor hierarchical over associative relations. In the LLMs4OL 2026 Challenge, we address both the End-to-End Flagship Ta...
-- **Lien** : https://arxiv.org/abs/2608.27101v1
+- **Résumé** : Post training a language model to reason means updating its weights. Supervised finetuning and reinforcement learning both place the acquired capability inside the model where it cannot be inspected cannot be checked step by step and cannot be moved to another model. We argue that for tasks whose in...
+- **Lien** : https://arxiv.org/abs/2608.28421v1
 
-### Emotional Preferences as Goal-Priority Regulation
-- **arXiv** : 2608.27072v1
-- **Date** : 2026-08-27
-- **Auteurs** : Shiqi Liu, Yihua Tan, Hu Fu, Guanyu Qi
-- **Score** : 6
-- **Résumé** : A core question in decision-making for agents is whether the relative priorities of competing lower-level objectives can be determined by emotional preferences autonomously generated by higher-level goals, rather than being externally prespecified. Under changing external environments and evolving i...
-- **Lien** : https://arxiv.org/abs/2608.27072v1
-
-### Unifying Detection and Adaptation in Task-Free Continual Learning
-- **arXiv** : 2608.27070v1
-- **Date** : 2026-08-27
-- **Auteurs** : Dezheng Han, Anbang Zhang, Zhihao Zhu, Shuaishuai Guo
-- **Score** : 6
-- **Résumé** : To mitigate catastrophic forgetting in downstream continual learning (CL) for large language models (LLMs), existing methods typically constrain parameter updates or introduce task-specific adaptation modules. However, these methods often rely on explicit task boundaries during training, limiting th...
-- **Lien** : https://arxiv.org/abs/2608.27070v1
-
-### PACE: A Unified Condense-and-Extract Paradigm for Fast VLM Inference
-- **arXiv** : 2608.27206v1
-- **Date** : 2026-08-27
-- **Auteurs** : Junjie Liu, Shengyuan Ye, Xu Chen
+### On the Maintenance and Co-evolution of Agent Plugins: An Empirical Study of Claude Code Plugin Marketplaces
+- **arXiv** : 2608.28497v1
+- **Date** : 2026-08-28
+- **Auteurs** : Ahmed Hereiz, Yingzhe Lyu, Hao Li, Bram Adams, Ahmed E. Hassan
 - **Score** : 4
-- **Résumé** : Vision-Language Models (VLMs) demonstrate exceptional visual reasoning capabilities, yet their inference costs escalate rapidly with the proliferation of visual tokens. Existing visual token pruning methods exhibit two fundamental limitations. First, most approaches operate exclusively post-vision e...
-- **Lien** : https://arxiv.org/abs/2608.27206v1
+- **Résumé** : AI coding agents, software tools that automate development tasks through reasoning and tool use, are increasingly extended through plugin marketplaces, yet the structure, maintenance, and co-evolution dynamics of these emerging repositories remain empirically unexplored. Unlike traditional software ...
+- **Lien** : https://arxiv.org/abs/2608.28497v1
 
-### An Empirical Evaluation of Using Large Language Models for Automated Model-Based Test Generation
-- **arXiv** : 2608.27094v1
-- **Date** : 2026-08-27
-- **Auteurs** : Hafize Sanli, Onur Kilincceker, Cihat Cetinkaya
+### COVER: Identifiable Evaluation of Coalition Routing
+- **arXiv** : 2608.28475v1
+- **Date** : 2026-08-28
+- **Auteurs** : Raghul Sugumar, Amrit Gopinath
 - **Score** : 4
-- **Résumé** : Large language models have shown strong potential for software engineering tasks, particularly software testing. Model-based testing (MBT) is a software testing technique. To address the broad scalability challenge for industrial adoption of MBTs, our paper presents an empirical evaluation of Large ...
-- **Lien** : https://arxiv.org/abs/2608.27094v1
+- **Résumé** : When a multi-agent system changes its team, it also changes the messages and final answer it produces, so an end-to-end accuracy gap does not by itself identify a routing effect. We introduce method, an evaluation contract that fixes a public information boundary, downstream stack G, and finite lega...
+- **Lien** : https://arxiv.org/abs/2608.28475v1
 
-### TransMeme: A Multi-Agent Framework for Cross-Cultural Meme Transcreation
-- **arXiv** : 2608.27127v1
-- **Date** : 2026-08-27
-- **Auteurs** : Jingyi Zheng, Yule Liu, Zifan Peng, Tianyi Hu, Yuemeng Zhao
+### Acquire, Repair, Preserve: A Diagnosis-Guided Post-Training Recipe for Small-Model Dialogue Game Agents
+- **arXiv** : 2608.28458v1
+- **Date** : 2026-08-28
+- **Auteurs** : Nan Li
+- **Score** : 4
+- **Résumé** : Interactive dialogue games test a capability that static benchmarks largely leave implicit: a model must carry state across turns, interpret feedback, and choose valid actions under changing constraints. We study this setting in the LM Playschool Challenge with a 2B open-weight model, and find that ...
+- **Lien** : https://arxiv.org/abs/2608.28458v1
+
+### LongPIBench: A Long-Context Benchmark for Prompt Injection
+- **arXiv** : 2608.28411v1
+- **Date** : 2026-08-28
+- **Auteurs** : Yupei Liu, Yuqi Jia, Neil Zhenqiang Gong, Jinyuan Jia
+- **Score** : 4
+- **Résumé** : Prompt injection attacks pose a serious security risk to large language models in real-world applications. However, existing prompt injection benchmarks primarily focus on short-context inputs, leaving the attacks and defenses in long-context settings largely unexplored. This gap leads to a substant...
+- **Lien** : https://arxiv.org/abs/2608.28411v1
+
+### A Formal Limitation on Learning Human Language From Textual Corpora
+- **arXiv** : 2608.28560v1
+- **Date** : 2026-08-28
+- **Auteurs** : Emily Cheng, Ryan Cotterell
 - **Score** : 3
-- **Résumé** : Internet memes are a pervasive form of multimodal online communication; however, such communication often involves users from diverse linguistic and cultural backgrounds. Therefore, adapting memes across cultures and languages is a central challenge for enabling mutual understanding in online commun...
-- **Lien** : https://arxiv.org/abs/2608.27127v1
+- **Résumé** : Can a listener recover what a speaker means from the form of an utterance alone? We answer this question information-theoretically, and for a listener given by any featurizer of text, including the hidden states of contemporary large language models. Modeling language use as a joint distribution ove...
+- **Lien** : https://arxiv.org/abs/2608.28560v1
 
-### Cross-Lingual Alignment Without Joint Training: Do Monolingual Language Models Converge on Universal Representations?
-- **arXiv** : 2608.27115v1
-- **Date** : 2026-08-27
-- **Auteurs** : Ej Zhou, Suchir Salhan, Catherine Arnett, Anna Korhonen
+### Logos: An Agent Harness on a Cross-Process Bus
+- **arXiv** : 2608.28553v1
+- **Date** : 2026-08-28
+- **Auteurs** : Hanzhang Jia, Liheng Zeng, Hao Cheng, Yi Gao, Bo Ma
 - **Score** : 3
-- **Résumé** : Cross-lingual alignment in multilingual language models is typically attributed to joint training: shared parameters, mixed-language batches, or explicit alignment objectives. We ask whether monolingual models trained on non-parallel data learn alignable representations without joint training. By te...
-- **Lien** : https://arxiv.org/abs/2608.27115v1
+- **Résumé** : Modern agent systems assemble capabilities at runtime, and this dynamic composition has recently received a complete formal treat ment in the spatiotemporal-composability calculus, in which a capability is a component carrying a tracked inverse, and agents are assembled as plugins. This plugin form ...
+- **Lien** : https://arxiv.org/abs/2608.28553v1
 
-### Active sensing to characterize the heterogeneity of plant stress
-- **arXiv** : 2608.27088v1
-- **Date** : 2026-08-27
-- **Auteurs** : Ayman Laaroussi, Peter Hanappe, David Colliaux
+### Video Generative Models as Geometry Learner
+- **arXiv** : 2608.28549v1
+- **Date** : 2026-08-28
+- **Auteurs** : Haosen Yang, Jifei Song, Zhensong Zhang, Xiatian Zhu, Jiankang Deng
 - **Score** : 3
-- **Résumé** : While most phenotyping platforms rely primarily on image-based measurements, advanced plant characterization requires the integration of active physiological sensing modali- ties such as chlorophyll fluorescence. We present an autonomous robotic platform designed to perform targeted fluorescence mea...
-- **Lien** : https://arxiv.org/abs/2608.27088v1
+- **Résumé** : Recent generative approaches to geometry estimation adapt pretrained image diffusion models and treat the task as image-conditioned generation. Leveraging off-the-shelf image diffusion models, they either (i) train task-specific geometry models (for depth and surface normal estimation) independently...
+- **Lien** : https://arxiv.org/abs/2608.28549v1
 
-### Over-The-Air Extreme Learning Machines with Nonlinear Stacked Intelligent Metasurfaces
-- **arXiv** : 2608.27137v1
-- **Date** : 2026-08-27
-- **Auteurs** : Kyriakos Stylianopoulos, Mattia Fabiani, Giulia Torcolacci, Davide Dardari, George C. Alexandropoulos
-- **Score** : 2
-- **Résumé** : The recently envisioned goal-oriented communications paradigm requires machine learning inference to be performed directly on wirelessly transferred data. This paper presents an eXtremely Large (XL) Multiple-Input Multiple-Output (MIMO) system that operates as an Extreme Learning Machine (ELM) to ex...
-- **Lien** : https://arxiv.org/abs/2608.27137v1
+### DARTS: Decoder-Aware Representation Tuning via Surgery for Model Merging
+- **arXiv** : 2608.28547v1
+- **Date** : 2026-08-28
+- **Auteurs** : Aaryan Ajay Sharma, Sai Nishanth Padala, Seganrasan Subramanian
+- **Score** : 3
+- **Résumé** : Model merging combines multiple task-specific fine-tuned LLMs into a single multi-task model without additional training. However, merged models are known to suffer from representation bias: systematic drift between the merged model's hidden states and those of each individual source model. Prior wo...
+- **Lien** : https://arxiv.org/abs/2608.28547v1
+
+### Offline-Verifiable Accountability for Cross-Organization Agent Messaging: A Preserved Evidence-Bundle Approach
+- **arXiv** : 2608.28542v1
+- **Date** : 2026-08-28
+- **Auteurs** : Adil Alshammari, Hayretdin Bahsi
+- **Score** : 3
+- **Résumé** : Cross-organization agent workflows require preserved evidence that remains independently verifiable during later audit or dispute review. They may involve multiple organizations, delegated actions, policy-relevant events, and disputed accountability claims. This is difficult when live systems are un...
+- **Lien** : https://arxiv.org/abs/2608.28542v1
+
+### Training Communication-Efficient Mixture-of-Experts Language Models with Layer Re-Configuration
+- **arXiv** : 2608.28511v1
+- **Date** : 2026-08-28
+- **Auteurs** : Simeng Sun, Roger Waleffe
+- **Score** : 3
+- **Résumé** : When training Mixture-of-Experts (MoE) language models with expert parallelism, all-to-all token dispatch and combine collectives can consume a substantial fraction of end-to-end training time. In this work, we study communication-efficient MoE models (CE-MoE), in which we adopt a heterogeneous laye...
+- **Lien** : https://arxiv.org/abs/2608.28511v1
 
 <!-- ARXIV_FEED_END -->
