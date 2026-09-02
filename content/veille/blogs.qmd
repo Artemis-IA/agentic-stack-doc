@@ -83,6 +83,16 @@ graph LR
 - **Résumé** : Lovable is branching out from AI-powered web app creation and into MCP-powered &#8216;capabilities&#8217;. We talk to CTO Fabian Hedin....
 - **Lien** : https://www.latent.space/p/lovable-future-of-saas
 
+### llm-gemini 0.34
+- **Source** : Simon Willison
+- **Date** : 2026-09-02T16:39
+- **Score** : 2
+- **Résumé** : Release: llm-gemini 0.34
+        
+
+New model gemini-3.8-flash for <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyb...
+- **Lien** : https://simonwillison.net/2026/Sep/2/llm-gemini/
+
 ### BenchMIRT: What are LLM benchmarks actually measuring?
 - **Source** : Hugging Face Blog
 - **Date** : Tue, 01 Sep 2026
@@ -110,6 +120,13 @@ graph LR
 - **Score** : 1
 - **Résumé** : Vercel&#8217;s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features....
 - **Lien** : https://www.latent.space/p/pr-not-welcome
+
+### Claude's new system prompt really doesn't want to reproduce song lyrics
+- **Source** : Simon Willison
+- **Date** : 2026-09-02T14:16
+- **Score** : 1
+- **Résumé** : Anthropic publish the system prompts for their Claude consumer applications (Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love...
+- **Lien** : https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/
 
 ### Claude Fable 5.1 made me a really nice animated pelican
 - **Source** : Simon Willison
@@ -143,13 +160,6 @@ graph LR
 New from Graham Dumpleton (of wrapt, mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatchi...
 - **Lien** : https://simonwillison.net/2026/Aug/31/introducing-wrapture/
 
-### Understanding ChatGPT Work
-- **Source** : Simon Willison
-- **Date** : 2026-08-30T23:59
-- **Score** : 1
-- **Résumé** : OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so fa...
-- **Lien** : https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/
-
 ### Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI
 - **Source** : Hugging Face Blog
 - **Date** : Tue, 01 Sep 2026
@@ -177,13 +187,6 @@ New from Graham Dumpleton (of wrapt, mod_wsgi, and New Relic's Python agent fame
 - **Score** : 1
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/asr-benchmark-optimization
-
-### Up to 3.2x Faster Inference with LFM2.5-DSpark
-- **Source** : Hugging Face Blog
-- **Date** : Thu, 20 Aug 2026
-- **Score** : 1
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/LiquidAI/lfm25-dspark
 
 ### How AI-native companies turn workflows into operating capability
 - **Source** : OpenAI Blog
