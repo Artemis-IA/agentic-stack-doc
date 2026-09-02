@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### S3Gym: Can LLMs Turn Self-Testing and Self-Judging into Self-Improvement?
-- **arXiv** : 2608.31100v1
-- **Date** : 2026-08-31
-- **Auteurs** : Jiajun Shi, Siyuan Tao, Yuhao Wu, Zexuan Wang, Jingyuan Zhang
-- **Score** : 10
-- **Résumé** : Large language models (LLMs) increasingly interact with external environments and accumulate substantial behavioral experience, yet existing agent benchmarks largely evaluate them as fixed policies. It therefore remains unclear whether an agent can actively test its behavior, judge the resulting exp...
-- **Lien** : https://arxiv.org/abs/2608.31100v1
-
-### OntoAligner-Ensemble: Voting-Based Fusion across Heterogeneous Ontology Alignment Techniques
-- **arXiv** : 2608.31137v1
-- **Date** : 2026-08-31
-- **Auteurs** : Hamed Babaei Giglou, Sören Auer, Peio Popov, Mahsa Sanaei, Jennifer D'Souza
+### Selective Agent Guidance via Entropy: Learning Autonomous Policies from Imperfect VLM Teachers
+- **arXiv** : 2609.01567v1
+- **Date** : 2026-09-01
+- **Auteurs** : Matteo Merler, Giovanni Bonetta, Davide Zago, Rossella Cancelliere, Bernardo Magnini
 - **Score** : 9
-- **Résumé** : Ontology alignment (OA) has evolved through several methodological paradigms, ranging from lexical and structural aligners to knowledge graph embedding (KGE) models and, more recently, Large Language Model (LLM)-based approaches. Although modern OA frameworks provide unified ecosystems for deploying...
-- **Lien** : https://arxiv.org/abs/2608.31137v1
+- **Résumé** : Vision-Language Models (VLMs) provide useful priors for interactive decision-making, but using them directly as policies is expensive and brittle: they must be queried at every step, do not improve from environment interaction, and can repeat systematic errors. We study how to learn a cheap autonomo...
+- **Lien** : https://arxiv.org/abs/2609.01567v1
 
-### DIASENTINEL: An Auditable Multi-Agent System for Guideline-Grounded Diabetes Risk Screening
-- **arXiv** : 2608.31128v1
-- **Date** : 2026-08-31
-- **Auteurs** : Yung Wei Shueh, Zhi-Jie Chen, Chia-Hsuan Hsu, Hsin-Ling Hsu, Donghua Zhang
+### Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement
+- **arXiv** : 2609.01481v1
+- **Date** : 2026-09-01
+- **Auteurs** : Haoyang Yan, Min-le Su, Hangfan Zhang, Zhanhao Li, Chen Zhang
 - **Score** : 9
-- **Résumé** : Large language models (LLMs) offer promising clinical decision support but remain vulnerable to hallucinated facts, unsupported recommendations, and citation errors. We present DIASENTINEL, a fully on-premise multi-agent system for one-year type 2 diabetes mellitus (T2DM) risk screening and guidelin...
-- **Lien** : https://arxiv.org/abs/2608.31128v1
+- **Résumé** : This paper studies autonomous software development, in which LLM-based coding agents transform high-level requirements into complete, functional, and usable software systems without human intervention. We introduce Harness-of-Harness (HoH), a framework that enables coding agents to continually impro...
+- **Lien** : https://arxiv.org/abs/2609.01481v1
 
-### When Does Bigger Help? A Controlled Study of LLM Scale for Ontology Learning
-- **arXiv** : 2608.31118v1
-- **Date** : 2026-08-31
-- **Auteurs** : Hamed Babaei Giglou, Sören Auer, Jennifer D'Souza
+### When Safety Routing Breaks: Understanding Alignment Fragility under Benign Fine-Tuning
+- **arXiv** : 2609.01455v1
+- **Date** : 2026-09-01
+- **Auteurs** : Yitong Guo, Xiaoyi Chen, Siyuan Zhang, Xiaofeng Wang, Haixu Tang
 - **Score** : 9
-- **Résumé** : The effect of Large Language Model (LLM) scale on ontology learning (OL) performance remains insufficiently characterized. We present a controlled evaluation of 13 models spanning dense and Mixture-of-Experts variants from the Qwen3.5 and Qwen3.6 lineages, together with proprietary GPT release varia...
-- **Lien** : https://arxiv.org/abs/2608.31118v1
+- **Résumé** : Benign fine-tuning severely weakens the safety alignment of large language models (LLMs), so we study why refusal behavior is so fragile. While prior work often attributes this failure to gradient conflict, we propose a fundamentally different Fisher-geometric explanation: safety Fisher is low-rank,...
+- **Lien** : https://arxiv.org/abs/2609.01455v1
 
-### Wrong Prediction, Right Answer: Recovering Evidence from Collapsed LLM Sequence Scores
-- **arXiv** : 2608.31068v1
-- **Date** : 2026-08-31
-- **Auteurs** : Qiyao Yan, Chenpeng Wang, Liangming Pan
+### SDARE-Bench: Evaluating Large Language Models on Conversational Stigma Detection and Response in Dyadic and Group Dialogue
+- **arXiv** : 2609.01548v1
+- **Date** : 2026-09-01
+- **Auteurs** : Stephanie Fong, Yiwen Jiang, Zimu Wang, Hongxi Yang, Yaling Shen
 - **Score** : 8
-- **Résumé** : When a large language model fails a reasoning task, it is often assumed to lack the underlying capability. However, this conflates a genuine absence of reasoning with a late-stage output bottleneck. We observe a consistent readout gap across diverse reasoning benchmarks: hidden-state probes successf...
-- **Lien** : https://arxiv.org/abs/2608.31068v1
+- **Résumé** : Large Language Models (LLMs) are increasingly used in advice seeking and decision making that may affect social judgements. Despite stigma's profound effects on people and communities, benchmarks remain scarce. Existing general-domain evaluations typically rely on static prompts and fixed-format tas...
+- **Lien** : https://arxiv.org/abs/2609.01548v1
 
-### BLOOM-WILT: Logit Tilting for Behaviour Elicitation in Automated LLM Auditing
-- **arXiv** : 2608.31105v1
-- **Date** : 2026-08-31
-- **Auteurs** : Adrians Skapars, Edoardo Manino
+### When Guardrails Look Effective: Construct Validity Failures in LLM Agent Commerce Evaluation
+- **arXiv** : 2609.01519v1
+- **Date** : 2026-09-01
+- **Auteurs** : Peiying Zhu, Sidi Chang
+- **Score** : 8
+- **Résumé** : Interactive simulations increasingly evaluate policies in markets populated by language-model agents. Their outputs can look economic---prices, profits, consumer surplus, and welfare---without instantiating the behavior named in the claim. We audit this risk in a multi-turn buyer--seller testbed for...
+- **Lien** : https://arxiv.org/abs/2609.01519v1
+
+### CordisBench: Can Language Models Reason About Component Lifecycles in Dynamic Agent Harnesses?
+- **arXiv** : 2609.01600v1
+- **Date** : 2026-09-01
+- **Auteurs** : Damien Sileo, Dimitri Kachler
 - **Score** : 7
-- **Résumé** : Users of a deployed language model routinely encounter behaviours that testing almost never surfaces, since deployment puts the model through orders of magnitude more interactions than any evaluation can simulate. Automated auditors make testing cheap to scale and flexible enough to cover almost any...
-- **Lien** : https://arxiv.org/abs/2608.31105v1
+- **Résumé** : Dynamic agent harnesses let language models change the software that shapes their own execution. This flexibility brings a new reasoning burden: a local plugin change can propagate through dependencies and cleanup. We introduce CordisBench, a 1,200-question benchmark of this lifecycle reasoning. It ...
+- **Lien** : https://arxiv.org/abs/2609.01600v1
 
-### Token-Efficient Data Reasoning Agents via Adaptive Structuring of Unstructured Data
-- **arXiv** : 2608.31082v1
-- **Date** : 2026-08-31
-- **Auteurs** : Milad Rezaei Hajidehi, Qitong Wang, Stratos Idreos
+### From Production Traffic to Post-Training: Building a Self-Hosted LLM That Covers the Corporate Request Mix
+- **arXiv** : 2609.01572v1
+- **Date** : 2026-09-01
+- **Auteurs** : Olga Tsymboi, Dmitrii Stoianov, Ramil Latypov, Danil Taranets, Daniil Dryabin
+- **Score** : 7
+- **Résumé** : Data-residency constraints force enterprises to self-host LLMs, but continuous adoption of newer models without decommissioning their predecessors expands the serving fleet, fragmenting a finite GPU pool. We consolidate traffic from over 200 internal applications onto a single model by closing quali...
+- **Lien** : https://arxiv.org/abs/2609.01572v1
+
+### HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?
+- **arXiv** : 2609.01437v1
+- **Date** : 2026-09-01
+- **Auteurs** : Yuhao Wu, Jingyuan Zhang, Jiajun Shi, Xinping Lei, Qingshui Gu
+- **Score** : 7
+- **Résumé** : As agents move from research prototypes to deployed tools, their capability increasingly depends on model-external execution infrastructure, commonly termed the agent harness. Changing this harness while holding model weights fixed can substantially alter task performance. Current agent evaluations ...
+- **Lien** : https://arxiv.org/abs/2609.01437v1
+
+### The Rise of Verbal Reinforcement Learning
+- **arXiv** : 2609.01597v1
+- **Date** : 2026-09-01
+- **Auteurs** : Kshitij Tayal, Arun Sharma, Genta Indra Winata, Anirban Das, Sambit Sahu
 - **Score** : 6
-- **Résumé** : Valuable data remains embedded in unstructured sources: web pages, reports, contracts, filings, earnings calls, and PDFs. The big bet in enterprise AI is deploying LLM agents that reason over this data to answer complex questions for every knowledge worker. Agents can do this today, but at prohibiti...
-- **Lien** : https://arxiv.org/abs/2608.31082v1
+- **Résumé** : Natural language is emerging as a primary feedback channel for improving language agents, capable of conveying intent, preferences, and causal structure in forms interpretable by both humans and modern language models. We call this paradigm Verbal Reinforcement Learning (VRL) and offer the first uni...
+- **Lien** : https://arxiv.org/abs/2609.01597v1
 
-### Reconciling Process Supervision with Outcome-Based Credit in Agentic Policy Optimization
-- **arXiv** : 2608.31077v1
-- **Date** : 2026-08-31
-- **Auteurs** : Jingxiao Yang, Wangjie Gan, Yingxuan Zhuang, Wenqi Zhang, Jintao Chen
+### The Structure of Quantization Damage in LLMs: Why the Next Bit Should Be Spent Globally
+- **arXiv** : 2609.01587v1
+- **Date** : 2026-09-01
+- **Auteurs** : Jundong Hu, Shekar Ramachandran
 - **Score** : 6
-- **Résumé** : Outcome-based reinforcement learning provides verified feedback for language-model agents, but assigns trajectory-level advantage uniformly to all decisions, yielding coarse credit over long-horizon interactions. On-policy self-distillation offers finer supervision by re-evaluating sampled behavior ...
-- **Lien** : https://arxiv.org/abs/2608.31077v1
+- **Résumé** : Post-training quantization (PTQ) is widely used to reduce the cost of serving large language models (LLMs), but its accuracy cost is uneven and is often tuned per model. We study where quantization damage occurs and how to allocate a small additional precision budget. Using causal mixed-precision in...
+- **Lien** : https://arxiv.org/abs/2609.01587v1
 
-### Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic Research Agents
-- **arXiv** : 2608.31076v1
-- **Date** : 2026-08-31
-- **Auteurs** : Xuehai Wang, Haowei Qin, Tongxin Liu, Junkai Li, Buqiang Xu
+### From Confusion to Clarity: Confusion-Aware Retrieval and Knowledge Injection for Text Classification
+- **arXiv** : 2609.01564v1
+- **Date** : 2026-09-01
+- **Auteurs** : Manish Gupta, Chaitanya Giri, Jayasimha Talur
 - **Score** : 6
-- **Résumé** : Autonomous scientific research agents are increasingly applied to end-to-end scientific workflows, including literature review, data analysis, experimentation, and report generation. However, open-ended research tasks often do not clearly specify the analyses, methods, and success criteria required ...
-- **Lien** : https://arxiv.org/abs/2608.31076v1
+- **Résumé** : Large language models (LLMs) struggle to classify text into taxonomies with many semantically similar labels, as the distinctions are domain-specific and not captured by pre-training. To handle large label spaces, a common approach retrieves top-$K$ candidate labels by embedding similarity and promp...
+- **Lien** : https://arxiv.org/abs/2609.01564v1
 
-### Scaling Large Reasoning Models beyond Human Supervision: A Path toward Superintelligence
-- **arXiv** : 2608.31075v1
-- **Date** : 2026-08-31
-- **Auteurs** : Zhiqin Yang, Jingwen Fu, Yuhan Liu, Hengyu Liu, Yonggang Zhang
+### Can LLMs Design Video Coding Tools? A Case Study on Planar Mode
+- **arXiv** : 2609.01535v1
+- **Date** : 2026-09-01
+- **Auteurs** : Yingwen Zhang, Meng Wang, Liqiang He, Shiqi Wang
 - **Score** : 6
-- **Résumé** : Recent advances in large reasoning models (LRMs) have shown that reinforcement learning with verifiable rewards (RLVR) can substantially improve reasoning in mathematics and code, where outcomes can be checked automatically. Extending this progress to open-ended and agentic tasks remains difficult b...
-- **Lien** : https://arxiv.org/abs/2608.31075v1
+- **Résumé** : This paper explores whether large language models (LLMs) can design video coding tools, a highly challenging task due to the intricate algorithmic coupling of tool modifications. In particular, we present an empirical case study on the Planar mode, a long-standing intra prediction tool in video codi...
+- **Lien** : https://arxiv.org/abs/2609.01535v1
 
-### Measure Before You Manage: Evaluating Agent Working Memory in Coding Agents
-- **arXiv** : 2608.31057v1
-- **Date** : 2026-08-31
-- **Auteurs** : Le Chen, Zishen Wan, Baixi Sun, Xiaolong Ma, Chih-Hsuan Yang
+### EvoSCM: Scientific Belief Revision Through Causal Model Evolution and Experimentation
+- **arXiv** : 2609.01526v1
+- **Date** : 2026-09-01
+- **Auteurs** : Qing Zhao, Haowei Li, Weijian Deng, Pengxu Wei, Liang Lin
+- **Score** : 6
+- **Résumé** : Scientific agents must learn not only how to reason, but also what to believe. However, existing LLM agents typically express scientific hypotheses in free-form text, leaving their beliefs implicit and difficult to test or revise. We introduce EvoSCM, which equips scientific agents with explicit str...
+- **Lien** : https://arxiv.org/abs/2609.01526v1
+
+### GlossoGen: Emergent Language in Complex Multi-Agent LLM Interactions
+- **arXiv** : 2609.01491v1
+- **Date** : 2026-09-01
+- **Auteurs** : Elias Stengel-Eskin, Newton Sander, Carlos Bonetti, Sasha Boguraev, James Bowler
+- **Score** : 6
+- **Résumé** : The growing rate at which LLM agents interact with one another raises key questions about language evolution in multi-LLM-agent settings, with implications for safety and monitorability as well as for linguistic accounts of LLMs. To address these questions, we introduce GlossoGen, a novel platform f...
+- **Lien** : https://arxiv.org/abs/2609.01491v1
+
+### Citing Less Critically: LLMs Reshape the Rhetoric and Reach of Scientific Citation
+- **arXiv** : 2609.01432v1
+- **Date** : 2026-09-01
+- **Auteurs** : Yixuan Liu, Lin Chen, Zhuoqi Liu, Jianglin Lu, Dakota Murray
+- **Score** : 6
+- **Résumé** : Scientific citations carry rhetorical intent. Scholars may cite prior work positively (supporting), negatively (contrasting), or neutrally (mentioning). As large language models (LLMs) increasingly assist scientific writing, whether they reproduce citations with the same rhetorical intent as humans ...
+- **Lien** : https://arxiv.org/abs/2609.01432v1
+
+### Efficiently Estimating Optimal Hyperparameter Scaling Laws through Power-Law Entropy Search
+- **arXiv** : 2609.01431v1
+- **Date** : 2026-09-01
+- **Auteurs** : Zhiliang Chen, Sebastian Ament, David Eriksson, Maximilian Balandat, Eytan Bakshy
+- **Score** : 6
+- **Résumé** : Optimal hyperparameter scaling laws describe how the best hyperparameters for large language model (LLM) training change with model and data scale, enabling practitioners to predict optimal configurations at production scales without expensive large-scale tuning. However, estimating these scaling la...
+- **Lien** : https://arxiv.org/abs/2609.01431v1
+
+### Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation
+- **arXiv** : 2609.01603v1
+- **Date** : 2026-09-01
+- **Auteurs** : Kefeng Duan, Dewu Zheng, Yanlin Wang, Xiwen Wang, Ensheng Shi
+- **Score** : 5
+- **Résumé** : Evaluating software engineering agents on realistic benchmarks is costly, since each task may require multi-step code exploration, modification, and test execution. Existing efficient evaluation methods select representative subsets to estimate full-benchmark performance, but are largely result-only...
+- **Lien** : https://arxiv.org/abs/2609.01603v1
+
+### Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation
+- **arXiv** : 2609.01604v1
+- **Date** : 2026-09-01
+- **Auteurs** : Himil Vasava, Ming Jiang
 - **Score** : 4
-- **Résumé** : Agent working memory is heterogeneous. Objects such as instructions, artifacts, tool outputs, and agent-generated state play different semantic roles and exhibit different size, retention, and representation profiles. Recent work has begun to explore memory-management mechanisms that account for suc...
-- **Lien** : https://arxiv.org/abs/2608.31057v1
+- **Résumé** : LLM-based evaluators of natural language generation (NLG) quality are widely deployed as scoring tools and as automated training signals, yet the internal procedure by which they assign a rating remains poorly understood. We investigate this procedure mechanistically through an eight-attack perturba...
+- **Lien** : https://arxiv.org/abs/2609.01604v1
 
-### Driving on Memory
-- **arXiv** : 2608.31029v1
-- **Date** : 2026-08-31
-- **Auteurs** : Christian Löwens, Thorben Funke, Alexandru Paul Condurache
+### TempCloze: Can Video-LLMs Identify the Missing Middle?
+- **arXiv** : 2609.01515v1
+- **Date** : 2026-09-01
+- **Auteurs** : Wenqi Pei, Henry Hengyuan Zhao, Yilai Liu, Jiahao Meng, Han Chen
 - **Score** : 4
-- **Résumé** : End-to-end autonomous driving models plan future trajectories from raw sensor input. While earlier driving benchmarks often measured deviation from the human trajectory, current benchmarks such as NAVSIM and Bench2Drive evaluate models with richer simulation-based metrics intended to capture safe an...
-- **Lien** : https://arxiv.org/abs/2608.31029v1
+- **Résumé** : Temporal reasoning benchmarks for Video-LLMs are often mediated by language, leaving room for linguistic shortcuts from option wording, answer correlations, or language priors. To reduce such shortcuts, we introduce TempCloze, a video cloze benchmark for evaluating visual temporal reasoning in Video...
+- **Lien** : https://arxiv.org/abs/2609.01515v1
 
-### MNIST-PRO: MNIST is Back as a Partially Observable World for AI Agents
-- **arXiv** : 2608.31022v1
-- **Date** : 2026-08-31
-- **Auteurs** : Vernon Toh, Navonil Majumder, Zhengyuan Liu, Nancy F. Chen, Soujanya Poria
-- **Score** : 4
-- **Résumé** : AI agents in partially observable environments need to coordinate active sensing with working memory to maintain an evolving perceptual state. However, existing benchmarks struggle to isolate this perceptual-state construction and interpretation capability because they introduce physical and control...
-- **Lien** : https://arxiv.org/abs/2608.31022v1
-
-### Configurable Semantic Chunking for Biomedical Information Extraction in Retrieval-Augmented Generation
-- **arXiv** : 2608.31139v1
-- **Date** : 2026-08-31
-- **Auteurs** : Riya Ahuja, Tim Kacprowski, Roya Shiasi Sardoabi
+### Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation
+- **arXiv** : 2609.01601v1
+- **Date** : 2026-09-01
+- **Auteurs** : Kefeng Duan, Dewu Zheng, Yanlin Wang, Terry Yue Zhuo, Mingwei Liu
 - **Score** : 3
-- **Résumé** : BioMedRAG introduced retrieval-augmented generation with a learned chunk scorer for biomedical information extraction. However, it relies on fixed-size chunking which can fragment semantic evidence. We propose a configurable semantic chunking framework that addresses this limitation by combining ent...
-- **Lien** : https://arxiv.org/abs/2608.31139v1
-
-### Aspire: Can Models Self-Evolve from Vague Goals?
-- **arXiv** : 2608.31111v1
-- **Date** : 2026-08-31
-- **Auteurs** : Yuhao Wu, Jingyuan Zhang, Jiajun Shi, Yuxuan Zhang, Xinping Lei
-- **Score** : 3
-- **Résumé** : Many important forms of human learning begin with a vague goal, such as "become a better physicist" or "improve at research." Learners must interpret the goal, identify capability gaps, decide how to learn, and determine whether they have actually improved. In contrast, existing work on LLM self-evo...
-- **Lien** : https://arxiv.org/abs/2608.31111v1
-
-### LLM Post-Training as Brownfield Maintenance: An Industrial Perspective on Dataware Engineering
-- **arXiv** : 2608.31102v1
-- **Date** : 2026-08-31
-- **Auteurs** : Gopi Krishnan Rajbahadur, Amir M. Ebrahimi, Boyuan Chen, Ahmed E. Hassan
-- **Score** : 3
-- **Résumé** : Industrial post-training is a brownfield regime. Teams inherit a deployed checkpoint and must land targeted improvements under fixed compute and mixture budgets without regressing the rest. The maintained artifact is increasingly dataware: behavior governed by a curated post-training mixture, update...
-- **Lien** : https://arxiv.org/abs/2608.31102v1
-
-### The First Token Is a Clue: Verbalizing Multi-Token Concepts from the J-lens
-- **arXiv** : 2608.31084v1
-- **Date** : 2026-08-31
-- **Auteurs** : Xijie Gong, Tonghan Wang
-- **Score** : 3
-- **Résumé** : The Jacobian Lens (J-lens) is a recent tool for interpreting LLMs. It reads a hidden state as a ranked list of vocabulary tokens, leaving multi-token concepts without a representation of their own. The original J-lens work addresses this limitation with Template Lens, which precomputes vectors for a...
-- **Lien** : https://arxiv.org/abs/2608.31084v1
-
-### Sycophantic Agreement Transfers with Neutral Data via Contrastive Preference Optimization
-- **arXiv** : 2608.31079v1
-- **Date** : 2026-08-31
-- **Auteurs** : Camila Blank, Zhuofan Ying, Christopher Potts, Peter Hase, Jing Huang
-- **Score** : 3
-- **Résumé** : Sycophantic agreement refers to a behavior in which language models excessively affirm the user, often at the cost of factual accuracy. Although sycophantic agreement is a well-known failure of model alignment, there is limited understanding of how it emerges from model training. In this work, we de...
-- **Lien** : https://arxiv.org/abs/2608.31079v1
-
-### A Model with No Head and Many Thoughts
-- **arXiv** : 2608.31069v1
-- **Date** : 2026-08-31
-- **Auteurs** : Nikita Koriagin, Yaroslav Aksenov, George Bredis, Gleb Gerasimov, Nikita Balagansky
-- **Score** : 3
-- **Résumé** : Large language models decode by projecting hidden states through a large vocabulary head at every step. This operation is computationally costly and forces all reasoning to be expressed in discrete tokens. We introduce Soft Latent Thinking, a method that replaces the LM head during reasoning with a ...
-- **Lien** : https://arxiv.org/abs/2608.31069v1
-
-### When Does Predictor-Based RL Align with Human Perception? A Study of Subjective Rewards in Codec-Based Speech Language Models
-- **arXiv** : 2608.31035v1
-- **Date** : 2026-08-31
-- **Auteurs** : Joonyong Park, Jerry Li
-- **Score** : 3
-- **Résumé** : Codec-based text-to-speech (TTS) models make language-model post-training applicable to speech generation, but it remains unclear when learned perceptual predictors can serve as reinforcement learning rewards without losing alignment with human listeners. We study this question with Group Relative P...
-- **Lien** : https://arxiv.org/abs/2608.31035v1
+- **Résumé** : The repository-level code generation task requires synthesizing code that satisfies task requirements while remaining consistent with the target repository context. Since real-world repositories often exceed the input length limits of LLMs, existing approaches commonly adopt retrieval-augmented gene...
+- **Lien** : https://arxiv.org/abs/2609.01601v1
 
 <!-- ARXIV_FEED_END -->

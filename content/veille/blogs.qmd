@@ -83,13 +83,12 @@ graph LR
 - **Résumé** : Lovable is branching out from AI-powered web app creation and into MCP-powered &#8216;capabilities&#8217;. We talk to CTO Fabian Hedin....
 - **Lien** : https://www.latent.space/p/lovable-future-of-saas
 
-### Breaking Claude Code Opus 5 Auto Mode
-- **Source** : Simon Willison
-- **Date** : 2026-08-27T22:50
+### BenchMIRT: What are LLM benchmarks actually measuring?
+- **Source** : Hugging Face Blog
+- **Date** : Tue, 01 Sep 2026
 - **Score** : 2
-- **Résumé** : Breaking Claude Code Opus 5 Auto Mode
-Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection atta...
-- **Lien** : https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/
+- **Résumé** : ...
+- **Lien** : https://huggingface.co/blog/allenai/benchmirt
 
 ### LWiAI Podcast #255 - Gemini 3.7, Jalapeño, Qwen 3.8, Drones
 - **Source** : Last Week in AI
@@ -98,6 +97,13 @@ Anthropic are putting a great deal of faith in Claude Code's auto mode for prote
 - **Résumé** : Google announces Gemini 3.7 Flash, Jalape&#241;o&#8217;s first results show industry-leading speed, A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I....
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-255-gemini-37-jalapeno
 
+### [AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens
+- **Source** : latent.space
+- **Date** : Wed, 02 Sep 2026
+- **Score** : 1
+- **Résumé** : Queue the usual rush of model launches......
+- **Lien** : https://www.latent.space/p/ainews-claude-fablemythos-51-new
+
 ### PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors
 - **Source** : latent.space
 - **Date** : Tue, 01 Sep 2026
@@ -105,12 +111,29 @@ Anthropic are putting a great deal of faith in Claude Code's auto mode for prote
 - **Résumé** : Vercel&#8217;s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features....
 - **Lien** : https://www.latent.space/p/pr-not-welcome
 
+### Claude Fable 5.1 made me a really nice animated pelican
+- **Source** : Simon Willison
+- **Date** : 2026-09-01T23:57
+- **Score** : 1
+- **Résumé** : Today is Claude Fable (and Mythos) 5.1 day. Anthropic say that Fable 5.1 "sets a new standard for coding, knowledge work, and long-running problem-solving tasks". Their announcement spends a notable a...
+- **Lien** : https://simonwillison.net/2026/Sep/1/claude-fable-5-1/
+
 ### Codex bundles LibreOffice
 - **Source** : Simon Willison
 - **Date** : 2026-09-01T19:03
 - **Score** : 1
 - **Résumé** : I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebrand...
 - **Lien** : https://simonwillison.net/2026/Sep/1/codex-libreoffice/
+
+### datasette-mcp 0.2
+- **Source** : Simon Willison
+- **Date** : 2026-09-01T15:30
+- **Score** : 1
+- **Résumé** : Release: datasette-mcp 0.2
+        
+
+"rows" from execute_sql is now an array of objects. Previously it was an array of arrays. This should help weaker model...
+- **Lien** : https://simonwillison.net/2026/Sep/1/datasette-mcp/
 
 ### Introducing wrapture
 - **Source** : Simon Willison
@@ -126,23 +149,6 @@ New from Graham Dumpleton (of wrapt, mod_wsgi, and New Relic's Python agent fame
 - **Score** : 1
 - **Résumé** : OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so fa...
 - **Lien** : https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/
-
-### Introducing Hy4 Preview
-- **Source** : Simon Willison
-- **Date** : 2026-08-29T23:53
-- **Score** : 1
-- **Résumé** : Introducing Hy4 Preview
-New open weight text input (no vision)  LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, <a href="https://huggingf...
-- **Lien** : https://simonwillison.net/2026/Aug/29/hy4/
-
-### Qwen3.8-Flash-Next
-- **Source** : Simon Willison
-- **Date** : 2026-08-26T23:52
-- **Score** : 1
-- **Résumé** : Qwen3.8-Flash-Next
-Another open weights model from Qwen. This one is "a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4".
-It's pretty big: 125B tokens, but ...
-- **Lien** : https://simonwillison.net/2026/Aug/26/qwen38-flash-next/
 
 ### Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI
 - **Source** : Hugging Face Blog
@@ -179,13 +185,6 @@ It's pretty big: 125B tokens, but ...
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/LiquidAI/lfm25-dspark
 
-### How Much Memory Does Your Agent Actually Need?
-- **Source** : Hugging Face Blog
-- **Date** : Tue, 18 Aug 2026
-- **Score** : 1
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/ibm-research/altk-evolve-hmm
-
 ### How AI-native companies turn workflows into operating capability
 - **Source** : OpenAI Blog
 - **Date** : Tue, 01 Sep 2026
@@ -199,6 +198,13 @@ It's pretty big: 125B tokens, but ...
 - **Score** : 1
 - **Résumé** : ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more....
 - **Lien** : https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources
+
+### How law firm Gilbert + Tobin governs and scales AI with OpenAI
+- **Source** : OpenAI Blog
+- **Date** : Tue, 01 Sep 2026
+- **Score** : 1
+- **Résumé** : See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm....
+- **Lien** : https://openai.com/index/gilbert-tobin
 
 ### Polimill builds Japan's next-generation public AI infrastructure
 - **Source** : OpenAI Blog
@@ -241,12 +247,5 @@ It's pretty big: 125B tokens, but ...
 - **Score** : 1
 - **Résumé** : Trump lifts restrictions on Anthropic, Anthropic launches Claude Sonnet 5, Google's NotebookLM updates, chips stories from Etched and Baidu, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-251-mythos-back-sonnet
-
-### Last Week in AI #250 - Mythos Mess, GPT 5.6-Sol, GLM 5.2
-- **Source** : Last Week in AI
-- **Date** : Tue, 21 Jul 2026
-- **Score** : 1
-- **Résumé** : Anthropic's AI treaty discussions, US government's influence on AI model releases, OpenAI's processor development, memory market impacts, and more!...
-- **Lien** : https://lastweekin.ai/p/last-week-in-ai-250-mythos-mess-gpt
 
 <!-- BLOG_FEED_END -->
