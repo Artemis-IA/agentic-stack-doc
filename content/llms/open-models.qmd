@@ -129,19 +129,19 @@ an experimental open-source application showcasing the capabilities of the GPT-4
 ### [ollama](https://github.com/ollama/ollama)
 Get up and running with Llama 3, Mistral, Gemma, and other large language models.
 
-⭐ 180.0k | `Go` | Licence: MIT | MAJ: 2026-09-03
+⭐ 180.1k | `Go` | Licence: MIT | MAJ: 2026-09-03
 **Tags** : `deepseek`, `gemma`, `gemma3`, `glm`, `go`, `golang`, `gpt-oss`, `llama`
 
 ### [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
 A collection of prompt examples to be used with the ChatGPT model.
 
-⭐ 168.7k | `HTML` | Licence: NOASSERTION | MAJ: 2026-09-03
+⭐ 168.9k | `HTML` | Licence: NOASSERTION | MAJ: 2026-09-03
 **Tags** : `ai`, `artificial-intelligence`, `awesome-list`, `chatgpt`, `chatgpt-prompts`, `claude`, `gemini`, `gpt`
 
 ### [Dify](https://github.com/langgenius/dify)
 An open-source LLM app development platform with an intuitive interface that streamlines AI workflows, model management, and production deployment.
 
-⭐ 154.3k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-09-03
+⭐ 154.4k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-09-03
 **Tags** : `agent`, `agentic-ai`, `agentic-framework`, `agentic-workflow`, `ai`, `automation`, `claude`, `deepseek`
 
 ### [LangChain](https://github.com/langchain-ai/langchain)
@@ -162,6 +162,12 @@ LLM inference in C/C++.
 ⭐ 126.9k | `C++` | Licence: MIT | MAJ: 2026-09-03
 **Tags** : `ggml`
 
+### [browser-use](https://github.com/browser-use/browser-use)
+🌐 Make websites accessible for AI agents. Automate tasks online with ease.
+
+⭐ 112.2k | `Python` | Licence: MIT | MAJ: 2026-09-03
+**Tags** : `ai-agents`, `ai-tools`, `browser-automation`, `browser-use`, `llm`, `playwright`, `python`
+
 ### [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
 First open-sourced GPT-4o level model.
 
@@ -172,8 +178,8 @@ First-generation reasoning models from DeepSeek.
 
 ⭐ 92.0k | Licence: MIT | MAJ: 2026-09-03
 
-### [vllm](https://github.com/vllm-project/vllm)
-A high-throughput and memory-efficient inference and serving engine for LLMs
+### [vLLM](https://github.com/vllm-project/vllm)
+A high-throughput and memory-efficient inference and serving engine for LLMs.
 
 ⭐ 90.9k | `Python` | Licence: Apache-2.0 | MAJ: 2026-09-03
 **Tags** : `amd`, `blackwell`, `cuda`, `deepseek`, `deepseek-v3`, `gpt`, `gpt-oss`, `inference`
@@ -181,26 +187,32 @@ A high-throughput and memory-efficient inference and serving engine for LLMs
 ### [OpenDevin](https://github.com/OpenDevin/OpenDevin)
 🙌 OpenHands: AI-Driven Development
 
-⭐ 86.0k | `TypeScript` | Licence: MIT | MAJ: 2026-09-03
+⭐ 86.1k | `TypeScript` | Licence: MIT | MAJ: 2026-09-03
 **Tags** : `agent`, `artificial-intelligence`, `chatgpt`, `claude-ai`, `cli`, `developer-tools`, `gpt`, `llm`
 
 ### [OpenHands](https://github.com/OpenHands/OpenHands)
 🙌 OpenHands: Code Less, Make More. (formerly OpenDevin), a platform for software development agents powered by AI !GitHub Repo stars
 
-⭐ 86.0k | `TypeScript` | Licence: MIT | MAJ: 2026-09-03
+⭐ 86.1k | `TypeScript` | Licence: MIT | MAJ: 2026-09-03
 **Tags** : `agent`, `artificial-intelligence`, `chatgpt`, `claude-ai`, `cli`, `developer-tools`, `gpt`, `llm`
 
 ### [llm-course](https://github.com/mlabonne/llm-course)
 Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.
 
-⭐ 82.2k | Licence: Apache-2.0 | MAJ: 2026-09-03
+⭐ 82.3k | Licence: Apache-2.0 | MAJ: 2026-09-03
 **Tags** : `course`, `large-language-models`, `llm`, `machine-learning`, `roadmap`
 
 ### [Embedchain](https://github.com/embedchain/embedchain)
 Framework to create ChatGPT like bots over your dataset.
 
-⭐ 64.6k | `Python` | Licence: Apache-2.0 | MAJ: 2026-09-03
+⭐ 64.7k | `Python` | Licence: Apache-2.0 | MAJ: 2026-09-03
 **Tags** : `agentic-memory`, `agentic-memory-system`, `agents`, `ai`, `ai-agents`, `chatgpt`, `genai`, `llm`
+
+### [TrendRadar](https://github.com/sansan0/TrendRadar)
+⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构...
+
+⭐ 62.0k | `Python` | Licence: GPL-3.0 | MAJ: 2026-09-03
+**Tags** : `ai`, `bark`, `data-analysis`, `docker`, `hot-news`, `llm`, `mail`, `mcp`
 
 ### [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
 A Chinese collection of prompt examples to be used with the ChatGPT model.
@@ -208,17 +220,11 @@ A Chinese collection of prompt examples to be used with the ChatGPT model.
 ⭐ 62.0k | Licence: MIT | MAJ: 2026-09-03
 **Tags** : `chat-gpt`, `chatgpt`, `chatgpt3`, `chatgpt4`, `gpt`
 
-### [upstash/context7](https://github.com/upstash/context7)
-📇 ☁️ - Up-to-date code documentation for LLMs and AI code editors.
+### [context7](https://github.com/upstash/context7)
+Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors
 
 ⭐ 61.6k | `TypeScript` | Licence: MIT | MAJ: 2026-09-03
 **Tags** : `llm`, `mcp`, `mcp-server`, `vibe-coding`
-
-### [llm-app](https://github.com/pathwaycom/llm-app)
-Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs,...
-
-⭐ 58.9k | `Jupyter Notebook` | Licence: MIT | MAJ: 2026-09-03
-**Tags** : `chatbot`, `hugging-face`, `llm`, `llm-local`, `llm-prompting`, `llm-security`, `llmops`, `machine-learning`
 
 ### [LlamaIndex](https://github.com/run-llama/llama_index)
 provides a central interface to connect your LLM's with external data. !GitHub Repo stars
@@ -231,11 +237,5 @@ A Python library for augmenting LLM apps with data.
 
 ⭐ 52.0k | `Python` | Licence: MIT | MAJ: 2026-09-03
 **Tags** : `agents`, `application`, `data`, `fine-tuning`, `framework`, `llamaindex`, `llm`, `multi-agents`
-
-### [ray](https://github.com/ray-project/ray)
-Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.
-
-⭐ 43.7k | `Python` | Licence: Apache-2.0 | MAJ: 2026-09-03
-**Tags** : `data-science`, `deep-learning`, `deployment`, `distributed`, `hyperparameter-optimization`, `hyperparameter-search`, `large-language-models`, `llm`
 
 <!-- TOOLS_LLM_END -->
