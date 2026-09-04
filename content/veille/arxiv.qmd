@@ -54,165 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### EarlyEval: Cheaper Agent Evaluation via Early Outcome Prediction
-- **arXiv** : 2609.02783v1
-- **Date** : 2026-09-02
-- **Auteurs** : Yuling Shi, Zhensu Sun, Junsen Dong, Chengcheng Wan, David Lo
-- **Score** : 11
-- **Résumé** : Evaluating LLM agents is essential for guiding their development, yet it has grown prohibitively expensive: a single pass of a frontier model over an agentic benchmark can cost hundreds to thousands of dollars, a price paid repeatedly across iterative development cycles. Prior efforts, centered on b...
-- **Lien** : https://arxiv.org/abs/2609.02783v1
+### SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center
+- **arXiv** : 2609.04159v1
+- **Date** : 2026-09-03
+- **Auteurs** : Uday Vallabhaneni, Cassie L. Cagwin, David J. Wild
+- **Score** : 12
+- **Résumé** : Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable at enterprise scale: a finite context window cannot hold a multi-thousand-host authentication graph, and free-form generation offers no guarantee that a recommended contai...
+- **Lien** : https://arxiv.org/abs/2609.04159v1
 
-### User Feedback Provides a Unique Signal that LLMs Can not Detect
-- **arXiv** : 2609.02859v1
-- **Date** : 2026-09-02
-- **Auteurs** : Shachar Don-Yehiya, Leshem Choshen, Omri Abend
-- **Score** : 9
-- **Résumé** : Harnessing naturally occurring feedback from user interactions offers a promising learning signal for Large Language Models (LLMs). However, recent studies suggest this feedback is inherently noisy and difficult to leverage effectively. We challenge this conception by demonstrating that user feedbac...
-- **Lien** : https://arxiv.org/abs/2609.02859v1
-
-### DKL: Decoupled Knowledge Learning for Instruction-Tuned Language Models
-- **arXiv** : 2609.02685v1
-- **Date** : 2026-09-02
-- **Auteurs** : Kushagra Bhushan, Meghanadh Pulivarthi, Sai Krishna Reddy Sathi, Gaurav Pandey, Sonam Gupta
-- **Score** : 9
-- **Résumé** : RAG has become the de facto method for incorporating new, corpus-specific knowledge into an instruction following LLM (Instruct LLM). Although RAG-based prompting improves factual grounding, it fails when retrieval is incorrect or incomplete, leading to hallucinations. Finetuning methods such as RAF...
-- **Lien** : https://arxiv.org/abs/2609.02685v1
-
-### Incremental Pooled LLM Evaluation for Cost-Effective Retrieval Model Selection
-- **arXiv** : 2609.02745v1
-- **Date** : 2026-09-02
-- **Auteurs** : Max Nelson, Hanoz Bhathena, Aviral Joshi, Saket Sharma
+### From Deceptive Outputs to Deceptive Mechanisms: A Causal Framework for Language-Model Deception Research
+- **arXiv** : 2609.04166v1
+- **Date** : 2026-09-03
+- **Auteurs** : Yakov Pyotr Shkolnikov
 - **Score** : 7
-- **Résumé** : Selecting a retrieval model for a production RAG system requires reliable comparative evaluation, but obtaining relevance judgments at scale is expensive and difficult to repeat as new candidate systems arrive. We study pooled LLM evaluation, in which an LLM judges the union of documents retrieved b...
-- **Lien** : https://arxiv.org/abs/2609.02745v1
+- **Résumé** : Research and news coverage of language-model deception increasingly attributes human-like mental-state concepts to language models. Such claims can blur the distinction between behavior that looks deceptive and a mechanism that is actually deceptive. We introduce a causal taxonomy separating prior c...
+- **Lien** : https://arxiv.org/abs/2609.04166v1
 
-### Cliff: Learning Process Rewards from the First Mistake
-- **arXiv** : 2609.02817v1
-- **Date** : 2026-09-02
-- **Auteurs** : Peixuan Han, Runhui Wang, Ketan Ramaneti, Jie Hao, Gerald Friedland
+### FLY-EVAL++: An Evidence-Driven Evaluation Protocol for Safety-Constrained Flight Prediction with Large Language Models
+- **arXiv** : 2609.04021v1
+- **Date** : 2026-09-03
+- **Auteurs** : Yalun Wu, Junfeng Fang, Jiawei Wang, Haotian Liu, Qijun Yang
+- **Score** : 7
+- **Résumé** : Evaluating large language models (LLMs) in safety-critical, physics-governed environments requires more than accuracy-based metrics, because predictions that are numerically close to the ground truth can still violate operational constraints, combine fields in physically inconsistent ways, or fail t...
+- **Lien** : https://arxiv.org/abs/2609.04021v1
+
+### Knowledge Acquisition During Pre-training? Large Language Models Learn Better With Auxiliary Views
+- **arXiv** : 2609.04180v1
+- **Date** : 2026-09-03
+- **Auteurs** : Joseph Lee, Yidi Huang, Dokyoon Kim, Shu Yang, Li Shen
 - **Score** : 6
-- **Résumé** : Reinforcement learning with verifiable rewards (RLVR) has emerged as a powerful paradigm for large language model (LLM) post-training, but its reliance on coarse outcome rewards leads to limited guidance on intermediate reasoning processes. Existing approaches such as process reward modeling and on-...
-- **Lien** : https://arxiv.org/abs/2609.02817v1
+- **Résumé** : Gaps remain in our understanding of how large language models (LLMs) acquire knowledge during pre-training. We posit that auxiliary views, reformulations of knowledge, are causally helpful for learning. We design controlled experiments to isolate this. First, we confirm that repetition is necessary ...
+- **Lien** : https://arxiv.org/abs/2609.04180v1
 
-### Large Language Models (LLMs) for Telecom Root Cause Analysis (RCA): A Structured Reasoning Framework for Evidence-Grounded Diagnosis
-- **arXiv** : 2609.02805v1
-- **Date** : 2026-09-02
-- **Auteurs** : Hao Zhou, Mandar Kulkarni, Hao Chen, Yan Xin,  Charlie
+### A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms
+- **arXiv** : 2609.04170v1
+- **Date** : 2026-09-03
+- **Auteurs** : Davide Paglieri, Logan Cross, Tim Genewein, Joel Z. Leibo, Nenad Tomasev
 - **Score** : 6
-- **Résumé** : Root cause analysis (RCA) is a critical task in telecom network operations, but diagnosing performance degradations in modern 5G and emerging 6G networks remains challenging due to complex cross-layer dependencies. While large language models (LLMs) offer promising capabilities for reasoning and kno...
-- **Lien** : https://arxiv.org/abs/2609.02805v1
+- **Résumé** : Multi-agent AI science ecosystems rely on agents possessing tools that allow them to communicate, coordinate, and build on each other's work. Yet this shared infrastructure can also introduce vulnerabilities by creating a substrate for the contagious spread of unintended and undesirable behaviors. W...
+- **Lien** : https://arxiv.org/abs/2609.04170v1
 
-### ShikumiMiner: Mining Recurring Implementation Patterns in AI Codebases
-- **arXiv** : 2609.02789v1
-- **Date** : 2026-09-02
-- **Auteurs** : Afsana Tasnim, Sheikh Motahar Naim
+### Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments
+- **arXiv** : 2609.04148v1
+- **Date** : 2026-09-03
+- **Auteurs** : Jie Wu, Zhenru Zhang, Beichen Zhang, Xuwu Wang, Yuhui Su
 - **Score** : 6
-- **Résumé** : Large language models are paving the way towards innovation by understanding, analyzing, summarizing and generating content in the modern world. Currently there are thousands of LLM projects developed by engineers in open-source repositories. However, whether these LLM projects have underlying patte...
-- **Lien** : https://arxiv.org/abs/2609.02789v1
+- **Résumé** : As terminal-based code agents become prevalent, agent trajectories have accumulated at scale, while realistic, executable environments remain scarce. However, environments are what agent post-training actually requires: each can be re-queried into many verifiable tasks and provides execution feedbac...
+- **Lien** : https://arxiv.org/abs/2609.04148v1
 
-### SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment
-- **arXiv** : 2609.02786v1
-- **Date** : 2026-09-02
-- **Auteurs** : Qinghua Mao, Wanying Qu, Dadi Guo, Leitao Yuan, Qingyu Liu
+### Epistemic Warrant for LLM Recommendations: Characterizing the Basis for Reliance When Ground Truth Is Unavailable
+- **arXiv** : 2609.04127v1
+- **Date** : 2026-09-03
+- **Auteurs** : Shai Vardi, João Sedoc
 - **Score** : 6
-- **Résumé** : The performance of LLM-based agents is jointly shaped by the base model and the harness used when interacting with the environment. This exposes them to safety risks in both harmful final responses and multi-step execution trajectories. Existing safety alignment mechanisms often rely on either exter...
-- **Lien** : https://arxiv.org/abs/2609.02786v1
+- **Résumé** : Large language models are increasingly used to support organizational decisions, yet users often lack a principled basis for assessing whether to rely on a specific recommendation. Existing approaches typically evaluate broad model properties, such as reliability, uncertainty, or robustness, or focu...
+- **Lien** : https://arxiv.org/abs/2609.04127v1
 
-### ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding
-- **arXiv** : 2609.02780v1
-- **Date** : 2026-09-02
-- **Auteurs** : Jitai Hao, Ke Yang, Qiang Huang, Jun Yu
+### When Models Edit Too Much: On the Fidelity of Minimal Code Edits
+- **arXiv** : 2609.04061v1
+- **Date** : 2026-09-03
+- **Auteurs** : Tongyao Zhu, Wei Hern Lim, Min-Yen Kan
 - **Score** : 6
-- **Résumé** : Streaming video understanding is a critical capability for real-world applications, including embodied intelligence, autonomous driving, industrial monitoring, surveillance and early warning, and wearable assistants. However, processing continuous video streams with multimodal large language models ...
-- **Lien** : https://arxiv.org/abs/2609.02780v1
+- **Résumé** : Large language models (LLMs) are increasingly used to edit existing code, but correctness alone is not enough: useful repairs should also be minimal, reviewable, and faithful to the original implementation. We study over-editing, the tendency of a model to rewrite code beyond what is required to fix...
+- **Lien** : https://arxiv.org/abs/2609.04061v1
 
-### CodePoisonRAG: Knowledge Poisoning Attacks on Retrieval-Augmented Code Generation
-- **arXiv** : 2609.02774v1
-- **Date** : 2026-09-02
-- **Auteurs** : Varun Gadey, Ziad Marey, Alexandra Dmitrienko
+### The Dice Roll Method: A Standardized Protocol for Repeated-Query Auditing of Large Language Model Brand Recommendations
+- **arXiv** : 2609.04047v1
+- **Date** : 2026-09-03
+- **Auteurs** : Dmitrij Żatuchin
 - **Score** : 6
-- **Résumé** : Retrieval-Augmented Code Generation (RACG) improves LLM-based software development by retrieving external code artifacts, documentation, and patches, and incorporating them into the generation context. This reliance on external knowledge introduces a critical trust boundary: poisoned artifacts can i...
-- **Lien** : https://arxiv.org/abs/2609.02774v1
+- **Résumé** : Background: Researchers increasingly use repeated identical prompts to audit stochastic variation in large language model (LLM) brand recommendations, yet no standardized protocol exists for setting iteration counts, selecting stability metrics, or establishing reliability thresholds. Objective: We ...
+- **Lien** : https://arxiv.org/abs/2609.04047v1
 
-### Bilevel Coordinated Reflection: A Game-Theoretic Approach to Multi-Agent LLM Systems
-- **arXiv** : 2609.02750v1
-- **Date** : 2026-09-02
-- **Auteurs** : Yihang Chen, Yuxiang Chen, Yuxuan Huang, Meng Fang, Weilin Luo
+### Representational alignment yields generalizable safety in language models
+- **arXiv** : 2609.04022v1
+- **Date** : 2026-09-03
+- **Auteurs** : Lingyu Li, Yan Teng, Yingchun Wang, Xia Hu
 - **Score** : 6
-- **Résumé** : Multi-agent LLM systems commonly use an orchestrator to decompose a task for a team of workers and then improve through textual reflection. Despite strong empirical results, these systems lack a unified account of coordination, memory improvement, and the role of external verification. We model orch...
-- **Lien** : https://arxiv.org/abs/2609.02750v1
+- **Résumé** : Aligning large language models (LLMs) is essential for their safe deployment. Current alignment methods mainly optimize observable responses, yet models remain vulnerable when the same harmful intent is recast in unfamiliar or adversarial forms that humans can easily recognize. Prototype theory offe...
+- **Lien** : https://arxiv.org/abs/2609.04022v1
 
-### Repo-To-Skill: Distilling GitHub Repositories Into AI4AI Skills
-- **arXiv** : 2609.02749v1
-- **Date** : 2026-09-02
-- **Auteurs** : Jianlyu Chen, Yuyang Hu, Hongjin Qian, Jiawei Liu, Wenqing Wei
-- **Score** : 6
-- **Résumé** : Autonomous agents are beginning to carry out machine-learning (ML) research end to end. These agents combine a model backbone with a harness for planning, execution, memory, and verification, but this architecture still leaves domain-specific know-how outside the agent. We call this missing layer op...
-- **Lien** : https://arxiv.org/abs/2609.02749v1
+### SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents
+- **arXiv** : 2609.04167v1
+- **Date** : 2026-09-03
+- **Auteurs** : Xin He, Yanlin Wang, Mingwei Liu, Jiachi Chen, Hongyu Zhang
+- **Score** : 5
+- **Résumé** : Repository-level software engineering benchmarks have significantly advanced the evaluation of coding agents, but existing benchmarks primarily measure whether generated patches pass functional tests and overlook review-derived acceptance constraints (review constraints) that often influence whether...
+- **Lien** : https://arxiv.org/abs/2609.04167v1
 
-### From Tokens to Semantics: Leveraging Complementary Signals for Hallucination Detection in Black-Box LLMs
-- **arXiv** : 2609.02679v1
-- **Date** : 2026-09-02
-- **Auteurs** : Urja Pawar, Rajitha Ramanayake, Owen O'Neill, Nabeel Kemal, Abhishek Mandal
-- **Score** : 6
-- **Résumé** : When LLMs support public-facing or high-stakes workflows, missed fabrications can harm users and institutions, while false alarms consume limited human-review capacity. When no trusted context or reference document is available, we study two signals accessible through black-box model APIs: semantic ...
-- **Lien** : https://arxiv.org/abs/2609.02679v1
-
-### The Implications of Linguistic Illegibility for LLM Security
-- **arXiv** : 2609.02852v1
-- **Date** : 2026-09-02
-- **Auteurs** : James Mickens
+### Clean Engineering, Unstable Measurement: A Preregistered Reliability Failure of Black-Box LLM Observers on Shared Endpoints
+- **arXiv** : 2609.04198v1
+- **Date** : 2026-09-03
+- **Auteurs** : Haoyaun Zhu, Jie Zhang
 - **Score** : 4
-- **Résumé** : LLMs are trained to generate natural language. However, various strands of evidence indicate that an LLM's externalized linguistic outputs and mechanistically-extracted linguistic features can be an unreliable lens for understanding internal model computation. We introduce the term ``linguistic ille...
-- **Lien** : https://arxiv.org/abs/2609.02852v1
+- **Résumé** : Language-model judges now gate training data, score generations, and drive leaderboards. The judge is then a measurement instrument, resting on one rarely stated assumption: the same request, sent to the same model name, reads the same tomorrow. We audited that assumption in two preregistered campai...
+- **Lien** : https://arxiv.org/abs/2609.04198v1
 
-### Discriminative World Models for Web Agents
-- **arXiv** : 2609.02885v1
-- **Date** : 2026-09-02
-- **Auteurs** : Kelvin Li, Dhruv Pendharkar, Anish Pahilajani, Chuyi Shang, Leon Oks
-- **Score** : 3
-- **Résumé** : Recent web agents use world models for test-time action selection by sampling candidate actions, predicting the resulting web states, and ranking them with a ranker model or a Process Reward Model (PRM). These world models are typically trained via supervised next-state prediction to generate fixed ...
-- **Lien** : https://arxiv.org/abs/2609.02885v1
+### Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM
+- **arXiv** : 2609.04098v1
+- **Date** : 2026-09-03
+- **Auteurs** : Sergii Kozyrev, Davyd Maiboroda
+- **Score** : 4
+- **Résumé** : Hybrid LLMs pair softmax attention with linear-attention layers such as Gated DeltaNet (GDN), whose recurrent state summarizes the context in fixed size. Early community 4-bit quantizations of Qwen3.8-27B (48 GDN layers, 16 attention layers) left the GDN block in 8- or 16-bit precision -- especially...
+- **Lien** : https://arxiv.org/abs/2609.04098v1
 
-### Towards Trustworthy Autonomous Robots: An Explainable AI-Based Decision Framework
-- **arXiv** : 2609.02861v1
-- **Date** : 2026-09-02
-- **Auteurs** : Cagri Temel
-- **Score** : 3
-- **Résumé** : Autonomous robots powered by deep learning face a fundamental auditability challenge: when incidents occur, investigators cannot reconstruct why the system made specific decisions. This paper presents TRACE (Transparent Reasoning Architecture for Credible Execution), a decision framework that ensure...
-- **Lien** : https://arxiv.org/abs/2609.02861v1
+### PatchBench: Evaluating AI Agents for Vulnerability Patching
+- **arXiv** : 2609.04075v1
+- **Date** : 2026-09-03
+- **Auteurs** : Chihao Shen, Jiacheng Li, Aastha Mahajan, Jeffery Siyuan Tian, Yonghwi Kwon
+- **Score** : 4
+- **Résumé** : AI agents have recently demonstrated strong performance in automated vulnerability patching. However, existing evaluations often validate a patch only by testing whether the provided Proof-of-Concept (PoC) input still triggers a crash. This leaves two key threats to validity: agents may reproduce me...
+- **Lien** : https://arxiv.org/abs/2609.04075v1
 
-### Post-Training Language Models for Gold-Medal Performance in Coding Competitions
-- **arXiv** : 2609.02849v1
-- **Date** : 2026-09-02
-- **Auteurs** : Aleksander Ficek, Sean Narenthiran, Mehrzad Samadi, Somshubra Majumdar, Boris Ginsburg
-- **Score** : 3
-- **Résumé** : Competitive programming has become a key test of large language model reasoning, with international competitions such as IOI and ICPC representing its most challenging settings. We present an end-to-end specialization pipeline combining large-scale problem curation, synthetic reasoning traces, super...
-- **Lien** : https://arxiv.org/abs/2609.02849v1
+### Translation as a Decision Space: A Multi-Agent Perspective on Low-Resource Dialect Generation
+- **arXiv** : 2609.04048v1
+- **Date** : 2026-09-03
+- **Auteurs** : Hasan Alkhder, Mohammad Abboush, Igor Tchappi, Ahmet Zengin, Amro Najjar
+- **Score** : 4
+- **Résumé** : Neural machine translation (NMT) systems typically produce a single output per input, obscuring the alternative decision trajectories implicitly available within multilingual decoding. This opacity becomes particularly problematic in low-resource dialect settings, where multiple linguistically valid...
+- **Lien** : https://arxiv.org/abs/2609.04048v1
 
-### UE5M3 FP4 Block Scaling for Stable Language Model Pretraining
-- **arXiv** : 2609.02846v1
-- **Date** : 2026-09-02
-- **Auteurs** : Robert Hu, Carlo Luschi, Paul Balanca
-- **Score** : 3
-- **Résumé** : Stable 4-bit floating-point (FP4) pretraining is difficult because the E2M1 payload represents only a narrow range of magnitudes. NVIDIA's Transformer Engine 
-v{} recipe addresses this with current-tensor scaling, a randomized Hadamard transform (RHT), and bfloat16 (BF16) final layers, adding work ...
-- **Lien** : https://arxiv.org/abs/2609.02846v1
+### Editable Visual Design
+- **arXiv** : 2609.04034v1
+- **Date** : 2026-09-03
+- **Auteurs** : Junyan Ye, Wei Liu, Dongzhi Jiang, Zichen Wen, HaoDong Li
+- **Score** : 4
+- **Résumé** : While diffusion base models such as GPT-Image-2 and Nano-Banana exhibit remarkable visual expressiveness, their end-to-end generation inherently yields flattened bitmaps with error-prone text, precluding layer-wise post-editing. Conversely, code-based visual generation via Coding Agents provides pre...
+- **Lien** : https://arxiv.org/abs/2609.04034v1
 
-### Dutch Books for Language Models
-- **arXiv** : 2609.02797v1
-- **Date** : 2026-09-02
-- **Auteurs** : Isaiah Andrews, Suproteem Sarkar
+### Legibility is Not Interpretability: Comparing Judged and Actual Importance in Chain-Of-Thought Reasoning
+- **arXiv** : 2609.04194v1
+- **Date** : 2026-09-03
+- **Auteurs** : Kevin Du, Alexander Hoyle, Laura Ruis, Acyr Locatelli
 - **Score** : 3
-- **Résumé** : People increasingly use language models to support life decisions. Many such decisions involve a probabilistic forecast: How likely is a major life event, a natural disaster, or an economic outcome? Users of language models may implicitly trust that these forecasts fall out of a coherent world model...
-- **Lien** : https://arxiv.org/abs/2609.02797v1
+- **Résumé** : Reasoning traces from chain-of-thought models appear to offer a legible window into how a model arrives at its answer. A growing body of work treats them as such, using LLM judges to diagnose errors, evaluate faithfulness, and provide step-level supervision via process reward models and generative c...
+- **Lien** : https://arxiv.org/abs/2609.04194v1
 
-### Do Tabular Foundation Models Know Physics? Contamination, Units, and the Deterministic Limit
-- **arXiv** : 2609.02766v1
-- **Date** : 2026-09-02
-- **Auteurs** : Wassim Tenachi, Yashar Hezaveh, Laurence Perreault Levasseur, Pierre-Luc Bacon
+### Seeing Before Synthesizing: VLM-Guided Transition Event Discovery for Weakly-Supervised Dense Video Captioning
+- **arXiv** : 2609.04183v1
+- **Date** : 2026-09-03
+- **Auteurs** : Ye-Chan Kim, Seunghee Choi, SeungJu Cha, Si-Woo Kim, Hwiseon Kim
 - **Score** : 3
-- **Résumé** : Tabular foundation models (TFMs) learn to fill in tables the way language models fill in text, and tables are arguably the format in which most physical measurement arrives. Did they learn any physics in the process? They are Bayesian by construction, so the question is what their prior contains. We...
-- **Lien** : https://arxiv.org/abs/2609.02766v1
+- **Résumé** : Weakly-Supervised Dense Video Captioning aims to localize and describe multiple events in untrimmed videos given only an ordered set of event-level captions per video. Recent work synthesizes auxiliary transition captions via LLM to provide additional vision-language alignment, but these captions la...
+- **Lien** : https://arxiv.org/abs/2609.04183v1
+
+### Rethinking On-Policy Distillation of Large Language Models II: One Training Example
+- **arXiv** : 2609.04172v1
+- **Date** : 2026-09-03
+- **Auteurs** : Zixuan Fu, Bingxiang He, Yuxin Zuo, Haohuan Huang, Jinqian Zhang
+- **Score** : 3
+- **Résumé** : On-policy distillation (OPD) combines student-generated rollouts with dense token-level supervision from a teacher. Existing work has mainly studied its algorithmic behavior, leaving the role of training data unclear. We examine this role at the data-minimal limit by training on a single query. One-...
+- **Lien** : https://arxiv.org/abs/2609.04172v1
+
+### A Low-Cost, Open Platform for End-to-End Autonomous Driving on a Miniature Ackermann Vehicle
+- **arXiv** : 2609.04147v1
+- **Date** : 2026-09-03
+- **Auteurs** : Gustavo Claudio Karl Couto, Eric Aislan Antonelo, Gabriel George Zipperer
+- **Score** : 3
+- **Résumé** : This paper presents a low-cost, open experimental platform for research in end-to-end autonomous driving with miniature Ackermann vehicles. The platform combines a physical vehicle, a printed urban track, data collection tools, trajectory registration, and a Webots digital twin, enabling controlled ...
+- **Lien** : https://arxiv.org/abs/2609.04147v1
 
 <!-- ARXIV_FEED_END -->
