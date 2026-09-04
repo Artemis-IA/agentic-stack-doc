@@ -135,6 +135,13 @@ New model gemini-3.8-flash for <a href="https://blog.google/innovation-and-ai/mo
 - **Résumé** : Vercel&#8217;s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features....
 - **Lien** : https://www.latent.space/p/pr-not-welcome
 
+### OpenAI's rogue agents were caught communicating via public wikis
+- **Source** : Simon Willison
+- **Date** : 2026-09-04T17:38
+- **Score** : 1
+- **Résumé** : Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack...
+- **Lien** : https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/
+
 ### GPT‑6 Astra
 - **Source** : Simon Willison
 - **Date** : 2026-09-03T20:18
@@ -164,16 +171,6 @@ GPT-6 Astra is "rolling out today to a limited set of organizations and over the
 - **Résumé** : I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebrand...
 - **Lien** : https://simonwillison.net/2026/Sep/1/codex-libreoffice/
 
-### datasette-mcp 0.2
-- **Source** : Simon Willison
-- **Date** : 2026-09-01T15:30
-- **Score** : 1
-- **Résumé** : Release: datasette-mcp 0.2
-        
-
-"rows" from execute_sql is now an array of objects. Previously it was an array of arrays. This should help weaker model...
-- **Lien** : https://simonwillison.net/2026/Sep/1/datasette-mcp/
-
 ### Give Your Coding Agents a Memory You Own
 - **Source** : Hugging Face Blog
 - **Date** : Thu, 03 Sep 2026
@@ -195,19 +192,19 @@ GPT-6 Astra is "rolling out today to a limited set of organizations and over the
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/ibm-granite/granite-4-2
 
-### Legora reviewed 41 documents in minutes with GPT-6 Astra
-- **Source** : OpenAI Blog
-- **Date** : Thu, 03 Sep 2026
-- **Score** : 1
-- **Résumé** : Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow....
-- **Lien** : https://openai.com/index/legora-financial-statement-review-with-astra
-
 ### Playco cut manual fixes 50% prototyping games with GPT-6 Astra
 - **Source** : OpenAI Blog
 - **Date** : Thu, 03 Sep 2026
 - **Score** : 1
 - **Résumé** : Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model....
 - **Lien** : https://openai.com/index/playco-game-prototyping-with-astra
+
+### Legora reviewed 41 documents in minutes with GPT-6 Astra
+- **Source** : OpenAI Blog
+- **Date** : Thu, 03 Sep 2026
+- **Score** : 1
+- **Résumé** : Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow....
+- **Lien** : https://openai.com/index/legora-financial-statement-review-with-astra
 
 ### Safety overview: GPT-6 Astra
 - **Source** : OpenAI Blog
