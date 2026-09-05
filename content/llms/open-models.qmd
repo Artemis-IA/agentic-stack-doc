@@ -123,19 +123,19 @@ DeepSeek R1 est le premier modèle de raisonnement open weights (RL-trained). Pe
 ### [ECC](https://github.com/affaan-m/ECC)
 The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 
-⭐ 248.9k | `JavaScript` | Licence: MIT | MAJ: 2026-09-05
+⭐ 249.6k | `JavaScript` | Licence: MIT | MAJ: 2026-09-05
 **Tags** : `ai-agents`, `anthropic`, `claude`, `claude-code`, `developer-tools`, `llm`, `mcp`, `productivity`
 
 ### [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 
-⭐ 187.1k | `Python` | Licence: NOASSERTION | MAJ: 2026-09-05
+⭐ 187.2k | `Python` | Licence: NOASSERTION | MAJ: 2026-09-05
 **Tags** : `agentic-ai`, `agents`, `ai`, `artificial-intelligence`, `autonomous-agents`, `claude`, `gpt`, `llama-api`
 
 ### [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT)
 an experimental open-source application showcasing the capabilities of the GPT-4 language model.
 
-⭐ 187.1k | `Python` | Licence: NOASSERTION | MAJ: 2026-09-05
+⭐ 187.2k | `Python` | Licence: NOASSERTION | MAJ: 2026-09-05
 **Tags** : `agentic-ai`, `agents`, `ai`, `artificial-intelligence`, `autonomous-agents`, `claude`, `gpt`, `llama-api`
 
 ### [ollama](https://github.com/ollama/ollama)
@@ -147,7 +147,7 @@ Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Ge
 ### [firecrawl](https://github.com/firecrawl/firecrawl)
 The context API to search, scrape, and interact with the web at scale. 🔥
 
-⭐ 176.7k | `TypeScript` | Licence: AGPL-3.0 | MAJ: 2026-09-05
+⭐ 176.8k | `TypeScript` | Licence: AGPL-3.0 | MAJ: 2026-09-05
 **Tags** : `ai`, `ai-agents`, `ai-crawler`, `ai-scraping`, `ai-search`, `crawler`, `data-extraction`, `html-to-markdown`
 
 ### [prompts.chat](https://github.com/f/prompts.chat)
@@ -192,40 +192,34 @@ A popular Python/JavaScript library for chaining sequences of language model pro
 ⭐ 145.7k | `Python` | Licence: MIT | MAJ: 2026-09-05
 **Tags** : `agents`, `ai`, `ai-agents`, `anthropic`, `chatgpt`, `deepagents`, `enterprise`, `framework`
 
-### [llama.cpp](https://github.com/ggerganov/llama.cpp)
-LLM inference in C/C++.
-
-⭐ 127.1k | `C++` | Licence: MIT | MAJ: 2026-09-05
-**Tags** : `ggml`
-
 ### [ponytail](https://github.com/DietrichGebert/ponytail)
 Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
 
-⭐ 126.9k | `JavaScript` | Licence: MIT | MAJ: 2026-09-05
+⭐ 127.7k | `JavaScript` | Licence: MIT | MAJ: 2026-09-05
 **Tags** : `agent-skills`, `ai-agents`, `claude`, `claude-code`, `claude-code-plugin`, `cursor-rules`, `developer-tools`, `llm`
+
+### [llama.cpp](https://github.com/ggerganov/llama.cpp)
+LLM inference in C/C++.
+
+⭐ 127.2k | `C++` | Licence: MIT | MAJ: 2026-09-05
+**Tags** : `ggml`
 
 ### [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.
 
-⭐ 120.7k | `Python` | Licence: MIT | MAJ: 2026-09-05
+⭐ 120.8k | `Python` | Licence: MIT | MAJ: 2026-09-05
 **Tags** : `ai-video-generator`, `content-creation`, `ffmpeg`, `instagram-reels`, `llm`, `python`, `short-video`, `subtitles`
-
-### [generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners)
-21 Lessons, Get Started Building with Generative AI
-
-⭐ 119.2k | `Jupyter Notebook` | Licence: MIT | MAJ: 2026-09-05
-**Tags** : `ai`, `azure`, `chatgpt`, `dall-e`, `generative-ai`, `generativeai`, `gpt`, `language-model`
 
 ### [graphify](https://github.com/Graphify-Labs/graphify)
 Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing...
 
-⭐ 114.9k | `Python` | Licence: Apache-2.0 | MAJ: 2026-09-05
+⭐ 115.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-09-05
 **Tags** : `ai-agents`, `antigravity`, `ast`, `claude-code`, `code-analysis`, `code-search`, `codex`, `cursor`
 
 ### [browser-use](https://github.com/browser-use/browser-use)
 🌐 Make websites accessible for AI agents. Automate tasks online with ease.
 
-⭐ 112.3k | `Python` | Licence: MIT | MAJ: 2026-09-05
+⭐ 112.4k | `Python` | Licence: MIT | MAJ: 2026-09-05
 **Tags** : `ai-agents`, `ai-tools`, `browser-automation`, `browser-use`, `llm`, `playwright`, `python`
 
 ### [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
@@ -238,5 +232,10 @@ Implement a ChatGPT-like LLM in PyTorch from scratch, step by step
 
 ⭐ 104.4k | `Jupyter Notebook` | Licence: NOASSERTION | MAJ: 2026-09-05
 **Tags** : `ai`, `artificial-intelligence`, `attention-mechanism`, `deep-learning`, `finetuning`, `from-scratch`, `generative-ai`, `gpt`
+
+### [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)
+First-generation reasoning models from DeepSeek.
+
+⭐ 92.0k | Licence: MIT | MAJ: 2026-09-05
 
 <!-- TOOLS_LLM_END -->

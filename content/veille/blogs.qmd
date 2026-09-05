@@ -69,6 +69,14 @@ graph LR
 | Hardware | `GPU`, `H100`, `B200`, `TPU`, `LPU`, `Groq` |
 
 <!-- BLOG_FEED_START -->
+### Using Blender with coding agents on macOS
+- **Source** : Simon Willison
+- **Date** : 2026-09-05T15:51
+- **Score** : 3
+- **Résumé** : TIL: Using Blender with coding agents on macOS
+        I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full...
+- **Lien** : https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/
+
 ### Last Week in AI #341 - Musk loses to OpenAI, Google's IO updates, OpenAI solves Erdős
 - **Source** : Last Week in AI
 - **Date** : Wed, 27 May 2026
@@ -240,12 +248,5 @@ GPT-6 Astra is "rolling out today to a limited set of organizations and over the
 - **Score** : 1
 - **Résumé** : Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply....
 - **Lien** : https://openai.com/index/ai-native-company-workflows
-
-### Healthcare organizations can now connect EHR and additional industry data to ChatGPT
-- **Source** : OpenAI Blog
-- **Date** : Tue, 01 Sep 2026
-- **Score** : 1
-- **Résumé** : ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more....
-- **Lien** : https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources
 
 <!-- BLOG_FEED_END -->

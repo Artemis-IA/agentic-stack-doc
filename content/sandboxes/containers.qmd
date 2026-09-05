@@ -112,16 +112,10 @@ subprocess.run([
 ## Outils découverts automatiquement
 
 <!-- TOOLS_SANDBOX_START -->
-### [daytona](https://github.com/daytonaio/daytona)
-Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code
-
-⭐ 71.8k | MAJ: 2026-09-05
-**Tags** : `agentic-workflow`, `ai`, `ai-agents`, `ai-runtime`, `ai-sandboxes`, `code-execution`, `code-interpreter`, `developer-tools`
-
 ### [firecracker](https://github.com/firecracker-microvm/firecracker)
 Secure and fast microVMs for serverless computing.
 
-⭐ 36.5k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-09-05
+⭐ 36.6k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-09-05
 **Tags** : `containers`, `minimalist`, `open-source`, `oversubscription`, `rust`, `sandbox`, `serverless`, `virtual-machine`
 
 ### [teable](https://github.com/teableio/teable)
@@ -208,28 +202,34 @@ A minimal, secure Python interpreter written in Rust for use by AI
 ⭐ 8.0k | `C` | Licence: MIT | MAJ: 2026-09-05
 **Tags** : `containers`, `cosmopolitan`, `devops`, `edge-computing`, `embedded`, `iot`, `sandbox`, `scripting`
 
-### [judge0](https://github.com/judge0/judge0)
-Robust, fast, scalable, and sandboxed open-source online code execution system for humans and AI.
+### [smolvm](https://github.com/smol-machines/smolvm)
+Portable, lightweight, self-contained virtual machine.
 
-⭐ 4.4k | `HTML` | Licence: GPL-3.0 | MAJ: 2026-09-05
-**Tags** : `ai-agent-tools`, `ai-agents`, `ai-tools`, `code-execution`, `code-executor`, `code-runner`, `competitive-programming`, `online-compiler`
+⭐ 5.9k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-09-05
+**Tags** : `containers`, `crun`, `libkrun`, `microvm`, `rust`, `virtual-machine`
 
-### [nono](https://github.com/nolabs-ai/nono)
-secure multiplexed execution paths for agents - zero trust, zero setup, zero latency.
+### [arcbox](https://github.com/arcboxlabs/arcbox)
+Run AI agents on real and isolated machines — own kernel, filesystem, and network — with <100ms boot. Local first, OCI compatible, pure Rust.
 
-⭐ 4.0k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-09-05
-**Tags** : `agent-sandbox`, `agent-security`, `ai-agent-sandbox`, `ai-agent-security`, `ai-agents`, `ai-security`, `ai-security-tool`, `code-execution`
+⭐ 3.0k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-09-05
+**Tags** : `ai-agents`, `computer-use`, `containers`, `docker`, `firecracker`, `microvm`, `rust`, `sandbox`
 
-### [piston](https://github.com/engineer-man/piston)
-A high performance general purpose code execution engine.
+### [microvm.nix](https://github.com/microvm-nix/microvm.nix)
+NixOS MicroVMs
 
-⭐ 2.8k | `JavaScript` | Licence: MIT | MAJ: 2026-09-05
-**Tags** : `code-execution`, `lxc`, `nodejs`, `piston`, `shell`
+⭐ 2.9k | `Nix` | Licence: MIT | MAJ: 2026-09-05
+**Tags** : `cloud-hypervisor`, `crosvm`, `firecracker`, `flake`, `flakes`, `kvmtool`, `microvm`, `microvms`
 
-### [zeroboot](https://github.com/zerobootdev/zeroboot)
-Sub-millisecond VM sandboxes for AI agents via copy-on-write forking
+### [forkd](https://github.com/deeplethe/forkd)
+Fork() for AI agent microVMs. Spawn 100 children in ~100ms from a warm parent; BRANCH a live VM in ~150ms. KVM-isolated, snapshot CoW.
 
-⭐ 2.4k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-09-04
-**Tags** : `ai-agents`, `code-execution`, `copy-on-write`, `firecracker`, `kvm`, `rust`, `sandbox`, `virtual-machine`
+⭐ 2.8k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-09-05
+**Tags** : `ai-agents`, `copy-on-write`, `kvm`, `microvm`, `rust`, `sandbox`, `snapshot`
+
+### [flintlock](https://github.com/liquidmetal-dev/flintlock)
+Lock, Stock, and Two Smoking MicroVMs. Create and manage the lifecycle of MicroVMs backed by containerd.
+
+⭐ 1.5k | `Go` | Licence: MPL-2.0 | MAJ: 2026-09-05
+**Tags** : `cni`, `firecracker`, `kvm`, `microvm`, `oci`
 
 <!-- TOOLS_SANDBOX_END -->
