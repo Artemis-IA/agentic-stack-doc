@@ -143,6 +143,16 @@ New model gemini-3.8-flash for <a href="https://blog.google/innovation-and-ai/mo
 - **Résumé** : Vercel&#8217;s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features....
 - **Lien** : https://www.latent.space/p/pr-not-welcome
 
+### Introducing GPT-6 Astra for developers
+- **Source** : Simon Willison
+- **Date** : 2026-09-05T23:27
+- **Score** : 1
+- **Résumé** : Introducing GPT-6 Astra for developers
+Blink and you'll miss it, but there's a familiar creature at 1m59s:
+
+Across the board, Astra...
+- **Lien** : https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/
+
 ### The Pelican comparison grid for Astra is pretty interesting
 - **Source** : Simon Willison
 - **Date** : 2026-09-04T23:59
@@ -171,20 +181,6 @@ GPT-6 Astra is "rolling out today to a limited set of organizations and over the
 - **Score** : 1
 - **Résumé** : Anthropic publish the system prompts for their Claude consumer applications (Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love...
 - **Lien** : https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/
-
-### Claude Fable 5.1 made me a really nice animated pelican
-- **Source** : Simon Willison
-- **Date** : 2026-09-01T23:57
-- **Score** : 1
-- **Résumé** : Today is Claude Fable (and Mythos) 5.1 day. Anthropic say that Fable 5.1 "sets a new standard for coding, knowledge work, and long-running problem-solving tasks". Their announcement spends a notable a...
-- **Lien** : https://simonwillison.net/2026/Sep/1/claude-fable-5-1/
-
-### Codex bundles LibreOffice
-- **Source** : Simon Willison
-- **Date** : 2026-09-01T19:03
-- **Score** : 1
-- **Résumé** : I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebrand...
-- **Lien** : https://simonwillison.net/2026/Sep/1/codex-libreoffice/
 
 ### Give Your Coding Agents a Memory You Own
 - **Source** : Hugging Face Blog
@@ -248,5 +244,12 @@ GPT-6 Astra is "rolling out today to a limited set of organizations and over the
 - **Score** : 1
 - **Résumé** : Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply....
 - **Lien** : https://openai.com/index/ai-native-company-workflows
+
+### Healthcare organizations can now connect EHR and additional industry data to ChatGPT
+- **Source** : OpenAI Blog
+- **Date** : Tue, 01 Sep 2026
+- **Score** : 1
+- **Résumé** : ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more....
+- **Lien** : https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources
 
 <!-- BLOG_FEED_END -->
