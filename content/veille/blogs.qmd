@@ -76,20 +76,27 @@ graph LR
 - **Résumé** : GPT-6 Astra Is Here, Discovery of a new OpenAI agent message board, Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-343-gpt-6-openais
 
-### Using Blender with coding agents on macOS
-- **Source** : Simon Willison
-- **Date** : 2026-09-05T15:51
-- **Score** : 3
-- **Résumé** : TIL: Using Blender with coding agents on macOS
-        I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full...
-- **Lien** : https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/
-
 ### [AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time
 - **Source** : latent.space
 - **Date** : Fri, 04 Sep 2026
 - **Score** : 2
 - **Résumé** : new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI&#8217;s new frontier model class....
 - **Lien** : https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest
+
+### llm 0.35
+- **Source** : Simon Willison
+- **Date** : 2026-09-07T23:54
+- **Score** : 2
+- **Résumé** : Release: llm 0.35
+        
+
+New OpenAI model: gpt-6-astra for GPT-6 Astra.
+
+
+    
+    
+        Tags: <a...
+- **Lien** : https://simonwillison.net/2026/Sep/7/llm/
 
 ### BenchMIRT: What are LLM benchmarks actually measuring?
 - **Source** : Hugging Face Blog
@@ -142,28 +149,6 @@ Blink and you'll miss it, but there's a familiar creature at 1m59s:
 
 Across the board, Astra...
 - **Lien** : https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/
-
-### The Pelican comparison grid for Astra is pretty interesting
-- **Source** : Simon Willison
-- **Date** : 2026-09-04T23:59
-- **Score** : 1
-- **Résumé** : I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=...
-- **Lien** : https://simonwillison.net/2026/Sep/4/astra-pelicans/
-
-### OpenAI's rogue agents were caught communicating via public wikis
-- **Source** : Simon Willison
-- **Date** : 2026-09-04T17:38
-- **Score** : 1
-- **Résumé** : Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack...
-- **Lien** : https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/
-
-### GPT‑6 Astra
-- **Source** : Simon Willison
-- **Date** : 2026-09-03T20:18
-- **Score** : 1
-- **Résumé** : GPT‑6 Astra
-GPT-6 Astra is "rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as thro...
-- **Lien** : https://simonwillison.net/2026/Sep/3/gpt6-astra/
 
 ### Give Your Coding Agents a Memory You Own
 - **Source** : Hugging Face Blog
@@ -248,5 +233,26 @@ GPT-6 Astra is "rolling out today to a limited set of organizations and over the
 - **Score** : 1
 - **Résumé** : GPT-5.6 and Grok 4.5, Meta's Muse Spark 1.1, regulatory developments in AI and data centers, interpretability research from Anthropic, and the future of AI policy with AI 2040...
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-252-gpt-56-grok-45
+
+### Last Week in AI #251 - Mythos Back, Sonnet 5, Etched, LongCat
+- **Source** : Last Week in AI
+- **Date** : Tue, 21 Jul 2026
+- **Score** : 1
+- **Résumé** : Trump lifts restrictions on Anthropic, Anthropic launches Claude Sonnet 5, Google's NotebookLM updates, chips stories from Etched and Baidu, and more!...
+- **Lien** : https://lastweekin.ai/p/last-week-in-ai-251-mythos-back-sonnet
+
+### Last Week in AI #250 - Mythos Mess, GPT 5.6-Sol, GLM 5.2
+- **Source** : Last Week in AI
+- **Date** : Tue, 21 Jul 2026
+- **Score** : 1
+- **Résumé** : Anthropic's AI treaty discussions, US government's influence on AI model releases, OpenAI's processor development, memory market impacts, and more!...
+- **Lien** : https://lastweekin.ai/p/last-week-in-ai-250-mythos-mess-gpt
+
+### LWiAI Podcast #248 - Opus 4.8, MAI, Anthropic IPO, Minimax-M3
+- **Source** : Last Week in AI
+- **Date** : Tue, 21 Jul 2026
+- **Score** : 1
+- **Résumé** : Exploring Claude Fable 5&#8217;s impact, Siri AI&#8217;s latest enhancements, and the competitive IPO landscape shaping AI&#8217;s future...
+- **Lien** : https://lastweekin.ai/p/lwiai-podcast-248-opus-48-mai-anthropic
 
 <!-- BLOG_FEED_END -->
