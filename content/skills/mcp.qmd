@@ -160,7 +160,7 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ### [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)
 The official Python SDK for Model Context Protocol servers and clients
 
-⭐ 24.2k | `Python` | Licence: MIT | MAJ: 2026-09-09
+⭐ 24.3k | `Python` | Licence: MIT | MAJ: 2026-09-09
 **Tags** : `mcp`, `mcp-client`, `mcp-server`, `python`
 
 ### [GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP)
@@ -209,6 +209,12 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 
 ⭐ 8.4k | `Python` | Licence: MIT | MAJ: 2026-09-09
 **Tags** : `ai`, `cpp`, `data-pipeline`, `data-processing`, `machine-learning`, `mcp`, `python`, `sdk`
+
+### [yao](https://github.com/YaoApp/yao)
+✨ All your agents and workspaces in one place, on every device you own. Track tasks on a board, accessible from desktop, mobile, browser, or API. Self-hosted.
+
+⭐ 7.9k | `Go` | Licence: NOASSERTION | MAJ: 2026-09-09
+**Tags** : `agent-harness`, `agent-orchestration`, `agent-skills`, `agent-workspaces`, `ai-agents`, `ai-native`, `claude-code`, `coding-agent`
 
 ### [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server)
 !firecrawl/firecrawl-mcp-server MCP server 🎖️ 📇 ☁️ 🏠 - Official Firecrawl server with live browser interaction (firecrawl_interact) — navigate, click, type, and scroll on a page before extraction, ...
@@ -264,6 +270,12 @@ Create crafted UI components inspired by the best 21st.dev design engineers.
 ⭐ 5.8k | `TypeScript` | Licence: ISC | MAJ: 2026-09-09
 **Tags** : `21st`, `claude`, `cursor`, `mcp`, `model-context-protocol`, `react`, `tailwindcss`, `ui-components`
 
+### [awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers)
+Awesome MCP Servers - A curated list of Model Context Protocol servers
+
+⭐ 5.8k | MAJ: 2026-09-09
+**Tags** : `ai`, `anthropic-claude`, `awesome`, `context`, `mcp`, `model-context-protocol`, `servers`, `tool-use`
+
 ### [executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright)
 📇 - An MCP server using Playwright for browser automation and webscrapping
 
@@ -286,17 +298,5 @@ The official Go SDK for Model Context Protocol servers and clients. Maintained i
 
 ⭐ 5.0k | `TypeScript` | Licence: MIT | MAJ: 2026-09-09
 **Tags** : `code-search`, `codesearch`, `crawling`, `mcp`, `mcp-server`, `model-context-protocol`, `web-search`, `websearch`
-
-### [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)
-The official C# SDK for Model Context Protocol servers and clients. Maintained in collaboration with Microsoft.
-
-⭐ 4.5k | `C#` | Licence: NOASSERTION | MAJ: 2026-09-08
-**Tags** : `csharp`, `dotnet`, `mcp`, `mcp-client`, `mcp-server`, `modelcontextprotocol`
-
-### [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device)
-!callstackincubator/agent-device MCP server 📇 🏠 🍎 🐧 - Discovery router for the agent-device CLI. Exposes status, install guidance, version-matched help, prompts, and resources for iOS, Android, tvO...
-
-⭐ 4.5k | `TypeScript` | Licence: MIT | MAJ: 2026-09-09
-**Tags** : `adb`, `agentic-ai`, `agents`, `ai-agents`, `android-emulator`, `automation`, `e2e-testing`, `expo`
 
 <!-- TOOLS_MCP_END -->
