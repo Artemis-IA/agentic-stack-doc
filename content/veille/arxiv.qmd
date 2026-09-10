@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving
-- **arXiv** : 2609.08965v1
-- **Date** : 2026-09-08
-- **Auteurs** : Yuan Gao, Sebastian Müller, Mattia Piccinini, Marc Kaufeld, Yuchen Zhang
+### Avatar: Toward Autonomous End-to-End Orchestration of Scientific Workflows using LLMs
+- **arXiv** : 2609.10509v1
+- **Date** : 2026-09-09
+- **Auteurs** : Suman Raj, Hai Duc Nguyen, Haochen Pan, Ryan Chard, Kyle Chard
 - **Score** : 12
-- **Résumé** : Ensuring the safety of autonomous driving is a critical challenge. Scenario-based testing is a systematic process used to validate Autonomous Driving Systems (ADSs), but it remains a fragmented modular pipeline in which scenario generation, retrieval, modification, ADS execution, and results analysi...
-- **Lien** : https://arxiv.org/abs/2609.08965v1
+- **Résumé** : Scientific workflow management (WMSs) systems automate execution, yet orchestrate using fixed, hand-tuned rules. LLM agents promise more autonomous orchestration, but it remains unclear where to introduce agentic reasoning, how to bound its risk, and when it actually helps. We present Avatar, an act...
+- **Lien** : https://arxiv.org/abs/2609.10509v1
 
-### Procedural Graphs: Self-Evolving Execution Structures for LLM Agents
-- **arXiv** : 2609.09153v1
-- **Date** : 2026-09-08
-- **Auteurs** : Yuxing Lu, Yicheng Chen, Shanchan Wu, Sercan Ö. Arık
+### ConvMem: Convolutional Memory for Long-Context Reasoning
+- **arXiv** : 2609.10441v1
+- **Date** : 2026-09-09
+- **Auteurs** : Hongming Zhang, Zhaozhen Gu, Fengshuo Bai, Ming Hao, Qingyang Zhang
 - **Score** : 9
-- **Résumé** : Large language models are increasingly deployed as agents that plan over long horizons and act through external tools. Most agents select actions through unconstrained generation over an accumulating history, leaving implicit the procedural knowledge of what to do, in what order, and under which con...
-- **Lien** : https://arxiv.org/abs/2609.09153v1
+- **Résumé** : While Large Language Models (LLMs) have demonstrated impressive capabilities, they often struggle with extremely long contexts due to fixed context limits. To address this, sequential approaches like MemAgent extend the effective context by reading text in segments and iteratively updating a fixed-s...
+- **Lien** : https://arxiv.org/abs/2609.10441v1
 
-### MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents
-- **arXiv** : 2609.09115v1
-- **Date** : 2026-09-08
-- **Auteurs** : Boyu Yang, Jiazheng Sun, Zilong Lu, Zhi Qiu, Xin Peng
+### Towards Scalable and Cost-Efficient Vulnerability Detection: A Study on Automatic Query Generation
+- **arXiv** : 2609.10412v1
+- **Date** : 2026-09-09
+- **Auteurs** : Ivana Clairine Irsan, Ratnadira Widyasari, Huihui Huang, Ting Zhang, Yue Liu
 - **Score** : 9
-- **Résumé** : Long horizon Large Language Model (LLM) agents rely on external memory systems to preserve user preferences and task knowledge across extended interactions. Conventional retrieval mechanisms optimize semantic compatibility rather than downstream utility, frequently introducing outdated, misleading, ...
-- **Lien** : https://arxiv.org/abs/2609.09115v1
+- **Résumé** : Static analysis remains a cornerstone of software security, yet the effectiveness of tools such as CodeQL is often limited by the substantial manual effort required to develop high-coverage query suites. While large language models (LLMs) have emerged as a potential solution for automated code reaso...
+- **Lien** : https://arxiv.org/abs/2609.10412v1
 
-### SQLMorph: Query Mutation and Fine-Grained Metrics for Text-to-SQL Evaluation
-- **arXiv** : 2609.08950v1
-- **Date** : 2026-09-08
-- **Auteurs** : Mohammadhossein Malekpour, Mohamed Riahi, Maxime Lamothe, Amine Mhedhbi
-- **Score** : 8
-- **Résumé** : Text-to-SQL systems translate natural language queries into executable SQL, democratizing access to structured data. Despite recent advances driven by large language models (LLMs), evaluation remains a major bottleneck: public benchmarks fail to capture the complexity of enterprise schema, while bui...
-- **Lien** : https://arxiv.org/abs/2609.08950v1
-
-### Measuring LLM Sycophancy under Sustained Multi-Turn Pressure
-- **arXiv** : 2609.09090v1
-- **Date** : 2026-09-08
-- **Auteurs** : Leyuan Tang, Kangda Wei, Tianyu Jiang, Ruihong Huang
+### Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs
+- **arXiv** : 2609.10355v1
+- **Date** : 2026-09-09
+- **Auteurs** : Killian Steunou, Yannis Tevissen, Mounîm A. El Yacoubi
 - **Score** : 7
-- **Résumé** : Large language models (LLMs) may abandon correct positions when users push back, exhibiting a failure mode known as sycophancy. Existing evaluations typically use short, pre-specified conversations and may therefore miss failures that emerge under sustained, adaptive disagreement. We introduce SPINE...
-- **Lien** : https://arxiv.org/abs/2609.09090v1
+- **Résumé** : Video understanding has rapidly evolved toward video large language models (VideoLLMs): systems that couple video representations with pretrained large language models and condition generation on a textual prompt. Their strong performance on captioning, question answering, retrieval and temporal gro...
+- **Lien** : https://arxiv.org/abs/2609.10355v1
 
-### The Audit Decides the Verdict: Instrument Effects Rival Demographic Bias in LLM Decision Audits
-- **arXiv** : 2609.09048v1
-- **Date** : 2026-09-08
-- **Auteurs** : Siddharth Vohra, Manikandan Ravikiran
+### Beyond One-Size-Fits-All: Sample-Adaptive Strategy Routing for Vision Token Pruning in MLLMs
+- **arXiv** : 2609.10346v1
+- **Date** : 2026-09-09
+- **Auteurs** : Haiji Liang, Pengfei Zhou, Zhenglin Wan, Wei Wang, Yang You
 - **Score** : 7
-- **Résumé** : Whether a language model looks demographically biased can depend on how the audit asks its question. A charitable-aid benchmark reports that the same models favor minority applicants when rating requests one at a time and penalize some when ranking side by side. We test whether that reversal general...
-- **Lien** : https://arxiv.org/abs/2609.09048v1
+- **Résumé** : Multimodal large language models (MLLMs) process hundreds or thousands of visual tokens per image, incurring prohibitive inference costs. While existing vision token pruning methods mitigate this overhead, they implicitly assume that a single fixed pruning strategy can be applied uniformly across al...
+- **Lien** : https://arxiv.org/abs/2609.10346v1
 
-### Do Reasoning Representations Help Humans Evaluate LLM Outputs?
-- **arXiv** : 2609.09038v1
-- **Date** : 2026-09-08
-- **Auteurs** : Jaewoo Lim, Sungbok Shin, Sanghyun Hong
-- **Score** : 7
-- **Résumé** : Reasoning representations are increasingly used as explanations for large language model outputs. Yet they are typically evaluated with model-centric criteria, such as answer accuracy and faithfulness, leaving it unclear whether they help people evaluate model responses. In this work, we study reaso...
-- **Lien** : https://arxiv.org/abs/2609.09038v1
-
-### Evaluation of Contextual Understanding in Large Language Models
-- **arXiv** : 2609.09004v1
-- **Date** : 2026-09-08
-- **Auteurs** : Subavarshana Arumugam, Mamta Nallaretnam, Kithuni Wickramasinghe, Chamath Gunapala, Pragatheeswaran Vipulanandan
-- **Score** : 7
-- **Résumé** : Large Language Models (LLMs) demonstrate impressive performance across diverse NLP tasks, yet their ability to exhibit genuine contextual understanding remains uncertain. Traditional evaluation metrics such as perplexity, BiLingual Evaluation Understudy (BLEU), or surface-level accuracy fail to reve...
-- **Lien** : https://arxiv.org/abs/2609.09004v1
-
-### ReCite: Agentic Reasoning for Faithful Citation
-- **arXiv** : 2609.09156v1
-- **Date** : 2026-09-08
-- **Auteurs** : Yuyang Huang, Bobo Li, Jiajia Song, Yuzhe Ding, Chong Teng
+### Show-Harness: Just a VLM Agent Can Play Robots
+- **arXiv** : 2609.10522v1
+- **Date** : 2026-09-09
+- **Auteurs** : Yanzhe Chen, Zechen Bai, Zhijun Cao, Wenzheng Zeng, Kevin Qinghong Lin
 - **Score** : 6
-- **Résumé** : Accurate citations are the foundation of academic writing, tracing intellectual origins and substantiating core claims. However, manually navigating the growing volume of scientific literature is increasingly difficult, prompting reliance on automatic citation recommendation. While modern retrieval-...
-- **Lien** : https://arxiv.org/abs/2609.09156v1
+- **Résumé** : Foundation vision-language models (VLMs) exhibit broad intelligence about the world, yet translating this intelligence into robot control remains challenging. We present Show-Harness, an Embodied Harness that enables VLMs to "play" robots through a compact semantic interface linking intent to action...
+- **Lien** : https://arxiv.org/abs/2609.10522v1
 
-### Copying explains the collective behavior of AI agents in the wild
-- **arXiv** : 2609.09150v1
-- **Date** : 2026-09-08
-- **Auteurs** : Giordano De Marzo, Nicola Albore, David Garcia
+### Forgetting Only What Matters: Layer-Selective Unlearning toward Robust LLMs
+- **arXiv** : 2609.10439v1
+- **Date** : 2026-09-09
+- **Auteurs** : Ravi Ranjan, Olivera Kotevska, Agoritsa Polyzou
 - **Score** : 6
-- **Résumé** : In June 2026, thousands of AI agents found that a small public wiki would accept edits from inside their sandboxes, and started using it to help one another pass a timed test. Each agent lived for about an hour and remembered nothing afterwards. Nobody asked them to cooperate, and the wiki had not b...
-- **Lien** : https://arxiv.org/abs/2609.09150v1
+- **Résumé** : Large Language Models (LLMs) can memorize and reproduce sensitive, copyrighted, or otherwise undesirable training content, creating privacy, safety, and regulatory concerns. Machine unlearning offers a practical alternative to full retraining, but many existing methods apply broad or fixed parameter...
+- **Lien** : https://arxiv.org/abs/2609.10439v1
 
-### Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails
-- **arXiv** : 2609.09134v1
-- **Date** : 2026-09-08
-- **Auteurs** : Zhou Yu, Bin Bi, Shiva Kumar Pentyala, Shubham Mehrotra, Sougata Chaudhuri
+### Multi-Agent Reinforcement Learning for Autonomous UAV Exploration in Wildfire Response
+- **arXiv** : 2609.10433v1
+- **Date** : 2026-09-09
+- **Auteurs** : Caden Chandra, Jerry Ng
 - **Score** : 6
-- **Résumé** : Agent harnesses (the system prompt, tool set, execution hooks, and context-management scaffolding around a model) are a critical determinant of agentic task success. Automated harness evolution can enable smaller models to perform well on domain-specific tasks at a fraction of frontier-model cost. S...
-- **Lien** : https://arxiv.org/abs/2609.09134v1
+- **Résumé** : This study develops a deep reinforcement learning framework for training Unmanned Aerial Vehicle (UAV) agents to navigate and monitor simulated wildfire environments. Results show that agents learn increasingly stable and effective behaviors over time, as demonstrated by converging loss trends, impr...
+- **Lien** : https://arxiv.org/abs/2609.10433v1
 
-### SAEScientist-Bench: Can AI Agents Conduct Autonomous SAE Interpretability Research?
-- **arXiv** : 2609.09113v1
-- **Date** : 2026-09-08
-- **Auteurs** : Yuqiao Tan, Shizhu He, Jun Zhao, Kang Liu
+### Glyph: A Multi-Strategy Agentic System for Column Description and Sensitivity-Ontology Tagging of Enterprise Data Catalogs
+- **arXiv** : 2609.10430v1
+- **Date** : 2026-09-09
+- **Auteurs** : Kostia Kudriavtsev, Parvez Rafi, Sha Sundaram
 - **Score** : 6
-- **Résumé** : While research on recursive self-improvement (RSI) has predominantly automated model training pipelines, reliable autonomous development demands a missing pillar: post-hoc monitoring and auditing to understand what models learn and ensure safe alignment. Mechanistic interpretability tools are essent...
-- **Lien** : https://arxiv.org/abs/2609.09113v1
+- **Résumé** : Enterprise data lakes accumulate tables faster than human stewards can document or classify them, leaving columns with missing descriptions and unassigned governance labels. This documentation debt undermines data discovery, access control, and regulatory compliance. We present Glyph, a production s...
+- **Lien** : https://arxiv.org/abs/2609.10430v1
 
-### It's Not RoPE that Creates Sinks: The Role of Self-Concentration and Value-Non-Mixing in Attention
-- **arXiv** : 2609.09085v1
-- **Date** : 2026-09-08
-- **Auteurs** : Raito Kiya, Satoki Ohashi, Kosuke Sato, Go Kamoda, Ryosuke Takahashi
+### Ensembling LLMs for AI-Augmented Cybersecurity Software Requirements Generation
+- **arXiv** : 2609.10316v1
+- **Date** : 2026-09-09
+- **Auteurs** : Santiago Perez-Acuna, Yod-Samuel Martín, Juan C. Yelmo
 - **Score** : 6
-- **Résumé** : Large Language Models (LLMs) often exhibit "Attention Sink" (AS) and the accompanying "Massive Activations" (MAs) at the initial position of a sequence. These phenomena frequently co-occur, and MAs can pose challenges for low-bit quantization. In this study, we analyze the factors underlying AS and ...
-- **Lien** : https://arxiv.org/abs/2609.09085v1
+- **Résumé** : Translating high-level controls from security standards into concrete, system-specific requirements is central to cybersecurity requirements engineering. Large language models (LLMs) can accelerate this labor-intensive, recall-sensitive task, but any single run is unreliable: it misses valid safegua...
+- **Lien** : https://arxiv.org/abs/2609.10316v1
 
-### ToolLoop: Closed-Loop Tool-Use Data Synthesis via Decomposed Generation and Dynamic Self-Feedback
-- **arXiv** : 2609.09072v1
-- **Date** : 2026-09-08
-- **Auteurs** : Min Zeng, Yuzhou Liu, Zhenyu Cao, Hanxiu Chen, Heng Li
-- **Score** : 6
-- **Résumé** : High-quality tool-use data is critical for training language models to interact effectively with external tools. However, existing synthetic approaches typically follow a generate-then-filter paradigm with static post-hoc verification, often yielding inefficient data with imbalanced feature distribu...
-- **Lien** : https://arxiv.org/abs/2609.09072v1
-
-### Omni Interaction Agent Technical Report
-- **arXiv** : 2609.08977v1
-- **Date** : 2026-09-08
-- **Auteurs** :  Orantqing, Shengpeng Ji, Junlong Tong, Jialong Zuo, Dongjie Fu
-- **Score** : 6
-- **Résumé** : In this work, we present Gander, an end-to-end model that unifies omni perception, realtime interaction, and agentic capabilities within a single framework. In contrast to turn-based conventional paradigms, Gander continuously receives streaming inputs across multiple modalities, including video, sp...
-- **Lien** : https://arxiv.org/abs/2609.08977v1
-
-### Performance of Clinical AI System and Physicians and Frontier Language Models in primary care diagnostics
-- **arXiv** : 2609.09070v1
-- **Date** : 2026-09-08
-- **Auteurs** : Andy Nkansah, Hanna Plotnitskaya, Stanislau Salavei, Anna Kozlova, Piotr Gibas
+### JarvisGUI: Towards Cross-Device GUI Agents with Dynamic Task Composition
+- **arXiv** : 2609.10451v1
+- **Date** : 2026-09-09
+- **Auteurs** : Zixiang Chen, Yuheng Lu, Zihao Cheng, Zeming Liu, Jizeng Bai
 - **Score** : 4
-- **Résumé** : Clinical AI evaluation should encompass diagnosis and management after adaptive information gathering. We compared Doctorina, eight physicians and four standalone frontier language models in 150 synthetic Polish-language primary-care consultations. Doctorina achieved 82.0% Top-1 concordance versus 5...
-- **Lien** : https://arxiv.org/abs/2609.09070v1
+- **Résumé** : Real-world GUI usage frequently involves workflows that span multiple devices and platforms, requiring the transfer of intermediate results, maintenance of shared state, and coordination across heterogeneous environments. However, existing GUI benchmarks overwhelmingly evaluate agents on single-devi...
+- **Lien** : https://arxiv.org/abs/2609.10451v1
 
-### Transformers as In-Context Samplers: From Closed-Form Diffusion to Estimation-Free Sampling
-- **arXiv** : 2609.08981v1
-- **Date** : 2026-09-08
-- **Auteurs** : Arman Adibi, Alireza Jafari, Mohammad Ghavamzadeh, Hadi Daneshmand
+### RiLM: Parameter-Efficient Language Modeling via Geodesic Decoding
+- **arXiv** : 2609.10305v1
+- **Date** : 2026-09-09
+- **Auteurs** : Fang Li
 - **Score** : 4
-- **Résumé** : A growing body of work establishes that large language models are not mere statistical memorizers, but are capable of in-context learning: performing inference at test time using only examples provided in the prompt, without any parameter updates. Prior theoretical work has shown that this capabilit...
-- **Lien** : https://arxiv.org/abs/2609.08981v1
+- **Résumé** : Language models under one million parameters matter for edge deployment, domain adaptation, and reproducible research, yet a two-layer LSTM or Transformer at embedding width d = 128 still spends roughly one third of its capacity on the output matrix W_out in R^(d x |V|). We propose Riemannian Langua...
+- **Lien** : https://arxiv.org/abs/2609.10305v1
 
-### ExecCritic: Learn to Test, Test to Improve for Coding Agents
-- **arXiv** : 2609.09133v1
-- **Date** : 2026-09-08
-- **Auteurs** : Leitian Tao, Baolin Peng, Haorui Wang, Hang Wang, Hao Cheng
+### Learning with Covariance Matrices: Principal Component Analysis Meets Learning with Graphs
+- **arXiv** : 2609.10490v1
+- **Date** : 2026-09-09
+- **Auteurs** : Saurabh Sihag, Andrea Cavallo, Elvin Isufi, Gonzalo Mateos, Alejandro Ribeiro
 - **Score** : 3
-- **Résumé** : Execution feedback can guide coding agents toward correct repository repairs, but only when the tests capture the behavior requested by the issue. Agent-generated tests can encode incomplete or incorrect behavioral targets; when the same trajectory writes both the patch and the test, their errors ca...
-- **Lien** : https://arxiv.org/abs/2609.09133v1
+- **Résumé** : This feature article provides an overview of the theoretical foundations for coVariance neural networks (VNNs), i.e., graph neural networks (GNNs) operating on covariance matrices as graphs. Covariance matrices are ubiquitous across domains, and hence, the deployment of GNNs often leverages graphs o...
+- **Lien** : https://arxiv.org/abs/2609.10490v1
 
-### Canonical Color as a Lens into Concept Decodability in Vision Encoders and VLMs
-- **arXiv** : 2609.09124v1
-- **Date** : 2026-09-08
-- **Auteurs** : Xiaofu Chen, Stella Frank, Yova Kementchedjhieva
+### Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning
+- **arXiv** : 2609.10445v1
+- **Date** : 2026-09-09
+- **Auteurs** : Mehrnaz Mofakhami, Ananya Sahu, Alejandro R. Salamanca, Daniel D'souza, Alexandre Berard
 - **Score** : 3
-- **Résumé** : Visual encoders construct a representation of the image input for Vision-Language models. How much conceptual, as opposed to immediately visible, information does this representation contain? We use canonical color as a controlled test case to ask whether vision encoders make canonical-color informa...
-- **Lien** : https://arxiv.org/abs/2609.09124v1
+- **Résumé** : Reasoning language models have made substantial advances on a variety of complex tasks, yet their capabilities remain overwhelmingly English-centric: models primarily reason in English regardless of the language they are prompted in. This is inaccessible for non-English-speaking users, risks losing ...
+- **Lien** : https://arxiv.org/abs/2609.10445v1
 
-### Everything in Moderation: Per-Domain Coverage Optima and Alignment-Resistant Domain Gaps in Multi-Domain Mid-Training
-- **arXiv** : 2609.09081v1
-- **Date** : 2026-09-08
-- **Auteurs** : Yunpeng Xu, Kun Zheng
+### Do speech foundation models really learn words?
+- **arXiv** : 2609.10434v1
+- **Date** : 2026-09-09
+- **Auteurs** : Robin Huo, Ewan Dunbar
 - **Score** : 3
-- **Résumé** : Mid-training, the stage between pre-training and alignment, is where a model's per-domain data composition is typically set by data availability rather than principled design. We ask what that decision buys, and whether a later alignment pass can undo it. In a controlled logical-reasoning setting (Q...
-- **Lien** : https://arxiv.org/abs/2609.09081v1
+- **Résumé** : Self-supervised speech foundation models are now used in a wide array of downstream applications, including traditional speech recognition and as the basis for tokens in speech-aware language models. Attempts to understand their usefulness have largely focused on probing their representations' abili...
+- **Lien** : https://arxiv.org/abs/2609.10434v1
+
+### Algorithmic stability via ensembling
+- **arXiv** : 2609.10428v1
+- **Date** : 2026-09-09
+- **Auteurs** : Rina Foygel Barber, Richard J. Samworth
+- **Score** : 3
+- **Résumé** : Algorithmic stability refers to the property of an algorithm being insensitive to perturbations of the input data, where the type of perturbation may vary depending on the setting. In this work, we develop a general framework to quantify the extent to which any ensembling strategy defined via averag...
+- **Lien** : https://arxiv.org/abs/2609.10428v1
+
+### TrajMark: Ownership Attribution and Segment-Level Tamper Localization for Coding-Agent Trajectories
+- **arXiv** : 2609.10416v1
+- **Date** : 2026-09-09
+- **Auteurs** : Bokang Zeng, Zheng Gao, Xiaoyu Li, Xiaoyan Feng, Jiaojiao Jiang
+- **Score** : 3
+- **Résumé** : Watermarking the final patch produced by a coding agent provides provenance evidence for the submitted artifact, but does not authenticate the visible process that produced it. Behavioral watermarking methods primarily provide a global detection or identifier-recovery signal, so a locally edited tra...
+- **Lien** : https://arxiv.org/abs/2609.10416v1
+
+### Fortunate Recall: Ontology-Driven Memory Lifecycle Management for Persistent Coherence in LLMs
+- **arXiv** : 2609.10413v1
+- **Date** : 2026-09-09
+- **Auteurs** : Ansuman Mullick, Eray Tüzün
+- **Score** : 3
+- **Résumé** : Current LLM memory systems treat all personal facts identically, so stores grow without bound while retrieval precision degrades. The core challenge is lifecycle management: which memories should persist, which should be replaced, and at what rate, conditioned on the behavioral type of each fact. Fo...
+- **Lien** : https://arxiv.org/abs/2609.10413v1
+
+### HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning
+- **arXiv** : 2609.10404v1
+- **Date** : 2026-09-09
+- **Auteurs** : Osama Abu Hamdan, Rabin Pandey, Hao Che, Engin Arslan, Md Arifuzzaman
+- **Score** : 3
+- **Résumé** : Cross-silo Federated Learning (FL) enables geographically distributed institutions to collaboratively train machine learning models without sharing raw data. In wide-area deployments, however, communication delays often dominate round completion time and exacerbate the straggler effect. Hybrid FL ad...
+- **Lien** : https://arxiv.org/abs/2609.10404v1
+
+### Retrofitting Code Using LLMs to Support Exceptional Behavior
+- **arXiv** : 2609.10397v1
+- **Date** : 2026-09-09
+- **Auteurs** : Linghan Zhong, Jiyang Zhang, Jayanth Srinivasa, Junyi Jessy Li, Milos Gligoric
+- **Score** : 3
+- **Résumé** : Exception Related Code (ERC), which includes throw statements, conditions (if statements) that guard those throw statements, and try/catch blocks, is an essential component of software systems, allowing developers to detect and handle exceptional states that deviate from the expected program behavio...
+- **Lien** : https://arxiv.org/abs/2609.10397v1
 
 <!-- ARXIV_FEED_END -->
