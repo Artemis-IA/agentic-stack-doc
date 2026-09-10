@@ -135,7 +135,7 @@ Get up and running with Llama 3, Mistral, Gemma, and other large language models
 ### [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
 A collection of prompt examples to be used with the ChatGPT model.
 
-⭐ 169.8k | `HTML` | Licence: NOASSERTION | MAJ: 2026-09-10
+⭐ 169.9k | `HTML` | Licence: NOASSERTION | MAJ: 2026-09-10
 **Tags** : `ai`, `artificial-intelligence`, `awesome-list`, `chatgpt`, `chatgpt-prompts`, `claude`, `gemini`, `gpt`
 
 ### [Dify](https://github.com/langgenius/dify)
@@ -144,14 +144,8 @@ An open-source LLM app development platform with an intuitive interface that str
 ⭐ 155.3k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-09-10
 **Tags** : `agent`, `agentic-ai`, `agentic-framework`, `agentic-workflow`, `ai`, `automation`, `claude`, `deepseek`
 
-### [open-webui](https://github.com/open-webui/open-webui)
-User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
-
-⭐ 151.5k | `Python` | Licence: NOASSERTION | MAJ: 2026-09-10
-**Tags** : `ai`, `llm`, `llm-ui`, `llm-webui`, `llms`, `mcp`, `ollama`, `ollama-webui`
-
-### [langchain](https://github.com/langchain-ai/langchain)
-The agent engineering platform.
+### [LangChain](https://github.com/langchain-ai/langchain)
+the original 🐍 !GitHub Repo stars
 
 ⭐ 146.1k | `Python` | Licence: MIT | MAJ: 2026-09-10
 **Tags** : `agents`, `ai`, `ai-agents`, `anthropic`, `chatgpt`, `deepagents`, `enterprise`, `framework`
@@ -167,12 +161,6 @@ LLM inference in C/C++.
 
 ⭐ 127.7k | `C++` | Licence: MIT | MAJ: 2026-09-10
 **Tags** : `ggml`
-
-### [graphify](https://github.com/Graphify-Labs/graphify)
-Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing...
-
-⭐ 116.5k | `Python` | Licence: Apache-2.0 | MAJ: 2026-09-10
-**Tags** : `ai-agents`, `antigravity`, `ast`, `claude-code`, `code-analysis`, `code-search`, `codex`, `cursor`
 
 ### [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
 First open-sourced GPT-4o level model.
@@ -193,13 +181,13 @@ A high-throughput and memory-efficient inference and serving engine for LLMs.
 ### [OpenDevin](https://github.com/OpenDevin/OpenDevin)
 🙌 OpenHands: AI-Driven Development
 
-⭐ 87.2k | `TypeScript` | Licence: MIT | MAJ: 2026-09-10
+⭐ 87.3k | `TypeScript` | Licence: MIT | MAJ: 2026-09-10
 **Tags** : `agent`, `artificial-intelligence`, `chatgpt`, `claude-ai`, `cli`, `developer-tools`, `gpt`, `llm`
 
 ### [OpenHands](https://github.com/OpenHands/OpenHands)
 🙌 OpenHands: Code Less, Make More. (formerly OpenDevin), a platform for software development agents powered by AI !GitHub Repo stars
 
-⭐ 87.2k | `TypeScript` | Licence: MIT | MAJ: 2026-09-10
+⭐ 87.3k | `TypeScript` | Licence: MIT | MAJ: 2026-09-10
 **Tags** : `agent`, `artificial-intelligence`, `chatgpt`, `claude-ai`, `cli`, `developer-tools`, `gpt`, `llm`
 
 ### [llm-course](https://github.com/mlabonne/llm-course)
@@ -208,34 +196,46 @@ Course to get into Large Language Models (LLMs) with roadmaps and Colab notebook
 ⭐ 82.5k | Licence: Apache-2.0 | MAJ: 2026-09-10
 **Tags** : `course`, `large-language-models`, `llm`, `machine-learning`, `roadmap`
 
-### [hello-agents](https://github.com/datawhalechina/hello-agents)
-📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程
-
-⭐ 78.2k | `Python` | Licence: NOASSERTION | MAJ: 2026-09-10
-**Tags** : `agent`, `llm`, `rag`, `tutorial`
-
-### [Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
-🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.
-
-⭐ 78.2k | `MDX` | Licence: MIT | MAJ: 2026-09-10
-**Tags** : `agent`, `agents`, `ai-agents`, `chatgpt`, `deep-learning`, `generative-ai`, `language-model`, `llms`
-
-### [headroom](https://github.com/headroomlabs-ai/headroom)
-Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.
-
-⭐ 71.2k | `Python` | Licence: Apache-2.0 | MAJ: 2026-09-10
-**Tags** : `agent`, `ai`, `anthropic`, `claude-code`, `compression`, `context-engineering`, `context-window`, `cursor`
-
-### [anything-llm](https://github.com/Mintplex-Labs/anything-llm)
-Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience
-
-⭐ 65.9k | `JavaScript` | Licence: MIT | MAJ: 2026-09-10
-**Tags** : `agent-computer`, `agent-harness`, `agent-orchestration`, `agentic-ai`, `ai-agents`, `computer-use`, `hermes-agent`, `llm`
-
-### [mem0](https://github.com/mem0ai/mem0)
-The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.
+### [Embedchain](https://github.com/embedchain/embedchain)
+Framework to create ChatGPT like bots over your dataset.
 
 ⭐ 65.1k | `Python` | Licence: Apache-2.0 | MAJ: 2026-09-10
 **Tags** : `agentic-memory`, `agentic-memory-system`, `agents`, `ai`, `ai-agents`, `chatgpt`, `genai`, `llm`
+
+### [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
+A Chinese collection of prompt examples to be used with the ChatGPT model.
+
+⭐ 62.2k | Licence: MIT | MAJ: 2026-09-10
+**Tags** : `chat-gpt`, `chatgpt`, `chatgpt3`, `chatgpt4`, `gpt`
+
+### [upstash/context7](https://github.com/upstash/context7)
+📇 ☁️ - Up-to-date code documentation for LLMs and AI code editors.
+
+⭐ 61.8k | `TypeScript` | Licence: MIT | MAJ: 2026-09-10
+**Tags** : `llm`, `mcp`, `mcp-server`, `vibe-coding`
+
+### [LlamaIndex](https://github.com/run-llama/llama_index)
+provides a central interface to connect your LLM's with external data. !GitHub Repo stars
+
+⭐ 52.1k | `Python` | Licence: MIT | MAJ: 2026-09-10
+**Tags** : `agents`, `application`, `data`, `fine-tuning`, `framework`, `llamaindex`, `llm`, `multi-agents`
+
+### [LlamaIndex](https://github.com/jerryjliu/llama_index)
+A Python library for augmenting LLM apps with data.
+
+⭐ 52.1k | `Python` | Licence: MIT | MAJ: 2026-09-10
+**Tags** : `agents`, `application`, `data`, `fine-tuning`, `framework`, `llamaindex`, `llm`, `multi-agents`
+
+### [DeepSpeed](https://github.com/microsoft/DeepSpeed)
+DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.
+
+⭐ 43.1k | `Python` | Licence: Apache-2.0 | MAJ: 2026-09-10
+**Tags** : `billion-parameters`, `compression`, `data-parallelism`, `deep-learning`, `gpu`, `inference`, `machine-learning`, `mixture-of-experts`
+
+### [Colossal-AI](https://github.com/hpcaitech/ColossalAI)
+LLM training and inference system whose ColossalChat application implements LLM with RLHF !GitHub Repo stars
+
+⭐ 41.4k | `Python` | Licence: Apache-2.0 | MAJ: 2026-09-10
+**Tags** : `ai`, `big-model`, `data-parallelism`, `deep-learning`, `distributed-computing`, `foundation-models`, `heterogeneous-training`, `hpc`
 
 <!-- TOOLS_LLM_END -->
