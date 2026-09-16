@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### Adversarial Testing of Automated Program Repair Agents for Security Vulnerabilities
-- **arXiv** : 2609.15963v1
-- **Date** : 2026-09-14
-- **Auteurs** : Fares Trad, Simin Chen, Hung Viet Pham, Gias Uddin, Baishakhi Ray
+### Agentic Societies Need a Social Harness
+- **arXiv** : 2609.17527v1
+- **Date** : 2026-09-15
+- **Auteurs** : Tapan Chugh, Vidushi Singh, Krish Jain, Arvind Krishnamurthy, Ratul Mahajan
 - **Score** : 9
-- **Résumé** : Software agents with Large Language Models (LLMs) are designed for Automated Program Repair (APR) tasks, raising the possibility that, in the near future, APR agents will fix bugs automatically without much human intervention. Can we trust an APR agent to produce both functionally correct and secure...
-- **Lien** : https://arxiv.org/abs/2609.15963v1
+- **Résumé** : An agentic society is a collection of AI agents that coordinate autonomously across trust boundaries, on behalf of different principals whose objectives may only partially align. We show experimentally that in agentic societies even honest, competent agents often fail to reach satisfactory outcomes ...
+- **Lien** : https://arxiv.org/abs/2609.17527v1
 
-### Using Agentic AI for contextualized and multifaceted code review at Ericsson
-- **arXiv** : 2609.15877v1
-- **Date** : 2026-09-14
-- **Auteurs** : Muhammad Laiq, Ricardo Britto, Muhammad Usman, Nishrith Saini, Deepika Badampudi
+### What Breaks Under Pruning in Smart Homes, and When? Evaluating LLM Degradation Across Architectures and Task Complexity
+- **arXiv** : 2609.17515v1
+- **Date** : 2026-09-15
+- **Auteurs** : Congjing Zhang, Vashishtha Patil, Henning Lange, Usman Aleem
 - **Score** : 9
-- **Résumé** : Context: Conducting effective code reviews is increasingly challenging due to the growing complexity of software systems and the accelerated code generation by AI coding agents. LLM-based approaches for code reviews have shown promising results in identifying defects and improving code quality. Howe...
-- **Lien** : https://arxiv.org/abs/2609.15877v1
+- **Résumé** : Pruning can reduce the deployment cost of large language models (LLMs), but its impact on context-grounded tool calling remains poorly understood. We systematically study pruning-induced degradation in smart-home tool calling across four LLMs spanning dense Transformer, dense hybrid, and mixture-of-...
+- **Lien** : https://arxiv.org/abs/2609.17515v1
 
-### AlgoEvo: Self-Evolving Agentic Search for Automated Algorithm Discovery
-- **arXiv** : 2609.15820v1
-- **Date** : 2026-09-14
-- **Auteurs** : Junhao Qiu, Qinglong Hu, Xialiang Tong, Mingxuan Yuan, Liyong Lin
+### Self-Emergence Agent Architecture:Behavior-Inertia HMM, Reflexive Metacognition,and Social-Contrastive Self-Modeling
+- **arXiv** : 2609.17331v1
+- **Date** : 2026-09-15
+- **Auteurs** : Xiaoyang Liu
 - **Score** : 9
-- **Résumé** : Large language models have advanced automated algorithm discovery by synthesizing executable code, but existing frameworks trap them in rigid search pipelines with pre-defined control flows. This limitation restricts adaptive reasoning, blocks cross-paradigm transfer, and discards valuable execution...
-- **Lien** : https://arxiv.org/abs/2609.15820v1
+- **Résumé** : Large language model (LLM) agents exhibit strong language-generation and problem-solving capabilities, yet suffer from three structural limitations: personality drift, non-evolutionary reflection, and the absence of a self-other boundary. Existing generative-agent simulations rely on static memory a...
+- **Lien** : https://arxiv.org/abs/2609.17331v1
 
-### Atria Dawn: The Dawn of Agentic Superintelligence
-- **arXiv** : 2609.15818v1
-- **Date** : 2026-09-14
-- **Auteurs** : Honglin Guo, Tao Gui, Yicheng Chen, Guanting Dong, Qiming Ge
+### Zero-shot narrative detection in social messaging
+- **arXiv** : 2609.17310v1
+- **Date** : 2026-09-15
+- **Auteurs** : Jesús M. Fraile-Hernández, Anselmo Peñas, Patrick Giedemann
 - **Score** : 9
-- **Résumé** : As AI agents become participants in the development of their successors, they reshape both the production of intelligence and the role of human researchers. We introduce Atria Dawn Preview, a foundation agentic language model designed for scientific research and engineering workflows, with the goal ...
-- **Lien** : https://arxiv.org/abs/2609.15818v1
+- **Résumé** : This study investigates the zero-shot ability of large language models (LLMs) to identify and classify hidden narratives in social messages. Our research hypothesis is that LLMs' extensive contextual knowledge allows them to interpret messages on a deeper, pragmatic level, going beyond basic sentime...
+- **Lien** : https://arxiv.org/abs/2609.17310v1
 
-### Navigating Sparse Evidence: Agentic Visual RAG via Explicit Context Selection and Consolidation
-- **arXiv** : 2609.15800v1
-- **Date** : 2026-09-14
-- **Auteurs** : Yucheng Shen, Lingyong Yan, Jiulong Wu, Shuaiqiang Wang, Jianmin WU
-- **Score** : 9
-- **Résumé** : Visual Retrieval-Augmented Generation (VRAG) empowers models to navigate and answer queries about visually rich documents by retrieving relevant page images as visual evidence and reasoning over their content. However, effectively utilizing this visual evidence is usually impeded by two main challen...
-- **Lien** : https://arxiv.org/abs/2609.15800v1
-
-### Vulnerability Localization Benchmark: Measuring Agentic Security Analysis at Repository Scale
-- **arXiv** : 2609.15939v1
-- **Date** : 2026-09-14
-- **Auteurs** : Aman Priyanshu, Supriti Vijay, Kimia Majd, Xuhong He, Fraser Burch
-- **Score** : 8
-- **Résumé** : Language-model agents increasingly operate over complete software repositories, yet cybersecurity evaluations primarily measure whether they can detect, reproduce, or repair vulnerabilities rather than whether they can locate the relevant code. We study vulnerability localization: given a weakness c...
-- **Lien** : https://arxiv.org/abs/2609.15939v1
-
-### Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research in Mathematics and Theoretical Computer Science
-- **arXiv** : 2609.15983v1
-- **Date** : 2026-09-14
-- **Auteurs** : Honghao Lin, David P. Woodruff, Yuan Deng, Jieming Mao, Song Zuo
-- **Score** : 7
-- **Résumé** : Language models can produce plausible short proofs, but may still be unreliable on long-horizon research problems, where progress depends on a sequence of uncertain and interdependent decisions. We introduce Stellar Colosseum, a model-agnostic harness for allocating inference across research in math...
-- **Lien** : https://arxiv.org/abs/2609.15983v1
-
-### Verifiable by Construction: Claim-Level Evaluation of Verbatim Citation in Clinical Question Answering
-- **arXiv** : 2609.15964v1
-- **Date** : 2026-09-14
-- **Auteurs** : Jiashuo Zhang, Yuling Chen, Yvonne Commodore-Mensah, Michael Oberst
-- **Score** : 7
-- **Résumé** : Large language models (LLMs) have been widely adopted for clinical question answering (QA). Current systems can attach citations to their answers, but these often point to broad texts, leaving time-pressed clinicians unable to verify them efficiently. An alternative is to ensure that responses are v...
-- **Lien** : https://arxiv.org/abs/2609.15964v1
-
-### K-Bench: a clinically calibrated benchmark for evaluating large language models in high-risk mental health conversations
-- **arXiv** : 2609.15855v1
-- **Date** : 2026-09-14
-- **Auteurs** : Laura M. Vowels, Matthew J. Vowels, Shivali Sharma, Apoorv Jha, Rehnuma Choudhury
-- **Score** : 7
-- **Résumé** : % !TEX root = ../main.tex People increasingly use large language models (LLMs) for mental health support, yet their safety in evolving, high-risk conversations remains poorly characterised. We developed K-Bench, a clinician-calibrated, protected benchmark evaluating 125 model configurations represen...
-- **Lien** : https://arxiv.org/abs/2609.15855v1
-
-### Bellman Policy Optimization
-- **arXiv** : 2609.15987v1
-- **Date** : 2026-09-14
-- **Auteurs** : Zhuoqing Song, Haotian Xu, Xikun Zhang, Lidong Bing
+### When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control
+- **arXiv** : 2609.17516v1
+- **Date** : 2026-09-15
+- **Auteurs** : Ali Şenol
 - **Score** : 6
-- **Résumé** : Reinforcement learning with verifiable rewards (RLVR) improves the reasoning capabilities of large language models (LLMs). We introduce Bellman Policy Optimization (BPO), a critic-free method derived from Policy Mirror Descent (PMD). For autoregressive generation with terminal rewards, BPO uses the ...
-- **Lien** : https://arxiv.org/abs/2609.15987v1
+- **Résumé** : Large language models can produce fluent answers when their factual support is weak. This paper introduces Chain-of-Self-Questioning (CoSQ), a prompt-only framework that makes answer commitment conditional on an explicit assessment of the information required to answer a question. We evaluate three ...
+- **Lien** : https://arxiv.org/abs/2609.17516v1
 
-### The Router Within: Eliciting Native Skill Routing from a Frozen LLM
-- **arXiv** : 2609.15982v1
-- **Date** : 2026-09-14
-- **Auteurs** : Ruishuo Chen, Xun Wang, Yu Chen, Zhuoran Li, Longbo Huang
+### Coupled Calibration and Learning: Mitigating Teacher Bias in LLM Distillation without Target-Domain Reward Feedback
+- **arXiv** : 2609.17474v1
+- **Date** : 2026-09-15
+- **Auteurs** : Haichen Hu, Yuheng Zhang, David Simchi-Levi
 - **Score** : 6
-- **Résumé** : Skills extend an LLM agent beyond its parametric knowledge, and the gain they promise rests on picking the right one. Deployed harnesses route by preloading every skill's metadata into the context, which disperses the agent's attention and caps the library size. Retrieval pipelines move the selectio...
-- **Lien** : https://arxiv.org/abs/2609.15982v1
+- **Résumé** : Large language model (LLM) distillation aims to transfer the capabilities of a powerful teacher to a smaller student. Direct imitation, however, can also transfer the teacher's systematic bias and errors. This challenge is particularly pronounced under covariate shift, when the teacher's reliability...
+- **Lien** : https://arxiv.org/abs/2609.17474v1
 
-### Mind2Dialogue: Training Human-Aware Language Models by Simulating User Mental States
-- **arXiv** : 2609.15972v1
-- **Date** : 2026-09-14
-- **Auteurs** : Zixuan Wang, Yufan Zhou, Jinzhou Tang, Xinle Yu, Chengjun Wu
+### Large Language Models Develop Belief State Geometry In-Context
+- **arXiv** : 2609.17376v1
+- **Date** : 2026-09-15
+- **Auteurs** : Daniel Balcells, Andrew Jun Lee, Chirag Rastogi, Paul M. Riechers, Adam Shai
 - **Score** : 6
-- **Résumé** : As language models become more capable, long-term collaboration in learning, reasoning, and decision-making calls for a deeper understanding of the people they serve. Yet training such human-aware language models faces a fundamental supervision gap because current datasets for LLM assistant training...
-- **Lien** : https://arxiv.org/abs/2609.15972v1
+- **Résumé** : Large language models (LLMs) trained on next-token prediction exhibit remarkable in-context learning (ICL) abilities, yet the representations that support ICL remain poorly understood. We consider such representations in a controlled setting: prompting LLMs with data emitted from hidden Markov model...
+- **Lien** : https://arxiv.org/abs/2609.17376v1
 
-### HypoEvolve: Genetic Algorithms Enable Multi-Agent LLMs to Discover Scientific Hypotheses
-- **arXiv** : 2609.15938v1
-- **Date** : 2026-09-14
-- **Auteurs** : Jieyuan Liu, Mengzhou Hu, Jefferson Chen, JungHo Kong, Pratibha Jagannatha
+### Where Should a Document Live: Context, Representations, or Parameters?
+- **arXiv** : 2609.17346v1
+- **Date** : 2026-09-15
+- **Auteurs** : Nathanaël Carraz Rakotonirina, Momchil Hardalov, Gonzalo Iglesias, Adrià de Gispert
 - **Score** : 6
-- **Résumé** : Scientific agents contribute to hypothesis discovery by synthesizing evidence, assessing proposals, and developing new explanations. Recent systems combine scientific agents with evolutionary search through critique, comparison, and revision. However, how different forms of agent collaboration affec...
-- **Lien** : https://arxiv.org/abs/2609.15938v1
+- **Résumé** : To answer questions outside of their pre-training data, large language models (LLMs) need access to new information, which can be presented in the context window as documents, encoded into the model's parameters, or injected as latent representations. However, each of these methods comes with differ...
+- **Lien** : https://arxiv.org/abs/2609.17346v1
 
-### Inoculation Midtraining with Learned Neologisms
-- **arXiv** : 2609.15886v1
-- **Date** : 2026-09-14
-- **Auteurs** : Kyle O'Brien, Edward James Young, Puria Radmard, Nathalie Kirch, Cameron Tice
-- **Score** : 6
-- **Résumé** : Large language models (LLMs) often learn both desirable and undesirable properties during post-training. We study whether midtraining, an earlier training stage, can shape which of these properties later generalise. We introduce Inoculation Midtraining, a technique that teaches a base model that uns...
-- **Lien** : https://arxiv.org/abs/2609.15886v1
-
-### LongAgent: History-Guided Agentic Search for Longitudinal Outcome Prediction
-- **arXiv** : 2609.15859v1
-- **Date** : 2026-09-14
-- **Auteurs** : Siyao Wang, Florian Guitton, Shuojie Fu, Guanyu Tao, Kai Sun
-- **Score** : 6
-- **Résumé** : Extracting informative representations from longitudinal data that can predict future outcomes remains a critical challenge in medicine. Medical datasets are inherently heterogeneous, consisting of a large number of variables collected from different sources, sampled with different temporal spacings...
-- **Lien** : https://arxiv.org/abs/2609.15859v1
-
-### Learning to Coach for Experiential Learning
-- **arXiv** : 2609.15851v1
-- **Date** : 2026-09-14
-- **Auteurs** : Guanheng Chen, Tianzhu Ye, Li Dong, Xun Wu, Shaohan Huang
-- **Score** : 6
-- **Résumé** : Language models can learn from experience, but raw solution trajectories are often too long and noisy to provide effective guidance. In this work, we propose Learning to Coach (L2C), a framework that trains a dedicated LLM-as-a-Coach to extract actionable experiential knowledge from an actor model's...
-- **Lien** : https://arxiv.org/abs/2609.15851v1
-
-### Before You Poll with LLMs: A Deliberative Diagnostic Framework
-- **arXiv** : 2609.15849v1
-- **Date** : 2026-09-14
-- **Auteurs** : Ahmed Wali, Hassaan Tayyab
+### JustFit: 200K-Token LLM Serving on a 24 GiB Laptop with Just-in-Time State Management
+- **arXiv** : 2609.17475v1
+- **Date** : 2026-09-15
+- **Auteurs** : Yuhua Chen
 - **Score** : 4
-- **Résumé** : Can LLMs reason through new information like humans, or do they merely retrieve cached opinions? This is critical for silicon sampling, where LLM personas simulate public opinion at scale. Current evaluations test only whether personas hold the right opinions -- a static snapshot. But opinion resear...
-- **Lien** : https://arxiv.org/abs/2609.15849v1
+- **Résumé** : Capable open-weight models make local coding and reasoning attractive, but their context and execution state strain laptop memory. We present JustFit, an MLX-based inference runtime that combines KVExec for compressed KV execution, PhaseSwap for component residency, and StateTrans for state-preservi...
+- **Lien** : https://arxiv.org/abs/2609.17475v1
 
-### Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection
-- **arXiv** : 2609.15989v1
-- **Date** : 2026-09-14
-- **Auteurs** : Keertana Chidambaram, Andrew Ilyas, Vasilis Syrgkanis
-- **Score** : 3
-- **Résumé** : Chain-of-thought (CoT) monitoring is a safety strategy where the reasoning of a large language model "actor" is inspected by a "monitor" (often another language model) for signs of unsafe planning, deception, or misalignment. We find that planting harmful but benign-sounding reasoning in the actor's...
-- **Lien** : https://arxiv.org/abs/2609.15989v1
+### Right Tool, Right Job: Native-Language Evaluation, Tokenizer Sensitivity, and Methodological Findings from a French-Only BabyLM
+- **arXiv** : 2609.17435v1
+- **Date** : 2026-09-15
+- **Auteurs** : Adam Zachary Wasserman, David Beauchemin
+- **Score** : 4
+- **Résumé** : We submit MéTRON-FR, a 125M GPT-2 pretrained on 92.47M words of French, to the BabyLM 2026 Strict track. It scores 85.97 +/- 0.17% on QFrBLiMP (a native Quebec-French benchmark of grammatical minimal pairs) and 62.80% on the BabyLM-weighted leaderboard. A cross-lingual GLUE (General Language Underst...
+- **Lien** : https://arxiv.org/abs/2609.17435v1
 
-### Safe Meta-Reinforcement Learning via Information Space Reachability
-- **arXiv** : 2609.15915v1
-- **Date** : 2026-09-14
-- **Auteurs** : Zeyang Li, Sunbochen Tang, Navid Azizan
-- **Score** : 3
-- **Résumé** : Meta-reinforcement learning (meta-RL) enables agents to adapt to unseen tasks with limited experience. Despite its promise, the application of meta-RL in real-world tasks is hindered by safety requirements, which have been underexplored in prior work. In this paper, we propose a safe meta-RL framewo...
-- **Lien** : https://arxiv.org/abs/2609.15915v1
+### Coding Agents Have Converged: Why the SWE-bench Leaderboard Can No Longer Order Its Top Entries, and What to Measure Instead
+- **arXiv** : 2609.17394v1
+- **Date** : 2026-09-15
+- **Auteurs** : Fengshuo Liu, Ying Liu, Ruize Sun, Lie Luo, Siyuan Guo
+- **Score** : 4
+- **Résumé** : Small differences on coding-agent leaderboards are often read as an ordering of systems. We audit whether the published verdicts support this reading, using 254 SWE-bench submissions across four splits without running models. On Verified, the leading two entries each resolve 396 of 500 instances. Th...
+- **Lien** : https://arxiv.org/abs/2609.17394v1
 
-### Discrete Beckmann Transport Models for One-Step Language Modeling and Reasoning
-- **arXiv** : 2609.15903v1
-- **Date** : 2026-09-14
-- **Auteurs** : Sophia Tang, Shiyi Wang
+### FlashVector: Agent for Hierarchical Model Serving Stack Optimization
+- **arXiv** : 2609.17391v1
+- **Date** : 2026-09-15
+- **Auteurs** : Qi Wu, Lohan Lemire, Kai Meng, Zhongmou Cai, Raphael Bargues
+- **Score** : 4
+- **Résumé** : Model serving is one of the largest cost drivers in production recommender systems. Maximizing its throughput requires navigating a deeply layered hierarchy: GPU kernels, the ML framework computation graph, the model server, and on-demand feature processing -- each demanding specialized domain exper...
+- **Lien** : https://arxiv.org/abs/2609.17391v1
+
+### Vroom-Vroom at SHROOM-Visions: A Multi-Judge Committee for Detecting Hallucinated Spans in Vision-Language Outputs
+- **arXiv** : 2609.17327v1
+- **Date** : 2026-09-15
+- **Auteurs** : Toqeer Ehsan, Nico Penttilä, Richard Schmidt, Arash Hajikhani, Victoria Palacin
+- **Score** : 4
+- **Résumé** : This paper describes our submission to the SHROOM-Visions shared task on detecting and classifying hallucinated character spans in vision-language model outputs across four languages. We employ several fine-tuned vision-language models as independent annotators and combine their span predictions thr...
+- **Lien** : https://arxiv.org/abs/2609.17327v1
+
+### Towards Detecting AI-Assisted Responses in Online Surveys
+- **arXiv** : 2609.17317v1
+- **Date** : 2026-09-15
+- **Auteurs** : Qizhou Wang, Bogdan Mamaev, Christopher Leckie
+- **Score** : 4
+- **Résumé** : The use of LLMs to complete online surveys impacts the validity of survey-based research, but detecting such usage remains underexplored. We introduce an initial benchmark dataset, namely ASURRE, for AI-assisted survey participation to capture usage strategies ranging from full generation and revisi...
+- **Lien** : https://arxiv.org/abs/2609.17317v1
+
+### Mo' Models, Mo' Problems: How to best select model pools when designing Multi-Agent Systems
+- **arXiv** : 2609.17306v1
+- **Date** : 2026-09-15
+- **Auteurs** : Sara Vera Marjanović, Jiacheng Xu, Aleksandr Laptev, Grigor Nalbandyan, Erik Arakelyan
+- **Score** : 4
+- **Résumé** : Multi-agent Systems (MAS) combine multiple model outputs to solve complex reasoning tasks. However, despite rapid growth of available open-source models, there is limited research on how to select optimal model candidates out of this massive pool. We systematically evaluate 8 model selection strateg...
+- **Lien** : https://arxiv.org/abs/2609.17306v1
+
+### ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents
+- **arXiv** : 2609.17523v1
+- **Date** : 2026-09-15
+- **Auteurs** : Shuhan Xue, Jianyuan Zhong, Ziyuan Nan, Wenbin Li, Zhaochen Yu
 - **Score** : 3
-- **Résumé** : Discrete diffusion and flow models are a promising alternative to autoregressive language models, but compressing many-step sampling into fewer steps typically requires distilling a pretrained teacher model. This caps the student at the teacher's quality and requires a costly two-stage training pipe...
-- **Lien** : https://arxiv.org/abs/2609.15903v1
+- **Résumé** : We introduce and release ScienceBuddy, an interactive scientific research workspace that brings continually improving scientific agents into researchers' everyday workflows. ScienceBuddy supports researchers in carrying out scientific tasks while transforming their requests, feedback, and execution ...
+- **Lien** : https://arxiv.org/abs/2609.17523v1
+
+### LACE: Layer-Wise Compression for Dynamic Frame Rate Codecs
+- **arXiv** : 2609.17509v1
+- **Date** : 2026-09-15
+- **Auteurs** : Thanapat Trachu, Samuele Cornell, William Chen, Shinji Watanabe
+- **Score** : 3
+- **Résumé** : Neural audio codecs are a key component in speech language modeling. However, their high frame rates lead to long sequence lengths, increasing computational costs. Dynamic frame rate codecs mitigate this by reducing the effective frame rate using a compression step to merge multiple frames together....
+- **Lien** : https://arxiv.org/abs/2609.17509v1
+
+### ENCP: Episode-Normalized Conformal Prediction for Vision-and-Language Navigation
+- **arXiv** : 2609.17499v1
+- **Date** : 2026-09-15
+- **Auteurs** : Vicky Feliren, A. Taufiq Asyhari, Muhamad Risqi U. Saputra
+- **Score** : 3
+- **Résumé** : Uncertainty estimation for Vision-Language-Navigation (VLN) models is a critical task since it can help identify ambiguous and unreliable predictions, enabling agents to make safer navigation decisions. As one of the most advanced uncertainty estimation frameworks, conformal prediction (CP) offers a...
+- **Lien** : https://arxiv.org/abs/2609.17499v1
+
+### Verifiable Social Reasoning for LLM Assistants
+- **arXiv** : 2609.17496v1
+- **Date** : 2026-09-15
+- **Auteurs** : Amir Taubenfeld, Zorik Gekhman, Avigail Grinstein-Dabush, Itay Laish, Ariel Goldstein
+- **Score** : 3
+- **Résumé** : LLM assistants are widely used for daily social advice, yet evaluating their social reasoning in such consultation settings remains challenging since (i) it requires setups where the assistant learns about social situations from subjective user narratives, and (ii) social properties, such as others'...
+- **Lien** : https://arxiv.org/abs/2609.17496v1
+
+### Decomposition Buys Integrity, Not Yield
+- **arXiv** : 2609.17464v1
+- **Date** : 2026-09-15
+- **Auteurs** : Rong He
+- **Score** : 3
+- **Résumé** : Multi-agent systems split a task across a tree of agents and justify the split with folklore: smaller contexts, cleaner separation, parallelism. We ask what the split does to how much of what the leaves discover reaches the root. Model a decomposition as a tree in which an agent handed $b$ items kee...
+- **Lien** : https://arxiv.org/abs/2609.17464v1
 
 <!-- ARXIV_FEED_END -->
