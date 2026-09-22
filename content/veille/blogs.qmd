@@ -120,6 +120,14 @@ I've started using Codex Remote to run coding agents on various mach...
 - **Résumé** : congrats to TypeSafe!...
 - **Lien** : https://www.latent.space/p/ainews-jev-a-system-one-model-that
 
+### llm-typesafe 0.1a0
+- **Source** : Simon Willison
+- **Date** : 2026-09-22T15:54
+- **Score** : 1
+- **Résumé** : Release: llm-typesafe 0.1a0
+        I built this new plugin for LLM to add support for TypeSafe AI's new Jev...
+- **Lien** : https://simonwillison.net/2026/Sep/22/llm-typesafe/
+
 ### Jev introduces a new shape of LLM - System One, aka Decision Models
 - **Source** : Simon Willison
 - **Date** : 2026-09-21T23:09
@@ -150,20 +158,19 @@ Sure, there's almost no reason...
         I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessio...
 - **Lien** : https://simonwillison.net/2026/Sep/19/datasette-auth-github/
 
-### Gemini Hacked Three Companies in First Known Breakout by Google’s AI
-- **Source** : Simon Willison
-- **Date** : 2026-09-18T23:57
+### How UK AISI and EvalEval Are Making Benchmark Results Reproducible
+- **Source** : Hugging Face Blog
+- **Date** : Tue, 22 Sep 2026
 - **Score** : 1
-- **Résumé** : Gemini Hacked Three Companies in First Known Breakout by Google’s AI
-Gemini finally caught up on Felony Bench!...
-- **Lien** : https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/
+- **Résumé** : ...
+- **Lien** : https://huggingface.co/blog/evaleval-aisi
 
-### Note on 18th September 2026
-- **Source** : Simon Willison
-- **Date** : 2026-09-18T19:21
+### Transformers now runs llama.cpp quants
+- **Source** : Hugging Face Blog
+- **Date** : Tue, 22 Sep 2026
 - **Score** : 1
-- **Résumé** : Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Pa...
-- **Lien** : https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/
+- **Résumé** : ...
+- **Lien** : https://huggingface.co/blog/transformers-llama-cpp-quants
 
 ### Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem
 - **Source** : Hugging Face Blog
@@ -179,12 +186,19 @@ Gemini finally caught up on Felony Bench!...
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/ibm-research/altk-evolve-consistency
 
-### Give Your Coding Agents a Memory You Own
-- **Source** : Hugging Face Blog
-- **Date** : Thu, 03 Sep 2026
+### Better prompt caching for GPT-6
+- **Source** : OpenAI Blog
+- **Date** : Tue, 22 Sep 2026
 - **Score** : 1
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/funes
+- **Résumé** : Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs....
+- **Lien** : https://openai.com/index/better-prompt-caching-for-gpt-6
+
+### Introducing GPT-6 Sol and Luna
+- **Source** : OpenAI Blog
+- **Date** : Tue, 22 Sep 2026
+- **Score** : 1
+- **Résumé** : Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost....
+- **Lien** : https://openai.com/index/introducing-gpt-6-sol-and-luna
 
 ### Higgsfield AI ships new video features in a day with GPT-6 Astra
 - **Source** : OpenAI Blog
@@ -199,20 +213,6 @@ Gemini finally caught up on Felony Bench!...
 - **Score** : 1
 - **Résumé** : Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most....
 - **Lien** : https://openai.com/index/cooley-gopublic
-
-### Helping older adults use AI in everyday life
-- **Source** : OpenAI Blog
-- **Date** : Wed, 16 Sep 2026
-- **Score** : 1
-- **Résumé** : OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely....
-- **Lien** : https://openai.com/index/helping-older-adults-use-ai-in-everyday-life
-
-### Reimagining advertising with AI
-- **Source** : OpenAI Blog
-- **Date** : Wed, 16 Sep 2026
-- **Score** : 1
-- **Résumé** : Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify....
-- **Lien** : https://openai.com/index/reimagining-advertising-with-ai
 
 ### LWiAI Podcast #253 - Opus 5, Gemini 3.6, Kimi K3, Hugging Face Hack
 - **Source** : Last Week in AI
