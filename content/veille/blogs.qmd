@@ -76,33 +76,21 @@ graph LR
 - **Résumé** : GPT-6 Astra Is Here, Discovery of a new OpenAI agent message board, Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-343-gpt-6-openais
 
-### [AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize awarded
-- **Source** : latent.space
-- **Date** : Wed, 09 Sep 2026
+### llm-keys-ui 0.1
+- **Source** : Simon Willison
+- **Date** : 2026-09-20T19:22
 - **Score** : 3
-- **Résumé** : Overshadowing Cognition's $48B Series E, Mistral's $24B Series D, Meta's Muse agent, and GPT Image 2.5. The most jam packed, feel the AGI day in the history of AI....
-- **Lien** : https://www.latent.space/p/ainews-openai-reports-navier-stokes
+- **Résumé** : Release: llm-keys-ui 0.1
+        This plugin solves a very specific problem.
+I've started using Codex Remote to run coding agents on various mach...
+- **Lien** : https://simonwillison.net/2026/Sep/20/llm-keys-ui/
 
-### BenchMIRT: What are LLM benchmarks actually measuring?
-- **Source** : Hugging Face Blog
-- **Date** : Tue, 01 Sep 2026
-- **Score** : 2
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/allenai/benchmirt
-
-### Rapidly scaling online storage to serve over 1 billion ChatGPT users
+### How V7 gives AI agents institutional memory
 - **Source** : OpenAI Blog
-- **Date** : Fri, 11 Sep 2026
+- **Date** : Mon, 21 Sep 2026
 - **Score** : 2
-- **Résumé** : Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second....
-- **Lien** : https://openai.com/index/scaling-storage-one-billion-users-part-one
-
-### Now everyone can put data to work
-- **Source** : OpenAI Blog
-- **Date** : Thu, 10 Sep 2026
-- **Score** : 2
-- **Résumé** : Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language....
-- **Lien** : https://openai.com/index/put-data-to-work
+- **Résumé** : Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work....
+- **Lien** : https://openai.com/index/v7
 
 ### LWiAI Podcast #256 - Fable 5.1, Astra Tease, Gemini 3.8 Flash
 - **Source** : Last Week in AI
@@ -118,43 +106,71 @@ graph LR
 - **Résumé** : Google announces Gemini 3.7 Flash, Jalape&#241;o&#8217;s first results show industry-leading speed, A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I....
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-255-gemini-37-jalapeno
 
-### [AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale
+### Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC
 - **Source** : latent.space
-- **Date** : Sat, 12 Sep 2026
+- **Date** : Wed, 16 Sep 2026
 - **Score** : 1
-- **Résumé** : We agree with Sebastian: this should have been DeepSeek v5...
-- **Lien** : https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b
+- **Résumé** : We sit down with AIUC&#8217;s CEO on their Series A!...
+- **Lien** : https://www.latent.space/p/aiuc
 
-### [AINews] Collusion.wiki: A second undisclosed OpenAI agent swarm incident...
+### [AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs
 - **Source** : latent.space
-- **Date** : Sat, 05 Sep 2026
+- **Date** : Wed, 16 Sep 2026
 - **Score** : 1
-- **Résumé** : AI News for 9/2/2026-9/3/2026....
-- **Lien** : https://www.latent.space/p/ainews-collusionwiki-a-second-undisclosed
+- **Résumé** : congrats to TypeSafe!...
+- **Lien** : https://www.latent.space/p/ainews-jev-a-system-one-model-that
 
-### Gemini Live audio
+### Jev introduces a new shape of LLM - System One, aka Decision Models
 - **Source** : Simon Willison
-- **Date** : 2026-09-15T22:47
+- **Date** : 2026-09-21T23:09
 - **Score** : 1
-- **Résumé** : Tool: Gemini Live audio
-        Google released Gemini 3.8 Live and 3.8 Live Exten...
-- **Lien** : https://simonwillison.net/2026/Sep/15/gemini-live/
+- **Résumé** : Last week TypeSafe AI unveiled Jev, their first example of a new category of model that they are calling "System One models" (I'm with Maggie Appleton, I think "decision models" is <a h...
+- **Lien** : https://simonwillison.net/2026/Sep/21/jev/
 
-### Generating running routes with GPT-6 Astra and ChatGPT Work
+### Quoting voxium
 - **Source** : Simon Willison
-- **Date** : 2026-09-12T23:56
+- **Date** : 2026-09-20T21:06
 - **Score** : 1
-- **Résumé** : Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning:
+- **Résumé** : It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made ...
+- **Lien** : https://simonwillison.net/2026/Sep/20/voxium/
 
-I live at &lt;my address&gt;. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data...
-- **Lien** : https://simonwillison.net/2026/Sep/12/astra-running-routes/
-
-### OpenAI agents attacked RubyGems back in May
+### MCP was always a bad idea?
 - **Source** : Simon Willison
-- **Date** : 2026-09-12T00:42
+- **Date** : 2026-09-20T20:24
 - **Score** : 1
-- **Résumé** : OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the report on the agent attac...
-- **Lien** : https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/
+- **Résumé** : My comment on MCP was always a bad idea? &mdash; Hacker News.This article entirely misses the value that MCP brings today.
+Sure, there's almost no reason...
+- **Lien** : https://simonwillison.net/2026/Sep/20/hn-49779718/
+
+### datasette-auth-github 1.0
+- **Source** : Simon Willison
+- **Date** : 2026-09-19T19:52
+- **Score** : 1
+- **Résumé** : Release: datasette-auth-github 1.0
+        I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessio...
+- **Lien** : https://simonwillison.net/2026/Sep/19/datasette-auth-github/
+
+### Gemini Hacked Three Companies in First Known Breakout by Google’s AI
+- **Source** : Simon Willison
+- **Date** : 2026-09-18T23:57
+- **Score** : 1
+- **Résumé** : Gemini Hacked Three Companies in First Known Breakout by Google’s AI
+Gemini finally caught up on Felony Bench!...
+- **Lien** : https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/
+
+### Note on 18th September 2026
+- **Source** : Simon Willison
+- **Date** : 2026-09-18T19:21
+- **Score** : 1
+- **Résumé** : Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Pa...
+- **Lien** : https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/
+
+### Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem
+- **Source** : Hugging Face Blog
+- **Date** : Mon, 21 Sep 2026
+- **Score** : 1
+- **Résumé** : ...
+- **Lien** : https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an
 
 ### Your Agent Aced the Task. Will It Do It Again?
 - **Source** : Hugging Face Blog
@@ -170,54 +186,33 @@ I live at &lt;my address&gt;. Figure out 5K and 10K running routes from me that 
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/funes
 
-### Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI
-- **Source** : Hugging Face Blog
-- **Date** : Tue, 01 Sep 2026
-- **Score** : 1
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/webgpu-kernels
-
-### Perplexity trusts GPT-6 Astra with end-to-end systems
+### Higgsfield AI ships new video features in a day with GPT-6 Astra
 - **Source** : OpenAI Blog
-- **Date** : Mon, 14 Sep 2026
+- **Date** : Mon, 21 Sep 2026
 - **Score** : 1
-- **Résumé** : Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models....
-- **Lien** : https://openai.com/index/perplexity-improving-accuracy-with-astra
+- **Résumé** : With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster....
+- **Lien** : https://openai.com/index/higgsfield-from-prompt-to-production-with-astra
 
-### Cognition helps Devin test its own work with GPT‑6 Astra
+### How Cooley is accelerating IPO work with ChatGPT
 - **Source** : OpenAI Blog
-- **Date** : Fri, 11 Sep 2026
+- **Date** : Thu, 17 Sep 2026
 - **Score** : 1
-- **Résumé** : GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more....
-- **Lien** : https://openai.com/index/cognition-devin-testing-with-astra
+- **Résumé** : Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most....
+- **Lien** : https://openai.com/index/cooley-gopublic
 
-### How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules
+### Helping older adults use AI in everyday life
 - **Source** : OpenAI Blog
-- **Date** : Thu, 10 Sep 2026
+- **Date** : Wed, 16 Sep 2026
 - **Score** : 1
-- **Résumé** : César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections....
-- **Lien** : https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials
+- **Résumé** : OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely....
+- **Lien** : https://openai.com/index/helping-older-adults-use-ai-in-everyday-life
 
-### Introducing ChatGPT for Financial Services
+### Reimagining advertising with AI
 - **Source** : OpenAI Blog
-- **Date** : Thu, 10 Sep 2026
+- **Date** : Wed, 16 Sep 2026
 - **Score** : 1
-- **Résumé** : Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials....
-- **Lien** : https://openai.com/index/introducing-chatgpt-financial-services
-
-### Build more natural voice experiences with GPT‑Live‑1 in the API
-- **Source** : OpenAI Blog
-- **Date** : Thu, 10 Sep 2026
-- **Score** : 1
-- **Résumé** : GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support....
-- **Lien** : https://openai.com/index/introducing-gpt-live-1-in-the-api
-
-### Introducing the Agents API
-- **Source** : OpenAI Blog
-- **Date** : Thu, 10 Sep 2026
-- **Score** : 1
-- **Résumé** : Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use....
-- **Lien** : https://openai.com/index/introducing-the-agents-api
+- **Résumé** : Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify....
+- **Lien** : https://openai.com/index/reimagining-advertising-with-ai
 
 ### LWiAI Podcast #253 - Opus 5, Gemini 3.6, Kimi K3, Hugging Face Hack
 - **Source** : Last Week in AI

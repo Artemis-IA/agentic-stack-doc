@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### Agentic Societies Need a Social Harness
-- **arXiv** : 2609.17527v1
-- **Date** : 2026-09-15
-- **Auteurs** : Tapan Chugh, Vidushi Singh, Krish Jain, Arvind Krishnamurthy, Ratul Mahajan
-- **Score** : 9
-- **Résumé** : An agentic society is a collection of AI agents that coordinate autonomously across trust boundaries, on behalf of different principals whose objectives may only partially align. We show experimentally that in agentic societies even honest, competent agents often fail to reach satisfactory outcomes ...
-- **Lien** : https://arxiv.org/abs/2609.17527v1
+### GRUET: Quantifying Uncertainty of Agentic Reasoning-and-Acting Processes
+- **arXiv** : 2609.24831v1
+- **Date** : 2026-09-21
+- **Auteurs** : Shuang Liang, Xin-Yu Hu, Shao-Qun Zhang
+- **Score** : 12
+- **Résumé** : Agents have attracted considerably increasing attention due to the power of executing both Reasoning and Acting (ReAct) in open and dynamic environments. The ReAct process typically exhibits a multi-turn trajectory in which one drives Large Language Models (LLMs) to generate both reasoning chains an...
+- **Lien** : https://arxiv.org/abs/2609.24831v1
 
-### What Breaks Under Pruning in Smart Homes, and When? Evaluating LLM Degradation Across Architectures and Task Complexity
-- **arXiv** : 2609.17515v1
-- **Date** : 2026-09-15
-- **Auteurs** : Congjing Zhang, Vashishtha Patil, Henning Lange, Usman Aleem
-- **Score** : 9
-- **Résumé** : Pruning can reduce the deployment cost of large language models (LLMs), but its impact on context-grounded tool calling remains poorly understood. We systematically study pruning-induced degradation in smart-home tool calling across four LLMs spanning dense Transformer, dense hybrid, and mixture-of-...
-- **Lien** : https://arxiv.org/abs/2609.17515v1
+### Trajectory-Aware Benchmark Subset Selection for Cost-Efficient Software Engineering Agent Regression Testing
+- **arXiv** : 2609.24928v1
+- **Date** : 2026-09-21
+- **Auteurs** : Mahmoud Ayyad, Zehao Wang, Jiho Shin, Ying Zou, Bram Adams
+- **Score** : 11
+- **Résumé** : Autonomous software engineering agents (SWE-agents) automate coding tasks. Each agent update may require re-running the full benchmark to detect regressions and improvements, at a cost of hundreds of millions of LLM tokens per run, which makes evaluation a bottleneck. One solution is to evaluate onl...
+- **Lien** : https://arxiv.org/abs/2609.24928v1
 
-### Self-Emergence Agent Architecture:Behavior-Inertia HMM, Reflexive Metacognition,and Social-Contrastive Self-Modeling
-- **arXiv** : 2609.17331v1
-- **Date** : 2026-09-15
-- **Auteurs** : Xiaoyang Liu
-- **Score** : 9
-- **Résumé** : Large language model (LLM) agents exhibit strong language-generation and problem-solving capabilities, yet suffer from three structural limitations: personality drift, non-evolutionary reflection, and the absence of a self-other boundary. Existing generative-agent simulations rely on static memory a...
-- **Lien** : https://arxiv.org/abs/2609.17331v1
+### Pinocchio: Fast Uncertainty Estimates for Black-Box Language Models
+- **arXiv** : 2609.24881v1
+- **Date** : 2026-09-21
+- **Auteurs** : Kevin David Hayes, Arka Pal, Haosong Zhang, Tom Goldstein, Micah Goldblum
+- **Score** : 7
+- **Résumé** : In high-stakes decision-making applications of large language models (LLMs), practitioners require not only accurate LLMs but also uncertainty estimates for their predictions. Existing approaches to uncertainty estimation for LLMs require access to log-probabilities output by the model or require fi...
+- **Lien** : https://arxiv.org/abs/2609.24881v1
 
-### Zero-shot narrative detection in social messaging
-- **arXiv** : 2609.17310v1
-- **Date** : 2026-09-15
-- **Auteurs** : Jesús M. Fraile-Hernández, Anselmo Peñas, Patrick Giedemann
-- **Score** : 9
-- **Résumé** : This study investigates the zero-shot ability of large language models (LLMs) to identify and classify hidden narratives in social messages. Our research hypothesis is that LLMs' extensive contextual knowledge allows them to interpret messages on a deeper, pragmatic level, going beyond basic sentime...
-- **Lien** : https://arxiv.org/abs/2609.17310v1
+### Partner-Specific Affective Precision in Social Active Inference
+- **arXiv** : 2609.24876v1
+- **Date** : 2026-09-21
+- **Auteurs** : Harshil Shah, Andrew Pashea
+- **Score** : 7
+- **Résumé** : In multi-agent social settings, model reliability varies across relationships. Beyond inferring what others will do, an agent must calibrate how confidently those inferences should guide policy selection for each relationship. An agent may maintain a well-validated model of one partner, a fragile mo...
+- **Lien** : https://arxiv.org/abs/2609.24876v1
 
-### When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control
-- **arXiv** : 2609.17516v1
-- **Date** : 2026-09-15
-- **Auteurs** : Ali Şenol
+### onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction
+- **arXiv** : 2609.24983v1
+- **Date** : 2026-09-21
+- **Auteurs** : Lei Yang, Mengyin Liu, Jia Wang, Hangyu Guo, Liang Zhao
 - **Score** : 6
-- **Résumé** : Large language models can produce fluent answers when their factual support is weak. This paper introduces Chain-of-Self-Questioning (CoSQ), a prompt-only framework that makes answer commitment conditional on an explicit assessment of the information required to answer a question. We evaluate three ...
-- **Lien** : https://arxiv.org/abs/2609.17516v1
+- **Résumé** : We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda adopts token-level correction as its core interaction: while reading a model response, the annotator locates the first inappropriate token and either picks a substitute from the mode...
+- **Lien** : https://arxiv.org/abs/2609.24983v1
 
-### Coupled Calibration and Learning: Mitigating Teacher Bias in LLM Distillation without Target-Domain Reward Feedback
-- **arXiv** : 2609.17474v1
-- **Date** : 2026-09-15
-- **Auteurs** : Haichen Hu, Yuheng Zhang, David Simchi-Levi
+### LoRA-generating hypernetworks for efficient on-device LLM generative personalization
+- **arXiv** : 2609.24979v1
+- **Date** : 2026-09-21
+- **Auteurs** : Sean Augenstein, Li Ding, Jihwan Lee, Keith Rush, Andrey Zhmoginov
 - **Score** : 6
-- **Résumé** : Large language model (LLM) distillation aims to transfer the capabilities of a powerful teacher to a smaller student. Direct imitation, however, can also transfer the teacher's systematic bias and errors. This challenge is particularly pronounced under covariate shift, when the teacher's reliability...
-- **Lien** : https://arxiv.org/abs/2609.17474v1
+- **Résumé** : On-device large language models (`LLMs'), e.g. running on mobile phones, are ripe for improvement via personalization. The limited compute resources of mobile devices impose limits on model scale and thus model quality, making any realizable quality gains highly impactful. At the same time, their pe...
+- **Lien** : https://arxiv.org/abs/2609.24979v1
 
-### Large Language Models Develop Belief State Geometry In-Context
-- **arXiv** : 2609.17376v1
-- **Date** : 2026-09-15
-- **Auteurs** : Daniel Balcells, Andrew Jun Lee, Chirag Rastogi, Paul M. Riechers, Adam Shai
+### RRSI: Regularized Recursive Self-Improvement of Agent Harnesses
+- **arXiv** : 2609.24972v1
+- **Date** : 2026-09-21
+- **Auteurs** : Peng Xia, Rujun Han, Zifeng Wang, Yanfei Chen, Yufan Zhang
 - **Score** : 6
-- **Résumé** : Large language models (LLMs) trained on next-token prediction exhibit remarkable in-context learning (ICL) abilities, yet the representations that support ICL remain poorly understood. We consider such representations in a controlled setting: prompting LLMs with data emitted from hidden Markov model...
-- **Lien** : https://arxiv.org/abs/2609.17376v1
+- **Résumé** : An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent ha...
+- **Lien** : https://arxiv.org/abs/2609.24972v1
 
-### Where Should a Document Live: Context, Representations, or Parameters?
-- **arXiv** : 2609.17346v1
-- **Date** : 2026-09-15
-- **Auteurs** : Nathanaël Carraz Rakotonirina, Momchil Hardalov, Gonzalo Iglesias, Adrià de Gispert
+### Emergent Collusion in Long-Horizon LLM Agent Interaction
+- **arXiv** : 2609.24967v1
+- **Date** : 2026-09-21
+- **Auteurs** : Xinrui Shi, Yanzhe Zhang, Diyi Yang
 - **Score** : 6
-- **Résumé** : To answer questions outside of their pre-training data, large language models (LLMs) need access to new information, which can be presented in the context window as documents, encoded into the model's parameters, or injected as latent representations. However, each of these methods comes with differ...
-- **Lien** : https://arxiv.org/abs/2609.17346v1
+- **Résumé** : LLM agents are increasingly deployed in collaborative settings, yet long-term interaction may give rise to undesirable coordination. We study the emergence of collusion in a long-horizon multi-agent environment: two agents repeatedly complete individual tasks, share task logs, verify each other's wo...
+- **Lien** : https://arxiv.org/abs/2609.24967v1
 
-### JustFit: 200K-Token LLM Serving on a 24 GiB Laptop with Just-in-Time State Management
-- **arXiv** : 2609.17475v1
-- **Date** : 2026-09-15
-- **Auteurs** : Yuhua Chen
+### SLICEChat: Progressive In-Encoder Token Pruning for Whole-Slide Pathology Language Models
+- **arXiv** : 2609.24894v1
+- **Date** : 2026-09-21
+- **Auteurs** : Ali Kerem Bozkurt, Baris Cem Bakay, Ibrahim Kulac, Cigdem Gunduz-Demir, Erkut Erdem
+- **Score** : 6
+- **Résumé** : Whole-slide pathology images (WSIs) contain gigapixel-scale visual content, creating a major scalability challenge for slide-level multimodal large language models (MLLMs). Existing approaches process thousands of patch tokens and typically apply compression only after slide encoding, leaving multim...
+- **Lien** : https://arxiv.org/abs/2609.24894v1
+
+### When Tomorrow Becomes Today: Self-Evolving Policies for Agentic Time-Series Forecasting
+- **arXiv** : 2609.24862v1
+- **Date** : 2026-09-21
+- **Auteurs** : Yifan Hu, Xilin Dai, Zhiyuan Qu, Yiding Liu, Zewei Dong
+- **Score** : 6
+- **Résumé** : Agentic time series forecasting concerns systems whose underlying mechanisms evolve, making the relative effectiveness of numerical models, reasoning strategies, and intervention rules inherently time-varying. Consequently, a time series agent must adapt the forecasts it produces and the orchestrati...
+- **Lien** : https://arxiv.org/abs/2609.24862v1
+
+### Decoding Guardrails: XAI-Guided Perturbation Analysis of Prompt Injection Detection
+- **arXiv** : 2609.24801v1
+- **Date** : 2026-09-21
+- **Auteurs** : Fernando Outeda, Gustavo Betarte, Juan Diego Campo, Fiorella Cravero
+- **Score** : 6
+- **Résumé** : Large language models (LLMs) are increasingly deployed in production systems, raising concerns about their exposure to adversarial manipulation through prompt injection and jailbreak attacks. Classifier-based guardrails, such as Prompt Guard 2, are widely used as a first line of defense against such...
+- **Lien** : https://arxiv.org/abs/2609.24801v1
+
+### When Quantization Preserves Accuracy but Not Evidence: Explanation-Aware Post-Training Quantization for Medical LLMs
+- **arXiv** : 2609.24799v1
+- **Date** : 2026-09-21
+- **Auteurs** : Yeji Kim, Mi-Young Kim, Randy Goebel
+- **Score** : 6
+- **Résumé** : Post-training quantization (PTQ) enables efficient deployment of large language models, and PTQ methods are usually optimized and evaluated with generic reconstruction, perplexity, or answer accuracy. But in explanation-critical domains, preserving only the final answer may be insufficient, since us...
+- **Lien** : https://arxiv.org/abs/2609.24799v1
+
+### DolphinBench: Mapping the Pareto Frontier of Agent Memory
+- **arXiv** : 2609.24971v1
+- **Date** : 2026-09-21
+- **Auteurs** : Soumil Rathi, Deshraj Yadav, Taranjeet Singh
 - **Score** : 4
-- **Résumé** : Capable open-weight models make local coding and reasoning attractive, but their context and execution state strain laptop memory. We present JustFit, an MLX-based inference runtime that combines KVExec for compressed KV execution, PhaseSwap for component residency, and StateTrans for state-preservi...
-- **Lien** : https://arxiv.org/abs/2609.17475v1
+- **Résumé** : Agents today often take real-world actions that depend on long-term memory and context recall over time. However, most current memory benchmarks are built for a conversational question-answer format, where the question itself signals that some fact must be retrieved, and often which one. Moreover, b...
+- **Lien** : https://arxiv.org/abs/2609.24971v1
 
-### Right Tool, Right Job: Native-Language Evaluation, Tokenizer Sensitivity, and Methodological Findings from a French-Only BabyLM
-- **arXiv** : 2609.17435v1
-- **Date** : 2026-09-15
-- **Auteurs** : Adam Zachary Wasserman, David Beauchemin
+### Rare Event Estimation via Iterative Unalignment
+- **arXiv** : 2609.24969v1
+- **Date** : 2026-09-21
+- **Auteurs** : Hanming Yang, Daksh Mittal, Jing Dong, Hongseok Namkoong
 - **Score** : 4
-- **Résumé** : We submit MéTRON-FR, a 125M GPT-2 pretrained on 92.47M words of French, to the BabyLM 2026 Strict track. It scores 85.97 +/- 0.17% on QFrBLiMP (a native Quebec-French benchmark of grammatical minimal pairs) and 62.80% on the BabyLM-weighted leaderboard. A cross-lingual GLUE (General Language Underst...
-- **Lien** : https://arxiv.org/abs/2609.17435v1
+- **Résumé** : As agents are deployed with increased autonomy, even extremely rare events along their stochastic output trajectories can occur and prove catastrophic. Safe deployment therefore does not depend on whether these events can occur, but on how often they might. We study the problem of estimating the pro...
+- **Lien** : https://arxiv.org/abs/2609.24969v1
 
-### Coding Agents Have Converged: Why the SWE-bench Leaderboard Can No Longer Order Its Top Entries, and What to Measure Instead
-- **arXiv** : 2609.17394v1
-- **Date** : 2026-09-15
-- **Auteurs** : Fengshuo Liu, Ying Liu, Ruize Sun, Lie Luo, Siyuan Guo
+### OSWorld-Pro: Process-based Evaluation for Computer Use Agents
+- **arXiv** : 2609.24890v1
+- **Date** : 2026-09-21
+- **Auteurs** : Zhilin Wang, Shaokun Zhang, Yifan Zhang, Hao Zhang, Jin Xu
 - **Score** : 4
-- **Résumé** : Small differences on coding-agent leaderboards are often read as an ordering of systems. We audit whether the published verdicts support this reading, using 254 SWE-bench submissions across four splits without running models. On Verified, the leading two entries each resolve 396 of 500 instances. Th...
-- **Lien** : https://arxiv.org/abs/2609.17394v1
+- **Résumé** : Evaluation of Computer-Use Agents (CUAs) is often limited to the final deliverables they create (at the end of hundreds of steps) and assessed with functional verifiers, as seen in OSWorld. However, such evaluation of end-state performance lacks transparency into how and why agents fail in various t...
+- **Lien** : https://arxiv.org/abs/2609.24890v1
 
-### FlashVector: Agent for Hierarchical Model Serving Stack Optimization
-- **arXiv** : 2609.17391v1
-- **Date** : 2026-09-15
-- **Auteurs** : Qi Wu, Lohan Lemire, Kai Meng, Zhongmou Cai, Raphael Bargues
+### SPECTRA: Adaptive Execution of Speculative Decoding on a Runtime-Reconfigurable Tiled Architecture
+- **arXiv** : 2609.24847v1
+- **Date** : 2026-09-21
+- **Auteurs** : Gabriele Tombesi, William Baisi, Je Yang, Elisavet Lydia Alvanaki, Kevin Lee
 - **Score** : 4
-- **Résumé** : Model serving is one of the largest cost drivers in production recommender systems. Maximizing its throughput requires navigating a deeply layered hierarchy: GPU kernels, the ML framework computation graph, the model server, and on-demand feature processing -- each demanding specialized domain exper...
-- **Lien** : https://arxiv.org/abs/2609.17391v1
+- **Résumé** : LLM inference on edge devices is constrained by computational and memory resources, making efficient autoregressive decoding challenging. Speculative decoding alleviates this bottleneck by generating tokens with a smaller draft model and verifying multiple tokens in parallel with a batched target mo...
+- **Lien** : https://arxiv.org/abs/2609.24847v1
 
-### Vroom-Vroom at SHROOM-Visions: A Multi-Judge Committee for Detecting Hallucinated Spans in Vision-Language Outputs
-- **arXiv** : 2609.17327v1
-- **Date** : 2026-09-15
-- **Auteurs** : Toqeer Ehsan, Nico Penttilä, Richard Schmidt, Arash Hajikhani, Victoria Palacin
-- **Score** : 4
-- **Résumé** : This paper describes our submission to the SHROOM-Visions shared task on detecting and classifying hallucinated character spans in vision-language model outputs across four languages. We employ several fine-tuned vision-language models as independent annotators and combine their span predictions thr...
-- **Lien** : https://arxiv.org/abs/2609.17327v1
-
-### Towards Detecting AI-Assisted Responses in Online Surveys
-- **arXiv** : 2609.17317v1
-- **Date** : 2026-09-15
-- **Auteurs** : Qizhou Wang, Bogdan Mamaev, Christopher Leckie
-- **Score** : 4
-- **Résumé** : The use of LLMs to complete online surveys impacts the validity of survey-based research, but detecting such usage remains underexplored. We introduce an initial benchmark dataset, namely ASURRE, for AI-assisted survey participation to capture usage strategies ranging from full generation and revisi...
-- **Lien** : https://arxiv.org/abs/2609.17317v1
-
-### Mo' Models, Mo' Problems: How to best select model pools when designing Multi-Agent Systems
-- **arXiv** : 2609.17306v1
-- **Date** : 2026-09-15
-- **Auteurs** : Sara Vera Marjanović, Jiacheng Xu, Aleksandr Laptev, Grigor Nalbandyan, Erik Arakelyan
-- **Score** : 4
-- **Résumé** : Multi-agent Systems (MAS) combine multiple model outputs to solve complex reasoning tasks. However, despite rapid growth of available open-source models, there is limited research on how to select optimal model candidates out of this massive pool. We systematically evaluate 8 model selection strateg...
-- **Lien** : https://arxiv.org/abs/2609.17306v1
-
-### ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents
-- **arXiv** : 2609.17523v1
-- **Date** : 2026-09-15
-- **Auteurs** : Shuhan Xue, Jianyuan Zhong, Ziyuan Nan, Wenbin Li, Zhaochen Yu
+### Critical-State RL: Diagnosing Trainable States for Multi-Turn Tool Use
+- **arXiv** : 2609.24985v1
+- **Date** : 2026-09-21
+- **Auteurs** : Zixiang Chen, Wenting Zhao, Zhepeng Cen, Akshara Prabhakar, Jielin Qiu
 - **Score** : 3
-- **Résumé** : We introduce and release ScienceBuddy, an interactive scientific research workspace that brings continually improving scientific agents into researchers' everyday workflows. ScienceBuddy supports researchers in carrying out scientific tasks while transforming their requests, feedback, and execution ...
-- **Lien** : https://arxiv.org/abs/2609.17523v1
+- **Résumé** : Multi-turn tool-use failures can hinge on a single model call, yet reward variation alone does not reveal which call would benefit from training. When rewards depend on later interactions, their variation can reflect downstream randomness rather than differences between the current actions. We intro...
+- **Lien** : https://arxiv.org/abs/2609.24985v1
 
-### LACE: Layer-Wise Compression for Dynamic Frame Rate Codecs
-- **arXiv** : 2609.17509v1
-- **Date** : 2026-09-15
-- **Auteurs** : Thanapat Trachu, Samuele Cornell, William Chen, Shinji Watanabe
+### Harness-Zero: Harness Distillation via Agent-as-Harness
+- **arXiv** : 2609.24974v1
+- **Date** : 2026-09-21
+- **Auteurs** : Haoran Ye, Yuxing Lu, Haonan Dong, Zhaochen Su, Guojie Song
 - **Score** : 3
-- **Résumé** : Neural audio codecs are a key component in speech language modeling. However, their high frame rates lead to long sequence lengths, increasing computational costs. Dynamic frame rate codecs mitigate this by reducing the effective frame rate using a compression step to merge multiple frames together....
-- **Lien** : https://arxiv.org/abs/2609.17509v1
+- **Résumé** : Agent harnesses, the external systems that mediate model-environment interaction, can substantially improve agent performance, but their gains remain tied to the harness at deployment. Because the best harness varies across domains, instances, and models, a general-purpose agent must either settle f...
+- **Lien** : https://arxiv.org/abs/2609.24974v1
 
-### ENCP: Episode-Normalized Conformal Prediction for Vision-and-Language Navigation
-- **arXiv** : 2609.17499v1
-- **Date** : 2026-09-15
-- **Auteurs** : Vicky Feliren, A. Taufiq Asyhari, Muhamad Risqi U. Saputra
+### Learning Physics from an Imperfect Ancestor
+- **arXiv** : 2609.24947v1
+- **Date** : 2026-09-21
+- **Auteurs** : S. Mohammad Mousavi, Teeratorn Kadeethum, Nikolaos Bouklas, Somdatta Goswami
 - **Score** : 3
-- **Résumé** : Uncertainty estimation for Vision-Language-Navigation (VLN) models is a critical task since it can help identify ambiguous and unreliable predictions, enabling agents to make safer navigation decisions. As one of the most advanced uncertainty estimation frameworks, conformal prediction (CP) offers a...
-- **Lien** : https://arxiv.org/abs/2609.17499v1
+- **Résumé** : Neural operators evaluate parametric partial differential equations cheaply but degrade sharply outside their training distribution. Physics-informed neural networks avoid dependence on labeled data, yet their optimization can be basin-fragile: when the governing residual admits multiple solutions, ...
+- **Lien** : https://arxiv.org/abs/2609.24947v1
 
-### Verifiable Social Reasoning for LLM Assistants
-- **arXiv** : 2609.17496v1
-- **Date** : 2026-09-15
-- **Auteurs** : Amir Taubenfeld, Zorik Gekhman, Avigail Grinstein-Dabush, Itay Laish, Ariel Goldstein
+### Conformalized Quantile Regression and Minimax Limits of Fixed-Score Calibration under Known Covariate Shift
+- **arXiv** : 2609.24929v1
+- **Date** : 2026-09-21
+- **Auteurs** : Rustam Isaev, Anton Conrad, Denis Belomestny, Eric Moulines, Sergey Samsonov
 - **Score** : 3
-- **Résumé** : LLM assistants are widely used for daily social advice, yet evaluating their social reasoning in such consultation settings remains challenging since (i) it requires setups where the assistant learns about social situations from subjective user narratives, and (ii) social properties, such as others'...
-- **Lien** : https://arxiv.org/abs/2609.17496v1
-
-### Decomposition Buys Integrity, Not Yield
-- **arXiv** : 2609.17464v1
-- **Date** : 2026-09-15
-- **Auteurs** : Rong He
-- **Score** : 3
-- **Résumé** : Multi-agent systems split a task across a tree of agents and justify the split with folklore: smaller contexts, cleaner separation, parallelism. We ask what the split does to how much of what the leaves discover reaches the root. Model a decomposition as a tree in which an agent handed $b$ items kee...
-- **Lien** : https://arxiv.org/abs/2609.17464v1
+- **Résumé** : In this paper, we study nonasymptotic $L^p$ error bounds for interval length and conditional coverage in split conformalized quantile regression (CQR). Our bounds rely on local regularity conditions and accuracy guarantees for the estimated quantiles. We further instantiate our bounds for quantile r...
+- **Lien** : https://arxiv.org/abs/2609.24929v1
 
 <!-- ARXIV_FEED_END -->
