@@ -117,19 +117,19 @@ New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for <a href=...
 llm -m claude-opus-5.5 "prompt goes here"...
 - **Lien** : https://simonwillison.net/2026/Sep/22/llm-anthropic/
 
+### Ringg’s AI agents resolve up to 65% of customer calls with OpenAI
+- **Source** : OpenAI Blog
+- **Date** : Wed, 23 Sep 2026
+- **Score** : 2
+- **Résumé** : Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1....
+- **Lien** : https://openai.com/index/ringg
+
 ### Parallel cut research time and cost in half with GPT‑6 Astra
 - **Source** : OpenAI Blog
 - **Date** : Tue, 22 Sep 2026
 - **Score** : 2
 - **Résumé** : GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models....
 - **Lien** : https://openai.com/index/parallel-cuts-time-and-cost-with-astra
-
-### How V7 gives AI agents institutional memory
-- **Source** : OpenAI Blog
-- **Date** : Mon, 21 Sep 2026
-- **Score** : 2
-- **Résumé** : Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work....
-- **Lien** : https://openai.com/index/v7
 
 ### LWiAI Podcast #256 - Fable 5.1, Astra Tease, Gemini 3.8 Flash
 - **Source** : Last Week in AI
@@ -159,6 +159,14 @@ llm -m claude-opus-5.5 "prompt goes here"...
 - **Résumé** : congrats to TypeSafe!...
 - **Lien** : https://www.latent.space/p/ainews-jev-a-system-one-model-that
 
+### Gemini 3.8 TTS Playground
+- **Source** : Simon Willison
+- **Date** : 2026-09-23T17:12
+- **Score** : 1
+- **Résumé** : Tool: Gemini 3.8 TTS Playground
+        Google released two new Gemini text-to-speech models...
+- **Lien** : https://simonwillison.net/2026/Sep/23/gemini-tts-playground/
+
 ### llm-typesafe 0.1a0
 - **Source** : Simon Willison
 - **Date** : 2026-09-22T15:54
@@ -173,21 +181,6 @@ llm -m claude-opus-5.5 "prompt goes here"...
 - **Score** : 1
 - **Résumé** : Last week TypeSafe AI unveiled Jev, their first example of a new category of model that they are calling "System One models" (I'm with Maggie Appleton, I think "decision models" is <a h...
 - **Lien** : https://simonwillison.net/2026/Sep/21/jev/
-
-### Quoting voxium
-- **Source** : Simon Willison
-- **Date** : 2026-09-20T21:06
-- **Score** : 1
-- **Résumé** : It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made ...
-- **Lien** : https://simonwillison.net/2026/Sep/20/voxium/
-
-### MCP was always a bad idea?
-- **Source** : Simon Willison
-- **Date** : 2026-09-20T20:24
-- **Score** : 1
-- **Résumé** : My comment on MCP was always a bad idea? &mdash; Hacker News.This article entirely misses the value that MCP brings today.
-Sure, there's almost no reason...
-- **Lien** : https://simonwillison.net/2026/Sep/20/hn-49779718/
 
 ### How UK AISI and EvalEval Are Making Benchmark Results Reproducible
 - **Source** : Hugging Face Blog
@@ -217,6 +210,27 @@ Sure, there's almost no reason...
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/ibm-research/altk-evolve-consistency
 
+### Harvey turns legal context into stronger drafts with GPT-6 Astra
+- **Source** : OpenAI Blog
+- **Date** : Wed, 23 Sep 2026
+- **Score** : 1
+- **Résumé** : GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy....
+- **Lien** : https://openai.com/index/harvey-from-context-to-confidence-with-astra
+
+### How invideo improves color grading 3x with GPT‑6 Astra
+- **Source** : OpenAI Blog
+- **Date** : Wed, 23 Sep 2026
+- **Score** : 1
+- **Résumé** : With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day....
+- **Lien** : https://openai.com/index/invideo-builds-with-gpt-6-astra
+
+### Introducing MentalHealthBench
+- **Source** : OpenAI Blog
+- **Date** : Wed, 23 Sep 2026
+- **Score** : 1
+- **Résumé** : MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations....
+- **Lien** : https://openai.com/index/introducing-mentalhealthbench
+
 ### Better prompt caching for GPT-6
 - **Source** : OpenAI Blog
 - **Date** : Tue, 22 Sep 2026
@@ -231,25 +245,11 @@ Sure, there's almost no reason...
 - **Résumé** : Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost....
 - **Lien** : https://openai.com/index/introducing-gpt-6-sol-and-luna
 
-### Higgsfield AI ships new video features in a day with GPT-6 Astra
-- **Source** : OpenAI Blog
-- **Date** : Mon, 21 Sep 2026
-- **Score** : 1
-- **Résumé** : With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster....
-- **Lien** : https://openai.com/index/higgsfield-from-prompt-to-production-with-astra
-
 ### LWiAI Podcast #253 - Opus 5, Gemini 3.6, Kimi K3, Hugging Face Hack
 - **Source** : Last Week in AI
 - **Date** : Mon, 03 Aug 2026
 - **Score** : 1
 - **Résumé** : Anthropic releases Opus 5 promising Fable 5-like capabilities, Google Releases Three New Gemini A.I. Models, and more!...
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-253-opus-5-gemini-36
-
-### LWiAI Podcast #252 - GPT 5.6, Grok 4.5, Nemotron-Labs-Diffusion, AI 2040
-- **Source** : Last Week in AI
-- **Date** : Tue, 21 Jul 2026
-- **Score** : 1
-- **Résumé** : GPT-5.6 and Grok 4.5, Meta's Muse Spark 1.1, regulatory developments in AI and data centers, interpretability research from Anthropic, and the future of AI policy with AI 2040...
-- **Lien** : https://lastweekin.ai/p/lwiai-podcast-252-gpt-56-grok-45
 
 <!-- BLOG_FEED_END -->
