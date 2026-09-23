@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### GRUET: Quantifying Uncertainty of Agentic Reasoning-and-Acting Processes
-- **arXiv** : 2609.24831v1
-- **Date** : 2026-09-21
-- **Auteurs** : Shuang Liang, Xin-Yu Hu, Shao-Qun Zhang
-- **Score** : 12
-- **Résumé** : Agents have attracted considerably increasing attention due to the power of executing both Reasoning and Acting (ReAct) in open and dynamic environments. The ReAct process typically exhibits a multi-turn trajectory in which one drives Large Language Models (LLMs) to generate both reasoning chains an...
-- **Lien** : https://arxiv.org/abs/2609.24831v1
+### A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem
+- **arXiv** : 2609.26761v1
+- **Date** : 2026-09-22
+- **Auteurs** : Laizhen Li, Xuan Wang, Peicheng Zhao, Juanjuan Zhao, Kejiang Ye
+- **Score** : 10
+- **Résumé** : Agents using the Model Context Protocol (MCP) rely on semantic matching to select tools from third-party servers, exposing a semantic supply-chain risk through attacker-controlled metadata and outputs. We introduce A2M (Attraction-to-Manipulation), a two-stage black-box framework for hijacking MCP a...
+- **Lien** : https://arxiv.org/abs/2609.26761v1
 
-### Trajectory-Aware Benchmark Subset Selection for Cost-Efficient Software Engineering Agent Regression Testing
-- **arXiv** : 2609.24928v1
-- **Date** : 2026-09-21
-- **Auteurs** : Mahmoud Ayyad, Zehao Wang, Jiho Shin, Ying Zou, Bram Adams
-- **Score** : 11
-- **Résumé** : Autonomous software engineering agents (SWE-agents) automate coding tasks. Each agent update may require re-running the full benchmark to detect regressions and improvements, at a cost of hundreds of millions of LLM tokens per run, which makes evaluation a bottleneck. One solution is to evaluate onl...
-- **Lien** : https://arxiv.org/abs/2609.24928v1
+### Semantic Abstraction for Natural Language Inference: a Methodological Framework for Discovering and Compensating Semantic Knowledge and Reasoning Gaps in Large Language Models
+- **arXiv** : 2609.26610v1
+- **Date** : 2026-09-22
+- **Auteurs** : David Torres-Moreno, Jorge Hermosillo-Valadez
+- **Score** : 10
+- **Résumé** : Despite their outstanding performance on many NLP tasks, LLMs face serious challenges related to semantic abstraction. In this study, we are interested in understanding how LLMs leverage abstract semantic knowledge in natural language inference (NLI), which requires sophisticated linguistic capabili...
+- **Lien** : https://arxiv.org/abs/2609.26610v1
 
-### Pinocchio: Fast Uncertainty Estimates for Black-Box Language Models
-- **arXiv** : 2609.24881v1
-- **Date** : 2026-09-21
-- **Auteurs** : Kevin David Hayes, Arka Pal, Haosong Zhang, Tom Goldstein, Micah Goldblum
+### Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents
+- **arXiv** : 2609.26760v1
+- **Date** : 2026-09-22
+- **Auteurs** : Laizhen Li, Jiarui Li, Juanjuan Zhao, Kejiang Ye, Ye Li
+- **Score** : 9
+- **Résumé** : Large language model (LLM) agents often handle streams of related tasks, yet standard harnesses repeatedly ask the model to reconstruct the same control decisions inside each task's context. We study whether task feedback can instead turn recurring control into reusable executable code, while reserv...
+- **Lien** : https://arxiv.org/abs/2609.26760v1
+
+### Greedy Decoding Is Not Precision-Invariant: Cross-Precision Output Divergence in LLM Inference
+- **arXiv** : 2609.26621v1
+- **Date** : 2026-09-22
+- **Auteurs** : Gaoyuan Du, Anam Nawaz Khan, Rex Zhou, Xiaoyang Liu, Deepayan Chakrabarti
+- **Score** : 9
+- **Résumé** : Greedy decoding from large language models is commonly treated as deterministic. We show it is not precision-invariant: the same model, prompt, and decoding algorithm produce different outputs in BF16 versus FP16 on identical hardware. Across our evaluations of six models (1.1B-7B parameters, four f...
+- **Lien** : https://arxiv.org/abs/2609.26621v1
+
+### SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving
+- **arXiv** : 2609.26777v1
+- **Date** : 2026-09-22
+- **Auteurs** : Jennifer Williams, Dave Farris, Jeff Farris, Jiantao Jiao
+- **Score** : 8
+- **Résumé** : We introduce SWE-Serve, a benchmark for evaluating agents on production inference engineering tasks. Implementing an inference feature can require coordinating multiple changes across the serving stack, including model support, runtime execution, and public APIs. Existing benchmarks provide limited ...
+- **Lien** : https://arxiv.org/abs/2609.26777v1
+
+### Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs
+- **arXiv** : 2609.26796v1
+- **Date** : 2026-09-22
+- **Auteurs** : Quan Nguyen-Tri, Mukul Ranjan, Zhiqiang Shen
 - **Score** : 7
-- **Résumé** : In high-stakes decision-making applications of large language models (LLMs), practitioners require not only accurate LLMs but also uncertainty estimates for their predictions. Existing approaches to uncertainty estimation for LLMs require access to log-probabilities output by the model or require fi...
-- **Lien** : https://arxiv.org/abs/2609.24881v1
+- **Résumé** : Diffusion Large Language Models (dLLMs) have recently emerged as a promising alternative to autoregressive LLMs by enabling non-autoregressive text generation. However, their practical deployment remains limited by inefficient inference, largely due to the absence of effective Key-Value (KV) caching...
+- **Lien** : https://arxiv.org/abs/2609.26796v1
 
-### Partner-Specific Affective Precision in Social Active Inference
-- **arXiv** : 2609.24876v1
-- **Date** : 2026-09-21
-- **Auteurs** : Harshil Shah, Andrew Pashea
+### Measuring the Serving Stack Instead of the Model: Hidden Confounds in Local Tool-Use Evaluation
+- **arXiv** : 2609.26693v1
+- **Date** : 2026-09-22
+- **Auteurs** : Lijuan Tang, Yuemeng Zheng
 - **Score** : 7
-- **Résumé** : In multi-agent social settings, model reliability varies across relationships. Beyond inferring what others will do, an agent must calibrate how confidently those inferences should guide policy selection for each relationship. An agent may maintain a well-validated model of one partner, a fragile mo...
-- **Lien** : https://arxiv.org/abs/2609.24876v1
+- **Résumé** : A coding agent must emit a valid tool call--a parseable invocation of a tool in the provided schema--before the harness can execute its chosen action. We study how local serving stacks affect this protocol step and show that measured outcomes can depend on the serving layer rather than model behavio...
+- **Lien** : https://arxiv.org/abs/2609.26693v1
 
-### onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction
-- **arXiv** : 2609.24983v1
-- **Date** : 2026-09-21
-- **Auteurs** : Lei Yang, Mengyin Liu, Jia Wang, Hangyu Guo, Liang Zhao
+### Metrics Failure in LLM-Based Code Vulnerability Repair: An Empirical Study and a Change-Aware Screen
+- **arXiv** : 2609.26749v1
+- **Date** : 2026-09-22
+- **Auteurs** : Om Nepal, Sushant Aryal, Oluseyi Olukola, Nick Rahimi
 - **Score** : 6
-- **Résumé** : We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda adopts token-level correction as its core interaction: while reading a model response, the annotator locates the first inappropriate token and either picks a substitute from the mode...
-- **Lien** : https://arxiv.org/abs/2609.24983v1
+- **Résumé** : Large language models (LLMs) are increasingly applied to the automated repair of C/C++ security vulnerabilities, and compile rate is a commonly reported proxy for progress: whether the generated patch compiles. We argue that compile rate is a scientifically unreliable metric for single-function vuln...
+- **Lien** : https://arxiv.org/abs/2609.26749v1
 
-### LoRA-generating hypernetworks for efficient on-device LLM generative personalization
-- **arXiv** : 2609.24979v1
-- **Date** : 2026-09-21
-- **Auteurs** : Sean Augenstein, Li Ding, Jihwan Lee, Keith Rush, Andrey Zhmoginov
+### Does AI Save Time on Product Design? A Randomized Controlled Experiment of AI Prompt-to-Design Workflows
+- **arXiv** : 2609.26725v1
+- **Date** : 2026-09-22
+- **Auteurs** : Remy Stewart, Olabode Anise, Andrew Hogan, Augustus Griffin
 - **Score** : 6
-- **Résumé** : On-device large language models (`LLMs'), e.g. running on mobile phones, are ripe for improvement via personalization. The limited compute resources of mobile devices impose limits on model scale and thus model quality, making any realizable quality gains highly impactful. At the same time, their pe...
-- **Lien** : https://arxiv.org/abs/2609.24979v1
+- **Résumé** : AI tools for digital product design now offer prompt-to-design capabilities, allowing designers and their non-designer colleagues to create prototypes through conversational workflows with large language models (LLMs). While these tools promise time savings, experimental evidence in product design r...
+- **Lien** : https://arxiv.org/abs/2609.26725v1
 
-### RRSI: Regularized Recursive Self-Improvement of Agent Harnesses
-- **arXiv** : 2609.24972v1
-- **Date** : 2026-09-21
-- **Auteurs** : Peng Xia, Rujun Han, Zifeng Wang, Yanfei Chen, Yufan Zhang
+### Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning
+- **arXiv** : 2609.26704v1
+- **Date** : 2026-09-22
+- **Auteurs** : Ismail Labiad, Matthieu Kowalski, Marc Schoenauer, Rémi Munos, Julia Kempe
 - **Score** : 6
-- **Résumé** : An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent ha...
-- **Lien** : https://arxiv.org/abs/2609.24972v1
+- **Résumé** : Large language models increasingly tackle hard reasoning problems by spending more test-time compute, yet the dominant strategy remains naive repeated sampling: draw many independent solutions and hope one is correct. Because such sampling explores only through local decoding noise, it tends to prod...
+- **Lien** : https://arxiv.org/abs/2609.26704v1
 
-### Emergent Collusion in Long-Horizon LLM Agent Interaction
-- **arXiv** : 2609.24967v1
-- **Date** : 2026-09-21
-- **Auteurs** : Xinrui Shi, Yanzhe Zhang, Diyi Yang
+### From Alignment to Access Control: A Framework for GenAI Policy Enforcement
+- **arXiv** : 2609.26682v1
+- **Date** : 2026-09-22
+- **Auteurs** : Nathalie Baracaldo
 - **Score** : 6
-- **Résumé** : LLM agents are increasingly deployed in collaborative settings, yet long-term interaction may give rise to undesirable coordination. We study the emergence of collusion in a long-horizon multi-agent environment: two agents repeatedly complete individual tasks, share task logs, verify each other's wo...
-- **Lien** : https://arxiv.org/abs/2609.24967v1
+- **Résumé** : Generative AI (GenAI) applications have flourished enabling users to chat with large language models, and to create agents to act on their behalf for a variety of tasks. The pace of development of capabilities in this field is incredibly fast with security and safety taking a back seat. Unfortunatel...
+- **Lien** : https://arxiv.org/abs/2609.26682v1
 
-### SLICEChat: Progressive In-Encoder Token Pruning for Whole-Slide Pathology Language Models
-- **arXiv** : 2609.24894v1
-- **Date** : 2026-09-21
-- **Auteurs** : Ali Kerem Bozkurt, Baris Cem Bakay, Ibrahim Kulac, Cigdem Gunduz-Demir, Erkut Erdem
+### MAGIC: Mixed-Granularity Agent Graphs via Incremental Construction with Dense-Reward Reinforcement Learning
+- **arXiv** : 2609.26667v1
+- **Date** : 2026-09-22
+- **Auteurs** : Kairui Yang, Ziheng Yi, Xunkai Li, Minghao An, Zhanke Liu
 - **Score** : 6
-- **Résumé** : Whole-slide pathology images (WSIs) contain gigapixel-scale visual content, creating a major scalability challenge for slide-level multimodal large language models (MLLMs). Existing approaches process thousands of patch tokens and typically apply compression only after slide encoding, leaving multim...
-- **Lien** : https://arxiv.org/abs/2609.24894v1
+- **Résumé** : Collaboration topology shapes both the performance and execution cost of LLM-based multi-agent systems. Because tasks differ in complexity and required capabilities, recent approaches generate task-specific collaboration graphs that specify agent participation and information flow. However, represen...
+- **Lien** : https://arxiv.org/abs/2609.26667v1
 
-### When Tomorrow Becomes Today: Self-Evolving Policies for Agentic Time-Series Forecasting
-- **arXiv** : 2609.24862v1
-- **Date** : 2026-09-21
-- **Auteurs** : Yifan Hu, Xilin Dai, Zhiyuan Qu, Yiding Liu, Zewei Dong
+### PERSONAWEAVER: Controllable Diversity Beyond Conventional Archetypes in Procedural Character Generation
+- **arXiv** : 2609.26629v1
+- **Date** : 2026-09-22
+- **Auteurs** : Maan Qraitem, Kate Saenko, Bryan A. Plummer
 - **Score** : 6
-- **Résumé** : Agentic time series forecasting concerns systems whose underlying mechanisms evolve, making the relative effectiveness of numerical models, reasoning strategies, and intervention rules inherently time-varying. Consequently, a time series agent must adapt the forecasts it produces and the orchestrati...
-- **Lien** : https://arxiv.org/abs/2609.24862v1
+- **Résumé** : Procedural character generation aims to populate games, simulations, and other virtual worlds with diverse characters. Large language models (LLMs) offer a promising foundation for scaling this task. However, LLM-based procedural character generation remains at an early stage: existing methods eithe...
+- **Lien** : https://arxiv.org/abs/2609.26629v1
 
-### Decoding Guardrails: XAI-Guided Perturbation Analysis of Prompt Injection Detection
-- **arXiv** : 2609.24801v1
-- **Date** : 2026-09-21
-- **Auteurs** : Fernando Outeda, Gustavo Betarte, Juan Diego Campo, Fiorella Cravero
-- **Score** : 6
-- **Résumé** : Large language models (LLMs) are increasingly deployed in production systems, raising concerns about their exposure to adversarial manipulation through prompt injection and jailbreak attacks. Classifier-based guardrails, such as Prompt Guard 2, are widely used as a first line of defense against such...
-- **Lien** : https://arxiv.org/abs/2609.24801v1
+### EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations
+- **arXiv** : 2609.26751v1
+- **Date** : 2026-09-22
+- **Auteurs** : FNU Aditi
+- **Score** : 5
+- **Résumé** : Large language models are increasingly used to generate SystemVerilog Assertions from natural-language specifica- tions and register-transfer-level designs. Existing datasets and benchmarks support important goals such as large- scale training, formal evaluation, specification-to-assertion generatio...
+- **Lien** : https://arxiv.org/abs/2609.26751v1
 
-### When Quantization Preserves Accuracy but Not Evidence: Explanation-Aware Post-Training Quantization for Medical LLMs
-- **arXiv** : 2609.24799v1
-- **Date** : 2026-09-21
-- **Auteurs** : Yeji Kim, Mi-Young Kim, Randy Goebel
-- **Score** : 6
-- **Résumé** : Post-training quantization (PTQ) enables efficient deployment of large language models, and PTQ methods are usually optimized and evaluated with generic reconstruction, perplexity, or answer accuracy. But in explanation-critical domains, preserving only the final answer may be insufficient, since us...
-- **Lien** : https://arxiv.org/abs/2609.24799v1
+### Diffusion Drafts, AR Verifies: Accelerating Document OCR with Self-Speculative Decoding
+- **arXiv** : 2609.26638v1
+- **Date** : 2026-09-22
+- **Auteurs** : Dohyun Kim, Sungjun Han, Hyungguk Kim, Yusik Kim, Jamin Shin
+- **Score** : 5
+- **Résumé** : Autoregressive OCR vision-language models accurately convert document images into text and structured markup, but require one sequential decoding step per output token, limiting inference speed. Unlike open-ended text generation, OCR outputs are strongly grounded in the input image, making diffusion...
+- **Lien** : https://arxiv.org/abs/2609.26638v1
 
-### DolphinBench: Mapping the Pareto Frontier of Agent Memory
-- **arXiv** : 2609.24971v1
-- **Date** : 2026-09-21
-- **Auteurs** : Soumil Rathi, Deshraj Yadav, Taranjeet Singh
+### JEV-as-a-Judge: Accept When Confident, Escalate When Unsure
+- **arXiv** : 2609.26550v1
+- **Date** : 2026-09-22
+- **Auteurs** : Yubo Li, Yidi Miao, Ramayya Krishnan, Rema Padman
+- **Score** : 5
+- **Résumé** : LLM-as-a-judge enables evaluation across diverse tasks, but inference cost and confidence reliability become critical at scale. We study whether a decision-only judge can provide an economical first pass and identify when stronger evaluation is needed. Comparing jev-as-a-judge with sixteen generativ...
+- **Lien** : https://arxiv.org/abs/2609.26550v1
+
+### Optimal Sequential Annotations for Off-Policy Evaluation
+- **arXiv** : 2609.26707v1
+- **Date** : 2026-09-22
+- **Auteurs** : Woojin Chae, Ezinne Nwankwo, Haitong Qin, Angela Zhou
 - **Score** : 4
-- **Résumé** : Agents today often take real-world actions that depend on long-term memory and context recall over time. However, most current memory benchmarks are built for a conversational question-answer format, where the question itself signals that some fact must be retrieved, and often which one. Moreover, b...
-- **Lien** : https://arxiv.org/abs/2609.24971v1
+- **Résumé** : Offline reinforcement learning and off-policy evaluation evaluates dynamic treatment rules based on retrospectively collected data prior to deployment. In recent AI applications, state and reward information is recorded as complex text or image, which recent AI advancements such as LLM-as-a-judge ca...
+- **Lien** : https://arxiv.org/abs/2609.26707v1
 
-### Rare Event Estimation via Iterative Unalignment
-- **arXiv** : 2609.24969v1
-- **Date** : 2026-09-21
-- **Auteurs** : Hanming Yang, Daksh Mittal, Jing Dong, Hongseok Namkoong
-- **Score** : 4
-- **Résumé** : As agents are deployed with increased autonomy, even extremely rare events along their stochastic output trajectories can occur and prove catastrophic. Safe deployment therefore does not depend on whether these events can occur, but on how often they might. We study the problem of estimating the pro...
-- **Lien** : https://arxiv.org/abs/2609.24969v1
-
-### OSWorld-Pro: Process-based Evaluation for Computer Use Agents
-- **arXiv** : 2609.24890v1
-- **Date** : 2026-09-21
-- **Auteurs** : Zhilin Wang, Shaokun Zhang, Yifan Zhang, Hao Zhang, Jin Xu
-- **Score** : 4
-- **Résumé** : Evaluation of Computer-Use Agents (CUAs) is often limited to the final deliverables they create (at the end of hundreds of steps) and assessed with functional verifiers, as seen in OSWorld. However, such evaluation of end-state performance lacks transparency into how and why agents fail in various t...
-- **Lien** : https://arxiv.org/abs/2609.24890v1
-
-### SPECTRA: Adaptive Execution of Speculative Decoding on a Runtime-Reconfigurable Tiled Architecture
-- **arXiv** : 2609.24847v1
-- **Date** : 2026-09-21
-- **Auteurs** : Gabriele Tombesi, William Baisi, Je Yang, Elisavet Lydia Alvanaki, Kevin Lee
-- **Score** : 4
-- **Résumé** : LLM inference on edge devices is constrained by computational and memory resources, making efficient autoregressive decoding challenging. Speculative decoding alleviates this bottleneck by generating tokens with a smaller draft model and verifying multiple tokens in parallel with a batched target mo...
-- **Lien** : https://arxiv.org/abs/2609.24847v1
-
-### Critical-State RL: Diagnosing Trainable States for Multi-Turn Tool Use
-- **arXiv** : 2609.24985v1
-- **Date** : 2026-09-21
-- **Auteurs** : Zixiang Chen, Wenting Zhao, Zhepeng Cen, Akshara Prabhakar, Jielin Qiu
+### Agensh: Scaling Organizational Intelligence to 1,024 Agents
+- **arXiv** : 2609.26781v1
+- **Date** : 2026-09-22
+- **Auteurs** : Zhihao Zhan, Ting Song, Li Dong, Shaohan Huang, Jianxun Lian
 - **Score** : 3
-- **Résumé** : Multi-turn tool-use failures can hinge on a single model call, yet reward variation alone does not reveal which call would benefit from training. When rewards depend on later interactions, their variation can reflect downstream randomness rather than differences between the current actions. We intro...
-- **Lien** : https://arxiv.org/abs/2609.24985v1
+- **Résumé** : A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness frameworks support multi-agent systems. However, the scalability of current multi-agent harnesses is often constrained by a central orchestrator's capacity to allocate tasks and coordi...
+- **Lien** : https://arxiv.org/abs/2609.26781v1
 
-### Harness-Zero: Harness Distillation via Agent-as-Harness
-- **arXiv** : 2609.24974v1
-- **Date** : 2026-09-21
-- **Auteurs** : Haoran Ye, Yuxing Lu, Haonan Dong, Zhaochen Su, Guojie Song
+### CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents
+- **arXiv** : 2609.26779v1
+- **Date** : 2026-09-22
+- **Auteurs** : Trang Nguyen, Eulrang Cho, Bingqing Chen, Tim Dettmers
 - **Score** : 3
-- **Résumé** : Agent harnesses, the external systems that mediate model-environment interaction, can substantially improve agent performance, but their gains remain tied to the harness at deployment. Because the best harness varies across domains, instances, and models, a general-purpose agent must either settle f...
-- **Lien** : https://arxiv.org/abs/2609.24974v1
+- **Résumé** : Agents often work on complex problems that require millions of tokens of context, which necessitates compacting across sessions due to limited context windows. We develop CliffCompaction, an autocompaction technique that reduces cost by up to 50% under a bounded context while maintaining or improvin...
+- **Lien** : https://arxiv.org/abs/2609.26779v1
 
-### Learning Physics from an Imperfect Ancestor
-- **arXiv** : 2609.24947v1
-- **Date** : 2026-09-21
-- **Auteurs** : S. Mohammad Mousavi, Teeratorn Kadeethum, Nikolaos Bouklas, Somdatta Goswami
+### The Sirens' Song: When Proximal Background Context Overshadows Distant Evidence
+- **arXiv** : 2609.26718v1
+- **Date** : 2026-09-22
+- **Auteurs** : Xiaoyu Yang, Jie Lu, Wei Duan, En Yu
 - **Score** : 3
-- **Résumé** : Neural operators evaluate parametric partial differential equations cheaply but degrade sharply outside their training distribution. Physics-informed neural networks avoid dependence on labeled data, yet their optimization can be basin-fragile: when the governing residual admits multiple solutions, ...
-- **Lien** : https://arxiv.org/abs/2609.24947v1
-
-### Conformalized Quantile Regression and Minimax Limits of Fixed-Score Calibration under Known Covariate Shift
-- **arXiv** : 2609.24929v1
-- **Date** : 2026-09-21
-- **Auteurs** : Rustam Isaev, Anton Conrad, Denis Belomestny, Eric Moulines, Sergey Samsonov
-- **Score** : 3
-- **Résumé** : In this paper, we study nonasymptotic $L^p$ error bounds for interval length and conditional coverage in split conformalized quantile regression (CQR). Our bounds rely on local regularity conditions and accuracy guarantees for the estimated quantiles. We further instantiate our bounds for quantile r...
-- **Lien** : https://arxiv.org/abs/2609.24929v1
+- **Résumé** : Long-context LLMs focus on retrieving distant evidence from extensive context, yet existing work has largely focused on overcoming distance alone. In this work, we identify the Proximity Trap, insufficient attention to distant evidence often arises less from distance itself than from cumulative comp...
+- **Lien** : https://arxiv.org/abs/2609.26718v1
 
 <!-- ARXIV_FEED_END -->

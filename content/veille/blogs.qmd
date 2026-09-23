@@ -76,14 +76,53 @@ graph LR
 - **Résumé** : GPT-6 Astra Is Here, Discovery of a new OpenAI agent message board, Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-343-gpt-6-openais
 
-### llm-keys-ui 0.1
+### [AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%
+- **Source** : latent.space
+- **Date** : Wed, 23 Sep 2026
+- **Score** : 2
+- **Résumé** : overshadowing more efficient GPT6 models from OpenAI...
+- **Lien** : https://www.latent.space/p/ainews-claude-opus-55-the-new-default
+
+### SF October 14th: A Birds of a Feather Session on Agentic Engineering
 - **Source** : Simon Willison
-- **Date** : 2026-09-20T19:22
-- **Score** : 3
-- **Résumé** : Release: llm-keys-ui 0.1
-        This plugin solves a very specific problem.
-I've started using Codex Remote to run coding agents on various mach...
-- **Lien** : https://simonwillison.net/2026/Sep/20/llm-keys-ui/
+- **Date** : 2026-09-23T02:53
+- **Score** : 2
+- **Résumé** : SF October 14th: A Birds of a Feather Session on Agentic Engineering
+I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and in...
+- **Lien** : https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/
+
+### Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war
+- **Source** : Simon Willison
+- **Date** : 2026-09-22T23:46
+- **Score** : 2
+- **Résumé** : Yesterday was Grok 4.7 (pelicans) and MiMo v2.6 Flash/Pro (more pelicans</...
+- **Lien** : https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/
+
+### llm 0.36
+- **Source** : Simon Willison
+- **Date** : 2026-09-22T18:48
+- **Score** : 2
+- **Résumé** : Release: llm 0.36
+        
+
+New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for <a href=...
+- **Lien** : https://simonwillison.net/2026/Sep/22/llm/
+
+### llm-anthropic 0.29
+- **Source** : Simon Willison
+- **Date** : 2026-09-22T17:14
+- **Score** : 2
+- **Résumé** : Release: llm-anthropic 0.29
+        Adds support for Claude Opus 5.5:
+llm -m claude-opus-5.5 "prompt goes here"...
+- **Lien** : https://simonwillison.net/2026/Sep/22/llm-anthropic/
+
+### Parallel cut research time and cost in half with GPT‑6 Astra
+- **Source** : OpenAI Blog
+- **Date** : Tue, 22 Sep 2026
+- **Score** : 2
+- **Résumé** : GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models....
+- **Lien** : https://openai.com/index/parallel-cuts-time-and-cost-with-astra
 
 ### How V7 gives AI agents institutional memory
 - **Source** : OpenAI Blog
@@ -150,14 +189,6 @@ I've started using Codex Remote to run coding agents on various mach...
 Sure, there's almost no reason...
 - **Lien** : https://simonwillison.net/2026/Sep/20/hn-49779718/
 
-### datasette-auth-github 1.0
-- **Source** : Simon Willison
-- **Date** : 2026-09-19T19:52
-- **Score** : 1
-- **Résumé** : Release: datasette-auth-github 1.0
-        I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessio...
-- **Lien** : https://simonwillison.net/2026/Sep/19/datasette-auth-github/
-
 ### How UK AISI and EvalEval Are Making Benchmark Results Reproducible
 - **Source** : Hugging Face Blog
 - **Date** : Tue, 22 Sep 2026
@@ -207,13 +238,6 @@ Sure, there's almost no reason...
 - **Résumé** : With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster....
 - **Lien** : https://openai.com/index/higgsfield-from-prompt-to-production-with-astra
 
-### How Cooley is accelerating IPO work with ChatGPT
-- **Source** : OpenAI Blog
-- **Date** : Thu, 17 Sep 2026
-- **Score** : 1
-- **Résumé** : Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most....
-- **Lien** : https://openai.com/index/cooley-gopublic
-
 ### LWiAI Podcast #253 - Opus 5, Gemini 3.6, Kimi K3, Hugging Face Hack
 - **Source** : Last Week in AI
 - **Date** : Mon, 03 Aug 2026
@@ -227,19 +251,5 @@ Sure, there's almost no reason...
 - **Score** : 1
 - **Résumé** : GPT-5.6 and Grok 4.5, Meta's Muse Spark 1.1, regulatory developments in AI and data centers, interpretability research from Anthropic, and the future of AI policy with AI 2040...
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-252-gpt-56-grok-45
-
-### Last Week in AI #251 - Mythos Back, Sonnet 5, Etched, LongCat
-- **Source** : Last Week in AI
-- **Date** : Tue, 21 Jul 2026
-- **Score** : 1
-- **Résumé** : Trump lifts restrictions on Anthropic, Anthropic launches Claude Sonnet 5, Google's NotebookLM updates, chips stories from Etched and Baidu, and more!...
-- **Lien** : https://lastweekin.ai/p/last-week-in-ai-251-mythos-back-sonnet
-
-### Last Week in AI #250 - Mythos Mess, GPT 5.6-Sol, GLM 5.2
-- **Source** : Last Week in AI
-- **Date** : Tue, 21 Jul 2026
-- **Score** : 1
-- **Résumé** : Anthropic's AI treaty discussions, US government's influence on AI model releases, OpenAI's processor development, memory market impacts, and more!...
-- **Lien** : https://lastweekin.ai/p/last-week-in-ai-250-mythos-mess-gpt
 
 <!-- BLOG_FEED_END -->
