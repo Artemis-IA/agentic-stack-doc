@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem
-- **arXiv** : 2609.26761v1
-- **Date** : 2026-09-22
-- **Auteurs** : Laizhen Li, Xuan Wang, Peicheng Zhao, Juanjuan Zhao, Kejiang Ye
-- **Score** : 10
-- **Résumé** : Agents using the Model Context Protocol (MCP) rely on semantic matching to select tools from third-party servers, exposing a semantic supply-chain risk through attacker-controlled metadata and outputs. We introduce A2M (Attraction-to-Manipulation), a two-stage black-box framework for hijacking MCP a...
-- **Lien** : https://arxiv.org/abs/2609.26761v1
+### Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer
+- **arXiv** : 2609.28372v1
+- **Date** : 2026-09-23
+- **Auteurs** : Davood Wadi, Yu Ma
+- **Score** : 12
+- **Résumé** : Consumers increasingly delegate purchasing decisions to Large Language Models (LLMs) acting as surrogate consumers. Using "Tool-Lab," an adaptation of information-board process tracing that places product attributes behind costly tool calls, we examine how marketing pricing cues (i.e., just-below pr...
+- **Lien** : https://arxiv.org/abs/2609.28372v1
 
-### Semantic Abstraction for Natural Language Inference: a Methodological Framework for Discovering and Compensating Semantic Knowledge and Reasoning Gaps in Large Language Models
-- **arXiv** : 2609.26610v1
-- **Date** : 2026-09-22
-- **Auteurs** : David Torres-Moreno, Jorge Hermosillo-Valadez
-- **Score** : 10
-- **Résumé** : Despite their outstanding performance on many NLP tasks, LLMs face serious challenges related to semantic abstraction. In this study, we are interested in understanding how LLMs leverage abstract semantic knowledge in natural language inference (NLI), which requires sophisticated linguistic capabili...
-- **Lien** : https://arxiv.org/abs/2609.26610v1
+### Controlling Collectives of AI Agents in Reasoning Space with Spatial Transformers
+- **arXiv** : 2609.28247v1
+- **Date** : 2026-09-23
+- **Auteurs** : Frederic Vatnsdal, Roshan Gopal, Romina Garcia Camargo, Vijay Kumar, Alejandro Ribeiro
+- **Score** : 12
+- **Résumé** : Large Language Models (LLMs) introduce an exciting new paradigm for planning and navigation in robotics, but fail on even simple multi-robot tasks as team sizes grow. We propose COMPASS, a scalable, decentralized multi-robot architecture for controlling large collectives of agentic robots with reaso...
+- **Lien** : https://arxiv.org/abs/2609.28247v1
 
-### Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents
-- **arXiv** : 2609.26760v1
-- **Date** : 2026-09-22
-- **Auteurs** : Laizhen Li, Jiarui Li, Juanjuan Zhao, Kejiang Ye, Ye Li
+### Agent-Editing World Model: Rethinking World Modeling for LLM Agents
+- **arXiv** : 2609.28416v1
+- **Date** : 2026-09-23
+- **Auteurs** : Shuang Sun, Guoxin Chen, Fanzhe Meng, Jia Deng, Huatong Song
 - **Score** : 9
-- **Résumé** : Large language model (LLM) agents often handle streams of related tasks, yet standard harnesses repeatedly ask the model to reconstruct the same control decisions inside each task's context. We study whether task feedback can instead turn recurring control into reusable executable code, while reserv...
-- **Lien** : https://arxiv.org/abs/2609.26760v1
+- **Résumé** : Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further improve agent performance, existing language world models typically predict environment observations, yet reconstructing high-entropy, execution-dependent tool res...
+- **Lien** : https://arxiv.org/abs/2609.28416v1
 
-### Greedy Decoding Is Not Precision-Invariant: Cross-Precision Output Divergence in LLM Inference
-- **arXiv** : 2609.26621v1
-- **Date** : 2026-09-22
-- **Auteurs** : Gaoyuan Du, Anam Nawaz Khan, Rex Zhou, Xiaoyang Liu, Deepayan Chakrabarti
-- **Score** : 9
-- **Résumé** : Greedy decoding from large language models is commonly treated as deterministic. We show it is not precision-invariant: the same model, prompt, and decoding algorithm produce different outputs in BF16 versus FP16 on identical hardware. Across our evaluations of six models (1.1B-7B parameters, four f...
-- **Lien** : https://arxiv.org/abs/2609.26621v1
-
-### SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving
-- **arXiv** : 2609.26777v1
-- **Date** : 2026-09-22
-- **Auteurs** : Jennifer Williams, Dave Farris, Jeff Farris, Jiantao Jiao
+### Can LLMs Reason About Runtime Behavior? A Repository-Level Dynamic Benchmark
+- **arXiv** : 2609.28449v1
+- **Date** : 2026-09-23
+- **Auteurs** : Hamed Taherkhani, Mohammad Abdollahi, Melika Sepidband, Hridya Dhulipala, Tien N. Nguyen
 - **Score** : 8
-- **Résumé** : We introduce SWE-Serve, a benchmark for evaluating agents on production inference engineering tasks. Implementing an inference feature can require coordinating multiple changes across the serving stack, including model support, runtime execution, and public APIs. Existing benchmarks provide limited ...
-- **Lien** : https://arxiv.org/abs/2609.26777v1
+- **Résumé** : Large language models (LLMs) are increasingly used in coding tasks, but their ability to reason about code execution remains unclear. Existing repository-level QA benchmarks mainly evaluate static code understanding and often rely on LLM-based evaluation, while execution-reasoning benchmarks are mos...
+- **Lien** : https://arxiv.org/abs/2609.28449v1
 
-### Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs
-- **arXiv** : 2609.26796v1
-- **Date** : 2026-09-22
-- **Auteurs** : Quan Nguyen-Tri, Mukul Ranjan, Zhiqiang Shen
+### Fine-Tuning LLMs for Translation: General Forgetting Mitigation Does Not Preserve MT-Specific Instruction Following
+- **arXiv** : 2609.28395v1
+- **Date** : 2026-09-23
+- **Auteurs** : Niklas Scholz, David Thulke, Abdallah Nasir, Will Allred, Evgeny Matusov
 - **Score** : 7
-- **Résumé** : Diffusion Large Language Models (dLLMs) have recently emerged as a promising alternative to autoregressive LLMs by enabling non-autoregressive text generation. However, their practical deployment remains limited by inefficient inference, largely due to the absence of effective Key-Value (KV) caching...
-- **Lien** : https://arxiv.org/abs/2609.26796v1
+- **Résumé** : Fine-tuning large language models on parallel data improves translation quality but can cause catastrophic forgetting. Mitigation methods are generally evaluated by retention on general benchmarks. We ask whether these findings transfer to machine translation (MT) fine-tuning and to MT-specific inst...
+- **Lien** : https://arxiv.org/abs/2609.28395v1
 
-### Measuring the Serving Stack Instead of the Model: Hidden Confounds in Local Tool-Use Evaluation
-- **arXiv** : 2609.26693v1
-- **Date** : 2026-09-22
-- **Auteurs** : Lijuan Tang, Yuemeng Zheng
+### Resource-Adaptive Stochastic Gradient Descent for Online Linear Programming without Re-solving
+- **arXiv** : 2609.28263v1
+- **Date** : 2026-09-23
+- **Auteurs** : Jiameng Lyu
 - **Score** : 7
-- **Résumé** : A coding agent must emit a valid tool call--a parseable invocation of a tool in the provided schema--before the harness can execute its chosen action. We study how local serving stacks affect this protocol step and show that measured outcomes can depend on the serving layer rather than model behavio...
-- **Lien** : https://arxiv.org/abs/2609.26693v1
+- **Résumé** : The growth of large language model (LLM) inference and search services increases the scale of online linear programming problems, motivating computationally efficient algorithms. We develop resource-adaptive stochastic gradient descent (RASGD) for stochastic online linear programming. The algorithm ...
+- **Lien** : https://arxiv.org/abs/2609.28263v1
 
-### Metrics Failure in LLM-Based Code Vulnerability Repair: An Empirical Study and a Change-Aware Screen
-- **arXiv** : 2609.26749v1
-- **Date** : 2026-09-22
-- **Auteurs** : Om Nepal, Sushant Aryal, Oluseyi Olukola, Nick Rahimi
+### From Agent Output to Authorized Transition
+- **arXiv** : 2609.28216v1
+- **Date** : 2026-09-23
+- **Auteurs** : Christopher Koch
+- **Score** : 7
+- **Résumé** : Agentic engineering systems can edit repositories, run tools and tests, build firmware, synthesize schematics, and prepare deployable or manufacturable artifacts. The assurance problem is therefore shifting from whether an agent can produce an output to whether an engineering lifecycle is justified ...
+- **Lien** : https://arxiv.org/abs/2609.28216v1
+
+### AnchorReasoning: A Visual Grounding and Causal Reasoning Dataset in Long-Tail Autonomous Driving Scenarios
+- **arXiv** : 2609.28366v1
+- **Date** : 2026-09-23
+- **Auteurs** : Zhipeng Bao, Wenjie Zhao, Tianle Zhu, Haohua Que, Chence Yang
 - **Score** : 6
-- **Résumé** : Large language models (LLMs) are increasingly applied to the automated repair of C/C++ security vulnerabilities, and compile rate is a commonly reported proxy for progress: whether the generated patch compiles. We argue that compile rate is a scientifically unreliable metric for single-function vuln...
-- **Lien** : https://arxiv.org/abs/2609.26749v1
+- **Résumé** : Vision-language models (VLMs) offer a promising approach to long-tail autonomous driving, but existing driving datasets provide limited supervision for connecting decision-critical visual evidence with reasoning and planning. We introduce AnchorReasoning, a visually grounded reasoning dataset built ...
+- **Lien** : https://arxiv.org/abs/2609.28366v1
 
-### Does AI Save Time on Product Design? A Randomized Controlled Experiment of AI Prompt-to-Design Workflows
-- **arXiv** : 2609.26725v1
-- **Date** : 2026-09-22
-- **Auteurs** : Remy Stewart, Olabode Anise, Andrew Hogan, Augustus Griffin
+### Computation Over Geometry: Meaning Identity Is Computed, Not Shipped in the Embeddings
+- **arXiv** : 2609.28290v1
+- **Date** : 2026-09-23
+- **Auteurs** : Jiaqi Deng
 - **Score** : 6
-- **Résumé** : AI tools for digital product design now offer prompt-to-design capabilities, allowing designers and their non-designer colleagues to create prototypes through conversational workflows with large language models (LLMs). While these tools promise time savings, experimental evidence in product design r...
-- **Lien** : https://arxiv.org/abs/2609.26725v1
+- **Résumé** : Meaning identity (whether two sentences say the same thing after wording changes) is treated in retrieval and RAG as a geometric fact about independently encoded sentence vectors. We show that, for frozen off-the-shelf encoders and language models, it is not: identity is computed when both sentences...
+- **Lien** : https://arxiv.org/abs/2609.28290v1
 
-### Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning
-- **arXiv** : 2609.26704v1
-- **Date** : 2026-09-22
-- **Auteurs** : Ismail Labiad, Matthieu Kowalski, Marc Schoenauer, Rémi Munos, Julia Kempe
+### Complementary Roles of Activation and Parametric Memory in Few-Shot Learning
+- **arXiv** : 2609.28250v1
+- **Date** : 2026-09-23
+- **Auteurs** : Miaohe Niu, Runsong Zhao, Xinyu Liu, Bo Jin, Yucheng Qiao
 - **Score** : 6
-- **Résumé** : Large language models increasingly tackle hard reasoning problems by spending more test-time compute, yet the dominant strategy remains naive repeated sampling: draw many independent solutions and hope one is correct. Because such sampling explores only through local decoding noise, it tends to prod...
-- **Lien** : https://arxiv.org/abs/2609.26704v1
+- **Résumé** : At test time, large language models (LLMs) can encode historical information in activation memory (i.e., KV caches) and parametric memory (i.e., updated parameters). While activation memory is generally considered effective for factual recall and parametric memory for learning new tasks, their inter...
+- **Lien** : https://arxiv.org/abs/2609.28250v1
 
-### From Alignment to Access Control: A Framework for GenAI Policy Enforcement
-- **arXiv** : 2609.26682v1
-- **Date** : 2026-09-22
-- **Auteurs** : Nathalie Baracaldo
+### Beyond Poetry: Can Large Language Models Generate Classical Arabic Maqamat?
+- **arXiv** : 2609.28245v1
+- **Date** : 2026-09-23
+- **Auteurs** : AbdulRahman A. Morsy, Aya Zirikly
 - **Score** : 6
-- **Résumé** : Generative AI (GenAI) applications have flourished enabling users to chat with large language models, and to create agents to act on their behalf for a variety of tasks. The pace of development of capabilities in this field is incredibly fast with security and safety taking a back seat. Unfortunatel...
-- **Lien** : https://arxiv.org/abs/2609.26682v1
+- **Résumé** : Large language models (LLMs) have shown strong performance in creative text generation, yet their ability to produce culturally grounded and stylistically constrained literary forms remains underexplored. Prior work has focused largely on modern language varieties and poetry, while classical prose t...
+- **Lien** : https://arxiv.org/abs/2609.28245v1
 
-### MAGIC: Mixed-Granularity Agent Graphs via Incremental Construction with Dense-Reward Reinforcement Learning
-- **arXiv** : 2609.26667v1
-- **Date** : 2026-09-22
-- **Auteurs** : Kairui Yang, Ziheng Yi, Xunkai Li, Minghao An, Zhanke Liu
-- **Score** : 6
-- **Résumé** : Collaboration topology shapes both the performance and execution cost of LLM-based multi-agent systems. Because tasks differ in complexity and required capabilities, recent approaches generate task-specific collaboration graphs that specify agent participation and information flow. However, represen...
-- **Lien** : https://arxiv.org/abs/2609.26667v1
-
-### PERSONAWEAVER: Controllable Diversity Beyond Conventional Archetypes in Procedural Character Generation
-- **arXiv** : 2609.26629v1
-- **Date** : 2026-09-22
-- **Auteurs** : Maan Qraitem, Kate Saenko, Bryan A. Plummer
-- **Score** : 6
-- **Résumé** : Procedural character generation aims to populate games, simulations, and other virtual worlds with diverse characters. Large language models (LLMs) offer a promising foundation for scaling this task. However, LLM-based procedural character generation remains at an early stage: existing methods eithe...
-- **Lien** : https://arxiv.org/abs/2609.26629v1
-
-### EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations
-- **arXiv** : 2609.26751v1
-- **Date** : 2026-09-22
-- **Auteurs** : FNU Aditi
+### Learning the Cost of Reliable Inference
+- **arXiv** : 2609.28322v1
+- **Date** : 2026-09-23
+- **Auteurs** : Dimitrios Rontogiannis, Ander Artola Velasco, Manuel Gomez Rodriguez
 - **Score** : 5
-- **Résumé** : Large language models are increasingly used to generate SystemVerilog Assertions from natural-language specifica- tions and register-transfer-level designs. Existing datasets and benchmarks support important goals such as large- scale training, formal evaluation, specification-to-assertion generatio...
-- **Lien** : https://arxiv.org/abs/2609.26751v1
+- **Résumé** : Benchmarking and routing platforms increasingly act as intermediaries connecting large language model providers with end-users. However, providers on these platforms typically use a fixed price per token, preventing users from achieving the most competitive price for their tasks. % workloads. In thi...
+- **Lien** : https://arxiv.org/abs/2609.28322v1
 
-### Diffusion Drafts, AR Verifies: Accelerating Document OCR with Self-Speculative Decoding
-- **arXiv** : 2609.26638v1
-- **Date** : 2026-09-22
-- **Auteurs** : Dohyun Kim, Sungjun Han, Hyungguk Kim, Yusik Kim, Jamin Shin
-- **Score** : 5
-- **Résumé** : Autoregressive OCR vision-language models accurately convert document images into text and structured markup, but require one sequential decoding step per output token, limiting inference speed. Unlike open-ended text generation, OCR outputs are strongly grounded in the input image, making diffusion...
-- **Lien** : https://arxiv.org/abs/2609.26638v1
-
-### JEV-as-a-Judge: Accept When Confident, Escalate When Unsure
-- **arXiv** : 2609.26550v1
-- **Date** : 2026-09-22
-- **Auteurs** : Yubo Li, Yidi Miao, Ramayya Krishnan, Rema Padman
-- **Score** : 5
-- **Résumé** : LLM-as-a-judge enables evaluation across diverse tasks, but inference cost and confidence reliability become critical at scale. We study whether a decision-only judge can provide an economical first pass and identify when stronger evaluation is needed. Comparing jev-as-a-judge with sixteen generativ...
-- **Lien** : https://arxiv.org/abs/2609.26550v1
-
-### Optimal Sequential Annotations for Off-Policy Evaluation
-- **arXiv** : 2609.26707v1
-- **Date** : 2026-09-22
-- **Auteurs** : Woojin Chae, Ezinne Nwankwo, Haitong Qin, Angela Zhou
-- **Score** : 4
-- **Résumé** : Offline reinforcement learning and off-policy evaluation evaluates dynamic treatment rules based on retrospectively collected data prior to deployment. In recent AI applications, state and reward information is recorded as complex text or image, which recent AI advancements such as LLM-as-a-judge ca...
-- **Lien** : https://arxiv.org/abs/2609.26707v1
-
-### Agensh: Scaling Organizational Intelligence to 1,024 Agents
-- **arXiv** : 2609.26781v1
-- **Date** : 2026-09-22
-- **Auteurs** : Zhihao Zhan, Ting Song, Li Dong, Shaohan Huang, Jianxun Lian
+### Memory Attention
+- **arXiv** : 2609.28399v1
+- **Date** : 2026-09-23
+- **Auteurs** : Jiale Kang
 - **Score** : 3
-- **Résumé** : A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness frameworks support multi-agent systems. However, the scalability of current multi-agent harnesses is often constrained by a central orchestrator's capacity to allocate tasks and coordi...
-- **Lien** : https://arxiv.org/abs/2609.26781v1
+- **Résumé** : Language models typically construct attention values from contextual hidden states, even when some of their content may be reusable across contexts. We investigate whether token-indexed memory can replace the dedicated value projection when complemented by contextual information. We propose Memory A...
+- **Lien** : https://arxiv.org/abs/2609.28399v1
 
-### CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents
-- **arXiv** : 2609.26779v1
-- **Date** : 2026-09-22
-- **Auteurs** : Trang Nguyen, Eulrang Cho, Bingqing Chen, Tim Dettmers
+### ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control
+- **arXiv** : 2609.28378v1
+- **Date** : 2026-09-23
+- **Auteurs** : Xukun Luan, Zhongxiang Lei, Chen Gong, Shaowei Li, Yuanguo Bi
 - **Score** : 3
-- **Résumé** : Agents often work on complex problems that require millions of tokens of context, which necessitates compacting across sessions due to limited context windows. We develop CliffCompaction, an autocompaction technique that reduces cost by up to 50% under a bounded context while maintaining or improvin...
-- **Lien** : https://arxiv.org/abs/2609.26779v1
+- **Résumé** : Humanoid control, leveraging human demonstrations, has achieved diverse, agile, and natural locomotion behaviors through reinforcement learning (RL). While this paradigm has yielded remarkable performance in physical humanoid control, how to eliminate specific motions from learned policies remains i...
+- **Lien** : https://arxiv.org/abs/2609.28378v1
 
-### The Sirens' Song: When Proximal Background Context Overshadows Distant Evidence
-- **arXiv** : 2609.26718v1
-- **Date** : 2026-09-22
-- **Auteurs** : Xiaoyu Yang, Jie Lu, Wei Duan, En Yu
+### Mizar: A 159M-Parameter Audio-Language Model for Audio Understanding
+- **arXiv** : 2609.28344v1
+- **Date** : 2026-09-23
+- **Auteurs** : Kaiyang Li, Shaobo Han, Yue Tian, Shihao Ji
 - **Score** : 3
-- **Résumé** : Long-context LLMs focus on retrieving distant evidence from extensive context, yet existing work has largely focused on overcoming distance alone. In this work, we identify the Proximity Trap, insufficient attention to distant evidence often arises less from distance itself than from cumulative comp...
-- **Lien** : https://arxiv.org/abs/2609.26718v1
+- **Résumé** : Audio-language models (ALMs) integrate acoustic perception with the knowledge encoded in language models, enabling contextual understanding of auditory events. Making these capabilities practical on devices with limited memory and computation motivates our focus on small ALMs with fewer than 200M pa...
+- **Lien** : https://arxiv.org/abs/2609.28344v1
+
+### Shutdown Sabotage Propensities in Multi-Agent Systems
+- **arXiv** : 2609.28274v1
+- **Date** : 2026-09-23
+- **Auteurs** : Amelie Knecht, Ulysse Schaller, Christopher Summerfield, Thilo Hagendorff
+- **Score** : 3
+- **Résumé** : The final safeguard against rogue AI behavior is the human ability to shut systems down. It has been theorized that when an AI is instructed to perform a task, self-preservation can emerge as an instrumental subgoal. Here, we test whether AI agents show a propensity to take actions that avoid human ...
+- **Lien** : https://arxiv.org/abs/2609.28274v1
+
+### Towards Efficient Reasoning: Learning Causal Shortcuts for Diffusion Language Models
+- **arXiv** : 2609.28272v1
+- **Date** : 2026-09-23
+- **Auteurs** : Dian Jin, Kairong Han, Baohong Li, Xinpeng Dong, Zijing Hu
+- **Score** : 3
+- **Résumé** : Diffusion Language Models (DLMs) have attracted significant attention for their strong reasoning ability. However, under a bidirectional attention mechanism, DLMs operate over an exponentially large exploration space compared to autoregressive models (ARMs), making it challenging to focus on reasoni...
+- **Lien** : https://arxiv.org/abs/2609.28272v1
+
+### MemBodied: Recurrent Associative Memory for Vision-Language-Action Models
+- **arXiv** : 2609.28256v1
+- **Date** : 2026-09-23
+- **Auteurs** : Tej Deep Pala, Navonil Majumder, Bryce Goh, Raphael Yee, Jianfei Yang
+- **Score** : 3
+- **Résumé** : Vision-Language-Action models provide a strong foundation for general-purpose robot control, yet a vast majority of policies do not preserve and leverage episode-level information beyond the current observation. This limitation is consequential in history-dependent manipulation tasks that depend on ...
+- **Lien** : https://arxiv.org/abs/2609.28256v1
+
+### Log-Depth Recurrent Language Modeling
+- **arXiv** : 2609.28212v1
+- **Date** : 2026-09-23
+- **Auteurs** : Yiqin Wang, Nuri Cingillioglu, Charles Pert
+- **Score** : 3
+- **Résumé** : Language modeling using Transformers has become commonplace despite their fixed computational depth and quadratic runtime with respect to input tokens. Recurrent models on the other hand offer linear depth but no parallel execution. In this work, we extend balanced-tree recursive operators from sequ...
+- **Lien** : https://arxiv.org/abs/2609.28212v1
+
+### StudentBench: AI and human tutoring yield equivalent GRE learning gains
+- **arXiv** : 2609.28470v1
+- **Date** : 2026-09-23
+- **Auteurs** : Curtis Northcutt, Inaara Hasmani, Kevin Feng, Trevor Khangi, Andreas Plesner
+- **Score** : 1
+- **Résumé** : Artificial intelligence offers an unprecedented opportunity to augment human capabilities, yet progress at the frontier has focused primarily on advancing model capabilities. We introduce StudentBench, a suite of AI teaching evaluations and a public platform that enables large-scale data collection ...
+- **Lien** : https://arxiv.org/abs/2609.28470v1
 
 <!-- ARXIV_FEED_END -->

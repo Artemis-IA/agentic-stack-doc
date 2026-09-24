@@ -124,13 +124,6 @@ llm -m claude-opus-5.5 "prompt goes here"...
 - **Résumé** : Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1....
 - **Lien** : https://openai.com/index/ringg
 
-### Parallel cut research time and cost in half with GPT‑6 Astra
-- **Source** : OpenAI Blog
-- **Date** : Tue, 22 Sep 2026
-- **Score** : 2
-- **Résumé** : GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models....
-- **Lien** : https://openai.com/index/parallel-cuts-time-and-cost-with-astra
-
 ### LWiAI Podcast #256 - Fable 5.1, Astra Tease, Gemini 3.8 Flash
 - **Source** : Last Week in AI
 - **Date** : Wed, 09 Sep 2026
@@ -151,13 +144,6 @@ llm -m claude-opus-5.5 "prompt goes here"...
 - **Score** : 1
 - **Résumé** : We sit down with AIUC&#8217;s CEO on their Series A!...
 - **Lien** : https://www.latent.space/p/aiuc
-
-### [AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs
-- **Source** : latent.space
-- **Date** : Wed, 16 Sep 2026
-- **Score** : 1
-- **Résumé** : congrats to TypeSafe!...
-- **Lien** : https://www.latent.space/p/ainews-jev-a-system-one-model-that
 
 ### Gemini 3.8 TTS Playground
 - **Source** : Simon Willison
@@ -231,19 +217,26 @@ llm -m claude-opus-5.5 "prompt goes here"...
 - **Résumé** : MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations....
 - **Lien** : https://openai.com/index/introducing-mentalhealthbench
 
-### Better prompt caching for GPT-6
+### ChatGPT Ads expands to Southeast Asia and Taiwan
 - **Source** : OpenAI Blog
-- **Date** : Tue, 22 Sep 2026
+- **Date** : Wed, 23 Sep 2026
 - **Score** : 1
-- **Résumé** : Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs....
-- **Lien** : https://openai.com/index/better-prompt-caching-for-gpt-6
+- **Résumé** : ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries....
+- **Lien** : https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan
 
-### Introducing GPT-6 Sol and Luna
+### Airbnb widens access to GPT-6 Astra and OpenAI frontier models
 - **Source** : OpenAI Blog
-- **Date** : Tue, 22 Sep 2026
+- **Date** : Wed, 23 Sep 2026
 - **Score** : 1
-- **Résumé** : Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost....
-- **Lien** : https://openai.com/index/introducing-gpt-6-sol-and-luna
+- **Résumé** : Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster....
+- **Lien** : https://openai.com/index/airbnb-gpt-6-astra
+
+### LWiAI Podcast #257 - GPT 6 Astra, AI Extinction, Security Incidents
+- **Source** : Last Week in AI
+- **Date** : Thu, 24 Sep 2026
+- **Score** : 1
+- **Résumé** : A belated discussion of Astra&#8217;s release, a bunch of AI incidents, and the broader situation we are in with regards to AI safety....
+- **Lien** : https://lastweekin.ai/p/lwiai-podcast-257-gpt-6-astra-ai
 
 ### LWiAI Podcast #253 - Opus 5, Gemini 3.6, Kimi K3, Hugging Face Hack
 - **Source** : Last Week in AI
@@ -251,5 +244,12 @@ llm -m claude-opus-5.5 "prompt goes here"...
 - **Score** : 1
 - **Résumé** : Anthropic releases Opus 5 promising Fable 5-like capabilities, Google Releases Three New Gemini A.I. Models, and more!...
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-253-opus-5-gemini-36
+
+### LWiAI Podcast #252 - GPT 5.6, Grok 4.5, Nemotron-Labs-Diffusion, AI 2040
+- **Source** : Last Week in AI
+- **Date** : Tue, 21 Jul 2026
+- **Score** : 1
+- **Résumé** : GPT-5.6 and Grok 4.5, Meta's Muse Spark 1.1, regulatory developments in AI and data centers, interpretability research from Anthropic, and the future of AI policy with AI 2040...
+- **Lien** : https://lastweekin.ai/p/lwiai-podcast-252-gpt-56-grok-45
 
 <!-- BLOG_FEED_END -->
