@@ -135,7 +135,7 @@ Get up and running with Llama 3, Mistral, Gemma, and other large language models
 ### [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
 A collection of prompt examples to be used with the ChatGPT model.
 
-⭐ 171.1k | `HTML` | Licence: NOASSERTION | MAJ: 2026-09-24
+⭐ 171.2k | `HTML` | Licence: NOASSERTION | MAJ: 2026-09-24
 **Tags** : `ai`, `artificial-intelligence`, `awesome-list`, `chatgpt`, `chatgpt-prompts`, `claude`, `gemini`, `gpt`
 
 ### [Dify](https://github.com/langgenius/dify)
@@ -167,8 +167,8 @@ First open-sourced GPT-4o level model.
 
 ⭐ 104.5k | `Python` | Licence: MIT | MAJ: 2026-09-24
 
-### [vllm](https://github.com/vllm-project/vllm)
-A high-throughput and memory-efficient inference and serving engine for LLMs
+### [vLLM](https://github.com/vllm-project/vllm)
+A high-throughput and memory-efficient inference and serving engine for LLMs.
 
 ⭐ 92.6k | `Python` | Licence: Apache-2.0 | MAJ: 2026-09-24
 **Tags** : `amd`, `blackwell`, `cuda`, `deepseek`, `deepseek-v3`, `gpt`, `gpt-oss`, `inference`
@@ -181,13 +181,13 @@ First-generation reasoning models from DeepSeek.
 ### [OpenDevin](https://github.com/OpenDevin/OpenDevin)
 🙌 OpenHands: AI-Driven Development
 
-⭐ 89.0k | `TypeScript` | Licence: MIT | MAJ: 2026-09-24
+⭐ 89.1k | `TypeScript` | Licence: MIT | MAJ: 2026-09-24
 **Tags** : `agent`, `artificial-intelligence`, `chatgpt`, `claude-ai`, `cli`, `developer-tools`, `gpt`, `llm`
 
 ### [OpenHands](https://github.com/OpenHands/OpenHands)
 🙌 OpenHands: Code Less, Make More. (formerly OpenDevin), a platform for software development agents powered by AI !GitHub Repo stars
 
-⭐ 89.0k | `TypeScript` | Licence: MIT | MAJ: 2026-09-24
+⭐ 89.1k | `TypeScript` | Licence: MIT | MAJ: 2026-09-24
 **Tags** : `agent`, `artificial-intelligence`, `chatgpt`, `claude-ai`, `cli`, `developer-tools`, `gpt`, `llm`
 
 ### [llm-course](https://github.com/mlabonne/llm-course)
@@ -214,18 +214,6 @@ A Chinese collection of prompt examples to be used with the ChatGPT model.
 ⭐ 62.4k | `TypeScript` | Licence: MIT | MAJ: 2026-09-24
 **Tags** : `llm`, `mcp`, `mcp-server`, `vibe-coding`
 
-### [yolov5](https://github.com/ultralytics/yolov5)
-Ultralytics YOLOv5 in PyTorch for object detection, instance segmentation, classification, training, and export.
-
-⭐ 58.1k | `Python` | Licence: AGPL-3.0 | MAJ: 2026-09-24
-**Tags** : `computer-vision`, `coreml`, `deep-learning`, `image-classification`, `inference`, `instance-segmentation`, `model-export`, `model-training`
-
-### [whisper.cpp](https://github.com/ggml-org/whisper.cpp)
-Port of OpenAI's Whisper model in C/C++
-
-⭐ 53.9k | `C++` | Licence: MIT | MAJ: 2026-09-24
-**Tags** : `inference`, `openai`, `speech-recognition`, `speech-to-text`, `transformer`, `whisper`
-
 ### [LlamaIndex](https://github.com/run-llama/llama_index)
 provides a central interface to connect your LLM's with external data. !GitHub Repo stars
 
@@ -237,5 +225,17 @@ A Python library for augmenting LLM apps with data.
 
 ⭐ 52.3k | `Python` | Licence: MIT | MAJ: 2026-09-24
 **Tags** : `agents`, `application`, `data`, `fine-tuning`, `framework`, `llamaindex`, `llm`, `multi-agents`
+
+### [DeepSpeed](https://github.com/microsoft/DeepSpeed)
+DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.
+
+⭐ 43.2k | `Python` | Licence: Apache-2.0 | MAJ: 2026-09-24
+**Tags** : `billion-parameters`, `compression`, `data-parallelism`, `deep-learning`, `gpu`, `inference`, `machine-learning`, `mixture-of-experts`
+
+### [Colossal-AI](https://github.com/hpcaitech/ColossalAI)
+LLM training and inference system whose ColossalChat application implements LLM with RLHF !GitHub Repo stars
+
+⭐ 41.4k | `Python` | Licence: Apache-2.0 | MAJ: 2026-09-24
+**Tags** : `ai`, `big-model`, `data-parallelism`, `deep-learning`, `distributed-computing`, `foundation-models`, `heterogeneous-training`, `hpc`
 
 <!-- TOOLS_LLM_END -->
