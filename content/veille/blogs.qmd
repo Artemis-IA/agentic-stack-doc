@@ -154,13 +154,6 @@ llm -m claude-opus-5.5 "prompt goes here"...
         I built this new plugin for LLM to add support for TypeSafe AI's new Jev...
 - **Lien** : https://simonwillison.net/2026/Sep/22/llm-typesafe/
 
-### Jev introduces a new shape of LLM - System One, aka Decision Models
-- **Source** : Simon Willison
-- **Date** : 2026-09-21T23:09
-- **Score** : 1
-- **Résumé** : Last week TypeSafe AI unveiled Jev, their first example of a new category of model that they are calling "System One models" (I'm with Maggie Appleton, I think "decision models" is <a h...
-- **Lien** : https://simonwillison.net/2026/Sep/21/jev/
-
 ### How UK AISI and EvalEval Are Making Benchmark Results Reproducible
 - **Source** : Hugging Face Blog
 - **Date** : Tue, 22 Sep 2026
@@ -251,5 +244,12 @@ llm -m claude-opus-5.5 "prompt goes here"...
 - **Score** : 1
 - **Résumé** : Trump lifts restrictions on Anthropic, Anthropic launches Claude Sonnet 5, Google's NotebookLM updates, chips stories from Etched and Baidu, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-251-mythos-back-sonnet
+
+### Last Week in AI #250 - Mythos Mess, GPT 5.6-Sol, GLM 5.2
+- **Source** : Last Week in AI
+- **Date** : Tue, 21 Jul 2026
+- **Score** : 1
+- **Résumé** : Anthropic's AI treaty discussions, US government's influence on AI model releases, OpenAI's processor development, memory market impacts, and more!...
+- **Lien** : https://lastweekin.ai/p/last-week-in-ai-250-mythos-mess-gpt
 
 <!-- BLOG_FEED_END -->

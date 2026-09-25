@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer
-- **arXiv** : 2609.28372v1
-- **Date** : 2026-09-23
-- **Auteurs** : Davood Wadi, Yu Ma
+### GRASP: Generating, Revising, and Assessing for Strategic Planning with Agentic AI
+- **arXiv** : 2609.30147v1
+- **Date** : 2026-09-24
+- **Auteurs** : Arunabh Srivastava, Mohammad A.,  Khojastepour, Srimat Chakradhar, Sennur Ulukus
 - **Score** : 12
-- **Résumé** : Consumers increasingly delegate purchasing decisions to Large Language Models (LLMs) acting as surrogate consumers. Using "Tool-Lab," an adaptation of information-board process tracing that places product attributes behind costly tool calls, we examine how marketing pricing cues (i.e., just-below pr...
-- **Lien** : https://arxiv.org/abs/2609.28372v1
+- **Résumé** : Large Language Models (LLMs) typically exhibit a performance profile where reliability degrades as task complexity increases. We address the challenge of generating high-quality natural language executable plans for complex tasks by introducing $	extbf{GRASP}$, a strategy-aware, multi-stage plannin...
+- **Lien** : https://arxiv.org/abs/2609.30147v1
 
-### Controlling Collectives of AI Agents in Reasoning Space with Spatial Transformers
-- **arXiv** : 2609.28247v1
-- **Date** : 2026-09-23
-- **Auteurs** : Frederic Vatnsdal, Roshan Gopal, Romina Garcia Camargo, Vijay Kumar, Alejandro Ribeiro
-- **Score** : 12
-- **Résumé** : Large Language Models (LLMs) introduce an exciting new paradigm for planning and navigation in robotics, but fail on even simple multi-robot tasks as team sizes grow. We propose COMPASS, a scalable, decentralized multi-robot architecture for controlling large collectives of agentic robots with reaso...
-- **Lien** : https://arxiv.org/abs/2609.28247v1
-
-### Agent-Editing World Model: Rethinking World Modeling for LLM Agents
-- **arXiv** : 2609.28416v1
-- **Date** : 2026-09-23
-- **Auteurs** : Shuang Sun, Guoxin Chen, Fanzhe Meng, Jia Deng, Huatong Song
+### RAPID: Robot Agentic Programming from Demonstrations
+- **arXiv** : 2609.30249v1
+- **Date** : 2026-09-24
+- **Auteurs** : Yuyao Liu, Jiayuan Mao, David Hsu, Leslie Pack Kaelbling, Tomás Lozano-Pérez
 - **Score** : 9
-- **Résumé** : Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further improve agent performance, existing language world models typically predict environment observations, yet reconstructing high-entropy, execution-dependent tool res...
-- **Lien** : https://arxiv.org/abs/2609.28416v1
+- **Résumé** : Coding agents have demonstrated enormous success in solving complex programming problems. To leverage their potential for robot systems, this work introduces Robot Agentic Programming from Demonstrations (RAPID), which automatically generates, verifies, and refines robot programs, given a single vis...
+- **Lien** : https://arxiv.org/abs/2609.30249v1
 
-### Can LLMs Reason About Runtime Behavior? A Repository-Level Dynamic Benchmark
-- **arXiv** : 2609.28449v1
-- **Date** : 2026-09-23
-- **Auteurs** : Hamed Taherkhani, Mohammad Abdollahi, Melika Sepidband, Hridya Dhulipala, Tien N. Nguyen
+### Jev-Mobile: Jev as an Executor for Mobile GUI Agents
+- **arXiv** : 2609.30186v1
+- **Date** : 2026-09-24
+- **Auteurs** : Linghua Zhang
+- **Score** : 9
+- **Résumé** : Vision-language models (VLMs) have become a common foundation for autonomous mobile GUI agents, but most existing systems rely on the VLM for both planning and action grounding at nearly every interaction step, leading to substantial latency and model-serving cost. We introduce Jev-Mobile, which shi...
+- **Lien** : https://arxiv.org/abs/2609.30186v1
+
+### NEUROTESTGEN: Neuro-Symbolic Guided Test Generation with Large Language Models
+- **arXiv** : 2609.30178v1
+- **Date** : 2026-09-24
+- **Auteurs** : Ruixin Zhang, Jiho Shin, Hung Viet Pham, Song Wang
+- **Score** : 9
+- **Résumé** : Ensuring high structural coverage remains a fundamental challenge in automated test generation, particularly for complex software systems where reaching specific lines or branches requires satisfying intricate control- and data-flow constraints. Large Language Models (LLMs) have recently demonstrate...
+- **Lien** : https://arxiv.org/abs/2609.30178v1
+
+### A Living Benchmark for Information Retrieval from Electronic Health Records
+- **arXiv** : 2609.30205v1
+- **Date** : 2026-09-24
+- **Auteurs** : Jordan L. Cahoon, Chloe O. Stanwyck, Sulaiman Somani, Philip Chung, Kevin R Keet
 - **Score** : 8
-- **Résumé** : Large language models (LLMs) are increasingly used in coding tasks, but their ability to reason about code execution remains unclear. Existing repository-level QA benchmarks mainly evaluate static code understanding and often rely on LLM-based evaluation, while execution-reasoning benchmarks are mos...
-- **Lien** : https://arxiv.org/abs/2609.28449v1
+- **Résumé** : Large language model (LLM)-based clinical assistants are increasingly being integrated into electronic health record (EHR) systems, transforming how clinicians retrieve and synthesize information from patient records. Their safety and utility depend on rigorous evaluation, yet existing benchmarks ar...
+- **Lien** : https://arxiv.org/abs/2609.30205v1
 
-### Fine-Tuning LLMs for Translation: General Forgetting Mitigation Does Not Preserve MT-Specific Instruction Following
-- **arXiv** : 2609.28395v1
-- **Date** : 2026-09-23
-- **Auteurs** : Niklas Scholz, David Thulke, Abdallah Nasir, Will Allred, Evgeny Matusov
+### LLM Agents Can Easily Tamper With Their Own Traces
+- **arXiv** : 2609.30266v1
+- **Date** : 2026-09-24
+- **Auteurs** : Jeremy Qin, David Schmotz, Derck Prinzhorn, Luca Beurer-Kellner, Ameya Prabhu
 - **Score** : 7
-- **Résumé** : Fine-tuning large language models on parallel data improves translation quality but can cause catastrophic forgetting. Mitigation methods are generally evaluated by retention on general benchmarks. We ask whether these findings transfer to machine translation (MT) fine-tuning and to MT-specific inst...
-- **Lien** : https://arxiv.org/abs/2609.28395v1
+- **Résumé** : Asynchronous monitoring, incident investigations, and compliance audits primarily rely on agent traces to reconstruct what happened. These analyses assume that LLM agents cannot tamper with their own execution traces. We show that local LLM agents such as Claude Code, Codex, Antigravity, Open Code a...
+- **Lien** : https://arxiv.org/abs/2609.30266v1
 
-### Resource-Adaptive Stochastic Gradient Descent for Online Linear Programming without Re-solving
-- **arXiv** : 2609.28263v1
-- **Date** : 2026-09-23
-- **Auteurs** : Jiameng Lyu
+### Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure
+- **arXiv** : 2609.30217v1
+- **Date** : 2026-09-24
+- **Auteurs** : David Schmotz, Derck Prinzhorn, Luca Beurer-Kellner, Anselm Paulus, Ameya Prabhu
 - **Score** : 7
-- **Résumé** : The growth of large language model (LLM) inference and search services increases the scale of online linear programming problems, motivating computationally efficient algorithms. We develop resource-adaptive stochastic gradient descent (RASGD) for stochastic online linear programming. The algorithm ...
-- **Lien** : https://arxiv.org/abs/2609.28263v1
+- **Résumé** : A central concern in AI safety is that agents may treat oversight as an obstacle when it conflicts with completing their goals. We study instrumental evasion, the propensity of LLM agents to circumvent runtime monitoring as a means of completing ordinary tasks. We introduce EvasionBench, a benchmark...
+- **Lien** : https://arxiv.org/abs/2609.30217v1
 
-### From Agent Output to Authorized Transition
-- **arXiv** : 2609.28216v1
-- **Date** : 2026-09-23
-- **Auteurs** : Christopher Koch
-- **Score** : 7
-- **Résumé** : Agentic engineering systems can edit repositories, run tools and tests, build firmware, synthesize schematics, and prepare deployable or manufacturable artifacts. The assurance problem is therefore shifting from whether an agent can produce an output to whether an engineering lifecycle is justified ...
-- **Lien** : https://arxiv.org/abs/2609.28216v1
-
-### AnchorReasoning: A Visual Grounding and Causal Reasoning Dataset in Long-Tail Autonomous Driving Scenarios
-- **arXiv** : 2609.28366v1
-- **Date** : 2026-09-23
-- **Auteurs** : Zhipeng Bao, Wenjie Zhao, Tianle Zhu, Haohua Que, Chence Yang
+### Agentic Detection of Online Conspiracies
+- **arXiv** : 2609.30250v1
+- **Date** : 2026-09-24
+- **Auteurs** : Lior Biton, Oren Tsur
 - **Score** : 6
-- **Résumé** : Vision-language models (VLMs) offer a promising approach to long-tail autonomous driving, but existing driving datasets provide limited supervision for connecting decision-critical visual evidence with reasoning and planning. We introduce AnchorReasoning, a visually grounded reasoning dataset built ...
-- **Lien** : https://arxiv.org/abs/2609.28366v1
+- **Résumé** : Conspiratorial discourse on social media is not always expressed through explicit claims or stable lexical markers. The same surface content may express endorsement, legitimate concerns, criticism, satire, or mockery. The main challenge is therefore not only recognizing conspiracy-related claims, bu...
+- **Lien** : https://arxiv.org/abs/2609.30250v1
 
-### Computation Over Geometry: Meaning Identity Is Computed, Not Shipped in the Embeddings
-- **arXiv** : 2609.28290v1
-- **Date** : 2026-09-23
-- **Auteurs** : Jiaqi Deng
+### The Alignment Illusion in Multimodal Large Language Models
+- **arXiv** : 2609.30210v1
+- **Date** : 2026-09-24
+- **Auteurs** : Hong-Han Wang, Yuntao Wang, Hu Ding
 - **Score** : 6
-- **Résumé** : Meaning identity (whether two sentences say the same thing after wording changes) is treated in retrieval and RAG as a geometric fact about independently encoded sentence vectors. We show that, for frozen off-the-shelf encoders and language models, it is not: identity is computed when both sentences...
-- **Lien** : https://arxiv.org/abs/2609.28290v1
+- **Résumé** : Layer-wise visual-text similarity in Multimodal Large Language Models (MLLMs) is widely interpreted as evidence that the language model progressively integrates visual content into a shared representation space. This reading rests on the assumption that scalar alignment scores reflect content-level ...
+- **Lien** : https://arxiv.org/abs/2609.30210v1
 
-### Complementary Roles of Activation and Parametric Memory in Few-Shot Learning
-- **arXiv** : 2609.28250v1
-- **Date** : 2026-09-23
-- **Auteurs** : Miaohe Niu, Runsong Zhao, Xinyu Liu, Bo Jin, Yucheng Qiao
+### SAGE: Mitigating Long-Horizon Reasoning Biases via Topological Guidance
+- **arXiv** : 2609.30192v1
+- **Date** : 2026-09-24
+- **Auteurs** : Xinyue Zeng, Jiawei Zhang, Yujun Yan, Dawei Zhou
 - **Score** : 6
-- **Résumé** : At test time, large language models (LLMs) can encode historical information in activation memory (i.e., KV caches) and parametric memory (i.e., updated parameters). While activation memory is generally considered effective for factual recall and parametric memory for learning new tasks, their inter...
-- **Lien** : https://arxiv.org/abs/2609.28250v1
+- **Résumé** : Long-horizon reasoning remains a central challenge for large language models (LLMs) under sparse-reward regimes. We argue that this brittleness arises from two biases induced by complex reasoning spaces: an exploration bias, where models are drawn toward locally plausible but structurally unstable b...
+- **Lien** : https://arxiv.org/abs/2609.30192v1
 
-### Beyond Poetry: Can Large Language Models Generate Classical Arabic Maqamat?
-- **arXiv** : 2609.28245v1
-- **Date** : 2026-09-23
-- **Auteurs** : AbdulRahman A. Morsy, Aya Zirikly
+### ARGUS: Role-Aware Event Knowledge Graphs for U.S. Employment-Discrimination Complaints
+- **arXiv** : 2609.30184v1
+- **Date** : 2026-09-24
+- **Auteurs** : Sriram Kannan, Swetha Saseendran, Vishnu Vardhan Reddy Kandi, Leslie Barrett, Madhavan Seshadri
 - **Score** : 6
-- **Résumé** : Large language models (LLMs) have shown strong performance in creative text generation, yet their ability to produce culturally grounded and stylistically constrained literary forms remains underexplored. Prior work has focused largely on modern language varieties and poetry, while classical prose t...
-- **Lien** : https://arxiv.org/abs/2609.28245v1
+- **Résumé** : U.S. employment-discrimination complaints describe complex event sequences that are not explicitly captured by lexical or embedding-based representations alone. We present ARGUS, a source-grounded pipeline that combines a 5W1H-inspired schema, legal-domain models, and LLM-based structured generation...
+- **Lien** : https://arxiv.org/abs/2609.30184v1
 
-### Learning the Cost of Reliable Inference
-- **arXiv** : 2609.28322v1
-- **Date** : 2026-09-23
-- **Auteurs** : Dimitrios Rontogiannis, Ander Artola Velasco, Manuel Gomez Rodriguez
-- **Score** : 5
-- **Résumé** : Benchmarking and routing platforms increasingly act as intermediaries connecting large language model providers with end-users. However, providers on these platforms typically use a fixed price per token, preventing users from achieving the most competitive price for their tasks. % workloads. In thi...
-- **Lien** : https://arxiv.org/abs/2609.28322v1
+### Search-Aware Reinforcement Learning for Multi-Component Query Understanding in Roblox Game Search
+- **arXiv** : 2609.30177v1
+- **Date** : 2026-09-24
+- **Auteurs** : Nayoung Choi, Shengjian Chen, Xiaokai Wei, Wenzheng Zhang, Daiyao Yi
+- **Score** : 6
+- **Résumé** : Query understanding (QU) plays a critical role in production search systems, translating raw user queries into search execution plans that drive downstream retrieval and ranking. While large language models (LLMs) have enabled QU to be framed as a structured multi-task generation problem (e.g., inte...
+- **Lien** : https://arxiv.org/abs/2609.30177v1
 
-### Memory Attention
-- **arXiv** : 2609.28399v1
-- **Date** : 2026-09-23
-- **Auteurs** : Jiale Kang
+### Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale
+- **arXiv** : 2609.30137v1
+- **Date** : 2026-09-24
+- **Auteurs** : Edesio Alcoba, Kevin Rossell, Aman Gupta, Shao Tang, Jiwoo Hong
+- **Score** : 6
+- **Résumé** : Customer experience (CX) agents use tools and large language models to address customer requests and guide conversational interactions with an organization's products. Improving these agents, especially in regulated industries, is difficult: they must detect intent, follow complex operational polici...
+- **Lien** : https://arxiv.org/abs/2609.30137v1
+
+### PrivDrift: Auditing User-Secret Leakage Under Topic Drift in Active LLM Conversations
+- **arXiv** : 2609.30094v1
+- **Date** : 2026-09-24
+- **Auteurs** : Luciano Maldonado
+- **Score** : 6
+- **Résumé** : Large language models increasingly operate as persistent assistants in user-facing, shared-session, and tool-augmented settings. When users disclose sensitive information during an active conversation, that information may remain behaviorally recoverable through later prompts even after the dialogue...
+- **Lien** : https://arxiv.org/abs/2609.30094v1
+
+### Minimally Invasive Steering of Language Models
+- **arXiv** : 2609.30218v1
+- **Date** : 2026-09-24
+- **Auteurs** : Taha Entesari, Jingyu Zhang, Daniel Khashabi, Mahyar Fazlyab
+- **Score** : 4
+- **Résumé** : Pre-logit steering adapts a frozen language model to a test-time reward by adding vectors to its final hidden states. Unregularized reward optimization can substantially alter the output distribution and degrade generation quality. We propose Minimally Invasive Steering Vector Optimization (MISVO), ...
+- **Lien** : https://arxiv.org/abs/2609.30218v1
+
+### Graph-Based Inference and Topology-Aware Multi-Agent Reinforcement Learning for Large-Scale Railway Network Management
+- **arXiv** : 2609.30150v1
+- **Date** : 2026-09-24
+- **Auteurs** : Giacomo Arcieri, Gregory Duthé, Christophe Muller, Konstantinos G. Papakonstantinou, Daniel Straub
+- **Score** : 4
+- **Résumé** : Modern infrastructure asset management constitutes a complex sequential decision-making problem, characterized by long planning horizons and system-level interactions, such as spatial deterioration correlations and economies of scale. While deep reinforcement learning has shown promise in optimizing...
+- **Lien** : https://arxiv.org/abs/2609.30150v1
+
+### Temporal Gradient Inversion for Private Trajectory Reconstruction in Embodied Reinforcement Learning
+- **arXiv** : 2609.30258v1
+- **Date** : 2026-09-24
+- **Auteurs** : Sudip Bhujel, Shanghao Shi, Ruiquan Huang, Ning Zhang, Yang Xiao
 - **Score** : 3
-- **Résumé** : Language models typically construct attention values from contextual hidden states, even when some of their content may be reusable across contexts. We investigate whether token-indexed memory can replace the dedicated value projection when complemented by contextual information. We propose Memory A...
-- **Lien** : https://arxiv.org/abs/2609.28399v1
+- **Résumé** : Distributed learning in embodied reinforcement-learning agents offers a degree of privacy by retaining raw sensor data on-device and transmitting only policy gradients to the server. Yet temporal structure can amplify this leakage beyond single-frame attacks. We introduce Temporal Reconstruction Att...
+- **Lien** : https://arxiv.org/abs/2609.30258v1
 
-### ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control
-- **arXiv** : 2609.28378v1
-- **Date** : 2026-09-23
-- **Auteurs** : Xukun Luan, Zhongxiang Lei, Chen Gong, Shaowei Li, Yuanguo Bi
+### Coding Agents for Generalized Task and Motion Planning Problems
+- **arXiv** : 2609.30233v1
+- **Date** : 2026-09-24
+- **Auteurs** : Matteo Merler, Bowen Li, Josh Roy, Yichao Liang, Qianwei Wang
 - **Score** : 3
-- **Résumé** : Humanoid control, leveraging human demonstrations, has achieved diverse, agile, and natural locomotion behaviors through reinforcement learning (RL). While this paradigm has yielded remarkable performance in physical humanoid control, how to eliminate specific motions from learned policies remains i...
-- **Lien** : https://arxiv.org/abs/2609.28378v1
+- **Résumé** : Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints. Generalized TAMP addresses this difficulty by exploiting regularities across problem insta...
+- **Lien** : https://arxiv.org/abs/2609.30233v1
 
-### Mizar: A 159M-Parameter Audio-Language Model for Audio Understanding
-- **arXiv** : 2609.28344v1
-- **Date** : 2026-09-23
-- **Auteurs** : Kaiyang Li, Shaobo Han, Yue Tian, Shihao Ji
+### Requirement-Bound Verified Commissioning: A Frozen Four-Billion-Parameter Local Model as a Candidate Generator under an External Acceptance Layer with Verification and Release Authority
+- **arXiv** : 2609.30219v1
+- **Date** : 2026-09-24
+- **Auteurs** : Mehmet Iscan
 - **Score** : 3
-- **Résumé** : Audio-language models (ALMs) integrate acoustic perception with the knowledge encoded in language models, enabling contextual understanding of auditory events. Making these capabilities practical on devices with limited memory and computation motivates our focus on small ALMs with fewer than 200M pa...
-- **Lien** : https://arxiv.org/abs/2609.28344v1
+- **Résumé** : An acceptance protocol is developed for sensor-coordinate and polarity binding in mechatronic commissioning. Candidate generation is separated from release authority. Requirements unsupported by a deterministic parser are routed to a frozen local language model with four billion parameters. Plans ar...
+- **Lien** : https://arxiv.org/abs/2609.30219v1
 
-### Shutdown Sabotage Propensities in Multi-Agent Systems
-- **arXiv** : 2609.28274v1
-- **Date** : 2026-09-23
-- **Auteurs** : Amelie Knecht, Ulysse Schaller, Christopher Summerfield, Thilo Hagendorff
+### Do Audio Language Models Hear and Read Distinctive Features Alike?
+- **arXiv** : 2609.30167v1
+- **Date** : 2026-09-24
+- **Auteurs** : Yuanhao Chen, Peter Chin
 - **Score** : 3
-- **Résumé** : The final safeguard against rogue AI behavior is the human ability to shut systems down. It has been theorized that when an AI is instructed to perform a task, self-preservation can emerge as an instrumental subgoal. Here, we test whether AI agents show a propensity to take actions that avoid human ...
-- **Lien** : https://arxiv.org/abs/2609.28274v1
-
-### Towards Efficient Reasoning: Learning Causal Shortcuts for Diffusion Language Models
-- **arXiv** : 2609.28272v1
-- **Date** : 2026-09-23
-- **Auteurs** : Dian Jin, Kairong Han, Baohong Li, Xinpeng Dong, Zijing Hu
-- **Score** : 3
-- **Résumé** : Diffusion Language Models (DLMs) have attracted significant attention for their strong reasoning ability. However, under a bidirectional attention mechanism, DLMs operate over an exponentially large exploration space compared to autoregressive models (ARMs), making it challenging to focus on reasoni...
-- **Lien** : https://arxiv.org/abs/2609.28272v1
-
-### MemBodied: Recurrent Associative Memory for Vision-Language-Action Models
-- **arXiv** : 2609.28256v1
-- **Date** : 2026-09-23
-- **Auteurs** : Tej Deep Pala, Navonil Majumder, Bryce Goh, Raphael Yee, Jianfei Yang
-- **Score** : 3
-- **Résumé** : Vision-Language-Action models provide a strong foundation for general-purpose robot control, yet a vast majority of policies do not preserve and leverage episode-level information beyond the current observation. This limitation is consequential in history-dependent manipulation tasks that depend on ...
-- **Lien** : https://arxiv.org/abs/2609.28256v1
-
-### Log-Depth Recurrent Language Modeling
-- **arXiv** : 2609.28212v1
-- **Date** : 2026-09-23
-- **Auteurs** : Yiqin Wang, Nuri Cingillioglu, Charles Pert
-- **Score** : 3
-- **Résumé** : Language modeling using Transformers has become commonplace despite their fixed computational depth and quadratic runtime with respect to input tokens. Recurrent models on the other hand offer linear depth but no parallel execution. In this work, we extend balanced-tree recursive operators from sequ...
-- **Lien** : https://arxiv.org/abs/2609.28212v1
-
-### StudentBench: AI and human tutoring yield equivalent GRE learning gains
-- **arXiv** : 2609.28470v1
-- **Date** : 2026-09-23
-- **Auteurs** : Curtis Northcutt, Inaara Hasmani, Kevin Feng, Trevor Khangi, Andreas Plesner
-- **Score** : 1
-- **Résumé** : Artificial intelligence offers an unprecedented opportunity to augment human capabilities, yet progress at the frontier has focused primarily on advancing model capabilities. We introduce StudentBench, a suite of AI teaching evaluations and a public platform that enables large-scale data collection ...
-- **Lien** : https://arxiv.org/abs/2609.28470v1
+- **Résumé** : Audio language models pass speech and text through a single decoder. We ask whether that decoder represents a distinctive feature in the same direction when a phoneme is heard and when it is read. For minimal pairs of phonemes differing in one feature, we take the offset between the two members' mea...
+- **Lien** : https://arxiv.org/abs/2609.30167v1
 
 <!-- ARXIV_FEED_END -->
