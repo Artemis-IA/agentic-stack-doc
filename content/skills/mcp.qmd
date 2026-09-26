@@ -139,12 +139,6 @@ Official Microsoft Playwright MCP server, enabling LLMs to interact with web pag
 ⭐ 33.2k | `Go` | Licence: MIT | MAJ: 2026-09-26
 **Tags** : `github`, `mcp`, `mcp-server`
 
-### [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)
-🐍 ☁️ 🏠 - Hindsight: Agent Memory That Works Like Human Memory - Built for AI Agents to manage Long Term Memory
-
-⭐ 30.5k | `Python` | Licence: MIT | MAJ: 2026-09-26
-**Tags** : `agentic-ai`, `agents`, `ai-memory`, `memory`
-
 ### [GPT Researcher](https://github.com/assafelovic/gpt-researcher)
 GPT Researcher is an autonomous agent designed for comprehensive online research on a variety of tasks. !GitHub Repo stars
 
@@ -196,13 +190,13 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ### [rocketride-org/rocketride-server](https://github.com/rocketride-org/rocketride-server)
 !rocketride-org/rocketride-server MCP server 📇 🏠 - MCP server that exposes RocketRide AI pipelines as tools for Claude, Cursor, and Windsurf. Self-hosted, open-source pipeline tool with multi-LLM s...
 
-⭐ 12.4k | `Python` | Licence: MIT | MAJ: 2026-09-26
+⭐ 13.0k | `Python` | Licence: MIT | MAJ: 2026-09-26
 **Tags** : `ai`, `cpp`, `data-pipeline`, `data-processing`, `machine-learning`, `mcp`, `python`, `sdk`
 
 ### [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp)
 🐍 🏠 - MCP server for IDA Pro, allowing you to perform binary analysis with AI assistants. This plugin implement decompilation, disassembly and allows you to generate malware analysis reports automa...
 
-⭐ 12.3k | `Python` | Licence: MIT | MAJ: 2026-09-26
+⭐ 12.4k | `Python` | Licence: MIT | MAJ: 2026-09-26
 **Tags** : `ai`, `aiagent`, `binary-analysis`, `ida-plugin`, `ida-pro`, `mcp`, `mcp-server`, `modelcontextprotocol`
 
 ### [LaurieWired/GhidraMCP](https://github.com/LaurieWired/GhidraMCP)
@@ -225,7 +219,7 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ### [apify/actors-mcp-server](https://github.com/apify/actors-mcp-server)
 📇 ☁️ - Use 3,000+ pre-built cloud tools, known as Actors, to extract data from websites, e-commerce, social media, search engines, maps, and more
 
-⭐ 8.5k | `TypeScript` | Licence: MIT | MAJ: 2026-09-26
+⭐ 8.6k | `TypeScript` | Licence: MIT | MAJ: 2026-09-26
 **Tags** : `agents`, `ai`, `mcp`, `mcp-server`
 
 ### [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server)
@@ -233,6 +227,12 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 
 ⭐ 7.5k | `JavaScript` | Licence: MIT | MAJ: 2026-09-26
 **Tags** : `batch-processing`, `claude`, `content-extraction`, `data-collection`, `firecrawl`, `firecrawl-ai`, `javascript-rendering`, `llm-tools`
+
+### [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp)
+📇 🏠 🐧 🍎 - MCP Server for Android/iOS application and device automation, development and app scraping. Simulator/Emulator/Physical devices like iPhone, Google Pixel, Samsung supported.
+
+⭐ 7.3k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-09-26
+**Tags** : `agent`, `android`, `emulator`, `ios`, `mcp`, `mobile`, `physical`, `real`
 
 ### [browsermcp/mcp](https://github.com/browsermcp/mcp)
 📇 🏠 - Automate your local Chrome browser
@@ -245,12 +245,6 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 
 ⭐ 7.0k | `Python` | Licence: AGPL-3.0 | MAJ: 2026-09-26
 **Tags** : `ai`, `code-complexity`, `code-health`, `code-intelligence`, `code-quality`, `dead-code`, `developer-tools`, `documentation`
-
-### [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp)
-📇 🏠 🐧 🍎 - MCP Server for Android/iOS application and device automation, development and app scraping. Simulator/Emulator/Physical devices like iPhone, Google Pixel, Samsung supported.
-
-⭐ 7.0k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-09-26
-**Tags** : `agent`, `android`, `emulator`, `ios`, `mcp`, `mobile`, `physical`, `real`
 
 ### [lharries/whatsapp-mcp](https://github.com/lharries/whatsapp-mcp)
 🐍 🏎️ - An MCP server for searching your personal WhatsApp messages, contacts and sending messages to individuals or groups
@@ -288,6 +282,12 @@ Create crafted UI components inspired by the best 21st.dev design engineers.
 ⭐ 5.8k | `JavaScript` | Licence: MIT | MAJ: 2026-09-26
 **Tags** : `ai`, `godot`, `mcp`
 
+### [awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers)
+Awesome MCP Servers - A curated list of Model Context Protocol servers
+
+⭐ 5.8k | MAJ: 2026-09-26
+**Tags** : `ai`, `anthropic-claude`, `awesome`, `context`, `mcp`, `model-context-protocol`, `servers`, `tool-use`
+
 ### [mutonby/openshorts](https://github.com/mutonby/openshorts)
 !mutonby/openshorts MCP server 🎖️ 🐍 ☁️ 🏠 🍎 🪟 🐧 - Turn long videos into viral-ready vertical shorts: AI moment detection, face-tracked 9:16 reframing, word-level captions, 30+ language dubbing, and ...
 
@@ -297,6 +297,6 @@ Create crafted UI components inspired by the best 21st.dev design engineers.
 ### [executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright)
 📇 - An MCP server using Playwright for browser automation and webscrapping
 
-⭐ 5.7k | `TypeScript` | Licence: MIT | MAJ: 2026-09-23
+⭐ 5.7k | `TypeScript` | Licence: MIT | MAJ: 2026-09-26
 
 <!-- TOOLS_MCP_END -->
