@@ -133,12 +133,6 @@ Playwright browser automation: interact with web pages through structured access
 ⭐ 35.6k | `Zig` | Licence: AGPL-3.0 | MAJ: 2026-09-27
 **Tags** : `browser`, `browser-automation`, `cdp`, `headless`, `lightpanda`, `playwright`, `puppeteer`, `zig`
 
-### [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)
-🐍 ☁️ 🏠 - Hindsight: long-term memory for AI agents modeled on human memory.
-
-⭐ 34.8k | `Python` | Licence: MIT | MAJ: 2026-09-27
-**Tags** : `agentic-ai`, `agents`, `ai-memory`, `memory`
-
 ### [github/github-mcp-server](https://github.com/github/github-mcp-server)
 📇 ☁️ - GitHub integration for repository management, pull requests, issues and more.
 
@@ -175,17 +169,17 @@ The official Python SDK for Model Context Protocol servers and clients
 ⭐ 15.9k | `TypeScript` | Licence: MIT | MAJ: 2026-09-27
 **Tags** : `ai`, `cursor`, `figma`, `mcp`, `typescript`
 
+### [rocketride-org/rocketride-server](https://github.com/rocketride-org/rocketride-server)
+!rocketride-org/rocketride-server MCP server 📇 🏠 - Expose pipelines from RocketRide, a self-hosted, open-source AI pipeline tool with multi-LLM support, as tools.
+
+⭐ 15.8k | `Python` | Licence: MIT | MAJ: 2026-09-27
+**Tags** : `ai`, `cpp`, `data-pipeline`, `data-processing`, `machine-learning`, `mcp`, `python`, `sdk`
+
 ### [skill-seekers/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)
 !yusufkaraaslan/Skill_Seekers MCP server 🐍 🏠 🍎 🪟 🐧 - Turn docs, GitHub repos, PDFs, videos, Confluence, Notion and Slack/Discord into AI skills and RAG knowledge, exportable to vector databases lik...
 
 ⭐ 15.0k | `Python` | Licence: MIT | MAJ: 2026-09-27
 **Tags** : `ai-tools`, `ast-parser`, `automation`, `claude-ai`, `claude-skills`, `code-analysis`, `conflict-detection`, `documentation`
-
-### [rocketride-org/rocketride-server](https://github.com/rocketride-org/rocketride-server)
-!rocketride-org/rocketride-server MCP server 📇 🏠 - Expose pipelines from RocketRide, a self-hosted, open-source AI pipeline tool with multi-LLM support, as tools.
-
-⭐ 14.8k | `Python` | Licence: MIT | MAJ: 2026-09-27
-**Tags** : `ai`, `cpp`, `data-pipeline`, `data-processing`, `machine-learning`, `mcp`, `python`, `sdk`
 
 ### [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)
 The official TypeScript SDK for Model Context Protocol servers and clients
@@ -196,7 +190,7 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ### [seleniumbase/SeleniumBase](https://github.com/seleniumbase/SeleniumBase)
 !seleniumbase/SeleniumBase MCP server 🐍 🏠 🍎 🪟 🐧 - Browser automation, testing and bot-detection bypass using SeleniumBase CDP Mode with Chromium, including click-based CAPTCHA solving.
 
-⭐ 13.0k | `Python` | Licence: MIT | MAJ: 2026-09-26
+⭐ 13.0k | `Python` | Licence: MIT | MAJ: 2026-09-27
 **Tags** : `anti-detection`, `bot-detection`, `chromedriver`, `chromium`, `data`, `e2e-testing`, `end-to-end-testing`, `playwright`
 
 ### [get-convex/convex-backend](https://github.com/get-convex/convex-backend)
@@ -214,7 +208,7 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ### [elie222/inbox-zero](https://github.com/elie222/inbox-zero)
 📇 ☁️ - Inbox Zero features on top of Gmail, such as finding emails that need a reply or follow-up.
 
-⭐ 12.3k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-09-27
+⭐ 12.4k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-09-27
 **Tags** : `ai`, `email`, `gmail`, `loops`, `nextjs`, `openai`, `postgresql`, `posthog`
 
 ### [LaurieWired/GhidraMCP](https://github.com/LaurieWired/GhidraMCP)
@@ -231,7 +225,7 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ### [awslabs/mcp](https://github.com/awslabs/mcp)
 🎖️ ☁️ - Suite of servers for integrating with AWS services and resources.
 
-⭐ 9.7k | `Python` | Licence: Apache-2.0 | MAJ: 2026-09-26
+⭐ 9.7k | `Python` | Licence: Apache-2.0 | MAJ: 2026-09-27
 **Tags** : `aws`, `mcp`, `mcp-client`, `mcp-clients`, `mcp-host`, `mcp-server`, `mcp-servers`, `mcp-tools`
 
 ### [apify/actors-mcp-server](https://github.com/apify/actors-mcp-server)
@@ -243,7 +237,7 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ### [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp)
 📇 🏠 🐧 🍎 - Android and iOS app and device automation, development and app scraping on simulators, emulators and physical devices.
 
-⭐ 7.6k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-09-27
+⭐ 7.9k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-09-27
 **Tags** : `agent`, `android`, `emulator`, `ios`, `mcp`, `mobile`, `physical`, `real`
 
 ### [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server)
@@ -255,7 +249,7 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ### [browsermcp/mcp](https://github.com/browsermcp/mcp)
 📇 🏠 - Automate your local Chrome browser.
 
-⭐ 7.1k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-09-26
+⭐ 7.1k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-09-27
 **Tags** : `browser-automation`, `browser-extension`, `claude`, `cursor`, `mcp`, `mcp-server`
 
 ### [repowise-dev/repowise](https://github.com/repowise-dev/repowise)
@@ -299,5 +293,11 @@ Create UI components inspired by 21st.dev design engineers.
 
 ⭐ 5.8k | `JavaScript` | Licence: MIT | MAJ: 2026-09-27
 **Tags** : `ai`, `godot`, `mcp`
+
+### [mutonby/openshorts](https://github.com/mutonby/openshorts)
+!mutonby/openshorts MCP server 🎖️ 🐍 ☁️ 🏠 🍎 🪟 🐧 - Turn long videos into vertical shorts: moment detection, face-tracked 9:16 reframing, captions, dubbing and publishing to TikTok, Instagram and YouT...
+
+⭐ 5.7k | `Python` | Licence: MIT | MAJ: 2026-09-27
+**Tags** : `agent-skills`, `ai-clip-generator`, `ai-video-editor`, `clip-generator`, `mcp-server`, `open-source`, `opus-clip-alternative`, `shorts`
 
 <!-- TOOLS_MCP_END -->
