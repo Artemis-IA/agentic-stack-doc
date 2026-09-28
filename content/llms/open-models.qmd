@@ -129,7 +129,7 @@ an experimental open-source application showcasing the capabilities of the GPT-4
 ### [ollama](https://github.com/ollama/ollama)
 Get up and running with Llama 3, Mistral, Gemma, and other large language models.
 
-⭐ 181.8k | `Go` | Licence: MIT | MAJ: 2026-09-28
+⭐ 181.9k | `Go` | Licence: MIT | MAJ: 2026-09-28
 **Tags** : `deepseek`, `gemma`, `gemma3`, `glm`, `go`, `golang`, `gpt-oss`, `llama`
 
 ### [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
@@ -161,12 +161,6 @@ LLM inference in C/C++.
 
 ⭐ 129.8k | `C++` | Licence: MIT | MAJ: 2026-09-28
 **Tags** : `ggml`
-
-### [browser-use](https://github.com/browser-use/browser-use)
-Agents that use the browser.
-
-⭐ 116.6k | `Python` | Licence: MIT | MAJ: 2026-09-28
-**Tags** : `ai-agents`, `ai-tools`, `browser-automation`, `browser-use`, `llm`, `playwright`, `python`
 
 ### [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
 First open-sourced GPT-4o level model.
@@ -214,8 +208,14 @@ A Chinese collection of prompt examples to be used with the ChatGPT model.
 ⭐ 62.8k | Licence: MIT | MAJ: 2026-09-28
 **Tags** : `chat-gpt`, `chatgpt`, `chatgpt3`, `chatgpt4`, `gpt`
 
-### [upstash/context7](https://github.com/upstash/context7)
-📇 ☁️ - Up-to-date code documentation for LLMs and AI code editors.
+### [TrendRadar](https://github.com/sansan0/TrendRadar)
+⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构...
+
+⭐ 62.6k | `Python` | Licence: GPL-3.0 | MAJ: 2026-09-28
+**Tags** : `ai`, `bark`, `data-analysis`, `docker`, `hot-news`, `llm`, `mail`, `mcp`
+
+### [context7](https://github.com/upstash/context7)
+Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors
 
 ⭐ 62.5k | `TypeScript` | Licence: MIT | MAJ: 2026-09-28
 **Tags** : `llm`, `mcp`, `mcp-server`, `vibe-coding`
