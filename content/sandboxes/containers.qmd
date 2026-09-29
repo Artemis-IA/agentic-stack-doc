@@ -112,95 +112,11 @@ subprocess.run([
 ## Outils découverts automatiquement
 
 <!-- TOOLS_SANDBOX_START -->
-### [firecracker](https://github.com/firecracker-microvm/firecracker)
-Secure and fast microVMs for serverless computing.
-
-⭐ 37.0k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-09-29
-**Tags** : `containers`, `minimalist`, `open-source`, `oversubscription`, `rust`, `sandbox`, `serverless`, `virtual-machine`
-
-### [teable](https://github.com/teableio/teable)
-✨ AI Spreadsheet for Business
-
-⭐ 21.8k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-09-29
-**Tags** : `ai-agent`, `airtable`, `airtable-alternative`, `app-builder`, `database`, `internal-tool`, `low-code`, `no-code`
-
-### [gvisor](https://github.com/google/gvisor)
-Application Kernel for Containers
-
-⭐ 19.4k | `Go` | Licence: Apache-2.0 | MAJ: 2026-09-29
-**Tags** : `containers`, `docker`, `kernel`, `kubernetes`, `linux`, `oci`, `sandbox`
-
-### [wasmtime](https://github.com/bytecodealliance/wasmtime)
-A lightweight WebAssembly runtime that is fast, secure, and standards-compliant
-
-⭐ 18.7k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-09-29
-**Tags** : `aot`, `cranelift`, `jit`, `lightweight`, `portable`, `runtime`, `rust`, `sandbox`
-
-### [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)
-Secure, Fast, and Extensible Sandbox runtime for AI agents.
-
-⭐ 15.6k | `Python` | Licence: Apache-2.0 | MAJ: 2026-09-29
-**Tags** : `ai`, `ai-agent`, `ai-infra`, `kubernetes`, `sandbox`
-
-### [memU](https://github.com/NevaMind-AI/memU)
-Personal memory across agents
-
-⭐ 14.5k | `Python` | Licence: NOASSERTION | MAJ: 2026-09-29
-**Tags** : `agent-memory`, `claude-skills`, `harness`, `loop-engineering`, `mcp`, `memory`, `openclaw`, `openclaw-skills`
-
-### [CubeSandbox](https://github.com/TencentCloud/CubeSandbox)
-Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.
-
-⭐ 12.8k | `Go` | Licence: NOASSERTION | MAJ: 2026-09-29
-**Tags** : `agents`, `container`, `sandbox`
-
-### [omnigent](https://github.com/omnigent-ai/omnigent)
-Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, an...
-
-⭐ 10.3k | `Python` | Licence: Apache-2.0 | MAJ: 2026-09-29
-**Tags** : `agent-framework`, `agent-governance`, `agent-orchestration`, `agents`, `ai`, `ai-agent`, `ai-agents`, `claude-code`
-
-### [astrid](https://github.com/astrid-runtime/astrid)
-Astrid is a portable, capability-secure operating system for composable software.
-
-⭐ 10.3k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-09-26
-**Tags** : `agent-runtime`, `ai-agents`, `capability-security`, `llm`, `mcp`, `microkernel`, `rust`, `sandbox`
-
-### [openbrowser](https://github.com/ntegrals/openbrowser)
-Let AI agents browse the web. An autonomous toolkit for browser-based AI agents.
-
-⭐ 9.5k | `TypeScript` | Licence: MIT | MAJ: 2026-09-28
-**Tags** : `ai-agents`, `automation`, `claude`, `playwright`, `puppeteer`, `sandbox`
-
-### [react-cosmos](https://github.com/react-cosmos/react-cosmos)
-Sandbox for developing and testing UI components in isolation
-
-⭐ 8.7k | `TypeScript` | Licence: MIT | MAJ: 2026-09-27
-**Tags** : `components`, `devtools`, `react`, `sandbox`, `testing`, `ui`
-
 ### [microsandbox](https://github.com/superradcompany/microsandbox)
 🧱 easy, fast, programmable and local-first microVM runtime
 
 ⭐ 8.5k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-09-29
 **Tags** : `agents`, `docker`, `golang`, `linux`, `local`, `macos`, `microvm`, `nodejs`
-
-### [monty](https://github.com/pydantic/monty)
-A minimal, secure Python interpreter written in Rust for use by AI
-
-⭐ 8.4k | `Rust` | Licence: MIT | MAJ: 2026-09-29
-**Tags** : `python`, `rust`, `sandbox`, `sandboxing`
-
-### [OpenTTD](https://github.com/OpenTTD/OpenTTD)
-OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe
-
-⭐ 8.3k | `C++` | Licence: NOASSERTION | MAJ: 2026-09-29
-**Tags** : `game`, `isometric`, `openttd`, `sandbox`, `simulation`
-
-### [wasm3](https://github.com/wasm3/wasm3)
-🚀 A fast WebAssembly interpreter and the most universal WASM runtime
-
-⭐ 8.0k | `C` | Licence: MIT | MAJ: 2026-09-28
-**Tags** : `containers`, `cosmopolitan`, `devops`, `edge-computing`, `embedded`, `iot`, `sandbox`, `scripting`
 
 ### [smolvm](https://github.com/smol-machines/smolvm)
 An embeddable, portable, branchable virtual machine to safely run Agents locally.
@@ -231,5 +147,89 @@ The runtime behind every E2B stack: Cloud, Enterprise, and your own machine.
 
 ⭐ 1.6k | `Go` | Licence: Apache-2.0 | MAJ: 2026-09-29
 **Tags** : `ai-agents`, `code-interpreter`, `consul`, `devtools`, `firecracker`, `gcp`, `go`, `golang`
+
+### [awesome-wasm-runtimes](https://github.com/appcypher/awesome-wasm-runtimes)
+A list of webassemby runtimes
+
+⭐ 1.6k | MAJ: 2026-09-22
+**Tags** : `cranelift`, `engine`, `javascript`, `rust`, `virtual-machine`, `vm`, `wasm`, `wasm-runtime`
+
+### [flintlock](https://github.com/liquidmetal-dev/flintlock)
+Lock, Stock, and Two Smoking MicroVMs. Create and manage the lifecycle of MicroVMs backed by containerd.
+
+⭐ 1.5k | `Go` | Licence: MPL-2.0 | MAJ: 2026-09-29
+**Tags** : `cni`, `firecracker`, `kvm`, `microvm`, `oci`
+
+### [kuasar](https://github.com/kuasar-io/kuasar)
+A multi-sandbox container runtime that provides cloud-native, all-scenario multiple sandbox container solutions.
+
+⭐ 1.5k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-09-23
+**Tags** : `cloud-hypervisor`, `cloud-native`, `cncf`, `containerd`, `containers`, `cri`, `docker`, `microvm`
+
+### [Wllama](https://github.com/ngxson/wllama)
+WebAssembly binding for llama.cpp - Enabling in-browser LLM inference
+
+⭐ 1.3k | `TypeScript` | Licence: MIT | MAJ: 2026-09-29
+**Tags** : `llama`, `llamacpp`, `llm`, `wasm`, `webassembly`
+
+### [mayastor](https://github.com/openebs/mayastor)
+Dynamically provision Stateful Persistent Replicated Cluster-wide Fabric Volumes & Filesystems for Kubernetes that is provisioned from an optimized NVME SPDK backend data storage stack.
+
+⭐ 1.1k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-09-29
+**Tags** : `containers`, `data-plane`, `k8s`, `kubernetes`, `microvm`, `nvme`, `pvc`, `rust`
+
+### [clawk](https://github.com/clawkwork/clawk)
+Give coding agents a disposable Linux VM, not your laptop
+
+⭐ 1.0k | `Go` | Licence: Apache-2.0 | MAJ: 2026-09-29
+**Tags** : `agent-sandbox`, `ai-agent-sandbox`, `ai-agents`, `claude`, `claude-code`, `codex`, `microvm`, `sandbox`
+
+### [coop](https://github.com/trailofbits/coop)
+Isolated VM environment for running Claude Code and Codex
+
+⭐ 724 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-09-29
+**Tags** : `claude-code`, `cli`, `codex`, `firecracker`, `kvm`, `lima`, `microvm`, `rust`
+
+### [smolBSD](https://github.com/NetBSDfr/smolBSD)
+smolBSD is a tiny BSD UNIX (NetBSD) system creation tool, primarily aimed at building modern, lightweight, fast micro VMs
+
+⭐ 714 | `Shell` | Licence: BSD-2-Clause | MAJ: 2026-09-27
+**Tags** : `bsd`, `microvm`, `netbsd`, `qemu`
+
+### [h5i](https://github.com/h5i-dev/h5i)
+An agent-native red-teaming workspace with a fast browser, direct HTTP traffic control, sandboxed execution, and auditable sessions. Pure Rust.
+
+⭐ 663 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-09-29
+**Tags** : `agentic-ai`, `agentic-workflow`, `ai-hacking`, `ai-safety`, `ai-security`, `browser-automation`, `browser-security`, `bug-bounty`
+
+### [pve-microvm](https://github.com/rcarmo/pve-microvm)
+Firecracker-like microVMs for Proxmox VE — KVM isolation, under 200 ms boot.
+
+⭐ 399 | `Shell` | Licence: Apache-2.0 | MAJ: 2026-09-29
+**Tags** : `homelab`, `microvm`, `proxmox`, `sandboxing`
+
+### [vHive](https://github.com/vhive-serverless/vHive)
+vHive: Open-source framework for serverless experimentation
+
+⭐ 347 | `Go` | Licence: MIT | MAJ: 2026-09-29
+**Tags** : `benchmarking`, `containerd`, `faas`, `firecracker`, `functions-as-a-service`, `gvisor`, `knative`, `knative-serving`
+
+### [Greywall](https://github.com/GreyhavenHQ/greywall)
+Deny-by-default command sandbox for AI coding agents with filesystem isolation, network control via transparent proxy, built-in profiles for agents like Claude Code or OpenCode, and learning mode f...
+
+⭐ 306 | `Go` | Licence: Apache-2.0 | MAJ: 2026-09-29
+**Tags** : `agents`, `ai-security`, `claude-code`, `developer-tools`, `greyproxy`, `landlock`, `linux`, `llm`
+
+### [Containarium](https://github.com/FootprintAI/Containarium)
+Open-source agent runtime — SSH-native isolation, eBPF egress policy, Kubernetes + LXC backends, GPU passthrough, MCP-native CLI
+
+⭐ 295 | `Go` | Licence: Apache-2.0 | MAJ: 2026-09-29
+**Tags** : `agent-native`, `agent-runtime`, `agent-sandbox`, `agentic-ai`, `ai-agents`, `claude`, `code-sandbox`, `cursor`
+
+### [chasm](https://github.com/CharlieTap/chasm)
+A WebAssembly runtime built on Kotlin Multiplatform
+
+⭐ 231 | `WebAssembly` | Licence: Apache-2.0 | MAJ: 2026-09-29
+**Tags** : `kotlin-multiplatform`, `wasm`, `wasm-runtime`, `webassembly`
 
 <!-- TOOLS_SANDBOX_END -->

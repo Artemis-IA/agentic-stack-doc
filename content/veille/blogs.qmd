@@ -91,12 +91,12 @@ graph LR
 New Sonnet model from Anthropic today. They say it "runs 30%+ faster, and costs up to 30% less for most work" - it's priced the same as Sonnet 5 but appears to beat it on every bench...
 - **Lien** : https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/
 
-### Ringg’s AI agents resolve up to 65% of customer calls with OpenAI
-- **Source** : OpenAI Blog
-- **Date** : Wed, 23 Sep 2026
+### Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents
+- **Source** : Hugging Face Blog
+- **Date** : Tue, 29 Sep 2026
 - **Score** : 2
-- **Résumé** : Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1....
-- **Lien** : https://openai.com/index/ringg
+- **Résumé** : ...
+- **Lien** : https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source
 
 ### LWiAI Podcast #256 - Fable 5.1, Astra Tease, Gemini 3.8 Flash
 - **Source** : Last Week in AI
@@ -134,14 +134,6 @@ Worse, ...
 - **Résumé** : On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything t...
 - **Lien** : https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/
 
-### Note on 24th September 2026
-- **Source** : Simon Willison
-- **Date** : 2026-09-24T23:31
-- **Score** : 1
-- **Résumé** : The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder.
-We can do amazing things with them, but unlocking their full potential requir...
-- **Lien** : https://simonwillison.net/2026/Sep/24/harder/
-
 ### Holo4: powering generalist computer-use agents
 - **Source** : Hugging Face Blog
 - **Date** : Mon, 28 Sep 2026
@@ -163,19 +155,26 @@ We can do amazing things with them, but unlocking their full potential requir...
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/transformers-llama-cpp-quants
 
-### Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem
-- **Source** : Hugging Face Blog
-- **Date** : Mon, 21 Sep 2026
-- **Score** : 1
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an
-
 ### Your Agent Aced the Task. Will It Do It Again?
 - **Source** : Hugging Face Blog
 - **Date** : Tue, 15 Sep 2026
 - **Score** : 1
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/ibm-research/altk-evolve-consistency
+
+### Introducing GPT-6.1 Sol
+- **Source** : OpenAI Blog
+- **Date** : Tue, 29 Sep 2026
+- **Score** : 1
+- **Résumé** : Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices....
+- **Lien** : https://openai.com/index/introducing-gpt-6-1-sol
+
+### DevDay 2026 Recap
+- **Source** : OpenAI Blog
+- **Date** : Tue, 29 Sep 2026
+- **Score** : 1
+- **Résumé** : Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders....
+- **Lien** : https://openai.com/index/devday-2026-recap
 
 ### Basis completes a tax workbook 2x faster with GPT-6 Astra
 - **Source** : OpenAI Blog
@@ -190,13 +189,6 @@ We can do amazing things with them, but unlocking their full potential requir...
 - **Score** : 1
 - **Résumé** : With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster....
 - **Lien** : https://openai.com/index/proaction
-
-### How invideo improves color grading 3x with GPT‑6 Astra
-- **Source** : OpenAI Blog
-- **Date** : Wed, 23 Sep 2026
-- **Score** : 1
-- **Résumé** : With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day....
-- **Lien** : https://openai.com/index/invideo-builds-with-gpt-6-astra
 
 ### LWiAI Podcast #257 - GPT 6 Astra, AI Extinction, Security Incidents
 - **Source** : Last Week in AI
