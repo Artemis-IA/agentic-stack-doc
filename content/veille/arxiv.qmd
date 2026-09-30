@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### Reinforcing Agentic Creativity in Scientific Ideation with Night Science
-- **arXiv** : 2609.35706v1
-- **Date** : 2026-09-28
-- **Auteurs** : Priyanka Kargupta, Silviu Cucerzan, Shweti Mahajan, Allen Herring, Jiawei Han
-- **Score** : 13
-- **Résumé** : Large language models (LLMs) excel at structured, verifiable tasks, but their low-entropy bias can produce homogeneous and predictable outputs, limiting their utility for open-ended scientific ideation. Effective discovery, however, spans a broader creative spectrum: from structured day science to l...
-- **Lien** : https://arxiv.org/abs/2609.35706v1
-
-### KV-streams for Efficient Compaction in Agentic Reinforcement Learning
-- **arXiv** : 2609.35750v1
-- **Date** : 2026-09-28
-- **Auteurs** : Emiliano Penaloza, Dane Malenfant, Dheeraj Vattikonda, Roger Creus Castanyer, Siddarth Venkatraman
+### UserProxyBench: Evaluating LLM User Simulators for Agent Benchmarks and Training
+- **arXiv** : 2609.38043v1
+- **Date** : 2026-09-29
+- **Auteurs** : Ashish Jain, Armaan Sandhu
 - **Score** : 10
-- **Résumé** : Scaling the horizon of agentic LLMs is bottlenecked by the need to fit ever longer context traces in GPU memory. Context compaction has been the most popular mechanism to alleviate this issue, keeping GPU memory constant for a given trace. Unfortunately, most compaction strategies rely on prefilling...
-- **Lien** : https://arxiv.org/abs/2609.35750v1
+- **Résumé** : Interactive agent benchmarks and multi-turn reinforcement learning increasingly place a second language model in the role of the user. This simulated user controls what information the agent receives and when, yet current benchmarks score only the agent and do not directly measure whether the user c...
+- **Lien** : https://arxiv.org/abs/2609.38043v1
 
-### TokenCast: Forecasting Token Consumption During LLM Agent Execution
-- **arXiv** : 2609.35760v1
-- **Date** : 2026-09-28
-- **Auteurs** : Chaoqian Ouyang, Ling Yue, Libin Zheng, Huanghui Guo, Shengxiang Xu
+### Skill-Space Shooting for Autonomous Robot Policy Improvement
+- **arXiv** : 2609.38178v1
+- **Date** : 2026-09-29
+- **Auteurs** : Zihang Rui, Renhao Wang, Haoxu Huang, Yang Gao
 - **Score** : 9
-- **Résumé** : When a large language model (LLM) agent executes the same task, token consumption can vary by over an order of magnitude across runs. The agent chooses its next steps based on tool feedback and intermediate results, while the growing context steadily inflates the input size of every subsequent call....
-- **Lien** : https://arxiv.org/abs/2609.35760v1
+- **Résumé** : Robots deployed in the physical world must be able to improve beyond their initial training as they encounter new situations and failures. For this improvement to scale across tasks, it must make effective use of experience without requiring human demonstration of each correction. Recent agentic sys...
+- **Lien** : https://arxiv.org/abs/2609.38178v1
 
-### Failure-Transparent Agents: Benchmarking Post-Failure Reporting in Tool-Using Language Models
-- **arXiv** : 2609.35732v1
-- **Date** : 2026-09-28
-- **Auteurs** : Junru Zhu, Shiming Xie, Aime Lu Fan Chen, Xiaoqing Ding, Chunxin Tang
+### Do LLM Agents Execute the Plans They Declare? From Planning-Mode Declaration to Pattern-Specific Execution
+- **arXiv** : 2609.38108v1
+- **Date** : 2026-09-29
+- **Auteurs** : Subba Reddy Oota, Francisco Herrera, Jordi Cabot Sagrera, Marcos López de Prado, Shadab Khan
+- **Score** : 9
+- **Résumé** : Large language models (LLMs) enable agents to solve long-horizon tasks by generating a plan and then executing it in an environment. However, successful planning requires two distinct capabilities: selecting an appropriate plan for the task and executing it faithfully. Existing planner--executor sys...
+- **Lien** : https://arxiv.org/abs/2609.38108v1
+
+### A Spectral Theory of Distortion in LLM Graph Reconstruction: Sharp Bounds and Empirical Characterization
+- **arXiv** : 2609.38161v1
+- **Date** : 2026-09-29
+- **Auteurs** : Jianru Shen
 - **Score** : 7
-- **Résumé** : Tool-using agents can fail twice: a required tool can fail, and the agent can then report success without the evidence needed to justify it. Existing benchmarks often entangle this reporting failure with tool selection, recovery, and environment dynamics. We introduce Failure-Transparent Agents (FTA...
-- **Lien** : https://arxiv.org/abs/2609.35732v1
+- **Résumé** : Evaluations of graph reconstruction by language models typically report a single aggregate distance between the original and the reconstructed graph. We prove that for the Wasserstein distance between Laplacian spectra such a summary is bracketed by two edge counts, the net change in edge number fro...
+- **Lien** : https://arxiv.org/abs/2609.38161v1
 
-### Late Attention Layers Alone Can Copy Entity Tokens, but Not Without Attending to Their Context
-- **arXiv** : 2609.35663v1
-- **Date** : 2026-09-28
-- **Auteurs** : Muyu He, Yuchen Liu, Ran Tao, Li Zhang
+### Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning
+- **arXiv** : 2609.38147v1
+- **Date** : 2026-09-29
+- **Auteurs** : Paras Dahal, Anton Bakhtin, Taco Cohen, Zhengxing Chen, Carole-Jean Wu
 - **Score** : 7
-- **Résumé** : Large language models (LLMs) reliably perform entity copying, in which a model copies tokens referring to an entity, termed entity tokens, from the prompt into its output to answer a question. Although entity copying is straightforward for most LLMs, existing research does not provide a systematic a...
-- **Lien** : https://arxiv.org/abs/2609.35663v1
+- **Résumé** : As agents take on longer and more complex problems, controlling the execution becomes a task in its own right. Each step in the run brings new control choices, like which partial work to build on, whether to start fresh, or when to stop. We introduce agentic meta-reasoning, an inference-time harness...
+- **Lien** : https://arxiv.org/abs/2609.38147v1
 
-### Shockingly Simple Self-retrospection Improves Agentic Models Without RL
-- **arXiv** : 2609.35741v1
-- **Date** : 2026-09-28
-- **Auteurs** : Jonathan Light, Christopher Zhang Cui, Jeonghye Kim, Roger Creus Castanyer, Emiliano Penaloza
+### Explore Broadly, Reason Sharply: Push Small Models toward the Frontier via Sampling
+- **arXiv** : 2609.38104v1
+- **Date** : 2026-09-29
+- **Auteurs** : Panagiotis Theodoropoulos, Nan Jiang, Xintong Duan, Ali Hasan, Yuriy Nevmyvaka
+- **Score** : 7
+- **Résumé** : Power-sharpened sampling is an inference-time alternative to reinforcement-learning (RL) post-training for enhancing reasoning in large language models (LLMs). High-probability sequences are amplified under the base model without parameter updates or external rewards, avoiding the costly optimizatio...
+- **Lien** : https://arxiv.org/abs/2609.38104v1
+
+### Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering
+- **arXiv** : 2609.38177v1
+- **Date** : 2026-09-29
+- **Auteurs** : Jaewoo Jung, Hyeonseo Yu, Honggyu An, Jisang Han, Mungyeom Kim
 - **Score** : 6
-- **Résumé** : People learn not only by repeating successful actions, but also by recounting and explaining their experiences, revising their understanding to guide future behavior. Can a language-model agent improve its future actions by training only on explanations of its own experience? We investigate this que...
-- **Lien** : https://arxiv.org/abs/2609.35741v1
+- **Résumé** : Reasoning about the 3D world from multi-view images remains a fundamental challenge for Multimodal Large Language Models (MLLMs). While modern MLLMs handle single-image inputs effectively, they struggle to integrate evidence across viewpoints into a coherent 3D understanding. A growing body of work ...
+- **Lien** : https://arxiv.org/abs/2609.38177v1
 
-### MeqMuon: Matrix-Equilibrating Muon for LLM Pretraining
-- **arXiv** : 2609.35701v1
-- **Date** : 2026-09-28
-- **Auteurs** : Chang-Wei Shi, Xu Wang, Wu-Jun Li
+### Effective Dense Retrieval using Only In-Context Examples
+- **arXiv** : 2609.38099v1
+- **Date** : 2026-09-29
+- **Auteurs** : Nour Jedidi, Abdul Basit Ali, Hang Li, Jimmy Lin
 - **Score** : 6
-- **Résumé** : The success of large language models (LLMs) has been accompanied by continued growth in model size and pretraining costs. Muon offers high accuracy and training efficiency in LLM pretraining. Recent work introduces row-wise normalization into Muon to balance update magnitudes and improve pretraining...
-- **Lien** : https://arxiv.org/abs/2609.35701v1
+- **Résumé** : Turning decoder-only large language models (LLMs) into strong dense retrievers typically requires some form of retriever training. In this paper, we ask whether LLMs can instead be prompted to produce effective representations for dense retrieval given only a few in-context examples. To answer this,...
+- **Lien** : https://arxiv.org/abs/2609.38099v1
 
-### Rethinking Personalized Generation: Test-Time Alignment via Factorized Ranking Models
-- **arXiv** : 2609.35695v1
-- **Date** : 2026-09-28
-- **Auteurs** : Qiyao Ma, Junshan Zhang, Zhe Zhao
+### Probability is Not Enough: Exploring and Counting Divergent Tokens for Reasoning Uncertainty Quantification in LLMs
+- **arXiv** : 2609.38070v1
+- **Date** : 2026-09-29
+- **Auteurs** : Feiyang Li, Shengjing Liu, Qi Zhan, Sijie Cheng, Weiqing Wang
 - **Score** : 6
-- **Résumé** : Aligning large language models (LLMs) to diverse user preferences is fundamentally hindered by standard alignment paradigms that optimize for monolithic users. In this work, empirical studies are first used to reveal the existence of a massive, untapped performance headroom for personalized generati...
-- **Lien** : https://arxiv.org/abs/2609.35695v1
+- **Résumé** : As the chain-of-thought reasoning capabilities of large language models improve, evaluating and calibrating their reasoning confidence is becoming increasingly important for quantifying the uncertainty of their answers. Current methods for estimating the confidence of large language models are gener...
+- **Lien** : https://arxiv.org/abs/2609.38070v1
 
-### Report: Progressive Disclosure of Agent Skills
-- **arXiv** : 2609.35692v1
-- **Date** : 2026-09-28
-- **Auteurs** : Guilin Zhang, Kai Zhao, Priyanka Mudgal, Waleed Ammar, Xiquan Cui
+### Gender bias across LLMs is common and highly heterogenous
+- **arXiv** : 2609.38036v1
+- **Date** : 2026-09-29
+- **Auteurs** : Edoardo Bolzoni, Valerio Capraro
 - **Score** : 6
-- **Résumé** : Users of Workday's deployed LLM-based agents often request features which can be addressed by defining named procedures, also known as skills, in the LLM context, effectively augmenting agents' capabilities. However, as an agent's skills library grows in size, so does the agent's operational cost. P...
-- **Lien** : https://arxiv.org/abs/2609.35692v1
+- **Résumé** : Understanding gender biases in large language models (LLMs) is increasingly important as these systems become embedded in decision-support tools with real consequences. Prior research has focused only on a small set of models, leaving open the extent to which gender biases are common and heterogeneo...
+- **Lien** : https://arxiv.org/abs/2609.38036v1
 
-### QuanReview: Offline, Auditable Reconciliation of Human and LLM Span Annotations
-- **arXiv** : 2609.35685v1
-- **Date** : 2026-09-28
-- **Auteurs** : Matteo Musacchio, Juan Cruz Giner Pulero, Isabel Castañeda, Naomi Couriel, Yelena Mejova
+### doPlan: A Variable-Horizon Dataset for Multi-Stage Language-Conditioned Planning in Autonomous Driving
+- **arXiv** : 2609.38028v1
+- **Date** : 2026-09-29
+- **Auteurs** : Parthib Roy, Yash Tandon, Marcus Blennemann, Giovanni Tapia Lopez, Angel Martinez-Sanchez
 - **Score** : 6
-- **Résumé** : Structured span annotations, such as quantities with their units, uncertainty modifiers, and event classes, are expensive to create and hard to keep trustworthy once language models enter the loop. We present QuanReview, an open-source system for auditing and correcting such annotation layers. QuanR...
-- **Lien** : https://arxiv.org/abs/2609.35685v1
+- **Résumé** : Autonomous vehicles interacting with passengers through natural language must reason beyond immediate commands. Passenger intent may span multiple stages of behavior, depend on future events, refer to surrounding agents or landmarks, and remain relevant as driving conditions evolve. Existing languag...
+- **Lien** : https://arxiv.org/abs/2609.38028v1
 
-### PhoneCLI: From App Interfaces to Callable Commands for Mobile Agents
-- **arXiv** : 2609.35671v1
-- **Date** : 2026-09-28
-- **Auteurs** : Yangqin Jiang, Lingrui Xu, Chao Huang
-- **Score** : 6
-- **Résumé** : Mobile GUI agents operate through a perception--action loop: at each step they screenshot the device, invoke a vision--language model (VLM), and emit an action. It is slow, costly, and brittle, yet most of what it does is navigation---and everyday navigation is static, ordered, and endlessly repeate...
-- **Lien** : https://arxiv.org/abs/2609.35671v1
-
-### GPUPhysBench: Benchmarking Coding Agents for Correct and Efficient GPU Physics Simulation
-- **arXiv** : 2609.35639v1
-- **Date** : 2026-09-28
-- **Auteurs** : Yuchen Sun, Jinjin He, Sinan Wang, Bo Zhu
-- **Score** : 5
-- **Résumé** : Writing fast GPU code for physical simulation is difficult: implementations must preserve numerical accuracy while handling irregular data access, synchronization, and iterative solvers. We introduce GPUPhysBench, a benchmark of 50 tasks testing whether coding agents can meet these demands. Tasks co...
-- **Lien** : https://arxiv.org/abs/2609.35639v1
-
-### FinAutoRubric: Expert-Guided Automatic Rubric Generation for Evaluating Financial Research Agents
-- **arXiv** : 2609.35744v1
-- **Date** : 2026-09-28
-- **Auteurs** : Hoyoung Lee, Suyeol Yun, Jack Haverty, Yunju Cho, Meesong Kim
+### LongHarness Bench: Stress-Testing Language Model Harnesses for Long-Context Reasoning
+- **arXiv** : 2609.38137v1
+- **Date** : 2026-09-29
+- **Auteurs** : Quang Hieu Pham, Thuy Duong Nguyen, Jocelyn Qiaochu Chen, Xi Ye
 - **Score** : 4
-- **Résumé** : Evaluating finance research agents requires rubrics that reflect expert standards and fix the values correct as of an information cutoff. Expert-reviewed finance benchmarks rely on fixed, per-item rubrics, which are costly to extend and cannot encode each institution's own standard. In FinAutoRubric...
-- **Lien** : https://arxiv.org/abs/2609.35744v1
+- **Résumé** : Language-model (LM) harnesses enable LMs to operate effectively over long contexts using additional compute. However, existing long-context evaluations are insufficient for distinguishing modern harnesses, reflected by saturated accuracy across harnesses and largely similar evaluation costs. In this...
+- **Lien** : https://arxiv.org/abs/2609.38137v1
 
-### Telescopic Language Models
-- **arXiv** : 2609.35769v1
-- **Date** : 2026-09-28
-- **Auteurs** : Zhilin Guo, Boqiao Zhang, Hakan Aktas, Kyle Fogarty, Nursena Koprucu Aslan
-- **Score** : 3
-- **Résumé** : One deployed language model must often serve many compute budgets, yet serving each budget still means a separate training or compression run per point. We train a Telescopic Language Model (TLM) to be that continuum: a nested-capacity Transformer supervised by stochastic prefix supervision with a f...
-- **Lien** : https://arxiv.org/abs/2609.35769v1
+### Jaxolotl: A Unified High-Performance Benchmark Suite for LTL-Based Multi-Task RL
+- **arXiv** : 2609.38065v1
+- **Date** : 2026-09-29
+- **Auteurs** : Mathias Jackermeier, Jacques Cloete, Alessandro Abate
+- **Score** : 4
+- **Résumé** : Training agents to follow arbitrary instructions is an important goal of multi-task reinforcement learning (RL). Linear temporal logic (LTL) provides a precise and structured formalism for specifying instructions to agents, and has been successfully adopted for training generalist multi-task policie...
+- **Lien** : https://arxiv.org/abs/2609.38065v1
 
-### Scaling Long-Form Story Generation via Narrative State Tracking
-- **arXiv** : 2609.35759v1
-- **Date** : 2026-09-28
-- **Auteurs** : Zhennan Wan, Jianfei Chen
+### LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization
+- **arXiv** : 2609.38166v1
+- **Date** : 2026-09-29
+- **Auteurs** : Yi Pan, Haocheng Xi, Kan Zhu, Xingyang Li, Yibo Wu
 - **Score** : 3
-- **Résumé** : LLMs have demonstrated strong capabilities in creative writing. However, scaling them to full-length novels remains challenging, as maintaining narrative consistency becomes increasingly difficult. Existing story-generation methods typically focus on stories of up to about ten thousand words, leavin...
-- **Lien** : https://arxiv.org/abs/2609.35759v1
+- **Résumé** : Recent LLMs increasingly adopt hybrid designs that replace standard attention with linear attention, such as Gated DeltaNet (GDN) and Kimi Delta Attention (KDA). Although they compress the context into a fixed-size recurrent state and substantially reduce the cost of long-context processing, repeate...
+- **Lien** : https://arxiv.org/abs/2609.38166v1
 
-### Towards Communication-Efficient Social Intelligence in Language Agents
-- **arXiv** : 2609.35749v1
-- **Date** : 2026-09-28
-- **Auteurs** : Linxiao Gong, Yijie Xu, Tianfu Wang, Yin Wu, Yili Wang
+### Pretraining Latent Information Feedback Transformers with Teacher Supervision
+- **arXiv** : 2609.38149v1
+- **Date** : 2026-09-29
+- **Auteurs** : Dor Tirosh, Ido Amos, Mor Geva
 - **Score** : 3
-- **Résumé** : Socially intelligent language agents must negotiate, coordinate, and resolve conflicting preferences while respecting the time and attention of both participants. Balancing these demands is challenging because agents must convey enough to address a partner's constraints and advance their goals witho...
-- **Lien** : https://arxiv.org/abs/2609.35749v1
+- **Résumé** : Transformer language models (LMs) are feed-forward: deep-layer representations are never fed back to shallower layers, and the only pathway for information to flow downward across generation steps is the decoded token. This narrow channel forces models to recompute intermediate results and to discar...
+- **Lien** : https://arxiv.org/abs/2609.38149v1
 
-### Harness Learning Enables Generalizable Test-Time Adaptation
-- **arXiv** : 2609.35738v1
-- **Date** : 2026-09-28
-- **Auteurs** : Alvin Zhang, Xuecheng Liu, Zixuan Wang, Fahim Tajwar, Daman Arora
+### Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI
+- **arXiv** : 2609.38143v1
+- **Date** : 2026-09-29
+- **Auteurs** : Cheng Qian, Kunlun Zhu, Beibin Li, Zhenhailong Wang, Heng Ji
 - **Score** : 3
-- **Résumé** : A language-model agent is jointly defined by its model and its harness, the executable program that organizes model calls, tool use, and information flow. Because different tasks call for different ways of organizing these operations, the harness needs to be adapted using feedback from the task at h...
-- **Lien** : https://arxiv.org/abs/2609.35738v1
+- **Résumé** : Agent performance depends on both reasoning ability and the environment in which it acts. We study test-time AI-for-AI, asking how a Builder can learn to construct better execution environments for a Target while both models' weights remain fixed. To make the Builder's experience reusable, we introd...
+- **Lien** : https://arxiv.org/abs/2609.38143v1
 
-### Distillation Defenses Easily Break After Reinforcement Learning
-- **arXiv** : 2609.35699v1
-- **Date** : 2026-09-28
-- **Auteurs** : Shidan Javaheri, Alexander Panfilov, Oliver Britton, Yarin Gal, Yonatan Gideoni
+### AdviSD: Learning to Advise Frontier LLMs via Targeted Multi-Turn Self-Distillation
+- **arXiv** : 2609.38142v1
+- **Date** : 2026-09-29
+- **Auteurs** : Rishabh Agrawal, Hejie Cui, Shasha Li, Shanchan Wu, Sercan Ö. Arık
 - **Score** : 3
-- **Résumé** : Distillation attacks copy the reasoning capabilities of closed-source large language models, allowing bad actors to replicate state-of-the-art performance at low cost. Attackers systematically collect a large volume of frontier model reasoning traces and then train (i.e., "distill") their own models...
-- **Lien** : https://arxiv.org/abs/2609.35699v1
+- **Résumé** : A small trainable advisor can steer a frozen language-model executor using natural-language advice. In addition to learning from task rewards, the advisor can use feedback from completed interactions to improve its advice. However, a plausible correction need not change execution, yet learning from ...
+- **Lien** : https://arxiv.org/abs/2609.38142v1
 
-### Provable Benefits of Regularization: Fast Rates for Adversarial Imitation Learning
-- **arXiv** : 2609.35698v1
-- **Date** : 2026-09-28
-- **Auteurs** : Hanbin Zhou, Shangzhe Li, Alexander Braverman, Weitong Zhang
+### Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE
+- **arXiv** : 2609.38140v1
+- **Date** : 2026-09-29
+- **Auteurs** : Yu Xu, Yuxin Zhang, Xiao Yang, Haotian Yang, Yizhi Wang
 - **Score** : 3
-- **Résumé** : We study adversarial imitation learning (AIL), in which an agent learns to imitate expert demonstrations by optimizing a policy against an adversarial reward that distinguishes expert and learner behavior. Historically, reward regularization and entropy-based policy regularization are key components...
-- **Lien** : https://arxiv.org/abs/2609.35698v1
+- **Résumé** : Mixture-of-Experts (MoE), popularized by large language models, is a promising paradigm for scaling visual generative models. However, conventional token-wise MoE routes tokens independently within a homogeneous expert pool and regularizes expert usage toward uniformity, making it poorly matched to ...
+- **Lien** : https://arxiv.org/abs/2609.38140v1
 
-### Not All Thinking is Created Equal: Latent Reasoning Discovers a Recurrent Search Algorithm for Depth Generalization
-- **arXiv** : 2609.35643v1
-- **Date** : 2026-09-28
-- **Auteurs** : Huzi Cheng, Zhewei Zhang
+### Multi-Agent Flow Matching with Decoupled Generative Guidance
+- **arXiv** : 2609.38133v1
+- **Date** : 2026-09-29
+- **Auteurs** : Ruoyu Lin, Magnus Egerstedt, Fabio Pasqualetti
 - **Score** : 3
-- **Résumé** : Large Language Models can perform multi-step reasoning and improve task performance through different forms of intermediate computation, from token-based traces to computation carried out in latent space. However, a question remains open: do these different forms of thinking rely on the same underly...
-- **Lien** : https://arxiv.org/abs/2609.35643v1
+- **Résumé** : Generative modeling is widely used for producing diverse objects from complex, multimodal distributions. However, its expressivity does not, in general, come with formal guarantees that the generated objects satisfy hard constraints or requirements. In multi-agent generation, this problem becomes mo...
+- **Lien** : https://arxiv.org/abs/2609.38133v1
+
+### Achieving an $O(1/N)$ Optimality Gap in Average-Reward Weakly-Coupled MDPs
+- **arXiv** : 2609.38132v1
+- **Date** : 2026-09-29
+- **Auteurs** : Yige Hong, Xiangcheng Zhang, Qiaomin Xie, Yudong Chen, Weina Wang
+- **Score** : 3
+- **Résumé** : We study average-reward weakly-coupled Markov decision processes (WCMDPs), where a WCMDP consists of $N$ smaller MDPs, called arms, that share multiple per-step budget constraints. We consider the setting where the arms have identical model parameters, multiple actions, and state- and action-depende...
+- **Lien** : https://arxiv.org/abs/2609.38132v1
 
 <!-- ARXIV_FEED_END -->
