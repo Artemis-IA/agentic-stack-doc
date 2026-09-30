@@ -112,24 +112,30 @@ crew = Crew(
 ### [OpenClaw](https://github.com/openclaw/openclaw)
 Open-source AI agent framework that turns LLMs into persistent, proactive personal AI agents with multi-channel messaging (Signal, Telegram, Discord, WhatsApp), cron scheduling, memory systems, MCP...
 
-⭐ 390.8k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-09-30
+⭐ 391.0k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-09-30
 **Tags** : `ai`, `assistant`, `crustacean`, `molty`, `openclaw`, `own-your-data`, `personal`
 
 ### [Hermes Agent](https://github.com/nousresearch/hermes-agent)
 The agent that grows with you
 
-⭐ 250.2k | `Python` | Licence: MIT | MAJ: 2026-09-30
+⭐ 250.3k | `Python` | Licence: MIT | MAJ: 2026-09-30
 **Tags** : `ai`, `ai-agent`, `ai-agents`, `anthropic`, `chatgpt`, `claude`, `claude-code`, `codex`
 
 ### [OpenCode](https://github.com/anomalyco/opencode)
 The AI coding agent built for the terminal. !GitHub Repo stars
 
-⭐ 211.0k | `TypeScript` | Licence: MIT | MAJ: 2026-09-30
+⭐ 211.2k | `TypeScript` | Licence: MIT | MAJ: 2026-09-30
 
 ### [Paperclip](https://github.com/paperclipai/paperclip)
 Open-source platform to run coding agents as managed workers with tasks, approvals, budgets, and workspaces. !GitHub Repo stars
 
-⭐ 95.0k | `TypeScript` | Licence: MIT | MAJ: 2026-09-30
+⭐ 95.3k | `TypeScript` | Licence: MIT | MAJ: 2026-09-30
+
+### [Agent-Reach](https://github.com/Panniantong/Agent-Reach)
+Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
+
+⭐ 86.5k | `Python` | Licence: MIT | MAJ: 2026-09-30
+**Tags** : `agent-infrastructure`, `ai-agent`, `ai-search`, `automation`, `bilibili`, `claude-code`, `cli`, `cursor`
 
 ### [MetaGPT](https://github.com/geekan/MetaGPT)
 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming
@@ -179,7 +185,7 @@ aider is AI pair programming in your terminal !GitHub Repo stars
 **Tags** : `anthropic`, `chatgpt`, `claude-3`, `cli`, `command-line`, `gemini`, `gpt-3`, `gpt-35-turbo`
 
 ### [nanobot](https://github.com/HKUDS/nanobot)
-Ultra-lightweight personal AI assistant framework (~4,000 lines of Python). Supports MCP, 9+ chat channels, and extensible skills system. !GitHub Repo stars
+Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps
 
 ⭐ 48.7k | `Python` | Licence: MIT | MAJ: 2026-09-30
 **Tags** : `agent-framework`, `ai-agent`, `ai-agents`, `chatbot`, `chatops`, `discord-bot`, `llm-agents`, `llms`
@@ -187,13 +193,13 @@ Ultra-lightweight personal AI assistant framework (~4,000 lines of Python). Supp
 ### [Hindsight](https://github.com/vectorize-io/hindsight)
 State-of-the-art long-term memory for AI agents by Vectorize. !GitHub Repo stars
 
-⭐ 43.5k | `Python` | Licence: MIT | MAJ: 2026-09-30
+⭐ 43.9k | `Python` | Licence: MIT | MAJ: 2026-09-30
 **Tags** : `agentic-ai`, `agents`, `ai-memory`, `memory`
 
 ### [OpenCodeReview](https://github.com/alibaba/open-code-review)
 An open-source hybrid code reviewer combining deterministic rules with an LLM agent (tool-use, line-level comments); self-hostable, bring-your-own model. !GitHub Repo stars
 
-⭐ 42.8k | `Go` | Licence: Apache-2.0 | MAJ: 2026-09-30
+⭐ 42.9k | `Go` | Licence: Apache-2.0 | MAJ: 2026-09-30
 **Tags** : `agent`, `agent-skills`, `code-review`, `code-review-assistant`, `harness`, `repository-level-context`
 
 ### [Agno](https://github.com/agno-agi/agno)
@@ -205,7 +211,7 @@ Build, run, and manage agent platforms. !GitHub Repo stars
 ### [OpenViking](https://github.com/volcengine/OpenViking)
 Self-evolving Context Database for AI Agents — unifies Agent Memory, Knowledge RAG, and Skills behind a single interface, with a portable Agent Plugins package format. !GitHub Repo stars
 
-⭐ 39.0k | `Python` | Licence: AGPL-3.0 | MAJ: 2026-09-30
+⭐ 39.1k | `Python` | Licence: AGPL-3.0 | MAJ: 2026-09-30
 **Tags** : `agent-memory`, `agent-plugins`, `agentic-rag`, `context-database`, `dsh-plugin`, `self-evolving`
 
 ### [DSPy](https://github.com/stanfordnlp/dspy)
@@ -233,6 +239,12 @@ Start building LLM-empowered multi-agent applications in an easier way. !GitHub 
 
 ⭐ 32.6k | `Python` | Licence: Apache-2.0 | MAJ: 2026-09-30
 **Tags** : `agent`, `chatbot`, `large-language-models`, `llm`, `llm-agent`, `mcp`, `multi-agent`, `multi-modal`
+
+### [invisible_playwright_mcp](https://github.com/feder-cr/invisible_playwright_mcp)
+Playwright MCP server undetected by anti-bots and captchas: AI agent browses the web on anti-detect stealth Firefox, Python, undetected browser automation, scraping, computer use.
+
+⭐ 31.7k | `Python` | Licence: MIT | MAJ: 2026-09-30
+**Tags** : `agentic-ai`, `ai-agent`, `ai-automation`, `autonomous-agents`, `browser`, `claude-code-plugin`, `crawler`, `gemini-cli-extension`
 
 ### [Storm](https://github.com/stanford-oval/storm)
 An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations. !GitHub Repo stars
@@ -265,17 +277,5 @@ Educational framework exploring ergonomic, lightweight multi-agent orchestration
 Devika is the first open-source implementation of an Agentic Software Engineer. Initially started as an open-source alternative to Devin.
 
 ⭐ 19.6k | `Python` | Licence: MIT | MAJ: 2026-09-30
-
-### [camel](https://github.com/camel-ai/camel)
-🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org
-
-⭐ 17.8k | `Python` | Licence: Apache-2.0 | MAJ: 2026-09-30
-**Tags** : `agent`, `ai-societies`, `artificial-intelligence`, `communicative-ai`, `cooperative-ai`, `deep-learning`, `large-language-models`, `multi-agent-systems`
-
-### [Pipecat](https://github.com/pipecat-ai/pipecat)
-Open Source framework for voice and multimodal conversational AI. !GitHub Repo stars
-
-⭐ 16.1k | `Python` | Licence: BSD-2-Clause | MAJ: 2026-09-30
-**Tags** : `ai`, `chatbot-framework`, `chatbots`, `real-time`, `voice`, `voice-assistant`
 
 <!-- TOOLS_FRAMEWORK_END -->
