@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### UserProxyBench: Evaluating LLM User Simulators for Agent Benchmarks and Training
-- **arXiv** : 2609.38043v1
-- **Date** : 2026-09-29
-- **Auteurs** : Ashish Jain, Armaan Sandhu
-- **Score** : 10
-- **Résumé** : Interactive agent benchmarks and multi-turn reinforcement learning increasingly place a second language model in the role of the user. This simulated user controls what information the agent receives and when, yet current benchmarks score only the agent and do not directly measure whether the user c...
-- **Lien** : https://arxiv.org/abs/2609.38043v1
+### How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?
+- **arXiv** : 2609.40303v1
+- **Date** : 2026-09-30
+- **Auteurs** : Kirill Brilliantov, Alejandro Hernández-Cano, Emmanuel Abbé
+- **Score** : 13
+- **Résumé** : Recent autonomous machine learning engineering (MLE) agents have made significant progress on public leaderboards. Often motivated by progress stagnation over long-horizon cycles and limited Large Language Model (LLM) primitives, modern MLE agents are deployed on top of increasingly elaborate machin...
+- **Lien** : https://arxiv.org/abs/2609.40303v1
 
-### Skill-Space Shooting for Autonomous Robot Policy Improvement
-- **arXiv** : 2609.38178v1
-- **Date** : 2026-09-29
-- **Auteurs** : Zihang Rui, Renhao Wang, Haoxu Huang, Yang Gao
-- **Score** : 9
-- **Résumé** : Robots deployed in the physical world must be able to improve beyond their initial training as they encounter new situations and failures. For this improvement to scale across tasks, it must make effective use of experience without requiring human demonstration of each correction. Recent agentic sys...
-- **Lien** : https://arxiv.org/abs/2609.38178v1
-
-### Do LLM Agents Execute the Plans They Declare? From Planning-Mode Declaration to Pattern-Specific Execution
-- **arXiv** : 2609.38108v1
-- **Date** : 2026-09-29
-- **Auteurs** : Subba Reddy Oota, Francisco Herrera, Jordi Cabot Sagrera, Marcos López de Prado, Shadab Khan
-- **Score** : 9
-- **Résumé** : Large language models (LLMs) enable agents to solve long-horizon tasks by generating a plan and then executing it in an environment. However, successful planning requires two distinct capabilities: selecting an appropriate plan for the task and executing it faithfully. Existing planner--executor sys...
-- **Lien** : https://arxiv.org/abs/2609.38108v1
-
-### A Spectral Theory of Distortion in LLM Graph Reconstruction: Sharp Bounds and Empirical Characterization
-- **arXiv** : 2609.38161v1
-- **Date** : 2026-09-29
-- **Auteurs** : Jianru Shen
+### Is Weight Tying Still Beneficial for Decoder-Only LLMs in Private Settings Under DP-SGD?
+- **arXiv** : 2609.40335v1
+- **Date** : 2026-09-30
+- **Auteurs** : Razan El Mais, Ali Chehab, Ibrahim Issa, Razane Tajeddine
 - **Score** : 7
-- **Résumé** : Evaluations of graph reconstruction by language models typically report a single aggregate distance between the original and the reconstructed graph. We prove that for the Wasserstein distance between Laplacian spectra such a summary is bracketed by two edge counts, the net change in edge number fro...
-- **Lien** : https://arxiv.org/abs/2609.38161v1
+- **Résumé** : Differentially Private Stochastic Gradient Descent (DP-SGD) is a leading approach for privacy-preserving fine-tuning of large language models (LLMs). Many decoder-only LLMs employ weight tying between input and output embeddings, a design choice originally introduced for parameter efficiency and imp...
+- **Lien** : https://arxiv.org/abs/2609.40335v1
 
-### Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning
-- **arXiv** : 2609.38147v1
-- **Date** : 2026-09-29
-- **Auteurs** : Paras Dahal, Anton Bakhtin, Taco Cohen, Zhengxing Chen, Carole-Jean Wu
+### Linguistic Loopholes in LLM Unlearning: From a 174-Language Benchmark to Coverage-Aware Unlearning
+- **arXiv** : 2609.40286v1
+- **Date** : 2026-09-30
+- **Auteurs** : Tyler Skow, Shravan Chaudhari, Rama Chellappa, Abhay Yadav
 - **Score** : 7
-- **Résumé** : As agents take on longer and more complex problems, controlling the execution becomes a task in its own right. Each step in the run brings new control choices, like which partial work to build on, whether to start fresh, or when to stop. We introduce agentic meta-reasoning, an inference-time harness...
-- **Lien** : https://arxiv.org/abs/2609.38147v1
+- **Résumé** : Unlearning a fact in one language does not guarantee its removal in others as changing the query or even the requested answer language can reopen seemingly forgotten knowledge -- a cross-lingual loophole. The most straightforward solution to this challenge -- unlearning in all languages -- is neithe...
+- **Lien** : https://arxiv.org/abs/2609.40286v1
 
-### Explore Broadly, Reason Sharply: Push Small Models toward the Frontier via Sampling
-- **arXiv** : 2609.38104v1
-- **Date** : 2026-09-29
-- **Auteurs** : Panagiotis Theodoropoulos, Nan Jiang, Xintong Duan, Ali Hasan, Yuriy Nevmyvaka
-- **Score** : 7
-- **Résumé** : Power-sharpened sampling is an inference-time alternative to reinforcement-learning (RL) post-training for enhancing reasoning in large language models (LLMs). High-probability sequences are amplified under the base model without parameter updates or external rewards, avoiding the costly optimizatio...
-- **Lien** : https://arxiv.org/abs/2609.38104v1
-
-### Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering
-- **arXiv** : 2609.38177v1
-- **Date** : 2026-09-29
-- **Auteurs** : Jaewoo Jung, Hyeonseo Yu, Honggyu An, Jisang Han, Mungyeom Kim
+### Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis
+- **arXiv** : 2609.40361v1
+- **Date** : 2026-09-30
+- **Auteurs** : Tian Xia, Minghao Liu, Yiqing Liang, Laixi Shi, Jiayun Wang
 - **Score** : 6
-- **Résumé** : Reasoning about the 3D world from multi-view images remains a fundamental challenge for Multimodal Large Language Models (MLLMs). While modern MLLMs handle single-image inputs effectively, they struggle to integrate evidence across viewpoints into a coherent 3D understanding. A growing body of work ...
-- **Lien** : https://arxiv.org/abs/2609.38177v1
+- **Résumé** : Multimodal large language models (MLLMs) are rapidly advancing clinical diagnosis, yet their adaptation pipelines remain anchored to accuracy-based objectives. Clinical data are heavily class-imbalanced: a constant-majority predictor can score above 90% accuracy while being clinically useless. We th...
+- **Lien** : https://arxiv.org/abs/2609.40361v1
 
-### Effective Dense Retrieval using Only In-Context Examples
-- **arXiv** : 2609.38099v1
-- **Date** : 2026-09-29
-- **Auteurs** : Nour Jedidi, Abdul Basit Ali, Hang Li, Jimmy Lin
+### Semifactual Credit-Augmented Policy Optimization
+- **arXiv** : 2609.40360v1
+- **Date** : 2026-09-30
+- **Auteurs** : Junshu Pan, Zhizhang Fu, Shulin Huang, Yiran Ding, Zifan Cheng
 - **Score** : 6
-- **Résumé** : Turning decoder-only large language models (LLMs) into strong dense retrievers typically requires some form of retriever training. In this paper, we ask whether LLMs can instead be prompted to produce effective representations for dense retrieval given only a few in-context examples. To answer this,...
-- **Lien** : https://arxiv.org/abs/2609.38099v1
+- **Résumé** : Reinforcement learning with verifiable rewards (RLVR) has improved the reasoning capabilities of large language models (LLMs), yet their predictions remain sensitive to task-irrelevant prompt features. We investigate this sensitivity through semifactual prompt interventions that preserve the underly...
+- **Lien** : https://arxiv.org/abs/2609.40360v1
 
-### Probability is Not Enough: Exploring and Counting Divergent Tokens for Reasoning Uncertainty Quantification in LLMs
-- **arXiv** : 2609.38070v1
-- **Date** : 2026-09-29
-- **Auteurs** : Feiyang Li, Shengjing Liu, Qi Zhan, Sijie Cheng, Weiqing Wang
+### EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery
+- **arXiv** : 2609.40340v1
+- **Date** : 2026-09-30
+- **Auteurs** : Young-Jun Lee, Jinheon Baek, Soyeong Jeong, Minki Kang, Seungyeon Jwa
 - **Score** : 6
-- **Résumé** : As the chain-of-thought reasoning capabilities of large language models improve, evaluating and calibrating their reasoning confidence is becoming increasingly important for quantifying the uncertainty of their answers. Current methods for estimating the confidence of large language models are gener...
-- **Lien** : https://arxiv.org/abs/2609.38070v1
+- **Résumé** : Evolutionary search with large language models (LLMs) can stall when progress requires external knowledge the model lacks. Supplying relevant documents helps, but simply adding web search tool can keep returning the same pages as solutions change. We introduce EvoDuet, a bi-level optimization method...
+- **Lien** : https://arxiv.org/abs/2609.40340v1
 
-### Gender bias across LLMs is common and highly heterogenous
-- **arXiv** : 2609.38036v1
-- **Date** : 2026-09-29
-- **Auteurs** : Edoardo Bolzoni, Valerio Capraro
+### Turbo Harness: Instance-Adaptive Harness Optimization
+- **arXiv** : 2609.40330v1
+- **Date** : 2026-09-30
+- **Auteurs** : Tunyu Zhang, Hao Wang, Kai Xu, Dimitris N. Metaxas
 - **Score** : 6
-- **Résumé** : Understanding gender biases in large language models (LLMs) is increasingly important as these systems become embedded in decision-support tools with real consequences. Prior research has focused only on a small set of models, leaving open the extent to which gender biases are common and heterogeneo...
-- **Lien** : https://arxiv.org/abs/2609.38036v1
+- **Résumé** : Automating the search for effective harnesses is an important step toward enabling agents to recursively self-improve. Existing harness optimizations typically produce a single global harness that is applied uniformly across task instances. However, a harness that works well on average may not be op...
+- **Lien** : https://arxiv.org/abs/2609.40330v1
 
-### doPlan: A Variable-Horizon Dataset for Multi-Stage Language-Conditioned Planning in Autonomous Driving
-- **arXiv** : 2609.38028v1
-- **Date** : 2026-09-29
-- **Auteurs** : Parthib Roy, Yash Tandon, Marcus Blennemann, Giovanni Tapia Lopez, Angel Martinez-Sanchez
+### Cogentic: Multi-Agent Orchestration for Automated Proof Discovery
+- **arXiv** : 2609.40324v1
+- **Date** : 2026-09-30
+- **Auteurs** : Yang Cai, Vineet Gupta, Yanchen Jiang, Christopher Liaw, Aranyak Mehta
 - **Score** : 6
-- **Résumé** : Autonomous vehicles interacting with passengers through natural language must reason beyond immediate commands. Passenger intent may span multiple stages of behavior, depend on future events, refer to surrounding agents or landmarks, and remain relevant as driving conditions evolve. Existing languag...
-- **Lien** : https://arxiv.org/abs/2609.38028v1
+- **Résumé** : We present Cogentic, a multi-agent harness for automated proof discovery on open research problems. While frontier language models can generate strong mathematical ideas in a single shot, single-shot generation is often insufficient for open problems that require exploring multiple competing conject...
+- **Lien** : https://arxiv.org/abs/2609.40324v1
 
-### LongHarness Bench: Stress-Testing Language Model Harnesses for Long-Context Reasoning
-- **arXiv** : 2609.38137v1
-- **Date** : 2026-09-29
-- **Auteurs** : Quang Hieu Pham, Thuy Duong Nguyen, Jocelyn Qiaochu Chen, Xi Ye
+### OpenTSLM TeeMoE: A Unified Time-Series Language Model for Forecasting, Contextual Prediction, and Reasoning
+- **arXiv** : 2609.40265v1
+- **Date** : 2026-09-30
+- **Auteurs** : Tony Chen, Timo Stoffregen, Maxwell Xu, Thomas Kaar, Martin Maritsch
+- **Score** : 6
+- **Résumé** : Real-world time-series applications increasingly require models that can handle time series forecasting, context-conditioned prediction, and language-based temporal reasoning. Yet current time-series foundation models remain fragmented across these capabilities: numerical specialists often provide t...
+- **Lien** : https://arxiv.org/abs/2609.40265v1
+
+### Decision-Oriented Recommendation Reranking: An Empirical Study of Jev
+- **arXiv** : 2609.40241v1
+- **Date** : 2026-09-30
+- **Auteurs** : Hanjia Lyu, Yinglong Xia
+- **Score** : 6
+- **Résumé** : Large language models (LLMs) have shown promise for recommendation reranking, but their use introduces an important tradeoff between recommendation quality and serving efficiency. We investigate whether a decision-oriented model provides a useful alternative when the reranking task is fundamentally ...
+- **Lien** : https://arxiv.org/abs/2609.40241v1
+
+### EviRover: Reinforcing Agentic Perception Beyond a Glance
+- **arXiv** : 2609.40230v1
+- **Date** : 2026-09-30
+- **Auteurs** : Kaixuan Fan, Kaituo Feng, Tianshuo Peng, Yilei Jiang, Manyuan Zhang
+- **Score** : 6
+- **Résumé** : Visual perception is conventionally formulated as a one-shot prediction from a single glance at the image, under the assumption that the image content and the model's parametric knowledge suffice to resolve the query. This assumption often fails in real-world scenarios that hinge on fine-grained vis...
+- **Lien** : https://arxiv.org/abs/2609.40230v1
+
+### PhantomEnvironments: Training LLM Agents in Fictional Worlds
+- **arXiv** : 2609.40221v1
+- **Date** : 2026-09-30
+- **Auteurs** : Anmol Kabra, Swathi Saravana Selvam, Albert Gong, Chao Wan, Christian Belardi
+- **Score** : 6
+- **Résumé** : Training LLM agents with reinforcement learning (RL) is bottlenecked by environments, which must provide verifiable rewards, support long-horizon interaction, and scale cheaply. Existing approaches rely on costly human-curated data or on LLM-generated environments that risk hallucinations and benchm...
+- **Lien** : https://arxiv.org/abs/2609.40221v1
+
+### Learning from Research: Toward Lifelong Agent Harness Evolution
+- **arXiv** : 2609.40169v1
+- **Date** : 2026-09-30
+- **Auteurs** : Jingbo Yang, Kwei-Herng Lai, Xiaowen Wang, Yaar Harari, Evgeniy Gabrilovich
+- **Score** : 6
+- **Résumé** : Language agents are expected to solve increasingly complex tasks, creating a growing need for continual improvement. One promising approach is to evolve the agent harness, the software that governs tool use, memory management, and task execution, while keeping the underlying language model fixed. Re...
+- **Lien** : https://arxiv.org/abs/2609.40169v1
+
+### From DNA Design to DNA Slimming: Auditable Agentic Discovery of a Deletion-Only Designer
+- **arXiv** : 2609.40143v1
+- **Date** : 2026-09-30
+- **Auteurs** : Joel Shor
+- **Score** : 6
+- **Résumé** : Compact regulatory DNA can free up space in vector payloads, reduce synthesis and assay burden, and expose which sequence features drive predicted activity. Yet most model-based nucleic-acid designers optimize fixed-length sequences through substitutions; they do not ask which bases of an existing f...
+- **Lien** : https://arxiv.org/abs/2609.40143v1
+
+### Distribution Matching Distillation for Continuous Diffusion Language Models
+- **arXiv** : 2609.40235v1
+- **Date** : 2026-09-30
+- **Auteurs** : Paul Le Van Kiem, Dario Shariatian, Umut Simsekli, Alain Durmus
+- **Score** : 5
+- **Résumé** : Continuous diffusion language models generate all tokens in parallel, yet high-quality generation can still require hundreds of network evaluations (NFEs). We study how distributional distillation can reduce this cost by exploiting the student's probabilistic token outputs. Our unified formulation c...
+- **Lien** : https://arxiv.org/abs/2609.40235v1
+
+### cua-speedrun: Standardized Benchmarking of the Speed of Computer-Use Agents
+- **arXiv** : 2609.40284v1
+- **Date** : 2026-09-30
+- **Auteurs** : Pranjal Aggarwal, Lawrence Keunho Jang, Sean Welleck, Daniel Fried, Ruslan Salakhutdinov
 - **Score** : 4
-- **Résumé** : Language-model (LM) harnesses enable LMs to operate effectively over long contexts using additional compute. However, existing long-context evaluations are insufficient for distinguishing modern harnesses, reflected by saturated accuracy across harnesses and largely similar evaluation costs. In this...
-- **Lien** : https://arxiv.org/abs/2609.38137v1
+- **Résumé** : Computer use agents (CUAs), which use graphical user interfaces (GUIs) to complete tasks on a computer, have recently surpassed human performance on many standard benchmarks, including difficult long-horizon tasks. Their capabilities are undoubtedly impressive, however, a key barrier to the widespre...
+- **Lien** : https://arxiv.org/abs/2609.40284v1
 
-### Jaxolotl: A Unified High-Performance Benchmark Suite for LTL-Based Multi-Task RL
-- **arXiv** : 2609.38065v1
-- **Date** : 2026-09-29
-- **Auteurs** : Mathias Jackermeier, Jacques Cloete, Alessandro Abate
-- **Score** : 4
-- **Résumé** : Training agents to follow arbitrary instructions is an important goal of multi-task reinforcement learning (RL). Linear temporal logic (LTL) provides a precise and structured formalism for specifying instructions to agents, and has been successfully adopted for training generalist multi-task policie...
-- **Lien** : https://arxiv.org/abs/2609.38065v1
-
-### LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization
-- **arXiv** : 2609.38166v1
-- **Date** : 2026-09-29
-- **Auteurs** : Yi Pan, Haocheng Xi, Kan Zhu, Xingyang Li, Yibo Wu
+### WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents
+- **arXiv** : 2609.40325v1
+- **Date** : 2026-09-30
+- **Auteurs** : Ziyan Jiang, Jingbo Yang, Jiabao Ji, Yujian Liu, Qiucheng Wu
 - **Score** : 3
-- **Résumé** : Recent LLMs increasingly adopt hybrid designs that replace standard attention with linear attention, such as Gated DeltaNet (GDN) and Kimi Delta Attention (KDA). Although they compress the context into a fixed-size recurrent state and substantially reduce the cost of long-context processing, repeate...
-- **Lien** : https://arxiv.org/abs/2609.38166v1
+- **Résumé** : As interactive 3D worlds are increasingly used to study intelligent behavior, it becomes important to develop efficient pipelines for identifying anomalies in these simulated environments, such as floating objects, traversable walls, or objects inconsistent with the surrounding scene. Multimodal AI ...
+- **Lien** : https://arxiv.org/abs/2609.40325v1
 
-### Pretraining Latent Information Feedback Transformers with Teacher Supervision
-- **arXiv** : 2609.38149v1
-- **Date** : 2026-09-29
-- **Auteurs** : Dor Tirosh, Ido Amos, Mor Geva
+### MatLoom: Layered Text-to-Material Generation in a Compact Program Space
+- **arXiv** : 2609.40322v1
+- **Date** : 2026-09-30
+- **Auteurs** : Anson Y. Lam, Shuqing Li, Michael R. Lyu
 - **Score** : 3
-- **Résumé** : Transformer language models (LMs) are feed-forward: deep-layer representations are never fed back to shallower layers, and the only pathway for information to flow downward across generation steps is the decoded token. This narrow channel forces models to recompute intermediate results and to discar...
-- **Lien** : https://arxiv.org/abs/2609.38149v1
+- **Résumé** : Material generation should produce not only an appearance, but also the rules that construct it. We introduce MatLoom, a compact, layer-oriented language for text-to-material generation with pretrained language models. Each program composes alpha-masked layers whose shared spatial expressions define...
+- **Lien** : https://arxiv.org/abs/2609.40322v1
 
-### Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI
-- **arXiv** : 2609.38143v1
-- **Date** : 2026-09-29
-- **Auteurs** : Cheng Qian, Kunlun Zhu, Beibin Li, Zhenhailong Wang, Heng Ji
+### DynaHarness: A Dynamic Physical Harness for Self-Evolving Robot Agents
+- **arXiv** : 2609.40306v1
+- **Date** : 2026-09-30
+- **Auteurs** : Haoyuan Deng, Jiebin Liu, Tengxiao Zhang, Langning Yan, Hongye Cao
 - **Score** : 3
-- **Résumé** : Agent performance depends on both reasoning ability and the environment in which it acts. We study test-time AI-for-AI, asking how a Builder can learn to construct better execution environments for a Target while both models' weights remain fixed. To make the Builder's experience reusable, we introd...
-- **Lien** : https://arxiv.org/abs/2609.38143v1
+- **Résumé** : Pretrained robot policies provide useful action priors, but long-horizon manipulation still requires coordination between semantic reasoning and physical execution. Semantic reasoning operates at a coarser timescale than physical interaction, while episode-level failures provide limited guidance on ...
+- **Lien** : https://arxiv.org/abs/2609.40306v1
 
-### AdviSD: Learning to Advise Frontier LLMs via Targeted Multi-Turn Self-Distillation
-- **arXiv** : 2609.38142v1
-- **Date** : 2026-09-29
-- **Auteurs** : Rishabh Agrawal, Hejie Cui, Shasha Li, Shanchan Wu, Sercan Ö. Arık
+### PivotOPD: Learning to Recover from Pivotal Mistakes in Multi-Turn Agents
+- **arXiv** : 2609.40285v1
+- **Date** : 2026-09-30
+- **Auteurs** : Yinghui He, Yapei Chang, Khushi Bhardwaj, Daniele Molinari, Tugrul Konuk
 - **Score** : 3
-- **Résumé** : A small trainable advisor can steer a frozen language-model executor using natural-language advice. In addition to learning from task rewards, the advisor can use feedback from completed interactions to improve its advice. However, a plausible correction need not change execution, yet learning from ...
-- **Lien** : https://arxiv.org/abs/2609.38142v1
-
-### Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE
-- **arXiv** : 2609.38140v1
-- **Date** : 2026-09-29
-- **Auteurs** : Yu Xu, Yuxin Zhang, Xiao Yang, Haotian Yang, Yizhi Wang
-- **Score** : 3
-- **Résumé** : Mixture-of-Experts (MoE), popularized by large language models, is a promising paradigm for scaling visual generative models. However, conventional token-wise MoE routes tokens independently within a homogeneous expert pool and regularizes expert usage toward uniformity, making it poorly matched to ...
-- **Lien** : https://arxiv.org/abs/2609.38140v1
-
-### Multi-Agent Flow Matching with Decoupled Generative Guidance
-- **arXiv** : 2609.38133v1
-- **Date** : 2026-09-29
-- **Auteurs** : Ruoyu Lin, Magnus Egerstedt, Fabio Pasqualetti
-- **Score** : 3
-- **Résumé** : Generative modeling is widely used for producing diverse objects from complex, multimodal distributions. However, its expressivity does not, in general, come with formal guarantees that the generated objects satisfy hard constraints or requirements. In multi-agent generation, this problem becomes mo...
-- **Lien** : https://arxiv.org/abs/2609.38133v1
-
-### Achieving an $O(1/N)$ Optimality Gap in Average-Reward Weakly-Coupled MDPs
-- **arXiv** : 2609.38132v1
-- **Date** : 2026-09-29
-- **Auteurs** : Yige Hong, Xiangcheng Zhang, Qiaomin Xie, Yudong Chen, Weina Wang
-- **Score** : 3
-- **Résumé** : We study average-reward weakly-coupled Markov decision processes (WCMDPs), where a WCMDP consists of $N$ smaller MDPs, called arms, that share multiple per-step budget constraints. We consider the setting where the arms have identical model parameters, multiple actions, and state- and action-depende...
-- **Lien** : https://arxiv.org/abs/2609.38132v1
+- **Résumé** : On-policy distillation (OPD) is a promising approach for training language agents, providing dense teacher supervision on student-generated trajectories. However, in multi-turn interaction, an incorrect action changes the states the student encounters later, so errors compound across turns. In preli...
+- **Lien** : https://arxiv.org/abs/2609.40285v1
 
 <!-- ARXIV_FEED_END -->
