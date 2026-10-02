@@ -120,122 +120,123 @@ DeepSeek R1 est le premier modèle de raisonnement open weights (RL-trained). Pe
 ## Outils & frameworks d'inference découverts automatiquement
 
 <!-- TOOLS_LLM_START -->
+### [ECC](https://github.com/affaan-m/ECC)
+The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+
+⭐ 270.9k | `JavaScript` | Licence: MIT | MAJ: 2026-10-02
+**Tags** : `ai-agents`, `anthropic`, `claude`, `claude-code`, `developer-tools`, `llm`, `mcp`, `productivity`
+
+### [firecrawl](https://github.com/firecrawl/firecrawl)
+🔥 Supercharge your AI agents with data from the web and beyond. A web data API to search, scrape, and access more sources.
+
+⭐ 187.7k | `TypeScript` | Licence: AGPL-3.0 | MAJ: 2026-10-02
+**Tags** : `ai`, `ai-agents`, `ai-crawler`, `ai-scraping`, `ai-search`, `crawler`, `data-extraction`, `html-to-markdown`
+
+### [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
+AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
+
+⭐ 187.7k | `Python` | Licence: NOASSERTION | MAJ: 2026-10-02
+**Tags** : `agentic-ai`, `agents`, `ai`, `artificial-intelligence`, `autonomous-agents`, `claude`, `gpt`, `llama-api`
+
 ### [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT)
 an experimental open-source application showcasing the capabilities of the GPT-4 language model.
 
-⭐ 187.6k | `Python` | Licence: NOASSERTION | MAJ: 2026-10-01
+⭐ 187.7k | `Python` | Licence: NOASSERTION | MAJ: 2026-10-02
 **Tags** : `agentic-ai`, `agents`, `ai`, `artificial-intelligence`, `autonomous-agents`, `claude`, `gpt`, `llama-api`
 
 ### [ollama](https://github.com/ollama/ollama)
-Get up and running with Llama 3, Mistral, Gemma, and other large language models.
+Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
 
-⭐ 182.0k | `Go` | Licence: MIT | MAJ: 2026-10-01
+⭐ 182.0k | `Go` | Licence: MIT | MAJ: 2026-10-02
 **Tags** : `deepseek`, `gemma`, `gemma3`, `glm`, `go`, `golang`, `gpt-oss`, `llama`
+
+### [prompts.chat](https://github.com/f/prompts.chat)
+f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
+
+⭐ 171.9k | `HTML` | Licence: NOASSERTION | MAJ: 2026-10-02
+**Tags** : `ai`, `artificial-intelligence`, `awesome-list`, `chatgpt`, `chatgpt-prompts`, `claude`, `gemini`, `gpt`
 
 ### [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
 A collection of prompt examples to be used with the ChatGPT model.
 
-⭐ 171.8k | `HTML` | Licence: NOASSERTION | MAJ: 2026-10-01
+⭐ 171.9k | `HTML` | Licence: NOASSERTION | MAJ: 2026-10-02
 **Tags** : `ai`, `artificial-intelligence`, `awesome-list`, `chatgpt`, `chatgpt-prompts`, `claude`, `gemini`, `gpt`
 
-### [Dify](https://github.com/langgenius/dify)
-An open-source LLM app development platform with an intuitive interface that streamlines AI workflows, model management, and production deployment.
+### [transformers](https://github.com/huggingface/transformers)
+🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.
 
-⭐ 157.7k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-10-01
+⭐ 166.9k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-02
+**Tags** : `audio`, `deep-learning`, `deepseek`, `gemma`, `glm`, `hacktoberfest`, `llm`, `machine-learning`
+
+### [dify](https://github.com/langgenius/dify)
+Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without ...
+
+⭐ 157.7k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-10-02
 **Tags** : `agent`, `agentic-ai`, `agentic-framework`, `agentic-workflow`, `ai`, `automation`, `claude`, `deepseek`
 
 ### [open-webui](https://github.com/open-webui/open-webui)
 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
 
-⭐ 153.7k | `Python` | Licence: NOASSERTION | MAJ: 2026-10-01
+⭐ 153.8k | `Python` | Licence: NOASSERTION | MAJ: 2026-10-02
 **Tags** : `ai`, `llm`, `llm-ui`, `llm-webui`, `llms`, `mcp`, `ollama`, `ollama-webui`
+
+### [ponytail](https://github.com/DietrichGebert/ponytail)
+Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
+
+⭐ 151.1k | `JavaScript` | Licence: MIT | MAJ: 2026-10-02
+**Tags** : `agent-skills`, `ai-agents`, `claude`, `claude-code`, `claude-code-plugin`, `cursor-rules`, `developer-tools`, `llm`
 
 ### [langchain](https://github.com/langchain-ai/langchain)
 The agent engineering platform.
 
-⭐ 147.4k | `Python` | Licence: MIT | MAJ: 2026-10-01
+⭐ 147.4k | `Python` | Licence: MIT | MAJ: 2026-10-02
 **Tags** : `agents`, `ai`, `ai-agents`, `anthropic`, `chatgpt`, `deepagents`, `enterprise`, `framework`
 
 ### [LangChain](https://github.com/hwchase17/langchain)
 A popular Python/JavaScript library for chaining sequences of language model prompts.
 
-⭐ 147.4k | `Python` | Licence: MIT | MAJ: 2026-10-01
+⭐ 147.4k | `Python` | Licence: MIT | MAJ: 2026-10-02
 **Tags** : `agents`, `ai`, `ai-agents`, `anthropic`, `chatgpt`, `deepagents`, `enterprise`, `framework`
 
 ### [llama.cpp](https://github.com/ggerganov/llama.cpp)
 LLM inference in C/C++.
 
-⭐ 130.1k | `C++` | Licence: MIT | MAJ: 2026-10-01
+⭐ 130.1k | `C++` | Licence: MIT | MAJ: 2026-10-02
 **Tags** : `ggml`
+
+### [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
+利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.
+
+⭐ 128.0k | `Python` | Licence: MIT | MAJ: 2026-10-02
+**Tags** : `ai-video-generator`, `content-creation`, `ffmpeg`, `instagram-reels`, `llm`, `python`, `short-video`, `subtitles`
 
 ### [graphify](https://github.com/Graphify-Labs/graphify)
 Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing...
 
-⭐ 123.1k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-01
+⭐ 123.2k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-02
 **Tags** : `ai-agents`, `antigravity`, `ast`, `claude-code`, `code-analysis`, `code-search`, `codex`, `cursor`
+
+### [browser-use](https://github.com/browser-use/browser-use)
+Agents that use the browser.
+
+⭐ 117.0k | `Python` | Licence: MIT | MAJ: 2026-10-02
+**Tags** : `ai-agents`, `ai-tools`, `browser-automation`, `browser-use`, `llm`, `playwright`, `python`
+
+### [TradingAgents](https://github.com/TauricResearch/TradingAgents)
+TradingAgents: Multi-Agents LLM Financial Trading Framework
+
+⭐ 109.5k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-02
+**Tags** : `agent`, `finance`, `llm`, `multiagent`, `trading`
 
 ### [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
 First open-sourced GPT-4o level model.
 
-⭐ 104.5k | `Python` | Licence: MIT | MAJ: 2026-10-01
+⭐ 104.5k | `Python` | Licence: MIT | MAJ: 2026-10-02
 
-### [vllm](https://github.com/vllm-project/vllm)
-A high-throughput and memory-efficient inference and serving engine for LLMs
+### [vLLM](https://github.com/vllm-project/vllm)
+A high-throughput and memory-efficient inference and serving engine for LLMs.
 
-⭐ 93.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-01
+⭐ 93.1k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-02
 **Tags** : `amd`, `blackwell`, `cuda`, `deepseek`, `deepseek-v3`, `gpt`, `gpt-oss`, `inference`
-
-### [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)
-First-generation reasoning models from DeepSeek.
-
-⭐ 91.9k | Licence: MIT | MAJ: 2026-10-01
-
-### [OpenDevin](https://github.com/OpenDevin/OpenDevin)
-🙌 OpenHands: AI-Driven Development
-
-⭐ 89.7k | `TypeScript` | Licence: MIT | MAJ: 2026-10-01
-**Tags** : `agent`, `artificial-intelligence`, `chatgpt`, `claude-ai`, `cli`, `developer-tools`, `gpt`, `llm`
-
-### [OpenHands](https://github.com/OpenHands/OpenHands)
-🙌 OpenHands: Code Less, Make More. (formerly OpenDevin), a platform for software development agents powered by AI !GitHub Repo stars
-
-⭐ 89.7k | `TypeScript` | Licence: MIT | MAJ: 2026-10-01
-**Tags** : `agent`, `artificial-intelligence`, `chatgpt`, `claude-ai`, `cli`, `developer-tools`, `gpt`, `llm`
-
-### [crawl4ai](https://github.com/unclecode/crawl4ai)
-Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key.
-
-⭐ 84.6k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-01
-**Tags** : `ai`, `ai-agents`, `crawler`, `data-extraction`, `llm`, `markdown`, `mcp`, `open-source`
-
-### [llm-course](https://github.com/mlabonne/llm-course)
-Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.
-
-⭐ 83.3k | Licence: Apache-2.0 | MAJ: 2026-10-01
-**Tags** : `course`, `large-language-models`, `llm`, `machine-learning`, `roadmap`
-
-### [hello-agents](https://github.com/datawhalechina/hello-agents)
-📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程
-
-⭐ 81.5k | `Python` | Licence: NOASSERTION | MAJ: 2026-10-01
-**Tags** : `agent`, `llm`, `rag`, `tutorial`
-
-### [Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
-🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.
-
-⭐ 78.8k | `MDX` | Licence: MIT | MAJ: 2026-10-01
-**Tags** : `agent`, `agents`, `ai-agents`, `chatgpt`, `deep-learning`, `generative-ai`, `language-model`, `llms`
-
-### [headroom](https://github.com/headroomlabs-ai/headroom)
-Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.
-
-⭐ 74.2k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-01
-**Tags** : `agent`, `ai`, `anthropic`, `claude-code`, `compression`, `context-engineering`, `context-window`, `cursor`
-
-### [anything-llm](https://github.com/Mintplex-Labs/anything-llm)
-Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience
-
-⭐ 66.7k | `JavaScript` | Licence: MIT | MAJ: 2026-10-01
-**Tags** : `agent-computer`, `agent-harness`, `agent-orchestration`, `agentic-ai`, `agentic-workflow`, `ai-agents`, `computer-use`, `hermes-agent`
 
 <!-- TOOLS_LLM_END -->

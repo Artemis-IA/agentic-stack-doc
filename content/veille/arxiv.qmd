@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?
-- **arXiv** : 2609.40303v1
-- **Date** : 2026-09-30
-- **Auteurs** : Kirill Brilliantov, Alejandro Hernández-Cano, Emmanuel Abbé
-- **Score** : 13
-- **Résumé** : Recent autonomous machine learning engineering (MLE) agents have made significant progress on public leaderboards. Often motivated by progress stagnation over long-horizon cycles and limited Large Language Model (LLM) primitives, modern MLE agents are deployed on top of increasingly elaborate machin...
-- **Lien** : https://arxiv.org/abs/2609.40303v1
+### KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards
+- **arXiv** : 2610.02206v1
+- **Date** : 2026-10-01
+- **Auteurs** : Pengfei Li, Naufal Suryanto, Sicheng Zhang, Muzammal Naseer
+- **Score** : 11
+- **Résumé** : LLMs are increasingly applied to cybersecurity workflows, where they are expected to translate analysts' intent into tool invocations. However, existing evaluations focus on knowledge-based assessments or end-to-end agentic tasks, and do not directly measure LLMs' ability to generate executable comm...
+- **Lien** : https://arxiv.org/abs/2610.02206v1
 
-### Is Weight Tying Still Beneficial for Decoder-Only LLMs in Private Settings Under DP-SGD?
-- **arXiv** : 2609.40335v1
-- **Date** : 2026-09-30
-- **Auteurs** : Razan El Mais, Ali Chehab, Ibrahim Issa, Razane Tajeddine
+### From Knowledge Access to Source Learning: Developing Source-Specific Competence
+- **arXiv** : 2610.02150v1
+- **Date** : 2026-10-01
+- **Auteurs** : Lucheng Fu, Kejing Xia, Yiyang Wang, Yiqiao Jin, Jinjin He
+- **Score** : 9
+- **Résumé** : Large language model (LLM) agents increasingly rely on persistent external sources to solve sequences of knowledge-intensive tasks. Existing methods improve how source content is accessed and organized, while agent-memory systems preserve reusable knowledge from prior interactions, but repeated use ...
+- **Lien** : https://arxiv.org/abs/2610.02150v1
+
+### TACO: Ternary Absolute-max Column-wise One-sparse Optimizer for LLM Fine-Tuning
+- **arXiv** : 2610.02199v1
+- **Date** : 2026-10-01
+- **Auteurs** : Jichao Jiang, Cristian McGee, El Houcine Bergou, Hanqin Cai, Aritra Dutta
 - **Score** : 7
-- **Résumé** : Differentially Private Stochastic Gradient Descent (DP-SGD) is a leading approach for privacy-preserving fine-tuning of large language models (LLMs). Many decoder-only LLMs employ weight tying between input and output embeddings, a design choice originally introduced for parameter efficiency and imp...
-- **Lien** : https://arxiv.org/abs/2609.40335v1
+- **Résumé** : Full-parameter fine-tuning of large language models (LLMs) incurs substantial optimizer state memory overhead, limiting the model sizes that fit on modern GPUs. Existing approaches either compress optimizer state, abandon first-order gradients, or change the update geometry while retaining dense sta...
+- **Lien** : https://arxiv.org/abs/2610.02199v1
 
-### Linguistic Loopholes in LLM Unlearning: From a 174-Language Benchmark to Coverage-Aware Unlearning
-- **arXiv** : 2609.40286v1
-- **Date** : 2026-09-30
-- **Auteurs** : Tyler Skow, Shravan Chaudhari, Rama Chellappa, Abhay Yadav
+### Keyword Harnesses Fail Open: A Cheap Diagnostic Ladder for Tool-Use Claims in Small Language Models
+- **arXiv** : 2610.02142v1
+- **Date** : 2026-10-01
+- **Auteurs** : Juan S. Santillana
 - **Score** : 7
-- **Résumé** : Unlearning a fact in one language does not guarantee its removal in others as changing the query or even the requested answer language can reopen seemingly forgotten knowledge -- a cross-lingual loophole. The most straightforward solution to this challenge -- unlearning in all languages -- is neithe...
-- **Lien** : https://arxiv.org/abs/2609.40286v1
+- **Résumé** : Keyword-matching benchmarks can credit small models for tool use they never perform. We document such a false positive in a matched-architecture pair of Spanish security language models and propose a ladder of strict, cheap diagnostics. A 661.6M parameter model (approx. 65% code/technical text; no d...
+- **Lien** : https://arxiv.org/abs/2610.02142v1
 
-### Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis
-- **arXiv** : 2609.40361v1
-- **Date** : 2026-09-30
-- **Auteurs** : Tian Xia, Minghao Liu, Yiqing Liang, Laixi Shi, Jiayun Wang
+### Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents
+- **arXiv** : 2610.02204v1
+- **Date** : 2026-10-01
+- **Auteurs** : Yen-Jen Wang, Haozhe Jiang, Shuying Deng, Haoru Xue, Weirui Ye
 - **Score** : 6
-- **Résumé** : Multimodal large language models (MLLMs) are rapidly advancing clinical diagnosis, yet their adaptation pipelines remain anchored to accuracy-based objectives. Clinical data are heavily class-imbalanced: a constant-majority predictor can score above 90% accuracy while being clinically useless. We th...
-- **Lien** : https://arxiv.org/abs/2609.40361v1
+- **Résumé** : Building reliable robot capabilities across diverse tasks requires substantial human effort to develop and maintain skills, design rewards, and integrate perception with control. We present Reconstruct, Practice, Go Real (RPG), a framework for autonomous improvement of robot execution systems withou...
+- **Lien** : https://arxiv.org/abs/2610.02204v1
 
-### Semifactual Credit-Augmented Policy Optimization
-- **arXiv** : 2609.40360v1
-- **Date** : 2026-09-30
-- **Auteurs** : Junshu Pan, Zhizhang Fu, Shulin Huang, Yiran Ding, Zifan Cheng
+### The Missing Primitive: Diagnosing and Repairing Mathematical Reasoning in Large Language Models
+- **arXiv** : 2610.02191v1
+- **Date** : 2026-10-01
+- **Auteurs** : Shuo Xing, Zilin Dai, Chengyuan Qian, Fangzhou Lin, Wenjing Chen
 - **Score** : 6
-- **Résumé** : Reinforcement learning with verifiable rewards (RLVR) has improved the reasoning capabilities of large language models (LLMs), yet their predictions remain sensitive to task-irrelevant prompt features. We investigate this sensitivity through semifactual prompt interventions that preserve the underly...
-- **Lien** : https://arxiv.org/abs/2609.40360v1
+- **Résumé** : While Large Language Models (LLMs) have demonstrated striking capabilities on frontier mathematical problems, it remains unclear whether they possess the structural mathematical understanding underlying their solutions. In this paper, we take a first step toward systematically studying mathematical ...
+- **Lien** : https://arxiv.org/abs/2610.02191v1
 
-### EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery
-- **arXiv** : 2609.40340v1
-- **Date** : 2026-09-30
-- **Auteurs** : Young-Jun Lee, Jinheon Baek, Soyeong Jeong, Minki Kang, Seungyeon Jwa
+### Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes
+- **arXiv** : 2610.02117v1
+- **Date** : 2026-10-01
+- **Auteurs** : Sophia Sirko-Galouchenko, Monika Wysoczanska, Andrei Bursuc, Nicolas Thome, Spyros Gidaris
 - **Score** : 6
-- **Résumé** : Evolutionary search with large language models (LLMs) can stall when progress requires external knowledge the model lacks. Supplying relevant documents helps, but simply adding web search tool can keep returning the same pages as solutions change. We introduce EvoDuet, a bi-level optimization method...
-- **Lien** : https://arxiv.org/abs/2609.40340v1
+- **Résumé** : On-policy self-distillation has recently emerged as an effective approach for improving language-model reasoning by supervising students with a frozen or EMA version of themselves that receives privileged information. Its application to multimodal large language models (MLLMs), however, remains larg...
+- **Lien** : https://arxiv.org/abs/2610.02117v1
 
-### Turbo Harness: Instance-Adaptive Harness Optimization
-- **arXiv** : 2609.40330v1
-- **Date** : 2026-09-30
-- **Auteurs** : Tunyu Zhang, Hao Wang, Kai Xu, Dimitris N. Metaxas
-- **Score** : 6
-- **Résumé** : Automating the search for effective harnesses is an important step toward enabling agents to recursively self-improve. Existing harness optimizations typically produce a single global harness that is applied uniformly across task instances. However, a harness that works well on average may not be op...
-- **Lien** : https://arxiv.org/abs/2609.40330v1
-
-### Cogentic: Multi-Agent Orchestration for Automated Proof Discovery
-- **arXiv** : 2609.40324v1
-- **Date** : 2026-09-30
-- **Auteurs** : Yang Cai, Vineet Gupta, Yanchen Jiang, Christopher Liaw, Aranyak Mehta
-- **Score** : 6
-- **Résumé** : We present Cogentic, a multi-agent harness for automated proof discovery on open research problems. While frontier language models can generate strong mathematical ideas in a single shot, single-shot generation is often insufficient for open problems that require exploring multiple competing conject...
-- **Lien** : https://arxiv.org/abs/2609.40324v1
-
-### OpenTSLM TeeMoE: A Unified Time-Series Language Model for Forecasting, Contextual Prediction, and Reasoning
-- **arXiv** : 2609.40265v1
-- **Date** : 2026-09-30
-- **Auteurs** : Tony Chen, Timo Stoffregen, Maxwell Xu, Thomas Kaar, Martin Maritsch
-- **Score** : 6
-- **Résumé** : Real-world time-series applications increasingly require models that can handle time series forecasting, context-conditioned prediction, and language-based temporal reasoning. Yet current time-series foundation models remain fragmented across these capabilities: numerical specialists often provide t...
-- **Lien** : https://arxiv.org/abs/2609.40265v1
-
-### Decision-Oriented Recommendation Reranking: An Empirical Study of Jev
-- **arXiv** : 2609.40241v1
-- **Date** : 2026-09-30
-- **Auteurs** : Hanjia Lyu, Yinglong Xia
-- **Score** : 6
-- **Résumé** : Large language models (LLMs) have shown promise for recommendation reranking, but their use introduces an important tradeoff between recommendation quality and serving efficiency. We investigate whether a decision-oriented model provides a useful alternative when the reranking task is fundamentally ...
-- **Lien** : https://arxiv.org/abs/2609.40241v1
-
-### EviRover: Reinforcing Agentic Perception Beyond a Glance
-- **arXiv** : 2609.40230v1
-- **Date** : 2026-09-30
-- **Auteurs** : Kaixuan Fan, Kaituo Feng, Tianshuo Peng, Yilei Jiang, Manyuan Zhang
-- **Score** : 6
-- **Résumé** : Visual perception is conventionally formulated as a one-shot prediction from a single glance at the image, under the assumption that the image content and the model's parametric knowledge suffice to resolve the query. This assumption often fails in real-world scenarios that hinge on fine-grained vis...
-- **Lien** : https://arxiv.org/abs/2609.40230v1
-
-### PhantomEnvironments: Training LLM Agents in Fictional Worlds
-- **arXiv** : 2609.40221v1
-- **Date** : 2026-09-30
-- **Auteurs** : Anmol Kabra, Swathi Saravana Selvam, Albert Gong, Chao Wan, Christian Belardi
-- **Score** : 6
-- **Résumé** : Training LLM agents with reinforcement learning (RL) is bottlenecked by environments, which must provide verifiable rewards, support long-horizon interaction, and scale cheaply. Existing approaches rely on costly human-curated data or on LLM-generated environments that risk hallucinations and benchm...
-- **Lien** : https://arxiv.org/abs/2609.40221v1
-
-### Learning from Research: Toward Lifelong Agent Harness Evolution
-- **arXiv** : 2609.40169v1
-- **Date** : 2026-09-30
-- **Auteurs** : Jingbo Yang, Kwei-Herng Lai, Xiaowen Wang, Yaar Harari, Evgeniy Gabrilovich
-- **Score** : 6
-- **Résumé** : Language agents are expected to solve increasingly complex tasks, creating a growing need for continual improvement. One promising approach is to evolve the agent harness, the software that governs tool use, memory management, and task execution, while keeping the underlying language model fixed. Re...
-- **Lien** : https://arxiv.org/abs/2609.40169v1
-
-### From DNA Design to DNA Slimming: Auditable Agentic Discovery of a Deletion-Only Designer
-- **arXiv** : 2609.40143v1
-- **Date** : 2026-09-30
-- **Auteurs** : Joel Shor
-- **Score** : 6
-- **Résumé** : Compact regulatory DNA can free up space in vector payloads, reduce synthesis and assay burden, and expose which sequence features drive predicted activity. Yet most model-based nucleic-acid designers optimize fixed-length sequences through substitutions; they do not ask which bases of an existing f...
-- **Lien** : https://arxiv.org/abs/2609.40143v1
-
-### Distribution Matching Distillation for Continuous Diffusion Language Models
-- **arXiv** : 2609.40235v1
-- **Date** : 2026-09-30
-- **Auteurs** : Paul Le Van Kiem, Dario Shariatian, Umut Simsekli, Alain Durmus
-- **Score** : 5
-- **Résumé** : Continuous diffusion language models generate all tokens in parallel, yet high-quality generation can still require hundreds of network evaluations (NFEs). We study how distributional distillation can reduce this cost by exploiting the student's probabilistic token outputs. Our unified formulation c...
-- **Lien** : https://arxiv.org/abs/2609.40235v1
-
-### cua-speedrun: Standardized Benchmarking of the Speed of Computer-Use Agents
-- **arXiv** : 2609.40284v1
-- **Date** : 2026-09-30
-- **Auteurs** : Pranjal Aggarwal, Lawrence Keunho Jang, Sean Welleck, Daniel Fried, Ruslan Salakhutdinov
+### Argo-Bench: Evaluating Data Agents on Enterprise-Scale Workflows
+- **arXiv** : 2610.02122v1
+- **Date** : 2026-10-01
+- **Auteurs** : Gabriel Tomitsuka, Arman Raayatsanati, Emma Xing, Duke Gand, Joseph J Ma
 - **Score** : 4
-- **Résumé** : Computer use agents (CUAs), which use graphical user interfaces (GUIs) to complete tasks on a computer, have recently surpassed human performance on many standard benchmarks, including difficult long-horizon tasks. Their capabilities are undoubtedly impressive, however, a key barrier to the widespre...
-- **Lien** : https://arxiv.org/abs/2609.40284v1
+- **Résumé** : Real-world enterprise data science and analytics workflows require reasoning across dozens of tables, performing statistical analyses, and acting on the results. Established text-to-SQL benchmarks evaluate query generation alone, and audits have found their answer keys frequently wrong. Because real...
+- **Lien** : https://arxiv.org/abs/2610.02122v1
 
-### WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents
-- **arXiv** : 2609.40325v1
-- **Date** : 2026-09-30
-- **Auteurs** : Ziyan Jiang, Jingbo Yang, Jiabao Ji, Yujian Liu, Qiucheng Wu
-- **Score** : 3
-- **Résumé** : As interactive 3D worlds are increasingly used to study intelligent behavior, it becomes important to develop efficient pipelines for identifying anomalies in these simulated environments, such as floating objects, traversable walls, or objects inconsistent with the surrounding scene. Multimodal AI ...
-- **Lien** : https://arxiv.org/abs/2609.40325v1
+### LLM2Jev: LLMs Are Already Jev-Style Decision Models -- When and How to Fine-Tune Them
+- **arXiv** : 2610.02076v1
+- **Date** : 2026-10-01
+- **Auteurs** : Yinheng Li, Justin Wagle
+- **Score** : 4
+- **Résumé** : Jev-style decision models return categorical probability distributions over predefined options without generating free-form text, enabling software systems to act on their outputs directly. In this work, we investigate the extent to which general-purpose LLMs already possess this capability out of t...
+- **Lien** : https://arxiv.org/abs/2610.02076v1
 
-### MatLoom: Layered Text-to-Material Generation in a Compact Program Space
-- **arXiv** : 2609.40322v1
-- **Date** : 2026-09-30
-- **Auteurs** : Anson Y. Lam, Shuqing Li, Michael R. Lyu
+### SILSA: Sliding-Window Slice Latents for Topology-Preserving High-Resolution 3D Generation
+- **arXiv** : 2610.02201v1
+- **Date** : 2026-10-01
+- **Auteurs** : Tianjiao Yu, Xinzhuo Li, Yifan Shen, Ying Shen, Kiet A. Nguyen
 - **Score** : 3
-- **Résumé** : Material generation should produce not only an appearance, but also the rules that construct it. We introduce MatLoom, a compact, layer-oriented language for text-to-material generation with pretrained language models. Each program composes alpha-masked layers whose shared spatial expressions define...
-- **Lien** : https://arxiv.org/abs/2609.40322v1
+- **Résumé** : High-resolution 3D generation increasingly relies on voxel latents and multi-stage pipelines that first predict active structure and then synthesize local geometry. While effective, this design fragments continuous surfaces into many local tokens, inflates generation cost, and often weakens topologi...
+- **Lien** : https://arxiv.org/abs/2610.02201v1
 
-### DynaHarness: A Dynamic Physical Harness for Self-Evolving Robot Agents
-- **arXiv** : 2609.40306v1
-- **Date** : 2026-09-30
-- **Auteurs** : Haoyuan Deng, Jiebin Liu, Tengxiao Zhang, Langning Yan, Hongye Cao
+### Hierarchical Continuous Diffusion Language Models
+- **arXiv** : 2610.02193v1
+- **Date** : 2026-10-01
+- **Auteurs** : Hui Ren, Zihan Li, Chang Liu, Huidong Liu, Alexander Schwing
 - **Score** : 3
-- **Résumé** : Pretrained robot policies provide useful action priors, but long-horizon manipulation still requires coordination between semantic reasoning and physical execution. Semantic reasoning operates at a coarser timescale than physical interaction, while episode-level failures provide limited guidance on ...
-- **Lien** : https://arxiv.org/abs/2609.40306v1
+- **Résumé** : Discrete diffusion language models offer a compelling alternative to autoregressive generation for tasks demanding bidirectional reasoning and global constraint satisfaction. Yet they share a structural bottleneck: when decoding in parallel, each token is sampled independently from its marginal, sev...
+- **Lien** : https://arxiv.org/abs/2610.02193v1
 
-### PivotOPD: Learning to Recover from Pivotal Mistakes in Multi-Turn Agents
-- **arXiv** : 2609.40285v1
-- **Date** : 2026-09-30
-- **Auteurs** : Yinghui He, Yapei Chang, Khushi Bhardwaj, Daniele Molinari, Tugrul Konuk
+### Trust the Direction, Search the Step: Zero-and-First-Order Methods for LLM Fine-Tuning
+- **arXiv** : 2610.02190v1
+- **Date** : 2026-10-01
+- **Auteurs** : Cristian McGee, El Houcine Bergou, Aritra Dutta
 - **Score** : 3
-- **Résumé** : On-policy distillation (OPD) is a promising approach for training language agents, providing dense teacher supervision on student-generated trajectories. However, in multi-turn interaction, an incorrect action changes the states the student encounters later, so errors compound across turns. In preli...
-- **Lien** : https://arxiv.org/abs/2609.40285v1
+- **Résumé** : Step-size selection remains a central challenge in large-scale neural network optimization; conservative steps slow convergence, while aggressive steps can destabilize it. We combine 	extbf{Z}ero-and-	extbf{F}irst-	extbf{O}rder optimization~(ZFO) and propose a lightweight framework that decouples...
+- **Lien** : https://arxiv.org/abs/2610.02190v1
+
+### Generative Cinematographer: Composing Camera and Object Motion in 3D
+- **arXiv** : 2610.02180v1
+- **Date** : 2026-10-01
+- **Auteurs** : Jiahan Zhang, Chaohao Yang, Namitha Guruprasad, Vivekjyoti Banerjee, Trong-Tung Nguyen
+- **Score** : 3
+- **Résumé** : Current controllable video generation systems often rely on 2D motion trajectories or sparse drag signals for object motion. These controls are ambiguous because the same 2D trajectory can correspond to different 3D motions, especially when the camera and objects move simultaneously. We present Gene...
+- **Lien** : https://arxiv.org/abs/2610.02180v1
+
+### Every Ablation Is a Dose: Counterweights and the Semblance of Self-Repair
+- **arXiv** : 2610.02173v1
+- **Date** : 2026-10-01
+- **Auteurs** : Areeb Ahmad, Pratinav Seth, Vinay Kumar Sankarapu
+- **Score** : 3
+- **Résumé** : Ablate a component of a language model, and other components often appear to adjust and compensate. This phenomenon, termed self-repair, has been observed repeatedly, but its mechanism remains unclear. The most systematic study to date concluded that self-repair is noisy and unlikely to have a singl...
+- **Lien** : https://arxiv.org/abs/2610.02173v1
+
+### AutoCompact: Learning When to Compact Context in Long-Horizon Coding Agents
+- **arXiv** : 2610.02163v1
+- **Date** : 2026-10-01
+- **Auteurs** : Xuan Zhang, Longtao Zheng, Cunxiao Du, Bo An, Xin Dong
+- **Score** : 3
+- **Résumé** : Coding agents solve repository-level software engineering tasks through long trajectories of code inspection, search, editing, and testing. As a task progresses, earlier exploration becomes stale, so managing context is more than avoiding overflow: an agent must decide when to compact, what working ...
+- **Lien** : https://arxiv.org/abs/2610.02163v1
+
+### DuoMind: Enabling Distributed Multi-Robot Coordination with Semantic Communication
+- **arXiv** : 2610.02161v1
+- **Date** : 2026-10-01
+- **Auteurs** : Hanchu Zhou, Dechen Gao, Hang Wang, Brendan Lynch, Boqi Zhao
+- **Score** : 3
+- **Résumé** : Vision-language models (VLMs) and vision-language-action models (VLAs) have recently driven rapid progress in general-purpose robots, yet most progress has focused on single-robot settings. Extending these capabilities to multi-robot systems remains challenging because robots must coordinate long-ho...
+- **Lien** : https://arxiv.org/abs/2610.02161v1
+
+### When Do Intrinsic Rewards Lead to Exploration?
+- **arXiv** : 2610.02159v1
+- **Date** : 2026-10-01
+- **Auteurs** : Scott W. Viteri, Laura Gomezjurado Gonzalez, Clark Barrett
+- **Score** : 3
+- **Résumé** : Intrinsic rewards are designed to guide exploration in reinforcement learning by assigning value to an agent's experience, for example through prediction error or learning progress. However, maximizing these rewards need not produce the most informative experience available. We propose a formal crit...
+- **Lien** : https://arxiv.org/abs/2610.02159v1
+
+### Sample complexity bounds for categorical Markov random fields via Discrete Diffusions
+- **arXiv** : 2610.02128v1
+- **Date** : 2026-10-01
+- **Auteurs** : Shivam Kumar, Nabarun Deb
+- **Score** : 3
+- **Résumé** : Many applications in statistics, economics, and physics require sampling from high-dimensional categorical distributions with local dependence structures. Examples include finite memory language models, Ising and Potts systems in statistical physics and protein folding, etc. In modern machine learni...
+- **Lien** : https://arxiv.org/abs/2610.02128v1
+
+### Scalable, Transferable Meta-network for Data Selection Requires a Different Loss (and Why the Obvious Choice is Problematic)
+- **arXiv** : 2610.02092v1
+- **Date** : 2026-10-01
+- **Auteurs** : Zilin Du, Bowen Yang, Boyang Albert Li
+- **Score** : 3
+- **Résumé** : Data selection is critical for training large language models on massive and heterogeneous corpora. Meta-learning for Training-data Selection offers a principled alternative to heuristic scoring by learning data weights from a target validation objective, but existing methods face a trade-off betwee...
+- **Lien** : https://arxiv.org/abs/2610.02092v1
+
+### GeoLatent: Geometry-Guided Latent Structuring with Routed Optimization for 3D Reasoning
+- **arXiv** : 2610.02091v1
+- **Date** : 2026-10-01
+- **Auteurs** : Yakun Zhu, Yi Bin, Yujuan Ding, Zheng Wang, Pengpeng Zeng
+- **Score** : 3
+- **Résumé** : Despite progress in vision-language models, 3D spatial reasoning from 2D images remains challenging. Text-based methods describe intermediate geometry with discrete tokens, limiting fidelity for continuous spatial relations. Continuous latents offer richer representations, but a single latent type d...
+- **Lien** : https://arxiv.org/abs/2610.02091v1
 
 <!-- ARXIV_FEED_END -->
