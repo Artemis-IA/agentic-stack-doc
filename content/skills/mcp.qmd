@@ -121,6 +121,12 @@ MCP devient le **standard de facto** pour connecter les agents IA aux outils ext
 ## MCP Servers découverts automatiquement
 
 <!-- TOOLS_MCP_START -->
+### [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)
+🐍 ☁️ 🏠 - Hindsight: long-term memory for AI agents modeled on human memory.
+
+⭐ 45.0k | `Python` | Licence: MIT | MAJ: 2026-10-03
+**Tags** : `agentic-ai`, `agents`, `ai-memory`, `memory`
+
 ### [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)
 Playwright browser automation: interact with web pages through structured accessibility snapshots.
 
@@ -172,7 +178,7 @@ The official Python SDK for Model Context Protocol servers and clients
 ### [GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP)
 📇 🏠 - Gives coding agents direct access to Figma data to implement designs in one shot.
 
-⭐ 15.9k | `TypeScript` | Licence: MIT | MAJ: 2026-10-02
+⭐ 15.9k | `TypeScript` | Licence: MIT | MAJ: 2026-10-03
 **Tags** : `ai`, `cursor`, `figma`, `mcp`, `typescript`
 
 ### [skill-seekers/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)
@@ -184,7 +190,7 @@ The official Python SDK for Model Context Protocol servers and clients
 ### [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)
 The official TypeScript SDK for Model Context Protocol servers and clients
 
-⭐ 13.5k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-10-02
+⭐ 13.5k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-10-03
 **Tags** : `mcp`, `mcp-client`, `mcp-server`, `typescript`
 
 ### [seleniumbase/SeleniumBase](https://github.com/seleniumbase/SeleniumBase)
@@ -231,7 +237,7 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ### [apify/actors-mcp-server](https://github.com/apify/actors-mcp-server)
 📇 ☁️ - Use Apify Actors, pre-built cloud tools, to extract data from websites, e-commerce, social media, search engines, maps and more.
 
-⭐ 9.4k | `TypeScript` | Licence: MIT | MAJ: 2026-10-03
+⭐ 9.5k | `TypeScript` | Licence: MIT | MAJ: 2026-10-03
 **Tags** : `agents`, `ai`, `mcp`, `mcp-server`
 
 ### [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp)
@@ -288,16 +294,10 @@ Create UI components inspired by 21st.dev design engineers.
 ⭐ 6.0k | `TypeScript` | Licence: ISC | MAJ: 2026-10-03
 **Tags** : `21st`, `claude`, `cursor`, `mcp`, `model-context-protocol`, `react`, `tailwindcss`, `ui-components`
 
-### [Coding-Solo/godot-mcp](https://github.com/Coding-Solo/godot-mcp)
-📇 🏠 - Interact with the Godot game engine: edit, run and debug projects and manage scenes.
-
-⭐ 5.9k | `JavaScript` | Licence: MIT | MAJ: 2026-10-03
-**Tags** : `ai`, `godot`, `mcp`
-
 ### [mutonby/openshorts](https://github.com/mutonby/openshorts)
 !mutonby/openshorts MCP server 🎖️ 🐍 ☁️ 🏠 🍎 🪟 🐧 - Turn long videos into vertical shorts: moment detection, face-tracked 9:16 reframing, captions, dubbing and publishing to TikTok, Instagram and YouT...
 
-⭐ 5.9k | `Python` | Licence: MIT | MAJ: 2026-10-03
+⭐ 6.0k | `Python` | Licence: MIT | MAJ: 2026-10-03
 **Tags** : `agent-skills`, `ai-clip-generator`, `ai-video-editor`, `clip-generator`, `mcp-server`, `open-source`, `opus-clip-alternative`, `shorts`
 
 <!-- TOOLS_MCP_END -->
