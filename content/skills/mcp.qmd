@@ -121,66 +121,6 @@ MCP devient le **standard de facto** pour connecter les agents IA aux outils ext
 ## MCP Servers découverts automatiquement
 
 <!-- TOOLS_MCP_START -->
-### [n8n](https://github.com/n8n-io/n8n)
-Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
-
-⭐ 206.6k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-10-04
-**Tags** : `ai`, `apis`, `automation`, `cli`, `data-flow`, `development`, `integration-framework`, `integrations`
-
-### [JavaGuide](https://github.com/Snailclimb/JavaGuide)
-Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
-
-⭐ 159.0k | `JavaScript` | Licence: Apache-2.0 | MAJ: 2026-10-04
-**Tags** : `agent`, `ai`, `context-engineering`, `deepseek`, `interview`, `java`, `mcp`, `mysql`
-
-### [cc-switch](https://github.com/farion1231/cc-switch)
-A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io
-
-⭐ 139.9k | `Rust` | Licence: MIT | MAJ: 2026-10-04
-**Tags** : `ai-tools`, `claude-code`, `codex`, `desktop-app`, `grok`, `grokbuild`, `hermes`, `hermes-agent`
-
-### [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
-A collection of MCP servers.
-
-⭐ 95.8k | Licence: MIT | MAJ: 2026-10-04
-**Tags** : `ai`, `mcp`
-
-### [worldmonitor](https://github.com/koala73/worldmonitor)
-Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface
-
-⭐ 87.7k | `TypeScript` | Licence: AGPL-3.0 | MAJ: 2026-10-04
-**Tags** : `agent`, `ai`, `dashboard`, `geopolitics`, `mcp`, `mcp-server`, `monitoring`, `news`
-
-### [Scrapling](https://github.com/D4Vinci/Scrapling)
-🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and ...
-
-⭐ 85.6k | `Python` | Licence: BSD-3-Clause | MAJ: 2026-10-04
-**Tags** : `ai`, `ai-scraping`, `automation`, `crawler`, `crawling`, `crawling-python`, `data`, `data-extraction`
-
-### [lobehub](https://github.com/lobehub/lobehub)
-🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.
-
-⭐ 83.0k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-10-04
-**Tags** : `agent`, `agent-collaboration`, `agent-harness`, `ai`, `cao`, `chatgpt`, `chief-agent-operator`, `claude`
-
-### [netdata](https://github.com/netdata/netdata)
-The fastest path to AI-powered full stack observability, even for lean teams.
-
-⭐ 80.8k | `Go` | Licence: GPL-3.0 | MAJ: 2026-10-04
-**Tags** : `ai`, `alerting`, `cncf`, `data-visualization`, `database`, `devops`, `docker`, `grafana`
-
-### [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
-A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
-
-⭐ 76.5k | `Python` | MAJ: 2026-10-04
-**Tags** : `agent-skills`, `ai-agents`, `antigravity`, `automation`, `claude`, `claude-code`, `codex`, `composio`
-
-### [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)
-🐍 ☁️ 🏠 - Hindsight: long-term memory for AI agents modeled on human memory.
-
-⭐ 45.3k | `Python` | Licence: MIT | MAJ: 2026-10-04
-**Tags** : `agentic-ai`, `agents`, `ai-memory`, `memory`
-
 ### [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)
 Playwright browser automation: interact with web pages through structured accessibility snapshots.
 
@@ -232,11 +172,11 @@ The official Python SDK for Model Context Protocol servers and clients
 ### [GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP)
 📇 🏠 - Gives coding agents direct access to Figma data to implement designs in one shot.
 
-⭐ 16.0k | `TypeScript` | Licence: MIT | MAJ: 2026-10-04
+⭐ 15.9k | `TypeScript` | Licence: MIT | MAJ: 2026-10-04
 **Tags** : `ai`, `cursor`, `figma`, `mcp`, `typescript`
 
-### [Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)
-Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection
+### [skill-seekers/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)
+!yusufkaraaslan/Skill_Seekers MCP server 🐍 🏠 🍎 🪟 🐧 - Turn docs, GitHub repos, PDFs, videos, Confluence, Notion and Slack/Discord into AI skills and RAG knowledge, exportable to vector databases lik...
 
 ⭐ 15.1k | `Python` | Licence: MIT | MAJ: 2026-10-04
 **Tags** : `ai-tools`, `ast-parser`, `automation`, `claude-ai`, `claude-skills`, `code-analysis`, `conflict-detection`, `documentation`
@@ -256,7 +196,7 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ### [get-convex/convex-backend](https://github.com/get-convex/convex-backend)
 📇 ☁️ - Convex database integration to introspect tables and functions and run one-off queries.
 
-⭐ 12.6k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-10-04
+⭐ 12.7k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-10-04
 **Tags** : `backend`, `convex`, `database`, `rust`, `typescript`
 
 ### [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp)
@@ -299,5 +239,65 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 
 ⭐ 8.6k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-10-04
 **Tags** : `agent`, `android`, `emulator`, `ios`, `mcp`, `mobile`, `physical`, `real`
+
+### [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server)
+!firecrawl/firecrawl-mcp-server MCP server 🎖️ 📇 ☁️ 🏠 - Firecrawl web scraping: search, scrape, crawl, map and extract structured data, with live browser interaction and website change monitoring.
+
+⭐ 7.6k | `JavaScript` | Licence: MIT | MAJ: 2026-10-04
+**Tags** : `batch-processing`, `claude`, `content-extraction`, `data-collection`, `firecrawl`, `firecrawl-ai`, `gemini-cli-extension`, `javascript-rendering`
+
+### [browsermcp/mcp](https://github.com/browsermcp/mcp)
+📇 🏠 - Automate your local Chrome browser.
+
+⭐ 7.2k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-10-04
+**Tags** : `browser-automation`, `browser-extension`, `claude`, `cursor`, `mcp`, `mcp-server`
+
+### [repowise-dev/repowise](https://github.com/repowise-dev/repowise)
+!repowise-dev/repowise MCP server 🐍 🏠 ☁️ - Codebase intelligence: indexes a repo into a dependency graph, git history, defect-risk code health, generated docs and architectural decisions. Runs loca...
+
+⭐ 7.1k | `Python` | Licence: AGPL-3.0 | MAJ: 2026-10-04
+**Tags** : `ai`, `code-complexity`, `code-health`, `code-intelligence`, `code-quality`, `dead-code`, `developer-tools`, `documentation`
+
+### [lharries/whatsapp-mcp](https://github.com/lharries/whatsapp-mcp)
+🐍 🏎️ - Search personal WhatsApp messages and contacts, and send messages to individuals or groups.
+
+⭐ 6.4k | `Go` | Licence: MIT | MAJ: 2026-10-04
+**Tags** : `ai`, `mcp`, `whatsapp`, `whatsapp-api`
+
+### [kucherenko/jscpd](https://github.com/kucherenko/jscpd)
+!kucherenko/jscpd MCP server 🎖️ 🦀 🏠 🍎 🪟 🐧 - Duplicate code detection with jscpd: check snippets and files for copy/paste duplication against a scanned project before committing.
+
+⭐ 6.3k | `Rust` | Licence: MIT | MAJ: 2026-10-04
+**Tags** : `ai`, `cli`, `clones-detection`, `code-duplication`, `code-quality`, `coding-agents`, `copy-paste`, `copy-paste-detection`
+
+### [mutonby/openshorts](https://github.com/mutonby/openshorts)
+!mutonby/openshorts MCP server 🎖️ 🐍 ☁️ 🏠 🍎 🪟 🐧 - Turn long videos into vertical shorts: moment detection, face-tracked 9:16 reframing, captions, dubbing and publishing to TikTok, Instagram and YouT...
+
+⭐ 6.1k | `Python` | Licence: MIT | MAJ: 2026-10-04
+**Tags** : `agent-skills`, `ai-clip-generator`, `ai-video-editor`, `clip-generator`, `mcp-server`, `open-source`, `opus-clip-alternative`, `shorts`
+
+### [bram2w/baserow](https://github.com/bram2w/baserow)
+Baserow database integration: search and list tables, and create, read, update and delete rows.
+
+⭐ 6.1k | `Python` | Licence: NOASSERTION | MAJ: 2026-10-04
+**Tags** : `airtable`, `airtable-alternative`, `airtable-replacement`, `application-builder`, `automations`, `dashboards`, `database`, `low-code`
+
+### [sooperset/mcp-atlassian](https://github.com/sooperset/mcp-atlassian)
+🐍 ☁️ - Search, read, create and manage Confluence and Jira content, supporting Confluence Cloud, Jira Cloud and Jira Server/Data Center.
+
+⭐ 6.0k | `Python` | Licence: MIT | MAJ: 2026-10-04
+**Tags** : `atlassian`, `confluence`, `jira`, `mcp`
+
+### [21st-dev/Magic-MCP](https://github.com/21st-dev/magic-mcp)
+Create UI components inspired by 21st.dev design engineers.
+
+⭐ 6.0k | `TypeScript` | Licence: ISC | MAJ: 2026-10-04
+**Tags** : `21st`, `claude`, `cursor`, `mcp`, `model-context-protocol`, `react`, `tailwindcss`, `ui-components`
+
+### [Coding-Solo/godot-mcp](https://github.com/Coding-Solo/godot-mcp)
+📇 🏠 - Interact with the Godot game engine: edit, run and debug projects and manage scenes.
+
+⭐ 5.9k | `JavaScript` | Licence: MIT | MAJ: 2026-10-04
+**Tags** : `ai`, `godot`, `mcp`
 
 <!-- TOOLS_MCP_END -->
