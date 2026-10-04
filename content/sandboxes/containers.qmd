@@ -115,13 +115,13 @@ subprocess.run([
 ### [microsandbox](https://github.com/superradcompany/microsandbox)
 🧱 easy, fast, programmable and local-first microVM runtime and library
 
-⭐ 8.5k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-03
+⭐ 8.6k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-04
 **Tags** : `agents`, `docker`, `golang`, `linux`, `local`, `macos`, `microvm`, `nodejs`
 
 ### [smolvm](https://github.com/smol-machines/smolvm)
 An embeddable, portable, branchable virtual machine to safely run Agents locally.
 
-⭐ 6.6k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-03
+⭐ 6.6k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-04
 **Tags** : `containers`, `crun`, `libkrun`, `microvm`, `rust`, `virtual-machine`
 
 ### [arcbox](https://github.com/arcboxlabs/arcbox)
@@ -145,14 +145,8 @@ Fork() for AI agent microVMs. Spawn 100 children in ~100ms from a warm parent; B
 ### [runtime](https://github.com/e2b-dev/runtime)
 The runtime behind every E2B stack: Cloud, Enterprise, and your own machine.
 
-⭐ 1.7k | `Go` | Licence: Apache-2.0 | MAJ: 2026-10-03
+⭐ 1.7k | `Go` | Licence: Apache-2.0 | MAJ: 2026-10-04
 **Tags** : `ai-agents`, `code-interpreter`, `consul`, `devtools`, `firecracker`, `gcp`, `go`, `golang`
-
-### [awesome-wasm-runtimes](https://github.com/appcypher/awesome-wasm-runtimes)
-A list of webassemby runtimes
-
-⭐ 1.6k | MAJ: 2026-09-22
-**Tags** : `cranelift`, `engine`, `javascript`, `rust`, `virtual-machine`, `vm`, `wasm`, `wasm-runtime`
 
 ### [flintlock](https://github.com/liquidmetal-dev/flintlock)
 Lock, Stock, and Two Smoking MicroVMs. Create and manage the lifecycle of MicroVMs backed by containerd.
@@ -169,7 +163,7 @@ A multi-sandbox container runtime that provides cloud-native, all-scenario multi
 ### [Wllama](https://github.com/ngxson/wllama)
 WebAssembly binding for llama.cpp - Enabling in-browser LLM inference
 
-⭐ 1.3k | `TypeScript` | Licence: MIT | MAJ: 2026-10-03
+⭐ 1.3k | `TypeScript` | Licence: MIT | MAJ: 2026-10-04
 **Tags** : `llama`, `llamacpp`, `llm`, `wasm`, `webassembly`
 
 ### [mayastor](https://github.com/openebs/mayastor)
@@ -181,13 +175,13 @@ Dynamically provision Stateful Persistent Replicated Cluster-wide Fabric Volumes
 ### [clawk](https://github.com/clawkwork/clawk)
 Give coding agents a disposable Linux VM, not your laptop
 
-⭐ 1.0k | `Go` | Licence: Apache-2.0 | MAJ: 2026-10-03
+⭐ 1.0k | `Go` | Licence: Apache-2.0 | MAJ: 2026-10-04
 **Tags** : `agent-sandbox`, `ai-agent-sandbox`, `ai-agents`, `claude`, `claude-code`, `codex`, `microvm`, `sandbox`
 
 ### [coop](https://github.com/trailofbits/coop)
 Isolated VM environment for running Claude Code and Codex
 
-⭐ 752 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-03
+⭐ 753 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-03
 **Tags** : `claude-code`, `cli`, `codex`, `firecracker`, `kvm`, `lima`, `microvm`, `rust`
 
 ### [smolBSD](https://github.com/NetBSDfr/smolBSD)
@@ -199,7 +193,7 @@ smolBSD is a tiny BSD UNIX (NetBSD) system creation tool, primarily aimed at bui
 ### [pve-microvm](https://github.com/rcarmo/pve-microvm)
 Firecracker-like microVMs for Proxmox VE — KVM isolation, under 200 ms boot.
 
-⭐ 409 | `Shell` | Licence: Apache-2.0 | MAJ: 2026-10-03
+⭐ 410 | `Shell` | Licence: Apache-2.0 | MAJ: 2026-10-03
 **Tags** : `homelab`, `microvm`, `proxmox`, `sandboxing`
 
 ### [vHive](https://github.com/vhive-serverless/vHive)
@@ -220,16 +214,22 @@ Deny-by-default command sandbox for AI coding agents with filesystem isolation, 
 ⭐ 306 | `Go` | Licence: Apache-2.0 | MAJ: 2026-09-29
 **Tags** : `agents`, `ai-security`, `claude-code`, `developer-tools`, `greyproxy`, `landlock`, `linux`, `llm`
 
-### [chasm](https://github.com/CharlieTap/chasm)
-A WebAssembly runtime built on Kotlin Multiplatform
-
-⭐ 235 | `WebAssembly` | Licence: Apache-2.0 | MAJ: 2026-10-02
-**Tags** : `android`, `ios`, `kotlin-multiplatform`, `virtual-machine`, `wasm`, `wasm-runtime`, `webassembly`
-
 ### [Ailoy](https://github.com/brekkylab/ailoy)
 A comprehensive framework for building AI agents that run anywhere, with full local-AI and WASM support.
 
 ⭐ 150 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-03
 **Tags** : `agent`, `agent-builder`, `agentic-ai`, `ai-agents`, `gpu`, `gpu-acceleration`, `gpu-passthrough`, `hacktoberfest`
+
+### [ajitpratap0/GoSQLX](https://github.com/ajitpratap0/GoSQLX)
+!ajitpratap0/GoSQLX MCP server 🏎️ ☁️ 🏠 - SQL validation, formatting, parsing, linting, security scanning and metadata extraction across multiple SQL dialects.
+
+⭐ 118 | `Go` | Licence: Apache-2.0 | MAJ: 2026-09-30
+**Tags** : `ast`, `cli`, `dialect`, `go`, `golang`, `lsp`, `mysql`, `parser`
+
+### [26zl/cybersec-toolkit](https://github.com/26zl/cybersec-toolkit)
+!26zl/cybersec-toolkit MCP server 🐍 🏠 🐧 - Install a large security toolset and discover and run it through an authorization-gated server for CTF, pentesting, bug bounty and DFIR.
+
+⭐ 66 | `Python` | Licence: MIT | MAJ: 2026-10-02
+**Tags** : `agent-skills`, `ai-agent`, `blue-team`, `bug-bounty`, `claude-code`, `ctf-tools`, `cybersecurity`, `dfir`
 
 <!-- TOOLS_SANDBOX_END -->
