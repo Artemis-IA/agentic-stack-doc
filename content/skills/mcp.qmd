@@ -121,18 +121,6 @@ MCP devient le **standard de facto** pour connecter les agents IA aux outils ext
 ## MCP Servers découverts automatiquement
 
 <!-- TOOLS_MCP_START -->
-### [cc-switch](https://github.com/farion1231/cc-switch)
-A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io
-
-⭐ 140.4k | `Rust` | Licence: MIT | MAJ: 2026-10-06
-**Tags** : `ai-tools`, `claude-code`, `codex`, `desktop-app`, `grok`, `grokbuild`, `hermes`, `hermes-agent`
-
-### [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)
-🐍 ☁️ 🏠 - Hindsight: long-term memory for AI agents modeled on human memory.
-
-⭐ 46.2k | `Python` | Licence: MIT | MAJ: 2026-10-06
-**Tags** : `agentic-ai`, `agents`, `ai-memory`, `memory`
-
 ### [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)
 Playwright browser automation: interact with web pages through structured accessibility snapshots.
 
@@ -187,8 +175,8 @@ The official Python SDK for Model Context Protocol servers and clients
 ⭐ 16.0k | `TypeScript` | Licence: MIT | MAJ: 2026-10-06
 **Tags** : `ai`, `cursor`, `figma`, `mcp`, `typescript`
 
-### [Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)
-Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection
+### [skill-seekers/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)
+!yusufkaraaslan/Skill_Seekers MCP server 🐍 🏠 🍎 🪟 🐧 - Turn docs, GitHub repos, PDFs, videos, Confluence, Notion and Slack/Discord into AI skills and RAG knowledge, exportable to vector databases lik...
 
 ⭐ 15.1k | `Python` | Licence: MIT | MAJ: 2026-10-06
 **Tags** : `ai-tools`, `ast-parser`, `automation`, `claude-ai`, `claude-skills`, `code-analysis`, `conflict-detection`, `documentation`
@@ -202,7 +190,7 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ### [seleniumbase/SeleniumBase](https://github.com/seleniumbase/SeleniumBase)
 !seleniumbase/SeleniumBase MCP server 🐍 🏠 🍎 🪟 🐧 - Browser automation, testing and bot-detection bypass using SeleniumBase CDP Mode with Chromium, including click-based CAPTCHA solving.
 
-⭐ 13.1k | `Python` | Licence: MIT | MAJ: 2026-10-06
+⭐ 13.0k | `Python` | Licence: MIT | MAJ: 2026-10-06
 **Tags** : `anti-detection`, `bot-detection`, `chromedriver`, `chromium`, `cloudflare-bypass`, `e2e-testing`, `end-to-end-testing`, `playwright`
 
 ### [get-convex/convex-backend](https://github.com/get-convex/convex-backend)
@@ -226,7 +214,7 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ### [LaurieWired/GhidraMCP](https://github.com/LaurieWired/GhidraMCP)
 ☕ 🏠 - Autonomous reverse engineering with Ghidra: decompile binaries, rename methods and data, and list methods, classes, imports and exports.
 
-⭐ 10.5k | `Java` | Licence: Apache-2.0 | MAJ: 2026-10-06
+⭐ 10.6k | `Java` | Licence: Apache-2.0 | MAJ: 2026-10-06
 
 ### [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP)
 📇 🏠 🍎 🪟 🐧 - Manage and execute programs, and read, write, search and edit code and text files.
@@ -237,7 +225,7 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ### [apify/actors-mcp-server](https://github.com/apify/actors-mcp-server)
 📇 ☁️ - Use Apify Actors, pre-built cloud tools, to extract data from websites, e-commerce, social media, search engines, maps and more.
 
-⭐ 9.8k | `TypeScript` | Licence: MIT | MAJ: 2026-10-06
+⭐ 9.9k | `TypeScript` | Licence: MIT | MAJ: 2026-10-06
 **Tags** : `agents`, `ai`, `mcp`, `mcp-server`
 
 ### [awslabs/mcp](https://github.com/awslabs/mcp)
@@ -299,5 +287,17 @@ Create UI components inspired by 21st.dev design engineers.
 
 ⭐ 6.0k | `TypeScript` | Licence: ISC | MAJ: 2026-10-06
 **Tags** : `21st`, `claude`, `cursor`, `mcp`, `model-context-protocol`, `react`, `tailwindcss`, `ui-components`
+
+### [sooperset/mcp-atlassian](https://github.com/sooperset/mcp-atlassian)
+🐍 ☁️ - Search, read, create and manage Confluence and Jira content, supporting Confluence Cloud, Jira Cloud and Jira Server/Data Center.
+
+⭐ 6.0k | `Python` | Licence: MIT | MAJ: 2026-10-06
+**Tags** : `atlassian`, `confluence`, `jira`, `mcp`
+
+### [Coding-Solo/godot-mcp](https://github.com/Coding-Solo/godot-mcp)
+📇 🏠 - Interact with the Godot game engine: edit, run and debug projects and manage scenes.
+
+⭐ 6.0k | `JavaScript` | Licence: MIT | MAJ: 2026-10-06
+**Tags** : `ai`, `godot`, `mcp`
 
 <!-- TOOLS_MCP_END -->
