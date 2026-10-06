@@ -90,14 +90,6 @@ graph LR
 - **Résumé** : [...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in s...
 - **Lien** : https://simonwillison.net/2026/Oct/1/matthew-green/
 
-### Claude Sonnet 5.5
-- **Source** : Simon Willison
-- **Date** : 2026-09-28T22:07
-- **Score** : 2
-- **Résumé** : Claude Sonnet 5.5
-New Sonnet model from Anthropic today. They say it "runs 30%+ faster, and costs up to 30% less for most work" - it's priced the same as Sonnet 5 but appears to beat it on every bench...
-- **Lien** : https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/
-
 ### Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents
 - **Source** : Hugging Face Blog
 - **Date** : Tue, 29 Sep 2026
@@ -147,12 +139,20 @@ New Sonnet model from Anthropic today. They say it "runs 30%+ faster, and costs 
 - **Résumé** : Our DevDay coverage - the first pod on the DevDay lineup - dives in with the leaders of OpenAI&#8217;s CUA team and API platform....
 - **Lien** : https://www.latent.space/p/devday-2026
 
-### Claude Code’s Next Era — Thariq Shihipar, Anthropic
-- **Source** : latent.space
-- **Date** : Tue, 29 Sep 2026
+### Quoting Felix Rieseberg
+- **Source** : Simon Willison
+- **Date** : 2026-10-05T23:56
 - **Score** : 1
-- **Résumé** : Shipping Opus/Sonnet 5.5, Mods, Plugins, Projects, Tag while Pacing the Frontier...
-- **Lien** : https://www.latent.space/p/thariq
+- **Résumé** : The "old" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reason...
+- **Lien** : https://simonwillison.net/2026/Oct/5/felix-rieseberg/
+
+### Qwen3.8 27B addition in words
+- **Source** : Simon Willison
+- **Date** : 2026-10-04T23:34
+- **Score** : 1
+- **Résumé** : Research: Qwen3.8 27B addition in words
+        Colin Frasier posted on Bluesky about an experiment he ran...
+- **Lien** : https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/
 
 ### Quoting Anthropic Frontier Red Team
 - **Source** : Simon Willison
@@ -167,6 +167,13 @@ New Sonnet model from Anthropic today. They say it "runs 30%+ faster, and costs 
 - **Score** : 1
 - **Résumé** : My comment on GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price &mdash; Hacker News.I'm a bit late with the pelicans because I was live-blogging the...
 - **Lien** : https://simonwillison.net/2026/Sep/29/hn-49898129/
+
+### Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance
+- **Source** : Hugging Face Blog
+- **Date** : Tue, 06 Oct 2026
+- **Score** : 1
+- **Résumé** : ...
+- **Lien** : https://huggingface.co/blog/tiiuae/falcon-emirati
 
 ### The Agent Said It Was Done. The Database Disagreed.
 - **Source** : Hugging Face Blog
@@ -189,19 +196,12 @@ New Sonnet model from Anthropic today. They say it "runs 30%+ faster, and costs 
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/Hcompany/holo4
 
-### How UK AISI and EvalEval Are Making Benchmark Results Reproducible
-- **Source** : Hugging Face Blog
-- **Date** : Tue, 22 Sep 2026
+### Building advertising for the way people use AI
+- **Source** : OpenAI Blog
+- **Date** : Mon, 05 Oct 2026
 - **Score** : 1
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/evaleval-aisi
-
-### Transformers now runs llama.cpp quants
-- **Source** : Hugging Face Blog
-- **Date** : Tue, 22 Sep 2026
-- **Score** : 1
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/transformers-llama-cpp-quants
+- **Résumé** : OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers....
+- **Lien** : https://openai.com/index/new-chatgpt-ads-format-and-measurement
 
 ### A model guide for the GPT-6 family
 - **Source** : OpenAI Blog
@@ -238,11 +238,11 @@ New Sonnet model from Anthropic today. They say it "runs 30%+ faster, and costs 
 - **Résumé** : Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders....
 - **Lien** : https://openai.com/index/devday-2026-recap
 
-### Introducing GPT-6.1 Sol
-- **Source** : OpenAI Blog
-- **Date** : Tue, 29 Sep 2026
+### LWiAI Podcast #257 - GPT 6 Astra, AI Extinction, Security Incidents
+- **Source** : Last Week in AI
+- **Date** : Thu, 24 Sep 2026
 - **Score** : 1
-- **Résumé** : Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices....
-- **Lien** : https://openai.com/index/introducing-gpt-6-1-sol
+- **Résumé** : A belated discussion of Astra&#8217;s release, a bunch of AI incidents, and the broader situation we are in with regards to AI safety....
+- **Lien** : https://lastweekin.ai/p/lwiai-podcast-257-gpt-6-astra-ai
 
 <!-- BLOG_FEED_END -->

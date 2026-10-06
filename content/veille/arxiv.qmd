@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards
-- **arXiv** : 2610.02206v1
-- **Date** : 2026-10-01
-- **Auteurs** : Pengfei Li, Naufal Suryanto, Sicheng Zhang, Muzammal Naseer
-- **Score** : 11
-- **Résumé** : LLMs are increasingly applied to cybersecurity workflows, where they are expected to translate analysts' intent into tool invocations. However, existing evaluations focus on knowledge-based assessments or end-to-end agentic tasks, and do not directly measure LLMs' ability to generate executable comm...
-- **Lien** : https://arxiv.org/abs/2610.02206v1
+### Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification
+- **arXiv** : 2610.06790v1
+- **Date** : 2026-10-05
+- **Auteurs** : Je Yang, Ivan Lobov, Thomas Karpati
+- **Score** : 12
+- **Résumé** : The unprecedented computational scale of modern artificial intelligence depends on complex, multi-billion-transistor Systems-on-Chip, yet the workflows that verify these chips remain stubbornly manual. Although Large Language Models (LLMs) have made rapid inroads into Electronic Design Automation (E...
+- **Lien** : https://arxiv.org/abs/2610.06790v1
 
-### From Knowledge Access to Source Learning: Developing Source-Specific Competence
-- **arXiv** : 2610.02150v1
-- **Date** : 2026-10-01
-- **Auteurs** : Lucheng Fu, Kejing Xia, Yiyang Wang, Yiqiao Jin, Jinjin He
+### Recursive Video In-Context Learning for Agentic Robot
+- **arXiv** : 2610.06843v1
+- **Date** : 2026-10-05
+- **Auteurs** : Wenrui Bao, Xinxin Liu, Bingxin Xu, Yuzhang Shang
 - **Score** : 9
-- **Résumé** : Large language model (LLM) agents increasingly rely on persistent external sources to solve sequences of knowledge-intensive tasks. Existing methods improve how source content is accessed and organized, while agent-memory systems preserve reusable knowledge from prior interactions, but repeated use ...
-- **Lien** : https://arxiv.org/abs/2610.02150v1
+- **Résumé** : LLM agents that orchestrate frozen vision-language-action (VLA) policies improve across episodes through text memory, which records what the agent did but not how the task is done. A demonstration video shows it, but fits poorly into an agent's context. The full video slows every turn, fixed keyfram...
+- **Lien** : https://arxiv.org/abs/2610.06843v1
 
-### TACO: Ternary Absolute-max Column-wise One-sparse Optimizer for LLM Fine-Tuning
-- **arXiv** : 2610.02199v1
-- **Date** : 2026-10-01
-- **Auteurs** : Jichao Jiang, Cristian McGee, El Houcine Bergou, Hanqin Cai, Aritra Dutta
-- **Score** : 7
-- **Résumé** : Full-parameter fine-tuning of large language models (LLMs) incurs substantial optimizer state memory overhead, limiting the model sizes that fit on modern GPUs. Existing approaches either compress optimizer state, abandon first-order gradients, or change the update geometry while retaining dense sta...
-- **Lien** : https://arxiv.org/abs/2610.02199v1
+### BazaarBench: Delegation Safety in Decentralized C2C Marketplaces Run by LLM Agents
+- **arXiv** : 2610.06748v1
+- **Date** : 2026-10-05
+- **Auteurs** : Ziyan Wang, Shuqing Shi, James Oldfield, Samuele Marro, Jialin Yu
+- **Score** : 9
+- **Résumé** : In decentralized consumer-to-consumer (C2C) marketplaces, people list goods, negotiate with strangers, and rate one another, so trust rests on reputation. Large language model (LLM) agents now act for users, raising risks to their money, privacy, and reputation. We introduce BazaarBench, a simulated...
+- **Lien** : https://arxiv.org/abs/2610.06748v1
 
-### Keyword Harnesses Fail Open: A Cheap Diagnostic Ladder for Tool-Use Claims in Small Language Models
-- **arXiv** : 2610.02142v1
-- **Date** : 2026-10-01
-- **Auteurs** : Juan S. Santillana
-- **Score** : 7
-- **Résumé** : Keyword-matching benchmarks can credit small models for tool use they never perform. We document such a false positive in a matched-architecture pair of Spanish security language models and propose a ladder of strict, cheap diagnostics. A 661.6M parameter model (approx. 65% code/technical text; no d...
-- **Lien** : https://arxiv.org/abs/2610.02142v1
+### MedPrune: Topology-Efficient Multimodal Multi-Agent Communication Evolution for Medical VQA Tasks
+- **arXiv** : 2610.06695v1
+- **Date** : 2026-10-05
+- **Auteurs** : Jiuheng Wan, Runze Li, Chen Chen, Tingyuan Hu, Daiyang Yu
+- **Score** : 9
+- **Résumé** : While medical multimodal large language models (Med-MLLMs) advance medical visual question answering (VQA), existing clinical workflow-inspired multi-agent frameworks suffer from interaction patterns and excessive computational overhead caused by redundant communication topologies. In this paper, we...
+- **Lien** : https://arxiv.org/abs/2610.06695v1
 
-### Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents
-- **arXiv** : 2610.02204v1
-- **Date** : 2026-10-01
-- **Auteurs** : Yen-Jen Wang, Haozhe Jiang, Shuying Deng, Haoru Xue, Weirui Ye
+### One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline
+- **arXiv** : 2610.06852v1
+- **Date** : 2026-10-05
+- **Auteurs** : Shih-Chen Tseng, Chih-Hsuan Chen, Ryan Yang, Hsi-An Chen, Chun-Wei Tuan Mu
 - **Score** : 6
-- **Résumé** : Building reliable robot capabilities across diverse tasks requires substantial human effort to develop and maintain skills, design rewards, and integrate perception with control. We present Reconstruct, Practice, Go Real (RPG), a framework for autonomous improvement of robot execution systems withou...
-- **Lien** : https://arxiv.org/abs/2610.02204v1
+- **Résumé** : Pipeline figures in ML papers must be repurposed across many canvases, including paper columns, 16:9 slides, portrait posters, 1:1 social teasers, 9:16 phone previews. Each format imposes a different aspect ratio on the same computational graph, where any silently broken connection misrepresents the...
+- **Lien** : https://arxiv.org/abs/2610.06852v1
 
-### The Missing Primitive: Diagnosing and Repairing Mathematical Reasoning in Large Language Models
-- **arXiv** : 2610.02191v1
-- **Date** : 2026-10-01
-- **Auteurs** : Shuo Xing, Zilin Dai, Chengyuan Qian, Fangzhou Lin, Wenjing Chen
+### MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents
+- **arXiv** : 2610.06830v1
+- **Date** : 2026-10-05
+- **Auteurs** : Haozhen Zhang, Haodong Yue, Quanyu Long, Jianzhu Bao, Qingyuan Liu
 - **Score** : 6
-- **Résumé** : While Large Language Models (LLMs) have demonstrated striking capabilities on frontier mathematical problems, it remains unclear whether they possess the structural mathematical understanding underlying their solutions. In this paper, we take a first step toward systematically studying mathematical ...
-- **Lien** : https://arxiv.org/abs/2610.02191v1
+- **Résumé** : Memory has become integral to the LLM agent ecosystem, supporting information retention and reuse across interactions. However, most existing agent memory systems construct memory in a query-agnostic manner, which can incur unnecessary preprocessing cost and discard details that later prove essentia...
+- **Lien** : https://arxiv.org/abs/2610.06830v1
 
-### Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes
-- **arXiv** : 2610.02117v1
-- **Date** : 2026-10-01
-- **Auteurs** : Sophia Sirko-Galouchenko, Monika Wysoczanska, Andrei Bursuc, Nicolas Thome, Spyros Gidaris
+### T-Search: An Open Agentic Retriever and Playground for Hard Multi-Step Search
+- **arXiv** : 2610.06782v1
+- **Date** : 2026-10-05
+- **Auteurs** : Olga Tsymboi, Ramil Latypov, Aleksandr Medvedev, Danil Taranets, Dmitrii Stoianov
 - **Score** : 6
-- **Résumé** : On-policy self-distillation has recently emerged as an effective approach for improving language-model reasoning by supervising students with a frozen or EMA version of themselves that receives privileged information. Its application to multimodal large language models (MLLMs), however, remains larg...
-- **Lien** : https://arxiv.org/abs/2610.02117v1
+- **Résumé** : We present T-Search, an open-weight agentic retriever for hard multi-step search. Given a question and a search tool over a fixed corpus, it runs a bounded multi-round search and returns a ranked list of evidence chunks with short justifications, leaving answer generation to a downstream model, so b...
+- **Lien** : https://arxiv.org/abs/2610.06782v1
 
-### Argo-Bench: Evaluating Data Agents on Enterprise-Scale Workflows
-- **arXiv** : 2610.02122v1
-- **Date** : 2026-10-01
-- **Auteurs** : Gabriel Tomitsuka, Arman Raayatsanati, Emma Xing, Duke Gand, Joseph J Ma
-- **Score** : 4
-- **Résumé** : Real-world enterprise data science and analytics workflows require reasoning across dozens of tables, performing statistical analyses, and acting on the results. Established text-to-SQL benchmarks evaluate query generation alone, and audits have found their answer keys frequently wrong. Because real...
-- **Lien** : https://arxiv.org/abs/2610.02122v1
+### On Learning Optimal Corners in Orthogonal Partially Observable Cooperative Guard Art Galleries
+- **arXiv** : 2610.06777v1
+- **Date** : 2026-10-05
+- **Auteurs** : Yassin Ben Mansour, Edwin Meriaux
+- **Score** : 6
+- **Résumé** : The CADENCE algorithm solves the Partially Observable Cooperative Guard Art Gallery Problem (POCGAGP) with formal coverage and connectivity guarantees, but leaves unspecified which valid corner each agent should be deployed to, a choice that strongly affects efficiency. We introduce two learned corn...
+- **Lien** : https://arxiv.org/abs/2610.06777v1
 
-### LLM2Jev: LLMs Are Already Jev-Style Decision Models -- When and How to Fine-Tune Them
-- **arXiv** : 2610.02076v1
-- **Date** : 2026-10-01
-- **Auteurs** : Yinheng Li, Justin Wagle
-- **Score** : 4
-- **Résumé** : Jev-style decision models return categorical probability distributions over predefined options without generating free-form text, enabling software systems to act on their outputs directly. In this work, we investigate the extent to which general-purpose LLMs already possess this capability out of t...
-- **Lien** : https://arxiv.org/abs/2610.02076v1
+### Improving Diversity in LLM Short Story Generation
+- **arXiv** : 2610.06729v1
+- **Date** : 2026-10-05
+- **Auteurs** : Zahra Solati Dehkordi, Vasileios Lampos
+- **Score** : 6
+- **Résumé** : Large language models (LLMs) can generate accurate responses, but these are void of diversity. We attempt to address this for the task of creative short story generation. Drawing on established writing conventions and known LLM limitations, we target variation in genre, tone, style, and named entiti...
+- **Lien** : https://arxiv.org/abs/2610.06729v1
 
-### SILSA: Sliding-Window Slice Latents for Topology-Preserving High-Resolution 3D Generation
-- **arXiv** : 2610.02201v1
-- **Date** : 2026-10-01
-- **Auteurs** : Tianjiao Yu, Xinzhuo Li, Yifan Shen, Ying Shen, Kiet A. Nguyen
+### Programmatic Search Agents: Extending Agentic Search Beyond Query Reformulation
+- **arXiv** : 2610.06689v1
+- **Date** : 2026-10-05
+- **Auteurs** : Jiaming Qian, Huiyan Yang, Mandi Liu, Jie Liu, Wenkai Shen
+- **Score** : 6
+- **Résumé** : Search agents adapt their queries, yet fixed search interfaces leave candidate processing and evidence presentation outside the agent's direct control. Our trajectory analysis shows that supporting passages can be retrieved yet never delivered to the agent; a same-page oracle intervention shows that...
+- **Lien** : https://arxiv.org/abs/2610.06689v1
+
+### Aligning Multimodal Patient Evidence with Biomedical Knowledge Graphs for Clinical LLMs
+- **arXiv** : 2610.06685v1
+- **Date** : 2026-10-05
+- **Auteurs** : Jiawen Du, Arshan Ali Khan, Chenhao Zhang, Zachary Plotkin, Li Shen
+- **Score** : 6
+- **Résumé** : Clinical questions often depend on linking a patient's multimodal evidence to external biomedical knowledge, yet existing predictive systems rarely represent such links explicitly, so they can neither be traced to their evidence sources nor removed to measure their contributions. We present MM-KG (M...
+- **Lien** : https://arxiv.org/abs/2610.06685v1
+
+### OVAL: Output-Aware Local Page Bases for KV Cache Retrieval
+- **arXiv** : 2610.06686v1
+- **Date** : 2026-10-05
+- **Auteurs** : Ashkan Shahbazi, Chayne Thrash, Soheil Kolouri
+- **Score** : 5
+- **Résumé** : Long context inference with large language models becomes increasingly expensive as attention must operate over an ever growing KV cache. Page sparse attention reduces this cost by representing each KV page compactly and retrieving only a subset for each query. Existing retrieval methods are designe...
+- **Lien** : https://arxiv.org/abs/2610.06686v1
+
+### Towards Looped Models Done Right, Part II: Rethinking at Fixed Points
+- **arXiv** : 2610.06833v1
+- **Date** : 2026-10-05
+- **Auteurs** : Benhao Huang, Chufan Shi, Junlin Chen, Shicheng Wen, Zhengzhong Liu
 - **Score** : 3
-- **Résumé** : High-resolution 3D generation increasingly relies on voxel latents and multi-stage pipelines that first predict active structure and then synthesize local geometry. While effective, this design fragments continuous surfaces into many local tokens, inflates generation cost, and often weakens topologi...
-- **Lien** : https://arxiv.org/abs/2610.02201v1
+- **Résumé** : Every recurrence of a looped language model adds cost in training, decoding, prefill, and reinforcement learning (RL). The closer recurrent states get to fixed points, the less the path to them matters. This enables truncated backpropagation in training; terminal key-value (KV) sharing for decoding ...
+- **Lien** : https://arxiv.org/abs/2610.06833v1
 
-### Hierarchical Continuous Diffusion Language Models
-- **arXiv** : 2610.02193v1
-- **Date** : 2026-10-01
-- **Auteurs** : Hui Ren, Zihan Li, Chang Liu, Huidong Liu, Alexander Schwing
+### CLIFT: Conformal Self-Verification for Web Agent Training and Test-Time Scaling
+- **arXiv** : 2610.06829v1
+- **Date** : 2026-10-05
+- **Auteurs** : Yifan Zhang, Yutong Dai, Viraj Prabhu, Zhiyuan Hu, Ran Xu
 - **Score** : 3
-- **Résumé** : Discrete diffusion language models offer a compelling alternative to autoregressive generation for tasks demanding bidirectional reasoning and global constraint satisfaction. Yet they share a structural bottleneck: when decoding in parallel, each token is sampled independently from its marginal, sev...
-- **Lien** : https://arxiv.org/abs/2610.02193v1
+- **Résumé** : Open-source web agents are now strong enough to execute realistic browser tasks, but training them with reinforcement learning still depends on weak supervision: binary task success is too sparse for credit assignment, while frontier-language-model judges are too expensive to call at every step and ...
+- **Lien** : https://arxiv.org/abs/2610.06829v1
 
-### Trust the Direction, Search the Step: Zero-and-First-Order Methods for LLM Fine-Tuning
-- **arXiv** : 2610.02190v1
-- **Date** : 2026-10-01
-- **Auteurs** : Cristian McGee, El Houcine Bergou, Aritra Dutta
+### Sharpen Without Search: On-Policy Distillation of Sequence-Level Power Distribution
+- **arXiv** : 2610.06804v1
+- **Date** : 2026-10-05
+- **Auteurs** : Erfan Baghaei Potraghloo, Seyedarmin Azizi, Arya Fayyazi, Saeid Shokoufa, Mehdi Kamal
 - **Score** : 3
-- **Résumé** : Step-size selection remains a central challenge in large-scale neural network optimization; conservative steps slow convergence, while aggressive steps can destabilize it. We combine 	extbf{Z}ero-and-	extbf{F}irst-	extbf{O}rder optimization~(ZFO) and propose a lightweight framework that decouples...
-- **Lien** : https://arxiv.org/abs/2610.02190v1
+- **Résumé** : A language model can give a correct answer more probability than any single incorrect answer and still usually sample an incorrect one, because the incorrect answers together hold more probability. The power distribution raises each complete answer's probability to a power above one and renormalizes...
+- **Lien** : https://arxiv.org/abs/2610.06804v1
 
-### Generative Cinematographer: Composing Camera and Object Motion in 3D
-- **arXiv** : 2610.02180v1
-- **Date** : 2026-10-01
-- **Auteurs** : Jiahan Zhang, Chaohao Yang, Namitha Guruprasad, Vivekjyoti Banerjee, Trong-Tung Nguyen
+### How to scale your HEP ML models: A recipe for robust architecture comparisons at scale
+- **arXiv** : 2610.06784v1
+- **Date** : 2026-10-05
+- **Auteurs** : Matthias Vigl, Nikita Pond, Jackson Barr, Alexander Froch, Dan Guest
 - **Score** : 3
-- **Résumé** : Current controllable video generation systems often rely on 2D motion trajectories or sparse drag signals for object motion. These controls are ambiguous because the same 2D trajectory can correspond to different 3D motions, especially when the camera and objects move simultaneously. We present Gene...
-- **Lien** : https://arxiv.org/abs/2610.02180v1
+- **Résumé** : Much of the recent progress in machine learning domains such as language models has come from scaling laws that predict performance as a function of training effort. In high-energy physics (HEP) similar behavior has now been observed. To aid further study, we present a systematic procedure to derive...
+- **Lien** : https://arxiv.org/abs/2610.06784v1
 
-### Every Ablation Is a Dose: Counterweights and the Semblance of Self-Repair
-- **arXiv** : 2610.02173v1
-- **Date** : 2026-10-01
-- **Auteurs** : Areeb Ahmad, Pratinav Seth, Vinay Kumar Sankarapu
+### Conditional Rank Allocation for Taxonomy-Aware Medical Language Model Adaptation
+- **arXiv** : 2610.06765v1
+- **Date** : 2026-10-05
+- **Auteurs** : Guangyuan Dong, Ziwei Hong, Xuehao Zhou, Zidong Yu, Bingchen Liu
 - **Score** : 3
-- **Résumé** : Ablate a component of a language model, and other components often appear to adjust and compensate. This phenomenon, termed self-repair, has been observed repeatedly, but its mechanism remains unclear. The most systematic study to date concluded that self-repair is noisy and unlikely to have a singl...
-- **Lien** : https://arxiv.org/abs/2610.02173v1
+- **Résumé** : Medical question answering spans specialties and clinical operations that may benefit from different adaptation directions. We propose ARBOR, a parameter-efficient method that selects rank-one components from a shared low-rank basis for each question. An additive gate combines question representatio...
+- **Lien** : https://arxiv.org/abs/2610.06765v1
 
-### AutoCompact: Learning When to Compact Context in Long-Horizon Coding Agents
-- **arXiv** : 2610.02163v1
-- **Date** : 2026-10-01
-- **Auteurs** : Xuan Zhang, Longtao Zheng, Cunxiao Du, Bo An, Xin Dong
+### Balancing Memory Pathways: Analyzing and Improving Memory Utilization in Hybrid LMs
+- **arXiv** : 2610.06750v1
+- **Date** : 2026-10-05
+- **Auteurs** : Hyunji Lee, Joykirat Singh, Zaid Khan, Justin Chih-Yao Chen, Elias Stengel-Eskin
 - **Score** : 3
-- **Résumé** : Coding agents solve repository-level software engineering tasks through long trajectories of code inspection, search, editing, and testing. As a task progresses, earlier exploration becomes stale, so managing context is more than avoiding overflow: an agent must decide when to compact, what working ...
-- **Lien** : https://arxiv.org/abs/2610.02163v1
+- **Résumé** : Recurrent-attention hybrid language models (LMs), which interleave attention and recurrent layers, are increasingly used to combine the efficiency of the recurrent layers with the strong performance of attention layers. Prior work suggests that attention and recurrent layers offer complementary path...
+- **Lien** : https://arxiv.org/abs/2610.06750v1
 
-### DuoMind: Enabling Distributed Multi-Robot Coordination with Semantic Communication
-- **arXiv** : 2610.02161v1
-- **Date** : 2026-10-01
-- **Auteurs** : Hanchu Zhou, Dechen Gao, Hang Wang, Brendan Lynch, Boqi Zhao
+### Reading the Mood: Emotion-Guided Book-to-Music Recommendation via CGANs and LLMs
+- **arXiv** : 2610.06703v1
+- **Date** : 2026-10-05
+- **Auteurs** : Manousos Linardakis, Georgios Alexandridis
 - **Score** : 3
-- **Résumé** : Vision-language models (VLMs) and vision-language-action models (VLAs) have recently driven rapid progress in general-purpose robots, yet most progress has focused on single-robot settings. Extending these capabilities to multi-robot systems remains challenging because robots must coordinate long-ho...
-- **Lien** : https://arxiv.org/abs/2610.02161v1
+- **Résumé** : Background music that matches the mood of a text has been shown to make readers feel more immersed and improve their reading experience, motivating recommender systems that pair books with mood-matched music. In this direction, we present Sentiment Aware Generative Adversarial Network for Cross Doma...
+- **Lien** : https://arxiv.org/abs/2610.06703v1
 
-### When Do Intrinsic Rewards Lead to Exploration?
-- **arXiv** : 2610.02159v1
-- **Date** : 2026-10-01
-- **Auteurs** : Scott W. Viteri, Laura Gomezjurado Gonzalez, Clark Barrett
-- **Score** : 3
-- **Résumé** : Intrinsic rewards are designed to guide exploration in reinforcement learning by assigning value to an agent's experience, for example through prediction error or learning progress. However, maximizing these rewards need not produce the most informative experience available. We propose a formal crit...
-- **Lien** : https://arxiv.org/abs/2610.02159v1
-
-### Sample complexity bounds for categorical Markov random fields via Discrete Diffusions
-- **arXiv** : 2610.02128v1
-- **Date** : 2026-10-01
-- **Auteurs** : Shivam Kumar, Nabarun Deb
-- **Score** : 3
-- **Résumé** : Many applications in statistics, economics, and physics require sampling from high-dimensional categorical distributions with local dependence structures. Examples include finite memory language models, Ising and Potts systems in statistical physics and protein folding, etc. In modern machine learni...
-- **Lien** : https://arxiv.org/abs/2610.02128v1
-
-### Scalable, Transferable Meta-network for Data Selection Requires a Different Loss (and Why the Obvious Choice is Problematic)
-- **arXiv** : 2610.02092v1
-- **Date** : 2026-10-01
-- **Auteurs** : Zilin Du, Bowen Yang, Boyang Albert Li
-- **Score** : 3
-- **Résumé** : Data selection is critical for training large language models on massive and heterogeneous corpora. Meta-learning for Training-data Selection offers a principled alternative to heuristic scoring by learning data weights from a target validation objective, but existing methods face a trade-off betwee...
-- **Lien** : https://arxiv.org/abs/2610.02092v1
-
-### GeoLatent: Geometry-Guided Latent Structuring with Routed Optimization for 3D Reasoning
-- **arXiv** : 2610.02091v1
-- **Date** : 2026-10-01
-- **Auteurs** : Yakun Zhu, Yi Bin, Yujuan Ding, Zheng Wang, Pengpeng Zeng
-- **Score** : 3
-- **Résumé** : Despite progress in vision-language models, 3D spatial reasoning from 2D images remains challenging. Text-based methods describe intermediate geometry with discrete tokens, limiting fidelity for continuous spatial relations. Continuous latents offer richer representations, but a single latent type d...
-- **Lien** : https://arxiv.org/abs/2610.02091v1
+### TasteVal: Measuring the Experimental Research Taste of AI Systems Against Human Experts
+- **arXiv** : 2610.06824v1
+- **Date** : 2026-10-05
+- **Auteurs** : Oliver Jaffe, Dane Sherburn
+- **Score** : 1
+- **Résumé** : We introduce TasteVal, a benchmark to evaluate the experimental research taste of frontier models. We define research taste as the ability to pick interesting problems to solve, design experiments, and interpret experimental results. TasteVal measures the experimental component of research taste; gi...
+- **Lien** : https://arxiv.org/abs/2610.06824v1
 
 <!-- ARXIV_FEED_END -->
