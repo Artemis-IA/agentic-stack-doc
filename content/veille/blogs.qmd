@@ -143,13 +143,6 @@ graph LR
 - **Résumé** : ... but you can&#8217;t try it yet unless you are &#8220;government users and trusted cyber defenders in the Fairwind Program&#8221;...
 - **Lien** : https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer
 
-### Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week
-- **Source** : latent.space
-- **Date** : Wed, 30 Sep 2026
-- **Score** : 1
-- **Résumé** : Our DevDay coverage - the first pod on the DevDay lineup - dives in with the leaders of OpenAI&#8217;s CUA team and API platform....
-- **Lien** : https://www.latent.space/p/devday-2026
-
 ### Claude Haiku 5.5
 - **Source** : Simon Willison
 - **Date** : 2026-10-07T20:56
@@ -174,14 +167,6 @@ Given how tempting a target wikis are for rogue agent swarms, it's not a huge su
         OpenAI released their new Jev-style Decisions API, as previously announced at l...
 - **Lien** : https://simonwillison.net/2026/Oct/6/llm-openai-decisions/
 
-### Introducing Mistral Large 4: Le chonk
-- **Source** : Simon Willison
-- **Date** : 2026-10-06T20:18
-- **Score** : 1
-- **Résumé** : Introducing Mistral Large 4: Le chonk
-Mistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own...
-- **Lien** : https://simonwillison.net/2026/Oct/6/le-chonk/
-
 ### The Agent Said It Was Done. The Database Disagreed.
 - **Source** : Hugging Face Blog
 - **Date** : Sat, 03 Oct 2026
@@ -203,12 +188,19 @@ Mistral are back in the game. Today they're releasing a preview of Mistral Large
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/Hcompany/holo4
 
-### How UK AISI and EvalEval Are Making Benchmark Results Reproducible
-- **Source** : Hugging Face Blog
-- **Date** : Tue, 22 Sep 2026
+### How Oracle turns days of work into minutes with ChatGPT and Codex
+- **Source** : OpenAI Blog
+- **Date** : Thu, 08 Oct 2026
 - **Score** : 1
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/evaleval-aisi
+- **Résumé** : Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex....
+- **Lien** : https://openai.com/index/oracle
+
+### Pollo AI turns creative ideas into campaigns with OpenAI
+- **Source** : OpenAI Blog
+- **Date** : Thu, 08 Oct 2026
+- **Score** : 1
+- **Résumé** : With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads....
+- **Lien** : https://openai.com/index/pollo-ai
 
 ### Helping teens learn, plan, and shape the future of AI
 - **Source** : OpenAI Blog
@@ -245,11 +237,18 @@ Mistral are back in the game. Today they're releasing a preview of Mistral Large
 - **Résumé** : Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work....
 - **Lien** : https://openai.com/index/advancing-computer-use-with-ironclad
 
-### Building advertising for the way people use AI
-- **Source** : OpenAI Blog
-- **Date** : Mon, 05 Oct 2026
+### LWiAI Podcast #257 - GPT 6 Astra, AI Extinction, Security Incidents
+- **Source** : Last Week in AI
+- **Date** : Thu, 24 Sep 2026
 - **Score** : 1
-- **Résumé** : OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers....
-- **Lien** : https://openai.com/index/new-chatgpt-ads-format-and-measurement
+- **Résumé** : A belated discussion of Astra&#8217;s release, a bunch of AI incidents, and the broader situation we are in with regards to AI safety....
+- **Lien** : https://lastweekin.ai/p/lwiai-podcast-257-gpt-6-astra-ai
+
+### LWiAI Podcast #253 - Opus 5, Gemini 3.6, Kimi K3, Hugging Face Hack
+- **Source** : Last Week in AI
+- **Date** : Mon, 03 Aug 2026
+- **Score** : 1
+- **Résumé** : Anthropic releases Opus 5 promising Fable 5-like capabilities, Google Releases Three New Gemini A.I. Models, and more!...
+- **Lien** : https://lastweekin.ai/p/lwiai-podcast-253-opus-5-gemini-36
 
 <!-- BLOG_FEED_END -->

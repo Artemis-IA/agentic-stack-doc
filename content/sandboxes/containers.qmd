@@ -202,34 +202,34 @@ OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe
 ⭐ 8.0k | `C` | Licence: MIT | MAJ: 2026-10-08
 **Tags** : `containers`, `cosmopolitan`, `devops`, `edge-computing`, `embedded`, `iot`, `sandbox`, `scripting`
 
-### [Wllama](https://github.com/ngxson/wllama)
-WebAssembly binding for llama.cpp - Enabling in-browser LLM inference
+### [smolvm](https://github.com/smol-machines/smolvm)
+An embeddable, portable, branchable virtual machine to safely run Agents locally.
 
-⭐ 1.3k | `TypeScript` | Licence: MIT | MAJ: 2026-10-08
-**Tags** : `llama`, `llamacpp`, `llm`, `wasm`, `webassembly`
+⭐ 6.6k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-08
+**Tags** : `agent-sandbox`, `ai-agents`, `code-execution`, `containers`, `crun`, `libkrun`, `llm`, `microvm`
 
-### [Greywall](https://github.com/GreyhavenHQ/greywall)
-Deny-by-default command sandbox for AI coding agents with filesystem isolation, network control via transparent proxy, built-in profiles for agents like Claude Code or OpenCode, and learning mode f...
+### [arcbox](https://github.com/arcboxlabs/arcbox)
+Run AI agents on real and isolated machines — own kernel, filesystem, and network — with <100ms boot. Local first, OCI compatible, pure Rust.
 
-⭐ 307 | `Go` | Licence: Apache-2.0 | MAJ: 2026-10-07
-**Tags** : `agents`, `ai-security`, `claude-code`, `developer-tools`, `greyproxy`, `landlock`, `linux`, `llm`
+⭐ 4.2k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-08
+**Tags** : `ai-agents`, `computer-use`, `containers`, `docker`, `firecracker`, `microvm`, `rust`, `sandbox`
 
-### [Containarium](https://github.com/FootprintAI/Containarium)
-Open-source agent runtime — SSH-native isolation, eBPF egress policy, Kubernetes + LXC backends, GPU passthrough, MCP-native CLI
+### [microvm.nix](https://github.com/microvm-nix/microvm.nix)
+NixOS MicroVMs
 
-⭐ 299 | `Go` | Licence: Apache-2.0 | MAJ: 2026-10-08
-**Tags** : `agent-native`, `agent-runtime`, `agent-sandbox`, `agentic-ai`, `ai-agents`, `claude`, `code-sandbox`, `cursor`
+⭐ 3.0k | `Nix` | Licence: MIT | MAJ: 2026-10-08
+**Tags** : `cloud-hypervisor`, `crosvm`, `firecracker`, `flake`, `flakes`, `kvmtool`, `microvm`, `microvms`
 
-### [sample-autonomous-cloud-coding-agents](https://github.com/aws-samples/sample-autonomous-cloud-coding-agents)
-Autonomous background coding agents on AWS. Turn tasks into pull requests via isolated runtimes, with built-in orchestration, observability, and governance.
+### [forkd](https://github.com/deeplethe/forkd)
+Fork() for AI agent microVMs. Spawn 100 children in ~100ms from a warm parent; BRANCH a live VM in ~150ms. KVM-isolated, snapshot CoW.
 
-⭐ 157 | `TypeScript` | Licence: MIT-0 | MAJ: 2026-10-07
-**Tags** : `agent-sandbox`, `agentcore`, `autonomous-agents`, `aws`, `background-agents`, `code-sandbox`, `coding-agents`, `dark-factory`
+⭐ 2.9k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-08
+**Tags** : `ai-agents`, `copy-on-write`, `kvm`, `microvm`, `rust`, `sandbox`, `snapshot`
 
-### [Ailoy](https://github.com/brekkylab/ailoy)
-A comprehensive framework for building AI agents that run anywhere, with full local-AI and WASM support.
+### [runtime](https://github.com/e2b-dev/runtime)
+The runtime behind every E2B stack: Cloud, Enterprise, and your own machine.
 
-⭐ 151 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-08
-**Tags** : `agent`, `agent-builder`, `agentic-ai`, `ai-agents`, `computer-use-agent`, `gpu`, `gpu-acceleration`, `gpu-passthrough`
+⭐ 1.7k | `Go` | Licence: Apache-2.0 | MAJ: 2026-10-08
+**Tags** : `ai-agents`, `code-interpreter`, `consul`, `devtools`, `firecracker`, `gcp`, `go`, `golang`
 
 <!-- TOOLS_SANDBOX_END -->
