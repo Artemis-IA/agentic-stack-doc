@@ -76,12 +76,12 @@ graph LR
 - **Résumé** : GPT-6 Astra Is Here, Discovery of a new OpenAI agent message board, Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-343-gpt-6-openais
 
-### [AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU
+### [AINews] Claude Haiku 5.5 — better than GPT-6 Luna at the same pricing
 - **Source** : latent.space
-- **Date** : Wed, 30 Sep 2026
+- **Date** : Thu, 08 Oct 2026
 - **Score** : 2
-- **Résumé** : the most confident DevDay yet....
-- **Lien** : https://www.latent.space/p/ainews-openai-devday-2026-dots-61
+- **Résumé** : yay small models...
+- **Lien** : https://www.latent.space/p/ainews-claude-haiku-55-better-than
 
 ### llm-mistral 0.16
 - **Source** : Simon Willison
@@ -93,14 +93,6 @@ graph LR
     
         Tags...
 - **Lien** : https://simonwillison.net/2026/Oct/6/llm-mistral/
-
-### Mistral Large 4
-- **Source** : Simon Willison
-- **Date** : 2026-10-06T18:20
-- **Score** : 2
-- **Résumé** : My comment on Mistral Large 4 &mdash; Hacker News.
-wren6991: The benchmark is sa...
-- **Lien** : https://simonwillison.net/2026/Oct/6/hn-49982139/
 
 ### Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents
 - **Source** : Hugging Face Blog
@@ -130,6 +122,13 @@ wren6991: The benchmark is sa...
 - **Résumé** : Google announces Gemini 3.7 Flash, Jalape&#241;o&#8217;s first results show industry-leading speed, A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I....
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-255-gemini-37-jalapeno
 
+### Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?
+- **Source** : latent.space
+- **Date** : Wed, 07 Oct 2026
+- **Score** : 1
+- **Résumé** : Kubernetes co-creators Craig McLuckie and Joe Beda aim to bring agent harnesses fully into the cloud....
+- **Lien** : https://www.latent.space/p/stacklok
+
 ### Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience
 - **Source** : latent.space
 - **Date** : Fri, 02 Oct 2026
@@ -151,6 +150,30 @@ wren6991: The benchmark is sa...
 - **Résumé** : Our DevDay coverage - the first pod on the DevDay lineup - dives in with the leaders of OpenAI&#8217;s CUA team and API platform....
 - **Lien** : https://www.latent.space/p/devday-2026
 
+### Claude Haiku 5.5
+- **Source** : Simon Willison
+- **Date** : 2026-10-07T20:56
+- **Score** : 1
+- **Résumé** : As previously promised, here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5.
+The previous Haiku, 4.5, was very much showing its age. It came...
+- **Lien** : https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/
+
+### OpenAI “rogue” agent activities found on Wikimedia projects
+- **Source** : Simon Willison
+- **Date** : 2026-10-07T00:16
+- **Score** : 1
+- **Résumé** : OpenAI “rogue” agent activities found on Wikimedia projects
+Given how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wik...
+- **Lien** : https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/
+
+### llm-openai-decisions 0.1a0
+- **Source** : Simon Willison
+- **Date** : 2026-10-06T23:04
+- **Score** : 1
+- **Résumé** : Release: llm-openai-decisions 0.1a0
+        OpenAI released their new Jev-style Decisions API, as previously announced at l...
+- **Lien** : https://simonwillison.net/2026/Oct/6/llm-openai-decisions/
+
 ### Introducing Mistral Large 4: Le chonk
 - **Source** : Simon Willison
 - **Date** : 2026-10-06T20:18
@@ -158,38 +181,6 @@ wren6991: The benchmark is sa...
 - **Résumé** : Introducing Mistral Large 4: Le chonk
 Mistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own...
 - **Lien** : https://simonwillison.net/2026/Oct/6/le-chonk/
-
-### Scrimshaw Jukebox
-- **Source** : Simon Willison
-- **Date** : 2026-10-06T15:17
-- **Score** : 1
-- **Résumé** : Tool: Scrimshaw Jukebox
-        I wanted to see if Claude Opus 5.5 could compose music, so I tried this:
-
-I w...
-- **Lien** : https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/
-
-### Quoting Felix Rieseberg
-- **Source** : Simon Willison
-- **Date** : 2026-10-05T23:56
-- **Score** : 1
-- **Résumé** : The "old" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reason...
-- **Lien** : https://simonwillison.net/2026/Oct/5/felix-rieseberg/
-
-### Qwen3.8 27B addition in words
-- **Source** : Simon Willison
-- **Date** : 2026-10-04T23:34
-- **Score** : 1
-- **Résumé** : Research: Qwen3.8 27B addition in words
-        Colin Frasier posted on Bluesky about an experiment he ran...
-- **Lien** : https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/
-
-### Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance
-- **Source** : Hugging Face Blog
-- **Date** : Tue, 06 Oct 2026
-- **Score** : 1
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/tiiuae/falcon-emirati
 
 ### The Agent Said It Was Done. The Database Disagreed.
 - **Source** : Hugging Face Blog
@@ -212,6 +203,41 @@ I w...
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/Hcompany/holo4
 
+### How UK AISI and EvalEval Are Making Benchmark Results Reproducible
+- **Source** : Hugging Face Blog
+- **Date** : Tue, 22 Sep 2026
+- **Score** : 1
+- **Résumé** : ...
+- **Lien** : https://huggingface.co/blog/evaleval-aisi
+
+### Helping teens learn, plan, and shape the future of AI
+- **Source** : OpenAI Blog
+- **Date** : Wed, 07 Oct 2026
+- **Score** : 1
+- **Résumé** : College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council....
+- **Lien** : https://openai.com/index/teens-learn-and-plan
+
+### Radisson Hotel Group brings hotel discovery into ChatGPT
+- **Source** : OpenAI Blog
+- **Date** : Wed, 07 Oct 2026
+- **Score** : 1
+- **Résumé** : Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips....
+- **Lien** : https://openai.com/index/radisson
+
+### GPT-6 and Intelligent UI for everyone
+- **Source** : OpenAI Blog
+- **Date** : Wed, 07 Oct 2026
+- **Score** : 1
+- **Résumé** : GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly....
+- **Lien** : https://openai.com/index/gpt-6-for-everyone
+
+### How Jump Trading is scaling quant research with ChatGPT
+- **Source** : OpenAI Blog
+- **Date** : Tue, 06 Oct 2026
+- **Score** : 1
+- **Résumé** : Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review....
+- **Lien** : https://openai.com/index/jump-trading
+
 ### Advancing computer use with Ironclad
 - **Source** : OpenAI Blog
 - **Date** : Tue, 06 Oct 2026
@@ -225,33 +251,5 @@ I w...
 - **Score** : 1
 - **Résumé** : OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers....
 - **Lien** : https://openai.com/index/new-chatgpt-ads-format-and-measurement
-
-### A model guide for the GPT-6 family
-- **Source** : OpenAI Blog
-- **Date** : Fri, 02 Oct 2026
-- **Score** : 1
-- **Résumé** : Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production....
-- **Lien** : https://openai.com/index/practical-guide-building-gpt-6
-
-### Chatham scales its capital markets expertise with OpenAI
-- **Source** : OpenAI Blog
-- **Date** : Fri, 02 Oct 2026
-- **Score** : 1
-- **Résumé** : Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4....
-- **Lien** : https://openai.com/index/chatham-financial
-
-### How Albertsons Companies is reimagining retail from the inside out
-- **Source** : OpenAI Blog
-- **Date** : Thu, 01 Oct 2026
-- **Score** : 1
-- **Résumé** : Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers....
-- **Lien** : https://openai.com/index/albertsons-reimagining-retail
-
-### The Den frees up 10-15 hours a week to grow with ChatGPT Work
-- **Source** : OpenAI Blog
-- **Date** : Thu, 01 Oct 2026
-- **Score** : 1
-- **Résumé** : As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days....
-- **Lien** : https://openai.com/index/the-den-family-social
 
 <!-- BLOG_FEED_END -->
