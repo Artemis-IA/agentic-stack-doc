@@ -112,12 +112,6 @@ subprocess.run([
 ## Outils découverts automatiquement
 
 <!-- TOOLS_SANDBOX_START -->
-### [daytona](https://github.com/daytonaio/daytona)
-Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code
-
-⭐ 71.6k | MAJ: 2026-10-14
-**Tags** : `agentic-workflow`, `ai`, `ai-agents`, `ai-runtime`, `ai-sandboxes`, `code-execution`, `code-interpreter`, `developer-tools`
-
 ### [firecracker](https://github.com/firecracker-microvm/firecracker)
 Secure and fast microVMs for serverless computing.
 
@@ -145,7 +139,7 @@ A lightweight WebAssembly runtime that is fast, secure, and standards-compliant
 ### [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)
 Secure, Fast, and Extensible Sandbox runtime for AI agents.
 
-⭐ 15.8k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-14
+⭐ 15.9k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-14
 **Tags** : `ai`, `ai-agent`, `ai-infra`, `kubernetes`, `sandbox`
 
 ### [memU](https://github.com/NevaMind-AI/memU)
@@ -175,13 +169,13 @@ Astrid is a portable, capability-secure operating system for composable software
 ### [openbrowser](https://github.com/ntegrals/openbrowser)
 Let AI agents browse the web. An autonomous toolkit for browser-based AI agents.
 
-⭐ 9.6k | `TypeScript` | Licence: MIT | MAJ: 2026-10-13
+⭐ 9.6k | `TypeScript` | Licence: MIT | MAJ: 2026-10-14
 **Tags** : `ai-agents`, `automation`, `claude`, `playwright`, `puppeteer`, `sandbox`
 
 ### [react-cosmos](https://github.com/react-cosmos/react-cosmos)
 Sandbox for developing and testing UI components in isolation
 
-⭐ 8.7k | `TypeScript` | Licence: MIT | MAJ: 2026-10-13
+⭐ 8.7k | `TypeScript` | Licence: MIT | MAJ: 2026-10-14
 **Tags** : `components`, `devtools`, `react`, `sandbox`, `testing`, `ui`
 
 ### [microsandbox](https://github.com/superradcompany/microsandbox)
@@ -193,7 +187,7 @@ Sandbox for developing and testing UI components in isolation
 ### [monty](https://github.com/pydantic/monty)
 A secure Python sandbox, written in Rust, for code written by AI.
 
-⭐ 8.6k | `Rust` | Licence: MIT | MAJ: 2026-10-14
+⭐ 8.7k | `Rust` | Licence: MIT | MAJ: 2026-10-14
 **Tags** : `python`, `rust`, `sandbox`, `sandboxing`
 
 ### [OpenTTD](https://github.com/OpenTTD/OpenTTD)
@@ -208,28 +202,34 @@ OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe
 ⭐ 8.1k | `C` | Licence: MIT | MAJ: 2026-10-14
 **Tags** : `containers`, `cosmopolitan`, `devops`, `edge-computing`, `embedded`, `iot`, `sandbox`, `scripting`
 
-### [smolvm](https://github.com/smol-machines/smolvm)
-An embeddable, portable, branchable virtual machine to safely run Agents locally.
+### [Wllama](https://github.com/ngxson/wllama)
+WebAssembly binding for llama.cpp - Enabling in-browser LLM inference
 
-⭐ 6.7k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-14
-**Tags** : `agent-sandbox`, `ai-agents`, `code-execution`, `containers`, `crun`, `libkrun`, `llm`, `microvm`
+⭐ 1.3k | `TypeScript` | Licence: MIT | MAJ: 2026-10-14
+**Tags** : `llama`, `llamacpp`, `llm`, `wasm`, `webassembly`
 
-### [judge0](https://github.com/judge0/judge0)
-Robust, fast, scalable, and sandboxed open-source online code execution system for humans and AI.
+### [CUGA](https://github.com/cuga-project/cuga-agent)
+IBM Research's generalist agent harness built on LangGraph. Executes tasks over APIs and the web, with policy and human-in-the-loop controls, multi-agent supervision with remote A2A agents, and age...
 
-⭐ 4.5k | `HTML` | Licence: GPL-3.0 | MAJ: 2026-10-14
-**Tags** : `ai-agent-tools`, `ai-agents`, `ai-tools`, `code-execution`, `code-executor`, `code-runner`, `competitive-programming`, `online-compiler`
+⭐ 898 | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-14
+**Tags** : `coding-agent`, `computer-use`, `enterprise`, `generalist-agent`, `guardrails`, `harness`, `knowledge`, `mcp`
 
-### [piston](https://github.com/engineer-man/piston)
-A high performance general purpose code execution engine.
+### [Greywall](https://github.com/GreyhavenHQ/greywall)
+Deny-by-default command sandbox for AI coding agents with filesystem isolation, network control via transparent proxy, built-in profiles for agents like Claude Code or OpenCode, and learning mode f...
 
-⭐ 2.8k | `JavaScript` | Licence: MIT | MAJ: 2026-10-13
-**Tags** : `code-execution`, `lxc`, `nodejs`, `piston`, `shell`
+⭐ 309 | `Go` | Licence: Apache-2.0 | MAJ: 2026-10-08
+**Tags** : `agents`, `ai-security`, `claude-code`, `developer-tools`, `greyproxy`, `landlock`, `linux`, `llm`
 
-### [zeroboot](https://github.com/zerobootdev/zeroboot)
-Sub-millisecond VM sandboxes for AI agents via copy-on-write forking
+### [Ailoy](https://github.com/brekkylab/ailoy)
+A comprehensive framework for building AI agents that run anywhere, with full local-AI and WASM support.
 
-⭐ 2.5k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-13
-**Tags** : `ai-agents`, `code-execution`, `copy-on-write`, `firecracker`, `kvm`, `rust`, `sandbox`, `virtual-machine`
+⭐ 153 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-14
+**Tags** : `agent`, `agent-builder`, `agentic-ai`, `ai-agents`, `computer-use-agent`, `gpu`, `gpu-acceleration`, `gpu-passthrough`
+
+### [ajitpratap0/GoSQLX](https://github.com/ajitpratap0/GoSQLX)
+!ajitpratap0/GoSQLX MCP server 🏎️ ☁️ 🏠 - SQL validation, formatting, parsing, linting, security scanning and metadata extraction across multiple SQL dialects.
+
+⭐ 120 | `Go` | Licence: Apache-2.0 | MAJ: 2026-10-14
+**Tags** : `ast`, `cli`, `dialect`, `go`, `golang`, `lsp`, `mysql`, `parser`
 
 <!-- TOOLS_SANDBOX_END -->
