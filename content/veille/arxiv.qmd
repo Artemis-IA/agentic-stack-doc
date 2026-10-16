@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### ChunkAct: Action Chunking for Agentic Robotics
-- **arXiv** : 2610.18874v1
-- **Date** : 2026-10-13
-- **Auteurs** : Bingxin Xu, Wenrui Bao, Xinxin Liu, Jiawei Zhou, Yuzhang Shang
+### MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering
+- **arXiv** : 2610.22344v1
+- **Date** : 2026-10-15
+- **Auteurs** : Shangheng Du, Jinxin Shi, Shuaiyu Zhang, Yiming Wu, Junpeng Zhao
+- **Score** : 15
+- **Résumé** : Large language models (LLMs) are expanding from assisting scientific research and engineering to autonomously developing and improving AI systems, advancing AI for AI (AI4AI) as a pathway toward recursive self-improvement (RSI). Workflow-driven machine learning engineering (MLE) systems provide a pr...
+- **Lien** : https://arxiv.org/abs/2610.22344v1
+
+### Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries
+- **arXiv** : 2610.22273v1
+- **Date** : 2026-10-15
+- **Auteurs** : Anikait Singh, Teresa Zhang, Yoonho Lee, Roshen Sanjay Nair, Aviral Kumar
+- **Score** : 13
+- **Résumé** : Reasoning over long document contexts remains a challenge for large language models (LLMs). Standard retrieval methods are inherently reactive, bottlenecking agents with complex, cross-document reasoning at inference time, while precomputed structures like knowledge graphs often fall short because t...
+- **Lien** : https://arxiv.org/abs/2610.22273v1
+
+### Private Retrieval Augmented Generation via Random Projection
+- **arXiv** : 2610.22297v1
+- **Date** : 2026-10-15
+- **Auteurs** : Dixi Yao, Tahseen Rabbani, Tian Li
 - **Score** : 12
-- **Résumé** : Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-language-action (VLA) tools under the guidance of a memory and thereby generalizes to new tasks without retraining. This generality comes at a steep price in efficie...
-- **Lien** : https://arxiv.org/abs/2610.18874v1
+- **Résumé** : Retrieval-Augmented Generation (RAG) enhances the capabilities of large language models (LLMs) by querying external structured knowledge. However, it can also introduce privacy risks by leaking sensitive information from the retrieval datastore. We propose a simple method to preserve datastore priva...
+- **Lien** : https://arxiv.org/abs/2610.22297v1
 
-### SkillScaffold: Scaffolding Agentic Reinforcement Learning with Policy-Adaptive Skill Credit Assignment and Selective Injection
-- **arXiv** : 2610.18807v1
-- **Date** : 2026-10-13
-- **Auteurs** : Wenlin Zhong, Hao Wang, Kun Yuan, Fan Yang, Jinluan Yang
-- **Score** : 12
-- **Résumé** : Agentic reinforcement learning (RL) enables large language models (LLMs) to learn from multi-turn interactions with verifiable outcomes. Textual skills can improve exploration by distilling prior interactions into reusable guidance. However, existing skill-based RL approaches often either assume ski...
-- **Lien** : https://arxiv.org/abs/2610.18807v1
+### A team of Gemini 4 Argon agents beats Minecraft
+- **arXiv** : 2610.22319v1
+- **Date** : 2026-10-15
+- **Auteurs** : Maxence Faldor, Satinder Singh, Roberta Raileanu
+- **Score** : 10
+- **Résumé** : We placed four Gemini 4 Argon agents in a sandboxed Minecraft survival world and gave them one goal: defeat the Ender Dragon. Each agent controlled a player via an open-source library called Mineflayer and coordinated with its teammates through in-game chat and shared memory. No one assigned roles o...
+- **Lien** : https://arxiv.org/abs/2610.22319v1
 
-### Beyond the Verdict: Agentic Code Judging with Verifiable Feedback
-- **arXiv** : 2610.18760v1
-- **Date** : 2026-10-13
-- **Auteurs** : Zheye Deng, Sha Li, Changlong Yu, Xin Liu, Qin Lu
-- **Score** : 12
-- **Résumé** : Test-time scaling for large language models (LLMs) can involve generating multiple candidate solutions for selection or revising an earlier attempt. To guide selection and revision, we need a verifier that can estimate candidate correctness and provide evidence of failure. In competitive programming...
-- **Lien** : https://arxiv.org/abs/2610.18760v1
-
-### Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards
-- **arXiv** : 2610.18868v1
-- **Date** : 2026-10-13
-- **Auteurs** : Wenbo Hu, Shraman Pramanick, Krishna Kumar Singh, Nanyun Peng, Kai-Wei Chang
+### Learning to Steer LLM Agents and Multi-Agent Systems
+- **arXiv** : 2610.22316v1
+- **Date** : 2026-10-15
+- **Auteurs** : Leyang Shen, Yaxin Gong, Yang Zhang, Chenxiao Fan, Jiakai Wang
 - **Score** : 9
-- **Résumé** : Long-horizon agents have drawn growing attention for their ability to work autonomously -- from hours to days -- on economically valuable tasks, a capability essential to automated discovery and recursive self-improvement (RSI). Yet open-source models still struggle on long-horizon tasks, largely fo...
-- **Lien** : https://arxiv.org/abs/2610.18868v1
+- **Résumé** : Large language model (LLM)-based agents and multi-agent systems increasingly tackle complex tasks through long-horizon tool use and inter-agent collaboration. However, these systems are prone to deviating from the overall goal as execution unfolds, which wastes execution resources and leads to undes...
+- **Lien** : https://arxiv.org/abs/2610.22316v1
 
-### Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs
-- **arXiv** : 2610.18818v1
-- **Date** : 2026-10-13
-- **Auteurs** : Divyanshu Bathla, Parag Singla, Jitin Singla
+### BitSparse: Compact Activation Storage for ReLU Feed-Forward Networks
+- **arXiv** : 2610.22256v1
+- **Date** : 2026-10-15
+- **Auteurs** : Max Zhu, Bohang Sun, Pietro Lio, Jialin Yu
 - **Score** : 9
-- **Résumé** : Pre-trained Large Language Model (LLMs) are effective on many tasks in zero-shot and few-shot settings. For machine translation of low-resource languages, the obvious options are few-shot prompting and fine-tuning on a small parallel set. We ask: what if moderate amounts of low-resource monolingual ...
-- **Lien** : https://arxiv.org/abs/2610.18818v1
+- **Résumé** : Reducing memory use in large language model (LLM) training is an ongoing challenge. Activation checkpointing saves memory by recomputation, while lossy compression changes the stored activations. The reemergence of sparse $elu$ and $elu^2$ activations creates a third opportunity: losslessly comp...
+- **Lien** : https://arxiv.org/abs/2610.22256v1
 
-### BLADE: Auditing Information Use for Failure Attribution in LLM Multi-Agent Systems
-- **arXiv** : 2610.18780v1
-- **Date** : 2026-10-13
-- **Auteurs** : Xiaoguang Guo, Yaohao Long, Chuxu Zhang
-- **Score** : 9
-- **Résumé** : Large language model multi-agent systems extend individual agents' capabilities through collaboration across specialized roles, tools, and workflows. Yet collaboration makes failures harder to diagnose: one agent may misinterpret a correct result while others carry the mistake forward. Failure attri...
-- **Lien** : https://arxiv.org/abs/2610.18780v1
-
-### OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding
-- **arXiv** : 2610.18829v1
-- **Date** : 2026-10-13
-- **Auteurs** : Xuyang Liu, Shihao Wang, Xinyu Wei, Minghan Li, Zeqing Wang
-- **Score** : 8
-- **Résumé** : With the rapid development of multimodal large language models (MLLMs), evaluating their video understanding capabilities has become increasingly important. Existing video understanding benchmarks cover only part of the evaluation dimensions, limiting systematic diagnosis of omni-modal video underst...
-- **Lien** : https://arxiv.org/abs/2610.18829v1
-
-### SolBehave: Evaluating the Behavioural Correctness of LLM-Generated Smart Contracts
-- **arXiv** : 2610.18745v1
-- **Date** : 2026-10-13
-- **Auteurs** : Giovanni Pio Delvecchio, Stefano Fantazzini, Giacomo Frisoni, Gianluca Moro, Lorenzo Bacchiani
-- **Score** : 8
-- **Résumé** : Large language models increasingly generate Solidity smart contracts that, once deployed, can never be patched, making a single latent fault permanent and exploitable. Yet current evaluations mostly ask only whether generated code compiles. We introduce SolBehave, a benchmark for evaluating the corr...
-- **Lien** : https://arxiv.org/abs/2610.18745v1
-
-### Read the Room Before Your Model Generates
-- **arXiv** : 2610.18820v1
-- **Date** : 2026-10-13
-- **Auteurs** : Muyao Kong, Zhihao Lin
+### Evaluation Awareness Beyond English: Do LLMs Act Differently When Tested in Indic Languages?
+- **arXiv** : 2610.22333v1
+- **Date** : 2026-10-15
+- **Auteurs** : Trizal Garg, Sibayan Mitra, Arya Karanjkar, Advait Singh, Jagat Sesh Challa
 - **Score** : 7
-- **Résumé** : Large language models (LLMs) generally rely on sampling temperature to regulate the amount of randomness in their outputs. Mainstream methods for selecting temperature typically involve fixed, heuristic global settings and context or token-level calibration, rather than a geometrically interpretable...
-- **Lien** : https://arxiv.org/abs/2610.18820v1
+- **Résumé** : Large language models (LLMs) can often tell when they are being tested. This ability, known as evaluation awareness, can lead models to act more cautiously during safety evaluations than in real use. Existing work has studied evaluation awareness almost entirely in English, although models serve use...
+- **Lien** : https://arxiv.org/abs/2610.22333v1
 
-### SEAR: Self-Evolving Agentic Robotics
-- **arXiv** : 2610.18792v1
-- **Date** : 2026-10-13
-- **Auteurs** : Xinyi Wang, Bangzheng Li, Hanyu Wang, Lin Zhang, Andrea Yaoyun Cui
+### MindEval2: Clinically Grounded Patients and Rubrics for Evaluating Language Models in Mental Health Support
+- **arXiv** : 2610.22314v1
+- **Date** : 2026-10-15
+- **Auteurs** : John Mendonça, Daniel Tschernutter, José Pombal, Areti Vassilopoulos, Catarina Botelho
 - **Score** : 7
-- **Résumé** : Frontier language-model agents can now improve robots on their own: they write control code, test it, and keep what works as skills and memories for the next task. We introduce SEAR (Self-Evolving Agentic Robotics), a framework and benchmark built around two questions. Is the agent really learning, ...
-- **Lien** : https://arxiv.org/abs/2610.18792v1
+- **Résumé** : With people increasingly turning to AI chatbots for mental health support, the need to evaluate these tools is becoming more pressing. Recent benchmarks attempt to mimic a realistic setting by simulating multi-turn interactions with synthetic patients and evaluating them with an LLM-as-a-judge. Howe...
+- **Lien** : https://arxiv.org/abs/2610.22314v1
 
-### Hybrid Reasoning Agents
-- **arXiv** : 2610.18861v1
-- **Date** : 2026-10-13
-- **Auteurs** : Jiaru Zou, Yunzhe Qi, Sirui Chen, Federico Bianchi, Shang Zhu
+### AI Consilium: a Benchmark of LLM Clinical Multidisciplinary Second Opinions
+- **arXiv** : 2610.22298v1
+- **Date** : 2026-10-15
+- **Auteurs** : Alexey A. Bokov, Ivan I. Panin, Nikolay B. Nechaev, Mikhail Yu. Valkov, Valeria Yu. Chernina
+- **Score** : 7
+- **Résumé** : Large language models (LLMs) can generate differential diagnoses for complex cases, but a useful second opinion must also be factually grounded, clinically coherent, actionable, and safe. We developed a multidimensional benchmark using 300 diagnostically resolved NEJM--MedQA cases: 110 for physician...
+- **Lien** : https://arxiv.org/abs/2610.22298v1
+
+### CAT-alyzing Honesty: Continuous Adversarial Training for Transferable LLM Honesty
+- **arXiv** : 2610.22292v1
+- **Date** : 2026-10-15
+- **Auteurs** : Yuan-Chen Chang, Niklas Herbster, Gauthier Gidel, Tommaso Tosato
+- **Score** : 7
+- **Résumé** : Large language models (LLMs) are becoming prevalent in scenarios where honesty is critical. However, despite alignment training, these models still exhibit dishonest behaviour, such as outputting claims that contradict some knowledge or are not supported by what is accessible in context. We introduc...
+- **Lien** : https://arxiv.org/abs/2610.22292v1
+
+### X-RIC: An Agentic RAN-Intelligent Controller Benchmark for Enhancing Reinforcement Learning
+- **arXiv** : 2610.22269v1
+- **Date** : 2026-10-15
+- **Auteurs** : Adhwaa Al-Chaab, Ayman Younis, Dario Pompili
+- **Score** : 7
+- **Résumé** : The O-RAN ALLIANCE introduces architectural flexibility through disaggregation and AI-driven control. While the RAN Intelligent Controller (RIC) enables centralized optimization, current AI approaches lack reasoning capabilities and explainability. We propose eXplainable RIC (X-RIC), a novel framewo...
+- **Lien** : https://arxiv.org/abs/2610.22269v1
+
+### Designing Transformers for Continuous Diffusion Language Models
+- **arXiv** : 2610.22330v1
+- **Date** : 2026-10-15
+- **Auteurs** : Weijian Luo, Yujian Chen, Hao Jiang, Guang Cheng, Tianyang Hu
 - **Score** : 6
-- **Résumé** : How can we build an agent that thinks beyond human language, yet still acts through it in the external environment? Modern LLM agents still reason and interact through text, while latent reasoning offers an efficient internal medium but lacks native tool access and reasoning transparency. We bridge ...
-- **Lien** : https://arxiv.org/abs/2610.18861v1
+- **Résumé** : Continuous diffusion language models (CDLMs) offer an alternative approach to parallel language generation; however, most existing studies directly use transformer architectures from either causal large language models (LLMs) or Diffusion Transformers (DiTs) for image generation, which were not opti...
+- **Lien** : https://arxiv.org/abs/2610.22330v1
 
-### AIRRI: Towards a Human-Readable, Machine-Resistant Reading Interface
-- **arXiv** : 2610.18724v1
-- **Date** : 2026-10-13
-- **Auteurs** : Emory Salaun, Syed Ayon, Kaleel Mahmood, Shaun Wallace
+### Training Reasoning Models to Generate Diverse Scientific Ideas
+- **arXiv** : 2610.22324v1
+- **Date** : 2026-10-15
+- **Auteurs** : Manya Wadhwa, Pranav Narayanan Venkit, Hiroaki Hayashi, Yu Li, Tuhin Chakrabarty
 - **Score** : 6
-- **Résumé** : The rapid advancement of image-to-text extraction systems and large language models (LLMs) poses new challenges for educational assessment by making assignment materials easy to transcribe and solve with minimal human effort. To address this problem, we present AIRRI (Artificial Intelligence Resilie...
-- **Lien** : https://arxiv.org/abs/2610.18724v1
+- **Résumé** : One of the first steps of a research pipeline is generating ideas. Large Language Models (LLMs) are increasingly used to automate this step, but most of this work optimizes the quality of individual ideas, while overlooking diversity. In our work, we study document-grounded ideation, focusing on inc...
+- **Lien** : https://arxiv.org/abs/2610.22324v1
 
-### The Last Remote Sensing Model Built by Humans? Casting Any Earth Observation Task as Recursive Self-Improvement
-- **arXiv** : 2610.18845v1
-- **Date** : 2026-10-13
-- **Auteurs** : Sijie Zhao, Zeqi Zhou, Heli Qi, Xuanchao Fu, Zhuo Zheng
+### Grid-Bench: Can LLMs Predict How Discrete Worlds Change?
+- **arXiv** : 2610.22312v1
+- **Date** : 2026-10-15
+- **Auteurs** : Zixiang Xu, Zirui Song, Wanrong Zheng, Chiyu Zhang, Yue Huang
+- **Score** : 6
+- **Résumé** : Spatial instructions describe how to move objects, transform regions, or modify their surroundings. When several operations are applied in sequence, each acts on a configuration shaped by earlier changes. How accurately can large language models (LLMs) predict the resulting spatial state? We introdu...
+- **Lien** : https://arxiv.org/abs/2610.22312v1
+
+### Towards Continual Learning: Mitigating Forgetting With Subspace Tuning
+- **arXiv** : 2610.22293v1
+- **Date** : 2026-10-15
+- **Auteurs** : Arnav Chavan, Kusha Sareen, Rishabh Tiwari, Abhranil Chandra, Johan Obando-Ceron
+- **Score** : 6
+- **Résumé** : Large language models (LLMs) acquire new skills through fine-tuning, but it can destroy capabilities they already have: catastrophic forgetting remains a central obstacle to continual learning in LLMs. Recent works connect forgetting to how far, and along which directions, fine-tuning moves the weig...
+- **Lien** : https://arxiv.org/abs/2610.22293v1
+
+### Improving Environment-Agnostic Coding Agents: The Role of Scaffolding
+- **arXiv** : 2610.22289v1
+- **Date** : 2026-10-15
+- **Auteurs** : Sergey Rodionov
+- **Score** : 6
+- **Résumé** : Stronger language models may increasingly construct useful procedures for themselves, reducing the advantage of developer-supplied scaffolding. We investigate why this advantage persists and whether an environment-agnostic agent can be improved without environment-specific engineering. We evaluate a...
+- **Lien** : https://arxiv.org/abs/2610.22289v1
+
+### FDE-Gym: The Last Mile of AI Delivery
+- **arXiv** : 2610.22350v1
+- **Date** : 2026-10-15
+- **Auteurs** : Dongxu Yang, Hongda Yan, Renxin Wang, Baoli Zhang, Haojia Zuo
 - **Score** : 4
-- **Résumé** : Earth observation (EO) models are still built by hand. For each new task, experts design a training recipe and tune it against a benchmark. We show that this loop can be handed to an agent. Any verifiable task can be cast as a harness and a verifier, where the harness defines what the agent may use ...
-- **Lien** : https://arxiv.org/abs/2610.18845v1
+- **Résumé** : Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constrai...
+- **Lien** : https://arxiv.org/abs/2610.22350v1
 
-### Looking Complete Is Not Being Grounded: Evaluating LLM Sitreps Against Human-Authored Situation Reports
-- **arXiv** : 2610.18762v1
-- **Date** : 2026-10-13
-- **Auteurs** : Sachin Kumar
+### Baselines and Score Centering in Policy Gradient Estimation
+- **arXiv** : 2610.22263v1
+- **Date** : 2026-10-15
+- **Auteurs** : Shuo Han, Ziqing Hu
 - **Score** : 4
-- **Résumé** : Evaluation for automatic crisis reporting should measure what practitioners need, not what is convenient to compare. Through LLM-assisted, author-approved content analysis, we derive a 15-slot information schema from professional humanitarian situation reports using qualitative content analysis, the...
-- **Lien** : https://arxiv.org/abs/2610.18762v1
+- **Résumé** : Reinforcement learning has become a widely used approach to post-training large language models. In a typical implementation, learning is off-policy: The policy generating the responses differs from the policy being trained because of training-inference mismatch or policy staleness in asynchronous t...
+- **Lien** : https://arxiv.org/abs/2610.22263v1
 
-### SP$^2$ec: Adaptive Self-Speculative Decoding for Vision-Language Models
-- **arXiv** : 2610.18735v1
-- **Date** : 2026-10-13
-- **Auteurs** : Yuqi Huang, Xingyao Li, Yunlong Hou, Fengzhuo Zhang, Jiachun Pan
+### Language Is a Security Surface for Agent Guards
+- **arXiv** : 2610.22244v1
+- **Date** : 2026-10-15
+- **Auteurs** : Hasan Demirkiran, Jens Ernstberger
 - **Score** : 4
-- **Résumé** : Speculative Decoding (SD) has demonstrated its efficacy in accelerating large language model inference, but for Vision-Language Models (VLMs), the diverse input modalities make it difficult for a small trained drafter to achieve consistently high throughput. Self-speculative decoding reuses parts of...
-- **Lien** : https://arxiv.org/abs/2610.18735v1
+- **Résumé** : Step-level guards decide, before each tool call, whether an agent's next action is safe given the user's request and the trajectory so far. Users write those requests in many languages, while guard prompts and the benchmarks on which purpose-built guards are trained and evaluated are English. We ask...
+- **Lien** : https://arxiv.org/abs/2610.22244v1
 
-### Who Improves the Robot? Toward Physical Recursive Self-Improvement
-- **arXiv** : 2610.18842v1
-- **Date** : 2026-10-13
-- **Auteurs** : Hai Zhou, Fan Yang, Zeyi Chen, Lejun Zhang, Chenyang Fu
-- **Score** : 3
-- **Résumé** : Robots are increasingly autonomous in task execution, yet their improvement remains largely human-driven. This study investigates Physical Recursive Self-Improvement (Physical RSI), in which physical experience guides lasting updates to both a robot's capabilities and its improvement procedure, maki...
-- **Lien** : https://arxiv.org/abs/2610.18842v1
-
-### Self-Evolving Agent Harness
-- **arXiv** : 2610.18813v1
-- **Date** : 2026-10-13
-- **Auteurs** : Chuyang Wei, Haoxiang Guan, Minghang Zhu, Kexin Zhou, Jiyan He
-- **Score** : 3
-- **Résumé** : Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from prop...
-- **Lien** : https://arxiv.org/abs/2610.18813v1
-
-### Optimizing Team Behavior via Extremum-seeking Control in Multi-agent Reinforcement Learning
-- **arXiv** : 2610.18808v1
-- **Date** : 2026-10-13
-- **Auteurs** : Svar Rajankumar Patel, Kshitij Jerath
-- **Score** : 3
-- **Résumé** : In cooperative Multi-Agent Reinforcement Learning (MARL), agents must learn to coordinate their actions to achieve shared objectives. A key indicator of effective coordination is behavioral diversity, i.e., the agents' potential to enact distinct yet complementary control policies given the same set...
-- **Lien** : https://arxiv.org/abs/2610.18808v1
-
-### Where Do LLM Ensemble Gains Come From? Decomposing Candidate Value, Diversity, and Aggregation
-- **arXiv** : 2610.18786v1
-- **Date** : 2026-10-13
-- **Auteurs** : Donghwan Kim
-- **Score** : 3
-- **Résumé** : LLM ensemble gains are often measured against a single baseline, but the value attributed to additional candidates can change with the comparison used. We study an LLM aggregator under four matched conditions: Direct (no candidates), Single-slot (one candidate in a multi-slot interface), Duplicate (...
-- **Lien** : https://arxiv.org/abs/2610.18786v1
-
-### Pack Light, CarryOn: Building Object-Oriented Context for Long-Horizon Agents
-- **arXiv** : 2610.18784v1
-- **Date** : 2026-10-13
-- **Auteurs** : Yuchen Lu, Julian McAuley, Lei Zhang
-- **Score** : 3
-- **Résumé** : Long-horizon agents accumulate progress in persistent task state, yet repeatedly process interaction histories describing how that progress was achieved. This raises a natural question: can long-horizon context instead be organized around reusable progress rather than the history that produced it? I...
-- **Lien** : https://arxiv.org/abs/2610.18784v1
+### Shortcut Sensitivity in Agent-Safety Evaluations
+- **arXiv** : 2610.22243v1
+- **Date** : 2026-10-15
+- **Auteurs** : Hasan Demirkiran, Jens Ernstberger
+- **Score** : 4
+- **Résumé** : AI agents take actions through tools. Some actions are sensitive, so guards that supervise them must themselves be evaluated reliably. Yet the data used to evaluate a guard can include cues that make labels predictable without measuring the intended safety construct, and those cues can also influenc...
+- **Lien** : https://arxiv.org/abs/2610.22243v1
 
 <!-- ARXIV_FEED_END -->

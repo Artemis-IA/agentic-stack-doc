@@ -98,13 +98,6 @@ graph LR
         I added support to llm-gemini for the <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/g...
 - **Lien** : https://simonwillison.net/2026/Oct/13/llm-gemini/
 
-### Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents
-- **Source** : Hugging Face Blog
-- **Date** : Tue, 29 Sep 2026
-- **Score** : 2
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source
-
 ### Amp puts AI agents to work beyond code with OpenAI models
 - **Source** : OpenAI Blog
 - **Date** : Wed, 14 Oct 2026
@@ -154,6 +147,27 @@ graph LR
 - **Résumé** : Google announces Gemini 3.7 Flash, Jalape&#241;o&#8217;s first results show industry-leading speed, A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I....
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-255-gemini-37-jalapeno
 
+### [AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment
+- **Source** : latent.space
+- **Date** : Fri, 16 Oct 2026
+- **Score** : 1
+- **Résumé** : Nick Cammarata out of nowhere with some major claims!...
+- **Lien** : https://www.latent.space/p/ainews-agents-disprove-polysemanticity
+
+### [AINews] Modal’s $1B ARR, $16B Series D makes it NYC’s newest AI Infra Decacorn, 3x usage and 3x valuation in 5 months, 15x in 1 yr
+- **Source** : latent.space
+- **Date** : Thu, 15 Oct 2026
+- **Score** : 1
+- **Résumé** : Sandboxes are all you need....
+- **Lien** : https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d
+
+### Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents
+- **Source** : latent.space
+- **Date** : Wed, 14 Oct 2026
+- **Score** : 1
+- **Résumé** : At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control....
+- **Lien** : https://www.latent.space/p/crossing-the-threshold
+
 ### Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio
 - **Source** : latent.space
 - **Date** : Wed, 14 Oct 2026
@@ -174,6 +188,14 @@ graph LR
 - **Score** : 1
 - **Résumé** : MSL&#8217;s emergence as a frontier lab is finally complete....
 - **Lien** : https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder
+
+### Tree Appreciator
+- **Source** : Simon Willison
+- **Date** : 2026-10-14T21:23
+- **Score** : 1
+- **Résumé** : Tool: Tree Appreciator
+        Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode), where I prompted Claude Opus 5.5 Max with:...
+- **Lien** : https://simonwillison.net/2026/Oct/14/tree-appreciator/
 
 ### Quoting Geoffrey Huntley
 - **Source** : Simon Willison
@@ -198,14 +220,6 @@ graph LR
         Meta AI release Muse Wonder (and Muse Wonder Full), their new "most capable models". These look like they may be Me...
 - **Lien** : https://simonwillison.net/2026/Oct/12/llm-meta-ai/
 
-### web-edit 0.1a0
-- **Source** : Simon Willison
-- **Date** : 2026-10-12T15:54
-- **Score** : 1
-- **Résumé** : Release: web-edit 0.1a0
-        I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the ...
-- **Lien** : https://simonwillison.net/2026/Oct/12/web-edit/
-
 ### Run fast, private agents on-device with LFM2.5-24B-A2B
 - **Source** : Hugging Face Blog
 - **Date** : Tue, 13 Oct 2026
@@ -227,25 +241,11 @@ graph LR
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/ServiceNow-AI/autosynthdata
 
-### Holo4: powering generalist computer-use agents
-- **Source** : Hugging Face Blog
-- **Date** : Mon, 28 Sep 2026
-- **Score** : 1
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/Hcompany/holo4
-
-### Higgsfield takes AI video from 1 minute to over 10
+### Bringing GPT-Rosalind to academic research labs
 - **Source** : OpenAI Blog
-- **Date** : Tue, 13 Oct 2026
+- **Date** : Thu, 15 Oct 2026
 - **Score** : 1
-- **Résumé** : Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live....
-- **Lien** : https://openai.com/index/higgsfield-longer-videos-voice
-
-### How Oracle turns days of work into minutes with ChatGPT and Codex
-- **Source** : OpenAI Blog
-- **Date** : Thu, 08 Oct 2026
-- **Score** : 1
-- **Résumé** : Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex....
-- **Lien** : https://openai.com/index/oracle
+- **Résumé** : Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research....
+- **Lien** : https://openai.com/index/introducing-the-rosalind-academic-plan
 
 <!-- BLOG_FEED_END -->
