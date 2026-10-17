@@ -83,7 +83,7 @@ graph LR
 - **Résumé** : Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims....
 - **Lien** : https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon
 
-### How Anthropic’s Dynamic Workflows Coordinate Claude Agents
+### How Anthropic’s Dynamic Workflows Coordinate Claude Agents (Updated with video!)
 - **Source** : latent.space
 - **Date** : Mon, 12 Oct 2026
 - **Score** : 2
@@ -98,6 +98,13 @@ graph LR
         I added support to llm-gemini for the <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/g...
 - **Lien** : https://simonwillison.net/2026/Oct/13/llm-gemini/
 
+### Stack Overflow for Agents triples signups with ChatGPT plugin
+- **Source** : OpenAI Blog
+- **Date** : Fri, 16 Oct 2026
+- **Score** : 2
+- **Résumé** : Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation....
+- **Lien** : https://openai.com/index/stack-overflow-chatgpt-plugin
+
 ### Amp puts AI agents to work beyond code with OpenAI models
 - **Source** : OpenAI Blog
 - **Date** : Wed, 14 Oct 2026
@@ -111,20 +118,6 @@ graph LR
 - **Score** : 2
 - **Résumé** : With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use....
 - **Lien** : https://openai.com/index/third-moment-research
-
-### The EU’s next chapter in AI is agentic
-- **Source** : OpenAI Blog
-- **Date** : Wed, 14 Oct 2026
-- **Score** : 2
-- **Résumé** : New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value....
-- **Lien** : https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic
-
-### Asana cuts model costs 76x in browser tests with GPT-6.1 Sol
-- **Source** : OpenAI Blog
-- **Date** : Fri, 09 Oct 2026
-- **Score** : 2
-- **Résumé** : Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models....
-- **Lien** : https://openai.com/index/asana-browser-agent
 
 ### LWiAI Podcast #258 - Opus 5.5, Sol and Luna, Muse, DeepSeek-V4.1-Flash, Xi
 - **Source** : Last Week in AI
@@ -189,6 +182,14 @@ graph LR
 - **Résumé** : MSL&#8217;s emergence as a frontier lab is finally complete....
 - **Lien** : https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder
 
+### Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang
+- **Source** : Simon Willison
+- **Date** : 2026-10-16T22:06
+- **Score** : 1
+- **Résumé** : We think "did a human read the code?" is an imprecise proxy for "what could go wrong with this change, and which check—automated or human—is the right one to catch it?"
+Asking that question also chang...
+- **Lien** : https://simonwillison.net/2026/Oct/16/code-review/
+
 ### Tree Appreciator
 - **Source** : Simon Willison
 - **Date** : 2026-10-14T21:23
@@ -212,14 +213,6 @@ graph LR
         Includes performance optimizations written by Claud...
 - **Lien** : https://simonwillison.net/2026/Oct/13/web-edit/
 
-### llm-meta-ai 0.2
-- **Source** : Simon Willison
-- **Date** : 2026-10-12T23:58
-- **Score** : 1
-- **Résumé** : Release: llm-meta-ai 0.2
-        Meta AI release Muse Wonder (and Muse Wonder Full), their new "most capable models". These look like they may be Me...
-- **Lien** : https://simonwillison.net/2026/Oct/12/llm-meta-ai/
-
 ### Run fast, private agents on-device with LFM2.5-24B-A2B
 - **Source** : Hugging Face Blog
 - **Date** : Tue, 13 Oct 2026
@@ -234,18 +227,25 @@ graph LR
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/microsoft/thinkingbox
 
-### AutoSynthData: Generating Training Data for Enterprise Agents
-- **Source** : Hugging Face Blog
-- **Date** : Fri, 02 Oct 2026
-- **Score** : 1
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/ServiceNow-AI/autosynthdata
-
 ### Bringing GPT-Rosalind to academic research labs
 - **Source** : OpenAI Blog
 - **Date** : Thu, 15 Oct 2026
 - **Score** : 1
 - **Résumé** : Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research....
 - **Lien** : https://openai.com/index/introducing-the-rosalind-academic-plan
+
+### Last Week in AI #346 - 719 math manuscripts, 2 Western open models, 1 more safety resignation
+- **Source** : Last Week in AI
+- **Date** : Fri, 09 Oct 2026
+- **Score** : 1
+- **Résumé** : OpenAI publishes hundreds of math proofs from unreleased frontier model, Mistral and Reflection AI launch open-weight models to rival China, and more!...
+- **Lien** : https://lastweekin.ai/p/last-week-in-ai-346-719-math-manuscripts
+
+### LWiAI Podcast #257 - GPT 6 Astra, AI Extinction, Security Incidents
+- **Source** : Last Week in AI
+- **Date** : Thu, 24 Sep 2026
+- **Score** : 1
+- **Résumé** : A belated discussion of Astra&#8217;s release, a bunch of AI incidents, and the broader situation we are in with regards to AI safety....
+- **Lien** : https://lastweekin.ai/p/lwiai-podcast-257-gpt-6-astra-ai
 
 <!-- BLOG_FEED_END -->
