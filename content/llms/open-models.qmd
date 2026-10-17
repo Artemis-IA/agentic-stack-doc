@@ -120,6 +120,18 @@ DeepSeek R1 est le premier modèle de raisonnement open weights (RL-trained). Pe
 ## Outils & frameworks d'inference découverts automatiquement
 
 <!-- TOOLS_LLM_START -->
+### [rea](https://github.com/morluto/rea)
+Reverse engineer anything with agents, from app behavior down to native binaries.
+
+⭐ 305.4k | `TypeScript` | Licence: MIT | MAJ: 2026-10-17
+**Tags** : `agent-skills`, `ai-agents`, `binary-analysis`, `claude-code`, `cli`, `codex`, `cordis`, `decompiler`
+
+### [ECC](https://github.com/affaan-m/ECC)
+The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+
+⭐ 282.3k | `JavaScript` | Licence: MIT | MAJ: 2026-10-17
+**Tags** : `ai-agents`, `anthropic`, `claude`, `claude-code`, `developer-tools`, `llm`, `mcp`, `productivity`
+
 ### [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT)
 an experimental open-source application showcasing the capabilities of the GPT-4 language model.
 
@@ -135,17 +147,23 @@ Get up and running with Llama 3, Mistral, Gemma, and other large language models
 ### [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
 A collection of prompt examples to be used with the ChatGPT model.
 
-⭐ 173.2k | `HTML` | Licence: NOASSERTION | MAJ: 2026-10-17
+⭐ 173.3k | `HTML` | Licence: NOASSERTION | MAJ: 2026-10-17
 **Tags** : `ai`, `artificial-intelligence`, `awesome-list`, `chatgpt`, `chatgpt-prompts`, `claude`, `gemini`, `gpt`
 
-### [Dify](https://github.com/langgenius/dify)
-An open-source LLM app development platform with an intuitive interface that streamlines AI workflows, model management, and production deployment.
+### [dify](https://github.com/langgenius/dify)
+Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without ...
 
 ⭐ 158.7k | `Python` | Licence: NOASSERTION | MAJ: 2026-10-17
 **Tags** : `agent`, `agentic-ai`, `agentic-framework`, `agentic-workflow`, `ai`, `automation`, `claude`, `deepseek`
 
-### [LangChain](https://github.com/langchain-ai/langchain)
-the original 🐍 !GitHub Repo stars
+### [open-webui](https://github.com/open-webui/open-webui)
+User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
+
+⭐ 156.0k | `Python` | Licence: NOASSERTION | MAJ: 2026-10-17
+**Tags** : `ai`, `llm`, `llm-ui`, `llm-webui`, `llms`, `mcp`, `ollama`, `ollama-webui`
+
+### [langchain](https://github.com/langchain-ai/langchain)
+The agent engineering platform.
 
 ⭐ 148.0k | `Python` | Licence: MIT | MAJ: 2026-10-17
 **Tags** : `agents`, `ai`, `ai-agents`, `anthropic`, `chatgpt`, `deepagents`, `enterprise`, `framework`
@@ -165,20 +183,14 @@ LLM inference in C/C++.
 ### [graphify](https://github.com/Graphify-Labs/graphify)
 Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing...
 
-⭐ 127.4k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-17
+⭐ 127.7k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-17
 **Tags** : `ai-agents`, `antigravity`, `ast`, `claude-code`, `code-analysis`, `code-search`, `codex`, `cursor`
 
-### [generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners)
-21 Lessons, Get Started Building with Generative AI
+### [browser-use](https://github.com/browser-use/browser-use)
+Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.
 
-⭐ 121.5k | `Jupyter Notebook` | Licence: MIT | MAJ: 2026-10-17
-**Tags** : `ai`, `azure`, `chatgpt`, `dall-e`, `generative-ai`, `generativeai`, `gpt`, `language-model`
-
-### [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
-Implement a ChatGPT-like LLM in PyTorch from scratch, step by step
-
-⭐ 106.7k | `Jupyter Notebook` | Licence: NOASSERTION | MAJ: 2026-10-17
-**Tags** : `ai`, `artificial-intelligence`, `attention-mechanism`, `deep-learning`, `finetuning`, `from-scratch`, `generative-ai`, `gpt`
+⭐ 118.3k | `Python` | Licence: MIT | MAJ: 2026-10-17
+**Tags** : `ai-agents`, `ai-tools`, `browser-agent`, `browser-automation`, `browser-use`, `cdp`, `cloud-browser`, `computer-use`
 
 ### [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
 First open-sourced GPT-4o level model.
@@ -208,34 +220,22 @@ First-generation reasoning models from DeepSeek.
 ⭐ 91.1k | `TypeScript` | Licence: MIT | MAJ: 2026-10-17
 **Tags** : `agent`, `artificial-intelligence`, `chatgpt`, `claude-ai`, `cli`, `developer-tools`, `gpt`, `llm`
 
+### [crawl4ai](https://github.com/unclecode/crawl4ai)
+Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key.
+
+⭐ 85.7k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-17
+**Tags** : `ai`, `ai-agents`, `crawler`, `data-extraction`, `llm`, `markdown`, `mcp`, `open-source`
+
 ### [llm-course](https://github.com/mlabonne/llm-course)
 Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.
 
 ⭐ 83.7k | Licence: Apache-2.0 | MAJ: 2026-10-17
 **Tags** : `course`, `large-language-models`, `llm`, `machine-learning`, `roadmap`
 
-### [Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
-🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.
+### [hello-agents](https://github.com/datawhalechina/hello-agents)
+📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程
 
-⭐ 79.2k | `MDX` | Licence: MIT | MAJ: 2026-10-17
-**Tags** : `agent`, `agents`, `ai-agents`, `chatgpt`, `deep-learning`, `generative-ai`, `language-model`, `llms`
-
-### [Embedchain](https://github.com/embedchain/embedchain)
-Framework to create ChatGPT like bots over your dataset.
-
-⭐ 67.3k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-17
-**Tags** : `agentic-memory`, `agentic-memory-system`, `agents`, `ai`, `ai-agents`, `chatgpt`, `genai`, `llm`
-
-### [gpt4free](https://github.com/xtekky/gpt4free)
-The official gpt4free repository | various collection of powerful language models | opus 4.6 gpt 5.3 kimi 2.5 deepseek v3.2 gemini 3
-
-⭐ 66.9k | `Python` | Licence: GPL-3.0 | MAJ: 2026-10-17
-**Tags** : `chatbot`, `chatbots`, `chatgpt`, `chatgpt-4`, `chatgpt-api`, `chatgpt-free`, `chatgpt4`, `deepseek`
-
-### [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
-A Chinese collection of prompt examples to be used with the ChatGPT model.
-
-⭐ 63.7k | Licence: MIT | MAJ: 2026-10-17
-**Tags** : `chat-gpt`, `chatgpt`, `chatgpt3`, `chatgpt4`, `gpt`
+⭐ 83.5k | `Python` | Licence: NOASSERTION | MAJ: 2026-10-17
+**Tags** : `agent`, `llm`, `rag`, `tutorial`
 
 <!-- TOOLS_LLM_END -->
