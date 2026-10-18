@@ -112,82 +112,76 @@ subprocess.run([
 ## Outils découverts automatiquement
 
 <!-- TOOLS_SANDBOX_START -->
-### [daytona](https://github.com/daytonaio/daytona)
-Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code
-
-⭐ 71.5k | MAJ: 2026-10-17
-**Tags** : `agentic-workflow`, `ai`, `ai-agents`, `ai-runtime`, `ai-sandboxes`, `code-execution`, `code-interpreter`, `developer-tools`
-
 ### [firecracker](https://github.com/firecracker-microvm/firecracker)
 Secure and fast microVMs for serverless computing.
 
-⭐ 37.5k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-17
+⭐ 37.5k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-18
 **Tags** : `containers`, `minimalist`, `open-source`, `oversubscription`, `rust`, `sandbox`, `serverless`, `virtual-machine`
 
 ### [teable](https://github.com/teableio/teable)
 ✨ AI Spreadsheet for Business
 
-⭐ 21.9k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-10-17
+⭐ 21.9k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-10-18
 **Tags** : `ai-agent`, `airtable`, `airtable-alternative`, `app-builder`, `database`, `internal-tool`, `low-code`, `no-code`
 
 ### [gvisor](https://github.com/google/gvisor)
 Application Kernel for Containers
 
-⭐ 19.7k | `Go` | Licence: Apache-2.0 | MAJ: 2026-10-17
+⭐ 19.7k | `Go` | Licence: Apache-2.0 | MAJ: 2026-10-18
 **Tags** : `containers`, `docker`, `kernel`, `kubernetes`, `linux`, `oci`, `sandbox`
 
 ### [wasmtime](https://github.com/bytecodealliance/wasmtime)
 A lightweight WebAssembly runtime that is fast, secure, and standards-compliant
 
-⭐ 18.7k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-17
+⭐ 18.7k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-18
 **Tags** : `aot`, `cranelift`, `jit`, `lightweight`, `portable`, `runtime`, `rust`, `sandbox`
 
 ### [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)
 Secure, Fast, and Extensible Sandbox runtime for AI agents.
 
-⭐ 15.9k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-17
+⭐ 15.9k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-18
 **Tags** : `ai`, `ai-agent`, `ai-infra`, `kubernetes`, `sandbox`
 
 ### [memU](https://github.com/NevaMind-AI/memU)
 Personal memory across agents
 
-⭐ 14.6k | `Python` | Licence: NOASSERTION | MAJ: 2026-10-17
+⭐ 14.6k | `Python` | Licence: NOASSERTION | MAJ: 2026-10-18
 **Tags** : `agent-memory`, `claude-skills`, `harness`, `loop-engineering`, `mcp`, `memory`, `openclaw`, `openclaw-skills`
 
 ### [CubeSandbox](https://github.com/TencentCloud/CubeSandbox)
 Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.
 
-⭐ 13.0k | `Go` | Licence: NOASSERTION | MAJ: 2026-10-17
+⭐ 13.0k | `Go` | Licence: NOASSERTION | MAJ: 2026-10-18
 **Tags** : `agents`, `container`, `sandbox`
 
 ### [omnigent](https://github.com/omnigent-ai/omnigent)
 Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, an...
 
-⭐ 10.9k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-17
+⭐ 10.9k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-18
 **Tags** : `agent-framework`, `agent-governance`, `agent-orchestration`, `agents`, `ai`, `ai-agent`, `ai-agents`, `claude-code`
 
 ### [astrid](https://github.com/astrid-runtime/astrid)
 Astrid is a portable, capability-secure operating system for composable software.
 
-⭐ 10.3k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-15
+⭐ 10.3k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-17
 **Tags** : `agent-runtime`, `ai-agents`, `capability-security`, `llm`, `mcp`, `microkernel`, `rust`, `sandbox`
 
 ### [openbrowser](https://github.com/ntegrals/openbrowser)
 Let AI agents browse the web. An autonomous toolkit for browser-based AI agents.
 
-⭐ 9.6k | `TypeScript` | Licence: MIT | MAJ: 2026-10-17
+⭐ 9.6k | `TypeScript` | Licence: MIT | MAJ: 2026-10-18
 **Tags** : `ai-agents`, `automation`, `claude`, `playwright`, `puppeteer`, `sandbox`
 
 ### [microsandbox](https://github.com/superradcompany/microsandbox)
 🧱 easy, fast, programmable and local-first microVM runtime and library
 
-⭐ 8.7k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-17
+⭐ 8.7k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-18
 **Tags** : `agents`, `docker`, `golang`, `linux`, `local`, `macos`, `microvm`, `nodejs`
 
 ### [monty](https://github.com/pydantic/monty)
 A secure Python sandbox, written in Rust, for code written by AI.
 
-⭐ 8.7k | `Rust` | Licence: MIT | MAJ: 2026-10-17
+⭐ 8.7k | `Rust` | Licence: MIT | MAJ: 2026-10-18
 **Tags** : `python`, `rust`, `sandbox`, `sandboxing`
 
 ### [react-cosmos](https://github.com/react-cosmos/react-cosmos)
@@ -199,13 +193,13 @@ Sandbox for developing and testing UI components in isolation
 ### [OpenTTD](https://github.com/OpenTTD/OpenTTD)
 OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe
 
-⭐ 8.4k | `C++` | Licence: NOASSERTION | MAJ: 2026-10-17
+⭐ 8.4k | `C++` | Licence: NOASSERTION | MAJ: 2026-10-18
 **Tags** : `game`, `isometric`, `openttd`, `sandbox`, `simulation`
 
 ### [wasm3](https://github.com/wasm3/wasm3)
 🚀 A fast WebAssembly interpreter and the most universal WASM runtime
 
-⭐ 8.1k | `C` | Licence: MIT | MAJ: 2026-10-17
+⭐ 8.1k | `C` | Licence: MIT | MAJ: 2026-10-18
 **Tags** : `containers`, `cosmopolitan`, `devops`, `edge-computing`, `embedded`, `iot`, `sandbox`, `scripting`
 
 ### [smolvm](https://github.com/smol-machines/smolvm)
@@ -214,16 +208,10 @@ An embeddable, portable, branchable virtual machine to safely run Agents locally
 ⭐ 6.8k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-17
 **Tags** : `agent-sandbox`, `ai-agents`, `code-execution`, `containers`, `crun`, `libkrun`, `llm`, `microvm`
 
-### [judge0](https://github.com/judge0/judge0)
-Robust, fast, scalable, and sandboxed open-source online code execution system for humans and AI.
-
-⭐ 4.5k | `HTML` | Licence: GPL-3.0 | MAJ: 2026-10-17
-**Tags** : `ai-agent-tools`, `ai-agents`, `ai-tools`, `code-execution`, `code-executor`, `code-runner`, `competitive-programming`, `online-compiler`
-
 ### [arcbox](https://github.com/arcboxlabs/arcbox)
 Run AI agents on real and isolated machines — own kernel, filesystem, and network — with <100ms boot. Local first, OCI compatible, pure Rust.
 
-⭐ 4.2k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-17
+⭐ 4.2k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-18
 **Tags** : `ai-agents`, `computer-use`, `containers`, `docker`, `firecracker`, `microvm`, `rust`, `sandbox`
 
 ### [microvm.nix](https://github.com/microvm-nix/microvm.nix)
@@ -231,5 +219,17 @@ NixOS MicroVMs
 
 ⭐ 3.0k | `Nix` | Licence: MIT | MAJ: 2026-10-17
 **Tags** : `cloud-hypervisor`, `crosvm`, `firecracker`, `flake`, `flakes`, `kvmtool`, `microvm`, `microvms`
+
+### [forkd](https://github.com/deeplethe/forkd)
+Fork() for AI agent microVMs. Spawn 100 children in ~100ms from a warm parent; BRANCH a live VM in ~150ms. KVM-isolated, snapshot CoW.
+
+⭐ 2.9k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-18
+**Tags** : `ai-agents`, `copy-on-write`, `kvm`, `microvm`, `rust`, `sandbox`, `snapshot`
+
+### [runtime](https://github.com/e2b-dev/runtime)
+The runtime behind every E2B stack: Cloud, Enterprise, and your own machine.
+
+⭐ 1.7k | `Go` | Licence: Apache-2.0 | MAJ: 2026-10-18
+**Tags** : `ai-agents`, `code-interpreter`, `consul`, `devtools`, `firecracker`, `gcp`, `go`, `golang`
 
 <!-- TOOLS_SANDBOX_END -->

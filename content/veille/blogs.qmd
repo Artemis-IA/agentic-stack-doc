@@ -198,21 +198,6 @@ Asking that question also chang...
         Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode), where I prompted Claude Opus 5.5 Max with:...
 - **Lien** : https://simonwillison.net/2026/Oct/14/tree-appreciator/
 
-### Quoting Geoffrey Huntley
-- **Source** : Simon Willison
-- **Date** : 2026-10-13T13:32
-- **Score** : 1
-- **Résumé** : If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for di...
-- **Lien** : https://simonwillison.net/2026/Oct/13/geoffrey-huntley/
-
-### web-edit 0.1a1
-- **Source** : Simon Willison
-- **Date** : 2026-10-13T01:40
-- **Score** : 1
-- **Résumé** : Release: web-edit 0.1a1
-        Includes performance optimizations written by Claud...
-- **Lien** : https://simonwillison.net/2026/Oct/13/web-edit/
-
 ### Run fast, private agents on-device with LFM2.5-24B-A2B
 - **Source** : Hugging Face Blog
 - **Date** : Tue, 13 Oct 2026
@@ -247,5 +232,12 @@ Asking that question also chang...
 - **Score** : 1
 - **Résumé** : A belated discussion of Astra&#8217;s release, a bunch of AI incidents, and the broader situation we are in with regards to AI safety....
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-257-gpt-6-astra-ai
+
+### LWiAI Podcast #253 - Opus 5, Gemini 3.6, Kimi K3, Hugging Face Hack
+- **Source** : Last Week in AI
+- **Date** : Mon, 03 Aug 2026
+- **Score** : 1
+- **Résumé** : Anthropic releases Opus 5 promising Fable 5-like capabilities, Google Releases Three New Gemini A.I. Models, and more!...
+- **Lien** : https://lastweekin.ai/p/lwiai-podcast-253-opus-5-gemini-36
 
 <!-- BLOG_FEED_END -->
