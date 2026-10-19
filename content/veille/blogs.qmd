@@ -90,14 +90,6 @@ graph LR
 - **Résumé** : At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers....
 - **Lien** : https://www.latent.space/p/claude-dynamic-workflows
 
-### llm-gemini 0.35
-- **Source** : Simon Willison
-- **Date** : 2026-10-13T22:28
-- **Score** : 2
-- **Résumé** : Release: llm-gemini 0.35
-        I added support to llm-gemini for the <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/g...
-- **Lien** : https://simonwillison.net/2026/Oct/13/llm-gemini/
-
 ### Stack Overflow for Agents triples signups with ChatGPT plugin
 - **Source** : OpenAI Blog
 - **Date** : Fri, 16 Oct 2026
@@ -182,6 +174,22 @@ graph LR
 - **Résumé** : MSL&#8217;s emergence as a frontier lab is finally complete....
 - **Lien** : https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder
 
+### llm-tools-datasette 0.1.1
+- **Source** : Simon Willison
+- **Date** : 2026-10-18T23:43
+- **Score** : 1
+- **Résumé** : Release: llm-tools-datasette 0.1.1
+        When I switched LLM over to httpx2 in <a href="https://llm.datasette.io/en/stable/changelog.html#v0-33...
+- **Lien** : https://simonwillison.net/2026/Oct/18/llm-tools-datasette/
+
+### llm-echo 0.5
+- **Source** : Simon Willison
+- **Date** : 2026-10-18T23:16
+- **Score** : 1
+- **Résumé** : Release: llm-echo 0.5
+        I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides...
+- **Lien** : https://simonwillison.net/2026/Oct/18/llm-echo/
+
 ### Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang
 - **Source** : Simon Willison
 - **Date** : 2026-10-16T22:06
@@ -204,13 +212,6 @@ Asking that question also chang...
 - **Score** : 1
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b
-
-### The Agent Said It Was Done. The Database Disagreed.
-- **Source** : Hugging Face Blog
-- **Date** : Sat, 03 Oct 2026
-- **Score** : 1
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/microsoft/thinkingbox
 
 ### Bringing GPT-Rosalind to academic research labs
 - **Source** : OpenAI Blog
