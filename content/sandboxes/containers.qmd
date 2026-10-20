@@ -112,17 +112,113 @@ subprocess.run([
 ## Outils découverts automatiquement
 
 <!-- TOOLS_SANDBOX_START -->
+### [microsandbox](https://github.com/superradcompany/microsandbox)
+🧱 easy, fast, programmable and local-first microVM runtime and library
+
+⭐ 8.7k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-20
+**Tags** : `agents`, `docker`, `golang`, `linux`, `local`, `macos`, `microvm`, `nodejs`
+
+### [smolvm](https://github.com/smol-machines/smolvm)
+An embeddable, portable, branchable virtual machine to safely run Agents locally.
+
+⭐ 6.8k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-20
+**Tags** : `agent-sandbox`, `ai-agents`, `code-execution`, `containers`, `crun`, `libkrun`, `llm`, `microvm`
+
+### [arcbox](https://github.com/arcboxlabs/arcbox)
+Run AI agents on real and isolated machines — own kernel, filesystem, and network — with <100ms boot. Local first, OCI compatible, pure Rust.
+
+⭐ 4.2k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-20
+**Tags** : `ai-agents`, `computer-use`, `containers`, `docker`, `firecracker`, `microvm`, `rust`, `sandbox`
+
+### [microvm.nix](https://github.com/microvm-nix/microvm.nix)
+NixOS MicroVMs
+
+⭐ 3.0k | `Nix` | Licence: MIT | MAJ: 2026-10-20
+**Tags** : `cloud-hypervisor`, `crosvm`, `firecracker`, `flake`, `flakes`, `kvmtool`, `microvm`, `microvms`
+
+### [forkd](https://github.com/deeplethe/forkd)
+Fork() for AI agent microVMs. Spawn 100 children in ~100ms from a warm parent; BRANCH a live VM in ~150ms. KVM-isolated, snapshot CoW.
+
+⭐ 2.9k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-20
+**Tags** : `ai-agents`, `copy-on-write`, `kvm`, `microvm`, `rust`, `sandbox`, `snapshot`
+
+### [runtime](https://github.com/e2b-dev/runtime)
+The runtime behind every E2B stack: Cloud, Enterprise, and your own machine.
+
+⭐ 1.7k | `Go` | Licence: Apache-2.0 | MAJ: 2026-10-20
+**Tags** : `ai-agents`, `code-interpreter`, `consul`, `devtools`, `firecracker`, `gcp`, `go`, `golang`
+
+### [flintlock](https://github.com/liquidmetal-dev/flintlock)
+Lock, Stock, and Two Smoking MicroVMs. Create and manage the lifecycle of MicroVMs backed by containerd.
+
+⭐ 1.5k | `Go` | Licence: MPL-2.0 | MAJ: 2026-10-19
+**Tags** : `cni`, `firecracker`, `kvm`, `microvm`, `oci`
+
+### [kuasar](https://github.com/kuasar-io/kuasar)
+A multi-sandbox container runtime that provides cloud-native, all-scenario multiple sandbox container solutions.
+
+⭐ 1.5k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-13
+**Tags** : `cloud-hypervisor`, `cloud-native`, `cncf`, `containerd`, `containers`, `cri`, `docker`, `microvm`
+
 ### [Wllama](https://github.com/ngxson/wllama)
 WebAssembly binding for llama.cpp - Enabling in-browser LLM inference
 
-⭐ 1.3k | `TypeScript` | Licence: MIT | MAJ: 2026-10-19
+⭐ 1.3k | `TypeScript` | Licence: MIT | MAJ: 2026-10-20
 **Tags** : `llama`, `llamacpp`, `llm`, `wasm`, `webassembly`
+
+### [mayastor](https://github.com/openebs/mayastor)
+Dynamically provision Stateful Persistent Replicated Cluster-wide Fabric Volumes & Filesystems for Kubernetes that is provisioned from an optimized NVME SPDK backend data storage stack.
+
+⭐ 1.1k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-19
+**Tags** : `containers`, `data-plane`, `k8s`, `kubernetes`, `microvm`, `nvme`, `pvc`, `rust`
 
 ### [CUGA](https://github.com/cuga-project/cuga-agent)
 IBM Research's generalist agent harness built on LangGraph. Executes tasks over APIs and the web, with policy and human-in-the-loop controls, multi-agent supervision with remote A2A agents, and age...
 
-⭐ 1.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-19
-**Tags** : `coding-agent`, `computer-use`, `enterprise`, `generalist-agent`, `guardrails`, `harness`, `knowledge`, `mcp`
+⭐ 1.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-20
+**Tags** : `agentic-ai`, `agents`, `ai-agents`, `coding-agent`, `computer-use`, `enterprise`, `generalist-agent`, `guardrails`
+
+### [clawk](https://github.com/clawkwork/clawk)
+Give coding agents a disposable Linux VM, not your laptop
+
+⭐ 1.0k | `Go` | Licence: Apache-2.0 | MAJ: 2026-10-17
+**Tags** : `agent-sandbox`, `ai-agent-sandbox`, `ai-agents`, `claude`, `claude-code`, `codex`, `microvm`, `sandbox`
+
+### [coop](https://github.com/trailofbits/coop)
+Isolated VM environment for running Claude Code and Codex
+
+⭐ 792 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-20
+**Tags** : `claude-code`, `cli`, `codex`, `firecracker`, `kvm`, `lima`, `microvm`, `rust`
+
+### [smolBSD](https://github.com/NetBSDfr/smolBSD)
+smolBSD is a tiny BSD UNIX (NetBSD) system creation tool, primarily aimed at building modern, lightweight, fast micro VMs
+
+⭐ 723 | `Shell` | Licence: BSD-2-Clause | MAJ: 2026-10-20
+**Tags** : `bsd`, `microvm`, `netbsd`, `qemu`
+
+### [nvx](https://github.com/microsoft/nvx)
+Cross-Platform Micro-VM Sandbox for Agentic Workloads
+
+⭐ 521 | `Python` | Licence: MIT | MAJ: 2026-10-20
+**Tags** : `agentic-coding`, `agentic-engineering`, `agentic-workflows`, `hyperv`, `hypervisor`, `kvm`, `linux`, `microvm`
+
+### [pve-microvm](https://github.com/rcarmo/pve-microvm)
+Firecracker-like microVMs for Proxmox VE — KVM isolation, under 200 ms boot.
+
+⭐ 432 | `Shell` | Licence: Apache-2.0 | MAJ: 2026-10-19
+**Tags** : `homelab`, `microvm`, `proxmox`, `sandboxing`
+
+### [vHive](https://github.com/vhive-serverless/vHive)
+vHive: Open-source framework for serverless experimentation
+
+⭐ 347 | `Go` | Licence: MIT | MAJ: 2026-09-29
+**Tags** : `benchmarking`, `containerd`, `faas`, `firecracker`, `functions-as-a-service`, `gvisor`, `knative`, `knative-serving`
+
+### [open-managed-agents](https://github.com/openma-ai/open-managed-agents)
+OpenMA handles sessions, execution and recovery, so you can build and run agents with any model, any harness, any sandbox, on any cloud. An open-source, self-hostable alternative to Claude Managed ...
+
+⭐ 327 | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-10-20
+**Tags** : `agent-client-protocol`, `agent-platform`, `agent-sandbox`, `ai-agents`, `ai-sandbox`, `anthropic-managed-agents`, `byok`, `claude-code`
 
 ### [Greywall](https://github.com/GreyhavenHQ/greywall)
 Deny-by-default command sandbox for AI coding agents with filesystem isolation, network control via transparent proxy, built-in profiles for agents like Claude Code or OpenCode, and learning mode f...
@@ -130,100 +226,10 @@ Deny-by-default command sandbox for AI coding agents with filesystem isolation, 
 ⭐ 310 | `Go` | Licence: Apache-2.0 | MAJ: 2026-10-16
 **Tags** : `agents`, `ai-security`, `claude-code`, `developer-tools`, `greyproxy`, `landlock`, `linux`, `llm`
 
-### [Ailoy](https://github.com/brekkylab/ailoy)
-A comprehensive framework for building AI agents that run anywhere, with full local-AI and WASM support.
+### [Containarium](https://github.com/FootprintAI/Containarium)
+Open-source agent runtime — SSH-native isolation, eBPF egress policy, Kubernetes + LXC backends, GPU passthrough, MCP-native CLI
 
-⭐ 154 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-19
-**Tags** : `agent`, `agent-builder`, `agentic-ai`, `ai-agents`, `computer-use-agent`, `gpu`, `gpu-acceleration`, `gpu-passthrough`
-
-### [ajitpratap0/GoSQLX](https://github.com/ajitpratap0/GoSQLX)
-!ajitpratap0/GoSQLX MCP server 🏎️ ☁️ 🏠 - SQL validation, formatting, parsing, linting, security scanning and metadata extraction across multiple SQL dialects.
-
-⭐ 120 | `Go` | Licence: Apache-2.0 | MAJ: 2026-10-19
-**Tags** : `ast`, `cli`, `go`, `golang`, `lsp`, `mcp-server`, `mysql`, `parser`
-
-### [26zl/cybersec-toolkit](https://github.com/26zl/cybersec-toolkit)
-!26zl/cybersec-toolkit MCP server 🐍 🏠 🐧 - Install a large security toolset and discover and run it through an authorization-gated server for CTF, pentesting, bug bounty and DFIR.
-
-⭐ 76 | `Python` | Licence: MIT | MAJ: 2026-10-19
-**Tags** : `agent-skills`, `ai-agent`, `blue-team`, `bug-bounty`, `claude-code`, `ctf-tools`, `cybersecurity`, `dfir`
-
-### [hileamlakB/PRIMS](https://github.com/hileamlakB/PRIMS)
-🐍 🏠 - Python runtime interpreter that executes submitted code in an isolated environment.
-
-⭐ 30 | `Python` | Licence: MIT | MAJ: 2026-10-08
-**Tags** : `agents`, `docker`, `fastmcp`, `llm`, `mcp`, `mcp-server`, `open-source`, `python`
-
-### [fixed-width/glass](https://github.com/fixed-width/glass)
-!fixed-width/glass MCP server 🦀 🏠 🍎 🪟 🐧 - Drive native GUI apps under development: launch, screenshot, read the accessibility tree, inject input, tail logs and diff frames on desktop, Android and iOS.
-
-⭐ 19 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-19
-**Tags** : `ai`, `android`, `cross-platform`, `developer-tools`, `gui`, `gui-application`, `ios`, `linux`
-
-### [OthmaneBlial/term_mcp_deepseek](https://github.com/OthmaneBlial/term_mcp_deepseek)
-🐍 🏠 - Approval-first local terminal control: policy-based command planning and approval, DeepSeek as an advisor, and signed execution receipts.
-
-⭐ 18 | `Python` | Licence: MIT | MAJ: 2026-08-28
-**Tags** : `ai-agents`, `approval-workflow`, `audit-log`, `command-execution`, `deepseek`, `developer-tools`, `json-rpc`, `local-first`
-
-### [Sowiedu/Edict](https://github.com/Sowiedu/Edict)
-!Sowiedu/Edict MCP server 📇 🏠 - Agent-oriented programming language: agents emit a JSON AST that the compiler validates, type- and effect-checks, verifies with Z3/SMT and compiles to WASM.
-
-⭐ 13 | `JavaScript` | Licence: MIT | MAJ: 2026-10-08
-**Tags** : `ai`, `ai-agents`, `compiler`, `effect-system`, `formal-verification`, `json-ast`, `llm`, `mcp`
-
-### [AryanBV/pdf-toolkit-mcp](https://github.com/AryanBV/pdf-toolkit-mcp)
-!AryanBV/pdf-toolkit-mcp MCP server 📇 🏠 🍎 🪟 🐧 - Create PDFs from Markdown with tables and formatting, fill forms, merge, split, encrypt and add QR codes.
-
-⭐ 11 | `TypeScript` | Licence: MIT | MAJ: 2026-10-13
-**Tags** : `ai-tools`, `claude`, `mcp`, `mcp-server`, `model-context-protocol`, `pdf`, `pdf-generation`, `pdf-lib`
-
-### [The-40-Thieves/codecalc](https://github.com/The-40-Thieves/codecalc)
-!The-40-Thieves/codecalc MCP server 🐍 🏠 🍎 🪟 🐧 - Code and logic calculator with an offline core: run code, exact symbolic math, SMT/logic and complexity analysis, with optional gVisor/AppContainer s...
-
-⭐ 5 | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-19
-**Tags** : `ai-agents`, `calculator`, `code-execution`, `mcp`, `mcp-server`, `model-context-protocol`, `python`, `rust`
-
-### [dcadolph/slop-chop](https://github.com/dcadolph/slop-chop)
-!dcadolph/slop-chop MCP server 🏎️ 🏠 🍎 🪟 🐧 - Deterministic linter for AI writing tells. Offline by default, with an optional model pass if you want one.
-
-⭐ 4 | `Go` | Licence: MIT | MAJ: 2026-10-19
-**Tags** : `ai`, `ai-detection`, `chatgpt`, `cli`, `github-action`, `github-actions`, `golang`, `linter`
-
-### [davidlandais/ovh-api-mcp](https://github.com/davidlandais/ovh-api-mcp)
-!ovh-api-mcp MCP server 🦀 ☁️ - Access the entire OVH API through search and execute tools that run sandboxed JavaScript (Code Mode).
-
-⭐ 3 | `Rust` | Licence: MIT | MAJ: 2026-08-31
-**Tags** : `ai`, `ai-tools`, `automation`, `claude`, `cloud-api`, `cursor`, `devops`, `dns`
-
-### [Reachpad/reachpad-mcp](https://github.com/Reachpad/reachpad-mcp)
-!Reachpad/reachpad-mcp MCP server 🎖️ 📇 ☁️ 🍎 🪟 🐧 - Persistent cloud dev environments for coding agents: create, run commands, checkpoint and fork, with files, services and terminal state kept betwee...
-
-⭐ 3 | `JavaScript` | Licence: MIT | MAJ: 2026-09-04
-**Tags** : `ai-agents`, `developer-environments`, `mcp`, `mcp-server`, `model-context-protocol`, `sandbox`
-
-### [krovacloud/krova-node](https://github.com/krovacloud/krova-node)
-!krovacloud/krova-node MCP server 🎖️ 📇 ☁️ 🍎 🪟 🐧 - Provision and manage Krova Cloud Cubes (Firecracker microVMs with root access), plus custom domains, TCP port mappings and snapshots.
-
-`TypeScript` | Licence: MIT | MAJ: 2026-10-07
-**Tags** : `api-client`, `cli`, `cloud`, `developer-tools`, `firecracker`, `mcp`, `mcp-server`, `microvm`
-
-### [Poiuyhje/eqvps-mcp](https://github.com/Poiuyhje/eqvps-mcp)
-!Poiuyhje/eqvps-mcp MCP server 📇 ☁️ - Rent and operate VPSes paid in USDC or USDT: register, provision and control power, hostname, root password, reinstalls, metrics and cancellation.
-
-`JavaScript` | Licence: MIT | MAJ: 2026-10-06
-**Tags** : `ai-agents`, `ai-sandbox`, `claude`, `code-sandbox`, `crypto`, `firecracker`, `hosting`, `mcp`
-
-### [fstandhartinger/sandbox-as-a-service-mcp](https://github.com/fstandhartinger/sandbox-as-a-service-mcp)
-🎖️ 📇 ☁️ - Dedicated Linux VM sandboxes for untrusted, model-generated code: run commands, move files, expose a preview URL and destroy the VM.
-
-`JavaScript` | Licence: MIT | MAJ: 2026-09-08
-**Tags** : `ai-agents`, `cloud-sandbox`, `code-execution`, `code-interpreter`, `llm`, `mcp`, `mcp-server`, `model-context-protocol`
-
-### [@vercel/agent-eval](https://www.npmjs.com/package/@vercel/agent-eval)
-Framework for testing AI coding agents in isolated sandboxes
-
-`TypeScript` | Licence: MIT | MAJ: 2026-10-08
-**Tags** : `ai`, `eval`, `testing`, `claude`, `agent`, `sandbox`
+⭐ 309 | `Go` | Licence: Apache-2.0 | MAJ: 2026-10-20
+**Tags** : `agent-native`, `agent-runtime`, `agent-sandbox`, `agentic-ai`, `ai-agents`, `claude`, `code-sandbox`, `cursor`
 
 <!-- TOOLS_SANDBOX_END -->
