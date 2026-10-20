@@ -83,13 +83,6 @@ graph LR
 - **Résumé** : Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims....
 - **Lien** : https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon
 
-### How Anthropic’s Dynamic Workflows Coordinate Claude Agents (Updated with video!)
-- **Source** : latent.space
-- **Date** : Mon, 12 Oct 2026
-- **Score** : 2
-- **Résumé** : At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers....
-- **Lien** : https://www.latent.space/p/claude-dynamic-workflows
-
 ### Stack Overflow for Agents triples signups with ChatGPT plugin
 - **Source** : OpenAI Blog
 - **Date** : Fri, 16 Oct 2026
@@ -103,13 +96,6 @@ graph LR
 - **Score** : 2
 - **Résumé** : See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT....
 - **Lien** : https://openai.com/index/amp-beyond-coding
-
-### How Third Moment Research runs 10,000 agents for 36+ hours
-- **Source** : OpenAI Blog
-- **Date** : Wed, 14 Oct 2026
-- **Score** : 2
-- **Résumé** : With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use....
-- **Lien** : https://openai.com/index/third-moment-research
 
 ### LWiAI Podcast #258 - Opus 5.5, Sol and Luna, Muse, DeepSeek-V4.1-Flash, Xi
 - **Source** : Last Week in AI
@@ -131,6 +117,13 @@ graph LR
 - **Score** : 2
 - **Résumé** : Google announces Gemini 3.7 Flash, Jalape&#241;o&#8217;s first results show industry-leading speed, A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I....
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-255-gemini-37-jalapeno
+
+### The Programmable Data Center — Evan Conrad, SF Compute
+- **Source** : latent.space
+- **Date** : Tue, 20 Oct 2026
+- **Score** : 1
+- **Résumé** : From GPU trading to physical settlement, independent markets, and programmable compute...
+- **Lien** : https://www.latent.space/p/sfcompute2
 
 ### [AINews] not much happened today
 - **Source** : latent.space
@@ -215,20 +208,19 @@ Programming tur...
 Asking that question also chang...
 - **Lien** : https://simonwillison.net/2026/Oct/16/code-review/
 
-### Tree Appreciator
-- **Source** : Simon Willison
-- **Date** : 2026-10-14T21:23
-- **Score** : 1
-- **Résumé** : Tool: Tree Appreciator
-        Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode), where I prompted Claude Opus 5.5 Max with:...
-- **Lien** : https://simonwillison.net/2026/Oct/14/tree-appreciator/
-
-### Run fast, private agents on-device with LFM2.5-24B-A2B
+### FairStress: A deeper evaluation of fairness in LLM decision-making
 - **Source** : Hugging Face Blog
-- **Date** : Tue, 13 Oct 2026
+- **Date** : Tue, 20 Oct 2026
 - **Score** : 1
 - **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b
+- **Lien** : https://huggingface.co/blog/allenai/fairstress
+
+### Franchisee reconciles cash in 94% less time with ChatGPT Work
+- **Source** : OpenAI Blog
+- **Date** : Tue, 20 Oct 2026
+- **Score** : 1
+- **Résumé** : An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow....
+- **Lien** : https://openai.com/index/ted-taylor-restaurant
 
 ### Advancing coding in low‑resource programming languages
 - **Source** : OpenAI Blog
@@ -250,5 +242,12 @@ Asking that question also chang...
 - **Score** : 1
 - **Résumé** : OpenAI publishes hundreds of math proofs from unreleased frontier model, Mistral and Reflection AI launch open-weight models to rival China, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-346-719-math-manuscripts
+
+### LWiAI Podcast #257 - GPT 6 Astra, AI Extinction, Security Incidents
+- **Source** : Last Week in AI
+- **Date** : Thu, 24 Sep 2026
+- **Score** : 1
+- **Résumé** : A belated discussion of Astra&#8217;s release, a bunch of AI incidents, and the broader situation we are in with regards to AI safety....
+- **Lien** : https://lastweekin.ai/p/lwiai-podcast-257-gpt-6-astra-ai
 
 <!-- BLOG_FEED_END -->
