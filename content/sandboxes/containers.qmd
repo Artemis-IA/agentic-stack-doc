@@ -112,6 +112,12 @@ subprocess.run([
 ## Outils découverts automatiquement
 
 <!-- TOOLS_SANDBOX_START -->
+### [daytona](https://github.com/daytonaio/daytona)
+Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code
+
+⭐ 71.5k | MAJ: 2026-10-21
+**Tags** : `agentic-workflow`, `ai`, `ai-agents`, `ai-runtime`, `ai-sandboxes`, `code-execution`, `code-interpreter`, `developer-tools`
+
 ### [firecracker](https://github.com/firecracker-microvm/firecracker)
 Secure and fast microVMs for serverless computing.
 
@@ -157,7 +163,7 @@ Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.
 ### [omnigent](https://github.com/omnigent-ai/omnigent)
 Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, an...
 
-⭐ 10.9k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-21
+⭐ 11.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-21
 **Tags** : `agent-framework`, `agent-governance`, `agent-orchestration`, `agents`, `ai`, `ai-agent`, `ai-agents`, `claude-code`
 
 ### [astrid](https://github.com/astrid-runtime/astrid)
@@ -169,7 +175,7 @@ Astrid is a portable, capability-secure operating system for composable software
 ### [openbrowser](https://github.com/ntegrals/openbrowser)
 Let AI agents browse the web. An autonomous toolkit for browser-based AI agents.
 
-⭐ 9.6k | `TypeScript` | Licence: MIT | MAJ: 2026-10-19
+⭐ 9.6k | `TypeScript` | Licence: MIT | MAJ: 2026-10-21
 **Tags** : `ai-agents`, `automation`, `claude`, `playwright`, `puppeteer`, `sandbox`
 
 ### [microsandbox](https://github.com/superradcompany/microsandbox)
@@ -202,34 +208,28 @@ OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe
 ⭐ 8.1k | `C` | Licence: MIT | MAJ: 2026-10-20
 **Tags** : `containers`, `cosmopolitan`, `devops`, `edge-computing`, `embedded`, `iot`, `sandbox`, `scripting`
 
-### [Wllama](https://github.com/ngxson/wllama)
-WebAssembly binding for llama.cpp - Enabling in-browser LLM inference
+### [smolvm](https://github.com/smol-machines/smolvm)
+An embeddable, portable, branchable virtual machine to safely run Agents locally.
 
-⭐ 1.3k | `TypeScript` | Licence: MIT | MAJ: 2026-10-21
-**Tags** : `llama`, `llamacpp`, `llm`, `wasm`, `webassembly`
+⭐ 6.8k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-21
+**Tags** : `agent-sandbox`, `ai-agents`, `code-execution`, `containers`, `crun`, `libkrun`, `llm`, `microvm`
 
-### [CUGA](https://github.com/cuga-project/cuga-agent)
-IBM Research's generalist agent harness built on LangGraph. Executes tasks over APIs and the web, with policy and human-in-the-loop controls, multi-agent supervision with remote A2A agents, and age...
+### [judge0](https://github.com/judge0/judge0)
+Robust, fast, scalable, and sandboxed open-source online code execution system for humans and AI.
 
-⭐ 1.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-20
-**Tags** : `agentic-ai`, `agents`, `ai-agents`, `coding-agent`, `computer-use`, `enterprise`, `generalist-agent`, `guardrails`
+⭐ 4.5k | `HTML` | Licence: GPL-3.0 | MAJ: 2026-10-21
+**Tags** : `ai-agent-tools`, `ai-agents`, `ai-tools`, `code-execution`, `code-executor`, `code-runner`, `competitive-programming`, `online-compiler`
 
-### [ScienceClaw](https://github.com/AgentTeam-TaichuAI/ScienceClaw)
-ScienceClaw is a personal research assistant built with LangChain DeepAgents and AIO Sandbox infrastructure, adopting a completely new architecture beyond OpenClaw. It offers stronger security, bet...
+### [arcbox](https://github.com/arcboxlabs/arcbox)
+Run AI agents on real and isolated machines — own kernel, filesystem, and network — with <100ms boot. Local first, OCI compatible, pure Rust.
 
-⭐ 674 | `Python` | MAJ: 2026-10-21
-**Tags** : `ai-agent`, `bioinformatics`, `data-analysis`, `docker`, `drug-discovery`, `fastapi`, `feishu`, `langchain`
+⭐ 4.2k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-21
+**Tags** : `ai-agents`, `computer-use`, `containers`, `docker`, `firecracker`, `microvm`, `rust`, `sandbox`
 
-### [Greywall](https://github.com/GreyhavenHQ/greywall)
-Deny-by-default command sandbox for AI coding agents with filesystem isolation, network control via transparent proxy, built-in profiles for agents like Claude Code or OpenCode, and learning mode f...
+### [microvm.nix](https://github.com/microvm-nix/microvm.nix)
+NixOS MicroVMs
 
-⭐ 310 | `Go` | Licence: Apache-2.0 | MAJ: 2026-10-16
-**Tags** : `agents`, `ai-security`, `claude-code`, `developer-tools`, `greyproxy`, `landlock`, `linux`, `llm`
-
-### [Ailoy](https://github.com/brekkylab/ailoy)
-A comprehensive framework for building AI agents that run anywhere, with full local-AI and WASM support.
-
-⭐ 154 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-21
-**Tags** : `agent`, `agent-builder`, `agentic-ai`, `ai-agents`, `computer-use-agent`, `gpu`, `gpu-acceleration`, `gpu-passthrough`
+⭐ 3.0k | `Nix` | Licence: MIT | MAJ: 2026-10-21
+**Tags** : `cloud-hypervisor`, `crosvm`, `firecracker`, `flake`, `flakes`, `kvmtool`, `microvm`, `microvms`
 
 <!-- TOOLS_SANDBOX_END -->

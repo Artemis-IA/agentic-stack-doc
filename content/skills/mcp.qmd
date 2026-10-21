@@ -121,12 +121,6 @@ MCP devient le **standard de facto** pour connecter les agents IA aux outils ext
 ## MCP Servers découverts automatiquement
 
 <!-- TOOLS_MCP_START -->
-### [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)
-🐍 ☁️ 🏠 - Hindsight: long-term memory for AI agents modeled on human memory.
-
-⭐ 52.2k | `Python` | Licence: MIT | MAJ: 2026-10-21
-**Tags** : `agentic-ai`, `agents`, `ai-memory`, `memory`
-
 ### [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)
 Playwright browser automation: interact with web pages through structured accessibility snapshots.
 
@@ -226,7 +220,7 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ### [LaurieWired/GhidraMCP](https://github.com/LaurieWired/GhidraMCP)
 ☕ 🏠 - Autonomous reverse engineering with Ghidra: decompile binaries, rename methods and data, and list methods, classes, imports and exports.
 
-⭐ 11.4k | `Java` | Licence: Apache-2.0 | MAJ: 2026-10-21
+⭐ 11.5k | `Java` | Licence: Apache-2.0 | MAJ: 2026-10-21
 
 ### [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP)
 📇 🏠 🍎 🪟 🐧 - Manage and execute programs, and read, write, search and edit code and text files.
@@ -237,7 +231,7 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ### [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp)
 📇 🏠 🐧 🍎 - Android and iOS app and device automation, development and app scraping on simulators, emulators and physical devices.
 
-⭐ 9.8k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-10-21
+⭐ 9.9k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-10-21
 **Tags** : `agent`, `android`, `emulator`, `ios`, `mcp`, `mobile`, `physical`, `real`
 
 ### [awslabs/mcp](https://github.com/awslabs/mcp)
@@ -285,7 +279,7 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 ### [Coding-Solo/godot-mcp](https://github.com/Coding-Solo/godot-mcp)
 📇 🏠 - Interact with the Godot game engine: edit, run and debug projects and manage scenes.
 
-⭐ 6.2k | `JavaScript` | Licence: MIT | MAJ: 2026-10-21
+⭐ 6.3k | `JavaScript` | Licence: MIT | MAJ: 2026-10-21
 **Tags** : `ai`, `godot`, `mcp`
 
 ### [bram2w/baserow](https://github.com/bram2w/baserow)
@@ -299,5 +293,11 @@ Create UI components inspired by 21st.dev design engineers.
 
 ⭐ 6.2k | `TypeScript` | Licence: ISC | MAJ: 2026-10-21
 **Tags** : `21st`, `claude`, `cursor`, `mcp`, `model-context-protocol`, `react`, `tailwindcss`, `ui-components`
+
+### [OpenConnector](https://github.com/oomol-lab/open-connector)
+Open-source connector gateway for agents to discover and execute SaaS actions through MCP, HTTP, and OpenAPI, with OAuth/API-key credential management and scoped runtime tokens. !GitHub Repo stars
+
+⭐ 6.1k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-10-21
+**Tags** : `agent-tools`, `ai-agents`, `api-gateway`, `automation`, `cli`, `cloudflare-workers`, `connectors`, `integration-platform`
 
 <!-- TOOLS_MCP_END -->
