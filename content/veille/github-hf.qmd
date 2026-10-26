@@ -60,7 +60,7 @@ Le script `scripts/veille_hf.py` surveille :
 <!-- GITHUB_FEED_START -->
 ### rea
 - **GitHub** : morluto/rea
-- **Stars** : 356,885
+- **Stars** : 388,107
 - **Langage** : TypeScript
 - **Licence** : MIT
 - **Description** : Reverse engineer anything with agents, from app behavior down to native binaries.
@@ -68,7 +68,7 @@ Le script `scripts/veille_hf.py` surveille :
 
 ### hermes-agent
 - **GitHub** : NousResearch/hermes-agent
-- **Stars** : 255,857
+- **Stars** : 257,228
 - **Langage** : Python
 - **Licence** : MIT
 - **Description** : The agent that grows with you
@@ -76,7 +76,7 @@ Le script `scripts/veille_hf.py` surveille :
 
 ### n8n
 - **GitHub** : n8n-io/n8n
-- **Stars** : 208,242
+- **Stars** : 208,625
 - **Langage** : TypeScript
 - **Licence** : NOASSERTION
 - **Description** : Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
@@ -84,7 +84,7 @@ Le script `scripts/veille_hf.py` surveille :
 
 ### firecrawl
 - **GitHub** : firecrawl/firecrawl
-- **Stars** : 193,890
+- **Stars** : 195,481
 - **Langage** : TypeScript
 - **Licence** : AGPL-3.0
 - **Description** : Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥
@@ -92,7 +92,7 @@ Le script `scripts/veille_hf.py` surveille :
 
 ### AutoGPT
 - **GitHub** : Significant-Gravitas/AutoGPT
-- **Stars** : 187,697
+- **Stars** : 187,756
 - **Langage** : Python
 - **Licence** : NOASSERTION
 - **Description** : AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
@@ -100,7 +100,7 @@ Le script `scripts/veille_hf.py` surveille :
 
 ### ollama
 - **GitHub** : ollama/ollama
-- **Stars** : 184,188
+- **Stars** : 184,828
 - **Langage** : Go
 - **Licence** : MIT
 - **Description** : Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
@@ -108,7 +108,7 @@ Le script `scripts/veille_hf.py` surveille :
 
 ### transformers
 - **GitHub** : huggingface/transformers
-- **Stars** : 167,958
+- **Stars** : 168,183
 - **Langage** : Python
 - **Licence** : Apache-2.0
 - **Description** : 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. 
@@ -116,7 +116,7 @@ Le script `scripts/veille_hf.py` surveille :
 
 ### dify
 - **GitHub** : langgenius/dify
-- **Stars** : 159,154
+- **Stars** : 159,587
 - **Langage** : Python
 - **Licence** : NOASSERTION
 - **Description** : Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.
@@ -124,79 +124,79 @@ Le script `scripts/veille_hf.py` surveille :
 
 ### open-webui
 - **GitHub** : open-webui/open-webui
-- **Stars** : 156,369
+- **Stars** : 156,795
 - **Langage** : Python
 - **Licence** : NOASSERTION
 - **Description** : User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
 - **Lien** : https://github.com/open-webui/open-webui
 
-### langchain
-- **GitHub** : langchain-ai/langchain
-- **Stars** : 148,213
-- **Langage** : Python
-- **Licence** : MIT
-- **Description** : The agent engineering platform.
-- **Lien** : https://github.com/langchain-ai/langchain
-
 ### cc-switch
 - **GitHub** : farion1231/cc-switch
-- **Stars** : 147,211
+- **Stars** : 148,851
 - **Langage** : Rust
 - **Licence** : MIT
 - **Description** : A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io
 - **Lien** : https://github.com/farion1231/cc-switch
 
+### langchain
+- **GitHub** : langchain-ai/langchain
+- **Stars** : 148,485
+- **Langage** : Python
+- **Licence** : MIT
+- **Description** : The agent engineering platform.
+- **Lien** : https://github.com/langchain-ai/langchain
+
 ### awesome-llm-apps
 - **GitHub** : Shubhamsaboo/awesome-llm-apps
-- **Stars** : 142,521
+- **Stars** : 143,101
 - **Langage** : Python
 - **Licence** : Apache-2.0
 - **Description** : 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
 - **Lien** : https://github.com/Shubhamsaboo/awesome-llm-apps
 
-### MoneyPrinterTurbo
-- **GitHub** : harry0703/MoneyPrinterTurbo
-- **Stars** : 133,761
-- **Langage** : Python
-- **Licence** : MIT
-- **Description** : 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.
-- **Lien** : https://github.com/harry0703/MoneyPrinterTurbo
-
 ### graphify
 - **GitHub** : Graphify-Labs/graphify
-- **Stars** : 131,469
+- **Stars** : 135,706
 - **Langage** : Python
 - **Licence** : Apache-2.0
 - **Description** : Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.
 - **Lien** : https://github.com/Graphify-Labs/graphify
 
+### MoneyPrinterTurbo
+- **GitHub** : harry0703/MoneyPrinterTurbo
+- **Stars** : 135,258
+- **Langage** : Python
+- **Licence** : MIT
+- **Description** : 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.
+- **Lien** : https://github.com/harry0703/MoneyPrinterTurbo
+
 ### browser-use
 - **GitHub** : browser-use/browser-use
-- **Stars** : 118,772
+- **Stars** : 119,178
 - **Langage** : Python
 - **Licence** : MIT
 - **Description** : Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.
 - **Lien** : https://github.com/browser-use/browser-use
 
-### caveman
-- **GitHub** : JuliusBrussee/caveman
-- **Stars** : 114,106
-- **Langage** : Go
-- **Licence** : Apache-2.0
-- **Description** : 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.
-- **Lien** : https://github.com/JuliusBrussee/caveman
-
 ### TradingAgents
 - **GitHub** : TauricResearch/TradingAgents
-- **Stars** : 112,557
+- **Stars** : 115,246
 - **Langage** : Python
 - **Licence** : Apache-2.0
 - **Description** : TradingAgents: Multi-Agents LLM Financial Trading Framework
 - **Lien** : https://github.com/TauricResearch/TradingAgents
 
+### caveman
+- **GitHub** : JuliusBrussee/caveman
+- **Stars** : 115,164
+- **Langage** : Go
+- **Licence** : Apache-2.0
+- **Description** : 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.
+- **Lien** : https://github.com/JuliusBrussee/caveman
+
 ### paperclip
 - **GitHub** : paperclipai/paperclip
-- **Stars** : 105,627
+- **Stars** : 107,480
 - **Langage** : TypeScript
 - **Licence** : MIT
 - **Description** : The open-source app everyone uses to manage agents at work
@@ -204,7 +204,7 @@ Le script `scripts/veille_hf.py` surveille :
 
 ### claude-mem
 - **GitHub** : thedotmack/claude-mem
-- **Stars** : 102,133
+- **Stars** : 103,257
 - **Langage** : TypeScript
 - **Licence** : Apache-2.0
 - **Description** : Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More
@@ -212,7 +212,7 @@ Le script `scripts/veille_hf.py` surveille :
 
 ### Agent-Reach
 - **GitHub** : Panniantong/Agent-Reach
-- **Stars** : 100,609
+- **Stars** : 102,865
 - **Langage** : Python
 - **Licence** : MIT
 - **Description** : Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
@@ -220,7 +220,7 @@ Le script `scripts/veille_hf.py` surveille :
 
 ### ragflow
 - **GitHub** : infiniflow/ragflow
-- **Stars** : 92,608
+- **Stars** : 92,892
 - **Langage** : Go
 - **Licence** : Apache-2.0
 - **Description** : RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
@@ -228,7 +228,7 @@ Le script `scripts/veille_hf.py` surveille :
 
 ### OpenHands
 - **GitHub** : OpenHands/OpenHands
-- **Stars** : 91,490
+- **Stars** : 91,884
 - **Langage** : TypeScript
 - **Licence** : MIT
 - **Description** : 🙌 OpenHands: AI-Driven Development
@@ -236,67 +236,67 @@ Le script `scripts/veille_hf.py` surveille :
 
 ### PaddleOCR
 - **GitHub** : PaddlePaddle/PaddleOCR
-- **Stars** : 91,482
+- **Stars** : 91,698
 - **Langage** : Python
 - **Licence** : Apache-2.0
 - **Description** : Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.
 - **Lien** : https://github.com/PaddlePaddle/PaddleOCR
 
+### Scrapling
+- **GitHub** : D4Vinci/Scrapling
+- **Stars** : 89,799
+- **Langage** : Python
+- **Licence** : BSD-3-Clause
+- **Description** : 🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev
+- **Lien** : https://github.com/D4Vinci/Scrapling
+
 ### worldmonitor
 - **GitHub** : koala73/worldmonitor
-- **Stars** : 89,083
+- **Stars** : 89,563
 - **Langage** : TypeScript
 - **Licence** : AGPL-3.0
 - **Description** : Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface
 - **Lien** : https://github.com/koala73/worldmonitor
 
-### Scrapling
-- **GitHub** : D4Vinci/Scrapling
-- **Stars** : 89,025
-- **Langage** : Python
-- **Licence** : BSD-3-Clause
-- **Description** : 🕷️ A Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev
-- **Lien** : https://github.com/D4Vinci/Scrapling
-
 ### crawl4ai
 - **GitHub** : unclecode/crawl4ai
-- **Stars** : 85,989
+- **Stars** : 86,290
 - **Langage** : Python
 - **Licence** : Apache-2.0
 - **Description** : Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key. Join our Discord https://discord.gg/VuxzM8mtf
 - **Lien** : https://github.com/unclecode/crawl4ai
 
-### rtk
-- **GitHub** : rtk-ai/rtk
-- **Stars** : 84,204
-- **Langage** : Rust
-- **Licence** : Apache-2.0
-- **Description** : CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
-- **Lien** : https://github.com/rtk-ai/rtk
-
 ### hello-agents
 - **GitHub** : datawhalechina/hello-agents
-- **Stars** : 84,068
+- **Stars** : 84,681
 - **Langage** : Python
 - **Licence** : NOASSERTION
 - **Description** : 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程
 - **Lien** : https://github.com/datawhalechina/hello-agents
 
+### rtk
+- **GitHub** : rtk-ai/rtk
+- **Stars** : 84,595
+- **Langage** : Rust
+- **Licence** : Apache-2.0
+- **Description** : CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
+- **Lien** : https://github.com/rtk-ai/rtk
+
 ### lobehub
 - **GitHub** : lobehub/lobehub
-- **Stars** : 83,393
+- **Stars** : 83,499
 - **Langage** : TypeScript
 - **Licence** : NOASSERTION
 - **Description** : 🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.
 - **Lien** : https://github.com/lobehub/lobehub
 
-### netdata
-- **GitHub** : netdata/netdata
-- **Stars** : 81,079
-- **Langage** : Go
-- **Licence** : GPL-3.0
-- **Description** : The fastest path to AI-powered full stack observability, even for lean teams.
-- **Lien** : https://github.com/netdata/netdata
+### OmniRoute
+- **GitHub** : cheaper-inference/OmniRoute
+- **Stars** : 81,305
+- **Langage** : TypeScript
+- **Licence** : MIT
+- **Description** : Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors
+- **Lien** : https://github.com/cheaper-inference/OmniRoute
 
 <!-- GITHUB_FEED_END -->
 
@@ -304,313 +304,313 @@ Le script `scripts/veille_hf.py` surveille :
 ## Modèles
 
 ### deepseek-ai/DeepSeek-R1
-- **Downloads** : 1,361,382
-- **Likes** : 14399
+- **Downloads** : 1,496,737
+- **Likes** : 14410
 - **Tags** : transformers, safetensors, deepseek_v3, text-generation, conversational
 - **Lien** : https://huggingface.co/deepseek-ai/DeepSeek-R1
 
 ### meta-llama/Llama-3.1-8B-Instruct
-- **Downloads** : 5,255,644
-- **Likes** : 8536
+- **Downloads** : 4,845,085
+- **Likes** : 8615
 - **Tags** : transformers, safetensors, llama, text-generation, facebook
 - **Lien** : https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct
 
 ### meta-llama/Meta-Llama-3-8B
-- **Downloads** : 154,595
-- **Likes** : 6762
+- **Downloads** : 133,604
+- **Likes** : 6767
 - **Tags** : transformers, safetensors, llama, text-generation, facebook
 - **Lien** : https://huggingface.co/meta-llama/Meta-Llama-3-8B
 
 ### deepseek-ai/DeepSeek-V4-Pro
-- **Downloads** : 358,020
-- **Likes** : 5669
+- **Downloads** : 358,904
+- **Likes** : 5678
 - **Tags** : transformers, safetensors, deepseek_v4, text-generation, arxiv:2606.19348
 - **Lien** : https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro
 
 ### meta-llama/Meta-Llama-3-8B-Instruct
-- **Downloads** : 429,637
-- **Likes** : 5471
+- **Downloads** : 341,036
+- **Likes** : 5569
 - **Tags** : transformers, safetensors, llama, text-generation, facebook
 - **Lien** : https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct
 
 ### openai/gpt-oss-120b
-- **Downloads** : 3,068,221
-- **Likes** : 5427
+- **Downloads** : 2,854,564
+- **Likes** : 5440
 - **Tags** : transformers, safetensors, gpt_oss, text-generation, vllm
 - **Lien** : https://huggingface.co/openai/gpt-oss-120b
 
 ### openai/gpt-oss-20b
-- **Downloads** : 5,892,118
-- **Likes** : 5197
+- **Downloads** : 5,783,154
+- **Likes** : 5221
 - **Tags** : transformers, safetensors, gpt_oss, text-generation, vllm
 - **Lien** : https://huggingface.co/openai/gpt-oss-20b
 
 ### zai-org/GLM-5.2
-- **Downloads** : 368,911
-- **Likes** : 5180
+- **Downloads** : 293,941
+- **Likes** : 5186
 - **Tags** : transformers, safetensors, glm_moe_dsa, text-generation, conversational
 - **Lien** : https://huggingface.co/zai-org/GLM-5.2
 
 ### bigscience/bloom
-- **Downloads** : 12,555
-- **Likes** : 5087
+- **Downloads** : 11,107
+- **Likes** : 5092
 - **Tags** : transformers, pytorch, tensorboard, safetensors, bloom
 - **Lien** : https://huggingface.co/bigscience/bloom
 
 ### meta-llama/Llama-2-7b-chat-hf
-- **Downloads** : 150,905
-- **Likes** : 4911
+- **Downloads** : 137,200
+- **Likes** : 4924
 - **Tags** : transformers, pytorch, safetensors, llama, text-generation
 - **Lien** : https://huggingface.co/meta-llama/Llama-2-7b-chat-hf
 
 ### facebook/bart-large-cnn
-- **Downloads** : 1,253,736
-- **Likes** : 1640
+- **Downloads** : 1,170,821
+- **Likes** : 1643
 - **Tags** : transformers, pytorch, tf, jax, rust
 - **Lien** : https://huggingface.co/facebook/bart-large-cnn
 
 ### google/flan-t5-xxl
-- **Downloads** : 12,353
-- **Likes** : 1290
+- **Downloads** : 12,395
+- **Likes** : 1292
 - **Tags** : transformers, pytorch, tf, jax, safetensors
 - **Lien** : https://huggingface.co/google/flan-t5-xxl
 
 ### google/flan-t5-base
-- **Downloads** : 922,804
-- **Likes** : 1107
+- **Downloads** : 785,565
+- **Likes** : 1110
 - **Tags** : transformers, pytorch, tf, jax, safetensors
 - **Lien** : https://huggingface.co/google/flan-t5-base
 
 ### facebook/nllb-200-distilled-600M
-- **Downloads** : 871,117
-- **Likes** : 996
+- **Downloads** : 952,528
+- **Likes** : 997
 - **Tags** : transformers, pytorch, m2m_100, text2text-generation, nllb
 - **Lien** : https://huggingface.co/facebook/nllb-200-distilled-600M
 
 ### google/flan-t5-large
-- **Downloads** : 240,523
-- **Likes** : 898
+- **Downloads** : 230,881
+- **Likes** : 900
 - **Tags** : transformers, pytorch, tf, jax, safetensors
 - **Lien** : https://huggingface.co/google/flan-t5-large
 
 ### google-t5/t5-base
-- **Downloads** : 1,973,371
-- **Likes** : 802
+- **Downloads** : 2,005,359
+- **Likes** : 805
 - **Tags** : transformers, pytorch, tf, jax, rust
 - **Lien** : https://huggingface.co/google-t5/t5-base
 
 ### google-t5/t5-small
-- **Downloads** : 24,464,017
-- **Likes** : 680
+- **Downloads** : 24,892,291
+- **Likes** : 685
 - **Tags** : transformers, pytorch, tf, jax, rust
 - **Lien** : https://huggingface.co/google-t5/t5-small
 
 ### CohereLabs/aya-101
-- **Downloads** : 2,456
+- **Downloads** : 2,583
 - **Likes** : 665
 - **Tags** : transformers, safetensors, t5, text2text-generation, afr
 - **Lien** : https://huggingface.co/CohereLabs/aya-101
 
 ### Qwen/Qwen2-Audio-7B-Instruct
-- **Downloads** : 194,790
-- **Likes** : 571
+- **Downloads** : 172,144
+- **Likes** : 574
 - **Tags** : transformers, safetensors, qwen2_audio, text2text-generation, chat
 - **Lien** : https://huggingface.co/Qwen/Qwen2-Audio-7B-Instruct
 
-### Helsinki-NLP/opus-mt-zh-en
-- **Downloads** : 366,151
-- **Likes** : 565
-- **Tags** : transformers, pytorch, tf, rust, marian
-- **Lien** : https://huggingface.co/Helsinki-NLP/opus-mt-zh-en
+### google/flan-ul2
+- **Downloads** : 849
+- **Likes** : 567
+- **Tags** : transformers, pytorch, t5, text2text-generation, flan-ul2
+- **Lien** : https://huggingface.co/google/flan-ul2
 
 ### microsoft/phi-2
-- **Downloads** : 470,309
-- **Likes** : 3528
+- **Downloads** : 424,644
+- **Likes** : 3531
 - **Tags** : transformers, safetensors, phi, text-generation, nlp
 - **Lien** : https://huggingface.co/microsoft/phi-2
 
 ### bigcode/starcoder
-- **Downloads** : 3,204
+- **Downloads** : 2,577
 - **Likes** : 2986
 - **Tags** : transformers, pytorch, safetensors, gpt_bigcode, text-generation
 - **Lien** : https://huggingface.co/bigcode/starcoder
 
 ### yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF
-- **Downloads** : 164,820
-- **Likes** : 2965
+- **Downloads** : 112,701
+- **Likes** : 2973
 - **Tags** : gguf, gemma4, coding, code, reasoning
 - **Lien** : https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF
 
 ### microsoft/phi-4
-- **Downloads** : 370,129
-- **Likes** : 2326
+- **Downloads** : 372,170
+- **Likes** : 2330
 - **Tags** : transformers, safetensors, phi3, text-generation, phi
 - **Lien** : https://huggingface.co/microsoft/phi-4
 
 ### Qwen/Qwen2.5-Coder-32B-Instruct
-- **Downloads** : 642,833
-- **Likes** : 2182
+- **Downloads** : 553,084
+- **Likes** : 2189
 - **Tags** : transformers, safetensors, qwen2, text-generation, code
 - **Lien** : https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct
 
 ### microsoft/Phi-3-mini-128k-instruct
-- **Downloads** : 230,177
-- **Likes** : 1709
+- **Downloads** : 252,264
+- **Likes** : 1711
 - **Tags** : transformers, safetensors, phi3, text-generation, nlp
 - **Lien** : https://huggingface.co/microsoft/Phi-3-mini-128k-instruct
 
 ### microsoft/Phi-4-multimodal-instruct
-- **Downloads** : 134,687
-- **Likes** : 1624
+- **Downloads** : 108,412
+- **Likes** : 1625
 - **Tags** : transformers, safetensors, phi4mm, text-generation, nlp
 - **Lien** : https://huggingface.co/microsoft/Phi-4-multimodal-instruct
 
 ### microsoft/Phi-3-mini-4k-instruct
-- **Downloads** : 347,980
-- **Likes** : 1476
+- **Downloads** : 338,205
+- **Likes** : 1481
 - **Tags** : transformers, safetensors, phi3, text-generation, nlp
 - **Lien** : https://huggingface.co/microsoft/Phi-3-mini-4k-instruct
 
 ### microsoft/phi-1_5
-- **Downloads** : 53,986
-- **Likes** : 1368
+- **Downloads** : 54,335
+- **Likes** : 1371
 - **Tags** : transformers, safetensors, phi, text-generation, nlp
 - **Lien** : https://huggingface.co/microsoft/phi-1_5
 
 ### TaichuAI/ZDTaichu5.0-9B
-- **Downloads** : 8,185
-- **Likes** : 3031
+- **Downloads** : 2,683
+- **Likes** : 3039
 - **Tags** : safetensors, zdtaichu5_0, multimodal, vision-language-model, spatial-reasoning
 - **Lien** : https://huggingface.co/TaichuAI/ZDTaichu5.0-9B
 
 ### nvidia/personaplex-7b-v1
-- **Downloads** : 119,253
-- **Likes** : 2862
+- **Downloads** : 101,806
+- **Likes** : 2908
 - **Tags** : moshi, safetensors, personaplex, speech-to-speech, agent
 - **Lien** : https://huggingface.co/nvidia/personaplex-7b-v1
 
 ### MiniMaxAI/MiniMax-M3
-- **Downloads** : 208,764
-- **Likes** : 1589
+- **Downloads** : 200,547
+- **Likes** : 1597
 - **Tags** : transformers, safetensors, minimax_m3_vl, image-text-to-text, multimodal
 - **Lien** : https://huggingface.co/MiniMaxAI/MiniMax-M3
 
 ### XHToken/Spark-X2.5-4B
-- **Downloads** : 36,890
-- **Likes** : 1428
+- **Downloads** : 33,964
+- **Likes** : 1434
 - **Tags** : transformers, safetensors, spark2_5, text-generation, llm
 - **Lien** : https://huggingface.co/XHToken/Spark-X2.5-4B
 
-### XiaomiMiMo/MiMo-V2.5-Pro
-- **Downloads** : 15,849
-- **Likes** : 766
-- **Tags** : transformers, safetensors, mimo_v2, text-generation, agent
-- **Lien** : https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro
-
 ### XiaomiMiMo/MiMo-V2.6-Pro-RL
-- **Downloads** : 103,884
-- **Likes** : 763
+- **Downloads** : 32,170
+- **Likes** : 780
 - **Tags** : transformers, safetensors, mimo_v2, text-generation, multimodal
 - **Lien** : https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL
 
+### XiaomiMiMo/MiMo-V2.5-Pro
+- **Downloads** : 12,260
+- **Likes** : 768
+- **Tags** : transformers, safetensors, mimo_v2, text-generation, agent
+- **Lien** : https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro
+
 ### Qwen/Qwen-AgentWorld-35B-A3B
-- **Downloads** : 8,875
-- **Likes** : 739
+- **Downloads** : 8,734
+- **Likes** : 740
 - **Tags** : transformers, safetensors, qwen3_5_moe, image-text-to-text, qwen
 - **Lien** : https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B
 
 ### Tesslate/OmniCoder-9B
-- **Downloads** : 818
-- **Likes** : 687
+- **Downloads** : 722
+- **Likes** : 688
 - **Tags** : transformers, safetensors, qwen3_5, image-text-to-text, qwen3.5
 - **Lien** : https://huggingface.co/Tesslate/OmniCoder-9B
 
 ### Kwaipilot/KAT-Coder-V2.5-Dev
-- **Downloads** : 11,865
-- **Likes** : 670
+- **Downloads** : 11,836
+- **Likes** : 671
 - **Tags** : transformers, safetensors, qwen3_5_moe, image-text-to-text, code
 - **Lien** : https://huggingface.co/Kwaipilot/KAT-Coder-V2.5-Dev
 
 ### CohereLabs/North-Mini-Code-1.0
-- **Downloads** : 7,264
-- **Likes** : 581
+- **Downloads** : 7,508
+- **Likes** : 585
 - **Tags** : transformers, safetensors, cohere2_moe, text-generation, conversational
 - **Lien** : https://huggingface.co/CohereLabs/North-Mini-Code-1.0
 
 ### Qwen/Qwen3.8-27B
-- **Downloads** : 7,729,432
-- **Likes** : 18129
+- **Downloads** : 7,608,285
+- **Likes** : 18427
 - **Tags** : transformers, safetensors, qwen3_5, image-text-to-text, conversational
 - **Lien** : https://huggingface.co/Qwen/Qwen3.8-27B
 
 ### moonshotai/Kimi-K3
-- **Downloads** : 988,698
-- **Likes** : 11787
+- **Downloads** : 856,232
+- **Likes** : 11833
 - **Tags** : transformers, safetensors, kimi_k3, feature-extraction, compressed-tensors
 - **Lien** : https://huggingface.co/moonshotai/Kimi-K3
 
 ### Qwen/Qwen3.8-Flash-Next
-- **Downloads** : 2,633,567
-- **Likes** : 6384
+- **Downloads** : 3,162,203
+- **Likes** : 6490
 - **Tags** : transformers, safetensors, qwen4_exp, image-text-to-text, conversational
 - **Lien** : https://huggingface.co/Qwen/Qwen3.8-Flash-Next
 
 ### unsloth/Qwen3.8-27B-GGUF
-- **Downloads** : 6,291,461
-- **Likes** : 5248
+- **Downloads** : 5,900,822
+- **Likes** : 5345
 - **Tags** : gguf, qwen3_5, unsloth, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B
 - **Lien** : https://huggingface.co/unsloth/Qwen3.8-27B-GGUF
 
 ## Datasets
 
 ### fka/prompts.chat
-- **Downloads** : 27,761
-- **Likes** : 9897
+- **Downloads** : 27,363
+- **Likes** : 9908
 - **Lien** : https://huggingface.co/datasets/fka/prompts.chat
 
 ### HuggingFaceFW/fineweb
-- **Downloads** : 338,194
-- **Likes** : 3689
+- **Downloads** : 358,827
+- **Likes** : 3707
 - **Lien** : https://huggingface.co/datasets/HuggingFaceFW/fineweb
 
 ### Anthropic/hh-rlhf
-- **Downloads** : 35,139
-- **Likes** : 2449
+- **Downloads** : 35,184
+- **Likes** : 2462
 - **Lien** : https://huggingface.co/datasets/Anthropic/hh-rlhf
 
 ### openai/gsm8k
-- **Downloads** : 1,004,056
-- **Likes** : 1996
+- **Downloads** : 974,255
+- **Likes** : 2005
 - **Lien** : https://huggingface.co/datasets/openai/gsm8k
 
 ### wikimedia/wikipedia
-- **Downloads** : 295,732
-- **Likes** : 1670
+- **Downloads** : 289,715
+- **Likes** : 1689
 - **Lien** : https://huggingface.co/datasets/wikimedia/wikipedia
 
 ### Open-Orca/OpenOrca
-- **Downloads** : 12,574
-- **Likes** : 1621
+- **Downloads** : 13,037
+- **Likes** : 1626
 - **Lien** : https://huggingface.co/datasets/Open-Orca/OpenOrca
 
 ### OpenAssistant/oasst1
-- **Downloads** : 37,999
-- **Likes** : 1609
+- **Downloads** : 31,989
+- **Likes** : 1615
 - **Lien** : https://huggingface.co/datasets/OpenAssistant/oasst1
 
 ### tatsu-lab/alpaca
-- **Downloads** : 82,556
-- **Likes** : 1378
+- **Downloads** : 82,038
+- **Likes** : 1381
 - **Lien** : https://huggingface.co/datasets/tatsu-lab/alpaca
 
 ### HuggingFaceFW/fineweb-edu
-- **Downloads** : 435,604
-- **Likes** : 1366
+- **Downloads** : 433,811
+- **Likes** : 1377
 - **Lien** : https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu
 
 ### databricks/databricks-dolly-15k
-- **Downloads** : 40,429
-- **Likes** : 1362
+- **Downloads** : 42,640
+- **Likes** : 1365
 - **Lien** : https://huggingface.co/datasets/databricks/databricks-dolly-15k
 
 <!-- HF_FEED_END -->
