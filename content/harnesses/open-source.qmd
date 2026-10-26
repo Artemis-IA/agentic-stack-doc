@@ -134,6 +134,12 @@ CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. S
 ⭐ 84.6k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-10-26
 **Tags** : `agentic-coding`, `ai-coding`, `anthropic`, `claude-code`, `cli`, `command-line-tool`, `cost-reduction`, `developer-tools`
 
+### [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
+A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC (no affilia...
+
+⭐ 56.6k | `Python` | Licence: NOASSERTION | MAJ: 2026-10-26
+**Tags** : `agent-skills`, `agentic-code`, `agentic-coding`, `ai-workflow-optimization`, `ai-workflows`, `anthropic`, `anthropic-claude`, `awesome`
+
 ### [gpt-engineer](https://github.com/AntonOsika/gpt-engineer)
 CLI platform to experiment with codegen. Precursor to: https://lovable.dev
 
@@ -149,14 +155,26 @@ AAS Core is the local, agent-first control plane for complete catalog discovery,
 ### [medusa](https://github.com/medusajs/medusa)
 The world's most flexible commerce platform for agents and developers
 
-⭐ 36.9k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-10-26
+⭐ 37.0k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-10-26
 **Tags** : `ai-coding`, `ai-tools`, `commerce`, `e-commerce`, `ecommerce`, `framework`, `javascript`, `medusa`
+
+### [oh-my-pi](https://github.com/can1357/oh-my-pi)
+⌥ Coding agent with the IDE wired in. Built by Stencil Labs.
+
+⭐ 36.7k | `TypeScript` | Licence: MIT | MAJ: 2026-10-26
+**Tags** : `ai-agent`, `ai-coding-agent`, `anthropic`, `bun`, `claude`, `cli`, `coding-assistant`, `llm`
 
 ### [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix)
 A reliable coding agent for complex software engineering tasks.
 
 ⭐ 36.0k | `Go` | Licence: MIT | MAJ: 2026-10-26
 **Tags** : `agent`, `agent-framework`, `ai-agent`, `ai-coding`, `cli`, `coding-agent`, `deepseek`, `developer-tools`
+
+### [tabby](https://github.com/TabbyML/tabby)
+Self-hosted AI coding assistant
+
+⭐ 33.9k | `Rust` | Licence: NOASSERTION | MAJ: 2026-10-26
+**Tags** : `ai`, `codegen`, `coding-assistant`, `coding-language`, `developer-experience`, `developer-tools`, `gen-ai`, `ide`
 
 ### [gpt-pilot](https://github.com/Pythagora-io/gpt-pilot)
 The first real AI developer
@@ -188,8 +206,14 @@ Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate fa
 ⭐ 27.8k | `TypeScript` | Licence: MIT | MAJ: 2026-10-26
 **Tags** : `ai`, `ai-age`, `ai-coding`, `ai-developer-tools`, `chatgpt`, `claude`, `cli`, `gemini`
 
+### [Archon](https://github.com/coleam00/Archon)
+The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.
+
+⭐ 23.8k | `TypeScript` | Licence: MIT | MAJ: 2026-10-26
+**Tags** : `ai`, `automation`, `bun`, `claude`, `cli`, `coding-assistant`, `developer-tools`, `typescript`
+
 ### [Paradev](https://github.com/ParadevAI/Paradev)
-Superset is an agentic IDE to orchestrate 100+ coding agents in parallel. Run any agent with your own subscription.
+Paradev (formerly Superset) is an agentic IDE to orchestrate 100+ coding agents in parallel. Run any agent with your own subscription.
 
 ⭐ 15.6k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-10-26
 **Tags** : `ade`, `agent`, `agent-orchestration`, `ai-agents`, `ai-coding`, `claude-code`, `cli`, `codex`
@@ -199,6 +223,12 @@ Open-source (Apache-2.0) orchestrator for Claude Code, Codex & 30+ coding agents
 
 ⭐ 13.7k | `Go` | Licence: Apache-2.0 | MAJ: 2026-10-26
 **Tags** : `agent-fleet`, `agent-ide`, `agent-orchestration`, `agent-swarm`, `agentic-coding`, `ai-agents`, `ai-coding`, `claude-code`
+
+### [pr-agent](https://github.com/The-PR-Agent/pr-agent)
+🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.
+
+⭐ 13.6k | `Python` | Licence: MIT | MAJ: 2026-10-26
+**Tags** : `ai`, `anthropic`, `code-review`, `coding-assistant`, `devtools`, `ollama`, `openai`, `pull-request`
 
 ### [claude-context](https://github.com/zilliztech/claude-context)
 Code search MCP for Claude Code. Make entire codebase the context for any coding agent.
@@ -217,35 +247,5 @@ Free, local tool to track AI coding token usage and cost across 37 tools and age
 
 ⭐ 11.6k | `TypeScript` | Licence: MIT | MAJ: 2026-10-26
 **Tags** : `ai-coding`, `claude-code`, `cli`, `codex`, `cost-tracking`, `cursor-ide`, `developer-tools`, `menubar`
-
-### [ccpm](https://github.com/automazeio/ccpm)
-Project management skill system for Agents that uses GitHub Issues and Git worktrees for parallel agent execution.
-
-⭐ 8.4k | `Shell` | Licence: MIT | MAJ: 2026-10-26
-**Tags** : `ai-agents`, `ai-coding`, `claude`, `claude-code`, `project-management`, `vibe-coding`
-
-### [superpowers-zh](https://github.com/jnMetaCode/superpowers-zh)
-🦸 AI 编程超能力 · 中文增强版 — superpowers（250k+ ⭐）完整汉化 + 4 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI / Qoder 等 26 款 AI 编程工具真正会干活
-
-⭐ 8.4k | `JavaScript` | Licence: MIT | MAJ: 2026-10-26
-**Tags** : `agent-skills`, `agentic-coding`, `ai-coding`, `chinese`, `claude-code`, `code-review`, `cursor`, `gemini-cli`
-
-### [OpenBitFun](https://github.com/GCWing/OpenBitFun)
-OpenBitFun combines a high-performance agent runtime written in Rust with a polished desktop application. It pairs the depth of a Code Agent with open, general-purpose capabilities for work beyond ...
-
-⭐ 3.3k | `Rust` | Licence: MIT | MAJ: 2026-10-26
-**Tags** : `agent-teams`, `agentic`, `agentic-os`, `agentic-runtime`, `ai-coding`, `ai-ide`, `ai-sdk`, `bitfun`
-
-### [Nanocoder](https://github.com/Nano-Collective/nanocoder)
-Local-first CLI coding agent built with React and Ink. !GitHub Repo stars
-
-⭐ 2.5k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-10-26
-**Tags** : `ai`, `ai-agents`, `ai-coding`, `coding-agents`, `llm`, `llm-inference`, `ollama`, `openai`
-
-### [AgentsMesh](https://github.com/AgentsMesh/AgentsMesh)
-The AI Agent Workforce Platform. Remote AI workstations (AgentPods) with PTY sandbox + git worktree isolation, multi-agent collaboration via channels and pod bindings, built-in Kanban with MR/PR in...
-
-⭐ 2.4k | `Go` | Licence: NOASSERTION | MAJ: 2026-10-26
-**Tags** : `agent-orchestration`, `agentsmesh`, `ai-agent`, `ai-agent-workforce-platform`, `ai-coding`, `aider`, `claude-code`, `codex-cli`
 
 <!-- TOOLS_HARNESS_OSS_END -->

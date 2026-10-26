@@ -121,16 +121,10 @@ MCP devient le **standard de facto** pour connecter les agents IA aux outils ext
 ## MCP Servers découverts automatiquement
 
 <!-- TOOLS_MCP_START -->
-### [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)
-🐍 ☁️ 🏠 - Hindsight: long-term memory for AI agents modeled on human memory.
-
-⭐ 54.0k | `Python` | Licence: MIT | MAJ: 2026-10-26
-**Tags** : `agentic-ai`, `agents`, `ai-memory`, `memory`
-
 ### [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)
 Playwright browser automation: interact with web pages through structured accessibility snapshots.
 
-⭐ 38.6k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-10-26
+⭐ 38.7k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-10-26
 **Tags** : `mcp`, `playwright`
 
 ### [lightpanda-io/browser](https://github.com/lightpanda-io/browser)
@@ -208,7 +202,7 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 📇 🏠 🐧 🍎 - Android and iOS app and device automation, development and app scraping on simulators, emulators and physical devices.
 
 ⭐ 10.0k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-10-26
-**Tags** : `agent`, `android`, `emulator`, `ios`, `mcp`, `mobile`, `physical`, `real`
+**Tags** : `agent`, `android`, `appium-alternative`, `claude-code`, `codex`, `cursor`, `emulator`, `ios`
 
 ### [awslabs/mcp](https://github.com/awslabs/mcp)
 🎖️ ☁️ - Suite of servers for integrating with AWS services and resources.
@@ -298,5 +292,11 @@ Open-source connector gateway for agents to discover and execute SaaS actions th
 
 ⭐ 5.2k | `TypeScript` | Licence: MIT | MAJ: 2026-10-26
 **Tags** : `code-search`, `codesearch`, `crawling`, `mcp`, `mcp-server`, `model-context-protocol`, `web-search`, `websearch`
+
+### [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device)
+!callstackincubator/agent-device MCP server 📇 🏠 🍎 🐧 - Discovery router for the agent-device CLI: status, install guidance, version-matched help and prompts for iOS, Android, tvOS, macOS and Linux a...
+
+⭐ 5.2k | `TypeScript` | Licence: MIT | MAJ: 2026-10-26
+**Tags** : `adb`, `agentic-ai`, `agents`, `ai-agents`, `android-emulator`, `automation`, `e2e-testing`, `expo`
 
 <!-- TOOLS_MCP_END -->
