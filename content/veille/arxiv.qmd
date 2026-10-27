@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### J-Comm: Jacobian-Guided Latent Communication between LLM Agents
-- **arXiv** : 2610.32871v1
-- **Date** : 2026-10-23
-- **Auteurs** : Xiangwei Wang, Wei Wang, Sachith Seneviratne, Ken Chen, Yu Xia
+### A Unified Arena for LLM Agents across Diverse Eurogame
+- **arXiv** : 2610.35773v1
+- **Date** : 2026-10-26
+- **Auteurs** : Fengrui Zhang, Xiang Li, Ruomeng Ding, Jiayi Yuan, Yuchen Huang
+- **Score** : 10
+- **Résumé** : Interactive environments offer a practical way to evaluate large language model (LLM) agents, and competitive games extend this evaluation to decisions shaped by competing goals and other agents' choices. Yet existing evaluations confined to individual games or execution frameworks leave unclear whi...
+- **Lien** : https://arxiv.org/abs/2610.35773v1
+
+### Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy
+- **arXiv** : 2610.35832v1
+- **Date** : 2026-10-26
+- **Auteurs** : Yifei Yao, Yude Zou, Guanbo Jiao, Xing Gao, Ning Gao
 - **Score** : 9
-- **Résumé** : Latent communication requires both an effective continuous reasoning process and an interface through which an external model can leverage its intermediate computation. We present J-Comm, a framework comprising two core components. First, a training-free Geometric Agreement for Latent Reasoning (GEA...
-- **Lien** : https://arxiv.org/abs/2610.32871v1
+- **Résumé** : Frontier multimodal large language models (MLLMs) can control robots without robot-specific training, but how their capabilities compare and interact with post-trained vision-language-action (VLA) and world action model (WAM) policies across manipulation demands remains to be thoroughly evaluated. I...
+- **Lien** : https://arxiv.org/abs/2610.35832v1
 
-### Reimagining Enterprise RAG for Multi-Agent Systems: A Knowledge Layer That Organizes Before It Retrieves
-- **arXiv** : 2610.32851v1
-- **Date** : 2026-10-23
-- **Auteurs** : Garima Agrawal, Prasun Das, Akshay Sarvade, Priyanka L, Minisha N
+### Reva: Real-Time Vulnerability Detection through Contextual Probing of Large Language Models
+- **arXiv** : 2610.35829v1
+- **Date** : 2026-10-26
+- **Auteurs** : Amine Lbath, Massih-Reza Amini
 - **Score** : 9
-- **Résumé** : Enterprises are deploying agentic AI across the software development lifecycle, and they need the behavioral logic of the systems they act on, not stakeholder documentation. A seven-agent reverse-engineering pipeline recovered this logic, processing 241 repositories across 18 services into thousands...
-- **Lien** : https://arxiv.org/abs/2610.32851v1
+- **Résumé** : A vulnerability costs more to fix the later it is discovered. As coding agents generate code faster than developers can review it, software needs a first line of defense screening each new function in real time. LLM agents have recently become capable of finding real-world vulnerabilities by working...
+- **Lien** : https://arxiv.org/abs/2610.35829v1
 
-### Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning
-- **arXiv** : 2610.32951v1
-- **Date** : 2026-10-23
-- **Auteurs** : Yijing Ke, Tianle Cai, Ruosong Wang
+### Quantifying Claim Smoothing by LLM Research Agents
+- **arXiv** : 2610.35793v1
+- **Date** : 2026-10-26
+- **Auteurs** : Tiasa Singha Roy, Manya Wadhwa, Greg Durrett
+- **Score** : 9
+- **Résumé** : Deep research, or any use of large language models (LLMs) to read a large document collection and produce insights, requires synthesizing information from different sources. In this work, we find that LLMs produce long-form research reports that read as confident syntheses but which fail to accurate...
+- **Lien** : https://arxiv.org/abs/2610.35793v1
+
+### Patient-specific rubric-based evaluation of large language models across longitudinal cancer care
+- **arXiv** : 2610.35847v1
+- **Date** : 2026-10-26
+- **Auteurs** : Wei-Wei Zhang, Pengkai Wang, Yan Li, Zhijie Sang, Guan-Qun Zhou
+- **Score** : 8
+- **Résumé** : Large language models (LLMs) show promise in specialty medicine, yet existing evaluations largely focus on isolated clinical encounters rather than tracking how clinical responsibilities evolve across a longitudinal care pathway. Here we introduce NPC-RubricBench, a phase-aware benchmark for evaluat...
+- **Lien** : https://arxiv.org/abs/2610.35847v1
+
+### Auto-Research Arena: Benchmarking and Advancing Auto-Research in Language Modeling
+- **arXiv** : 2610.35866v1
+- **Date** : 2026-10-26
+- **Auteurs** : Xi Chen, Chongjian Ge, Yiran Xu, Yiqun Mei, Henrik I. Christensen
 - **Score** : 7
-- **Résumé** : Reinforcement learning for large language models often uses separate systems for inference and training. Even with identical weights and BF16 tensors, implementation differences can make an intended on-policy update off-policy and destabilize training. Existing remedies align the entire inference an...
-- **Lien** : https://arxiv.org/abs/2610.32951v1
+- **Résumé** : As autonomous research systems become more capable, benchmarks must both evaluate their performance and support meaningful research progress. We introduce Auto-Research Arena, a multi-target benchmark for evaluating autonomous research systems and discovering ideas in language modeling. Arena suppor...
+- **Lien** : https://arxiv.org/abs/2610.35866v1
 
-### Trusting the Tool: Asymmetric Deference of LLM Vulnerability Auditors to Static-Analysis Evidence
-- **arXiv** : 2610.32876v1
-- **Date** : 2026-10-23
-- **Auteurs** : ZhiHong Liu, Shuyao Gao
+### From Self-Confidence to Statistical Accuracy: Scaling Human-in-the-Loop Evaluation with Direct and LLM-Assisted Auditing
+- **arXiv** : 2610.35698v1
+- **Date** : 2026-10-26
+- **Auteurs** : Harine Choi, Chenchen Kuai, Zihao Li, Jiwan Jiang, Yunlong Zhang
 - **Score** : 7
-- **Résumé** : Pipelines that combine large language models (LLMs) with static analysis let the model consume the analyser's output as evidence, but whether the model distinguishes true from false evidence, and whether its scrutiny depends on what the evidence claims, has not been measured. We built an intraproced...
-- **Lien** : https://arxiv.org/abs/2610.32876v1
+- **Résumé** : For large language models (LLMs) and multimodal large language models (MLLMs), model-reported self-confidence is often miscalibrated, yet it may still be useful for efficient evaluation. At the same time, LLM-as-a-judge offers a scalable alternative to direct human auditing, but its practical benefi...
+- **Lien** : https://arxiv.org/abs/2610.35698v1
 
-### SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning
-- **arXiv** : 2610.32978v1
-- **Date** : 2026-10-23
-- **Auteurs** : Yuhan Liu, Lianhui Qin, Shenji Wan
+### Retriever-Free Retrieval: Navigating Documents with Decision Models
+- **arXiv** : 2610.35868v1
+- **Date** : 2026-10-26
+- **Auteurs** : Chao Wan, Paul Jünger, Beixi Du, Bodong Liu, Navaneetha Krishnan
 - **Score** : 6
-- **Résumé** : Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors over plausible arrang...
-- **Lien** : https://arxiv.org/abs/2610.32978v1
+- **Résumé** : While language models have become dramatically more capable, retrieval still largely relies on lexical matching or similarity in fixed embedding spaces. This creates a capability asymmetry: what the retriever fails to find, even the strongest generator cannot recover. We propose DecisionRAG, which b...
+- **Lien** : https://arxiv.org/abs/2610.35868v1
 
-### Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox
-- **arXiv** : 2610.32955v1
-- **Date** : 2026-10-23
-- **Auteurs** : Federico Lucca
+### Understanding Jev-Style System One Models: Does Structure Reduce Selection Bias?
+- **arXiv** : 2610.35826v1
+- **Date** : 2026-10-26
+- **Auteurs** : Mingyang Song, Mao Zheng, Zhiyuan Ma, Xinpeng Zhou
 - **Score** : 6
-- **Résumé** : Personal email agents decide, for every message, what it is, whether it is urgent, whether to draft a reply, create a task, or ignore it. Their error rate is rarely measured: the stored labels were written by the system itself. We present Foyer, a self-hosted personal inbox agent in daily use, and a...
-- **Lien** : https://arxiv.org/abs/2610.32955v1
+- **Résumé** : Selection bias in large language models (LLMs) can persist despite instructions to ignore presentation order or prompts that elicit reasoning. Recent efforts to reproduce Jev-style System One behavior have produced a growing family of models that predict probabilities directly over supplied candidat...
+- **Lien** : https://arxiv.org/abs/2610.35826v1
 
-### Monetizing Intelligence: Advertising and Subscription Design on LLM Platforms
-- **arXiv** : 2610.32945v1
-- **Date** : 2026-10-23
-- **Auteurs** : Yuhang Ji, Fasheng Xu, Tianjun Feng
+### Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent
+- **arXiv** : 2610.35817v1
+- **Date** : 2026-10-26
+- **Auteurs** : Benjamin Pikus, Daniel Saunders, Mircea Mironenco, Salman Mohammadi, Mathew Mathew
 - **Score** : 6
-- **Résumé** : Large language model (LLM) platforms introducing advertising must decide how much capability ad revenue should fund and what consumers should pay to avoid ads. We study a monopolistic platform that jointly chooses costly response quality, advertising intensity, and subscription prices when advertisi...
-- **Lien** : https://arxiv.org/abs/2610.32945v1
+- **Résumé** : A robot policy needs to understand what a task is asking for in a scene, and how to move the robot to accomplish that task. To achieve these two skills, we introduce Zero-real Agent Policy (ZAP), a recipe that teaches a small off-the-shelf vision-language model to control a robot via a simple tool h...
+- **Lien** : https://arxiv.org/abs/2610.35817v1
 
-### Green Code or Costly Code? Evaluating the Energy Costs of Iterative LLM-Based Code Optimizations
-- **arXiv** : 2610.32891v1
-- **Date** : 2026-10-23
-- **Auteurs** : Sadra Emami, Benjamin Weigell, Mohammad Reza Mousavi, Gunel Jahangirova, Hugo Araujo
+### Learning When to Commit: Schedule Distillation for Fast Diffusion Language Models
+- **arXiv** : 2610.35804v1
+- **Date** : 2026-10-26
+- **Auteurs** : Aidar Myrzakhan, Zhiqiang Shen
 - **Score** : 6
-- **Résumé** : Large Language Models (LLMs) are increasingly used to optimize code for performance. This practice often assumes that improvements in execution speed naturally translate into overall lower energy consumption. We challenge this assumption empirically by measuring whether performance-optimized code pr...
-- **Lien** : https://arxiv.org/abs/2610.32891v1
+- **Résumé** : Diffusion large language models (dLLMs) can generate multiple tokens in parallel, but often require many decoding rounds to complete a response. Efficient generation depends not only on which tokens are easy to predict, but also on how committing to them helps predict the remaining positions. A high...
+- **Lien** : https://arxiv.org/abs/2610.35804v1
 
-### Do "True" and "False" Add Up to One? Complement Consistency in LLM-Agent Opinion Simulations
-- **arXiv** : 2610.32874v1
-- **Date** : 2026-10-23
-- **Auteurs** : Anouar Imel, Jin Qi
+### FOCUS: Active Critic Learning for Long-Horizon Language Model Agents
+- **arXiv** : 2610.35801v1
+- **Date** : 2026-10-26
+- **Auteurs** : Zhengping Jiang, William Jurayj, Liaoyaqi Wang, Chunsheng Zuo, Anqi Liu
 - **Score** : 6
-- **Résumé** : In LLM-agent opinion simulations, each agent reports the probability that a claim is true after seeing its own previous probability and the probabilities reported by its neighbors, and that number becomes its state in the next round. If the number describes the agent's position rather than the sente...
-- **Lien** : https://arxiv.org/abs/2610.32874v1
+- **Résumé** : Sparse outcome rewards make it difficult for long-horizon language-model agents to assign credit to earlier actions. Learned critics provide value estimates for intermediate states, but these estimates can be inaccurate, while estimating intermediate values with repetitive continuation samples from ...
+- **Lien** : https://arxiv.org/abs/2610.35801v1
 
-### The Language of Instruction: Genre and Generative AI
-- **arXiv** : 2610.32982v1
-- **Date** : 2026-10-23
-- **Auteurs** : James E. Dobson
+### Free to Look, Free to Reason: Simple LLM Harnesses Outdiagnose Hand-Crafted Root Cause Analysis Agents
+- **arXiv** : 2610.35767v1
+- **Date** : 2026-10-26
+- **Auteurs** : Tingzhu Bi, Xun Zhang, Jinglin Li, Ping Wang, Meng Ma
+- **Score** : 6
+- **Résumé** : Root cause analysis (RCA) of microservice failures has attracted many LLM agents whose investigation is hand-crafted, through standard operating procedures, fixed stages and role agents. Each is evaluated on its own data against few baselines, so it is unknown whether this design beats letting a cap...
+- **Lien** : https://arxiv.org/abs/2610.35767v1
+
+### EvoRouter: Cost-Efficient Multi-Agent Routing via Insight-Guided On-Policy Distillation
+- **arXiv** : 2610.35690v1
+- **Date** : 2026-10-26
+- **Auteurs** : Yitao Xiao, Xu Zhang, Ye Cheng, Shaoyong Guo, Yan Sun
+- **Score** : 6
+- **Résumé** : Serving web queries at scale with multi-agent systems requires jointly configuring large language models, collaboration modes, agent counts, interaction rounds, and skills. However, the resulting configuration space grows combinatorially, while sparse execution rewards provide limited fine-grained s...
+- **Lien** : https://arxiv.org/abs/2610.35690v1
+
+### Model Selection for Off-Policy Evaluation via Pairwise Bellman Validation
+- **arXiv** : 2610.35748v1
+- **Date** : 2026-10-26
+- **Auteurs** : Lars van der Laan, Vasilis Syrgkanis, Nathan Kallus
+- **Score** : 4
+- **Résumé** : Model selection and hyperparameter tuning pose a central challenge in off-policy evaluation (OPE) because errors of fitted Q-functions and occupancy-ratio estimates cannot be directly evaluated from held-out transitions. Bellman-residual and minimax validation methods often require auxiliary regress...
+- **Lien** : https://arxiv.org/abs/2610.35748v1
+
+### Preserve to Expand: Source-Aware Adaptation and Model Merging for Multilingual LLM-Based ASR
+- **arXiv** : 2610.35846v1
+- **Date** : 2026-10-26
+- **Auteurs** : Yuchen Zhang, Haralambos Mouratidis, Ravi Shekhar
 - **Score** : 3
-- **Résumé** : This article argues that instruction-fine-tuned language models should be understood as implementing a genre, what is proposed as the instructional-conversational genre. This genre is an amalgamation of discursive language from prior conversations between generative models and humans recursively run...
-- **Lien** : https://arxiv.org/abs/2610.32982v1
+- **Résumé** : Expanding multilingual ASR systems to new languages is challenging when adaptation must preserve previously supported languages without replaying source-language training data. We study this problem in connector-based Speech LLMs, where a trainable connector maps speech representations into a frozen...
+- **Lien** : https://arxiv.org/abs/2610.35846v1
 
-### Beyond Discrete Tokens: Preserving Numerical Continuity in Medical Vision-Language Models
-- **arXiv** : 2610.32948v1
-- **Date** : 2026-10-23
-- **Auteurs** : Dianye Huang, Jiamei Guo, Yue Zhou, Mingde Li, Yi Xiong
+### Work Agents: Systems, Capabilities, and Optimization
+- **arXiv** : 2610.35845v1
+- **Date** : 2026-10-26
+- **Auteurs** : Zishan Xu, Enjun Du, Mingqi Gao, Cheng Yang, Junhao Shen
 - **Score** : 3
-- **Résumé** : Objective: To develop a unified vision-language model for prompt-conditioned quantitative ultrasound measurement that addresses the mismatch between continuous measurement targets and discrete token-based numerical prediction. Methods: This article presents HAD-VLM, a hybrid autoregressive-diffusion...
-- **Lien** : https://arxiv.org/abs/2610.32948v1
+- **Résumé** : As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To addres...
+- **Lien** : https://arxiv.org/abs/2610.35845v1
 
-### Adaptive Frequency Threshold Byte Pair Encoding for Mixed Natural Language and Structured Symbolic Corpora
-- **arXiv** : 2610.32921v1
-- **Date** : 2026-10-23
-- **Auteurs** : Pietro Di Nicco, Lucio La Cava, Andrea Tagarelli
+### I-HITL: Inalienable Human-in-the-Loop
+- **arXiv** : 2610.35835v1
+- **Date** : 2026-10-26
+- **Auteurs** : Samuel Breckenridge, Dani Vilardell, Wenhao Wang, Fan Zhang, Ari Juels
 - **Score** : 3
-- **Résumé** : Modern language models rely on subwording tokenization to define the discrete units of input processing, typically using methods like Byte Pair Encoding (BPE) that treat whitespace as a fixed semantic boundary. This design is inherently limited, as many meaningful concepts---including multiword expr...
-- **Lien** : https://arxiv.org/abs/2610.32921v1
+- **Résumé** : Human oversight is a pillar of AI safety. It is often exercised by a human in the loop (HITL) who approves critical actions taken by an AI agent. AI agents' increasing ability to bypass guardrails, though, raises the question of how to enforce HITL robustly. We introduce the concept of inalienable h...
+- **Lien** : https://arxiv.org/abs/2610.35835v1
 
-### Reinforcement Learning with Multi-Step Transition Predictions: A Bellman Theory
-- **arXiv** : 2610.32887v1
-- **Date** : 2026-10-23
-- **Auteurs** : Chenbei Lu, Zaiwei Chen, Tongxin Li, Chenye Wu, Adam Wierman
+### Preference-Guided Cooperation in Multi-Objective Multi-Agent Reinforcement Learning
+- **arXiv** : 2610.35736v1
+- **Date** : 2026-10-26
+- **Auteurs** : Qiyue Xia, J. Michael Herrmann
 - **Score** : 3
-- **Résumé** : Multi-step predictions of future transition realizations can improve reinforcement learning, but their value remains difficult to quantify. Directly including these predictions in the state can lead to exponential state-space growth, making direct dynamic programming computationally expensive. We st...
-- **Lien** : https://arxiv.org/abs/2610.32887v1
+- **Résumé** : Multi-objective multi-agent reinforcement learning (MOMARL) addresses agent coordination and objective trade-offs simultaneously while optimising overall system performance. Existing work tends to treat multi-agent cooperation and multi-objective optimisation as largely independent components of a l...
+- **Lien** : https://arxiv.org/abs/2610.35736v1
 
-### NgramRL: Accelerating RL Post-Training for Structured Generation via Rollout-Aware N-gram Speculative Decoding
-- **arXiv** : 2610.32881v1
-- **Date** : 2026-10-23
-- **Auteurs** : Nilesh Prasad Pandey, Jangseon Park, Jason Kong, Onat Gungor, Tajana Rosing
+### Quantitative Generalization Bounds for Multi-Layer Transformers: A Few Long Strings can Beat Many Short Ones
+- **arXiv** : 2610.35715v1
+- **Date** : 2026-10-26
+- **Auteurs** : Marius Henry, Michael Rizvi-Martel, Michael Hahn
 - **Score** : 3
-- **Résumé** : Reinforcement learning (RL) post-training improves the reasoning capabilities of large language models, but its cost is dominated by autoregressive rollout generation, which can exceed 70% of training time. Existing speculative-decoding methods are poorly suited to this setting: model-based drafters...
-- **Lien** : https://arxiv.org/abs/2610.32881v1
-
-### Advancing SVD-based LLM Compression via Layer-Wise Error Model Search
-- **arXiv** : 2610.32878v1
-- **Date** : 2026-10-23
-- **Auteurs** : Moritz Thoma, Maximilian Groezinger, Maximilian Forstenhäusler, Emad Aghajanzadeh, Manoj Rohit Vemparala
-- **Score** : 3
-- **Résumé** : Low-rank SVD-based compression offers a powerful strategy to reduce the computational costs of LLMs. However, existing methods face two key limitations: (i) global rank allocation, where uncalibrated error proxies fail to capture complex error propagation, and (ii) decomposition quality, where Fishe...
-- **Lien** : https://arxiv.org/abs/2610.32878v1
-
-### From Deliberately Constructed Systemic Representations of the World of Activity to Dialogue: A Five-Level Communication Architecture for Strong Language-Based ASI
-- **arXiv** : 2610.32869v1
-- **Date** : 2026-10-23
-- **Auteurs** : Maxim Osovsky
-- **Score** : 3
-- **Résumé** : This paper proposes a five-level organization of message formation and understanding within thinking and activity in which ASI participates. Its central thesis is that a language model's context is fundamentally incapable of presenting the foundations of utterance formation for examination and verif...
-- **Lien** : https://arxiv.org/abs/2610.32869v1
-
-### HarnessMM: Recursive Self-Improvement for Harness Token Efficiency
-- **arXiv** : 2610.32813v1
-- **Date** : 2026-10-23
-- **Auteurs** : Yuhua Jiang, Chang Xu, Feifei Gao, Li Zhao
-- **Score** : 3
-- **Résumé** : Agent harnesses repeatedly invoke reasoning after tool feedback, even when an earlier call has already fixed the next action. We introduce HarnessMM (Harness Minus Minus), a method for improving harness token efficiency through guarded decision reuse and recursive self-improvement (RSI). RSI iterati...
-- **Lien** : https://arxiv.org/abs/2610.32813v1
-
-### Frontier-OPD: Discovering the Edge of Agent Capability and Teaching Agents to Go Beyond
-- **arXiv** : 2610.32802v1
-- **Date** : 2026-10-23
-- **Auteurs** : Zheng Jiang, Yiming Chen, Houde Qian, Ling Li, Chaoyang Li
-- **Score** : 3
-- **Résumé** : On-policy distillation aligns teacher feedback with a student's current behavior, yet acquiring useful supervision for multi-turn agents requires identifying both where guidance is needed and whether the student can sustain the interaction afterward. We introduce Frontier-OPD, which addresses this p...
-- **Lien** : https://arxiv.org/abs/2610.32802v1
-
-### CARES: Coverage-Aware Replay Exemplar Selection for Continual Learning
-- **arXiv** : 2610.32799v1
-- **Date** : 2026-10-23
-- **Auteurs** : Arundhati S. Shanbhag, Brian B. Moser, Federico Raue, Tobias C. Nauen, Andreas Dengel
-- **Score** : 3
-- **Résumé** : Replay-based Continual Learning mitigates catastrophic forgetting by keeping a buffer of past samples, making buffer composition critical under a fixed memory budget. Recent coreset-based replay methods improve buffer quality using model-derived gradients, losses, or auxiliary optimization, but incu...
-- **Lien** : https://arxiv.org/abs/2610.32799v1
-
-### RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms
-- **arXiv** : 2610.32971v1
-- **Date** : 2026-10-23
-- **Auteurs** : Xi Chen, Fengqi Hu, Zeyu Shen, Jiaying Xu, Shangding Gu
-- **Score** : 1
-- **Résumé** : Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit their broader potential: limited algorithm reusab...
-- **Lien** : https://arxiv.org/abs/2610.32971v1
+- **Résumé** : Transformer-based language models exhibit an astonishing capacity to generalize to longer and more difficult problem instances than those seen in training. However, theoretical understanding of this phenomenon still lags behind. Unlike most machine learning models, the generalisation abilities of tr...
+- **Lien** : https://arxiv.org/abs/2610.35715v1
 
 <!-- ARXIV_FEED_END -->
