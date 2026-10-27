@@ -69,12 +69,26 @@ graph LR
 | Hardware | `GPU`, `H100`, `B200`, `TPU`, `LPU`, `Groq` |
 
 <!-- BLOG_FEED_START -->
+### Coding From the Himalayas With an Offline AI Agent
+- **Source** : latent.space
+- **Date** : Tue, 27 Oct 2026
+- **Score** : 4
+- **Résumé** : How to set up and run an offline coding agent using OpenCode, Ollama and Qwen....
+- **Lien** : https://latent.space/p/offline-coding/
+
 ### Last Week in AI #343 - GPT-6, OpenAI’s agents chatted on a wiki, Fable 5.1
 - **Source** : Last Week in AI
 - **Date** : Mon, 07 Sep 2026
 - **Score** : 4
 - **Résumé** : GPT-6 Astra Is Here, Discovery of a new OpenAI agent message board, Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-343-gpt-6-openais
+
+### How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands
+- **Source** : latent.space
+- **Date** : Tue, 27 Oct 2026
+- **Score** : 3
+- **Résumé** : Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and b...
+- **Lien** : https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/
 
 ### Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO
 - **Source** : latent.space
@@ -83,19 +97,12 @@ graph LR
 - **Résumé** : Elastic GPUs, sandbox growth, and the economics of the agent cloud...
 - **Lien** : https://latent.space/p/modal-d/
 
-### Claude Mods: Flipping the Harness Inside Out
+### How Anthropic ships Claude with Claude: Separating the Brain from the Hands
 - **Source** : latent.space
-- **Date** : Wed, 21 Oct 2026
+- **Date** : Tue, 27 Oct 2026
 - **Score** : 2
-- **Résumé** : Claude Mods is an early form of the Attention Interface. It flips the agent harness paradigm from the harness facing the machine, to the harness facing the human....
-- **Lien** : https://latent.space/p/claude-mods/
-
-### [AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback
-- **Source** : latent.space
-- **Date** : Wed, 21 Oct 2026
-- **Score** : 2
-- **Résumé** : An open source “bomb” drops from China...
-- **Lien** : https://latent.space/p/ainews-deepseek-deepinfer-open-source/
+- **Résumé** : Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents....
+- **Lien** : https://latent.space/p/opus55/
 
 ### Donating Agent Skills to the Agentic AI Foundation
 - **Source** : Simon Willison
@@ -106,6 +113,13 @@ News today from Anthropic:
 
 We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral...
 - **Lien** : https://simonwillison.net/2026/Oct/22/donating-agent-skills/
+
+### OpenAI expands partnership with Oracle to bring its apps to ChatGPT
+- **Source** : OpenAI Blog
+- **Date** : Tue, 27 Oct 2026
+- **Score** : 2
+- **Résumé** : OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings....
+- **Lien** : https://openai.com/index/oracle-apps-in-chatgpt
 
 ### GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases
 - **Source** : OpenAI Blog
@@ -149,13 +163,6 @@ We’re committed to keeping Agent Skills open, community-driven, and vendor-neu
 - **Résumé** : The Big Hardening begins...
 - **Lien** : https://latent.space/p/ainews-openais-patch-the-planet-program/
 
-### AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess
-- **Source** : latent.space
-- **Date** : Wed, 21 Oct 2026
-- **Score** : 1
-- **Résumé** : Paying for outcomes, building with agents, and the last mile of enterprise AI adoption...
-- **Lien** : https://latent.space/p/tenex/
-
 ### GPT-6.1 Terra
 - **Source** : Simon Willison
 - **Date** : 2026-10-26T23:53
@@ -189,6 +196,13 @@ In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use
 
 Build an artifact where you open a photo and it...
 - **Lien** : https://simonwillison.net/2026/Oct/23/quick-study-painter/
+
+### Can we trust LLMs to judge whether a research idea is novel?
+- **Source** : Hugging Face Blog
+- **Date** : Tue, 27 Oct 2026
+- **Score** : 1
+- **Résumé** : ...
+- **Lien** : https://huggingface.co/blog/allenai/novelty-bench
 
 ### Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox
 - **Source** : Hugging Face Blog
@@ -238,12 +252,5 @@ Build an artifact where you open a photo and it...
 - **Score** : 1
 - **Résumé** : A belated discussion of Astra&#8217;s release, a bunch of AI incidents, and the broader situation we are in with regards to AI safety....
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-257-gpt-6-astra-ai
-
-### LWiAI Podcast #253 - Opus 5, Gemini 3.6, Kimi K3, Hugging Face Hack
-- **Source** : Last Week in AI
-- **Date** : Mon, 03 Aug 2026
-- **Score** : 1
-- **Résumé** : Anthropic releases Opus 5 promising Fable 5-like capabilities, Google Releases Three New Gemini A.I. Models, and more!...
-- **Lien** : https://lastweekin.ai/p/lwiai-podcast-253-opus-5-gemini-36
 
 <!-- BLOG_FEED_END -->
