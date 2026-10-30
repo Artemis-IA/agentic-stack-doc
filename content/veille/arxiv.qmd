@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### A Unified Arena for LLM Agents across Diverse Eurogame
-- **arXiv** : 2610.35773v1
-- **Date** : 2026-10-26
-- **Auteurs** : Fengrui Zhang, Xiang Li, Ruomeng Ding, Jiayi Yuan, Yuchen Huang
+### VeriCUA: Verification as Agentic Exploration for Computer-Using Agents
+- **arXiv** : 2610.40578v1
+- **Date** : 2026-10-29
+- **Auteurs** : Qiushi Sun, Da Yu, Alexander Knop, Amer Sinha, Lingpeng Kong
 - **Score** : 10
-- **Résumé** : Interactive environments offer a practical way to evaluate large language model (LLM) agents, and competitive games extend this evaluation to decisions shaped by competing goals and other agents' choices. Yet existing evaluations confined to individual games or execution frameworks leave unclear whi...
-- **Lien** : https://arxiv.org/abs/2610.35773v1
+- **Résumé** : Building and scaling computer-using agents (CUAs) across desktop, mobile, and web environments requires reliable task-completion verification for data curation, evaluation, and reinforcement learning. Typical automated approaches prompt vision-language models (VLMs) to judge trajectories or generate...
+- **Lien** : https://arxiv.org/abs/2610.40578v1
 
-### Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy
-- **arXiv** : 2610.35832v1
-- **Date** : 2026-10-26
-- **Auteurs** : Yifei Yao, Yude Zou, Guanbo Jiao, Xing Gao, Ning Gao
+### Agentic University: Collaborative Agents for Personalized Learning
+- **arXiv** : 2610.40492v1
+- **Date** : 2026-10-29
+- **Auteurs** : Jingru Fan, Tianle Zhou, Yunjie Zhou, Zihao He, Yixuan Zhou
 - **Score** : 9
-- **Résumé** : Frontier multimodal large language models (MLLMs) can control robots without robot-specific training, but how their capabilities compare and interact with post-trained vision-language-action (VLA) and world action model (WAM) policies across manipulation demands remains to be thoroughly evaluated. I...
-- **Lien** : https://arxiv.org/abs/2610.35832v1
+- **Résumé** : Large language models support personalized tutoring, content generation, and adaptive learning paths. However, capability development requires these resources and interactions to form a coherent learning process that evolves with the learner. A central challenge is to align goals, activities, and as...
+- **Lien** : https://arxiv.org/abs/2610.40492v1
 
-### Reva: Real-Time Vulnerability Detection through Contextual Probing of Large Language Models
-- **arXiv** : 2610.35829v1
-- **Date** : 2026-10-26
-- **Auteurs** : Amine Lbath, Massih-Reza Amini
-- **Score** : 9
-- **Résumé** : A vulnerability costs more to fix the later it is discovered. As coding agents generate code faster than developers can review it, software needs a first line of defense screening each new function in real time. LLM agents have recently become capable of finding real-world vulnerabilities by working...
-- **Lien** : https://arxiv.org/abs/2610.35829v1
-
-### Quantifying Claim Smoothing by LLM Research Agents
-- **arXiv** : 2610.35793v1
-- **Date** : 2026-10-26
-- **Auteurs** : Tiasa Singha Roy, Manya Wadhwa, Greg Durrett
-- **Score** : 9
-- **Résumé** : Deep research, or any use of large language models (LLMs) to read a large document collection and produce insights, requires synthesizing information from different sources. In this work, we find that LLMs produce long-form research reports that read as confident syntheses but which fail to accurate...
-- **Lien** : https://arxiv.org/abs/2610.35793v1
-
-### Patient-specific rubric-based evaluation of large language models across longitudinal cancer care
-- **arXiv** : 2610.35847v1
-- **Date** : 2026-10-26
-- **Auteurs** : Wei-Wei Zhang, Pengkai Wang, Yan Li, Zhijie Sang, Guan-Qun Zhou
+### On the Fundamental Limits of Prefill-Based Decoding Length Prediction
+- **arXiv** : 2610.40541v1
+- **Date** : 2026-10-29
+- **Auteurs** : Haowen Shi, Xuzhe Yan, Fahao Chen, Peng Li
 - **Score** : 8
-- **Résumé** : Large language models (LLMs) show promise in specialty medicine, yet existing evaluations largely focus on isolated clinical encounters rather than tracking how clinical responsibilities evolve across a longitudinal care pathway. Here we introduce NPC-RubricBench, a phase-aware benchmark for evaluat...
-- **Lien** : https://arxiv.org/abs/2610.35847v1
+- **Résumé** : Predicting how many tokens a large language model (LLM) will decode, using only prefill-phase hidden states, is a key primitive for inference scheduling. We show that current benchmarks conflate predictor quality with task hardness: when the target model, dataset, or sampling configuration changes, ...
+- **Lien** : https://arxiv.org/abs/2610.40541v1
 
-### Auto-Research Arena: Benchmarking and Advancing Auto-Research in Language Modeling
-- **arXiv** : 2610.35866v1
-- **Date** : 2026-10-26
-- **Auteurs** : Xi Chen, Chongjian Ge, Yiran Xu, Yiqun Mei, Henrik I. Christensen
+### TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races
+- **arXiv** : 2610.40613v1
+- **Date** : 2026-10-29
+- **Auteurs** : Tom Sander, Pierre Fernandez, Itai Gat, Haiming Bao, Jiaxin Shi
 - **Score** : 7
-- **Résumé** : As autonomous research systems become more capable, benchmarks must both evaluate their performance and support meaningful research progress. We introduce Auto-Research Arena, a multi-target benchmark for evaluating autonomous research systems and discovering ideas in language modeling. Arena suppor...
-- **Lien** : https://arxiv.org/abs/2610.35866v1
+- **Résumé** : We present TextSeal2, a distortion-free watermark for large language models that keeps its signal under speculative decoding: tokens that replace rejected drafts remain watermarked with the same keys, and the acceptance rate is unchanged. It also preserves output diversity and adds no measurable inf...
+- **Lien** : https://arxiv.org/abs/2610.40613v1
 
-### From Self-Confidence to Statistical Accuracy: Scaling Human-in-the-Loop Evaluation with Direct and LLM-Assisted Auditing
-- **arXiv** : 2610.35698v1
-- **Date** : 2026-10-26
-- **Auteurs** : Harine Choi, Chenchen Kuai, Zihao Li, Jiwan Jiang, Yunlong Zhang
-- **Score** : 7
-- **Résumé** : For large language models (LLMs) and multimodal large language models (MLLMs), model-reported self-confidence is often miscalibrated, yet it may still be useful for efficient evaluation. At the same time, LLM-as-a-judge offers a scalable alternative to direct human auditing, but its practical benefi...
-- **Lien** : https://arxiv.org/abs/2610.35698v1
-
-### Retriever-Free Retrieval: Navigating Documents with Decision Models
-- **arXiv** : 2610.35868v1
-- **Date** : 2026-10-26
-- **Auteurs** : Chao Wan, Paul Jünger, Beixi Du, Bodong Liu, Navaneetha Krishnan
+### From extreme weather to agricultural consequences with agentic AI
+- **arXiv** : 2610.40641v1
+- **Date** : 2026-10-29
+- **Auteurs** : Minghan Yu, Mengyu Dai, Yixin Wen, Haizhao Yang
 - **Score** : 6
-- **Résumé** : While language models have become dramatically more capable, retrieval still largely relies on lexical matching or similarity in fixed embedding spaces. This creates a capability asymmetry: what the retriever fails to find, even the strongest generator cannot recover. We propose DecisionRAG, which b...
-- **Lien** : https://arxiv.org/abs/2610.35868v1
+- **Résumé** : Extreme weather is forecast days ahead, yet its consequences for agriculture remain hard to predict: a forecast says where a storm will strike, not which crops will suffer or how much is at risk, and the records that could tell span many sources. We present WxCrop, the first agent that judges agricu...
+- **Lien** : https://arxiv.org/abs/2610.40641v1
 
-### Understanding Jev-Style System One Models: Does Structure Reduce Selection Bias?
-- **arXiv** : 2610.35826v1
-- **Date** : 2026-10-26
-- **Auteurs** : Mingyang Song, Mao Zheng, Zhiyuan Ma, Xinpeng Zhou
+### Collaborative AI agents for autonomous experimental research with solid-state quantum spins
+- **arXiv** : 2610.40589v1
+- **Date** : 2026-10-29
+- **Auteurs** : El Mustapha Mansouri, Eikichi Kimura, Masato Koga, Keigo Arai
 - **Score** : 6
-- **Résumé** : Selection bias in large language models (LLMs) can persist despite instructions to ignore presentation order or prompts that elicit reasoning. Recent efforts to reproduce Jev-style System One behavior have produced a growing family of models that predict probabilities directly over supplied candidat...
-- **Lien** : https://arxiv.org/abs/2610.35826v1
+- **Résumé** : An autonomous research laboratory could conduct an entire study, from formulating questions to preparing manuscripts. Artificial intelligence (AI) offers one route towards this goal. Recent AI systems take on several research roles, but may draw conclusions that the evidence does not support. Here, ...
+- **Lien** : https://arxiv.org/abs/2610.40589v1
 
-### Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent
-- **arXiv** : 2610.35817v1
-- **Date** : 2026-10-26
-- **Auteurs** : Benjamin Pikus, Daniel Saunders, Mircea Mironenco, Salman Mohammadi, Mathew Mathew
+### Comparing Human Role-Players and LLM-Simulated Clients in Online Counselling Training: An Analysis of Counselling Patterns
+- **arXiv** : 2610.40563v1
+- **Date** : 2026-10-29
+- **Auteurs** : Eric Rudolph, Philipp Steigerwald, Jens Albrecht
 - **Score** : 6
-- **Résumé** : A robot policy needs to understand what a task is asking for in a scene, and how to move the robot to accomplish that task. To achieve these two skills, we introduce Zero-real Agent Policy (ZAP), a recipe that teaches a small off-the-shelf vision-language model to control a robot via a simple tool h...
-- **Lien** : https://arxiv.org/abs/2610.35817v1
+- **Résumé** : This study investigates the capabilities of Large Language Models to simulate counselling clients in educational role-plays in comparison to human role-players. Initially, we recorded role-playing sessions, where novice counsellors interacted with human peers acting as clients, followed by role-play...
+- **Lien** : https://arxiv.org/abs/2610.40563v1
 
-### Learning When to Commit: Schedule Distillation for Fast Diffusion Language Models
-- **arXiv** : 2610.35804v1
-- **Date** : 2026-10-26
-- **Auteurs** : Aidar Myrzakhan, Zhiqiang Shen
+### A Low-Rank Space Captures Linear Alignment Between LLM and Human Neural Activity During Naturalistic Language Listening
+- **arXiv** : 2610.40511v1
+- **Date** : 2026-10-29
+- **Auteurs** : Zach Paris, Emily Finn
 - **Score** : 6
-- **Résumé** : Diffusion large language models (dLLMs) can generate multiple tokens in parallel, but often require many decoding rounds to complete a response. Efficient generation depends not only on which tokens are easy to predict, but also on how committing to them helps predict the remaining positions. A high...
-- **Lien** : https://arxiv.org/abs/2610.35804v1
+- **Résumé** : Large language models (LLMs) are increasingly used as computational models of human language processing, yet it remains unclear which components of their representations drive alignment with neural activity. Here, we use ridge reduced-rank regression to identify the brain-predictive subspace of LLM ...
+- **Lien** : https://arxiv.org/abs/2610.40511v1
 
-### FOCUS: Active Critic Learning for Long-Horizon Language Model Agents
-- **arXiv** : 2610.35801v1
-- **Date** : 2026-10-26
-- **Auteurs** : Zhengping Jiang, William Jurayj, Liaoyaqi Wang, Chunsheng Zuo, Anqi Liu
-- **Score** : 6
-- **Résumé** : Sparse outcome rewards make it difficult for long-horizon language-model agents to assign credit to earlier actions. Learned critics provide value estimates for intermediate states, but these estimates can be inaccurate, while estimating intermediate values with repetitive continuation samples from ...
-- **Lien** : https://arxiv.org/abs/2610.35801v1
-
-### Free to Look, Free to Reason: Simple LLM Harnesses Outdiagnose Hand-Crafted Root Cause Analysis Agents
-- **arXiv** : 2610.35767v1
-- **Date** : 2026-10-26
-- **Auteurs** : Tingzhu Bi, Xun Zhang, Jinglin Li, Ping Wang, Meng Ma
-- **Score** : 6
-- **Résumé** : Root cause analysis (RCA) of microservice failures has attracted many LLM agents whose investigation is hand-crafted, through standard operating procedures, fixed stages and role agents. Each is evaluated on its own data against few baselines, so it is unknown whether this design beats letting a cap...
-- **Lien** : https://arxiv.org/abs/2610.35767v1
-
-### EvoRouter: Cost-Efficient Multi-Agent Routing via Insight-Guided On-Policy Distillation
-- **arXiv** : 2610.35690v1
-- **Date** : 2026-10-26
-- **Auteurs** : Yitao Xiao, Xu Zhang, Ye Cheng, Shaoyong Guo, Yan Sun
-- **Score** : 6
-- **Résumé** : Serving web queries at scale with multi-agent systems requires jointly configuring large language models, collaboration modes, agent counts, interaction rounds, and skills. However, the resulting configuration space grows combinatorially, while sparse execution rewards provide limited fine-grained s...
-- **Lien** : https://arxiv.org/abs/2610.35690v1
-
-### Model Selection for Off-Policy Evaluation via Pairwise Bellman Validation
-- **arXiv** : 2610.35748v1
-- **Date** : 2026-10-26
-- **Auteurs** : Lars van der Laan, Vasilis Syrgkanis, Nathan Kallus
+### Elucidating the Design Space of LM Data Attribution
+- **arXiv** : 2610.40655v1
+- **Date** : 2026-10-29
+- **Auteurs** : Steven Yu, Sheng-Yu Wang, Kimia Hamidieh, Antonio Torralba, David Bau
 - **Score** : 4
-- **Résumé** : Model selection and hyperparameter tuning pose a central challenge in off-policy evaluation (OPE) because errors of fitted Q-functions and occupancy-ratio estimates cannot be directly evaluated from held-out transitions. Bellman-residual and minimax validation methods often require auxiliary regress...
-- **Lien** : https://arxiv.org/abs/2610.35748v1
+- **Résumé** : Data attribution methods for Language Models (LMs) are typically evaluated using downstream tasks like fact retrieval. However, existing evaluations vary multiple dataset properties simultaneously, making it impossible to isolate exactly why an attribution algorithm fails. To diagnose these failures...
+- **Lien** : https://arxiv.org/abs/2610.40655v1
 
-### Preserve to Expand: Source-Aware Adaptation and Model Merging for Multilingual LLM-Based ASR
-- **arXiv** : 2610.35846v1
-- **Date** : 2026-10-26
-- **Auteurs** : Yuchen Zhang, Haralambos Mouratidis, Ravi Shekhar
-- **Score** : 3
-- **Résumé** : Expanding multilingual ASR systems to new languages is challenging when adaptation must preserve previously supported languages without replaying source-language training data. We study this problem in connector-based Speech LLMs, where a trainable connector maps speech representations into a frozen...
-- **Lien** : https://arxiv.org/abs/2610.35846v1
+### Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In
+- **arXiv** : 2610.40588v1
+- **Date** : 2026-10-29
+- **Auteurs** : Leonidas Raghav
+- **Score** : 4
+- **Résumé** : When AI agents share channels and credentials, one agent can press another to break its operator's rule, a first step towards collusion. Output filters check only what an agent has already written. Can an overseer tell beforehand that an agent is about to give in? We show that a linear probe on the ...
+- **Lien** : https://arxiv.org/abs/2610.40588v1
 
-### Work Agents: Systems, Capabilities, and Optimization
-- **arXiv** : 2610.35845v1
-- **Date** : 2026-10-26
-- **Auteurs** : Zishan Xu, Enjun Du, Mingqi Gao, Cheng Yang, Junhao Shen
-- **Score** : 3
-- **Résumé** : As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To addres...
-- **Lien** : https://arxiv.org/abs/2610.35845v1
+### Homebrewed SLMs: Autoregressive and Masked Diffusion Language Models Built at Home for Portuguese
+- **arXiv** : 2610.40533v1
+- **Date** : 2026-10-29
+- **Auteurs** : Pedro Carvalho Brom
+- **Score** : 4
+- **Résumé** : Building a language model of one's own no longer requires a data centre. This tutorial trains one from scratch, tokenizer included, on one consumer GPU, and shows how to tell whether it is good for the tasks of a specialist domain. It proposes no new method. It releases a tested Python package and t...
+- **Lien** : https://arxiv.org/abs/2610.40533v1
 
-### I-HITL: Inalienable Human-in-the-Loop
-- **arXiv** : 2610.35835v1
-- **Date** : 2026-10-26
-- **Auteurs** : Samuel Breckenridge, Dani Vilardell, Wenhao Wang, Fan Zhang, Ari Juels
+### Rethinking Neural Thickets Without Weight Perturbations
+- **arXiv** : 2610.40649v1
+- **Date** : 2026-10-29
+- **Auteurs** : Nicolas Dufour, Elouan Gardès, Amil Dravid, Patrick Pérez, Loic Landrieu
 - **Score** : 3
-- **Résumé** : Human oversight is a pillar of AI safety. It is often exercised by a human in the loop (HITL) who approves critical actions taken by an AI agent. AI agents' increasing ability to bypass guardrails, though, raises the question of how to enforce HITL robustly. We introduce the concept of inalienable h...
-- **Lien** : https://arxiv.org/abs/2610.35835v1
+- **Résumé** : The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a sing...
+- **Lien** : https://arxiv.org/abs/2610.40649v1
 
-### Preference-Guided Cooperation in Multi-Objective Multi-Agent Reinforcement Learning
-- **arXiv** : 2610.35736v1
-- **Date** : 2026-10-26
-- **Auteurs** : Qiyue Xia, J. Michael Herrmann
+### ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender
+- **arXiv** : 2610.40627v1
+- **Date** : 2026-10-29
+- **Auteurs** : Qiyao Ma, Xiaodong Liu, Weiwei Yang, Mingqian Feng, Chengquan Guo
 - **Score** : 3
-- **Résumé** : Multi-objective multi-agent reinforcement learning (MOMARL) addresses agent coordination and objective trade-offs simultaneously while optimising overall system performance. Existing work tends to treat multi-agent cooperation and multi-objective optimisation as largely independent components of a l...
-- **Lien** : https://arxiv.org/abs/2610.35736v1
+- **Résumé** : Safety alignment has enabled large language models to reliably refuse harmful requests directly, yet the same request distributed across a multi-turn conversation still succeeds far too often. This brittleness has a mechanistic root: Alignment is shallow, with safety behavior concentrated in a model...
+- **Lien** : https://arxiv.org/abs/2610.40627v1
 
-### Quantitative Generalization Bounds for Multi-Layer Transformers: A Few Long Strings can Beat Many Short Ones
-- **arXiv** : 2610.35715v1
-- **Date** : 2026-10-26
-- **Auteurs** : Marius Henry, Michael Rizvi-Martel, Michael Hahn
+### Testimony from Timelines: Evidence-Grounded Significance Testing of Temporal Clinical Hypotheses
+- **arXiv** : 2610.40619v1
+- **Date** : 2026-10-29
+- **Auteurs** : Chengyang He, Wenlong Zhang, Koduvayur Subbalakshmi, Ping Wang
 - **Score** : 3
-- **Résumé** : Transformer-based language models exhibit an astonishing capacity to generalize to longer and more difficult problem instances than those seen in training. However, theoretical understanding of this phenomenon still lags behind. Unlike most machine learning models, the generalisation abilities of tr...
-- **Lien** : https://arxiv.org/abs/2610.35715v1
+- **Résumé** : Ask a language model whether sales tend to dip after a product recall, or whether one side effect tends to follow another after a vaccine, and it answers in a fluent sentence that reads like a finding, with no test behind it. Assertions about how events unfold across many cases fill the Web, and eac...
+- **Lien** : https://arxiv.org/abs/2610.40619v1
+
+### Multistatic ISAC with Deep Learning-Based Clutter Suppression for 5G and Beyond
+- **arXiv** : 2610.40586v1
+- **Date** : 2026-10-29
+- **Auteurs** : Yalin E. Sagduyu, Tugba Erpek, Sastry Kompella
+- **Score** : 3
+- **Résumé** : Integrated sensing and communications (ISAC) systems using 5G and beyond signals of opportunity enable joint wireless sensing and communication using shared infrastructure and spectrum resources. While multistatic ISAC can increase sensing coverage with spatially distributed receivers, dense and dyn...
+- **Lien** : https://arxiv.org/abs/2610.40586v1
+
+### Every Token Needs Its Own Teacher: Multi-teacher Adaptive On-policy Self-distillation
+- **arXiv** : 2610.40574v1
+- **Date** : 2026-10-29
+- **Auteurs** : Yifu Luo, Chuang Ma, Zeyu Chen, Enkelejda Kasneci, Qi Chen
+- **Score** : 3
+- **Résumé** : On-policy Self-distillation (OPSD) has proven effective for post-training large language models by constructing a teacher conditioned on privileged references. However, existing approaches keep the teacher fixed either throughout training by consistently exposing it to the full reference, or within ...
+- **Lien** : https://arxiv.org/abs/2610.40574v1
+
+### Gym-Anything for Robotics: Scaling physical simulations with digital agents
+- **arXiv** : 2610.40565v1
+- **Date** : 2026-10-29
+- **Auteurs** : Pranjal Aggarwal, Sean Welleck
+- **Score** : 3
+- **Résumé** : Realistic, fast robotics simulations could enable large-scale training of embodied AI models that transfer to the real world. However, despite decades of progress, available simulations cover only a narrow range of real-world tasks and physical phenomena. The core bottleneck is that creating better ...
+- **Lien** : https://arxiv.org/abs/2610.40565v1
+
+### Advancing Clinical Genomic Analysis with a Skill-Centred Agent
+- **arXiv** : 2610.40556v1
+- **Date** : 2026-10-29
+- **Auteurs** : Qiaoyu Zheng, Weike Zhao, Yanjie Fan, Ye Cao, Mengqi Jiang
+- **Score** : 3
+- **Résumé** : Clinical genomic analysis requires experts to integrate evolving guidelines, databases, and computational evidence. As sequencing has become increasingly accessible, this complex and labor-intensive process has become a major bottleneck to the timely use of genomic information in clinical decision-m...
+- **Lien** : https://arxiv.org/abs/2610.40556v1
+
+### Retrieval as Traversal: Value-Indexed Memory for Stateful Long-Context Agents
+- **arXiv** : 2610.40545v1
+- **Date** : 2026-10-29
+- **Auteurs** : Daniel Strauß, Zhenshan Bing, Alois Knoll
+- **Score** : 3
+- **Résumé** : Long-context models repeatedly solve closely related retrieval problems. Attention or global retrieval can retain large stores, but each forward pass again searches for what matters. Recurrent compression avoids this search only by deciding earlier what information to preserve. Neither mechanism dir...
+- **Lien** : https://arxiv.org/abs/2610.40545v1
+
+### How I Aligned Your Model: Scaling Up Multilingual Safety Training with Templates
+- **arXiv** : 2610.40516v1
+- **Date** : 2026-10-29
+- **Auteurs** : Max Neuwinger, Hanna Yukhymenko, Imanol Schlag
+- **Score** : 3
+- **Résumé** : Safety alignment for Large Language Models is heavily focused on English with limited multilingual representation, particularly damaging low-resource language performance. Related open training datasets are often limited in size or do not follow region-localized harmful topics to broaden the scope o...
+- **Lien** : https://arxiv.org/abs/2610.40516v1
 
 <!-- ARXIV_FEED_END -->

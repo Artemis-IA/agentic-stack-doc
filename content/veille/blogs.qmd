@@ -90,12 +90,26 @@ graph LR
 - **Résumé** : Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and b...
 - **Lien** : https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/
 
-### Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO
-- **Source** : latent.space
-- **Date** : Thu, 22 Oct 2026
+### Legora is building the agentic operating system for legal work
+- **Source** : OpenAI Blog
+- **Date** : Wed, 28 Oct 2026
 - **Score** : 3
-- **Résumé** : Elastic GPUs, sandbox growth, and the economics of the agent cloud...
-- **Lien** : https://latent.space/p/modal-d/
+- **Résumé** : See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work....
+- **Lien** : https://openai.com/index/legora
+
+### Retell uses OpenAI models to help power 100M monthly calls
+- **Source** : OpenAI Blog
+- **Date** : Tue, 27 Oct 2026
+- **Score** : 3
+- **Résumé** : GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee....
+- **Lien** : https://openai.com/index/retell-ai
+
+### [AINews] Building AIE CODE: The top Coding Agent Conference
+- **Source** : latent.space
+- **Date** : Fri, 30 Oct 2026
+- **Score** : 2
+- **Résumé** : Mistral’s open-weight release, frontier monitoring, and the day’s AI Twitter and Reddit recaps....
+- **Lien** : https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/
 
 ### How Anthropic ships Claude with Claude: Separating the Brain from the Hands
 - **Source** : latent.space
@@ -104,15 +118,36 @@ graph LR
 - **Résumé** : Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents....
 - **Lien** : https://latent.space/p/opus55/
 
-### Donating Agent Skills to the Agentic AI Foundation
+### API credits benefit for eligible ChatGPT subscriptions
 - **Source** : Simon Willison
-- **Date** : 2026-10-22T18:09
+- **Date** : 2026-10-29T22:48
 - **Score** : 2
-- **Résumé** : Donating Agent Skills to the Agentic AI Foundation
-News today from Anthropic:
+- **Résumé** : API credits benefit for eligible ChatGPT subscriptions
+Earlier this month Anthropic a...
+- **Lien** : https://simonwillison.net/2026/Oct/29/api-credits/
 
-We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral...
-- **Lien** : https://simonwillison.net/2026/Oct/22/donating-agent-skills/
+### Quoting Ben Hylak
+- **Source** : Simon Willison
+- **Date** : 2026-10-29T14:06
+- **Score** : 2
+- **Résumé** : every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath.
+except for our product, of course. 
+in our product, customers love t...
+- **Lien** : https://simonwillison.net/2026/Oct/29/ben-hylak/
+
+### The October inflection point for vibe game development
+- **Source** : Simon Willison
+- **Date** : 2026-10-28T13:55
+- **Score** : 2
+- **Résumé** : I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became re...
+- **Lien** : https://simonwillison.net/2026/Oct/28/vibe-game-development/
+
+### OpenAI and ServiceNow expand partnership across enterprise workflows
+- **Source** : OpenAI Blog
+- **Date** : Wed, 28 Oct 2026
+- **Score** : 2
+- **Résumé** : OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex....
+- **Lien** : https://openai.com/index/openai-servicenow-partnership-expansion
 
 ### OpenAI expands partnership with Oracle to bring its apps to ChatGPT
 - **Source** : OpenAI Blog
@@ -120,20 +155,6 @@ We’re committed to keeping Agent Skills open, community-driven, and vendor-neu
 - **Score** : 2
 - **Résumé** : OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings....
 - **Lien** : https://openai.com/index/oracle-apps-in-chatgpt
-
-### GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases
-- **Source** : OpenAI Blog
-- **Date** : Mon, 26 Oct 2026
-- **Score** : 2
-- **Résumé** : CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes....
-- **Lien** : https://openai.com/index/gpt-6-1-sol-coderabbit-code-security
-
-### Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)
-- **Source** : OpenAI Blog
-- **Date** : Fri, 23 Oct 2026
-- **Score** : 2
-- **Résumé** : Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT....
-- **Lien** : https://openai.com/index/scaling-storage-one-billion-users-part-two
 
 ### LWiAI Podcast #258 - Opus 5.5, Sol and Luna, Muse, DeepSeek-V4.1-Flash, Xi
 - **Source** : Last Week in AI
@@ -156,12 +177,41 @@ We’re committed to keeping Agent Skills open, community-driven, and vendor-neu
 - **Résumé** : Google announces Gemini 3.7 Flash, Jalape&#241;o&#8217;s first results show industry-leading speed, A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I....
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-255-gemini-37-jalapeno
 
-### [AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months
+### Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning
 - **Source** : latent.space
-- **Date** : Thu, 22 Oct 2026
+- **Date** : Thu, 29 Oct 2026
 - **Score** : 1
-- **Résumé** : The Big Hardening begins...
-- **Lien** : https://latent.space/p/ainews-openais-patch-the-planet-program/
+- **Résumé** : A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images....
+- **Lien** : https://latent.space/p/elorian/
+
+### [AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders
+- **Source** : latent.space
+- **Date** : Thu, 29 Oct 2026
+- **Score** : 1
+- **Résumé** : Google’s new frontier model leads independent evals, with access initially limited to trusted defenders....
+- **Lien** : https://latent.space/p/ainews-gemini-4-carbon/
+
+### Why Agents Love Supabase
+- **Source** : latent.space
+- **Date** : Wed, 28 Oct 2026
+- **Score** : 1
+- **Résumé** : Paul Copplestone and Ant Wilson on building the backend for AI agents...
+- **Lien** : https://latent.space/p/supabase/
+
+### Quoting Ted Sanders
+- **Source** : Simon Willison
+- **Date** : 2026-10-28T23:23
+- **Score** : 1
+- **Résumé** : In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexit...
+- **Lien** : https://simonwillison.net/2026/Oct/28/ted-sanders/
+
+### GitHub Octoverse 2026
+- **Source** : Simon Willison
+- **Date** : 2026-10-28T16:45
+- **Score** : 1
+- **Résumé** : GitHub Octoverse 2026
+I'm at GitHub Universe today (GitHub gave  me a free ticket through their "GitHub Stars" program). EVP Jay Parikh...
+- **Lien** : https://simonwillison.net/2026/Oct/28/github-octoverse-2026/
 
 ### GPT-6.1 Terra
 - **Source** : Simon Willison
@@ -179,23 +229,12 @@ In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use
 - **Résumé** : Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech pro...
 - **Lien** : https://simonwillison.net/2026/Oct/26/jason-koebler/
 
-### webframe: evaluated as a scraper and a sandbox
-- **Source** : Simon Willison
-- **Date** : 2026-10-26T16:15
+### Welcome Le Chonk: Mistral Large 4 on Hugging Face
+- **Source** : Hugging Face Blog
+- **Date** : Thu, 29 Oct 2026
 - **Score** : 1
-- **Résumé** : Research: webframe: evaluated as a scraper and a sandbox
-        webframe is a neat little project from Jeff Lindsay which lets you "r...
-- **Lien** : https://simonwillison.net/2026/Oct/26/webframe-evaluation/
-
-### Quick Study
-- **Source** : Simon Willison
-- **Date** : 2026-10-23T21:35
-- **Score** : 1
-- **Résumé** : Tool: Quick Study
-        Prompt to Claude Opus 5.5 High:
-
-Build an artifact where you open a photo and it...
-- **Lien** : https://simonwillison.net/2026/Oct/23/quick-study-painter/
+- **Résumé** : ...
+- **Lien** : https://huggingface.co/blog/mistral-large4
 
 ### Can we trust LLMs to judge whether a research idea is novel?
 - **Source** : Hugging Face Blog
@@ -210,47 +249,5 @@ Build an artifact where you open a photo and it...
 - **Score** : 1
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/microsoft/thinkingbox-training
-
-### How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications
-- **Source** : Hugging Face Blog
-- **Date** : Wed, 21 Oct 2026
-- **Score** : 1
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization
-
-### Greptile takes bug detection beyond code review with GPT-6 Astra
-- **Source** : OpenAI Blog
-- **Date** : Mon, 26 Oct 2026
-- **Score** : 1
-- **Résumé** : How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework....
-- **Lien** : https://openai.com/index/greptile-code-review-codex-astra
-
-### ChatGPT’s expanding world of work
-- **Source** : OpenAI Blog
-- **Date** : Mon, 26 Oct 2026
-- **Score** : 1
-- **Résumé** : Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time....
-- **Lien** : https://openai.com/index/chatgpt-expanding-world-of-work
-
-### Introducing GPT-6.1 Terra
-- **Source** : OpenAI Blog
-- **Date** : Mon, 26 Oct 2026
-- **Score** : 1
-- **Résumé** : Bringing fast and capable computer use to everyone...
-- **Lien** : https://openai.com/index/introducing-gpt-6-1-terra
-
-### Last Week in AI #346 - 719 math manuscripts, 2 Western open models, 1 more safety resignation
-- **Source** : Last Week in AI
-- **Date** : Fri, 09 Oct 2026
-- **Score** : 1
-- **Résumé** : OpenAI publishes hundreds of math proofs from unreleased frontier model, Mistral and Reflection AI launch open-weight models to rival China, and more!...
-- **Lien** : https://lastweekin.ai/p/last-week-in-ai-346-719-math-manuscripts
-
-### LWiAI Podcast #257 - GPT 6 Astra, AI Extinction, Security Incidents
-- **Source** : Last Week in AI
-- **Date** : Thu, 24 Sep 2026
-- **Score** : 1
-- **Résumé** : A belated discussion of Astra&#8217;s release, a bunch of AI incidents, and the broader situation we are in with regards to AI safety....
-- **Lien** : https://lastweekin.ai/p/lwiai-podcast-257-gpt-6-astra-ai
 
 <!-- BLOG_FEED_END -->
