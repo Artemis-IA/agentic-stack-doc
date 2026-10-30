@@ -123,7 +123,7 @@ DeepSeek R1 est le premier modèle de raisonnement open weights (RL-trained). Pe
 ### [Firecrawl](https://github.com/firecrawl/firecrawl)
 Web search, scrape and crawl API for AI agents. Turns any website, including JavaScript-heavy pages, into clean LLM-ready markdown or structured JSON, with browser actions (click, scroll, type), PD...
 
-⭐ 196.9k | `TypeScript` | Licence: AGPL-3.0 | MAJ: 2026-10-30
+⭐ 197.1k | `TypeScript` | Licence: AGPL-3.0 | MAJ: 2026-10-30
 **Tags** : `ai`, `ai-agents`, `ai-crawler`, `ai-scraping`, `ai-search`, `crawler`, `data-extraction`, `html-to-markdown`
 
 ### [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT)
@@ -135,13 +135,13 @@ an experimental open-source application showcasing the capabilities of the GPT-4
 ### [ollama](https://github.com/ollama/ollama)
 Get up and running with Llama 3, Mistral, Gemma, and other large language models.
 
-⭐ 185.3k | `Go` | Licence: MIT | MAJ: 2026-10-30
+⭐ 185.4k | `Go` | Licence: MIT | MAJ: 2026-10-30
 **Tags** : `deepseek`, `gemma`, `glm`, `go`, `golang`, `gpt-oss`, `llama`, `llm`
 
 ### [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
 A collection of prompt examples to be used with the ChatGPT model.
 
-⭐ 175.2k | `HTML` | Licence: NOASSERTION | MAJ: 2026-10-30
+⭐ 175.3k | `HTML` | Licence: NOASSERTION | MAJ: 2026-10-30
 **Tags** : `ai`, `artificial-intelligence`, `awesome-list`, `chatgpt`, `chatgpt-prompts`, `claude`, `gemini`, `gpt`
 
 ### [Dify](https://github.com/langgenius/dify)
@@ -165,7 +165,7 @@ A popular Python/JavaScript library for chaining sequences of language model pro
 ### [llama.cpp](https://github.com/ggerganov/llama.cpp)
 LLM inference in C/C++.
 
-⭐ 132.8k | `C++` | Licence: MIT | MAJ: 2026-10-30
+⭐ 132.9k | `C++` | Licence: MIT | MAJ: 2026-10-30
 **Tags** : `ggml`
 
 ### [Browser Use](https://github.com/browser-use/browser-use)
@@ -179,8 +179,8 @@ First open-sourced GPT-4o level model.
 
 ⭐ 104.7k | `Python` | Licence: MIT | MAJ: 2026-10-30
 
-### [vllm](https://github.com/vllm-project/vllm)
-A high-throughput and memory-efficient inference and serving engine for LLMs
+### [vLLM](https://github.com/vllm-project/vllm)
+A high-throughput and memory-efficient inference and serving engine for LLMs.
 
 ⭐ 95.9k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-30
 **Tags** : `amd`, `blackwell`, `cuda`, `deepseek`, `deepseek-v3`, `gpt`, `gpt-oss`, `inference`
@@ -223,19 +223,19 @@ A Chinese collection of prompt examples to be used with the ChatGPT model.
 ### [upstash/context7](https://github.com/upstash/context7)
 📇 ☁️ - Up-to-date code documentation for LLMs and AI code editors.
 
-⭐ 63.9k | `TypeScript` | Licence: MIT | MAJ: 2026-10-30
+⭐ 64.0k | `TypeScript` | Licence: MIT | MAJ: 2026-10-30
 **Tags** : `llm`, `mcp`, `mcp-server`, `vibe-coding`
 
-### [yolov5](https://github.com/ultralytics/yolov5)
-Ultralytics YOLOv5 in PyTorch for object detection, instance segmentation, classification, training, and export.
+### [LlamaIndex](https://github.com/run-llama/llama_index)
+provides a central interface to connect your LLM's with external data. !GitHub Repo stars
 
-⭐ 58.2k | `Python` | Licence: AGPL-3.0 | MAJ: 2026-10-30
-**Tags** : `computer-vision`, `coreml`, `deep-learning`, `image-classification`, `inference`, `instance-segmentation`, `model-export`, `model-training`
+⭐ 52.7k | `Python` | Licence: MIT | MAJ: 2026-10-30
+**Tags** : `agents`, `application`, `data`, `fine-tuning`, `framework`, `llamaindex`, `llm`, `multi-agents`
 
-### [whisper.cpp](https://github.com/ggml-org/whisper.cpp)
-Port of OpenAI's Whisper model in C/C++
+### [LlamaIndex](https://github.com/jerryjliu/llama_index)
+A Python library for augmenting LLM apps with data.
 
-⭐ 54.8k | `C++` | Licence: MIT | MAJ: 2026-10-30
-**Tags** : `inference`, `openai`, `speech-recognition`, `speech-to-text`, `transformer`, `whisper`
+⭐ 52.7k | `Python` | Licence: MIT | MAJ: 2026-10-30
+**Tags** : `agents`, `application`, `data`, `fine-tuning`, `framework`, `llamaindex`, `llm`, `multi-agents`
 
 <!-- TOOLS_LLM_END -->

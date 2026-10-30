@@ -121,28 +121,16 @@ MCP devient le **standard de facto** pour connecter les agents IA aux outils ext
 ## MCP Servers découverts automatiquement
 
 <!-- TOOLS_MCP_START -->
-### [n8n](https://github.com/n8n-io/n8n)
-Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
-
-⭐ 209.1k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-10-30
-**Tags** : `ai`, `apis`, `automation`, `cli`, `data-flow`, `development`, `integration-framework`, `integrations`
-
-### [gemini-cli](https://github.com/google-gemini/gemini-cli)
-An open-source AI agent that brings the power of Gemini directly into your terminal.
-
-⭐ 108.6k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-10-30
-**Tags** : `ai`, `ai-agents`, `cli`, `gemini`, `gemini-api`, `mcp-client`, `mcp-server`
-
 ### [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)
 Playwright browser automation: interact with web pages through structured accessibility snapshots.
 
-⭐ 38.8k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-10-30
+⭐ 38.9k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-10-30
 **Tags** : `mcp`, `playwright`
 
 ### [lightpanda-io/browser](https://github.com/lightpanda-io/browser)
 🏠 🍎 🐧 - Headless browser for AI and web automation with a built-in MCP server.
 
-⭐ 37.9k | `Zig` | Licence: AGPL-3.0 | MAJ: 2026-10-30
+⭐ 38.3k | `Zig` | Licence: AGPL-3.0 | MAJ: 2026-10-30
 **Tags** : `browser`, `browser-automation`, `cdp`, `headless`, `lightpanda`, `playwright`, `puppeteer`, `zig`
 
 ### [github/github-mcp-server](https://github.com/github/github-mcp-server)
@@ -163,18 +151,6 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ⭐ 28.3k | `JavaScript` | Licence: NOASSERTION | MAJ: 2026-10-30
 **Tags** : `ai`, `cursor`, `cursor-ai`, `cursorai`, `lovable`, `lovable-dev`, `roocode`, `task-manager`
 
-### [python-sdk](https://github.com/modelcontextprotocol/python-sdk)
-The official Python SDK for Model Context Protocol servers and clients
-
-⭐ 24.7k | `Python` | Licence: MIT | MAJ: 2026-10-30
-**Tags** : `mcp`, `mcp-client`, `mcp-server`, `python`
-
-### [mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners)
-This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed ...
-
-⭐ 17.5k | `Jupyter Notebook` | Licence: MIT | MAJ: 2026-10-30
-**Tags** : `csharp`, `java`, `javascript`, `javascript-applications`, `mcp`, `mcp-client`, `mcp-security`, `mcp-server`
-
 ### [GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP)
 📇 🏠 - Gives coding agents direct access to Figma data to implement designs in one shot.
 
@@ -186,12 +162,6 @@ This open-source curriculum introduces the fundamentals of Model Context Protoco
 
 ⭐ 15.3k | `Python` | Licence: MIT | MAJ: 2026-10-30
 **Tags** : `ai-tools`, `ast-parser`, `automation`, `claude-ai`, `claude-skills`, `code-analysis`, `conflict-detection`, `documentation`
-
-### [typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk)
-The official TypeScript SDK for Model Context Protocol servers and clients
-
-⭐ 13.7k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-10-30
-**Tags** : `mcp`, `mcp-client`, `mcp-server`, `typescript`
 
 ### [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp)
 🐍 🏠 - IDA Pro plugin for binary analysis: decompilation, disassembly and automatic malware analysis reports.
@@ -222,12 +192,6 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 
 ⭐ 11.7k | `Java` | Licence: Apache-2.0 | MAJ: 2026-10-30
 
-### [mcp-use](https://github.com/mcp-use/mcp-use)
-The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Servers for AI Agents.
-
-⭐ 10.8k | `TypeScript` | Licence: MIT | MAJ: 2026-10-30
-**Tags** : `agent-plugins`, `agentic-framework`, `ai`, `apps-sdk`, `chatgpt`, `claude-code`, `claude-connectors`, `llms`
-
 ### [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP)
 📇 🏠 🍎 🪟 🐧 - Manage and execute programs, and read, write, search and edit code and text files.
 
@@ -237,20 +201,14 @@ The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Serve
 ### [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp)
 📇 🏠 🐧 🍎 - Android and iOS app and device automation, development and app scraping on simulators, emulators and physical devices.
 
-⭐ 10.1k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-10-30
-**Tags** : `agent`, `android`, `appium-alternative`, `claude-code`, `codex`, `cursor`, `emulator`, `ios`
+⭐ 10.2k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-10-30
+**Tags** : `agent`, `android`, `android-automation`, `appium-alternative`, `claude-code`, `codex`, `cursor`, `emulator`
 
-### [mcp](https://github.com/awslabs/mcp)
-Open source MCP Servers for AWS
+### [awslabs/mcp](https://github.com/awslabs/mcp)
+🎖️ ☁️ - Suite of servers for integrating with AWS services and resources.
 
-⭐ 9.9k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-30
+⭐ 9.8k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-30
 **Tags** : `aws`, `mcp`, `mcp-client`, `mcp-clients`, `mcp-host`, `mcp-server`, `mcp-servers`, `mcp-tools`
-
-### [atlas](https://github.com/pacifio/atlas)
-Source control for agents. Use multiple coding agents, track their changes and query them in one place
-
-⭐ 9.6k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-10-29
-**Tags** : `ai`, `ai-coding-assistant`, `claude-code`, `codex`, `coding-agents`, `git`, `gitops`, `kilo-code`
 
 ### [repowise-dev/repowise](https://github.com/repowise-dev/repowise)
 !repowise-dev/repowise MCP server 🐍 🏠 ☁️ - Codebase intelligence: indexes a repo into a dependency graph, git history, defect-risk code health, generated docs and architectural decisions. Runs loca...
@@ -294,10 +252,51 @@ Source control for agents. Use multiple coding agents, track their changes and q
 ⭐ 6.4k | `JavaScript` | Licence: MIT | MAJ: 2026-10-30
 **Tags** : `ai`, `godot`, `mcp`
 
-### [deepchat](https://github.com/ThinkInAIXYZ/deepchat)
-🐬DeepChat - A smart assistant that connects powerful AI to your personal world
+### [21st-dev/Magic-MCP](https://github.com/21st-dev/magic-mcp)
+Create UI components inspired by 21st.dev design engineers.
 
-⭐ 6.4k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-10-30
-**Tags** : `agent`, `agent-skills`, `ai`, `ai-assistant`, `ai-sdk`, `chatgpt`, `claude`, `cross-platform`
+⭐ 6.3k | `TypeScript` | Licence: ISC | MAJ: 2026-10-30
+**Tags** : `21st`, `claude`, `cursor`, `mcp`, `model-context-protocol`, `react`, `tailwindcss`, `ui-components`
+
+### [bram2w/baserow](https://github.com/bram2w/baserow)
+Baserow database integration: search and list tables, and create, read, update and delete rows.
+
+⭐ 6.2k | `Python` | Licence: NOASSERTION | MAJ: 2026-10-30
+**Tags** : `airtable`, `airtable-alternative`, `airtable-replacement`, `application-builder`, `automations`, `dashboards`, `database`, `low-code`
+
+### [wiltodelta/remove-ai-watermarks](https://github.com/wiltodelta/remove-ai-watermarks)
+!wiltodelta/remove-ai-watermarks MCP server 🐍 🏠 🍎 🪟 🐧 - Identify and remove AI watermarks and provenance metadata (Gemini and Veo marks, SynthID, C2PA, EXIF) in images and video you generated yours...
+
+⭐ 6.2k | `Python` | Licence: Apache-2.0 | MAJ: 2026-10-30
+**Tags** : `agent-skill`, `ai-watermark`, `c2pa`, `cli`, `comfyui`, `content-credentials`, `exif`, `gemini`
+
+### [OpenConnector](https://github.com/oomol-lab/open-connector)
+Open-source connector gateway for agents to discover and execute SaaS actions through MCP, HTTP, and OpenAPI, with OAuth/API-key credential management and scoped runtime tokens. !GitHub Repo stars
+
+⭐ 6.1k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-10-30
+**Tags** : `agent-tools`, `ai-agents`, `api-gateway`, `automation`, `cli`, `cloudflare-workers`, `connectors`, `integration-platform`
+
+### [sooperset/mcp-atlassian](https://github.com/sooperset/mcp-atlassian)
+🐍 ☁️ - Search, read, create and manage Confluence and Jira content, supporting Confluence Cloud, Jira Cloud and Jira Server/Data Center.
+
+⭐ 6.1k | `Python` | Licence: MIT | MAJ: 2026-10-30
+**Tags** : `atlassian`, `confluence`, `jira`, `mcp`
+
+### [executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright)
+📇 - Browser automation and web scraping using Playwright.
+
+⭐ 5.7k | `TypeScript` | Licence: MIT | MAJ: 2026-10-30
+
+### [exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server)
+🎖️ 📇 ☁️ - Real-time web search using the Exa AI Search API.
+
+⭐ 5.2k | `TypeScript` | Licence: MIT | MAJ: 2026-10-30
+**Tags** : `code-search`, `codesearch`, `crawling`, `mcp`, `mcp-server`, `model-context-protocol`, `web-search`, `websearch`
+
+### [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device)
+!callstackincubator/agent-device MCP server 📇 🏠 🍎 🐧 - Discovery router for the agent-device CLI: status, install guidance, version-matched help and prompts for iOS, Android, tvOS, macOS and Linux a...
+
+⭐ 5.2k | `TypeScript` | Licence: MIT | MAJ: 2026-10-30
+**Tags** : `adb`, `agentic-ai`, `agents`, `ai-agents`, `android-emulator`, `automation`, `e2e-testing`, `expo`
 
 <!-- TOOLS_MCP_END -->
