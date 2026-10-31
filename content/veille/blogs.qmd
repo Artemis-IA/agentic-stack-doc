@@ -97,13 +97,6 @@ graph LR
 - **Résumé** : See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work....
 - **Lien** : https://openai.com/index/legora
 
-### Retell uses OpenAI models to help power 100M monthly calls
-- **Source** : OpenAI Blog
-- **Date** : Tue, 27 Oct 2026
-- **Score** : 3
-- **Résumé** : GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee....
-- **Lien** : https://openai.com/index/retell-ai
-
 ### [AINews] Building AIE CODE: The top Coding Agent Conference
 - **Source** : latent.space
 - **Date** : Fri, 30 Oct 2026
@@ -191,6 +184,14 @@ in our product, customers love t...
 - **Résumé** : Paul Copplestone and Ant Wilson on building the backend for AI agents...
 - **Lien** : https://latent.space/p/supabase/
 
+### dbreunig/nesformer
+- **Source** : Simon Willison
+- **Date** : 2026-10-30T21:59
+- **Score** : 1
+- **Résumé** : dbreunig/nesformer
+Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B....
+- **Lien** : https://simonwillison.net/2026/Oct/30/nesformer/
+
 ### Quoting Ted Sanders
 - **Source** : Simon Willison
 - **Date** : 2026-10-28T23:23
@@ -214,13 +215,6 @@ I'm at GitHub Universe today (GitHub gave  me a free ticket through their "GitHu
 It's always interesting to note which aspects of a new model are emphasized in the release announcement.
 In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use:...
 - **Lien** : https://simonwillison.net/2026/Oct/26/gpt-61-terra/
-
-### Quoting Jason Koebler
-- **Source** : Simon Willison
-- **Date** : 2026-10-26T19:00
-- **Score** : 1
-- **Résumé** : Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech pro...
-- **Lien** : https://simonwillison.net/2026/Oct/26/jason-koebler/
 
 ### Welcome Le Chonk: Mistral Large 4 on Hugging Face
 - **Source** : Hugging Face Blog
@@ -249,5 +243,12 @@ In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use
 - **Score** : 1
 - **Résumé** : OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting....
 - **Lien** : https://openai.com/index/community-safety-report-and-new-protections-for-teens
+
+### How we detect frontier model misalignment
+- **Source** : OpenAI Blog
+- **Date** : Thu, 29 Oct 2026
+- **Score** : 1
+- **Résumé** : OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate....
+- **Lien** : https://openai.com/index/how-we-detect-frontier-model-misalignment
 
 <!-- BLOG_FEED_END -->
