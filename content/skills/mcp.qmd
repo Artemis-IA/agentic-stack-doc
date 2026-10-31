@@ -121,23 +121,17 @@ MCP devient le **standard de facto** pour connecter les agents IA aux outils ext
 ## MCP Servers découverts automatiquement
 
 <!-- TOOLS_MCP_START -->
-### [cc-switch](https://github.com/farion1231/cc-switch)
-A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io
+### [lightpanda-io/browser](https://github.com/lightpanda-io/browser)
+🏠 🍎 🐧 - Headless browser for AI and web automation with a built-in MCP server.
 
-⭐ 150.5k | `Rust` | Licence: MIT | MAJ: 2026-10-31
-**Tags** : `ai-tools`, `claude-code`, `codex`, `deepseek-harness`, `desktop-app`, `grok`, `grokbuild`, `hermes`
+⭐ 39.1k | `Zig` | Licence: AGPL-3.0 | MAJ: 2026-10-31
+**Tags** : `browser`, `browser-automation`, `cdp`, `headless`, `lightpanda`, `playwright`, `puppeteer`, `zig`
 
 ### [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)
 Playwright browser automation: interact with web pages through structured accessibility snapshots.
 
 ⭐ 38.9k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-10-31
 **Tags** : `mcp`, `playwright`
-
-### [lightpanda-io/browser](https://github.com/lightpanda-io/browser)
-🏠 🍎 🐧 - Headless browser for AI and web automation with a built-in MCP server.
-
-⭐ 38.8k | `Zig` | Licence: AGPL-3.0 | MAJ: 2026-10-31
-**Tags** : `browser`, `browser-automation`, `cdp`, `headless`, `lightpanda`, `playwright`, `puppeteer`, `zig`
 
 ### [github/github-mcp-server](https://github.com/github/github-mcp-server)
 📇 ☁️ - GitHub integration for repository management, pull requests, issues and more.
@@ -172,7 +166,7 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ### [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp)
 🐍 🏠 - IDA Pro plugin for binary analysis: decompilation, disassembly and automatic malware analysis reports.
 
-⭐ 13.2k | `Python` | Licence: MIT | MAJ: 2026-10-31
+⭐ 13.3k | `Python` | Licence: MIT | MAJ: 2026-10-31
 **Tags** : `ai`, `aiagent`, `binary-analysis`, `ida-plugin`, `ida-pro`, `mcp`, `mcp-server`, `modelcontextprotocol`
 
 ### [seleniumbase/SeleniumBase](https://github.com/seleniumbase/SeleniumBase)
@@ -249,13 +243,13 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ### [kucherenko/jscpd](https://github.com/kucherenko/jscpd)
 !kucherenko/jscpd MCP server 🎖️ 🦀 🏠 🍎 🪟 🐧 - Duplicate code detection with jscpd: check snippets and files for copy/paste duplication against a scanned project before committing.
 
-⭐ 6.5k | `Rust` | Licence: MIT | MAJ: 2026-10-30
+⭐ 6.5k | `Rust` | Licence: MIT | MAJ: 2026-10-31
 **Tags** : `ai`, `cli`, `clones-detection`, `code-duplication`, `code-quality`, `coding-agents`, `copy-paste`, `copy-paste-detection`
 
 ### [Coding-Solo/godot-mcp](https://github.com/Coding-Solo/godot-mcp)
 📇 🏠 - Interact with the Godot game engine: edit, run and debug projects and manage scenes.
 
-⭐ 6.4k | `JavaScript` | Licence: MIT | MAJ: 2026-10-31
+⭐ 6.5k | `JavaScript` | Licence: MIT | MAJ: 2026-10-31
 **Tags** : `ai`, `godot`, `mcp`
 
 ### [21st-dev/Magic-MCP](https://github.com/21st-dev/magic-mcp)
@@ -279,7 +273,7 @@ Baserow database integration: search and list tables, and create, read, update a
 ### [OpenConnector](https://github.com/oomol-lab/open-connector)
 Open-source connector gateway for agents to discover and execute SaaS actions through MCP, HTTP, and OpenAPI, with OAuth/API-key credential management and scoped runtime tokens. !GitHub Repo stars
 
-⭐ 6.1k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-10-31
+⭐ 6.2k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-10-31
 **Tags** : `agent-tools`, `ai-agents`, `api-gateway`, `automation`, `cli`, `cloudflare-workers`, `connectors`, `integration-platform`
 
 ### [sooperset/mcp-atlassian](https://github.com/sooperset/mcp-atlassian)
@@ -296,7 +290,13 @@ Open-source connector gateway for agents to discover and execute SaaS actions th
 ### [getopenscreen/openscreen](https://github.com/getopenscreen/openscreen)
 !getopenscreen/openscreen MCP server 🎖️ 📇 🏠 🍎 🪟 🐧 - Free, open-source screen recorder and video editor that agents drive over stdio (the desktop app's own executable started with mcp): record the s...
 
-⭐ 5.3k | `TypeScript` | Licence: MIT | MAJ: 2026-10-31
+⭐ 5.5k | `TypeScript` | Licence: MIT | MAJ: 2026-10-31
 **Tags** : `cross-platform`, `electron`, `ffmpeg`, `open-source`, `product-demo`, `rust`, `screen-capture`, `screen-recorder`
+
+### [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device)
+!callstackincubator/agent-device MCP server 📇 🏠 🍎 🐧 - Discovery router for the agent-device CLI: status, install guidance, version-matched help and prompts for iOS, Android, tvOS, macOS and Linux a...
+
+⭐ 5.2k | `TypeScript` | Licence: MIT | MAJ: 2026-10-31
+**Tags** : `adb`, `agentic-ai`, `agents`, `ai-agents`, `android-emulator`, `automation`, `e2e-testing`, `expo`
 
 <!-- TOOLS_MCP_END -->

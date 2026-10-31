@@ -146,12 +146,6 @@ CLI platform to experiment with codegen. Precursor to: https://lovable.dev
 ⭐ 37.3k | `TypeScript` | Licence: MIT | MAJ: 2026-10-31
 **Tags** : `ai-agent`, `ai-coding-agent`, `anthropic`, `bun`, `claude`, `cli`, `coding-assistant`, `llm`
 
-### [medusa](https://github.com/medusajs/medusa)
-The world's most flexible commerce platform for agents and developers
-
-⭐ 37.0k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-10-31
-**Tags** : `ai-coding`, `ai-tools`, `commerce`, `e-commerce`, `ecommerce`, `framework`, `javascript`, `medusa`
-
 ### [tabby](https://github.com/TabbyML/tabby)
 Self-hosted AI coding assistant
 
@@ -167,13 +161,13 @@ The first real AI developer
 ### [oraios/serena](https://github.com/oraios/serena)
 🐍 🏠 - Coding agent that uses language servers for symbolic code operations.
 
-⭐ 30.9k | `Python` | Licence: NOASSERTION | MAJ: 2026-10-31
+⭐ 31.0k | `Python` | Licence: NOASSERTION | MAJ: 2026-10-31
 **Tags** : `agent`, `ai`, `ai-coding`, `claude`, `claude-code`, `codex`, `ide`, `jetbrains`
 
 ### [qwen-code](https://github.com/QwenLM/qwen-code)
 An open-source AI coding agent that lives in your terminal.
 
-⭐ 28.8k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-10-31
+⭐ 28.9k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-10-31
 **Tags** : `agentic`, `ai`, `ai-agent`, `ai-coding`, `cli`, `coding-agent`, `developer-tools`, `llm`
 
 ### [Archon](https://github.com/coleam00/Archon)
@@ -191,7 +185,7 @@ The first open-source harness builder for AI coding. Make AI coding deterministi
 ### [p2p.kiwi](https://github.com/dont-be-evil-company/p2p.kiwi)
 p2p.kiwi 🥝, Cross-Platform screen 🖥️ sharing 📡 made simple ⚡.
 
-⭐ 6.6k | `TypeScript` | Licence: MIT | MAJ: 2026-10-30
+⭐ 6.6k | `TypeScript` | Licence: MIT | MAJ: 2026-10-31
 **Tags** : `cross-platform`, `multi-cursor`, `p2p`, `pair-programming`, `pairing`, `peer-to-peer`, `screensharing`
 
 ### [claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide)
@@ -247,5 +241,11 @@ Real-time collaborative development from the comfort of your favorite tools
 
 ⭐ 2.4k | Licence: CC-BY-4.0 | MAJ: 2026-10-27
 **Tags** : `collaboration`, `pair-programming`, `visual-studio`, `visual-studio-code`
+
+### [envd](https://github.com/tensorchord/envd)
+🏕️ Reproducible development environment for humans and agents
+
+⭐ 2.2k | `Go` | Licence: Apache-2.0 | MAJ: 2026-10-28
+**Tags** : `agent`, `buildkit`, `code-agent`, `codex`, `developer-tools`, `development-environment`, `docker`, `hacktoberfest`
 
 <!-- TOOLS_HARNESS_OSS_END -->
