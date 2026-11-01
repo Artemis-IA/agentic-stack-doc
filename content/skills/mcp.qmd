@@ -124,7 +124,7 @@ MCP devient le **standard de facto** pour connecter les agents IA aux outils ext
 ### [lightpanda-io/browser](https://github.com/lightpanda-io/browser)
 🏠 🍎 🐧 - Headless browser for AI and web automation with a built-in MCP server.
 
-⭐ 39.6k | `Zig` | Licence: AGPL-3.0 | MAJ: 2026-11-01
+⭐ 40.0k | `Zig` | Licence: AGPL-3.0 | MAJ: 2026-11-01
 **Tags** : `browser`, `browser-automation`, `cdp`, `headless`, `lightpanda`, `playwright`, `puppeteer`, `zig`
 
 ### [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)
@@ -184,7 +184,7 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ### [get-convex/convex-backend](https://github.com/get-convex/convex-backend)
 📇 ☁️ - Convex database integration to introspect tables and functions and run one-off queries.
 
-⭐ 12.8k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-10-31
+⭐ 12.8k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-11-01
 **Tags** : `backend`, `convex`, `database`, `rust`, `typescript`
 
 ### [LaurieWired/GhidraMCP](https://github.com/LaurieWired/GhidraMCP)
@@ -261,7 +261,7 @@ Create UI components inspired by 21st.dev design engineers.
 ### [bram2w/baserow](https://github.com/bram2w/baserow)
 Baserow database integration: search and list tables, and create, read, update and delete rows.
 
-⭐ 6.2k | `Python` | Licence: NOASSERTION | MAJ: 2026-10-31
+⭐ 6.3k | `Python` | Licence: NOASSERTION | MAJ: 2026-11-01
 **Tags** : `airtable`, `airtable-alternative`, `airtable-replacement`, `application-builder`, `automations`, `dashboards`, `database`, `low-code`
 
 ### [wiltodelta/remove-ai-watermarks](https://github.com/wiltodelta/remove-ai-watermarks)
@@ -282,16 +282,16 @@ Open-source connector gateway for agents to discover and execute SaaS actions th
 ⭐ 6.1k | `Python` | Licence: MIT | MAJ: 2026-11-01
 **Tags** : `atlassian`, `confluence`, `jira`, `mcp`
 
+### [getopenscreen/openscreen](https://github.com/getopenscreen/openscreen)
+!getopenscreen/openscreen MCP server 🎖️ 📇 🏠 🍎 🪟 🐧 - Free, open-source screen recorder and video editor that agents drive over stdio (the desktop app's own executable started with mcp): record the s...
+
+⭐ 5.7k | `TypeScript` | Licence: MIT | MAJ: 2026-11-01
+**Tags** : `cross-platform`, `electron`, `ffmpeg`, `open-source`, `product-demo`, `rust`, `screen-capture`, `screen-recorder`
+
 ### [executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright)
 📇 - Browser automation and web scraping using Playwright.
 
 ⭐ 5.7k | `TypeScript` | Licence: MIT | MAJ: 2026-11-01
-
-### [getopenscreen/openscreen](https://github.com/getopenscreen/openscreen)
-!getopenscreen/openscreen MCP server 🎖️ 📇 🏠 🍎 🪟 🐧 - Free, open-source screen recorder and video editor that agents drive over stdio (the desktop app's own executable started with mcp): record the s...
-
-⭐ 5.6k | `TypeScript` | Licence: MIT | MAJ: 2026-11-01
-**Tags** : `cross-platform`, `electron`, `ffmpeg`, `open-source`, `product-demo`, `rust`, `screen-capture`, `screen-recorder`
 
 ### [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device)
 !callstackincubator/agent-device MCP server 📇 🏠 🍎 🐧 - Discovery router for the agent-device CLI: status, install guidance, version-matched help and prompts for iOS, Android, tvOS, macOS and Linux a...
