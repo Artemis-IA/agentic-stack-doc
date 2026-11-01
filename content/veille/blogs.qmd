@@ -118,6 +118,14 @@ graph LR
 - **Résumé** : Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents....
 - **Lien** : https://latent.space/p/opus55/
 
+### datasette-llm 0.1a9
+- **Source** : Simon Willison
+- **Date** : 2026-10-31T22:10
+- **Score** : 2
+- **Résumé** : Release: datasette-llm 0.1a9
+        I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improve...
+- **Lien** : https://simonwillison.net/2026/Oct/31/datasette-llm/
+
 ### API credits benefit for eligible ChatGPT subscriptions
 - **Source** : Simon Willison
 - **Date** : 2026-10-29T22:48
@@ -191,6 +199,14 @@ in our product, customers love t...
 - **Résumé** : Paul Copplestone and Ant Wilson on building the backend for AI agents...
 - **Lien** : https://latent.space/p/supabase/
 
+### How We Took Over ChatGPT Accounts
+- **Source** : Simon Willison
+- **Date** : 2026-10-31T23:15
+- **Score** : 1
+- **Résumé** : How We Took Over ChatGPT Accounts
+Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this "Canvas" but it looks like the lates...
+- **Lien** : https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/
+
 ### dbreunig/nesformer
 - **Source** : Simon Willison
 - **Date** : 2026-10-30T21:59
@@ -214,15 +230,6 @@ Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator
 I'm at GitHub Universe today (GitHub gave  me a free ticket through their "GitHub Stars" program). EVP Jay Parikh...
 - **Lien** : https://simonwillison.net/2026/Oct/28/github-octoverse-2026/
 
-### GPT-6.1 Terra
-- **Source** : Simon Willison
-- **Date** : 2026-10-26T23:53
-- **Score** : 1
-- **Résumé** : GPT-6.1 Terra
-It's always interesting to note which aspects of a new model are emphasized in the release announcement.
-In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use:...
-- **Lien** : https://simonwillison.net/2026/Oct/26/gpt-61-terra/
-
 ### Welcome Le Chonk: Mistral Large 4 on Hugging Face
 - **Source** : Hugging Face Blog
 - **Date** : Thu, 29 Oct 2026
@@ -243,12 +250,5 @@ In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use
 - **Score** : 1
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/microsoft/thinkingbox-training
-
-### Community safety report and new protections for teens
-- **Source** : OpenAI Blog
-- **Date** : Fri, 30 Oct 2026
-- **Score** : 1
-- **Résumé** : OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting....
-- **Lien** : https://openai.com/index/community-safety-report-and-new-protections-for-teens
 
 <!-- BLOG_FEED_END -->
