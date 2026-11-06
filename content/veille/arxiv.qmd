@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### TradeWar: A Benchmark for Execution-Grounded Trade Negotiation with Adaptive LLM Agents
-- **arXiv** : 2610.42004v1
-- **Date** : 2026-10-30
-- **Auteurs** : Xiangyu Kong, Ruirui Yang, Xia Hou
-- **Score** : 10
-- **Résumé** : Multi-turn negotiation remains a challenging problem for large language model (LLM) agents. While LLMs can conduct natural-language dialogue, existing benchmarks predominantly assess only agreement rates, overlooking whether negotiated commitments actually create value once executed. To address this...
-- **Lien** : https://arxiv.org/abs/2610.42004v1
+### Benchmarking Large Language Models on Heterogeneous Cognitive and Biomedical Knowledge Graphs: The Role of Graph Grounding in Multi-Hop Reasoning and Hallucination Mitigation
+- **arXiv** : 2611.08315v1
+- **Date** : 2026-11-05
+- **Auteurs** : Ali Sarabadani, Kheirolah Rahsepar Fard, Tahereh Jeirani
+- **Score** : 14
+- **Résumé** : Large language models (LLMs) are increasingly used in biomedical and cognitive neuroscience, but their ability to reason reliably over heterogeneous knowledge graphs (KGs) remains unclear. We benchmark five LLMs (GPT-5.1, Gemini 2.0 Pro, Llama 3, Qwen, and BioGPT) across five KGs: DrugBank, NeuroSyn...
+- **Lien** : https://arxiv.org/abs/2611.08315v1
 
-### Flide: Accelerating Decision Inference with Exact State Forking
-- **arXiv** : 2610.42148v1
-- **Date** : 2026-10-30
-- **Auteurs** : Bobo Li, Jiajia Song, Hao Fei, Wynne Hsu, Mong Li Lee
+### The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI
+- **arXiv** : 2611.08428v1
+- **Date** : 2026-11-05
+- **Auteurs** : Julian Kunkel, Ali Doosthosseini
+- **Score** : 12
+- **Résumé** : Chat remains the default surface for many large language model (LLM) tasks, even as agentic tools such as OpenCode excel at coding and automation. Yet the model sees the current dialogue but not the workspace around it. We explore meta access---giving the assistant a structured, permissioned view of...
+- **Lien** : https://arxiv.org/abs/2611.08428v1
+
+### Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks
+- **arXiv** : 2611.08417v1
+- **Date** : 2026-11-05
+- **Auteurs** : E. Kelly Buchanan, Crystal Zhou, Scott W. Linderman, Christopher Ré
+- **Score** : 8
+- **Résumé** : Coding agents are among the most economically consequential deployments of LLMs to date, making reliable evaluation increasingly important. Yet even benchmarks that are carefully validated at release can become stale. As models improve, they can discover valid solutions that existing verifiers rejec...
+- **Lien** : https://arxiv.org/abs/2611.08417v1
+
+### StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference
+- **arXiv** : 2611.08363v1
+- **Date** : 2026-11-05
+- **Auteurs** : Jake Hyun, Ziyu Zhao, Jae-sun Seo, Mohamed S. Abdelfattah
 - **Score** : 7
-- **Résumé** : Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existing generation-oriented inference engines fail to support these workloads effectively, suffering from ...
-- **Lien** : https://arxiv.org/abs/2610.42148v1
+- **Résumé** : Quantization reduces the memory and bandwidth demands of large language model (LLM) inference but can degrade accuracy; offloading higher-precision data can instead stall generation. We introduce StrataFlux, a framework that challenges this tradeoff by recovering accuracy lost to low-bit weight and ...
+- **Lien** : https://arxiv.org/abs/2611.08363v1
 
-### ACCT: Asymmetric Cross-LLM Context Transfer
-- **arXiv** : 2610.42116v1
-- **Date** : 2026-10-30
-- **Auteurs** : Yuzhe Liu, Haolin Tian, Tonghan Wang
-- **Score** : 7
-- **Résumé** : In real-world deployments, large language model (LLM) systems are increasingly evolving from single-model invocation toward heterogeneous deployments in which different models are dynamically invoked for inference. When the same context is reused across models, however, each newly selected target mo...
-- **Lien** : https://arxiv.org/abs/2610.42116v1
-
-### Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention
-- **arXiv** : 2610.42147v1
-- **Date** : 2026-10-30
-- **Auteurs** : Ales Kubicek, Andrea Caciolai, Liangzu Peng, Sukrit Sumant, Benjamin Hoover
+### SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization
+- **arXiv** : 2611.08483v1
+- **Date** : 2026-11-05
+- **Auteurs** : Qile Jiang, George Em Karniadakis
 - **Score** : 6
-- **Résumé** : Agentic workflows are increasingly shifting towards long-horizon tasks, such as open-ended scientific work, where models benefit from long context windows. However, at ultra-long context (above 1M tokens), full attention is prohibitively expensive. A promising approach is sparse attention, in which ...
-- **Lien** : https://arxiv.org/abs/2610.42147v1
+- **Résumé** : LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for each round and must rep...
+- **Lien** : https://arxiv.org/abs/2611.08483v1
 
-### Dittany: Contribution-Guided Repair Framework for MAS Applications
-- **arXiv** : 2610.42144v1
-- **Date** : 2026-10-30
-- **Auteurs** : Hanqi Sun, Yuchen Shao, Hanyi Si, Beibei Xu, Lisheng Wang
+### Cognitive Tours: Making Understanding a Deliverable in AI-Assisted Development
+- **arXiv** : 2611.08456v1
+- **Date** : 2026-11-05
+- **Auteurs** : Margaret-Anne Storey
 - **Score** : 6
-- **Résumé** : LLM-based multi-agent system (MAS) applications can produce useful intermediate results while leaving task requirements unsatisfied. Repairing such executions requires identifying the work still needed and the completed results that can support it. We present 	ool, a contribution-guided runtime rep...
-- **Lien** : https://arxiv.org/abs/2610.42144v1
+- **Résumé** : Generative AI and agentic coding are accelerating software development, leading to concerns about technical debt. But two less visible forms of debt, cognitive debt and intent debt, are emerging as key risks to software health. Cognitive debt is the absence or erosion of a team's shared understandin...
+- **Lien** : https://arxiv.org/abs/2611.08456v1
 
-### Subquadratic Attention with a Hierarchical Tree-Structured Indexer
-- **arXiv** : 2610.42112v1
-- **Date** : 2026-10-30
-- **Auteurs** : Leon Lufkin, Cutter Dawes, Alexander Speicher, Kamesh Krishnamurthy, Tomás Figliolia
+### SCALE: Real-Time Latent Communication for Cyber-Physical Agents
+- **arXiv** : 2611.08390v1
+- **Date** : 2026-11-05
+- **Auteurs** : Shanghao Shi, Jian Xiao, Ching-Hsiang Chan, Sanjoy Baruah, Sastry Kompella
 - **Score** : 6
-- **Résumé** : The quadratic scaling of attention is a fundamental bottleneck limiting the long-context capabilities of large language models (LLMs). A variety of approaches have attempted to circumvent this, but they either fail to match attention's expressiveness (e.g., sliding-window or linear attention variant...
-- **Lien** : https://arxiv.org/abs/2610.42112v1
+- **Résumé** : Latent communication enables agents to collaborate efficiently by directly exchanging intermediate model representations rather than raw sensor data or text messages. Existing approaches, however, are primarily designed for LLM agents and do not consider the bandwidth constraints and heterogeneous t...
+- **Lien** : https://arxiv.org/abs/2611.08390v1
 
-### Same Question, Different Answers: Auditing Persona-Dependent Variation in Six LLMs on Smoking-Cessation Advice
-- **arXiv** : 2610.42039v1
-- **Date** : 2026-10-30
-- **Auteurs** : Artin Yousefi, Aizierjiang Aiersilan, Lorien C Abroms, David A Broniatowski
+### FedReason: Large Language Models as Weight-Space Meta-Aggregators for Heterogeneous Federated Learning
+- **arXiv** : 2611.08383v1
+- **Date** : 2026-11-05
+- **Auteurs** : Ali Mohammadi Ruzbahani, Abbas Yazdinejad, Hadis Karimipour
 - **Score** : 6
-- **Résumé** : Hundreds of millions of people now ask large language model (LLM) chatbots for health advice, which raises a question that is simple to pose and hard to answer: does everyone get the same advice? We audit six widely deployed LLMs from four providers on smoking cessation, a domain with codified clini...
-- **Lien** : https://arxiv.org/abs/2610.42039v1
+- **Résumé** : Federated learning servers combine client models with a fixed aggregation rule, and each rule in common use is designed for one kind of heterogeneity. We study whether a large language model (LLM) that inspects the client models can choose the rule itself, without any training on the server. In FedR...
+- **Lien** : https://arxiv.org/abs/2611.08383v1
 
-### CausalXRL: Explainable Reinforcement Learning through Causal Graph Reasoning
-- **arXiv** : 2610.42028v1
-- **Date** : 2026-10-30
-- **Auteurs** : Yanming Zhang, Eric Papenhausen, Klaus Mueller
+### Cultural Adaptation within Repeated Social Interactions
+- **arXiv** : 2611.08334v1
+- **Date** : 2026-11-05
+- **Auteurs** : Chen Cecilia Liu, Roi Reichart, Anna Korhonen
 - **Score** : 6
-- **Résumé** : Reinforcement learning is a powerful paradigm for training autonomous agents and has achieved impressive performance in complex environments. However, this success often comes at the cost of interpretability, diminishing trust and complicating efforts to debug and improve agent behavior. To address ...
-- **Lien** : https://arxiv.org/abs/2610.42028v1
+- **Résumé** : Much of human culture is tacit and is typically learned through situated social interaction. As LLMs are deployed as interactive agents across diverse communities, assessing their cultural competence demands moving beyond existing question-answering approaches, shifting from what they know to how th...
+- **Lien** : https://arxiv.org/abs/2611.08334v1
 
-### Know When the Equation Is Wrong: Structural Uncertainty for LLM-Guided Symbolic Regression under Extrapolation
-- **arXiv** : 2610.42024v1
-- **Date** : 2026-10-30
-- **Auteurs** : Mostafa Cham, Bayu Adhi Tama, Jianwu Wang
-- **Score** : 6
-- **Résumé** : Large language models (LLMs) can help discover mathematical equations from data, but most LLM-guided symbolic regression methods focus on a single best equation without quantifying uncertainty over alternative functional forms. This is challenging because distinct equations can fit the observed data...
-- **Lien** : https://arxiv.org/abs/2610.42024v1
+### SpecCTMC: Exact Speculative Simulation of Diffusion Language Model Continuous-Time Markov Chains
+- **arXiv** : 2611.08362v1
+- **Date** : 2026-11-05
+- **Auteurs** : Siva Rajesh Kasa, Yasong Dai, Sumit Negi, Hongdong Li
+- **Score** : 5
+- **Résumé** : Masked diffusion language models offer parallel text generation, but independently sampling multiple tokens can disrupt their dependencies and change the output distribution. Exact continuous-time sampling avoids this approximation, yet typically requires one sequential model evaluation per token. W...
+- **Lien** : https://arxiv.org/abs/2611.08362v1
 
-### Asynchronous Flow Map Language Models
-- **arXiv** : 2610.42018v1
-- **Date** : 2026-10-30
-- **Auteurs** : Chanhyuk Lee, Wonjung Kim, Patrick Pynadath, Jaehoon Yoo, Satoshi Hayakawa
-- **Score** : 6
-- **Résumé** : The order in which tokens are predicted in language modeling has a profound impact on the quality of generated sequences. Autoregressive and masked diffusion models iteratively fill in tokens and can exploit such orderings across generation steps, but how to leverage an ordering for one-step paralle...
-- **Lien** : https://arxiv.org/abs/2610.42018v1
-
-### SecPO: Principled Adversarial Training for Prompt Injection Security
-- **arXiv** : 2610.41998v1
-- **Date** : 2026-10-30
-- **Auteurs** : Sizhe Chen, Yibo Peng, Jaewon Chang, Chawin Sitawarin, David Wagner
-- **Score** : 6
-- **Résumé** : Recognized as a top threat to AI agents, prompt injection allows instructions from untrusted data (email, documents, websites) to manipulate the agent's operation. The existing best-defended LLM, Meta-SecAlign, is trained with the DPO loss but still suffers from attack success rates (ASRs) approachi...
-- **Lien** : https://arxiv.org/abs/2610.41998v1
-
-### RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory
-- **arXiv** : 2610.42141v1
-- **Date** : 2026-10-30
-- **Auteurs** : Shengguang Wu, Suning Huang, Cherie Ho, Ria Doshi, Hao Zhu
+### Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement
+- **arXiv** : 2611.08318v1
+- **Date** : 2026-11-05
+- **Auteurs** : Wenbo Huang, Jianxin Bi, Shunyu Yang, Ruiyang Si, Rui Ni
 - **Score** : 4
-- **Résumé** : Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesigned for each new robot or benchmark. We show that h...
-- **Lien** : https://arxiv.org/abs/2610.42141v1
+- **Résumé** : Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks. Several recent works expose the benchmark's success criteria to the learning agent, a practice we call Criteria Exposure (CE). These criteria, originally written to verify policies trained by...
+- **Lien** : https://arxiv.org/abs/2611.08318v1
 
-### TurnTurk-GPT: Text-Based Turn-Taking Prediction for Turkish
-- **arXiv** : 2610.42010v1
-- **Date** : 2026-10-30
-- **Auteurs** : Ahmet Tuğrul Bayrak, Fatma Nur Korkmaz, Nur Yağmur Tuncer, Mustafa Sertaç Türkel
-- **Score** : 4
-- **Résumé** : This paper presents TurnTurk-GPT, a text-based turn-taking predictor for Turkish obtained by fine-tuning a Turkish GPT-2 model with the TurnGPT objective on synthetic and real dialogue, and evaluates it on real Turkish conversation against rule baselines, a zero-shot Turkish language model and a wid...
-- **Lien** : https://arxiv.org/abs/2610.42010v1
-
-### Latent Reasoning in Continuous Space for Unified Multimodal Models
-- **arXiv** : 2610.42149v1
-- **Date** : 2026-10-30
-- **Auteurs** : Byungwoo Jeon, Yoonwoo Jeong, Hyunseok Lee, Minsu Cho, Jinwoo Shin
+### XStack: A Benchmark for ML Repo Migration
+- **arXiv** : 2611.08472v1
+- **Date** : 2026-11-05
+- **Auteurs** : Linrong Cai, Taiming Lu, Haozhe Chen, Zhuang Liu
 - **Score** : 3
-- **Résumé** : Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit t...
-- **Lien** : https://arxiv.org/abs/2610.42149v1
+- **Résumé** : ML code should run where researchers choose, not where it was first written. Today, machine learning code mainly lives in two ecosystems, PyTorch on NVIDIA GPUs and JAX on Google TPUs. Migrating repositories between them means building and testing across frameworks and hardware. This migration is (1...
+- **Lien** : https://arxiv.org/abs/2611.08472v1
 
-### Hierarchical World Models with Implicit Dynamics
-- **arXiv** : 2610.42146v1
-- **Date** : 2026-10-30
-- **Auteurs** : Gaoyue Zhou, Yvonne Wu, Zichen Jeff Cui, Nicolas Ballas, Mido Assran
+### Towards interpreting any residual stream direction by scaling activation inversion
+- **arXiv** : 2611.08465v1
+- **Date** : 2026-11-05
+- **Auteurs** : Celeste De Schamphelaere, Juan J. Vazquez, Ari Spiesberger, Tomáš Gavenčiak, Gavin Leech
 - **Score** : 3
-- **Résumé** : Planning with world models enables test-time adaptation for embodied agents, offering superior generalization over direct policy learning. However, long-horizon tasks remain hindered by cumulative errors and search complexity. Existing hierarchical methods often use rigid macro-actions or latent ski...
-- **Lien** : https://arxiv.org/abs/2610.42146v1
+- **Résumé** : To interpret a direction in a language model's residual stream, we can look for text that strongly activates it. But when such text is found by scanning a corpus, it is limited to what that corpus contains. We develop Maximally-Activating Example Metamodels (MAEMs), language models which map residua...
+- **Lien** : https://arxiv.org/abs/2611.08465v1
 
-### DecisionRank: On-Policy Distillation for Decision-Model Rerankers
-- **arXiv** : 2610.42128v1
-- **Date** : 2026-10-30
-- **Auteurs** : Yanran Wu, Dian Yu, Chongyang Bai, Jieyi Zhang, Rui Liu
+### ReproBridge: Building Reproducibility into ML Research Artifacts
+- **arXiv** : 2611.08452v1
+- **Date** : 2026-11-05
+- **Auteurs** : Yubo Wang, Rui Meng, Jaehyun Nam, Tomas Pfister, Jinsung Yoon
 - **Score** : 3
-- **Résumé** : Decision models target structured tasks by directly predicting choices or scores, avoiding autoregressive decoding latency. However, transferring a generative LLM's ranking knowledge to a decision model remains challenging: the teacher expresses preferences through a ranked list of document ID seque...
-- **Lien** : https://arxiv.org/abs/2610.42128v1
+- **Résumé** : Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifac...
+- **Lien** : https://arxiv.org/abs/2611.08452v1
 
-### Strategic Tanking in Stable Matching Markets
-- **arXiv** : 2610.42105v1
-- **Date** : 2026-10-30
-- **Auteurs** : James P. Bailey
+### Understanding AI from the Inside: The State of Mechanistic Interpretability for AI Safety
+- **arXiv** : 2611.08438v1
+- **Date** : 2026-11-05
+- **Auteurs** : Fazl Barez, Tung-Yu Wu, Hunar Batra, Gabriele Dominici, Florent Draye
 - **Score** : 3
-- **Résumé** : Motivated by a broad literature in psychology, organizational behavior, and matching markets, we introduce strategic tanking: an agent deliberately makes themselves less attractive to selected potential partners in order to improve their eventual assignment. Unlike traditional manipulation in stable...
-- **Lien** : https://arxiv.org/abs/2610.42105v1
+- **Résumé** : Neural networks are likely to be among the most consequential artefacts in human history. As these systems become more capable and autonomous, their potential to cause societal harm also grows, making AI safety one of the defining challenges of our time. Yet we continue to build increasingly powerfu...
+- **Lien** : https://arxiv.org/abs/2611.08438v1
 
-### RangeSWA: Training-Free Length Extrapolation for Continuous Diffusion Language Models
-- **arXiv** : 2610.42084v1
-- **Date** : 2026-10-30
-- **Auteurs** : Guangfu Guo, Xiaoqian Lu, Linsey Pang, Weiran Yao, Haolin Chen
+### MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue
+- **arXiv** : 2611.08433v1
+- **Date** : 2026-11-05
+- **Auteurs** : Donghua Zhang, Zizheng Wang, Ze Dong, Yiding Feng, Siyu Qian
 - **Score** : 3
-- **Résumé** : Continuous diffusion language models show promising potential in text generation tasks, but are prone to problems such as text repetition, semantic drift, and generation quality degradation when the generation length exceeds the training length. To address these challenges, we propose RangeSWA, a tr...
-- **Lien** : https://arxiv.org/abs/2610.42084v1
+- **Résumé** : LLM-based medical assistants that follow a patient across visits need a memory that keeps the patient's clinical state correct as it changes. We examine the errors of five memory systems on longitudinal medical dialogue and find three recurring causes: the retrieved evidence gives an outdated state,...
+- **Lien** : https://arxiv.org/abs/2611.08433v1
 
-### RAMA: Retrieval-Augmented Multi-Agent Routing with Episodic Memory for LEO Satellite Networks
-- **arXiv** : 2610.42068v1
-- **Date** : 2026-10-30
-- **Auteurs** : Xin Ming Li, Peng Hu
+### Conformal Prediction for Time-Dependent PDEs
+- **arXiv** : 2611.08409v1
+- **Date** : 2026-11-05
+- **Auteurs** : Joshua Stiller, Annika Schneider, Eyke Hüllermeier
 - **Score** : 3
-- **Résumé** : Low-Earth orbit (LEO) satellite networks present a challenging routing environment due to rapidly changing topology, traffic, and link conditions. Existing deep reinforcement learning (DRL) routing methods typically rely on current observations and information encoded in network weights, limiting th...
-- **Lien** : https://arxiv.org/abs/2610.42068v1
+- **Résumé** : Uncertainty quantification is crucial in scientific machine learning, where models inform safety-critical tasks such as flood forecasting, financial risk management, and thermal control in machines. Conformal prediction provides distribution-free coverage guarantees, but in time-dependent settings c...
+- **Lien** : https://arxiv.org/abs/2611.08409v1
 
-### CRoS: Causality Reward on Scrambled CoTs Improves Accuracy and Reasoning Faithfulness
-- **arXiv** : 2610.42054v1
-- **Date** : 2026-10-30
-- **Auteurs** : Xiao Yu, Justin Chih-Yao Chen, Zaid Khan, Hyunji Lee, Mohit Bansal
+### Social Humanoid: Socially Responsive Human-Humanoid Interaction
+- **arXiv** : 2611.08407v1
+- **Date** : 2026-11-05
+- **Auteurs** : Vongani H. Maluleke, James Ni, Kie Horiuchi, Lea Wilken, Jiahui Lei
 - **Score** : 3
-- **Résumé** : Reinforcement learning with verifiable rewards (RLVR) has become the standard method for training language models to reason. However, RLVR typically relies solely on outcome correctness, which does not guarantee that the CoT causally contributes to the final answer. Without this connection, outcome ...
-- **Lien** : https://arxiv.org/abs/2610.42054v1
+- **Résumé** : Humanoid robots are typically trained as solitary agents, leaving them unable to coordinate physically with human partners who naturally anticipate and adjust to one another. To bridge this gap, we present Social Humanoid, a hierarchical system that generates and executes socially responsive whole-b...
+- **Lien** : https://arxiv.org/abs/2611.08407v1
+
+### Enhancing Local and Global Structure in Compressed AI Agent Memory
+- **arXiv** : 2611.08341v1
+- **Date** : 2026-11-05
+- **Auteurs** : Henry Han
+- **Score** : 3
+- **Résumé** : AI agents store text as embedding vectors and compress them at scale. A compression is accepted when each item's nearest neighbors survive, but agents also consolidate, delete, and compare memories, tasks that depend on which items lie far apart. We evaluate both ends with two label-free fidelities ...
+- **Lien** : https://arxiv.org/abs/2611.08341v1
+
+### Interpretable many-body interaction laws for collective motion from few trajectories
+- **arXiv** : 2611.08314v1
+- **Date** : 2026-11-05
+- **Auteurs** : Timon S. Gutleb
+- **Score** : 3
+- **Résumé** : Models of collective motion usually reduce social interactions to pairwise forces, despite empirical evidence for many-body effects. We introduce the directional atomic cluster expansion (dACE), which adapts the atomic cluster expansion (ACE) of interatomic potentials to self-propelled agents. dACE ...
+- **Lien** : https://arxiv.org/abs/2611.08314v1
 
 <!-- ARXIV_FEED_END -->

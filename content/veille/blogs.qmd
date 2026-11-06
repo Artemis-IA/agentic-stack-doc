@@ -69,12 +69,12 @@ graph LR
 | Hardware | `GPU`, `H100`, `B200`, `TPU`, `LPU`, `Groq` |
 
 <!-- BLOG_FEED_START -->
-### Coding From the Himalayas With an Offline AI Agent
+### [AINews] LLMs can read & write neural network weights: "Weight Space Programming" cuts Autoresearch out of the RSI loop
 - **Source** : latent.space
-- **Date** : Tue, 27 Oct 2026
-- **Score** : 4
-- **Résumé** : How to set up and run an offline coding agent using OpenCode, Ollama and Qwen....
-- **Lien** : https://latent.space/p/offline-coding/
+- **Date** : Tue, 03 Nov 2026
+- **Score** : 5
+- **Résumé** : Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark....
+- **Lien** : https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/
 
 ### Last Week in AI #343 - GPT-6, OpenAI’s agents chatted on a wiki, Fable 5.1
 - **Source** : Last Week in AI
@@ -82,20 +82,6 @@ graph LR
 - **Score** : 4
 - **Résumé** : GPT-6 Astra Is Here, Discovery of a new OpenAI agent message board, Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-343-gpt-6-openais
-
-### How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands
-- **Source** : latent.space
-- **Date** : Tue, 27 Oct 2026
-- **Score** : 3
-- **Résumé** : Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and b...
-- **Lien** : https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/
-
-### Legora is building the agentic operating system for legal work
-- **Source** : OpenAI Blog
-- **Date** : Wed, 28 Oct 2026
-- **Score** : 3
-- **Résumé** : See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work....
-- **Lien** : https://openai.com/index/legora
 
 ### Agents Prompt People: Using Agents for Long-Horizon Financial Work
 - **Source** : latent.space
@@ -111,44 +97,36 @@ graph LR
 - **Résumé** : Mistral’s open-weight release, frontier monitoring, and the day’s AI Twitter and Reddit recaps....
 - **Lien** : https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/
 
-### How Anthropic ships Claude with Claude: Separating the Brain from the Hands
-- **Source** : latent.space
-- **Date** : Tue, 27 Oct 2026
-- **Score** : 2
-- **Résumé** : Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents....
-- **Lien** : https://latent.space/p/opus55/
-
-### datasette-llm 0.1a9
+### datasette-llm 0.1a10
 - **Source** : Simon Willison
-- **Date** : 2026-10-31T22:10
+- **Date** : 2026-11-04T15:26
 - **Score** : 2
-- **Résumé** : Release: datasette-llm 0.1a9
-        I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improve...
-- **Lien** : https://simonwillison.net/2026/Oct/31/datasette-llm/
+- **Résumé** : Release: datasette-llm 0.1a10
+        Fixes a bug that affected my agent.datasette.io dem...
+- **Lien** : https://simonwillison.net/2026/Nov/4/datasette-llm/
 
-### API credits benefit for eligible ChatGPT subscriptions
+### Qwen 3.8 27B on my laptop can interpret model weights, too
 - **Source** : Simon Willison
-- **Date** : 2026-10-29T22:48
+- **Date** : 2026-11-03T16:29
 - **Score** : 2
-- **Résumé** : API credits benefit for eligible ChatGPT subscriptions
-Earlier this month Anthropic a...
-- **Lien** : https://simonwillison.net/2026/Oct/29/api-credits/
+- **Résumé** : Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the ...
+- **Lien** : https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/
 
-### Quoting Ben Hylak
+### llm 0.37
 - **Source** : Simon Willison
-- **Date** : 2026-10-29T14:06
+- **Date** : 2026-11-02T23:49
 - **Score** : 2
-- **Résumé** : every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath.
-except for our product, of course. 
-in our product, customers love t...
-- **Lien** : https://simonwillison.net/2026/Oct/29/ben-hylak/
+- **Résumé** : Release: llm 0.37
+        There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes.
+I added gpt-6.1...
+- **Lien** : https://simonwillison.net/2026/Nov/2/llm/
 
-### OpenAI and ServiceNow expand partnership across enterprise workflows
+### GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents
 - **Source** : OpenAI Blog
-- **Date** : Wed, 28 Oct 2026
+- **Date** : Thu, 05 Nov 2026
 - **Score** : 2
-- **Résumé** : OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex....
-- **Lien** : https://openai.com/index/openai-servicenow-partnership-expansion
+- **Résumé** : Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope....
+- **Lien** : https://openai.com/index/introducing-gpt-6-cyber
 
 ### LWiAI Podcast #258 - Opus 5.5, Sol and Luna, Muse, DeepSeek-V4.1-Flash, Xi
 - **Source** : Last Week in AI
@@ -171,6 +149,13 @@ in our product, customers love t...
 - **Résumé** : Google announces Gemini 3.7 Flash, Jalape&#241;o&#8217;s first results show industry-leading speed, A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I....
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-255-gemini-37-jalapeno
 
+### Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora
+- **Source** : latent.space
+- **Date** : Mon, 02 Nov 2026
+- **Score** : 1
+- **Résumé** : Legora can’t read a single trace of what its agent does for a lawyer. The data belongs to the law firm’s clients. How do you build and test an agent when you can’t see its work? Jacob Lauritzen is the...
+- **Lien** : https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/
+
 ### Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning
 - **Source** : latent.space
 - **Date** : Thu, 29 Oct 2026
@@ -178,76 +163,83 @@ in our product, customers love t...
 - **Résumé** : A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images....
 - **Lien** : https://latent.space/p/elorian/
 
-### [AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders
-- **Source** : latent.space
-- **Date** : Thu, 29 Oct 2026
-- **Score** : 1
-- **Résumé** : Google’s new frontier model leads independent evals, with access initially limited to trusted defenders....
-- **Lien** : https://latent.space/p/ainews-gemini-4-carbon/
-
-### Why Agents Love Supabase
-- **Source** : latent.space
-- **Date** : Wed, 28 Oct 2026
-- **Score** : 1
-- **Résumé** : Paul Copplestone and Ant Wilson on building the backend for AI agents...
-- **Lien** : https://latent.space/p/supabase/
-
-### Quoting Kyle Kingsbury
+### datasette-agent 0.5a0
 - **Source** : Simon Willison
-- **Date** : 2026-11-01T16:49
+- **Date** : 2026-11-03T23:13
 - **Score** : 1
-- **Résumé** : More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the...
-- **Lien** : https://simonwillison.net/2026/Nov/1/kyle-kingsbury/
+- **Résumé** : Release: datasette-agent 0.5a0
+        This is a significant release of Datasette Agent. The most notable new feature is called the panel</strong...
+- **Lien** : https://simonwillison.net/2026/Nov/3/datasette-agent/
 
-### How We Took Over ChatGPT Accounts
+### llm 0.37.1
 - **Source** : Simon Willison
-- **Date** : 2026-10-31T23:15
+- **Date** : 2026-11-03T21:41
 - **Score** : 1
-- **Résumé** : How We Took Over ChatGPT Accounts
-Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this "Canvas" but it looks like the lates...
-- **Lien** : https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/
+- **Résumé** : Release: llm 0.37.1
+        A bugfix release for LLM, with contributions from Steven Huang, <a href="https://githu...
+- **Lien** : https://simonwillison.net/2026/Nov/3/llm/
 
-### dbreunig/nesformer
-- **Source** : Simon Willison
-- **Date** : 2026-10-30T21:59
-- **Score** : 1
-- **Résumé** : dbreunig/nesformer
-Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B....
-- **Lien** : https://simonwillison.net/2026/Oct/30/nesformer/
-
-### Quoting Ted Sanders
-- **Source** : Simon Willison
-- **Date** : 2026-10-28T23:23
-- **Score** : 1
-- **Résumé** : In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexit...
-- **Lien** : https://simonwillison.net/2026/Oct/28/ted-sanders/
-
-### Welcome Le Chonk: Mistral Large 4 on Hugging Face
+### A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.
 - **Source** : Hugging Face Blog
-- **Date** : Thu, 29 Oct 2026
+- **Date** : Thu, 05 Nov 2026
 - **Score** : 1
 - **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/mistral-large4
+- **Lien** : https://huggingface.co/blog/phonon-tts
 
-### Can we trust LLMs to judge whether a research idea is novel?
+### CWE-bench v2: More coverage, quality, and transparency
 - **Source** : Hugging Face Blog
-- **Date** : Tue, 27 Oct 2026
+- **Date** : Tue, 03 Nov 2026
 - **Score** : 1
 - **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/allenai/novelty-bench
+- **Lien** : https://huggingface.co/blog/cwe-bench
 
-### Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox
-- **Source** : Hugging Face Blog
-- **Date** : Thu, 22 Oct 2026
-- **Score** : 1
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/microsoft/thinkingbox-training
-
-### Community safety report and new protections for teens
+### Australian universities are creating AI-native graduates
 - **Source** : OpenAI Blog
-- **Date** : Fri, 30 Oct 2026
+- **Date** : Thu, 05 Nov 2026
 - **Score** : 1
-- **Résumé** : OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting....
-- **Lien** : https://openai.com/index/community-safety-report-and-new-protections-for-teens
+- **Résumé** : Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce....
+- **Lien** : https://openai.com/index/australian-universities-ai-native-graduates
+
+### Merge builds product and business tools with OpenAI technology
+- **Source** : OpenAI Blog
+- **Date** : Thu, 05 Nov 2026
+- **Score** : 1
+- **Résumé** : Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates....
+- **Lien** : https://openai.com/index/merge-builds-with-openai
+
+### Flipsnack grows product signups with conversion optimization
+- **Source** : OpenAI Blog
+- **Date** : Thu, 05 Nov 2026
+- **Score** : 1
+- **Résumé** : Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup....
+- **Lien** : https://openai.com/ads/customers/flipsnack
+
+### Daybreak Red is now available in AWS GovCloud (US-East)
+- **Source** : OpenAI Blog
+- **Date** : Wed, 04 Nov 2026
+- **Score** : 1
+- **Résumé** : Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work....
+- **Lien** : https://openai.com/index/daybreak-red-aws-govcloud
+
+### Last Week in AI #346 - 719 math manuscripts, 2 Western open models, 1 more safety resignation
+- **Source** : Last Week in AI
+- **Date** : Fri, 09 Oct 2026
+- **Score** : 1
+- **Résumé** : OpenAI publishes hundreds of math proofs from unreleased frontier model, Mistral and Reflection AI launch open-weight models to rival China, and more!...
+- **Lien** : https://lastweekin.ai/p/last-week-in-ai-346-719-math-manuscripts
+
+### LWiAI Podcast #257 - GPT 6 Astra, AI Extinction, Security Incidents
+- **Source** : Last Week in AI
+- **Date** : Thu, 24 Sep 2026
+- **Score** : 1
+- **Résumé** : A belated discussion of Astra&#8217;s release, a bunch of AI incidents, and the broader situation we are in with regards to AI safety....
+- **Lien** : https://lastweekin.ai/p/lwiai-podcast-257-gpt-6-astra-ai
+
+### LWiAI Podcast #253 - Opus 5, Gemini 3.6, Kimi K3, Hugging Face Hack
+- **Source** : Last Week in AI
+- **Date** : Mon, 03 Aug 2026
+- **Score** : 1
+- **Résumé** : Anthropic releases Opus 5 promising Fable 5-like capabilities, Google Releases Three New Gemini A.I. Models, and more!...
+- **Lien** : https://lastweekin.ai/p/lwiai-podcast-253-opus-5-gemini-36
 
 <!-- BLOG_FEED_END -->
