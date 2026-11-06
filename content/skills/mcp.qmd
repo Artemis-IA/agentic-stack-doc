@@ -121,12 +121,6 @@ MCP devient le **standard de facto** pour connecter les agents IA aux outils ext
 ## MCP Servers découverts automatiquement
 
 <!-- TOOLS_MCP_START -->
-### [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)
-🐍 ☁️ 🏠 - Hindsight: long-term memory for AI agents modeled on human memory.
-
-⭐ 59.3k | `Python` | Licence: MIT | MAJ: 2026-11-06
-**Tags** : `agentic-ai`, `agents`, `ai-memory`, `memory`
-
 ### [lightpanda-io/browser](https://github.com/lightpanda-io/browser)
 🏠 🍎 🐧 - Headless browser for AI and web automation with a built-in MCP server.
 
@@ -201,7 +195,7 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ### [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp)
 📇 🏠 🐧 🍎 - Android and iOS app and device automation, development and app scraping on simulators, emulators and physical devices.
 
-⭐ 10.3k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-11-06
+⭐ 10.4k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-11-06
 **Tags** : `agent`, `android`, `android-automation`, `appium-alternative`, `claude-code`, `codex`, `cursor`, `emulator`
 
 ### [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP)
@@ -258,17 +252,17 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ⭐ 6.5k | `Rust` | Licence: MIT | MAJ: 2026-11-06
 **Tags** : `ai`, `cli`, `clones-detection`, `code-duplication`, `code-quality`, `coding-agents`, `copy-paste`, `copy-paste-detection`
 
-### [21st-dev/Magic-MCP](https://github.com/21st-dev/magic-mcp)
-Create UI components inspired by 21st.dev design engineers.
-
-⭐ 6.4k | `TypeScript` | Licence: ISC | MAJ: 2026-11-06
-**Tags** : `21st`, `claude`, `cursor`, `mcp`, `model-context-protocol`, `react`, `tailwindcss`, `ui-components`
-
 ### [getopenscreen/openscreen](https://github.com/getopenscreen/openscreen)
 !getopenscreen/openscreen MCP server 🎖️ 📇 🏠 🍎 🪟 🐧 - Free, open-source screen recorder and video editor that agents drive over stdio (the desktop app's own executable started with mcp): record the s...
 
 ⭐ 6.4k | `TypeScript` | Licence: MIT | MAJ: 2026-11-06
 **Tags** : `cross-platform`, `electron`, `ffmpeg`, `open-source`, `product-demo`, `rust`, `screen-capture`, `screen-recorder`
+
+### [21st-dev/Magic-MCP](https://github.com/21st-dev/magic-mcp)
+Create UI components inspired by 21st.dev design engineers.
+
+⭐ 6.4k | `TypeScript` | Licence: ISC | MAJ: 2026-11-06
+**Tags** : `21st`, `claude`, `cursor`, `mcp`, `model-context-protocol`, `react`, `tailwindcss`, `ui-components`
 
 ### [wiltodelta/remove-ai-watermarks](https://github.com/wiltodelta/remove-ai-watermarks)
 !wiltodelta/remove-ai-watermarks MCP server 🐍 🏠 🍎 🪟 🐧 - Identify and remove AI watermarks and provenance metadata (Gemini and Veo marks, SynthID, C2PA, EXIF) in images and video you generated yours...
@@ -298,5 +292,11 @@ Open-source connector gateway for agents to discover and execute SaaS actions th
 📇 - Browser automation and web scraping using Playwright.
 
 ⭐ 5.7k | `TypeScript` | Licence: MIT | MAJ: 2026-11-06
+
+### [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device)
+!callstackincubator/agent-device MCP server 📇 🏠 🍎 🐧 - Discovery router for the agent-device CLI: status, install guidance, version-matched help and prompts for iOS, Android, tvOS, macOS and Linux a...
+
+⭐ 5.3k | `TypeScript` | Licence: MIT | MAJ: 2026-11-06
+**Tags** : `adb`, `agentic-ai`, `agents`, `ai-agents`, `android-emulator`, `automation`, `e2e-testing`, `expo`
 
 <!-- TOOLS_MCP_END -->

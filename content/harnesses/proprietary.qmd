@@ -176,13 +176,13 @@ Local-first code intelligence graph for MCP and CLI. Builds a persistent map of 
 ### [serena](https://github.com/oraios/serena)
 A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities - the IDE for your agent
 
-⭐ 31.1k | `Python` | Licence: NOASSERTION | MAJ: 2026-11-06
+⭐ 31.2k | `Python` | Licence: NOASSERTION | MAJ: 2026-11-06
 **Tags** : `agent`, `ai`, `ai-coding`, `claude`, `claude-code`, `codex`, `ide`, `jetbrains`
 
 ### [qwen-code](https://github.com/QwenLM/qwen-code)
 An open-source AI coding agent that lives in your terminal.
 
-⭐ 29.0k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-11-06
+⭐ 29.1k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-11-06
 **Tags** : `agentic`, `ai`, `ai-agent`, `ai-coding`, `cli`, `coding-agent`, `developer-tools`, `llm`
 
 ### [kilocode](https://github.com/Kilo-Org/kilocode)
@@ -206,13 +206,13 @@ Paradev is an open-source Codex App and Conductor alternative. Orchestrate an ar
 ### [pr-agent](https://github.com/The-PR-Agent/pr-agent)
 🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.
 
-⭐ 15.2k | `Python` | Licence: MIT | MAJ: 2026-11-06
+⭐ 15.3k | `Python` | Licence: MIT | MAJ: 2026-11-06
 **Tags** : `ai`, `anthropic`, `code-review`, `coding-assistant`, `devtools`, `ollama`, `openai`, `pull-request`
 
 ### [agent-orchestrator](https://github.com/OrchestratorInc/agent-orchestrator)
 Plan, run and supervise fleets of agents from task to merged PR. Desktop (macOS, Windows, Linux) + iPhone & Android apps. Supports Claude Code, Codex & 35+ coding agents.
 
-⭐ 14.2k | `Go` | Licence: Apache-2.0 | MAJ: 2026-11-06
+⭐ 14.2k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-11-06
 **Tags** : `agent-fleet`, `agent-ide`, `agent-orchestration`, `agent-swarm`, `agentic-coding`, `ai-agents`, `ai-coding`, `claude-code`
 
 ### [claude-context](https://github.com/zilliztech/claude-context)
@@ -221,16 +221,16 @@ Code search MCP for Claude Code. Make entire codebase the context for any coding
 ⭐ 12.7k | `TypeScript` | Licence: MIT | MAJ: 2026-11-06
 **Tags** : `agent`, `agentic-rag`, `ai-coding`, `claude-code`, `code-generation`, `code-search`, `cursor`, `embedding`
 
-### [loop-engineering](https://github.com/cobusgreyling/loop-engineering)
-Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audi...
-
-⭐ 11.7k | `TypeScript` | Licence: MIT | MAJ: 2026-11-06
-**Tags** : `agentic-ai`, `ai-agents`, `ai-coding`, `anthropic`, `automation`, `claude`, `claude-code`, `codex`
-
 ### [codeburn](https://github.com/getagentseal/codeburn)
 Free, local tool to track AI coding token usage and cost across 37 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task. npx codeburn
 
 ⭐ 11.7k | `TypeScript` | Licence: MIT | MAJ: 2026-11-06
 **Tags** : `ai-coding`, `claude-code`, `cli`, `codex`, `cost-tracking`, `cursor-ide`, `developer-tools`, `menubar`
+
+### [loop-engineering](https://github.com/cobusgreyling/loop-engineering)
+Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audi...
+
+⭐ 11.7k | `TypeScript` | Licence: MIT | MAJ: 2026-11-06
+**Tags** : `agentic-ai`, `ai-agents`, `ai-coding`, `anthropic`, `automation`, `claude`, `claude-code`, `codex`
 
 <!-- TOOLS_HARNESS_PROP_END -->

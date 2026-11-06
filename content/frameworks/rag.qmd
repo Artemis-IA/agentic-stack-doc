@@ -176,7 +176,7 @@ An LLM-powered repository agent designed to assist developers and teams in gener
 ### [Caura](https://github.com/caura-ai/caura)
 Open-source governed shared memory for AI agent fleets with cross-agent recall, permissions, audit trails, and persistent memory.
 
-⭐ 550 | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-06
+⭐ 552 | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-06
 **Tags** : `agent-memory`, `agentic-ai`, `ai-agents`, `ai-infrastructure`, `claude`, `fastapi`, `knowledge-graph`, `llm-memory`
 
 ### [muvon/octocode](https://github.com/Muvon/octocode)
@@ -194,7 +194,7 @@ A python package for Txt-to-SQL with self hosting functionalities and RESTful AP
 ### [shinpr/mcp-local-rag](https://github.com/shinpr/mcp-local-rag)
 📇 🏠 - Local document search: semantic search over PDF, DOCX, TXT and Markdown files with LanceDB vector storage and local embeddings.
 
-⭐ 429 | `TypeScript` | Licence: MIT | MAJ: 2026-11-04
+⭐ 428 | `TypeScript` | Licence: MIT | MAJ: 2026-11-06
 **Tags** : `agent-skills`, `cli-tool`, `developer-tools`, `hybrid-search`, `local-first`, `local-rag`, `mcp`, `mcp-server`
 
 ### [Open-RAG-Eval](https://github.com/vectara/open-rag-eval)
@@ -213,7 +213,7 @@ an open source RAG evaluation framework that does not require golden answers, an
 !lyonzin/knowledge-rag MCP server 🐍 🏠 🍎 🪟 🐧 - Offline RAG for Claude Code with hybrid BM25 and semantic search, cross-encoder reranking, Markdown-aware chunking and query expansion.
 
 ⭐ 301 | `Python` | Licence: MIT | MAJ: 2026-11-06
-**Tags** : `antigravity`, `claude`, `claude-code`, `claude-code-cli`, `codex`, `cursor-ai`, `document-search`, `hybrid-search`
+**Tags** : `antigravity`, `bm25`, `chromadb`, `claude-code`, `codex`, `cross-encoder`, `cursor`, `fastembed`
 
 ### [sachitrafa/YourMemory](https://github.com/sachitrafa/YourMemory)
 !sachitrafa/YourMemory MCP server 🐍 🏠 🍎 🪟 🐧 - Persistent agent memory with Ebbinghaus-style decay, hybrid BM25/vector retrieval, entity graph for multi-hop reasoning, auto-pruning and a browser das...
@@ -224,13 +224,13 @@ an open source RAG evaluation framework that does not require golden answers, an
 ### [VictoriaMetrics-Community/mcp-victoriametrics](https://github.com/VictoriaMetrics-Community/mcp-victoriametrics)
 🎖️ 🏎️ 🏠 - Integration with VictoriaMetrics instance APIs and documentation for monitoring, observability and debugging tasks.
 
-⭐ 242 | `Go` | Licence: Apache-2.0 | MAJ: 2026-11-02
+⭐ 243 | `Go` | Licence: Apache-2.0 | MAJ: 2026-11-06
 **Tags** : `ai`, `mcp`, `mcp-server`, `monitoring`, `observability`, `rag`, `victoriametrics`
 
 ### [roomi-fields/notebooklm-mcp](https://github.com/roomi-fields/notebooklm-mcp)
 !notebooklm-mcp MCP server 📇 🏠 🍎 🪟 🐧 - Automate Google NotebookLM: Q&A with citations, audio podcasts, video, content generation, source management and notebook library.
 
-⭐ 221 | `TypeScript` | Licence: MIT | MAJ: 2026-11-06
+⭐ 226 | `TypeScript` | Licence: MIT | MAJ: 2026-11-06
 **Tags** : `agentic-skill`, `anthropic`, `automation`, `citations`, `claude-code`, `claude-skills`, `codex`, `gemini-notebook`
 
 ### [alibaizhanov/mengram](https://github.com/alibaizhanov/mengram)
