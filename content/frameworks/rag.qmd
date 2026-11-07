@@ -128,25 +128,31 @@ graph LR
 ### [Flowise](https://github.com/FlowiseAI/Flowise)
 Build AI Agents, Visually
 
-⭐ 55.6k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-11-06
+⭐ 55.6k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-11-07
 **Tags** : `agentic-ai`, `agentic-workflow`, `agents`, `artificial-intelligence`, `chatbot`, `chatgpt`, `javascript`, `langchain`
 
-### [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
-!DeusData/codebase-memory-mcp MCP server 🌊 🏠 🍎 🪟 🐧 - Indexes a repo into a persistent local knowledge graph of functions, classes, call chains, HTTP routes and cross-service links, using tree-sitte...
+### [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
+Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection.
 
-⭐ 48.2k | `C` | Licence: MIT | MAJ: 2026-11-06
+⭐ 48.3k | `C` | Licence: MIT | MAJ: 2026-11-07
 **Tags** : `aider`, `ast`, `claude-code`, `code-analysis`, `code-intelligence`, `codex`, `cursor`, `cypher`
+
+### [xerj](https://github.com/xerj-org/xerj)
+AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memor...
+
+⭐ 18.5k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-07
+**Tags** : `agent-memory`, `ai-agents`, `bm25`, `claude-code`, `cli`, `code-search`, `cursor`, `database`
 
 ### [EvoAgentX](https://github.com/ANative-Lab/EvoAgentX)
 EvoAgentX is building a Self-Evolving Ecosystem of AI Agents, it will give you automated framework for evaluating and evolving agentic workflows. !GitHub Repo stars
 
-⭐ 3.4k | `Python` | Licence: NOASSERTION | MAJ: 2026-11-06
+⭐ 3.4k | `Python` | Licence: NOASSERTION | MAJ: 2026-11-07
 **Tags** : `agent`, `ai`, `ai-agents`, `llms`, `memory`, `multi-agent-systems`, `natural-language-processing`, `rag`
 
 ### [fabio-rovai/open-ontologies](https://github.com/fabio-rovai/open-ontologies)
 !open-ontologies MCP server 🦀 🏠 - Ontology engineering for OWL, RDF and SPARQL: validate, query, diff, lint, version and govern knowledge graphs on an Oxigraph triple store.
 
-⭐ 2.8k | `Rust` | Licence: MIT | MAJ: 2026-11-06
+⭐ 2.8k | `Rust` | Licence: MIT | MAJ: 2026-11-07
 **Tags** : `ai-native`, `description-logics`, `formal-verification`, `infrastructure-as-code`, `isabelle-language`, `knowledge-graph`, `lean`, `lean4`
 
 ### [Agentset](https://github.com/agentset-ai/agentset)
@@ -158,7 +164,7 @@ Open-source production-ready RAG platform with built-in agentic reasoning, hybri
 ### [IWE](https://github.com/iwe-org/iwe)
 Markdown knowledge graph for you and your AI agents — editor LSP plus CLI and MCP server so agents can search, retrieve, and refactor plain-text notes. !GitHub Repo stars
 
-⭐ 1.8k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-05
+⭐ 1.8k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-07
 **Tags** : `ai-agents`, `ai-memory`, `cli`, `helix`, `knowledge-graph`, `knowledge-management`, `language-server`, `local-first`
 
 ### [apecloud/ApeRAG](https://github.com/apecloud/ApeRAG)
@@ -200,7 +206,7 @@ A python package for Txt-to-SQL with self hosting functionalities and RESTful AP
 ### [Open-RAG-Eval](https://github.com/vectara/open-rag-eval)
 an open source RAG evaluation framework that does not require golden answers, and can be used to evaluate performance of RAG tools connected to an AI Agent (Agentic RAG)
 
-⭐ 421 | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-06
+⭐ 422 | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-07
 **Tags** : `evaluation-metrics`, `metrics`, `rag`, `rag-evaluation`, `retrieval-augmented-generation`, `vectara`
 
 ### [varun29ankuS/shodh-memory](https://github.com/varun29ankuS/shodh-memory)
@@ -212,7 +218,7 @@ an open source RAG evaluation framework that does not require golden answers, an
 ### [lyonzin/knowledge-rag](https://github.com/lyonzin/knowledge-rag)
 !lyonzin/knowledge-rag MCP server 🐍 🏠 🍎 🪟 🐧 - Offline RAG for Claude Code with hybrid BM25 and semantic search, cross-encoder reranking, Markdown-aware chunking and query expansion.
 
-⭐ 301 | `Python` | Licence: MIT | MAJ: 2026-11-06
+⭐ 302 | `Python` | Licence: MIT | MAJ: 2026-11-07
 **Tags** : `antigravity`, `bm25`, `chromadb`, `claude-code`, `codex`, `cross-encoder`, `cursor`, `fastembed`
 
 ### [sachitrafa/YourMemory](https://github.com/sachitrafa/YourMemory)
@@ -230,7 +236,7 @@ an open source RAG evaluation framework that does not require golden answers, an
 ### [roomi-fields/notebooklm-mcp](https://github.com/roomi-fields/notebooklm-mcp)
 !notebooklm-mcp MCP server 📇 🏠 🍎 🪟 🐧 - Automate Google NotebookLM: Q&A with citations, audio podcasts, video, content generation, source management and notebook library.
 
-⭐ 226 | `TypeScript` | Licence: MIT | MAJ: 2026-11-06
+⭐ 228 | `TypeScript` | Licence: MIT | MAJ: 2026-11-07
 **Tags** : `agentic-skill`, `anthropic`, `automation`, `citations`, `claude-code`, `claude-skills`, `codex`, `gemini-notebook`
 
 ### [alibaizhanov/mengram](https://github.com/alibaizhanov/mengram)
@@ -238,11 +244,5 @@ an open source RAG evaluation framework that does not require golden answers, an
 
 ⭐ 206 | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-03
 **Tags** : `agent-memory`, `ai-agents`, `ai-memory`, `claude-desktop`, `cognitive-architecture`, `cohere`, `cursor-ai`, `episodic-memory`
-
-### [nikolai-vysotskyi/trace-mcp](https://github.com/nikolai-vysotskyi/trace-mcp)
-!nikolai-vysotskyi/trace-mcp MCP server 📇 🏠 🍎 🪟 🐧 - Framework-aware code intelligence via a cross-language dependency graph: routes, ORM relations, DI trees, impact analysis, call graphs and refact...
-
-⭐ 202 | `TypeScript` | Licence: MIT | MAJ: 2026-11-06
-**Tags** : `ai-agents`, `claude`, `claude-ai`, `claude-code`, `claude-code-plugin`, `claude-code-skill`, `claude-desktop`, `claude-skills`
 
 <!-- TOOLS_RAG_END -->
