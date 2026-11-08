@@ -121,6 +121,12 @@ MCP devient le **standard de facto** pour connecter les agents IA aux outils ext
 ## MCP Servers découverts automatiquement
 
 <!-- TOOLS_MCP_START -->
+### [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)
+🐍 ☁️ 🏠 - Hindsight: long-term memory for AI agents modeled on human memory.
+
+⭐ 59.9k | `Python` | Licence: MIT | MAJ: 2026-11-08
+**Tags** : `agentic-ai`, `agents`, `ai-memory`, `memory`
+
 ### [lightpanda-io/browser](https://github.com/lightpanda-io/browser)
 🏠 🍎 🐧 - Headless browser for AI and web automation with a built-in MCP server.
 
@@ -172,7 +178,7 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ### [seleniumbase/SeleniumBase](https://github.com/seleniumbase/SeleniumBase)
 !seleniumbase/SeleniumBase MCP server 🐍 🏠 🍎 🪟 🐧 - Browser automation, testing and bot-detection bypass using SeleniumBase CDP Mode with Chromium, including click-based CAPTCHA solving.
 
-⭐ 13.2k | `Python` | Licence: MIT | MAJ: 2026-11-07
+⭐ 13.2k | `Python` | Licence: MIT | MAJ: 2026-11-08
 **Tags** : `bot-detection`, `cdp`, `chrome-devtools-protocol`, `chromedriver`, `cloudflare-bypass`, `e2e-testing`, `end-to-end-testing`, `mcp`
 
 ### [elie222/inbox-zero](https://github.com/elie222/inbox-zero)
@@ -243,7 +249,7 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ### [getopenscreen/openscreen](https://github.com/getopenscreen/openscreen)
 !getopenscreen/openscreen MCP server 🎖️ 📇 🏠 🍎 🪟 🐧 - Free, open-source screen recorder and video editor that agents drive over stdio (the desktop app's own executable started with mcp): record the s...
 
-⭐ 6.6k | `TypeScript` | Licence: MIT | MAJ: 2026-11-08
+⭐ 6.7k | `TypeScript` | Licence: MIT | MAJ: 2026-11-08
 **Tags** : `cross-platform`, `electron`, `ffmpeg`, `open-source`, `product-demo`, `rust`, `screen-capture`, `screen-recorder`
 
 ### [Coding-Solo/godot-mcp](https://github.com/Coding-Solo/godot-mcp)
@@ -292,11 +298,5 @@ Open-source connector gateway for agents to discover and execute SaaS actions th
 📇 - Browser automation and web scraping using Playwright.
 
 ⭐ 5.7k | `TypeScript` | Licence: MIT | MAJ: 2026-11-08
-
-### [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device)
-!callstackincubator/agent-device MCP server 📇 🏠 🍎 🐧 - Discovery router for the agent-device CLI: status, install guidance, version-matched help and prompts for iOS, Android, tvOS, macOS and Linux a...
-
-⭐ 5.3k | `TypeScript` | Licence: MIT | MAJ: 2026-11-08
-**Tags** : `adb`, `agentic-ai`, `agents`, `ai-agents`, `android-emulator`, `automation`, `e2e-testing`, `expo`
 
 <!-- TOOLS_MCP_END -->
