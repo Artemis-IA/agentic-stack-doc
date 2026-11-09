@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### Benchmarking Large Language Models on Heterogeneous Cognitive and Biomedical Knowledge Graphs: The Role of Graph Grounding in Multi-Hop Reasoning and Hallucination Mitigation
-- **arXiv** : 2611.08315v1
-- **Date** : 2026-11-05
-- **Auteurs** : Ali Sarabadani, Kheirolah Rahsepar Fard, Tahereh Jeirani
-- **Score** : 14
-- **Résumé** : Large language models (LLMs) are increasingly used in biomedical and cognitive neuroscience, but their ability to reason reliably over heterogeneous knowledge graphs (KGs) remains unclear. We benchmark five LLMs (GPT-5.1, Gemini 2.0 Pro, Llama 3, Qwen, and BioGPT) across five KGs: DrugBank, NeuroSyn...
-- **Lien** : https://arxiv.org/abs/2611.08315v1
+### CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse
+- **arXiv** : 2611.09891v1
+- **Date** : 2026-11-06
+- **Auteurs** : Peter Belcak, Greg Heinrich, Saurav Muralidharan, Shizhe Diao, Pavlo Molchanov
+- **Score** : 9
+- **Résumé** : Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned through, the application of its solution to a new problem instance can be done very...
+- **Lien** : https://arxiv.org/abs/2611.09891v1
 
-### The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI
-- **arXiv** : 2611.08428v1
-- **Date** : 2026-11-05
-- **Auteurs** : Julian Kunkel, Ali Doosthosseini
-- **Score** : 12
-- **Résumé** : Chat remains the default surface for many large language model (LLM) tasks, even as agentic tools such as OpenCode excel at coding and automation. Yet the model sees the current dialogue but not the workspace around it. We explore meta access---giving the assistant a structured, permissioned view of...
-- **Lien** : https://arxiv.org/abs/2611.08428v1
+### Language as Trait, Politeness as Strategy: Controlled Tests of Linguistic Effects in LLM Social-Deduction Agents
+- **arXiv** : 2611.09768v1
+- **Date** : 2026-11-06
+- **Auteurs** : Yuchen Li, Lisa Liu, Runqi Zou, Shuxuan Kuang, Qingquan Zhang
+- **Score** : 9
+- **Résumé** : Large language model (LLM) agents coordinate through conversation, and the same message can be phrased in simpler or more complex language, bluntly or politely. We test whether such differences change how other agents judge and act, using the LURK Werewolf framework, which separates each utterance's...
+- **Lien** : https://arxiv.org/abs/2611.09768v1
 
-### Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks
-- **arXiv** : 2611.08417v1
-- **Date** : 2026-11-05
-- **Auteurs** : E. Kelly Buchanan, Crystal Zhou, Scott W. Linderman, Christopher Ré
+### Knowing When to Intervene: Causal Evaluation of AI Agents
+- **arXiv** : 2611.09792v1
+- **Date** : 2026-11-06
+- **Auteurs** : Ayush Sawarni, Wenqian Xing, Tijana Zrnic, Ramesh Johari, Vasilis Syrgkanis
 - **Score** : 8
-- **Résumé** : Coding agents are among the most economically consequential deployments of LLMs to date, making reliable evaluation increasingly important. Yet even benchmarks that are carefully validated at release can become stale. As models improve, they can discover valid solutions that existing verifiers rejec...
-- **Lien** : https://arxiv.org/abs/2611.08417v1
+- **Résumé** : Current evaluations of agentic AI systems primarily rely on benchmarks. However, the static nature of benchmarks makes them uninformative about the value of auditing interventions at deployment time. For reliable deployment, we often need to determine within an agent's trajectory whether or not to i...
+- **Lien** : https://arxiv.org/abs/2611.09792v1
 
-### StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference
-- **arXiv** : 2611.08363v1
-- **Date** : 2026-11-05
-- **Auteurs** : Jake Hyun, Ziyu Zhao, Jae-sun Seo, Mohamed S. Abdelfattah
+### One Run Is Not Enough: A Monte Carlo Protocol for Evaluating LLM Reliability on Data Science Tasks
+- **arXiv** : 2611.09729v1
+- **Date** : 2026-11-06
+- **Auteurs** : Wenqi Ni, Ozan Evkaya, Miguel de Carvalho
+- **Score** : 8
+- **Résumé** : Large language models (LLMs) have shown promise for automating data science workflows. Benchmarks such as DataSciBench (2026) and StatQA (2024) have advanced the evaluation of their capabilities across data science and statistical tasks. Assessing their reliability requires examining both the qualit...
+- **Lien** : https://arxiv.org/abs/2611.09729v1
+
+### When Instruction Files Go Stale: Documentation Debt and Hidden Cost in Coding Agents
+- **arXiv** : 2611.09802v1
+- **Date** : 2026-11-06
+- **Auteurs** : Tural Mehtiyev, Biruk Tadesse, Lawrence Arkoh, Wesley Assunção
 - **Score** : 7
-- **Résumé** : Quantization reduces the memory and bandwidth demands of large language model (LLM) inference but can degrade accuracy; offloading higher-precision data can instead stall generation. We introduce StrataFlux, a framework that challenges this tradeoff by recovering accuracy lost to low-bit weight and ...
-- **Lien** : https://arxiv.org/abs/2611.08363v1
+- **Résumé** : LLM-based coding agents such as Claude Code are guided by repository instruction files (also called context files or agent configuration files) like AGENTS.md and CLAUDE.md, which are read in every agent session. As any documentation artifact, these files can fall behind the code and become stale (e...
+- **Lien** : https://arxiv.org/abs/2611.09802v1
 
-### SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization
-- **arXiv** : 2611.08483v1
-- **Date** : 2026-11-05
-- **Auteurs** : Qile Jiang, George Em Karniadakis
+### Strategic Competition and Convergence in LLM Leaderboards
+- **arXiv** : 2611.09780v1
+- **Date** : 2026-11-06
+- **Auteurs** : Naveen Raman, Fei Fang, Yiling Chen
+- **Score** : 7
+- **Résumé** : Leaderboards are a popular way to compare large language model (LLM) capabilities and can influence how model developers invest resources. We ask when competition on leaderboards leads developers to produce models with similar capability profiles, which we call monoculture, or similar performance le...
+- **Lien** : https://arxiv.org/abs/2611.09780v1
+
+### MemoryDojo: Benchmarking Poisoning Through LLM Agent Memory
+- **arXiv** : 2611.09721v1
+- **Date** : 2026-11-06
+- **Auteurs** : David H. Yang, Blake Bullwinkel, Amanda Minnich, Mohammad Mohammadi Amiri, Giorgio Severi
+- **Score** : 7
+- **Résumé** : LLM agents benefit from using memory systems to improve performance on long-horizon, multi-session tasks. However, memory introduces a critical attack surface. Malicious instructions encountered in one session may be stored and propagated through memory before being retrieved and acted upon in later...
+- **Lien** : https://arxiv.org/abs/2611.09721v1
+
+### On Agentic Manipulation Policies
+- **arXiv** : 2611.09892v1
+- **Date** : 2026-11-06
+- **Auteurs** : Chen Chen, Omid Bagherieh, Naveen Nikamanth Appiah Balaji, Jesse T. Gonzalez, Negin Heravi
 - **Score** : 6
-- **Résumé** : LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for each round and must rep...
-- **Lien** : https://arxiv.org/abs/2611.08483v1
+- **Résumé** : Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such as vision-language-action models (VLAs) and world-action models (WAMs). We systematically analyze age...
+- **Lien** : https://arxiv.org/abs/2611.09892v1
 
-### Cognitive Tours: Making Understanding a Deliverable in AI-Assisted Development
-- **arXiv** : 2611.08456v1
-- **Date** : 2026-11-05
-- **Auteurs** : Margaret-Anne Storey
+### Can Agentic Systems Close the Gap in Radiology with Production AI Tools?
+- **arXiv** : 2611.09836v1
+- **Date** : 2026-11-06
+- **Auteurs** : Aubin Charley, Julien Khlaut, Charles Corbière, Pierre Manceron, Corentin Dancette
 - **Score** : 6
-- **Résumé** : Generative AI and agentic coding are accelerating software development, leading to concerns about technical debt. But two less visible forms of debt, cognitive debt and intent debt, are emerging as key risks to software health. Cognitive debt is the absence or erosion of a team's shared understandin...
-- **Lien** : https://arxiv.org/abs/2611.08456v1
+- **Résumé** : Radiology AI has developed along two paths: specialized models that perform well on narrow tasks but cover few clinical findings, and generalist models that address a broader range of tasks but remain prone to hallucination and inaccurate measurements. Combining the two through agentic systems offer...
+- **Lien** : https://arxiv.org/abs/2611.09836v1
 
-### SCALE: Real-Time Latent Communication for Cyber-Physical Agents
-- **arXiv** : 2611.08390v1
-- **Date** : 2026-11-05
-- **Auteurs** : Shanghao Shi, Jian Xiao, Ching-Hsiang Chan, Sanjoy Baruah, Sastry Kompella
+### Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories
+- **arXiv** : 2611.09808v1
+- **Date** : 2026-11-06
+- **Auteurs** : Claudio Segal, Paulo Segal, Hudson Silva Borges, Paulo Silveira, Daniel S. Menasché
 - **Score** : 6
-- **Résumé** : Latent communication enables agents to collaborate efficiently by directly exchanging intermediate model representations rather than raw sensor data or text messages. Existing approaches, however, are primarily designed for LLM agents and do not consider the bandwidth constraints and heterogeneous t...
-- **Lien** : https://arxiv.org/abs/2611.08390v1
+- **Résumé** : Autonomous coding agents are increasingly involved in software development, but their participation in real-world security remediation remains poorly understood. We investigate observable evidence of coding-agent involvement in commits referenced by reviewed GitHub Security Advisories (GHSAs), chara...
+- **Lien** : https://arxiv.org/abs/2611.09808v1
 
-### FedReason: Large Language Models as Weight-Space Meta-Aggregators for Heterogeneous Federated Learning
-- **arXiv** : 2611.08383v1
-- **Date** : 2026-11-05
-- **Auteurs** : Ali Mohammadi Ruzbahani, Abbas Yazdinejad, Hadis Karimipour
+### Are These Programmers Ripe Enough to Eat? Evaluating How LLMs Handle Lexical Knowledge Conflicts in Translation
+- **arXiv** : 2611.09785v1
+- **Date** : 2026-11-06
+- **Auteurs** : Dongxu Wu, Sara Court, Micha Elsner
 - **Score** : 6
-- **Résumé** : Federated learning servers combine client models with a fixed aggregation rule, and each rule in common use is designed for one kind of heterogeneity. We study whether a large language model (LLM) that inspects the client models can choose the rule itself, without any training on the server. In FedR...
-- **Lien** : https://arxiv.org/abs/2611.08383v1
+- **Résumé** : External lexical resources can help large language models (LLMs) translate texts in low-resource languages and specialized domains, but these resources may conflict with models' prior lexical knowledge. To isolate this conflict, we construct a controlled Mandarin-to-English translation task in which...
+- **Lien** : https://arxiv.org/abs/2611.09785v1
 
-### Cultural Adaptation within Repeated Social Interactions
-- **arXiv** : 2611.08334v1
-- **Date** : 2026-11-05
-- **Auteurs** : Chen Cecilia Liu, Roi Reichart, Anna Korhonen
+### ROSE: Risk-Aware Orthogonal Subspace Navigation for Lifelong Knowledge Editing in Multimodal Large Language Models
+- **arXiv** : 2611.09770v1
+- **Date** : 2026-11-06
+- **Auteurs** : Lingyun Song, Ziyao Chen, Kang Pan, Xiaolin Han, Yifei Zhang
 - **Score** : 6
-- **Résumé** : Much of human culture is tacit and is typically learned through situated social interaction. As LLMs are deployed as interactive agents across diverse communities, assessing their cultural competence demands moving beyond existing question-answering approaches, shifting from what they know to how th...
-- **Lien** : https://arxiv.org/abs/2611.08334v1
+- **Résumé** : Multimodal Large Language Models (MLLMs) require continuous factual updates to stay current, yet lifelong knowledge editing remains a daunting challenge. The primary obstacle is the severe Locality Erosion and Catastrophic Forgetting, where sequential edits inevitably interfere with pre-trained capa...
+- **Lien** : https://arxiv.org/abs/2611.09770v1
 
-### SpecCTMC: Exact Speculative Simulation of Diffusion Language Model Continuous-Time Markov Chains
-- **arXiv** : 2611.08362v1
-- **Date** : 2026-11-05
-- **Auteurs** : Siva Rajesh Kasa, Yasong Dai, Sumit Negi, Hongdong Li
-- **Score** : 5
-- **Résumé** : Masked diffusion language models offer parallel text generation, but independently sampling multiple tokens can disrupt their dependencies and change the output distribution. Exact continuous-time sampling avoids this approximation, yet typically requires one sequential model evaluation per token. W...
-- **Lien** : https://arxiv.org/abs/2611.08362v1
+### What to Delegate, What to Preserve: Human Preferences for Agentic AI Across Everyday Life and Work
+- **arXiv** : 2611.09730v1
+- **Date** : 2026-11-06
+- **Auteurs** : Sarah Wheeler, Veronica Rammouz, Yaoyao Qian, Zexuan Liu, Mengyi Wei
+- **Score** : 6
+- **Résumé** : AI agents can execute multi-step tasks on users' behalf, yet the boundaries of acceptable delegation remain unclear. We report a scenario-based survey of 289 U.S. adults with prior AI experience covering 45 use cases across nine life domains. Each respondent evaluated one scenario per domain, produc...
+- **Lien** : https://arxiv.org/abs/2611.09730v1
 
-### Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement
-- **arXiv** : 2611.08318v1
-- **Date** : 2026-11-05
-- **Auteurs** : Wenbo Huang, Jianxin Bi, Shunyu Yang, Ruiyang Si, Rui Ni
+### Compaction, decay and reinforcement in a two-tier conversational memory: a paired evaluation against retrieval-augmented generation
+- **arXiv** : 2611.09807v1
+- **Date** : 2026-11-06
+- **Auteurs** : Osamudiamen Edogun, Joshua Obigwe, Irfan Mehmood
 - **Score** : 4
-- **Résumé** : Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks. Several recent works expose the benchmark's success criteria to the learning agent, a practice we call Criteria Exposure (CE). These criteria, originally written to verify policies trained by...
-- **Lien** : https://arxiv.org/abs/2611.08318v1
+- **Résumé** : A conversational agent that remembers has to decide what to keep. Retrieval-augmented generation keeps the transcript and searches it; the alternative is to compact each turn into atomic facts and search those. We compare the two on LoCoMo, with both arms answering all 1,985 questions in one window,...
+- **Lien** : https://arxiv.org/abs/2611.09807v1
 
-### XStack: A Benchmark for ML Repo Migration
-- **arXiv** : 2611.08472v1
-- **Date** : 2026-11-05
-- **Auteurs** : Linrong Cai, Taiming Lu, Haozhe Chen, Zhuang Liu
-- **Score** : 3
-- **Résumé** : ML code should run where researchers choose, not where it was first written. Today, machine learning code mainly lives in two ecosystems, PyTorch on NVIDIA GPUs and JAX on Google TPUs. Migrating repositories between them means building and testing across frameworks and hardware. This migration is (1...
-- **Lien** : https://arxiv.org/abs/2611.08472v1
+### Test-Time Compute Scales Better with Parallel Agent Teams
+- **arXiv** : 2611.09798v1
+- **Date** : 2026-11-06
+- **Auteurs** : Junlin Wang, Haozhe Chen, Ang Li, Rahul Chalamala, Zhuang Liu
+- **Score** : 4
+- **Résumé** : Test-time scaling improves the performance of a fixed model by spending more computation at inference. There are two common ways to spend it on agents when a verifier can score every attempt. Best-of-N sampling runs many independent agents and keeps the best result but saturates quickly. One large t...
+- **Lien** : https://arxiv.org/abs/2611.09798v1
 
-### Towards interpreting any residual stream direction by scaling activation inversion
-- **arXiv** : 2611.08465v1
-- **Date** : 2026-11-05
-- **Auteurs** : Celeste De Schamphelaere, Juan J. Vazquez, Ari Spiesberger, Tomáš Gavenčiak, Gavin Leech
-- **Score** : 3
-- **Résumé** : To interpret a direction in a language model's residual stream, we can look for text that strongly activates it. But when such text is found by scanning a corpus, it is limited to what that corpus contains. We develop Maximally-Activating Example Metamodels (MAEMs), language models which map residua...
-- **Lien** : https://arxiv.org/abs/2611.08465v1
+### AnimWeb-Bench: Benchmarking Animated Webpage Code Generation from Videos
+- **arXiv** : 2611.09769v1
+- **Date** : 2026-11-06
+- **Auteurs** : Zhongyi Zhang, Jingyu Xiao, Shuqing Li, Michael R. Lyu
+- **Score** : 4
+- **Résumé** : Animation is pervasive on the Web, the CSS animation property alone appears on over three-quarters of webpages. Yet existing webpage code generation benchmarks target static screenshots, user-triggered interactions, or isolated motion graphics, leaving the ability of multimodal large language models...
+- **Lien** : https://arxiv.org/abs/2611.09769v1
 
-### ReproBridge: Building Reproducibility into ML Research Artifacts
-- **arXiv** : 2611.08452v1
-- **Date** : 2026-11-05
-- **Auteurs** : Yubo Wang, Rui Meng, Jaehyun Nam, Tomas Pfister, Jinsung Yoon
+### On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement Learning
+- **arXiv** : 2611.09872v1
+- **Date** : 2026-11-06
+- **Auteurs** : Haoyu Wang, Ru Wang, Yuanyuan Wang, Jiaxian Guo, Mingming Gong
 - **Score** : 3
-- **Résumé** : Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifac...
-- **Lien** : https://arxiv.org/abs/2611.08452v1
+- **Résumé** : Test-time reinforcement learning (TTRL) adapts pretrained language models to unlabeled target-domain data using self-generated pseudo-labels, whose reliability remains poorly understood. We analyze majority-vote supervision for TTRL with online Direct Preference Optimization (DPO) and decompose its ...
+- **Lien** : https://arxiv.org/abs/2611.09872v1
 
-### Understanding AI from the Inside: The State of Mechanistic Interpretability for AI Safety
-- **arXiv** : 2611.08438v1
-- **Date** : 2026-11-05
-- **Auteurs** : Fazl Barez, Tung-Yu Wu, Hunar Batra, Gabriele Dominici, Florent Draye
+### How far does a hash-only sender go? A pre-registered map of sender memory versus bits for short text messages
+- **arXiv** : 2611.09848v1
+- **Date** : 2026-11-06
+- **Auteurs** : Marcelo Samoilenko
 - **Score** : 3
-- **Résumé** : Neural networks are likely to be among the most consequential artefacts in human history. As these systems become more capable and autonomous, their potential to cause societal harm also grows, making AI safety one of the defining challenges of our time. Yet we continue to build increasingly powerfu...
-- **Lien** : https://arxiv.org/abs/2611.08438v1
+- **Résumé** : Can a sender that only computes hashes, with a language model only at the receiver, transmit short human text more cheaply than a classical sender trained on the same domain? We answer with one pre-registered run on 1,000 English user utterances from Taskmaster-1. The primary endpoint is the cost pe...
+- **Lien** : https://arxiv.org/abs/2611.09848v1
 
-### MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue
-- **arXiv** : 2611.08433v1
-- **Date** : 2026-11-05
-- **Auteurs** : Donghua Zhang, Zizheng Wang, Ze Dong, Yiding Feng, Siyu Qian
+### Computer-Use Agents Are Embodied Generalists
+- **arXiv** : 2611.09847v1
+- **Date** : 2026-11-06
+- **Auteurs** : Pranjal Aggarwal, Sean Welleck
 - **Score** : 3
-- **Résumé** : LLM-based medical assistants that follow a patient across visits need a memory that keeps the patient's clinical state correct as it changes. We examine the errors of five memory systems on longitudinal medical dialogue and find three recurring causes: the retrieved evidence gives an outdated state,...
-- **Lien** : https://arxiv.org/abs/2611.08433v1
+- **Résumé** : In many areas of AI, general-purpose models have increasingly replaced handcrafted methods and specialized architectures. We argue that embodied AI is poised for a similar shift. Our key claim is that embodied tasks can be formulated as interaction with digital software. Specifically, we build softw...
+- **Lien** : https://arxiv.org/abs/2611.09847v1
 
-### Conformal Prediction for Time-Dependent PDEs
-- **arXiv** : 2611.08409v1
-- **Date** : 2026-11-05
-- **Auteurs** : Joshua Stiller, Annika Schneider, Eyke Hüllermeier
+### Ensemble Methodology for Reference-Free Confidence Estimation in LLM-based Code Summarization
+- **arXiv** : 2611.09846v1
+- **Date** : 2026-11-06
+- **Auteurs** : Marco Colombo, Balaji A Jayaram, Sowmyakumari Selvaraj, Sumit Tokkar, Animesh Kumar
 - **Score** : 3
-- **Résumé** : Uncertainty quantification is crucial in scientific machine learning, where models inform safety-critical tasks such as flood forecasting, financial risk management, and thermal control in machines. Conformal prediction provides distribution-free coverage guarantees, but in time-dependent settings c...
-- **Lien** : https://arxiv.org/abs/2611.08409v1
-
-### Social Humanoid: Socially Responsive Human-Humanoid Interaction
-- **arXiv** : 2611.08407v1
-- **Date** : 2026-11-05
-- **Auteurs** : Vongani H. Maluleke, James Ni, Kie Horiuchi, Lea Wilken, Jiahui Lei
-- **Score** : 3
-- **Résumé** : Humanoid robots are typically trained as solitary agents, leaving them unable to coordinate physically with human partners who naturally anticipate and adjust to one another. To bridge this gap, we present Social Humanoid, a hierarchical system that generates and executes socially responsive whole-b...
-- **Lien** : https://arxiv.org/abs/2611.08407v1
-
-### Enhancing Local and Global Structure in Compressed AI Agent Memory
-- **arXiv** : 2611.08341v1
-- **Date** : 2026-11-05
-- **Auteurs** : Henry Han
-- **Score** : 3
-- **Résumé** : AI agents store text as embedding vectors and compress them at scale. A compression is accepted when each item's nearest neighbors survive, but agents also consolidate, delete, and compare memories, tasks that depend on which items lie far apart. We evaluate both ends with two label-free fidelities ...
-- **Lien** : https://arxiv.org/abs/2611.08341v1
-
-### Interpretable many-body interaction laws for collective motion from few trajectories
-- **arXiv** : 2611.08314v1
-- **Date** : 2026-11-05
-- **Auteurs** : Timon S. Gutleb
-- **Score** : 3
-- **Résumé** : Models of collective motion usually reduce social interactions to pairwise forces, despite empirical evidence for many-body effects. We introduce the directional atomic cluster expansion (dACE), which adapts the atomic cluster expansion (ACE) of interatomic potentials to self-propelled agents. dACE ...
-- **Lien** : https://arxiv.org/abs/2611.08314v1
+- **Résumé** : This paper describes an approach and use case to estimate the correctness of LLM-generated COBOL summaries without access to human-authored references. The core intuition is that inter-model agreement on semantics is informative about truth, and that an LLM-as-judge can provide higher-fidelity pairw...
+- **Lien** : https://arxiv.org/abs/2611.09846v1
 
 <!-- ARXIV_FEED_END -->
