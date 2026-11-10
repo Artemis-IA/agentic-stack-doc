@@ -83,6 +83,14 @@ graph LR
 - **Résumé** : GPT-6 Astra Is Here, Discovery of a new OpenAI agent message board, Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-343-gpt-6-openais
 
+### llm-anthropic 0.31
+- **Source** : Simon Willison
+- **Date** : 2026-11-09T23:58
+- **Score** : 2
+- **Résumé** : Release: llm-anthropic 0.31
+        Anthropic released Fable 5.2 and Mythos 5.2 today. I've added them to llm-anthropic,...
+- **Lien** : https://simonwillison.net/2026/Nov/9/llm-anthropic/
+
 ### datasette-llm 0.1a10
 - **Source** : Simon Willison
 - **Date** : 2026-11-04T15:26
@@ -90,6 +98,13 @@ graph LR
 - **Résumé** : Release: datasette-llm 0.1a10
         Fixes a bug that affected my agent.datasette.io dem...
 - **Lien** : https://simonwillison.net/2026/Nov/4/datasette-llm/
+
+### CodeRabbit scales agentic software development and ships 20x more
+- **Source** : OpenAI Blog
+- **Date** : Mon, 09 Nov 2026
+- **Score** : 2
+- **Résumé** : CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team....
+- **Lien** : https://openai.com/index/coderabbit-codex-daybreak
 
 ### Measuring how AI agents handle everyday wet-lab science
 - **Source** : OpenAI Blog
@@ -133,12 +148,12 @@ graph LR
 - **Résumé** : What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have...
 - **Lien** : https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/
 
-### Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora
-- **Source** : latent.space
-- **Date** : Mon, 02 Nov 2026
+### Locating the source of a mysterious beep with Claude
+- **Source** : Simon Willison
+- **Date** : 2026-11-09T23:57
 - **Score** : 1
-- **Résumé** : Legora can’t read a single trace of what its agent does for a lawyer. The data belongs to the law firm’s clients. How do you build and test an agent when you can’t see its work? Jacob Lauritzen is the...
-- **Lien** : https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/
+- **Résumé** : Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping. The beeps were far enough apart ...
+- **Lien** : https://simonwillison.net/2026/Nov/9/mysterious-beeps/
 
 ### Hide your slop PR descriptions behind <details><summary>
 - **Source** : Simon Willison
@@ -146,14 +161,6 @@ graph LR
 - **Score** : 1
 - **Résumé** : Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them...
 - **Lien** : https://simonwillison.net/2026/Nov/9/details-summary/
-
-### datasette-agent 0.5a0
-- **Source** : Simon Willison
-- **Date** : 2026-11-03T23:13
-- **Score** : 1
-- **Résumé** : Release: datasette-agent 0.5a0
-        This is a significant release of Datasette Agent. The most notable new feature is called the panel</strong...
-- **Lien** : https://simonwillison.net/2026/Nov/3/datasette-agent/
 
 ### A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.
 - **Source** : Hugging Face Blog
@@ -169,6 +176,13 @@ graph LR
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/cwe-bench
 
+### ChatGPT Enterprise now available in AWS Marketplace
+- **Source** : OpenAI Blog
+- **Date** : Mon, 09 Nov 2026
+- **Score** : 1
+- **Résumé** : ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships....
+- **Lien** : https://openai.com/index/chatgpt-enterprise-aws-marketplace
+
 ### Australian universities are creating AI-native graduates
 - **Source** : OpenAI Blog
 - **Date** : Thu, 05 Nov 2026
@@ -182,13 +196,6 @@ graph LR
 - **Score** : 1
 - **Résumé** : Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates....
 - **Lien** : https://openai.com/index/merge-builds-with-openai
-
-### Flipsnack grows product signups with conversion optimization
-- **Source** : OpenAI Blog
-- **Date** : Thu, 05 Nov 2026
-- **Score** : 1
-- **Résumé** : Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup....
-- **Lien** : https://openai.com/ads/customers/flipsnack
 
 ### Last Week in AI #346 - 719 math manuscripts, 2 Western open models, 1 more safety resignation
 - **Source** : Last Week in AI
