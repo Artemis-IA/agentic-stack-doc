@@ -130,7 +130,7 @@ MCP devient le **standard de facto** pour connecter les agents IA aux outils ext
 ### [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)
 Playwright browser automation: interact with web pages through structured accessibility snapshots.
 
-⭐ 39.4k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-11-10
+⭐ 39.5k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-11-10
 **Tags** : `mcp`, `playwright`
 
 ### [github/github-mcp-server](https://github.com/github/github-mcp-server)
@@ -225,7 +225,7 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ### [mutonby/openshorts](https://github.com/mutonby/openshorts)
 !mutonby/openshorts MCP server 🎖️ 🐍 ☁️ 🏠 🍎 🪟 🐧 - Turn long videos into vertical shorts: moment detection, face-tracked 9:16 reframing, captions, dubbing and publishing to TikTok, Instagram and YouT...
 
-⭐ 7.6k | `Python` | Licence: MIT | MAJ: 2026-11-10
+⭐ 7.7k | `Python` | Licence: MIT | MAJ: 2026-11-10
 **Tags** : `agent-skills`, `ai-clip-generator`, `ai-clipping`, `ai-video-editor`, `auto-reframe`, `clip-generator`, `mcp-server`, `open-source`
 
 ### [browsermcp/mcp](https://github.com/browsermcp/mcp)
@@ -234,17 +234,17 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ⭐ 7.3k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-11-10
 **Tags** : `browser-automation`, `browser-extension`, `claude`, `cursor`, `mcp`, `mcp-server`
 
+### [getopenscreen/openscreen](https://github.com/getopenscreen/openscreen)
+!getopenscreen/openscreen MCP server 🎖️ 📇 🏠 🍎 🪟 🐧 - Free, open-source screen recorder and video editor that agents drive over stdio (the desktop app's own executable started with mcp): record the s...
+
+⭐ 6.9k | `TypeScript` | Licence: MIT | MAJ: 2026-11-10
+**Tags** : `cross-platform`, `electron`, `ffmpeg`, `open-source`, `product-demo`, `rust`, `screen-capture`, `screen-recorder`
+
 ### [lharries/whatsapp-mcp](https://github.com/lharries/whatsapp-mcp)
 🐍 🏎️ - Search personal WhatsApp messages and contacts, and send messages to individuals or groups.
 
 ⭐ 6.9k | `Go` | Licence: MIT | MAJ: 2026-11-10
 **Tags** : `ai`, `mcp`, `whatsapp`, `whatsapp-api`
-
-### [getopenscreen/openscreen](https://github.com/getopenscreen/openscreen)
-!getopenscreen/openscreen MCP server 🎖️ 📇 🏠 🍎 🪟 🐧 - Free, open-source screen recorder and video editor that agents drive over stdio (the desktop app's own executable started with mcp): record the s...
-
-⭐ 6.8k | `TypeScript` | Licence: MIT | MAJ: 2026-11-10
-**Tags** : `cross-platform`, `electron`, `ffmpeg`, `open-source`, `product-demo`, `rust`, `screen-capture`, `screen-recorder`
 
 ### [Coding-Solo/godot-mcp](https://github.com/Coding-Solo/godot-mcp)
 📇 🏠 - Interact with the Godot game engine: edit, run and debug projects and manage scenes.
@@ -261,7 +261,7 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ### [21st-dev/Magic-MCP](https://github.com/21st-dev/magic-mcp)
 Create UI components inspired by 21st.dev design engineers.
 
-⭐ 6.4k | `TypeScript` | Licence: ISC | MAJ: 2026-11-10
+⭐ 6.5k | `TypeScript` | Licence: ISC | MAJ: 2026-11-10
 **Tags** : `21st`, `claude`, `cursor`, `mcp`, `model-context-protocol`, `react`, `tailwindcss`, `ui-components`
 
 ### [wiltodelta/remove-ai-watermarks](https://github.com/wiltodelta/remove-ai-watermarks)
@@ -276,8 +276,8 @@ Baserow database integration: search and list tables, and create, read, update a
 ⭐ 6.3k | `Python` | Licence: NOASSERTION | MAJ: 2026-11-10
 **Tags** : `airtable`, `airtable-alternative`, `airtable-replacement`, `application-builder`, `automations`, `dashboards`, `database`, `low-code`
 
-### [OpenConnector](https://github.com/oomol-lab/open-connector)
-Open-source connector gateway for agents to discover and execute SaaS actions through MCP, HTTP, and OpenAPI, with OAuth/API-key credential management and scoped runtime tokens. !GitHub Repo stars
+### [open-connector](https://github.com/oomol-lab/open-connector)
+Open-source auth gateway connecting 1500+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.
 
 ⭐ 6.2k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-11-10
 **Tags** : `agent-tools`, `ai-agents`, `api-gateway`, `automation`, `cli`, `cloudflare-workers`, `connectors`, `integration-platform`

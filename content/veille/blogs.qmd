@@ -69,13 +69,6 @@ graph LR
 | Hardware | `GPU`, `H100`, `B200`, `TPU`, `LPU`, `Groq` |
 
 <!-- BLOG_FEED_START -->
-### [AINews] LLMs can read & write neural network weights: "Weight Space Programming" cuts Autoresearch out of the RSI loop
-- **Source** : latent.space
-- **Date** : Tue, 03 Nov 2026
-- **Score** : 5
-- **Résumé** : Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark....
-- **Lien** : https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/
-
 ### Last Week in AI #343 - GPT-6, OpenAI’s agents chatted on a wiki, Fable 5.1
 - **Source** : Last Week in AI
 - **Date** : Mon, 07 Sep 2026
@@ -83,12 +76,27 @@ graph LR
 - **Résumé** : GPT-6 Astra Is Here, Discovery of a new OpenAI agent message board, Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-343-gpt-6-openais
 
+### Designing for Agents — Zeno Rocha, Resend
+- **Source** : latent.space
+- **Date** : Tue, 10 Nov 2026
+- **Score** : 2
+- **Résumé** : Where does answer engine optimization (AEO) end and agent experience begin? Inside Resend, from the docs that help Claude Code pick an email API to the tools it uses to send....
+- **Lien** : https://latent.space/p/resend/
+
 ### [AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins
 - **Source** : latent.space
 - **Date** : Tue, 10 Nov 2026
 - **Score** : 2
 - **Résumé** : November 9, 2026 — Claude Fable 5.2 and Mythos 5.2 arrive on Anthropic’s IPO roadshow day. How much thinking is worth paying for?...
 - **Lien** : https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/
+
+### llm-gemini 0.36
+- **Source** : Simon Willison
+- **Date** : 2026-11-10T20:09
+- **Score** : 2
+- **Résumé** : Release: llm-gemini 0.36
+        Gemini 4 Carbon was announced two weeks ago for "a subse...
+- **Lien** : https://simonwillison.net/2026/Nov/10/llm-gemini/
 
 ### Introducing Our Smallest, Most Efficient Model: Muse Ember
 - **Source** : Simon Willison
@@ -142,6 +150,13 @@ Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Em
 - **Score** : 2
 - **Résumé** : Google announces Gemini 3.7 Flash, Jalape&#241;o&#8217;s first results show industry-leading speed, A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I....
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-255-gemini-37-jalapeno
+
+### NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?
+- **Source** : latent.space
+- **Date** : Tue, 10 Nov 2026
+- **Score** : 1
+- **Résumé** : NaiveAI could potentially top Artificial Analysis’s speed rankings. Our hands-on test suggests its coding quality holds up against DeepSeek....
+- **Lien** : https://latent.space/p/naiveai/
 
 ### [One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco
 - **Source** : latent.space
@@ -200,19 +215,19 @@ Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Em
 - **Résumé** : OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life....
 - **Lien** : https://openai.com/index/helping-caregivers-use-ai-in-everyday-life
 
+### Introducing Businesses in ChatGPT
+- **Source** : OpenAI Blog
+- **Date** : Tue, 10 Nov 2026
+- **Score** : 1
+- **Résumé** : Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT....
+- **Lien** : https://openai.com/index/introducing-businesses-chatgpt
+
 ### ChatGPT Enterprise now available in AWS Marketplace
 - **Source** : OpenAI Blog
 - **Date** : Mon, 09 Nov 2026
 - **Score** : 1
 - **Résumé** : ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships....
 - **Lien** : https://openai.com/index/chatgpt-enterprise-aws-marketplace
-
-### Australian universities are creating AI-native graduates
-- **Source** : OpenAI Blog
-- **Date** : Thu, 05 Nov 2026
-- **Score** : 1
-- **Résumé** : Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce....
-- **Lien** : https://openai.com/index/australian-universities-ai-native-graduates
 
 ### Last Week in AI #346 - 719 math manuscripts, 2 Western open models, 1 more safety resignation
 - **Source** : Last Week in AI
