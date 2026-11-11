@@ -90,6 +90,14 @@ graph LR
 - **Résumé** : November 9, 2026 — Claude Fable 5.2 and Mythos 5.2 arrive on Anthropic’s IPO roadshow day. How much thinking is worth paying for?...
 - **Lien** : https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/
 
+### Gemini Decisions API
+- **Source** : Simon Willison
+- **Date** : 2026-11-11T22:03
+- **Score** : 2
+- **Résumé** : Gemini Decisions API
+Google join Jev and OpenAI<...
+- **Lien** : https://simonwillison.net/2026/Nov/11/gemini-decisions-api/
+
 ### llm-gemini 0.36
 - **Source** : Simon Willison
 - **Date** : 2026-11-10T20:09
@@ -165,11 +173,28 @@ Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Em
 - **Résumé** : What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have...
 - **Lien** : https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/
 
+### aws-emulator
+- **Source** : Simon Willison
+- **Date** : 2026-11-11T21:18
+- **Score** : 1
+- **Résumé** : aws-emulator
+Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so.
+It's written in Rust by a h...
+- **Lien** : https://simonwillison.net/2026/Nov/11/aws-emulator/
+
+### llm 0.37.2
+- **Source** : Simon Willison
+- **Date** : 2026-11-11T17:19
+- **Score** : 1
+- **Résumé** : Release: llm 0.37.2
+        Fixes a security issue reported by Daniel de Araujo in GH...
+- **Lien** : https://simonwillison.net/2026/Nov/11/llm/
+
 ### Quoting Prompting Claude Fable 5.2
 - **Source** : Simon Willison
 - **Date** : 2026-11-10T05:34
 - **Score** : 1
-- **Résumé** : Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt s...
+- **Résumé** : Claude Fable 5.2 pays close attention to who owns the code it works on. In Anthropic’s testing on small coding tasks, the model tended to add to the existin...
 - **Lien** : https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/
 
 ### Yonkers Rises
@@ -179,20 +204,6 @@ Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Em
 - **Résumé** : Tool: Yonkers Rises
         I realized I didn't know where Yonkers was, so I looked it up on Google Maps and then, to help embed its location and shape in my head (and to try out Claude Fable 5.2's 3D...
 - **Lien** : https://simonwillison.net/2026/Nov/10/yonkers-rises/
-
-### Locating the source of a mysterious beep with Claude
-- **Source** : Simon Willison
-- **Date** : 2026-11-09T23:57
-- **Score** : 1
-- **Résumé** : Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping. The beeps were far enough apart ...
-- **Lien** : https://simonwillison.net/2026/Nov/9/mysterious-beeps/
-
-### Hide your slop PR descriptions behind <details><summary>
-- **Source** : Simon Willison
-- **Date** : 2026-11-09T04:25
-- **Score** : 1
-- **Résumé** : Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them...
-- **Lien** : https://simonwillison.net/2026/Nov/9/details-summary/
 
 ### A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.
 - **Source** : Hugging Face Blog
@@ -236,18 +247,11 @@ Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Em
 - **Résumé** : ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships....
 - **Lien** : https://openai.com/index/chatgpt-enterprise-aws-marketplace
 
-### Last Week in AI #346 - 719 math manuscripts, 2 Western open models, 1 more safety resignation
+### Last Week (Month) in AI #347 - Nvidia's spy, Anthropic's $1.4T IPO, AI's blue wave
 - **Source** : Last Week in AI
-- **Date** : Fri, 09 Oct 2026
+- **Date** : Wed, 11 Nov 2026
 - **Score** : 1
-- **Résumé** : OpenAI publishes hundreds of math proofs from unreleased frontier model, Mistral and Reflection AI launch open-weight models to rival China, and more!...
-- **Lien** : https://lastweekin.ai/p/last-week-in-ai-346-719-math-manuscripts
-
-### LWiAI Podcast #257 - GPT 6 Astra, AI Extinction, Security Incidents
-- **Source** : Last Week in AI
-- **Date** : Thu, 24 Sep 2026
-- **Score** : 1
-- **Résumé** : A belated discussion of Astra&#8217;s release, a bunch of AI incidents, and the broader situation we are in with regards to AI safety....
-- **Lien** : https://lastweekin.ai/p/lwiai-podcast-257-gpt-6-astra-ai
+- **Résumé** : Catching up on five weeks: Huang under investigation, Anthropic and OpenAI priced at $1.4T and $1.25T as spending stalls, Anthropic warns it may be nearing recursive self-improvement, Gemini 4 Carbon...
+- **Lien** : https://lastweekin.ai/p/last-week-month-in-ai-347-nvidias
 
 <!-- BLOG_FEED_END -->
