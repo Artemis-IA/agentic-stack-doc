@@ -54,164 +54,165 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems
-- **arXiv** : 2611.12856v1
-- **Date** : 2026-11-09
-- **Auteurs** : Zheng Jiang, Fang Niu, Bo Peng, Houde Qian, Wenyi Li
-- **Score** : 10
-- **Résumé** : Large language model agents are increasingly deployed as multi-agent systems rather than as a standalone model operating within a single context. Recent agent harnesses allow the model to instantiate worker agents and to author the executable workflow that coordinates them, shifting the design of sy...
-- **Lien** : https://arxiv.org/abs/2611.12856v1
-
-### Mitigating Agentic Deception via Evaluation-Side Partially Observable Games
-- **arXiv** : 2611.12835v1
-- **Date** : 2026-11-09
-- **Auteurs** : Hanxiao Li, Shutong Liu, Yongjia Ma, Jiaming Ji, Juntao Dai
-- **Score** : 10
-- **Résumé** : As large language models become more capable agents, they can exhibit deceptive behaviors, cheating human for higher rewards while appearing helpful. We attribute this failure to evaluation-side partial observability, where models are evaluated mainly from final outcome, without checking the faithfu...
-- **Lien** : https://arxiv.org/abs/2611.12835v1
-
-### Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks
-- **arXiv** : 2611.12799v1
-- **Date** : 2026-11-09
-- **Auteurs** : Tingcheng Bian, Kangye Gong, Jinchang Luo, MingQuan Cheng, Feiran Liu
+### ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows
+- **arXiv** : 2611.14492v1
+- **Date** : 2026-11-10
+- **Auteurs** : Kaiyuan Hou, Yang Ping Kuo, Indranil Bhattacharya, Rohith Nama, Arushi Gupta
 - **Score** : 9
-- **Résumé** : Reinforcement learning is now the mainstream paradigm for training LLMs on agentic tasks, yet standard practice keeps only the best-validation checkpoint and discards the rest. We show that this is lossy: in GRPO training of LLM agents, the best-validation checkpoint fails on problems that earlier c...
-- **Lien** : https://arxiv.org/abs/2611.12799v1
+- **Résumé** : Business process automation runs the same Standard Operating Procedure (SOP) again and again on new inputs. Large Language Model (LLM) agents can follow an SOP written in natural language, but they call an LLM to choose every step of every run, which adds latency and cost at scale. We present ReTrac...
+- **Lien** : https://arxiv.org/abs/2611.14492v1
 
-### A local language model layered with rule-based and neural detectors for clinical text de-identification: an open-source toolkit and evaluation
-- **arXiv** : 2611.12709v1
-- **Date** : 2026-11-09
-- **Auteurs** : Valentin Burkin
+### Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models
+- **arXiv** : 2611.14413v1
+- **Date** : 2026-11-10
+- **Auteurs** : Mohammed Nayeem Khan, Logesh L, Aliyas Ahmad Misri
+- **Score** : 8
+- **Résumé** : Local language models can save memory by storing weights in fewer bits, and they can reduce sensitivity to the order of answer options by averaging a few reorderings. We ask whether the first makes the second worse, and which is the cheaper way to spend a fixed budget. On Qwen3-0.6B and Qwen3-1.7B w...
+- **Lien** : https://arxiv.org/abs/2611.14413v1
+
+### Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents
+- **arXiv** : 2611.14493v1
+- **Date** : 2026-11-10
+- **Auteurs** : Howard Zhang, Chuck Arvin, Logan Brown, Mihir Bhatia, Neelu Choudhary
 - **Score** : 7
-- **Résumé** : Objectives: To measure whether a locally hosted large language model (LLM), stacked with deterministic and clinical named-entity recognition (NER) detectors, finds more protected health information (PHI) than open tools, and at what precision. Materials and Methods: DeidSharp, an open-source .NET to...
-- **Lien** : https://arxiv.org/abs/2611.12709v1
+- **Résumé** : Deploying LLM-based analytics agents in enterprise settings requires evaluation frameworks that can reliably detect failures across complex, multi-tool workflows. We present a three-phase comparative study of three evaluation frameworks, each representing a distinct evaluation paradigm (trace-based ...
+- **Lien** : https://arxiv.org/abs/2611.14493v1
 
-### The Narrative Gap: Can LLMs Help Us Navigate Diverse Narratives Across Languages?
-- **arXiv** : 2611.12750v1
-- **Date** : 2026-11-09
-- **Auteurs** : Nikhil Sharma, Kelly Marchisio, Kenton Murray, Ziang Xiao
+### EngineAgent: Agentizing On-Device LLM Inference Engines with Inference Stack Hierarchy Awareness and Hardware Abilities
+- **arXiv** : 2611.14356v1
+- **Date** : 2026-11-10
+- **Auteurs** : Zhengxiang Huang, Yujie Sun, Shengheng Chen, Zhaode Wang, Chaoyue Niu
+- **Score** : 7
+- **Résumé** : Rapidly evolving LLM architectures and heterogeneous mobile hardware make supporting new models in on-device inference engines a recurring and costly system challenge. Each model may require coordinated changes across conversion, graph construction, operators, and hardware backends. Existing coding ...
+- **Lien** : https://arxiv.org/abs/2611.14356v1
+
+### Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations
+- **arXiv** : 2611.14514v1
+- **Date** : 2026-11-10
+- **Auteurs** : Ziang Liu, James J. Kim, Yijia Dai, Jennifer J. Sun
 - **Score** : 6
-- **Résumé** : Large language models (LLMs) increasingly mediate how people seek and consume information, including accounts that differ across languages and regions, especially on contested topics. Supporting diverse information seeking requires models to help users navigate competing narratives across languages ...
-- **Lien** : https://arxiv.org/abs/2611.12750v1
+- **Résumé** : LLM agents are increasingly used for open-ended, data-driven scientific discovery, yet most of them evaluate hypotheses pointwise, testing an empirical claim $h$ only against its complement $
+eg h$. When evidence rejects $h$, the agent learns that one explanation is unlikely but not which alternati...
+- **Lien** : https://arxiv.org/abs/2611.14514v1
 
-### Safe Reinforcement Learning for Multi-Turn Clinical Agents: When Dense Rewards Beat Outcome Rewards
-- **arXiv** : 2611.12728v1
-- **Date** : 2026-11-09
-- **Auteurs** : Brendan P. Murphy, Agustina Saenz
+### A Theory of Policy Optimization in Post-Training: Coverage Collapse and Reference Resets
+- **arXiv** : 2611.14467v1
+- **Date** : 2026-11-10
+- **Auteurs** : Audrey Huang, Nan Jiang, Sham M. Kakade, Sadhika Malladi, Akshay Krishnamurthy
 - **Score** : 6
-- **Résumé** : Reinforcement learning with verifiable rewards is increasingly used to improve language model reasoning, yet its effects on sequential decision procedures remain poorly understood. We study this problem in clinical multi-turn agents that must decide what information to request, when to stop gatherin...
-- **Lien** : https://arxiv.org/abs/2611.12728v1
+- **Résumé** : Policy optimization is central to language model post-training, yet principled guidance remains limited. We revisit its theoretical foundations to identify algorithms that learn near-optimal policies using total samples and gradient steps governed by the base model's response coverage, a measure of ...
+- **Lien** : https://arxiv.org/abs/2611.14467v1
 
-### Will AI mess my RTL? A snapshot-based approach to verifying AI-written RTL
-- **arXiv** : 2611.12712v1
-- **Date** : 2026-11-09
-- **Auteurs** : Bernat Homs, Oscar Palomar, Miquel Moreto, Marcelo Orenes-Vera
+### Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning
+- **arXiv** : 2611.14419v1
+- **Date** : 2026-11-10
+- **Auteurs** : Souhaila Djaffal, Amna Jamal, Gagana Madhugiri Devaraja, Anidipta Pal, Jobst Heitzig
 - **Score** : 6
-- **Résumé** : With the growing interest in using AI (Artificial Intelligence) for RTL (Register-Transfer Level) hardware development, robust and comprehensive verification has become more important than ever. As Large Language Models (LLMs) increasingly assist in creating and modifying RTL designs, ensuring that ...
-- **Lien** : https://arxiv.org/abs/2611.12712v1
+- **Résumé** : Formal world models can support planning, verification, and safety reasoning, but constructing them from open-ended natural-language situations is difficult, particularly in multi-agent settings where several formalizations may be plausible. We study whether five LLMs can generate such world models ...
+- **Lien** : https://arxiv.org/abs/2611.14419v1
 
-### Multi-Agent Screening: What Agreement and Acceptance Cannot Tell You
-- **arXiv** : 2611.12705v1
-- **Date** : 2026-11-09
-- **Auteurs** : Benjamin Chang, Dell Zhang
+### Cognitive Mapping of Learning by Thinking Mechanisms in Large Language Models
+- **arXiv** : 2611.14382v1
+- **Date** : 2026-11-10
+- **Auteurs** : Dong Han, Jin Zhang, Kunyue Yang
 - **Score** : 6
-- **Résumé** : When AI agents screen items for a costly human assessor, as in agentic search, e-discovery and AI reviewing of papers, only what they pass gets judged. We show what each kind of evidence can establish about their errors, even with unlimited data. Agreement shows that agents concur, not that they are...
-- **Lien** : https://arxiv.org/abs/2611.12705v1
+- **Résumé** : Large language models (LLMs) increasingly exhibit capabilities that resemble human Learning by Thinking (LbT), the acquisition of new insight through internal processes such as explanation and reasoning, without new external input. A systematic account of the cognitive mechanisms behind these capabi...
+- **Lien** : https://arxiv.org/abs/2611.14382v1
 
-### LogCDM: Interpretable Log Anomaly Detection via Behavioral Graph Drift and Adaptive Signal Fusion
-- **arXiv** : 2611.12775v1
-- **Date** : 2026-11-09
-- **Auteurs** : Suryansh Talukdar, Taha Sarwat, Jin Soung Yoo
-- **Score** : 5
-- **Résumé** : Log-based anomaly detection is increasingly dominated by large pretrained models, from BERT-scale encoders to 8B-parameter language models, which require GPUs at inference time and are difficult to deploy on the monitoring nodes where logs are produced. We present LogCDM, a compact detector that sco...
-- **Lien** : https://arxiv.org/abs/2611.12775v1
-
-### Adaptive Quantization Preserves Fast Rates for TD Learning over Rate-Limited Channels
-- **arXiv** : 2611.12878v1
-- **Date** : 2026-11-09
-- **Auteurs** : Sreejeet Maity, Aritra Mitra
+### Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents
+- **arXiv** : 2611.14511v1
+- **Date** : 2026-11-10
+- **Auteurs** : Megha Srivastava, Michael H. Lim, Allison M. Keys, Pranav Murugan, Nate Gruver
 - **Score** : 4
-- **Résumé** : Motivated by reinforcement learning subject to communication constraints, we study a policy evaluation problem with linear function approximation over a rate-limited channel. In our setup, an agent interacting with an unknown environment (modeled as a Markov Decision Process) transmits quantized est...
-- **Lien** : https://arxiv.org/abs/2611.12878v1
+- **Résumé** : Predicting how a ligand binds to its target is central to small-molecule drug discovery. Modern cofolding models can generate diverse candidate poses, but reliably ranking these candidates remains challenging. We introduce Pyrite, a pairwise pose-ranking benchmark comprising 1,500 pose pairs across ...
+- **Lien** : https://arxiv.org/abs/2611.14511v1
 
-### LUCQUE: A lung cancer screening dataset from Québec for reliable AI evaluation
-- **arXiv** : 2611.12817v1
-- **Date** : 2026-11-09
-- **Auteurs** : Johanna Topalis, Yannick Lemaréchal, Gabriel Couture, Hanife Ersay, Loran Nas
+### Continual-ARC: Measuring Skill Acquisition over a Working Lifetime
+- **arXiv** : 2611.14505v1
+- **Date** : 2026-11-10
+- **Auteurs** : Daniel Lenton
 - **Score** : 4
-- **Résumé** : BACKGROUND: AI-based tools are expected to play a key role in lung cancer screening (LCS). The evaluation of these tools often relied on private datasets or fragmented public datasets with inconsistent availability of clinical data and expert nodule annotations. This has hindered reproducibility, co...
-- **Lien** : https://arxiv.org/abs/2611.12817v1
+- **Résumé** : Agent harnesses have emerged as a promising mechanism for continual learning, alongside test-time parametric learning. However, the current benchmarks have several limitations: they generally focus on a single applied domain, serve each instance only once, and assume a single family of learner, so m...
+- **Lien** : https://arxiv.org/abs/2611.14505v1
 
-### Inference Validation for Regulated AI: Building a Decision Pipeline on NVIDIA AIPerf
-- **arXiv** : 2611.12737v1
-- **Date** : 2026-11-09
-- **Auteurs** : Dev Akre, Roman Bobalo, Manoj Dobbali
+### Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game
+- **arXiv** : 2611.14487v1
+- **Date** : 2026-11-10
+- **Auteurs** : Muhan Gao, Hangxiao Zhu, Xinqi Su, Yu Zhang, Daniel Khashabi
 - **Score** : 4
-- **Résumé** : Deploying large language models in regulated industries requires more than picking the fastest inference engine: it requires evidence that a configuration meets contractual and legal obligations before it serves a single customer request. We describe Runway, an internal validation harness built at M...
-- **Lien** : https://arxiv.org/abs/2611.12737v1
+- **Résumé** : Research ideation is iterative: researchers refine their ideas step by step based on feedback. Yet existing evaluations obscure this search process, making it difficult to understand how LLMs explore the space of research ideas and what limits their progress. We introduce Re-Search, which adapts the...
+- **Lien** : https://arxiv.org/abs/2611.14487v1
 
-### Guiding Data Allocation for Robust Subpopulation Generalization
-- **arXiv** : 2611.12884v1
-- **Date** : 2026-11-09
-- **Auteurs** : Zhaoying Pan, Yipei Wang, Shenyu Lu, Xiaoqian Wang
-- **Score** : 3
-- **Résumé** : Machine learning models often achieve high average accuracy in the training data while performing poorly on test data due to subpopulation shift. A common data-centric solution is to enforce balanced subgroup proportions, but full balance can be costly, infeasible, and not always necessary. In this ...
-- **Lien** : https://arxiv.org/abs/2611.12884v1
+### C$^2$-Routing: Complementary Cropping and Compression for Efficient Vision-Language Inference
+- **arXiv** : 2611.14469v1
+- **Date** : 2026-11-10
+- **Auteurs** : Guorui Lu, Qinyu Chen
+- **Score** : 4
+- **Résumé** : Visual Question Answering (VQA) imposes substantial computational overhead on vision-language models (VLMs), motivating model-agnostic input reduction methods that can be readily applied across diverse VLMs, including in black-box settings. Simply enforcing a visual-token cap reduces computation, bu...
+- **Lien** : https://arxiv.org/abs/2611.14469v1
 
-### HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents
-- **arXiv** : 2611.12872v1
-- **Date** : 2026-11-09
-- **Auteurs** : Haozhen Zhang, Bohan Liu, Jianzhu Bao, Qingyuan Liu, Haodong Yue
-- **Score** : 3
-- **Résumé** : As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past information becomes critical for long-term interaction. Existing memory systems typically rely on semantic retrieval over compressed memories and expose predefined representations, whic...
-- **Lien** : https://arxiv.org/abs/2611.12872v1
+### Earlybird: Predictive Streaming Speech Recognition in 29M Parameters
+- **arXiv** : 2611.14421v1
+- **Date** : 2026-11-10
+- **Auteurs** : Sahil Mahendrakar
+- **Score** : 4
+- **Résumé** : Streaming speech recognizers output a word only after the speaker has finished it, typically 90-400 ms later. For a voice agent every millisecond counts: the sooner the words are outputted, the sooner the agent can start a search or plan its reply. We present Earlybird, a 29M-parameter streaming rec...
+- **Lien** : https://arxiv.org/abs/2611.14421v1
 
-### Where Does Alignment Emerge and What Does It Mean? A Closer Look at the Platonic Representation Hypothesis
-- **arXiv** : 2611.12869v1
-- **Date** : 2026-11-09
-- **Auteurs** : Julia Herbst, Simon Roschmann, Quentin Bouniot, Zeynep Akata
-- **Score** : 3
-- **Résumé** : The Platonic Representation Hypothesis (PRH) suggests that neural networks are converging toward similar representation spaces. As language models become more capable, their representations are aligning with those of vision models. However, recent work has questioned whether this trend continues to ...
-- **Lien** : https://arxiv.org/abs/2611.12869v1
+### REAL Loss: Optimizing Real Expected Acceptance Length for Speculative Decoding
+- **arXiv** : 2611.14399v1
+- **Date** : 2026-11-10
+- **Auteurs** : Yu Tian
+- **Score** : 4
+- **Résumé** : Speculative decoding accelerates LLM inference by having a draft model propose multiple tokens for the target model to verify in one pass. The speedup is governed by the expected acceptance length (EAL), yet standard training objectives such as cross-entropy, KL divergence, and total variation focus...
+- **Lien** : https://arxiv.org/abs/2611.14399v1
 
-### Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning
-- **arXiv** : 2611.12865v1
-- **Date** : 2026-11-09
-- **Auteurs** : Xinjie Shen
-- **Score** : 3
-- **Résumé** : Reinforcement learning (RL) can improve an agent's task capability while reinforcing behavior that violates contextual execution requirements. We study this reward-driven misalignment, including reward hacking, through verifiable reward--context conflicts, where compliant task completion remains fea...
-- **Lien** : https://arxiv.org/abs/2611.12865v1
+### ARE-bench: Benchmarking Agents' Research Ability in Real-World Researcher Sessions and Workspaces
+- **arXiv** : 2611.14364v1
+- **Date** : 2026-11-10
+- **Auteurs** : Jiahang Lin, Wanying Ren, Wanghan Xu, Huayu Sha, Yang Shu
+- **Score** : 4
+- **Résumé** : Research agents achieve increasingly strong benchmark scores, yet these scores do not necessarily translate into reliable delivery in ongoing research projects. Many research-agent benchmarks emphasize standalone tasks and relatively self-contained workflows in clean or curated workspaces. However, ...
+- **Lien** : https://arxiv.org/abs/2611.14364v1
 
-### Is Persona Generalization Predictable?
-- **arXiv** : 2611.12864v1
-- **Date** : 2026-11-09
-- **Auteurs** : Olina Mukherjee, Arnav Goel, Aditi Raghunathan, Jacob Mitchell Springer
+### AutoScaffold: AI-Guided Scaffolding for Reinforcement Learning of Language Models
+- **arXiv** : 2611.14515v1
+- **Date** : 2026-11-10
+- **Auteurs** : Zijian Zhang, Rizhen Hu, Jiangweizhi Peng, Shiyang Li, Sujay Bhatt
 - **Score** : 3
-- **Résumé** : Persona generalization occurs when fine-tuning a language model in one domain induces behavioral changes in others -- for example, the broadly unsafe behavior observed in emergent misalignment. We discover a surprising "on-the-line" phenomenon in persona generalization: in-domain and out-of-domain p...
-- **Lien** : https://arxiv.org/abs/2611.12864v1
+- **Résumé** : Reinforcement learning with verifiable rewards (RLVR) produces rich training experience, yet outcome rewards reduce each attempt to a single number and leave most of this information unused. Training-time scaffolds, such as strategies or hints added to the prompt during training, offer a natural way...
+- **Lien** : https://arxiv.org/abs/2611.14515v1
 
-### Coding Agents in KVM: Practical Containment and User Control with Limited Resources
-- **arXiv** : 2611.12823v1
-- **Date** : 2026-11-09
-- **Auteurs** : Yutaka Nagashima
+### When does text encoding matter for language modeling?
+- **arXiv** : 2611.14459v1
+- **Date** : 2026-11-10
+- **Auteurs** : Eugene Jang, Catherine Arnett, Terra Blevins
 - **Score** : 3
-- **Résumé** : Coding agents often need broad authority for productive development work, but granting that authority can expose users' data and infrastructure. Off-the-shelf cloud workspaces can help contain agent activity, but reliance on provider-specific platforms can lead to vendor lock-in and reduced user con...
-- **Lien** : https://arxiv.org/abs/2611.12823v1
+- **Résumé** : UTF-8's role as the de facto encoding standard in language models introduces cross-lingual inequities due to its variable-length design. However, the effect that this encoding choice has on model performance remains largely unexamined. In this work, we investigate how text encoding impacts the perfo...
+- **Lien** : https://arxiv.org/abs/2611.14459v1
 
-### Curbside Chatbots: Auditing the Mental Health Interventions Large Language Models Recommend to Clinicians, Caregivers, and Patients
-- **arXiv** : 2611.12814v1
-- **Date** : 2026-11-09
-- **Auteurs** : Matthew Flathers, Jill Noorily, Phuong Anh Nguyen, Mark Kalinich, Mina Fallah
+### Causal Concept Explanations for Deep Neural Models
+- **arXiv** : 2611.14407v1
+- **Date** : 2026-11-10
+- **Auteurs** : Josh Rountree, Pulkit Verma, Oswin So, Chuchu Fan, Julie A. Shah
 - **Score** : 3
-- **Résumé** : Users are asking language models mental health questions and are receiving answers. We audited what 41 language models recommend to users when the same clinical information reaches them from three footings: a clinician describing a patient, a caregiver describing a loved one, or a person describing ...
-- **Lien** : https://arxiv.org/abs/2611.12814v1
+- **Résumé** : Concept-based explanations in neural models are important for the development, certification, and adoption of autonomous systems. Yet, interpretability remains correlational. Without methods to guide and quantify causal relationships between explanations, a concept explanation can be provided withou...
+- **Lien** : https://arxiv.org/abs/2611.14407v1
 
-### Large Language Models as a Universal Searcher for Open-World Automated Machine Learning
-- **arXiv** : 2611.12791v1
-- **Date** : 2026-11-09
-- **Auteurs** : Yuxuan Hu, Jihao Liu, Weikang Shi, Xijie Huang, Linda Wei
+### Blurring the Block Boundaries: Overlapping Block Denoising for Efficient Diffusion Language Models
+- **arXiv** : 2611.14387v1
+- **Date** : 2026-11-10
+- **Auteurs** : Amir Mann, Jonathan Fhima, Shaked Brody, Or Avitan, Asif Zamir
 - **Score** : 3
-- **Résumé** : Developing effective machine learning models requires complex manual tuning, while current Automated Machine Learning (AutoML) frameworks remain domain-specific and isolate model architecture, training hyperparameter, and data ratio optimization. Here, we bridge this gap by proposing a universal, la...
-- **Lien** : https://arxiv.org/abs/2611.12791v1
+- **Résumé** : Diffusion Language Models (DLMs) have emerged as effective alternatives to autoregressive models for latency-critical tasks, enabling faster token generation. Recent advances employ block diffusion with self-editing capabilities, where each block refines tokens iteratively before advancing to the ne...
+- **Lien** : https://arxiv.org/abs/2611.14387v1
+
+### Reliable and explainable analysis of AVS/RS by Statistical Model Checking and Process Mining
+- **arXiv** : 2611.14371v1
+- **Date** : 2026-11-10
+- **Auteurs** : Emanuele Guerrazzi, Andrea Vandin
+- **Score** : 3
+- **Résumé** : Automated Vehicle Storage and Retrieval Systems (AVS/RS) are increasingly adopted to boost warehouse throughput while containing operational costs. We present an integrated analysis framework that couples discrete-event simulation with Statistical Model Checking (SMC) and Process Mining (PM) to quan...
+- **Lien** : https://arxiv.org/abs/2611.14371v1
 
 <!-- ARXIV_FEED_END -->

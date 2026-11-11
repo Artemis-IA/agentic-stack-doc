@@ -115,49 +115,49 @@ subprocess.run([
 ### [firecracker](https://github.com/firecracker-microvm/firecracker)
 Secure and fast microVMs for serverless computing.
 
-⭐ 38.0k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-10
+⭐ 38.0k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-11
 **Tags** : `containers`, `minimalist`, `open-source`, `oversubscription`, `rust`, `sandbox`, `serverless`, `virtual-machine`
 
 ### [teable](https://github.com/teableio/teable)
 ✨ AI Spreadsheet for Business
 
-⭐ 22.0k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-11-10
+⭐ 22.0k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-11-11
 **Tags** : `ai-agent`, `airtable`, `airtable-alternative`, `app-builder`, `database`, `internal-tool`, `low-code`, `no-code`
 
 ### [gvisor](https://github.com/google/gvisor)
 Application Kernel for Containers
 
-⭐ 20.0k | `Go` | Licence: Apache-2.0 | MAJ: 2026-11-10
+⭐ 20.0k | `Go` | Licence: Apache-2.0 | MAJ: 2026-11-11
 **Tags** : `containers`, `docker`, `kernel`, `kubernetes`, `linux`, `oci`, `sandbox`
 
 ### [wasmtime](https://github.com/bytecodealliance/wasmtime)
 A lightweight WebAssembly runtime that is fast, secure, and standards-compliant
 
-⭐ 18.8k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-10
+⭐ 18.8k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-11
 **Tags** : `aot`, `cranelift`, `jit`, `lightweight`, `portable`, `runtime`, `rust`, `sandbox`
 
 ### [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)
 Secure, Fast, and Extensible Sandbox runtime for AI agents.
 
-⭐ 17.1k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-10
+⭐ 17.2k | `Go` | Licence: Apache-2.0 | MAJ: 2026-11-11
 **Tags** : `aaif`, `ai`, `ai-agent`, `ai-infra`, `kubernetes`, `sandbox`
 
 ### [memU](https://github.com/NevaMind-AI/memU)
 Personal memory across agents
 
-⭐ 14.6k | `Python` | Licence: NOASSERTION | MAJ: 2026-11-10
+⭐ 14.6k | `Python` | Licence: NOASSERTION | MAJ: 2026-11-11
 **Tags** : `agent-memory`, `claude-skills`, `harness`, `loop-engineering`, `mcp`, `memory`, `openclaw`, `openclaw-skills`
 
 ### [CubeSandbox](https://github.com/TencentCloud/CubeSandbox)
 Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.
 
-⭐ 13.2k | `Go` | Licence: NOASSERTION | MAJ: 2026-11-10
+⭐ 13.2k | `Go` | Licence: NOASSERTION | MAJ: 2026-11-11
 **Tags** : `agents`, `container`, `sandbox`
 
 ### [omnigent](https://github.com/omnigent-ai/omnigent)
 Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, an...
 
-⭐ 11.3k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-10
+⭐ 11.3k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-11
 **Tags** : `agent-framework`, `agent-governance`, `agent-orchestration`, `agents`, `ai`, `ai-agent`, `ai-agents`, `claude-code`
 
 ### [astrid](https://github.com/astrid-runtime/astrid)
@@ -169,19 +169,19 @@ Astrid is a portable, capability-secure operating system for composable software
 ### [openbrowser](https://github.com/ntegrals/openbrowser)
 Let AI agents browse the web. An autonomous toolkit for browser-based AI agents.
 
-⭐ 9.6k | `TypeScript` | Licence: MIT | MAJ: 2026-11-10
+⭐ 9.6k | `TypeScript` | Licence: MIT | MAJ: 2026-11-11
 **Tags** : `ai-agents`, `automation`, `claude`, `playwright`, `puppeteer`, `sandbox`
 
 ### [microsandbox](https://github.com/superradcompany/microsandbox)
 🧱 easy, fast, programmable and local-first microVM runtime and library
 
-⭐ 9.0k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-10
+⭐ 9.0k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-11
 **Tags** : `agents`, `docker`, `golang`, `linux`, `local`, `macos`, `microvm`, `nodejs`
 
 ### [monty](https://github.com/pydantic/monty)
 A secure Python sandbox, written in Rust, for code written by AI.
 
-⭐ 8.9k | `Rust` | Licence: MIT | MAJ: 2026-11-10
+⭐ 8.9k | `Rust` | Licence: MIT | MAJ: 2026-11-11
 **Tags** : `python`, `rust`, `sandbox`, `sandboxing`
 
 ### [react-cosmos](https://github.com/react-cosmos/react-cosmos)
@@ -193,7 +193,7 @@ Sandbox for developing and testing UI components in isolation
 ### [OpenTTD](https://github.com/OpenTTD/OpenTTD)
 OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe
 
-⭐ 8.5k | `C++` | Licence: NOASSERTION | MAJ: 2026-11-10
+⭐ 8.5k | `C++` | Licence: NOASSERTION | MAJ: 2026-11-11
 **Tags** : `game`, `isometric`, `openttd`, `sandbox`, `simulation`
 
 ### [wasm3](https://github.com/wasm3/wasm3)
@@ -202,34 +202,34 @@ OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe
 ⭐ 8.1k | `C` | Licence: MIT | MAJ: 2026-11-10
 **Tags** : `containers`, `cosmopolitan`, `devops`, `edge-computing`, `embedded`, `iot`, `sandbox`, `scripting`
 
-### [Wllama](https://github.com/ngxson/wllama)
-WebAssembly binding for llama.cpp - Enabling in-browser LLM inference
+### [smolvm](https://github.com/smol-machines/smolvm)
+An embeddable, portable, branchable virtual machine to safely run Agents locally.
 
-⭐ 1.4k | `TypeScript` | Licence: MIT | MAJ: 2026-11-10
-**Tags** : `llama`, `llamacpp`, `llm`, `wasm`, `webassembly`
+⭐ 7.1k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-11
+**Tags** : `agent-sandbox`, `ai-agents`, `code-execution`, `containers`, `crun`, `libkrun`, `llm`, `microvm`
 
-### [CUGA](https://github.com/cuga-project/cuga-agent)
-IBM Research's generalist agent harness built on LangGraph. Executes tasks over APIs and the web, with policy and human-in-the-loop controls, multi-agent supervision with remote A2A agents, and age...
+### [arcbox](https://github.com/arcboxlabs/arcbox)
+Run AI agents on real and isolated machines — own kernel, filesystem, and network — with <100ms boot. Local first, OCI compatible, pure Rust.
 
-⭐ 1.1k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-10
-**Tags** : `agentic-ai`, `agents`, `ai-agents`, `coding-agent`, `computer-use`, `enterprise`, `generalist-agent`, `guardrails`
+⭐ 4.3k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-10
+**Tags** : `ai-agents`, `computer-use`, `containers`, `docker`, `firecracker`, `microvm`, `rust`, `sandbox`
 
-### [HelpCode-ai/anythingmcp](https://github.com/HelpCode-ai/anythingmcp)
-!HelpCode-ai/anythingmcp MCP server 📇 🏠 ☁️ 🍎 🪟 🐧 - Self-hosted MCP gateway turning REST, SOAP and GraphQL APIs and SQL/NoSQL databases into MCP tools without code, with spec import, pre-built adapt...
+### [microvm.nix](https://github.com/microvm-nix/microvm.nix)
+NixOS MicroVMs
 
-⭐ 772 | `TypeScript` | Licence: AGPL-3.0 | MAJ: 2026-11-10
-**Tags** : `agent-governance`, `agent-harness`, `ai-governance`, `audit-log`, `code-execution`, `company-brain`, `enterprise-ai`, `enterprise-search`
+⭐ 3.1k | `Nix` | Licence: MIT | MAJ: 2026-11-11
+**Tags** : `cloud-hypervisor`, `crosvm`, `firecracker`, `flake`, `flakes`, `kvmtool`, `microvm`, `microvms`
 
-### [Containarium](https://github.com/FootprintAI/Containarium)
-Open-source agent runtime — SSH-native isolation, eBPF egress policy, Kubernetes + LXC backends, GPU passthrough, MCP-native CLI
+### [aici](https://github.com/microsoft/aici)
+AICI: Prompts as (Wasm) Programs
 
-⭐ 318 | `Go` | Licence: Apache-2.0 | MAJ: 2026-11-10
-**Tags** : `agent-native`, `agent-runtime`, `agent-sandbox`, `agentic-ai`, `ai-agents`, `claude`, `code-sandbox`, `cursor`
+⭐ 2.1k | `Rust` | Licence: MIT | MAJ: 2026-11-11
+**Tags** : `ai`, `inference`, `language-model`, `llm`, `llm-framework`, `llm-inference`, `llm-serving`, `llmops`
 
-### [Greywall](https://github.com/GreyhavenHQ/greywall)
-Deny-by-default command sandbox for AI coding agents with filesystem isolation, network control via transparent proxy, built-in profiles for agents like Claude Code or OpenCode, and learning mode f...
+### [runtime](https://github.com/e2b-dev/runtime)
+The runtime behind every E2B stack: Cloud, Enterprise, and your own machine.
 
-⭐ 316 | `Go` | Licence: Apache-2.0 | MAJ: 2026-11-09
-**Tags** : `agents`, `ai-security`, `claude-code`, `developer-tools`, `greyproxy`, `landlock`, `linux`, `llm`
+⭐ 1.8k | `Go` | Licence: Apache-2.0 | MAJ: 2026-11-11
+**Tags** : `ai-agents`, `code-interpreter`, `consul`, `devtools`, `firecracker`, `gcp`, `go`, `golang`
 
 <!-- TOOLS_SANDBOX_END -->
