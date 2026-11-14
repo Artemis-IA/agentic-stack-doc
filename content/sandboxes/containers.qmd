@@ -202,34 +202,34 @@ OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe
 ⭐ 8.1k | `C` | Licence: MIT | MAJ: 2026-11-13
 **Tags** : `containers`, `cosmopolitan`, `devops`, `edge-computing`, `embedded`, `iot`, `sandbox`, `scripting`
 
-### [smolvm](https://github.com/smol-machines/smolvm)
-An embeddable, portable, branchable virtual machine to safely run Agents locally.
-
-⭐ 7.1k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-14
-**Tags** : `agent-sandbox`, `ai-agents`, `code-execution`, `containers`, `crun`, `libkrun`, `llm`, `microvm`
-
-### [arcbox](https://github.com/arcboxlabs/arcbox)
-Run AI agents on real and isolated machines — own kernel, filesystem, and network — with <100ms boot. Local first, OCI compatible, pure Rust.
-
-⭐ 4.3k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-14
-**Tags** : `ai-agents`, `computer-use`, `containers`, `docker`, `firecracker`, `microvm`, `rust`, `sandbox`
-
-### [microvm.nix](https://github.com/microvm-nix/microvm.nix)
-NixOS MicroVMs
-
-⭐ 3.1k | `Nix` | Licence: MIT | MAJ: 2026-11-14
-**Tags** : `cloud-hypervisor`, `crosvm`, `firecracker`, `flake`, `flakes`, `kvmtool`, `microvm`, `microvms`
-
-### [runtime](https://github.com/e2b-dev/runtime)
-The runtime behind every E2B stack: Cloud, Enterprise, and your own machine.
-
-⭐ 1.8k | `Go` | Licence: Apache-2.0 | MAJ: 2026-11-14
-**Tags** : `ai-agents`, `code-interpreter`, `consul`, `devtools`, `firecracker`, `gcp`, `go`, `golang`
-
 ### [awesome-wasm-runtimes](https://github.com/appcypher/awesome-wasm-runtimes)
 A list of webassemby runtimes
 
 ⭐ 1.6k | MAJ: 2026-11-10
 **Tags** : `cranelift`, `engine`, `javascript`, `rust`, `virtual-machine`, `vm`, `wasm`, `wasm-runtime`
+
+### [Wllama](https://github.com/ngxson/wllama)
+WebAssembly binding for llama.cpp - Enabling in-browser LLM inference
+
+⭐ 1.4k | `TypeScript` | Licence: MIT | MAJ: 2026-11-14
+**Tags** : `llama`, `llamacpp`, `llm`, `wasm`, `webassembly`
+
+### [CUGA](https://github.com/cuga-project/cuga-agent)
+IBM Research's generalist agent harness built on LangGraph. Executes tasks over APIs and the web, with policy and human-in-the-loop controls, multi-agent supervision with remote A2A agents, and age...
+
+⭐ 1.2k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-14
+**Tags** : `agentic-ai`, `agents`, `ai-agents`, `coding-agent`, `computer-use`, `enterprise`, `generalist-agent`, `guardrails`
+
+### [HelpCode-ai/anythingmcp](https://github.com/HelpCode-ai/anythingmcp)
+!HelpCode-ai/anythingmcp MCP server 📇 🏠 ☁️ 🍎 🪟 🐧 - Self-hosted MCP gateway turning REST, SOAP and GraphQL APIs and SQL/NoSQL databases into MCP tools without code, with spec import, pre-built adapt...
+
+⭐ 789 | `TypeScript` | Licence: AGPL-3.0 | MAJ: 2026-11-14
+**Tags** : `agent-governance`, `agent-harness`, `ai-governance`, `audit-log`, `code-execution`, `company-brain`, `enterprise-ai`, `enterprise-search`
+
+### [Containarium](https://github.com/FootprintAI/Containarium)
+Open-source agent runtime — SSH-native isolation, eBPF egress policy, Kubernetes + LXC backends, GPU passthrough, MCP-native CLI
+
+⭐ 318 | `Go` | Licence: Apache-2.0 | MAJ: 2026-11-12
+**Tags** : `agent-native`, `agent-runtime`, `agent-sandbox`, `agentic-ai`, `ai-agents`, `claude`, `code-sandbox`, `cursor`
 
 <!-- TOOLS_SANDBOX_END -->
