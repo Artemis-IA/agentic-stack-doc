@@ -106,24 +106,6 @@ graph LR
 Google join Jev and OpenAI<...
 - **Lien** : https://simonwillison.net/2026/Nov/11/gemini-decisions-api/
 
-### llm-gemini 0.36
-- **Source** : Simon Willison
-- **Date** : 2026-11-10T20:09
-- **Score** : 2
-- **Résumé** : Release: llm-gemini 0.36
-        Gemini 4 Carbon was announced two weeks ago for "a subse...
-- **Lien** : https://simonwillison.net/2026/Nov/10/llm-gemini/
-
-### Introducing Our Smallest, Most Efficient Model: Muse Ember
-- **Source** : Simon Willison
-- **Date** : 2026-11-10T07:28
-- **Score** : 2
-- **Résumé** : Introducing Our Smallest, Most Efficient Model: Muse Ember
-Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as:
-
-[...] our smallest and most eff...
-- **Lien** : https://simonwillison.net/2026/Nov/10/muse-ember/
-
 ### BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model
 - **Source** : Hugging Face Blog
 - **Date** : Wed, 11 Nov 2026
@@ -172,6 +154,15 @@ Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Em
 - **Score** : 1
 - **Résumé** : NaiveAI could potentially top Artificial Analysis’s speed rankings. Our hands-on test suggests its coding quality holds up against DeepSeek....
 - **Lien** : https://latent.space/p/naiveai/
+
+### datasette-llm 0.1a11
+- **Source** : Simon Willison
+- **Date** : 2026-11-14T23:59
+- **Score** : 1
+- **Résumé** : Release: datasette-llm 0.1a11
+        datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins.
+This release a...
+- **Lien** : https://simonwillison.net/2026/Nov/14/datasette-llm/
 
 ### aws-emulator
 - **Source** : Simon Willison
@@ -252,5 +243,12 @@ It's written in Rust by a h...
 - **Score** : 1
 - **Résumé** : OpenAI publishes hundreds of math proofs from unreleased frontier model, Mistral and Reflection AI launch open-weight models to rival China, and more!...
 - **Lien** : https://lastweekin.ai/p/last-week-in-ai-346-719-math-manuscripts
+
+### LWiAI Podcast #257 - GPT 6 Astra, AI Extinction, Security Incidents
+- **Source** : Last Week in AI
+- **Date** : Thu, 24 Sep 2026
+- **Score** : 1
+- **Résumé** : A belated discussion of Astra&#8217;s release, a bunch of AI incidents, and the broader situation we are in with regards to AI safety....
+- **Lien** : https://lastweekin.ai/p/lwiai-podcast-257-gpt-6-astra-ai
 
 <!-- BLOG_FEED_END -->
