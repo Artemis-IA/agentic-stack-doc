@@ -116,7 +116,7 @@ Windsurf utilise les prompts/outputs pour le training sans opt-out clair. Le ZDR
 ### [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
 A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC (no affilia...
 
-⭐ 58.0k | `Python` | Licence: NOASSERTION | MAJ: 2026-11-15
+⭐ 58.1k | `Python` | Licence: NOASSERTION | MAJ: 2026-11-15
 **Tags** : `agent-skills`, `agentic-code`, `agentic-coding`, `ai-workflow-optimization`, `ai-workflows`, `anthropic`, `anthropic-claude`, `awesome`
 
 ### [gpt-engineer](https://github.com/AntonOsika/gpt-engineer)
@@ -137,12 +137,6 @@ An open-source coding agent for your terminal, written in Rust. It works with an
 ⭐ 39.1k | `TypeScript` | Licence: MIT | MAJ: 2026-11-15
 **Tags** : `ai-agent`, `ai-coding-agent`, `anthropic`, `bun`, `claude`, `cli`, `coding-assistant`, `llm`
 
-### [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix)
-A reliable coding agent for complex software engineering tasks.
-
-⭐ 36.1k | `Go` | Licence: MIT | MAJ: 2026-11-15
-**Tags** : `agent`, `agent-framework`, `ai-agent`, `ai-coding`, `cli`, `coding-agent`, `deepseek`, `developer-tools`
-
 ### [tabby](https://github.com/TabbyML/tabby)
 Self-hosted AI coding assistant
 
@@ -154,6 +148,12 @@ The first real AI developer
 
 ⭐ 33.6k | `Python` | Licence: NOASSERTION | MAJ: 2026-11-14
 **Tags** : `ai`, `codegen`, `coding-assistant`, `developer-tools`, `gpt-4`, `research-project`
+
+### [code-review-graph](https://github.com/tirth8205/code-review-graph)
+Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-rep...
+
+⭐ 32.8k | `Python` | Licence: MIT | MAJ: 2026-11-15
+**Tags** : `ai-coding`, `claude`, `claude-code`, `code-review`, `graphrag`, `incremental`, `knowledge-graph`, `llm`
 
 ### [oraios/serena](https://github.com/oraios/serena)
 🐍 🏠 - Coding agent that uses language servers for symbolic code operations.
@@ -182,7 +182,7 @@ Open-source (Apache-2.0) desktop app for macOS, Windows and Linux where an orche
 ### [p2p.kiwi](https://github.com/dont-be-evil-company/p2p.kiwi)
 p2p.kiwi 🥝, Cross-Platform screen 🖥️ sharing 📡 made simple ⚡.
 
-⭐ 6.6k | `TypeScript` | Licence: MIT | MAJ: 2026-11-11
+⭐ 6.6k | `TypeScript` | Licence: MIT | MAJ: 2026-11-15
 **Tags** : `cross-platform`, `multi-cursor`, `p2p`, `pair-programming`, `pairing`, `peer-to-peer`, `screensharing`
 
 ### [claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide)
@@ -202,6 +202,12 @@ ByteRover CLI (brv) - The portable memory layer for autonomous coding agents (fo
 
 ⭐ 4.9k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-11-13
 **Tags** : `agent`, `ai`, `autonomous-agents`, `cli`, `coding-assistant`, `context-memory`, `developer-tools`, `knowledge-management`
+
+### [OpenBitFun](https://github.com/openBitFun/OpenBitFun)
+OpenBitFun combines a high-performance agent runtime written in Rust with a polished desktop application. It pairs the depth of a Code Agent with open, general-purpose capabilities for work beyond ...
+
+⭐ 4.0k | `Rust` | Licence: MIT | MAJ: 2026-11-15
+**Tags** : `agent-teams`, `agentic`, `agentic-os`, `agentic-runtime`, `ai-coding`, `ai-ide`, `ai-sdk`, `bitfun`
 
 ### [OpenBitFun](https://github.com/GCWing/OpenBitFun)
 Open-source desktop agent with a Rust runtime for real repositories, browser, terminal, and desktop execution, extensible through MCP, Skills, and custom agents. !GitHub Repo stars
@@ -226,11 +232,5 @@ Command line tool to share your UNIX terminal and forward local TCP ports to peo
 
 ⭐ 2.8k | `Go` | Licence: Apache-2.0 | MAJ: 2026-11-07
 **Tags** : `cli`, `collaboration`, `pair-programming`, `ssh`, `terminal-based`, `tools`, `tunnel`
-
-### [Nanocoder](https://github.com/Nano-Collective/nanocoder)
-Local-first CLI coding agent built with React and Ink. !GitHub Repo stars
-
-⭐ 2.6k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-11-15
-**Tags** : `ai`, `ai-agents`, `ai-coding`, `coding-agents`, `llm`, `llm-inference`, `ollama`, `openai`
 
 <!-- TOOLS_HARNESS_PROP_END -->
