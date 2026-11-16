@@ -90,6 +90,14 @@ graph LR
 - **Résumé** : November 9, 2026 — Claude Fable 5.2 and Mythos 5.2 arrive on Anthropic’s IPO roadshow day. How much thinking is worth paying for?...
 - **Lien** : https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/
 
+### datasette-apps 0.4a0
+- **Source** : Simon Willison
+- **Date** : 2026-11-15T04:02
+- **Score** : 2
+- **Résumé** : Release: datasette-apps 0.4a0
+        Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against...
+- **Lien** : https://simonwillison.net/2026/Nov/15/datasette-apps/
+
 ### llm-gemini 0.37
 - **Source** : Simon Willison
 - **Date** : 2026-11-12T22:55
@@ -97,14 +105,6 @@ graph LR
 - **Résumé** : Release: llm-gemini 0.37
         Google launched Gemini 4 Hydrogen today - the lowest c...
 - **Lien** : https://simonwillison.net/2026/Nov/12/llm-gemini/
-
-### Gemini Decisions API
-- **Source** : Simon Willison
-- **Date** : 2026-11-11T22:03
-- **Score** : 2
-- **Résumé** : Gemini Decisions API
-Google join Jev and OpenAI<...
-- **Lien** : https://simonwillison.net/2026/Nov/11/gemini-decisions-api/
 
 ### BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model
 - **Source** : Hugging Face Blog
@@ -155,6 +155,22 @@ Google join Jev and OpenAI<...
 - **Résumé** : NaiveAI could potentially top Artificial Analysis’s speed rankings. Our hands-on test suggests its coding quality holds up against DeepSeek....
 - **Lien** : https://latent.space/p/naiveai/
 
+### datasette 1.0a43
+- **Source** : Simon Willison
+- **Date** : 2026-11-15T23:20
+- **Score** : 1
+- **Résumé** : Release: datasette 1.0a43
+        I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone, which is now 53%...
+- **Lien** : https://simonwillison.net/2026/Nov/15/datasette/
+
+### datasette-agent 0.6a0
+- **Source** : Simon Willison
+- **Date** : 2026-11-15T03:49
+- **Score** : 1
+- **Résumé** : Release: datasette-agent 0.6a0
+        Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent p...
+- **Lien** : https://simonwillison.net/2026/Nov/15/datasette-agent/
+
 ### datasette-llm 0.1a11
 - **Source** : Simon Willison
 - **Date** : 2026-11-14T23:59
@@ -163,23 +179,6 @@ Google join Jev and OpenAI<...
         datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins.
 This release a...
 - **Lien** : https://simonwillison.net/2026/Nov/14/datasette-llm/
-
-### aws-emulator
-- **Source** : Simon Willison
-- **Date** : 2026-11-11T21:18
-- **Score** : 1
-- **Résumé** : aws-emulator
-Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so.
-It's written in Rust by a h...
-- **Lien** : https://simonwillison.net/2026/Nov/11/aws-emulator/
-
-### llm 0.37.2
-- **Source** : Simon Willison
-- **Date** : 2026-11-11T17:19
-- **Score** : 1
-- **Résumé** : Release: llm 0.37.2
-        Fixes a security issue reported by Daniel de Araujo in GH...
-- **Lien** : https://simonwillison.net/2026/Nov/11/llm/
 
 ### llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem
 - **Source** : Hugging Face Blog
@@ -194,6 +193,20 @@ It's written in Rust by a h...
 - **Score** : 1
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite
+
+### LVMH’s Media Division announces strategic partnership with OpenAI
+- **Source** : OpenAI Blog
+- **Date** : Mon, 16 Nov 2026
+- **Score** : 1
+- **Résumé** : LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT....
+- **Lien** : https://openai.com/index/lvmh-media-division-partnership
+
+### A step toward defining the Standard Model on a lattice
+- **Source** : OpenAI Blog
+- **Date** : Sun, 15 Nov 2026
+- **Score** : 1
+- **Résumé** : Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof....
+- **Lien** : https://openai.com/index/step-toward-defining-the-standard-model
 
 ### Shield helps technicians hand off legacy portal work with OpenAI
 - **Source** : OpenAI Blog
@@ -215,20 +228,6 @@ It's written in Rust by a h...
 - **Score** : 1
 - **Résumé** : Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work....
 - **Lien** : https://openai.com/business/customer-stories/gondola
-
-### ChatGPT Plus for veterans and servicemembers
-- **Source** : OpenAI Blog
-- **Date** : Wed, 11 Nov 2026
-- **Score** : 1
-- **Résumé** : More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers....
-- **Lien** : https://openai.com/index/chatgpt-plus-for-veterans
-
-### Helping caregivers use AI in everyday life
-- **Source** : OpenAI Blog
-- **Date** : Tue, 10 Nov 2026
-- **Score** : 1
-- **Résumé** : OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life....
-- **Lien** : https://openai.com/index/helping-caregivers-use-ai-in-everyday-life
 
 ### Last Week (Month) in AI #347 - Nvidia's spy, Anthropic's $1.4T IPO, AI's blue wave
 - **Source** : Last Week in AI

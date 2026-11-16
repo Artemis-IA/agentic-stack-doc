@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### Where LLM Agents Get Stuck Debugging Databases: Access More Than Reasoning
-- **arXiv** : 2611.17304v1
-- **Date** : 2026-11-12
-- **Auteurs** : Gustavo Pinto
-- **Score** : 10
-- **Résumé** : Large language model (LLM) coding agents are increasingly asked not only to write code but to debug running systems from live runtime data. We report a field observation of one such agent (Claude Code) as it diagnosed eight database incidents in a production message-dispatch engine. In every inciden...
-- **Lien** : https://arxiv.org/abs/2611.17304v1
-
-### Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon
-- **arXiv** : 2611.17294v1
-- **Date** : 2026-11-12
-- **Auteurs** : Haozhe Wang, Lina Chen, Fanqi Wan, Qi Han, Yinmin Zhang
+### Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination
+- **arXiv** : 2611.18514v1
+- **Date** : 2026-11-13
+- **Auteurs** : Mohamed Aghzal, Mor Geva, Gregory J. Stein, Ziyu Yao
 - **Score** : 9
-- **Résumé** : On-device inference requires kernels that make effective use of local accelerators. Efficient training and evaluation of models that generate Apple Metal kernels benefit from native macOS tools and concurrent agent sessions. These sessions alternate between model requests, development commands, and ...
-- **Lien** : https://arxiv.org/abs/2611.17294v1
+- **Résumé** : Mechanistic Interpretability (MI) has made significant progress in explaining the internal computations of Large Language Models (LLMs); however, these advances have yet to demonstrate comparable success in explaining the decision-making processes of LLM-based agents. This paper examines the challen...
+- **Lien** : https://arxiv.org/abs/2611.18514v1
 
-### Ballad: Bandit-Based LLM Routing for Automated Heuristic Discovery
-- **arXiv** : 2611.17241v1
-- **Date** : 2026-11-12
-- **Auteurs** : Samidha Verma, Ankit Anand, Sayan Ranu
+### Agentic induction of common data elements and information extraction from sarcoma case report abstracts
+- **arXiv** : 2611.18506v1
+- **Date** : 2026-11-13
+- **Auteurs** : Daniel Reichenpfader, Kwaku Appiagyei, Manovah Nadarajah, Ahmed Reda Bahr, Irina Filchenko
 - **Score** : 9
-- **Résumé** : Modern automated heuristic discovery (AHD) systems increasingly rival hand-crafted heuristics by leveraging Large Language Models (LLMs) to iteratively mutate and refine solutions. A natural assumption is that more powerful and more expensive models consistently yield better heuristics. We challenge...
-- **Lien** : https://arxiv.org/abs/2611.17241v1
+- **Résumé** : Common data elements (CDEs) support clinical data comparability but are usually defined manually. We investigated whether large language model agents could derive a CDE schema from sarcoma case report abstracts and apply it at scale. An agent proposed 72,909 candidate CDEs from 24,588 PubMed abstrac...
+- **Lien** : https://arxiv.org/abs/2611.18506v1
 
-### LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds
-- **arXiv** : 2611.17267v1
-- **Date** : 2026-11-12
-- **Auteurs** : Pengcheng Zhou, Xuanyu Liu, Yanchen Yin, Tianjie Ju, Bobo Li
-- **Score** : 8
-- **Résumé** : We introduce GeoWorld, a controllable and continuously evolving geographic environment platform for LLM agents, and LiveGeo, a benchmark for evaluating reliable decision-making in real-world geographic environments using GeoWorld. Unlike existing evaluations that largely reason and plan over fixed g...
-- **Lien** : https://arxiv.org/abs/2611.17267v1
+### TradeGauntlet: Evaluating Compliance Controls for Autonomous Trading Agents
+- **arXiv** : 2611.18493v1
+- **Date** : 2026-11-13
+- **Auteurs** : Sandip Nandi, Aishwarya Bose, Apurba Bose, Soovadeep Bakshi
+- **Score** : 9
+- **Résumé** : Autonomous trading agents need controls that prevent problematic orders without making legitimate tasks impractical. We study this aspect of agentic compliance with TradeGauntlet, a replayable limit-order-book simulator that separates detection, prevention, and execution cost. In 1,680 simulated ses...
+- **Lien** : https://arxiv.org/abs/2611.18493v1
 
-### ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research
-- **arXiv** : 2611.17332v1
-- **Date** : 2026-11-12
-- **Auteurs** : Jie Wang, Tong Zhu, JiaHao Kuang, Zhe Xu, Yunkai Chai
+### Do Verifier Judgments Survive Abstraction? Measuring Verification Transport for LLM Agent Evaluation
+- **arXiv** : 2611.18471v1
+- **Date** : 2026-11-13
+- **Auteurs** : Disha Sheshanarayana, Sai Linisha Reddy Goli
+- **Score** : 7
+- **Résumé** : LLM-based verifiers are increasingly used to evaluate agent executions, but their reliability is typically measured under a single representation of the trajectory. In deployed agent systems, the same execution may be exposed through composed tools, delegation boundaries, or compacted histories, cha...
+- **Lien** : https://arxiv.org/abs/2611.18471v1
+
+### WeightBench: Evaluating Language Models as Weight-Space Programmers
+- **arXiv** : 2611.18553v1
+- **Date** : 2026-11-13
+- **Auteurs** : Aayush Marasini, Barsat Khadka, Nick Rahimi
 - **Score** : 6
-- **Résumé** : Model architecture shapes the scaling behavior, training efficiency, and inference cost of LLMs, making it a central focus of both industry and academia. In industry, teams such as those behind DeepSeek, Qwen, and Kimi routinely introduce architectural innovations, yet public reports rarely document...
-- **Lien** : https://arxiv.org/abs/2611.17332v1
+- **Résumé** : Recent work shows that large language models (LLMs) can operate directly on the parameters of other neural networks. They can read what a network was trained to do, fix a network that fails, and write working networks from scratch, all without gradient descent. This capability has been termed Weight...
+- **Lien** : https://arxiv.org/abs/2611.18553v1
 
-### AgentSSL: Can MLE Agents Leverage Unlabeled Data?
-- **arXiv** : 2611.17323v1
-- **Date** : 2026-11-12
-- **Auteurs** : Ethan Lin, Akanksha Sarkar, Ziang Liu, Kristin Branson, Jennifer J. Sun
+### ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL
+- **arXiv** : 2611.18533v1
+- **Date** : 2026-11-13
+- **Auteurs** : Zelin He, Siyu Zhu, Jacob Helwig, Yujian Liu, Li An
 - **Score** : 6
-- **Résumé** : Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering. While recent MLE agents show promise in automating pipeline design, they have been studied almost exclusively in fully supervised settings, leaving them untested ...
-- **Lien** : https://arxiv.org/abs/2611.17323v1
+- **Résumé** : Agentic reinforcement learning (RL) increasingly relies on a harness, the scaffold around the model that decides what it sees of its own interaction and what guidance it receives. Most existing approaches train under a hand-written harness that stays fixed throughout. However, an effective harness d...
+- **Lien** : https://arxiv.org/abs/2611.18533v1
 
-### Programming Quantum Circuit Parameters with Large Language Models
-- **arXiv** : 2611.17246v1
-- **Date** : 2026-11-12
-- **Auteurs** : Tiago de Souza Farias, Caio Moraes Porto, Matheus da Silva Fonseca, Nicolas Armando Cabrera Carpi, Anderson de Araujo Oliveira
+### MeReader: An Offline, Privacy-Preserving, Progress-Aware AI Assistant for Narrative eBook Reading
+- **arXiv** : 2611.18513v1
+- **Date** : 2026-11-13
+- **Auteurs** : Mohammed Efaz, Udo Bub, Itilekha Podder
 - **Score** : 6
-- **Résumé** : Large language models (LLMs) have recently demonstrated the ability to generate parameters for variational quantum circuits without conventional optimization. However, the conditions under which this approach is effective remain unclear. Here, we investigate a frozen, general-purpose LLM that genera...
-- **Lien** : https://arxiv.org/abs/2611.17246v1
+- **Résumé** : This paper introduces MeReader, a privacy-preserving, offline and progress-aware AI assistant designed to function as a contextual companion for narrative reading on consumer hardware. Unlike conventional Large Language Model (LLM)-based systems that process documents/books online in an all-texts-at...
+- **Lien** : https://arxiv.org/abs/2611.18513v1
 
-### Scalable Conversational Assessment: Chat-Based Exams with a Two-Agent LLM Pipeline
-- **arXiv** : 2611.17220v1
-- **Date** : 2026-11-12
-- **Auteurs** : Geoffrey Challen, Craig Zilles
+### Agentic AI for Discovering Fault-Tolerant Quantum Circuits
+- **arXiv** : 2611.18504v1
+- **Date** : 2026-11-13
+- **Auteurs** : Aritra Lahiri, Florian Marquardt
 - **Score** : 6
-- **Résumé** : Oral exams are compelling because (1) students can be asked to provide their reasoning for an answer and (2) their interactive nature permits follow-up questions to resolve ambiguous answers. But oral exams scale poorly. In this paper, we present scalable conversational assessment, an LLM-based syst...
-- **Lien** : https://arxiv.org/abs/2611.17220v1
+- **Résumé** : Scaling quantum computing toward practical quantum advantage is currently limited by the efficiency of circuits that operate on information encoded by quantum error-correcting codes. The full stack of quantum computing encompasses several tasks: preparation of logical code states, implementation of ...
+- **Lien** : https://arxiv.org/abs/2611.18504v1
 
-### Sketching Language Models for Context Attribution
-- **arXiv** : 2611.17313v1
-- **Date** : 2026-11-12
-- **Auteurs** : Christopher Liaw, Aranyak Mehta, Grigoris Velegkas, Felix Zhou
+### From AI-Enabled Remote Patient Monitoring Toward Agentic Robotics: Embodiment, Governance, and Care Integration
+- **arXiv** : 2611.18484v1
+- **Date** : 2026-11-13
+- **Auteurs** : Ivana Ragusa, Lorenzo Guiducci, Filippo Cavallo
+- **Score** : 6
+- **Résumé** : AI-enabled remote patient monitoring is evolving beyond passive data collection toward agentic AI systems that interpret patient states, coordinate care, and initiate action across domestic and clinical settings. This structured scoping review finds that mature agentic care has not yet emerged: Most...
+- **Lien** : https://arxiv.org/abs/2611.18484v1
+
+### Callo: Serving Cache-Miss Requests with Speculative Decoding on Invalidated KV under Prefill-Decode Disaggregation
+- **arXiv** : 2611.18459v1
+- **Date** : 2026-11-13
+- **Auteurs** : Jianjun Ou, Matthew Lentz
+- **Score** : 6
+- **Résumé** : Agent sessions may involve frequent context edits, which effectively invalidate cached KV state and force requests to wait for re-prefill before decoding. We present Callo, a disaggregated serving system that leverages invalidated KV for speculative drafts to reduce this latency, while verifying dra...
+- **Lien** : https://arxiv.org/abs/2611.18459v1
+
+### Black-Box Uncertainty Quantification for Large Language Models via Ensemble-of-Ensembles
+- **arXiv** : 2611.18453v1
+- **Date** : 2026-11-13
+- **Auteurs** : Wang Ma, Debarun Bhattacharjya, Junkyu Lee, Nhan H Pham, Harsha Kokel
+- **Score** : 6
+- **Résumé** : Reliable use of large language models (LLMs) requires uncertainty estimates that separate ambiguity intrinsic to a prompt from genuine knowledge gaps. Bayesian and deep-ensemble methods deliver this aleatoric/epistemic decomposition in principle, but are computationally prohibitive at LLM scale and ...
+- **Lien** : https://arxiv.org/abs/2611.18453v1
+
+### HerAgent: A Block-Level Checkpointing Harness for Coding-Agent Environment Setup
+- **arXiv** : 2611.18443v1
+- **Date** : 2026-11-13
+- **Auteurs** : Xiang Li, Siyu Lu, Federica Sarro, Claire Le Goues, He Ye
+- **Score** : 6
+- **Résumé** : Modern coding agents rely on establishing executable software environments before they can perform software engineering tasks such as testing, debugging, and patch validation. Existing setup agents typically control progress at either single-command or whole-script granularity, making recovery eithe...
+- **Lien** : https://arxiv.org/abs/2611.18443v1
+
+### Training Reasoning Models in Simulation to Natively Use Real Robots
+- **arXiv** : 2611.18562v1
+- **Date** : 2026-11-13
+- **Auteurs** : Jiaming Tang, Zhuoyang Zhang, Junxian Guo, Fangzhou Zhao, Yilong Zhao
 - **Score** : 5
-- **Résumé** : Context attribution asks how removing parts of a prompt changes a language model's output. We study leave-one-out (LOO) attribution for a prompt of $n$ tokens and a fixed measurement function. Computing all LOO values directly requires $n$ model evaluations. Under a stability assumption, our algorit...
-- **Lien** : https://arxiv.org/abs/2611.17313v1
+- **Résumé** : Robot-use agents (RUAs) have emerged as a promising approach to general-purpose robot control. However, strong performance has so far been achieved only by frontier proprietary models such as GPT-6 Astra and Claude Fable 5.2, whereas open-weight models remain substantially less capable. We show that...
+- **Lien** : https://arxiv.org/abs/2611.18562v1
 
-### Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs
-- **arXiv** : 2611.17280v1
-- **Date** : 2026-11-12
-- **Auteurs** : Gautam Galada, Supreeth Shastri, Sagnik Ray Choudhury
+### Interactive Program Induction with Language Model Priors
+- **arXiv** : 2611.18485v1
+- **Date** : 2026-11-13
+- **Auteurs** : Robin Shing Moon Chan, Ryan Cotterell
 - **Score** : 4
-- **Résumé** : We propose Synthesis Smuggling, a novel threat model in which an adversarial LLM infers sensitive information about a user from routine assistance-seeking interactions and steganographically encodes that into innocuous-looking model-generated content. The user may then unknowingly transmit that info...
-- **Lien** : https://arxiv.org/abs/2611.17280v1
+- **Résumé** : Program induction refers to the process in which a learner aims to recover a program from a few given input-output examples. This paradigm broadens programming access by letting users demonstrate the rule-based behavior they want to apply to unseen data, instead of having to implement it themselves....
+- **Lien** : https://arxiv.org/abs/2611.18485v1
 
-### Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents
-- **arXiv** : 2611.17167v1
-- **Date** : 2026-11-12
-- **Auteurs** : Haochen Liu, Qianhao Zhu, Zixuan Wang, Dingming Li, Tongbo Chen
-- **Score** : 4
-- **Résumé** : Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as ac...
-- **Lien** : https://arxiv.org/abs/2611.17167v1
-
-### Paper-Faithful Federated Learning: Scientific Checks for Practitioner and Agent Development
-- **arXiv** : 2611.17129v1
-- **Date** : 2026-11-12
-- **Auteurs** : Ali Dadras, Alp Yurtsever
-- **Score** : 4
-- **Résumé** : Federated learning experiments can produce reasonable-looking results even when the experiment implementation differs from the intended experimental protocol. Small errors in configuration, data partitioning, aggregation, randomness, evaluation, or checkpoint recovery may therefore affect a comparis...
-- **Lien** : https://arxiv.org/abs/2611.17129v1
-
-### Unbundling Multimodal Vision Encoding
-- **arXiv** : 2611.17334v1
-- **Date** : 2026-11-12
-- **Auteurs** : Ellis Brown, Chris Hoang, Shengyi Qian, Shang-Wen Li, Mike Lewis
+### Imitation Bootstrapped Multi-Agent Reinforcement Learning
+- **arXiv** : 2611.18543v1
+- **Date** : 2026-11-13
+- **Auteurs** : Tony H. Zhang, Connor Mattson, Daniel S. Brown
 - **Score** : 3
-- **Résumé** : How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior f...
-- **Lien** : https://arxiv.org/abs/2611.17334v1
+- **Résumé** : Demonstrations are an effective way to accelerate single-agent reinforcement learning (RL), but extending this idea to multi-agent reinforcement learning (MARL) is non-trivial as it is difficult and often impossible for a single person to teleoperate multiple agents simultaneously. Round-Robin Behav...
+- **Lien** : https://arxiv.org/abs/2611.18543v1
 
-### Learning When Diffusion Language Models Should Regenerate
-- **arXiv** : 2611.17320v1
-- **Date** : 2026-11-12
-- **Auteurs** : Minhae Oh, Jeonghye Kim, Jinwoo Koo, Yeongoon Kim, Jimin Seo
+### Alignment by Socialization: Learning Tradeoffs Under Selection
+- **arXiv** : 2611.18531v1
+- **Date** : 2026-11-13
+- **Auteurs** : Thomas Brennan, Andrew W. Lo, Chaoyi Zhao
 - **Score** : 3
-- **Résumé** : Remasking allows diffusion language models to revisit generated text, but effective correction requires knowing when and what to revise. Our diagnosis on Sudoku reveals two gaps. Hidden states contain error information that token confidence does not reliably expose, and remasking an isolated error u...
-- **Lien** : https://arxiv.org/abs/2611.17320v1
+- **Résumé** : Artificial intelligence (AI) agents are expected to complete tasks while following rules of conduct, but these objectives can conflict. We study how evolutionary selection shapes an agent's choices between them, and whether experience can make those choices reflect human judgments and withstand subs...
+- **Lien** : https://arxiv.org/abs/2611.18531v1
 
-### CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation
-- **arXiv** : 2611.17316v1
-- **Date** : 2026-11-12
-- **Auteurs** : Peiwen Li, Harshit Verma, Sophia Zhou, Haiwen Wang, Ngoc Bui
+### StreamEmbed: Real-Time Indexing from Pixels for Screenshot Retrieval
+- **arXiv** : 2611.18516v1
+- **Date** : 2026-11-13
+- **Auteurs** : Dayoon Ko, Yichuan Wang, Soyeong Jeong, Joseph E. Gonzalez, Gunhee Kim
 - **Score** : 3
-- **Résumé** : Coding agents tackle successive tasks on an evolving repository, carrying forward edits and writing memory before the next task is known. Selecting memory for unknown next tasks requires balancing future usefulness against the costs of writing and reading it. The actor must also decide when acting o...
-- **Lien** : https://arxiv.org/abs/2611.17316v1
+- **Résumé** : Screen history can serve as searchable visual memory for people and agents, but unlike an offline corpus, it must be encoded and indexed as each screenshot arrives. OCR-based indexing is fast but loses visual information; visual encoding takes over two seconds. Yet screens change incrementally: most...
+- **Lien** : https://arxiv.org/abs/2611.18516v1
 
-### Goal Encoding in LLMs
-- **arXiv** : 2611.17297v1
-- **Date** : 2026-11-12
-- **Auteurs** : Arnab Sen Sharma, Eric Todd, Sheridan Feucht, Andy Arditi, Rohit Gandikota
+### ARCHER: From Rationale Imitation to Executable Reasoning in Small Language Models
+- **arXiv** : 2611.18494v1
+- **Date** : 2026-11-13
+- **Auteurs** : Dhruv Dixit, Khushi Patel, Congcong Xu, Min Song
 - **Score** : 3
-- **Résumé** : We investigate whether and how LLMs encode goals: internal neural representations that precede and guide action, and that are flexible enough to be realized through many different execution paths. We construct a coding setting with multiple sub-tasks that allows us to evaluate goal-seeking behavior ...
-- **Lien** : https://arxiv.org/abs/2611.17297v1
+- **Résumé** : Small language models are attractive for local, low-cost, and privacy-sensitive deployment, but they remain unreliable on mathematical reasoning tasks that require decomposition, exact computation, tool use, and verification. We introduce 	extbf{ARCHER}: 	extbf{A}ction-trace 	extbf{R}einforcement...
+- **Lien** : https://arxiv.org/abs/2611.18494v1
 
-### When Both Sides Adapt: The Challenges of Evaluating Interactive LLM Systems
-- **arXiv** : 2611.17239v1
-- **Date** : 2026-11-12
-- **Auteurs** : Hannah Li
+### When to Trust Simulated Patient Responses:Support-Gated World Models for Vasopressor Decision Support
+- **arXiv** : 2611.18458v1
+- **Date** : 2026-11-13
+- **Auteurs** : Yifan Jin, Tao Liu
 - **Score** : 3
-- **Résumé** : In interactive systems where users engage with LLMs, users are adaptive and, after observing LLM responses, can change their prompting strategy, as well as the type and difficulty of subsequent tasks. Thus model responses can influence the set of prompts on which the model is subsequently evaluated....
-- **Lien** : https://arxiv.org/abs/2611.17239v1
+- **Résumé** : Clinical world models expose language-model agents to predicted patient responses, but simulations can be unreliable for poorly supported treatments or unfamiliar hospitals. We introduce Support-Gated World-Model decision support, a lightweight extension of a propose--simulate--refine agent. A recur...
+- **Lien** : https://arxiv.org/abs/2611.18458v1
 
-### Al-Ghasali: A Computational Framework for Simulating Islamic Jurisprudential Rulings via Finite State Automata and Large Language Models
-- **arXiv** : 2611.17235v1
-- **Date** : 2026-11-12
-- **Auteurs** : Elnaserledinellah Mahmoud Abdelwahab
+### Mesh-Free Weak-Form Regression for Learning Interaction Kernels from Particle Trajectories
+- **arXiv** : 2611.18455v1
+- **Date** : 2026-11-13
+- **Auteurs** : Daisuke Inoue, Dante Kalise
 - **Score** : 3
-- **Résumé** : This paper presents Al Ghasali, a computational framework designed to formalize and simulate Islamic jurisprudential (Fiqh) rulings. Building upon recent set theoretic formalizations of al sabr wa al Taqsim that extract minimal operational rules as simple Horn clause logical programs, this work prov...
-- **Lien** : https://arxiv.org/abs/2611.17235v1
-
-### Cortex-FL: Agent-Mediated Collaboration for Federated Learning
-- **arXiv** : 2611.17186v1
-- **Date** : 2026-11-12
-- **Auteurs** : Rui Sun, Jinfeng Peng, Zehua Cheng, Jiahao Sun, Zhipeng Wang
-- **Score** : 3
-- **Résumé** : Federated learning (FL) enables independent data owners to train models collaboratively without centralizing raw data. However, identifying collaborators, preparing training tasks, and coordinating execution and incentives hinder its practical adoption by organizations without specialized expertise....
-- **Lien** : https://arxiv.org/abs/2611.17186v1
-
-### Parsed, Plausible, Wrong: Output Format Controls Silent Errors in Small-Model Semantic Parsing
-- **arXiv** : 2611.17169v1
-- **Date** : 2026-11-12
-- **Auteurs** : Umar Ahmed, Maxim Dunaev, Mohammad Nour Al Awad, Sergey Ivanov, Ivan Khodnenko
-- **Score** : 3
-- **Résumé** : A small fine-tuned parser that emits a well-formed but wrong tree fails silently: nothing downstream can tell. We ask whether the output format, a free design choice, controls how often this happens. On the PIZZA ordering benchmark we fine-tune two sub-billion models (Qwen3.5-0.8B and LFM2.5-350M) w...
-- **Lien** : https://arxiv.org/abs/2611.17169v1
+- **Résumé** : We propose mesh-free weak-form regression for learning interaction kernels from noisy particle trajectories. Our method uses smooth test functions to avoid differentiating noisy data and empirical particle averages to avoid density reconstruction and spatial grids. We then fit sparse combinations of...
+- **Lien** : https://arxiv.org/abs/2611.18455v1
 
 <!-- ARXIV_FEED_END -->
