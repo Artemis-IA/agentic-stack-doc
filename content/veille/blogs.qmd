@@ -83,13 +83,6 @@ graph LR
 - **Résumé** : Where does answer engine optimization (AEO) end and agent experience begin? Inside Resend, from the docs that help Claude Code pick an email API to the tools it uses to send....
 - **Lien** : https://latent.space/p/resend/
 
-### [AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins
-- **Source** : latent.space
-- **Date** : Tue, 10 Nov 2026
-- **Score** : 2
-- **Résumé** : November 9, 2026 — Claude Fable 5.2 and Mythos 5.2 arrive on Anthropic’s IPO roadshow day. How much thinking is worth paying for?...
-- **Lien** : https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/
-
 ### datasette-apps 0.4a0
 - **Source** : Simon Willison
 - **Date** : 2026-11-15T04:02
@@ -98,14 +91,6 @@ graph LR
         Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against...
 - **Lien** : https://simonwillison.net/2026/Nov/15/datasette-apps/
 
-### llm-gemini 0.37
-- **Source** : Simon Willison
-- **Date** : 2026-11-12T22:55
-- **Score** : 2
-- **Résumé** : Release: llm-gemini 0.37
-        Google launched Gemini 4 Hydrogen today - the lowest c...
-- **Lien** : https://simonwillison.net/2026/Nov/12/llm-gemini/
-
 ### BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model
 - **Source** : Hugging Face Blog
 - **Date** : Wed, 11 Nov 2026
@@ -113,12 +98,12 @@ graph LR
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/qvac/botpsy
 
-### Introducing ChatGPT Wallet
+### More ways to move care forward with ChatGPT for Healthcare
 - **Source** : OpenAI Blog
-- **Date** : Fri, 13 Nov 2026
+- **Date** : Mon, 16 Nov 2026
 - **Score** : 2
-- **Résumé** : Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections....
-- **Lien** : https://openai.com/index/introducing-chatgpt-wallet
+- **Résumé** : Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done....
+- **Lien** : https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare
 
 ### LWiAI Podcast #258 - Opus 5.5, Sol and Luna, Muse, DeepSeek-V4.1-Flash, Xi
 - **Source** : Last Week in AI
@@ -148,12 +133,14 @@ graph LR
 - **Résumé** : November 10, 2026 — Google GA's Gemini 4 Carbon....
 - **Lien** : https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/
 
-### NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?
-- **Source** : latent.space
-- **Date** : Tue, 10 Nov 2026
+### llm 0.37.3
+- **Source** : Simon Willison
+- **Date** : 2026-11-16T23:57
 - **Score** : 1
-- **Résumé** : NaiveAI could potentially top Artificial Analysis’s speed rankings. Our hands-on test suggests its coding quality holds up against DeepSeek....
-- **Lien** : https://latent.space/p/naiveai/
+- **Résumé** : Release: llm 0.37.3
+        A bug fix release for LLM, mainly to cover a problem with the most recent Homebrew package of the software.
+Homebrew now ships the late...
+- **Lien** : https://simonwillison.net/2026/Nov/16/llm/
 
 ### datasette 1.0a43
 - **Source** : Simon Willison
@@ -194,6 +181,20 @@ This release a...
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite
 
+### Broadening access to AI for scientists
+- **Source** : OpenAI Blog
+- **Date** : Mon, 16 Nov 2026
+- **Score** : 1
+- **Résumé** : We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models....
+- **Lien** : https://openai.com/index/expanding-chatgpt-for-academic-researchers
+
+### Science at the Frontier: How scientists use ChatGPT
+- **Source** : OpenAI Blog
+- **Date** : Mon, 16 Nov 2026
+- **Score** : 1
+- **Résumé** : Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery....
+- **Lien** : https://openai.com/index/science-at-the-frontier
+
 ### LVMH’s Media Division announces strategic partnership with OpenAI
 - **Source** : OpenAI Blog
 - **Date** : Mon, 16 Nov 2026
@@ -201,33 +202,12 @@ This release a...
 - **Résumé** : LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT....
 - **Lien** : https://openai.com/index/lvmh-media-division-partnership
 
-### A step toward defining the Standard Model on a lattice
+### Advancing computer-use agents for healthcare teams
 - **Source** : OpenAI Blog
-- **Date** : Sun, 15 Nov 2026
+- **Date** : Mon, 16 Nov 2026
 - **Score** : 1
-- **Résumé** : Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof....
-- **Lien** : https://openai.com/index/step-toward-defining-the-standard-model
-
-### Shield helps technicians hand off legacy portal work with OpenAI
-- **Source** : OpenAI Blog
-- **Date** : Fri, 13 Nov 2026
-- **Score** : 1
-- **Résumé** : Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment....
-- **Lien** : https://openai.com/business/customer-stories/shield
-
-### How Amplitude ships product improvements in 1–2 days with OpenAI
-- **Source** : OpenAI Blog
-- **Date** : Thu, 12 Nov 2026
-- **Score** : 1
-- **Résumé** : Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact....
-- **Lien** : https://openai.com/business/customer-stories/amplitude
-
-### Gondola doubles revenue as its team builds more with Codex
-- **Source** : OpenAI Blog
-- **Date** : Thu, 12 Nov 2026
-- **Score** : 1
-- **Résumé** : Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work....
-- **Lien** : https://openai.com/business/customer-stories/gondola
+- **Résumé** : ...
+- **Lien** : https://openai.com/index/advancing-computer-use-for-healthcare-teams
 
 ### Last Week (Month) in AI #347 - Nvidia's spy, Anthropic's $1.4T IPO, AI's blue wave
 - **Source** : Last Week in AI

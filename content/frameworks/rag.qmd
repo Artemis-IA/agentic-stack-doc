@@ -125,34 +125,64 @@ graph LR
 ## Frameworks RAG découverts automatiquement
 
 <!-- TOOLS_RAG_START -->
+### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
+100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
+
+⭐ 144.9k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-17
+**Tags** : `agents`, `llms`, `python`, `rag`
+
+### [claude-mem](https://github.com/thedotmack/claude-mem)
+Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with C...
+
+⭐ 117.9k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-11-17
+**Tags** : `ai`, `ai-agents`, `ai-memory`, `anthropic`, `artificial-intelligence`, `chromadb`, `claude`, `claude-agent-sdk`
+
+### [ragflow](https://github.com/infiniflow/ragflow)
+RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure.
+
+⭐ 94.3k | `Go` | Licence: Apache-2.0 | MAJ: 2026-11-17
+**Tags** : `agent-harness`, `agent-native-database`, `agentic-ai`, `agentic-retrieval`, `agentic-search`, `ai`, `ai-agents`, `context-engine`
+
+### [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
+Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.
+
+⭐ 92.8k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-17
+**Tags** : `ai4science`, `chineseocr`, `document-parsing`, `document-translation`, `kie`, `ocr`, `paddleocr-vl`, `pdf-extractor-rag`
+
+### [DeepTutor](https://github.com/HKUDS/DeepTutor)
+DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.
+
+⭐ 60.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-17
+**Tags** : `ai-agents`, `ai-tutor`, `clawbot`, `cli-tool`, `deepresearch`, `interactive-learning`, `learning`, `multi-agent-systems`
+
 ### [Flowise](https://github.com/FlowiseAI/Flowise)
 Build AI Agents, Visually
 
-⭐ 55.6k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-11-16
+⭐ 55.6k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-11-17
 **Tags** : `agentic-ai`, `agentic-workflow`, `agents`, `artificial-intelligence`, `chatbot`, `chatgpt`, `javascript`, `langchain`
 
 ### [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
 !DeusData/codebase-memory-mcp MCP server 🌊 🏠 🍎 🪟 🐧 - Indexes a repo into a persistent local knowledge graph of functions, classes, call chains, HTTP routes and cross-service links, using tree-sitte...
 
-⭐ 48.7k | `C` | Licence: MIT | MAJ: 2026-11-16
+⭐ 48.8k | `C` | Licence: MIT | MAJ: 2026-11-17
 **Tags** : `aider`, `ast`, `claude-code`, `code-analysis`, `code-intelligence`, `codex`, `cursor`, `cypher`
 
 ### [XERJ](https://github.com/xerj-org/xerj)
 Search engine for AI agents in one Rust binary. Indexes local code, docs, specs and logs, returns cited passages via BM25, vector and hybrid search, and keeps agent memory; local stdio MCP server i...
 
-⭐ 19.1k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-16
+⭐ 19.2k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-17
 **Tags** : `agent-memory`, `ai-agents`, `bm25`, `claude-code`, `cli`, `code-search`, `cursor`, `database`
 
 ### [EvoAgentX](https://github.com/ANative-Lab/EvoAgentX)
 EvoAgentX is building a Self-Evolving Ecosystem of AI Agents, it will give you automated framework for evaluating and evolving agentic workflows. !GitHub Repo stars
 
-⭐ 3.4k | `Python` | Licence: NOASSERTION | MAJ: 2026-11-16
+⭐ 3.4k | `Python` | Licence: NOASSERTION | MAJ: 2026-11-17
 **Tags** : `agent`, `ai`, `ai-agents`, `llms`, `memory`, `multi-agent-systems`, `natural-language-processing`, `rag`
 
 ### [fabio-rovai/open-ontologies](https://github.com/fabio-rovai/open-ontologies)
 !open-ontologies MCP server 🦀 🏠 - Ontology engineering for OWL, RDF and SPARQL: validate, query, diff, lint, version and govern knowledge graphs on an Oxigraph triple store.
 
-⭐ 2.9k | `Rust` | Licence: MIT | MAJ: 2026-11-16
+⭐ 2.9k | `Rust` | Licence: MIT | MAJ: 2026-11-17
 **Tags** : `ai-native`, `description-logics`, `formal-verification`, `infrastructure-as-code`, `isabelle-language`, `knowledge-graph`, `lean`, `lean4`
 
 ### [Agentset](https://github.com/agentset-ai/agentset)
@@ -164,7 +194,7 @@ Open-source production-ready RAG platform with built-in agentic reasoning, hybri
 ### [IWE](https://github.com/iwe-org/iwe)
 Markdown knowledge graph for you and your AI agents — editor LSP plus CLI and MCP server so agents can search, retrieve, and refactor plain-text notes. !GitHub Repo stars
 
-⭐ 1.8k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-16
+⭐ 1.8k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-17
 **Tags** : `ai-agents`, `ai-memory`, `cli`, `helix`, `knowledge-graph`, `knowledge-management`, `language-server`, `local-first`
 
 ### [apecloud/ApeRAG](https://github.com/apecloud/ApeRAG)
@@ -182,7 +212,7 @@ An LLM-powered repository agent designed to assist developers and teams in gener
 ### [Caura](https://github.com/caura-ai/caura)
 Open-source governed shared memory for AI agent fleets with cross-agent recall, permissions, audit trails, and persistent memory.
 
-⭐ 560 | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-16
+⭐ 566 | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-17
 **Tags** : `agent-memory`, `agentic-ai`, `ai-agents`, `ai-infrastructure`, `claude`, `fastapi`, `knowledge-graph`, `llm-memory`
 
 ### [muvon/octocode](https://github.com/Muvon/octocode)
@@ -190,6 +220,12 @@ Open-source governed shared memory for AI agent fleets with cross-agent recall, 
 
 ⭐ 524 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-13
 **Tags** : `ai`, `ai-agents`, `claude-code`, `cli`, `code-intelligence`, `code-search`, `cursor`, `developer-tools`
+
+### [wenlan-app/wenlan](https://github.com/wenlan-app/wenlan)
+!wenlan-app/wenlan MCP server 🦀 🏠 🍎 🪟 🐧 - Local-first, source-backed AI knowledge base and LLM wiki. Distills agent work into maintained, citation-gated wiki pages served over MCP to Claude Code, C...
+
+⭐ 481 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-17
+**Tags** : `ai-memory`, `claude`, `claude-code`, `claude-code-plugin`, `codex`, `knowledge-base`, `knowledge-graph`, `llm-wiki`
 
 ### [MindSQL](https://github.com/Mindinventory/MindSQL)
 A python package for Txt-to-SQL with self hosting functionalities and RESTful APIs compatible with proprietary as well as open source LLM.
@@ -200,49 +236,13 @@ A python package for Txt-to-SQL with self hosting functionalities and RESTful AP
 ### [shinpr/mcp-local-rag](https://github.com/shinpr/mcp-local-rag)
 📇 🏠 - Local document search: semantic search over PDF, DOCX, TXT and Markdown files with LanceDB vector storage and local embeddings.
 
-⭐ 433 | `TypeScript` | Licence: MIT | MAJ: 2026-11-16
+⭐ 434 | `TypeScript` | Licence: MIT | MAJ: 2026-11-17
 **Tags** : `agent-skills`, `cli-tool`, `developer-tools`, `hybrid-search`, `local-first`, `local-rag`, `mcp`, `mcp-server`
 
 ### [Open-RAG-Eval](https://github.com/vectara/open-rag-eval)
 an open source RAG evaluation framework that does not require golden answers, and can be used to evaluate performance of RAG tools connected to an AI Agent (Agentic RAG)
 
-⭐ 425 | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-14
+⭐ 426 | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-17
 **Tags** : `evaluation-metrics`, `metrics`, `rag`, `rag-evaluation`, `retrieval-augmented-generation`, `vectara`
-
-### [varun29ankuS/shodh-memory](https://github.com/varun29ankuS/shodh-memory)
-🦀 🏠 - Cognitive agent memory with Hebbian learning, a three-tier architecture and knowledge graphs, running offline on edge devices.
-
-⭐ 323 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-15
-**Tags** : `agent-memory`, `agentic-ai`, `ai-agents`, `ai-memory`, `claude`, `cognitive-memory`, `edge-ai`, `graphrag`
-
-### [lyonzin/knowledge-rag](https://github.com/lyonzin/knowledge-rag)
-!lyonzin/knowledge-rag MCP server 🐍 🏠 🍎 🪟 🐧 - Offline RAG for Claude Code with hybrid BM25 and semantic search, cross-encoder reranking, Markdown-aware chunking and query expansion.
-
-⭐ 306 | `Python` | Licence: MIT | MAJ: 2026-11-13
-**Tags** : `antigravity`, `bm25`, `chromadb`, `claude-code`, `codex`, `cross-encoder`, `cursor`, `fastembed`
-
-### [sachitrafa/YourMemory](https://github.com/sachitrafa/YourMemory)
-!sachitrafa/YourMemory MCP server 🐍 🏠 🍎 🪟 🐧 - Persistent agent memory with Ebbinghaus-style decay, hybrid BM25/vector retrieval, entity graph for multi-hop reasoning, auto-pruning and a browser das...
-
-⭐ 274 | `Python` | Licence: NOASSERTION | MAJ: 2026-11-15
-**Tags** : `agent-memory`, `ai-agents`, `claude`, `devtools`, `ebbinghaus`, `llm-memory`, `mcp`, `mcp-server`
-
-### [VictoriaMetrics-Community/mcp-victoriametrics](https://github.com/VictoriaMetrics-Community/mcp-victoriametrics)
-🎖️ 🏎️ 🏠 - Integration with VictoriaMetrics instance APIs and documentation for monitoring, observability and debugging tasks.
-
-⭐ 245 | `Go` | Licence: Apache-2.0 | MAJ: 2026-11-13
-**Tags** : `ai`, `mcp`, `mcp-server`, `monitoring`, `observability`, `rag`, `victoriametrics`
-
-### [roomi-fields/notebooklm-mcp](https://github.com/roomi-fields/notebooklm-mcp)
-!notebooklm-mcp MCP server 📇 🏠 🍎 🪟 🐧 - Automate Google NotebookLM: Q&A with citations, audio podcasts, video, content generation, source management and notebook library.
-
-⭐ 242 | `TypeScript` | Licence: MIT | MAJ: 2026-11-16
-**Tags** : `agentic-skill`, `anthropic`, `automation`, `citations`, `claude-code`, `claude-skills`, `codex`, `gemini-notebook`
-
-### [alibaizhanov/mengram](https://github.com/alibaizhanov/mengram)
-!mengram MCP server 🐍 ☁️ 🏠 🍎 🪟 🐧 - Agent memory with semantic, episodic and procedural types, a knowledge graph, Claude Code auto-save/recall hooks, smart triggers and multi-user isolation.
-
-⭐ 207 | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-09
-**Tags** : `agent-memory`, `ai-agents`, `ai-memory`, `claude-desktop`, `cognitive-architecture`, `cohere`, `cursor-ai`, `episodic-memory`
 
 <!-- TOOLS_RAG_END -->
