@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### RSI-Prime: Training Models to Train Models
-- **arXiv** : 2611.23138v1
-- **Date** : 2026-11-17
-- **Auteurs** : Dewu Zheng, Yang Ye, Hongyu Zhang, Jun Yu, Yanlin Wang
+### Ground, Iterate, Trace: Decomposing AI Research Ideation
+- **arXiv** : 2611.24887v1
+- **Date** : 2026-11-18
+- **Auteurs** : Samson Yu, Qiran Zou, Jing Yu Lim, Rushi Shah, Anirudh Goyal
 - **Score** : 9
-- **Résumé** : Enabling large language models (LLMs) to autonomously conduct training and improve target models is an important foundation for recursive self-improvement (RSI). As LLMs expand their role from being trained to conducting training, their model-training capability warrants dedicated study and systemat...
-- **Lien** : https://arxiv.org/abs/2611.23138v1
+- **Résumé** : Large language models have been widely used to generate plausible research ideas, yet it remains unclear what makes automated ideation effective and how generated novel proposals arise from prior scientific work. We introduce the Creative AI Researcher (CAR), an agentic framework combining literatur...
+- **Lien** : https://arxiv.org/abs/2611.24887v1
 
-### Dynamic Task Allocation with Dialogue
-- **arXiv** : 2611.23119v1
-- **Date** : 2026-11-17
-- **Auteurs** : Matthew Groholski, Weiwei Gu, Nakul Gopalan
-- **Score** : 9
-- **Résumé** : Effective multi-agent collaboration requires agents to adapt task allocation as goals and responsibilities evolve. Prior task-allocation frameworks often assume static goals, full observability, or rely on large language models (LLMs) without explicit, verifiable beliefs about task allocation or int...
-- **Lien** : https://arxiv.org/abs/2611.23119v1
-
-### Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models
-- **arXiv** : 2611.23228v1
-- **Date** : 2026-11-17
-- **Auteurs** : Rui Ning, Om Chabra, Hari Balakrishnan
+### Can Programs Replace LLM Judges? Executable Program Judges for Scalable and Efficient Relevance Labeling
+- **arXiv** : 2611.24849v1
+- **Date** : 2026-11-18
+- **Auteurs** : Eugene Agichtein, Charles L. A. Clarke, Kaustubh Dhole, William Stern
 - **Score** : 7
-- **Résumé** : Applications such as visual accessibility agents and robotics require answering questions about recent video content promptly, over a bounded window of past frames (e.g., the last two minutes). Hybrid vision-language models (VLMs), which interleave attention with linear recurrent layers such as Gate...
-- **Lien** : https://arxiv.org/abs/2611.23228v1
+- **Résumé** : Large language model (LLM) judges have become a common way to create large-scale relevance judgments for retrieval evaluation. However, each judgment requires a potentially expensive call to a frontier model, and the judgments are hard to interpret and may not be reproducible. In this paper, we ask ...
+- **Lien** : https://arxiv.org/abs/2611.24849v1
 
-### Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching
-- **arXiv** : 2611.23229v1
-- **Date** : 2026-11-17
-- **Auteurs** : Giannis Daras, Marios Papachristou, Adam Klivans, Antonio Torralba, Constantinos Daskalakis
+### Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses
+- **arXiv** : 2611.24924v1
+- **Date** : 2026-11-18
+- **Auteurs** : Jiahang Lin, Jiahao Chen, Yiding Wang, Shichun Liu, Chengjun Pan
 - **Score** : 6
-- **Résumé** : Collecting large-scale, diverse, and high-quality post-training datasets for autoregressive language models is challenging. Consequently, Supervised Fine-Tuning (SFT) is typically applied to datasets significantly smaller than those used for pre-training, which leads to overfitting and the catastrop...
-- **Lien** : https://arxiv.org/abs/2611.23229v1
+- **Résumé** : Real-world harness engineering is driven by explicit and implicit user requirements, which guide development and validation. However, existing harness evolution methods often overlook implicit requirements and interaction needs, while using a single evolution agent to modify the harness and benchmar...
+- **Lien** : https://arxiv.org/abs/2611.24924v1
 
-### Do LLM Agents Still Need to Be Told How to Self-Improve?
-- **arXiv** : 2611.23219v1
-- **Date** : 2026-11-17
-- **Auteurs** : Shobhita Sundaram, Cansu Sancaktar, Phillip Isola
+### Who are you? The Personal Imitation Game
+- **arXiv** : 2611.24888v1
+- **Date** : 2026-11-18
+- **Auteurs** : Muhammad Rizky Wellyanto, Hajara-Yasmin Isa, Kexin Xue, Vishal Ravichandran, Wenpeng Lu
 - **Score** : 6
-- **Résumé** : LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-im...
-- **Lien** : https://arxiv.org/abs/2611.23219v1
+- **Résumé** : Large Language Models (LLMs) now perform strongly on Alan Turing's 1950 Imitation Game, so we propose a harder challenge, the Personal Imitation Game, which asks whether a machine can replicate a specific individual in conversation rather than a generic human. Testing with 30 participants, we establ...
+- **Lien** : https://arxiv.org/abs/2611.24888v1
 
-### Agent Trust Infrastructure (ATI): A Federated Identity, Trust, Attestation, and Accountability Architecture for Cross-Organization Autonomous AI Agents
-- **arXiv** : 2611.23202v1
-- **Date** : 2026-11-17
-- **Auteurs** : Viet K. Nguyen, Mohammad I. Husain
+### Local AI Agents in Power Electronics Simulation: Deployment, Measurements and Costs
+- **arXiv** : 2611.24880v1
+- **Date** : 2026-11-18
+- **Auteurs** : Yuzhuo Li, Pasan Gunawardena, Yunwei Li
 - **Score** : 6
-- **Résumé** : AI agents increasingly collaborate across organizational boundaries, invoking tools and interacting with agents operated by independent entities. Although existing agent frameworks support planning and coordination, they lack a common mechanism for verifying cross-organizational agent identity, exec...
-- **Lien** : https://arxiv.org/abs/2611.23202v1
+- **Résumé** : Agentic artificial intelligence (AI) is emerging in power electronics, where it drives the simulation loop that engineers used to close largely by hand. In this loop, a converter design, or a study of the network it connects to, is built, run, measured and revised until it satisfies its specificatio...
+- **Lien** : https://arxiv.org/abs/2611.24880v1
 
-### Say Less, Hallucinate Less? Diagnosing and Restoring Object Coverage in Preference-Optimized Vision-Language Models
-- **arXiv** : 2611.23179v1
-- **Date** : 2026-11-17
-- **Auteurs** : Hansang Lee
+### Auditing black-box clinical prediction models with a large language model through queries alone: a blinded test with planted flaws
+- **arXiv** : 2611.24877v1
+- **Date** : 2026-11-18
+- **Auteurs** : Zhiyu Liu, Xinyu Yang
 - **Score** : 6
-- **Résumé** : Preference optimization (PO) is the standard way to reduce object hallucination in large vision-language models. We find that four public PO checkpoints of LLaVA-1.5-7B also lower object coverage. They name fewer object categories, and their lower hallucination rates bring no significant gain in set...
-- **Lien** : https://arxiv.org/abs/2611.23179v1
+- **Résumé** : Large language models (LLMs) are used to explain clinical prediction models, on the promise that they can say what a model computes, find its faults and even reveal new knowledge in it. We tested the three promises where the answers could be checked. From the International Stroke Trial we trained fo...
+- **Lien** : https://arxiv.org/abs/2611.24877v1
 
-### MoE--LoRA Methods for Multilingual Adaptation: A Systematic Empirical Study
-- **arXiv** : 2611.23158v1
-- **Date** : 2026-11-17
-- **Auteurs** : Nikit Srivastava, Joel Dag, René Speck, Axel-Cyrille Ngonga Ngomo
+### Learning to Interact in Multi-Agent Self-Play for Controllable Autonomous Driving Scenario Generation
+- **arXiv** : 2611.24876v1
+- **Date** : 2026-11-18
+- **Auteurs** : Beyazit Yalcinkaya, Ethan Pronovost, Maximilian Naumann, Marcell Vazquez-Chanlatte
 - **Score** : 6
-- **Résumé** : Routed low-rank adapters offer a parameter-efficient means to improve the performance of large language models (LLMs) across tasks. Hence, it is assumed that they can also be used to improve the support of low-resource languages in LLMs, which currently serve English far better than the thousands of...
-- **Lien** : https://arxiv.org/abs/2611.23158v1
+- **Résumé** : Large-scale, multi-agent self-play trains robust driving policies effectively in simulation, but controlling these models to generate specific, safety-critical edge cases remains a key challenge. Existing goal-conditioned self-play frameworks rely primarily on static map-location goals and fail to r...
+- **Lien** : https://arxiv.org/abs/2611.24876v1
 
-### Mind the Gap: A Deployed Multi-Agent System for Documentation Maintenance
-- **arXiv** : 2611.23142v1
-- **Date** : 2026-11-17
-- **Auteurs** : Lorenzo Masoero
+### Atomic MathReasoner: Instance-Level Composition of Atomic Reasoning Skills for Mathematical LLMs
+- **arXiv** : 2611.24846v1
+- **Date** : 2026-11-18
+- **Auteurs** : Jiashu Li, Tianyu Gao, Qinglong Liu, Jinping Wang, Ye Wei
 - **Score** : 6
-- **Résumé** : The "AI revolution" has enabled teams across the technology industry to deliver software features at unprecedented velocity. While code evolves faster than ever, customer-facing documentation often struggles to stay up to speed. As users increasingly rely on LLM-based agents that consume documentati...
-- **Lien** : https://arxiv.org/abs/2611.23142v1
+- **Résumé** : Most existing approaches enhance mathematical reasoning in large language models (LLMs) as a monolithic capability, despite the fact that different mathematical problems require different reasoning skills. Recent work has explored a more fine-grained perspective by decomposing mathematical reasoning...
+- **Lien** : https://arxiv.org/abs/2611.24846v1
 
-### Natural Language Programming: Rethinking Language, Memory, and Cognition in the Era of Generative AI
-- **arXiv** : 2611.23106v1
-- **Date** : 2026-11-17
-- **Auteurs** : Giovanni Adorni, Daniele Grosso
+### A Foundation Model to Measure and Predict Human Behaviour
+- **arXiv** : 2611.24830v1
+- **Date** : 2026-11-18
+- **Auteurs** : Haoran Ye, Tianrui Huo, Hangzhen Li, Xin Zhang, Guojie Song
 - **Score** : 6
-- **Résumé** : Generative Artificial Intelligence is transforming the role of natural language in computational systems. In classical Natural Language Processing (NLP), language was treated as an object of computation: something to analyse, classify, translate, or generate. Large Language Models (LLMs) challenge t...
-- **Lien** : https://arxiv.org/abs/2611.23106v1
+- **Résumé** : Large language models (LLMs) are increasingly used to infer psychological attributes, predict individual behaviour, and simulate human populations. However, despite generating plausible responses, they often misrepresent individuals and distort population statistics. Here we introduce Chiron, a foun...
+- **Lien** : https://arxiv.org/abs/2611.24830v1
 
-### What Does a Bias Head Measure? Non-Identifiability in Head-Level Bias Attribution
-- **arXiv** : 2611.23218v1
-- **Date** : 2026-11-17
-- **Auteurs** : S. M Seefat Alam
+### Cap-and-Track: Optimizing LLM Inference Request Dispatch Across Shifting Capacity
+- **arXiv** : 2611.24891v1
+- **Date** : 2026-11-18
+- **Auteurs** : Benjamin Novotny, Doug Szeto, Chang Wang, Shicheng Chen, George Zhihua Yuan
 - **Score** : 5
-- **Résumé** : Methods that localise social bias in large language models to individual attention heads and remove it by ablation are validated by their effect on a fairness metric, never by evidence that the statistic selecting the heads measures bias. We audit this on Qwen-2.5-7B-Instruct and Llama-3.1-8B-Instru...
-- **Lien** : https://arxiv.org/abs/2611.23218v1
+- **Résumé** : A fixed dispatch rate for LLM inference becomes stale as serving fleets resize and request sizes change. Generative output length is unknown at admission, and shared provider pools can lose capacity. We present Cap-and-Track, a design for asynchronous inference across provider capacity and internal ...
+- **Lien** : https://arxiv.org/abs/2611.24891v1
 
-### Polarity Composition Hypothesis: Causal Evidence from Negation in NLI
-- **arXiv** : 2611.23185v1
-- **Date** : 2026-11-17
-- **Auteurs** : Nhi Hoai Doan, Tatsuya Hiraoka, Munachiso Samuel Nwadike, Kentaro Inui
-- **Score** : 5
-- **Résumé** : We investigate how language models process negation in natural language inference (NLI). We propose the 	extit{Polarity Composition Hypothesis}, a high-level causal model of this computation. Behavioral evaluations show that language-model predictions largely conform to the proposed hypothesis. Usi...
-- **Lien** : https://arxiv.org/abs/2611.23185v1
-
-### Distortion-Free Semantic Watermarks for Black-Box Generative Models
-- **arXiv** : 2611.23208v1
-- **Date** : 2026-11-17
-- **Auteurs** : Aviv Yossef, Or Patashnik, Or Zamir
+### On Evaluating User Simulators for Interactive Agents
+- **arXiv** : 2611.24892v1
+- **Date** : 2026-11-18
+- **Auteurs** : Hengguang Zhou, I-Hung Hsu, Li Chen, Priyanshi Shrivastava, Anastasios Angelopoulos
 - **Score** : 4
-- **Résumé** : We present a provably distortion-free semantic watermarking algorithm that requires only black-box sampling access to a generative model and black-box access to a semantic embedding. A watermark is called distortion-free if, averaged over its secret detection key, it leaves the generator's output di...
-- **Lien** : https://arxiv.org/abs/2611.23208v1
+- **Résumé** : User simulators offer a scalable way to evaluate interactive agents, but how to assess their quality remains underexplored. In particular, it is unclear whether existing user simulator evaluation frameworks reliably detect meaningful failures in simulated user behavior. This uncertainty makes it dif...
+- **Lien** : https://arxiv.org/abs/2611.24892v1
 
-### Fine-Tuning Gemma 4 Edge Models for MATLAB Signal-Processing Code with SFT and QLoRA on a Laptop iGPU
-- **arXiv** : 2611.23205v1
-- **Date** : 2026-11-17
-- **Auteurs** : Mehmet Altan Toksöz
+### Choosing What to Observe: Budget-Paired Counterfactual Audits for Credible Evaluation of Visual Agents
+- **arXiv** : 2611.24867v1
+- **Date** : 2026-11-18
+- **Auteurs** : Ruiqi Liu, Jinming Li, Mo Wang, Yang Lu, Yanlan Kang
 - **Score** : 4
-- **Résumé** : Small language models that run on a laptop are attractive for writing signal-processing code offline, but they make systematic errors on digital signal processing (DSP) conventions. We apply supervised fine-tuning (SFT) to the Gemma 4 edge models E2B and E4B with 66 checked examples covering 11 sign...
-- **Lien** : https://arxiv.org/abs/2611.23205v1
+- **Résumé** : Visual agents that read dense documents must ration a finite observation budget across candidate regions, yet answer accuracy conflates where an agent looks, how it adapts to the reads that remain, and how it an?swers once observation stops. We introduce budget-paired counterfactual audits, an evalu...
+- **Lien** : https://arxiv.org/abs/2611.24867v1
 
-### WoRD: Diffusion-Based Posterior Inference for Online Goal Recognition
-- **arXiv** : 2611.23192v1
-- **Date** : 2026-11-17
-- **Auteurs** : Almog Anschel, Sarah Keren
+### Vibe-Trading: Towards Agent-Native Trading
+- **arXiv** : 2611.24845v1
+- **Date** : 2026-11-18
+- **Auteurs** : Haozhe Wu, Zhonghang Li, Chao Huang
 - **Score** : 4
-- **Résumé** : Goal recognition is the task of inferring an agent's intended goal from its observed behavior. Most existing work focuses on high-level symbolic recognition, abstracting away the continuous motion through which agents reach their goal. Methods that do reason over continuous trajectories rely on an e...
-- **Lien** : https://arxiv.org/abs/2611.23192v1
+- **Résumé** : Existing AI agents can retrieve information, call tools, run experiments, and produce multi-step outputs. Yet most are built around relatively static workflows and struggle to preserve reliable state as the environment changes. Financial trading makes this limitation especially consequential: prices...
+- **Lien** : https://arxiv.org/abs/2611.24845v1
 
-### Inference after coding agents
-- **arXiv** : 2611.23174v1
-- **Date** : 2026-11-17
-- **Auteurs** : Florian Gunsilius, David Van Dijcke, Kaspar Wüthrich
+### Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving
+- **arXiv** : 2611.24840v1
+- **Date** : 2026-11-18
+- **Auteurs** : Binay Kumar Singh, Niels Da Vitoria Lobo
 - **Score** : 4
-- **Résumé** : Empirical research is changing rapidly as AI coding agents are becoming increasingly proficient in every step of it, from writing code to manipulating data. We argue that while the potential of coding agents for science is vast, their use in hypothesis testing poses a substantial threat to classical...
-- **Lien** : https://arxiv.org/abs/2611.23174v1
+- **Résumé** : World models are increasingly used in autonomous driving to predict how a scene evolves under the ego vehicle's actions, supporting counterfactual reasoning and model-based planning. However, existing evaluations focus on prediction fidelity and planning performance, and rarely verify that the predi...
+- **Lien** : https://arxiv.org/abs/2611.24840v1
 
-### Learning Stratified Policies for Inference-Time Objectives
-- **arXiv** : 2611.23154v1
-- **Date** : 2026-11-17
-- **Auteurs** : Mridul Mahajan, Xuezhou Zhang, Aldo Pacchiano
-- **Score** : 4
-- **Résumé** : Inference-time scaling improves the performance of large language models by sampling multiple responses and evaluating their collective utility. However, many existing approaches obtain these samples by repeatedly sampling from a single policy. In this work, we study if the sample budget at inferenc...
-- **Lien** : https://arxiv.org/abs/2611.23154v1
-
-### Runtime Verification of Multiple Natural Language Criteria for Agent Governance
-- **arXiv** : 2611.23074v1
-- **Date** : 2026-11-17
-- **Auteurs** : Silviu Pitis, Parand A. Alamdari, Jessica Tang, Toryn Q. Klassen, Sheila A. McIlraith
-- **Score** : 4
-- **Résumé** : AI agents are governed by hundreds of natural language criteria, yet existing verifiers cannot efficiently evaluate an agent's output against a large set of such criteria and report which are satisfied, violated, or inapplicable. We introduce the VFM, a tree-attention verifier that encodes the share...
-- **Lien** : https://arxiv.org/abs/2611.23074v1
-
-### Reading Scene States: Uncovering Safety Failures in Vision-Language Models
-- **arXiv** : 2611.23206v1
-- **Date** : 2026-11-17
-- **Auteurs** : Tongxi Wu, Yuyang Cheng, Jiacheng Xian, Menglin Yang, Kai Chen
+### Jailbreak Detection on Large Language Models via Contrastive Prototype Structures
+- **arXiv** : 2611.24936v1
+- **Date** : 2026-11-18
+- **Auteurs** : Yan Qiu, Yuanyuan Li
 - **Score** : 3
-- **Résumé** : Vision-language models (VLMs) can provide harmful assistance by interpreting visual events, even without an explicit request for the underlying harmful objective. We identify this 	extbf{scene-state safety vulnerability} and introduce 	extbf{SceneSafetyBench}, comprising 375 image--question pairs ...
-- **Lien** : https://arxiv.org/abs/2611.23206v1
+- **Résumé** : Jailbreak attempts and harmful prompts remain a challenge for the safe deployment of large language models. We study whether contrastively learned representations can support safety detection without training an additional downstream classifier. We propose Jailbreak Detection with Prototype Inferenc...
+- **Lien** : https://arxiv.org/abs/2611.24936v1
 
-### Identifying and Repairing Energy Smells with Agent Skills
-- **arXiv** : 2611.23203v1
-- **Date** : 2026-11-17
-- **Auteurs** : Mohammadjavad Mehditabar, Saurabhsingh Rajput, Tushar Sharma
+### Monoculture Robust Learning
+- **arXiv** : 2611.24881v1
+- **Date** : 2026-11-18
+- **Auteurs** : Lee Cohen, Jon Kleinberg, Omer Reingold
 - **Score** : 3
-- **Résumé** : Energy smells are inefficient implementations that waste energy. Once code reaches production, these smells become costlier and riskier to fix, so energy efficiency checks should shift left, i.e., move earlier in the development lifecycle, to where code is written. Existing energy smell tools rely o...
-- **Lien** : https://arxiv.org/abs/2611.23203v1
+- **Résumé** : We introduce a notion of monoculture robustness in Probably Approximately Correct (PAC) learning, as a way to mitigate the problem of algorithmic monoculture (Kleinberg and Raghavan, 2021): the tendency of models sharing the same components (e.g., training data) to fail on the same inputs. Specifica...
+- **Lien** : https://arxiv.org/abs/2611.24881v1
+
+### General progress substitutes for specific training data in language models
+- **arXiv** : 2611.24844v1
+- **Date** : 2026-11-18
+- **Auteurs** : Mark Marosi, Peter Antal
+- **Score** : 3
+- **Résumé** : Language models acquire their capabilities from training data, and developers withhold data during training to keep models from learning capabilities that could be misused. How long this delays a capability, and how much data is needed to acquire it later, is unknown. Here we show that the general p...
+- **Lien** : https://arxiv.org/abs/2611.24844v1
+
+### Kaer: Security-Aware Replanning for Multi-Agent Systems
+- **arXiv** : 2611.24839v1
+- **Date** : 2026-11-18
+- **Auteurs** : Tushin Mallick, Evan Rose, Matthew Laws, Alina Oprea, Cristina Nita-Rotaru
+- **Score** : 3
+- **Résumé** : One popular architecture for multi-agent systems (MAS) relies on an orchestrator that generates an initial plan, coordinates its execution, and dynamically revises the plan based on agent feedback when tasks cannot be fully specified in advance. This dynamic replanning introduces a critical vulnerab...
+- **Lien** : https://arxiv.org/abs/2611.24839v1
+
+### Isabelle Pool Server: a pooled verification service for prover training and multi-agent proving
+- **arXiv** : 2611.24788v1
+- **Date** : 2026-11-18
+- **Auteurs** : Xuanwei Ren, Wenda Li
+- **Score** : 3
+- **Résumé** : Isabelle Pool Server (IPS), a verification service with a pool of warm headless Isabelle sessions behind an HTTP API, with session leasing and reclamation, memory-aware admission control, and a time budget on every call. Its verification interface spans single-step execution, block-level proof check...
+- **Lien** : https://arxiv.org/abs/2611.24788v1
+
+### LLM-Guided Cyber-Physical Attack Path Identification in Smart Grids
+- **arXiv** : 2611.24765v1
+- **Date** : 2026-11-18
+- **Auteurs** : Amr Elshazly, Jesse Roberts, Rachad Atat, Muhammad Ismail
+- **Score** : 3
+- **Résumé** : Identifying high-impact attack paths in cyber-physical power systems is critical for improving grid resilience. Existing methods typically rely on either structural topology analysis or simulation-based cascading-failure models. Topology-based approaches capture connectivity but lack adversarial rea...
+- **Lien** : https://arxiv.org/abs/2611.24765v1
 
 <!-- ARXIV_FEED_END -->
