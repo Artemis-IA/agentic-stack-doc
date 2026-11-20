@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### Ground, Iterate, Trace: Decomposing AI Research Ideation
-- **arXiv** : 2611.24887v1
-- **Date** : 2026-11-18
-- **Auteurs** : Samson Yu, Qiran Zou, Jing Yu Lim, Rushi Shah, Anirudh Goyal
-- **Score** : 9
-- **Résumé** : Large language models have been widely used to generate plausible research ideas, yet it remains unclear what makes automated ideation effective and how generated novel proposals arise from prior scientific work. We introduce the Creative AI Researcher (CAR), an agentic framework combining literatur...
-- **Lien** : https://arxiv.org/abs/2611.24887v1
+### Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)
+- **arXiv** : 2611.26553v1
+- **Date** : 2026-11-19
+- **Auteurs** : Mengxiao Wang, Mahbub Alam, Kalyan Nakka, Nitesh Saxena
+- **Score** : 12
+- **Résumé** : Agents based on large language models (LLMs) can now delete files and send payments on behalf of their users. News media reports routinely describe failures of these agents (e.g., Replit's coding agent deleting a production database), but a report often only says what went wrong and rarely (in)valid...
+- **Lien** : https://arxiv.org/abs/2611.26553v1
 
-### Can Programs Replace LLM Judges? Executable Program Judges for Scalable and Efficient Relevance Labeling
-- **arXiv** : 2611.24849v1
-- **Date** : 2026-11-18
-- **Auteurs** : Eugene Agichtein, Charles L. A. Clarke, Kaustubh Dhole, William Stern
+### TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming
+- **arXiv** : 2611.26619v1
+- **Date** : 2026-11-19
+- **Auteurs** : Jinbin Luo, Xiaozhe Yao, Shang Yang, Zhijian Liu, Song Han
 - **Score** : 7
-- **Résumé** : Large language model (LLM) judges have become a common way to create large-scale relevance judgments for retrieval evaluation. However, each judgment requires a potentially expensive call to a frontier model, and the judgments are hard to interpret and may not be reproducible. In this paper, we ask ...
-- **Lien** : https://arxiv.org/abs/2611.24849v1
+- **Résumé** : Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We present TideCache, a serving system on CPU--GPU superchips with three components for...
+- **Lien** : https://arxiv.org/abs/2611.26619v1
 
-### Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses
-- **arXiv** : 2611.24924v1
-- **Date** : 2026-11-18
-- **Auteurs** : Jiahang Lin, Jiahao Chen, Yiding Wang, Shichun Liu, Chengjun Pan
+### Reasoning-Trace Analysis Using Large Language Models for Interpretable Q-Matrix Construction
+- **arXiv** : 2611.26422v1
+- **Date** : 2026-11-19
+- **Auteurs** : Jihong Zhang, Zijing Jin, Mingfeng Xue
+- **Score** : 7
+- **Résumé** : Large language models (LLMs) can generate Q-matrices for diagnostic classification models that approximate expert specifications, but evaluations have focused on the final matrices, leaving the basis of individual item-attribute assignments unexamined. This opacity limits the responsible use of AI i...
+- **Lien** : https://arxiv.org/abs/2611.26422v1
+
+### SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research
+- **arXiv** : 2611.26601v1
+- **Date** : 2026-11-19
+- **Auteurs** : Amine Lbath, Manan Suri, Aurelien Delaitre, Vadim Okun, Massih-Reza Amini
 - **Score** : 6
-- **Résumé** : Real-world harness engineering is driven by explicit and implicit user requirements, which guide development and validation. However, existing harness evolution methods often overlook implicit requirements and interaction needs, while using a single evolution agent to modify the harness and benchmar...
-- **Lien** : https://arxiv.org/abs/2611.24924v1
+- **Résumé** : LLM-based agents are becoming increasingly capable at discovering, validating and patching vulnerabilities in real software, and vendors and researchers report that this is already changing how vulnerabilities are found and fixed. These claims, however, are scattered across papers, vendor reports an...
+- **Lien** : https://arxiv.org/abs/2611.26601v1
 
-### Who are you? The Personal Imitation Game
-- **arXiv** : 2611.24888v1
-- **Date** : 2026-11-18
-- **Auteurs** : Muhammad Rizky Wellyanto, Hajara-Yasmin Isa, Kexin Xue, Vishal Ravichandran, Wenpeng Lu
+### The Geometry of Lies: Knowledge and Persona Directions for Detecting Deception in Large Language Models
+- **arXiv** : 2611.26545v1
+- **Date** : 2026-11-19
+- **Auteurs** : Md. Abdullah Al Zami, Suraiya Shanaz, Mahdi Hasan, Shoaib Ahmed Dipu, Farig Yousuf Sadeque
 - **Score** : 6
-- **Résumé** : Large Language Models (LLMs) now perform strongly on Alan Turing's 1950 Imitation Game, so we propose a harder challenge, the Personal Imitation Game, which asks whether a machine can replicate a specific individual in conversation rather than a generic human. Testing with 30 participants, we establ...
-- **Lien** : https://arxiv.org/abs/2611.24888v1
+- **Résumé** : Linear probes are the cheapest LLM lie detectors but often fail to transfer across kinds of lie. Label-free directions from honest and deceptive role-play are untested at 70B scale and on lies about knowledge, where a lie and an honest denial can be identical. We widen a published persona bank with ...
+- **Lien** : https://arxiv.org/abs/2611.26545v1
 
-### Local AI Agents in Power Electronics Simulation: Deployment, Measurements and Costs
-- **arXiv** : 2611.24880v1
-- **Date** : 2026-11-18
-- **Auteurs** : Yuzhuo Li, Pasan Gunawardena, Yunwei Li
+### Cost-Aware Agentic Feature Optimization System for Fleet-Scale Ranking Models
+- **arXiv** : 2611.26531v1
+- **Date** : 2026-11-19
+- **Auteurs** : Chang Yang, Yao Xuan, Wendan Yan, Nhat Le, Jiang Liu
 - **Score** : 6
-- **Résumé** : Agentic artificial intelligence (AI) is emerging in power electronics, where it drives the simulation loop that engineers used to close largely by hand. In this loop, a converter design, or a study of the network it connects to, is built, run, measured and revised until it satisfies its specificatio...
-- **Lien** : https://arxiv.org/abs/2611.24880v1
+- **Résumé** : Large Web platforms operate large fleets of ranking models, each selecting features from a shared pool of tens of thousands. We present an end-to-end agentic system that optimizes features across the fleet under resource constraints shared across models and those set per model, such as feature pipel...
+- **Lien** : https://arxiv.org/abs/2611.26531v1
 
-### Auditing black-box clinical prediction models with a large language model through queries alone: a blinded test with planted flaws
-- **arXiv** : 2611.24877v1
-- **Date** : 2026-11-18
-- **Auteurs** : Zhiyu Liu, Xinyu Yang
+### Held While Waiting: What LLM Agent Sessions Reserve on Serverless and Agent Runtimes
+- **arXiv** : 2611.26480v1
+- **Date** : 2026-11-19
+- **Auteurs** : Mekhala Hithyshini Sreenivasa
 - **Score** : 6
-- **Résumé** : Large language models (LLMs) are used to explain clinical prediction models, on the promise that they can say what a model computes, find its faults and even reveal new knowledge in it. We tested the three promises where the answers could be checked. From the International Stroke Trial we trained fo...
-- **Lien** : https://arxiv.org/abs/2611.24877v1
+- **Résumé** : LLM agents spend nearly all their time waiting for the model. On Amazon Bedrock AgentCore, our agents waited a median of 2.7 seconds for each model reply, then computed for an estimated 5 to 40 milliseconds. AgentCore does not charge for CPU during the wait. But it reserves a separate environment, a...
+- **Lien** : https://arxiv.org/abs/2611.26480v1
 
-### Learning to Interact in Multi-Agent Self-Play for Controllable Autonomous Driving Scenario Generation
-- **arXiv** : 2611.24876v1
-- **Date** : 2026-11-18
-- **Auteurs** : Beyazit Yalcinkaya, Ethan Pronovost, Maximilian Naumann, Marcell Vazquez-Chanlatte
+### A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights
+- **arXiv** : 2611.26450v1
+- **Date** : 2026-11-19
+- **Auteurs** : Tanmay Sah
 - **Score** : 6
-- **Résumé** : Large-scale, multi-agent self-play trains robust driving policies effectively in simulation, but controlling these models to generate specific, safety-critical edge cases remains a key challenge. Existing goal-conditioned self-play frameworks rely primarily on static map-location goals and fail to r...
-- **Lien** : https://arxiv.org/abs/2611.24876v1
+- **Résumé** : Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters. We introduce closed-form, zero-gradient circuit-grafting primitives that compile deterministic computation directly into pretrained LM weights using zero tra...
+- **Lien** : https://arxiv.org/abs/2611.26450v1
 
-### Atomic MathReasoner: Instance-Level Composition of Atomic Reasoning Skills for Mathematical LLMs
-- **arXiv** : 2611.24846v1
-- **Date** : 2026-11-18
-- **Auteurs** : Jiashu Li, Tianyu Gao, Qinglong Liu, Jinping Wang, Ye Wei
+### MemFolder: Structure-Guided Memory Folding for Efficient Agent Memory Management
+- **arXiv** : 2611.26427v1
+- **Date** : 2026-11-19
+- **Auteurs** : Xuyang Liu, Chenwen Lu, Junxi Wang, Siyu Ren, Xinying Lin
 - **Score** : 6
-- **Résumé** : Most existing approaches enhance mathematical reasoning in large language models (LLMs) as a monolithic capability, despite the fact that different mathematical problems require different reasoning skills. Recent work has explored a more fine-grained perspective by decomposing mathematical reasoning...
-- **Lien** : https://arxiv.org/abs/2611.24846v1
+- **Résumé** : Long-term agents accumulate large external memory stores as interactions unfold, increasing the costs of storage, retrieval, and response generation. Efficiency is constrained by two coupled factors: a growing record count increases retrieval overhead, while longer retrieved contexts increase prefil...
+- **Lien** : https://arxiv.org/abs/2611.26427v1
 
-### A Foundation Model to Measure and Predict Human Behaviour
-- **arXiv** : 2611.24830v1
-- **Date** : 2026-11-18
-- **Auteurs** : Haoran Ye, Tianrui Huo, Hangzhen Li, Xin Zhang, Guojie Song
+### Seer: Guiding Small Deep-Research Agents with Shared Decision Models
+- **arXiv** : 2611.26423v1
+- **Date** : 2026-11-19
+- **Auteurs** : Yuhao Zhou, Yang Zhou, Yuanxi Li, Jindi Lv, Dan Si
 - **Score** : 6
-- **Résumé** : Large language models (LLMs) are increasingly used to infer psychological attributes, predict individual behaviour, and simulate human populations. However, despite generating plausible responses, they often misrepresent individuals and distort population statistics. Here we introduce Chiron, a foun...
-- **Lien** : https://arxiv.org/abs/2611.24830v1
+- **Résumé** : Deep-research agents repeatedly decide what to search, read, and verify, often using large cloud-hosted language models for action proposal. However, privacy and local control motivate running agents on users' devices, where limited memory and compute favor smaller models and complicate on-device tr...
+- **Lien** : https://arxiv.org/abs/2611.26423v1
 
-### Cap-and-Track: Optimizing LLM Inference Request Dispatch Across Shifting Capacity
-- **arXiv** : 2611.24891v1
-- **Date** : 2026-11-18
-- **Auteurs** : Benjamin Novotny, Doug Szeto, Chang Wang, Shicheng Chen, George Zhihua Yuan
+### AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control
+- **arXiv** : 2611.26613v1
+- **Date** : 2026-11-19
+- **Auteurs** : Yiyang Du, Yuxuan Kuang, Qitao Zhao, Yixuan Wang, Zhanqiu Guo
 - **Score** : 5
-- **Résumé** : A fixed dispatch rate for LLM inference becomes stale as serving fleets resize and request sizes change. Generative output length is unknown at admission, and shared provider pools can lose capacity. We present Cap-and-Track, a design for asynchronous inference across provider capacity and internal ...
-- **Lien** : https://arxiv.org/abs/2611.24891v1
+- **Résumé** : Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives. However, existing benchmarks report only episode-level success rates, which show neither how these agents succee...
+- **Lien** : https://arxiv.org/abs/2611.26613v1
 
-### On Evaluating User Simulators for Interactive Agents
-- **arXiv** : 2611.24892v1
-- **Date** : 2026-11-18
-- **Auteurs** : Hengguang Zhou, I-Hung Hsu, Li Chen, Priyanshi Shrivastava, Anastasios Angelopoulos
+### Probing the "Conscious" Mind: Selective Access and Global Workspace in Vision-Language Models
+- **arXiv** : 2611.26590v1
+- **Date** : 2026-11-19
+- **Auteurs** : Jiahao Huang, Jun Wang
 - **Score** : 4
-- **Résumé** : User simulators offer a scalable way to evaluate interactive agents, but how to assess their quality remains underexplored. In particular, it is unclear whether existing user simulator evaluation frameworks reliably detect meaningful failures in simulated user behavior. This uncertainty makes it dif...
-- **Lien** : https://arxiv.org/abs/2611.24892v1
+- **Résumé** : Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to special...
+- **Lien** : https://arxiv.org/abs/2611.26590v1
 
-### Choosing What to Observe: Budget-Paired Counterfactual Audits for Credible Evaluation of Visual Agents
-- **arXiv** : 2611.24867v1
-- **Date** : 2026-11-18
-- **Auteurs** : Ruiqi Liu, Jinming Li, Mo Wang, Yang Lu, Yanlan Kang
+### FLUID: Flexible, Evidence-Grounded Situated Task Guidance
+- **arXiv** : 2611.26491v1
+- **Date** : 2026-11-19
+- **Auteurs** : Yunqi Zhao, Run Peng, Ze Dong, Ryan Lu, Yinpei Dai
 - **Score** : 4
-- **Résumé** : Visual agents that read dense documents must ration a finite observation budget across candidate regions, yet answer accuracy conflates where an agent looks, how it adapts to the reads that remain, and how it an?swers once observation stops. We introduce budget-paired counterfactual audits, an evalu...
-- **Lien** : https://arxiv.org/abs/2611.24867v1
+- **Résumé** : Real-time task guidance is inherently flexible: when an agent guides a user through a task, multiple responses and timings can be appropriate, and sometimes the best action is to remain silent. Existing benchmarks often miss this flexibility by treating synthesized dialogues as fixed targets for wha...
+- **Lien** : https://arxiv.org/abs/2611.26491v1
 
-### Vibe-Trading: Towards Agent-Native Trading
-- **arXiv** : 2611.24845v1
-- **Date** : 2026-11-18
-- **Auteurs** : Haozhe Wu, Zhonghang Li, Chao Huang
-- **Score** : 4
-- **Résumé** : Existing AI agents can retrieve information, call tools, run experiments, and produce multi-step outputs. Yet most are built around relatively static workflows and struggle to preserve reliable state as the environment changes. Financial trading makes this limitation especially consequential: prices...
-- **Lien** : https://arxiv.org/abs/2611.24845v1
-
-### Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving
-- **arXiv** : 2611.24840v1
-- **Date** : 2026-11-18
-- **Auteurs** : Binay Kumar Singh, Niels Da Vitoria Lobo
-- **Score** : 4
-- **Résumé** : World models are increasingly used in autonomous driving to predict how a scene evolves under the ego vehicle's actions, supporting counterfactual reasoning and model-based planning. However, existing evaluations focus on prediction fidelity and planning performance, and rarely verify that the predi...
-- **Lien** : https://arxiv.org/abs/2611.24840v1
-
-### Jailbreak Detection on Large Language Models via Contrastive Prototype Structures
-- **arXiv** : 2611.24936v1
-- **Date** : 2026-11-18
-- **Auteurs** : Yan Qiu, Yuanyuan Li
+### PlayCraft: Designing Engaging Games from Agent Play Experience
+- **arXiv** : 2611.26624v1
+- **Date** : 2026-11-19
+- **Auteurs** : Weihao Cheng
 - **Score** : 3
-- **Résumé** : Jailbreak attempts and harmful prompts remain a challenge for the safe deployment of large language models. We study whether contrastively learned representations can support safety detection without training an additional downstream classifier. We propose Jailbreak Detection with Prototype Inferenc...
-- **Lien** : https://arxiv.org/abs/2611.24936v1
+- **Résumé** : Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an automated framework that uses a vision-based agent to play games and draws on its...
+- **Lien** : https://arxiv.org/abs/2611.26624v1
 
-### Monoculture Robust Learning
-- **arXiv** : 2611.24881v1
-- **Date** : 2026-11-18
-- **Auteurs** : Lee Cohen, Jon Kleinberg, Omer Reingold
+### Realized versus Population Reliability: Anytime-Valid Self-Consistency Certification under Correlated Reasoning
+- **arXiv** : 2611.26592v1
+- **Date** : 2026-11-19
+- **Auteurs** : Terence D. Agbeyegbe, Toneukarin G. Agbeyegbe
 - **Score** : 3
-- **Résumé** : We introduce a notion of monoculture robustness in Probably Approximately Correct (PAC) learning, as a way to mitigate the problem of algorithmic monoculture (Kleinberg and Raghavan, 2021): the tendency of models sharing the same components (e.g., training data) to fail on the same inputs. Specifica...
-- **Lien** : https://arxiv.org/abs/2611.24881v1
+- **Résumé** : Self-consistency certification treats repeated sampling from a language model as sequential evidence accumulation and stops when an anytime-valid e-process crosses a threshold, guaranteeing finite-sample Type I error control by Ville's inequality. Prior constructions assume sampled rollouts are cond...
+- **Lien** : https://arxiv.org/abs/2611.26592v1
 
-### General progress substitutes for specific training data in language models
-- **arXiv** : 2611.24844v1
-- **Date** : 2026-11-18
-- **Auteurs** : Mark Marosi, Peter Antal
+### Verify the Verifier: Specification-Grounded LLM Cross-Checking for Bugs That Escape UVM Scoreboards
+- **arXiv** : 2611.26588v1
+- **Date** : 2026-11-19
+- **Auteurs** : Ana E. Sanchez Villalobos, Michael D. Quinn, Aakash Tyagi, Minh D. Luu, David Kebo Houngninou
 - **Score** : 3
-- **Résumé** : Language models acquire their capabilities from training data, and developers withhold data during training to keep models from learning capabilities that could be misused. How long this delays a capability, and how much data is needed to acquire it later, is unknown. Here we show that the general p...
-- **Lien** : https://arxiv.org/abs/2611.24844v1
+- **Résumé** : A passing UVM regression shows the design agrees with the reference model on what the scoreboard checks, not that it meets the specification. Bugs that pass every test yet violate the specification, termed scoreboard escapes, survive mature testbenches. We present Verify the Verifier, to our knowled...
+- **Lien** : https://arxiv.org/abs/2611.26588v1
 
-### Kaer: Security-Aware Replanning for Multi-Agent Systems
-- **arXiv** : 2611.24839v1
-- **Date** : 2026-11-18
-- **Auteurs** : Tushin Mallick, Evan Rose, Matthew Laws, Alina Oprea, Cristina Nita-Rotaru
+### Represented but misread: Post-training changes how language models read out what they represent
+- **arXiv** : 2611.26584v1
+- **Date** : 2026-11-19
+- **Auteurs** : Jochen Laubrock
 - **Score** : 3
-- **Résumé** : One popular architecture for multi-agent systems (MAS) relies on an orchestrator that generates an initial plan, coordinates its execution, and dynamically revises the plan based on agent feedback when tasks cannot be fully specified in advance. This dynamic replanning introduces a critical vulnerab...
-- **Lien** : https://arxiv.org/abs/2611.24839v1
+- **Résumé** : Does post-training change what a language model represents, or how this representation is read out into an answer? We compared linear probes with the models' own answers, analyzed with signal detection theory, in six open-weight base models and their post-trained versions. For judgments of whether G...
+- **Lien** : https://arxiv.org/abs/2611.26584v1
 
-### Isabelle Pool Server: a pooled verification service for prover training and multi-agent proving
-- **arXiv** : 2611.24788v1
-- **Date** : 2026-11-18
-- **Auteurs** : Xuanwei Ren, Wenda Li
+### LLM GerryMandering: Separating Interactions from Additive Effects in LLM Audits
+- **arXiv** : 2611.26538v1
+- **Date** : 2026-11-19
+- **Auteurs** : George Rahul, Ronit Jahilal, Bhaskara Hanuma Vedula, Ponnurangam Kumaraguru, Pushkar Shukla
 - **Score** : 3
-- **Résumé** : Isabelle Pool Server (IPS), a verification service with a pool of warm headless Isabelle sessions behind an HTTP API, with session leasing and reclamation, memory-aware admission control, and a time budget on every call. Its verification interface spans single-step execution, block-level proof check...
-- **Lien** : https://arxiv.org/abs/2611.24788v1
+- **Résumé** : Intersectional bias arises when a model treats people who hold several marginalised identities at once differently from what their separate identities would predict. Auditing such intersectional subgroups remains a challenge: their number grows quadratically, and there is no agreed baseline for what...
+- **Lien** : https://arxiv.org/abs/2611.26538v1
 
-### LLM-Guided Cyber-Physical Attack Path Identification in Smart Grids
-- **arXiv** : 2611.24765v1
-- **Date** : 2026-11-18
-- **Auteurs** : Amr Elshazly, Jesse Roberts, Rachad Atat, Muhammad Ismail
+### Backtracking Agent Applications Security Incidents
+- **arXiv** : 2611.26525v1
+- **Date** : 2026-11-19
+- **Auteurs** : Yicheng Cai, Taegyu Kim, Peng Liu
 - **Score** : 3
-- **Résumé** : Identifying high-impact attack paths in cyber-physical power systems is critical for improving grid resilience. Existing methods typically rely on either structural topology analysis or simulation-based cascading-failure models. Topology-based approaches capture connectivity but lack adversarial rea...
-- **Lien** : https://arxiv.org/abs/2611.24765v1
+- **Résumé** : Agent applications are increasingly deployed, yet agent-specific attacks pose real threats to them. Upon a security incident, organizations backtrack to identify the CEP (compromise entry point), remediate the damage, and prevent its recurrence. The main artifacts available for backtracking are traj...
+- **Lien** : https://arxiv.org/abs/2611.26525v1
+
+### AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher
+- **arXiv** : 2611.26510v1
+- **Date** : 2026-11-19
+- **Auteurs** : Guoxin Chen, Shuang Sun, Fanzhe Meng, Xinyu Tang, Ruihua Song
+- **Score** : 3
+- **Résumé** : Task success alone does not specify which behaviors post-training should reinforce. Even successful teacher trajectories can contain unsupported assumptions, unproductive repetition, or superficial verification. We propose Skill-FT (Skill-Guided Fine-Tuning), which uses natural-language skills to su...
+- **Lien** : https://arxiv.org/abs/2611.26510v1
 
 <!-- ARXIV_FEED_END -->

@@ -120,12 +120,27 @@ I've been exploring new ways to sandbox code that is executed by agents, with a 
 - **Résumé** : Google announces Gemini 3.7 Flash, Jalape&#241;o&#8217;s first results show industry-leading speed, A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I....
 - **Lien** : https://lastweekin.ai/p/lwiai-podcast-255-gemini-37-jalapeno
 
+### Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO
+- **Source** : latent.space
+- **Date** : Thu, 19 Nov 2026
+- **Score** : 1
+- **Résumé** : >50% of tickets written by agents, the AI budgets behind $100M-in-months ARR, and selling without SDRs or FDEs...
+- **Lien** : https://latent.space/p/linear-scaling/
+
 ### [AINews] Gemini 4 Neon: GDM's Opus/Sol Contender
 - **Source** : latent.space
 - **Date** : Thu, 19 Nov 2026
 - **Score** : 1
 - **Résumé** : November 18, 2026 — Google’s middle tier scores 61 on the Intelligence Index. Plus, Anthropic prices its IPO at $83....
 - **Lien** : https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/
+
+### Token fraud is here and it’s BAD (YouTube)
+- **Source** : Simon Willison
+- **Date** : 2026-11-20T02:49
+- **Score** : 1
+- **Résumé** : Token fraud is here and it’s BAD (YouTube)
+Claire Vo runs ChatPRD, an AI platform that helps product managers "turn an idea into a spec". The product has been live since the GPT-4 e...
+- **Lien** : https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/
 
 ### Quoting Daniel Stenberg
 - **Source** : Simon Willison
@@ -144,15 +159,6 @@ OpenAI:
 We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work...
 - **Lien** : https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/
 
-### llm 0.37.3
-- **Source** : Simon Willison
-- **Date** : 2026-11-16T23:57
-- **Score** : 1
-- **Résumé** : Release: llm 0.37.3
-        A bug fix release for LLM, mainly to cover a problem with the most recent Homebrew package of the software.
-Homebrew now ships the late...
-- **Lien** : https://simonwillison.net/2026/Nov/16/llm/
-
 ### 180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers
 - **Source** : Hugging Face Blog
 - **Date** : Wed, 18 Nov 2026
@@ -167,13 +173,6 @@ Homebrew now ships the late...
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/ggml-org/llama-cpp-v1
 
-### LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B
-- **Source** : Hugging Face Blog
-- **Date** : Thu, 12 Nov 2026
-- **Score** : 1
-- **Résumé** : ...
-- **Lien** : https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite
-
 ### How OpenAI’s Performance Factory keeps ChatGPT fast
 - **Source** : OpenAI Blog
 - **Date** : Thu, 19 Nov 2026
@@ -181,19 +180,19 @@ Homebrew now ships the late...
 - **Résumé** : Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast....
 - **Lien** : https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast
 
-### How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise
-- **Source** : OpenAI Blog
-- **Date** : Wed, 18 Nov 2026
-- **Score** : 1
-- **Résumé** : Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption....
-- **Lien** : https://openai.com/business/customer-stories/sumitomo-life
-
 ### Research acceleration: The jagged frontier
 - **Source** : OpenAI Blog
 - **Date** : Wed, 18 Nov 2026
 - **Score** : 1
 - **Résumé** : OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement....
 - **Lien** : https://openai.com/index/research-acceleration-jagged-frontier
+
+### How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise
+- **Source** : OpenAI Blog
+- **Date** : Wed, 18 Nov 2026
+- **Score** : 1
+- **Résumé** : Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption....
+- **Lien** : https://openai.com/business/customer-stories/sumitomo-life
 
 ### Inside the Codex sandbox
 - **Source** : OpenAI Blog
@@ -208,13 +207,6 @@ Homebrew now ships the late...
 - **Score** : 1
 - **Résumé** : OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring....
 - **Lien** : https://openai.com/index/managing-frontier-ai-risk
-
-### Advancing chip design with OpenAI models
-- **Source** : OpenAI Blog
-- **Date** : Wed, 18 Nov 2026
-- **Score** : 1
-- **Résumé** : OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra....
-- **Lien** : https://openai.com/index/advancing-chip-design-with-our-models
 
 ### Last Week (Month) in AI #347 - Nvidia's spy, Anthropic's $1.4T IPO, AI's blue wave
 - **Source** : Last Week in AI
