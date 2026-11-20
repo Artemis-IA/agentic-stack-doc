@@ -158,7 +158,7 @@ An LLM-powered knowledge curation system that researches a topic and generates a
 ### [XERJ](https://github.com/xerj-org/xerj)
 Search engine for AI agents in one Rust binary. Indexes local code, docs, specs and logs, returns cited passages via BM25, vector and hybrid search, and keeps agent memory; local stdio MCP server i...
 
-⭐ 19.0k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-20
+⭐ 19.1k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-20
 **Tags** : `agent-memory`, `ai-agents`, `bm25`, `claude-code`, `cli`, `code-search`, `cursor`, `database`
 
 ### [Agent-S](https://github.com/simular-ai/Agent-S)
@@ -206,7 +206,7 @@ An LLM-powered repository agent designed to assist developers and teams in gener
 ### [Caura](https://github.com/caura-ai/caura)
 Open-source governed shared memory for AI agent fleets with cross-agent recall, permissions, audit trails, and persistent memory.
 
-⭐ 570 | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-20
+⭐ 572 | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-20
 **Tags** : `agent-memory`, `agentic-ai`, `ai-agents`, `ai-infrastructure`, `claude`, `fastapi`, `knowledge-graph`, `llm-memory`
 
 ### [muvon/octocode](https://github.com/Muvon/octocode)
@@ -218,7 +218,7 @@ Open-source governed shared memory for AI agent fleets with cross-agent recall, 
 ### [wenlan-app/wenlan](https://github.com/wenlan-app/wenlan)
 !wenlan-app/wenlan MCP server 🦀 🏠 🍎 🪟 🐧 - Local-first, source-backed AI knowledge base and LLM wiki. Distills agent work into maintained, citation-gated wiki pages served over MCP to Claude Code, C...
 
-⭐ 499 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-20
+⭐ 498 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-20
 **Tags** : `ai-memory`, `claude`, `claude-code`, `claude-code-plugin`, `codex`, `knowledge-base`, `knowledge-graph`, `llm-wiki`
 
 ### [MindSQL](https://github.com/Mindinventory/MindSQL)
@@ -230,7 +230,7 @@ A python package for Txt-to-SQL with self hosting functionalities and RESTful AP
 ### [shinpr/mcp-local-rag](https://github.com/shinpr/mcp-local-rag)
 📇 🏠 - Local document search: semantic search over PDF, DOCX, TXT and Markdown files with LanceDB vector storage and local embeddings.
 
-⭐ 435 | `TypeScript` | Licence: MIT | MAJ: 2026-11-20
+⭐ 436 | `TypeScript` | Licence: MIT | MAJ: 2026-11-20
 **Tags** : `agent-skills`, `cli-tool`, `developer-tools`, `hybrid-search`, `local-first`, `local-rag`, `mcp`, `mcp-server`
 
 ### [Open-RAG-Eval](https://github.com/vectara/open-rag-eval)

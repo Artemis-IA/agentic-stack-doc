@@ -121,6 +121,12 @@ MCP devient le **standard de facto** pour connecter les agents IA aux outils ext
 ## MCP Servers découverts automatiquement
 
 <!-- TOOLS_MCP_START -->
+### [cc-switch](https://github.com/farion1231/cc-switch)
+A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io
+
+⭐ 156.0k | `Rust` | Licence: MIT | MAJ: 2026-11-20
+**Tags** : `ai-tools`, `claude-code`, `codex`, `deepseek-harness`, `desktop-app`, `grok`, `grokbuild`, `hermes`
+
 ### [lightpanda-io/browser](https://github.com/lightpanda-io/browser)
 🏠 🍎 🐧 - Headless browser for AI and web automation with a built-in MCP server.
 
@@ -282,21 +288,15 @@ Open-source connector gateway for agents to discover and execute SaaS actions th
 ⭐ 6.3k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-11-20
 **Tags** : `agent-tools`, `ai-agents`, `api-gateway`, `automation`, `cli`, `cloudflare-workers`, `connectors`, `integration-platform`
 
+### [awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers)
+Awesome MCP Servers - A curated list of Model Context Protocol servers
+
+⭐ 5.8k | MAJ: 2026-11-20
+**Tags** : `ai`, `anthropic-claude`, `awesome`, `context`, `mcp`, `model-context-protocol`, `servers`, `tool-use`
+
 ### [executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright)
 📇 - Browser automation and web scraping using Playwright.
 
 ⭐ 5.7k | `TypeScript` | Licence: MIT | MAJ: 2026-11-19
-
-### [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device)
-!callstackincubator/agent-device MCP server 📇 🏠 🍎 🐧 - Discovery router for the agent-device CLI: status, install guidance, version-matched help and prompts for iOS, Android, tvOS, macOS and Linux a...
-
-⭐ 5.5k | `TypeScript` | Licence: MIT | MAJ: 2026-11-20
-**Tags** : `adb`, `agentic-ai`, `agents`, `ai-agents`, `android-emulator`, `automation`, `e2e-testing`, `expo`
-
-### [atilaahmettaner/tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp)
-!atilaahmettaner/tradingview-mcp MCP server 🐍 ☁️ 🍎 🪟 🐧 - Screeners, multi-timeframe technical analysis, smart-money and volume scans, and walk-forward backtests for crypto, stocks, FX and futures.
-
-⭐ 5.3k | `Python` | Licence: MIT | MAJ: 2026-11-20
-**Tags** : `claude-desktop`, `cryptocurrency`, `futures`, `market-data`, `mcp-server`, `mcp-tools`, `model-context-protocol`, `openclaw`
 
 <!-- TOOLS_MCP_END -->
