@@ -118,10 +118,22 @@ subprocess.run([
 ⭐ 2.1k | `TypeScript` | Licence: AGPL-3.0 | MAJ: 2026-11-20
 **Tags** : `ai-agents`, `anti-detection`, `browser-automation`, `chrome-devtools-protocol`, `debugging`, `deobfuscation`, `frida`, `javascript`
 
+### [aici](https://github.com/microsoft/aici)
+AICI: Prompts as (Wasm) Programs
+
+⭐ 2.1k | `Rust` | Licence: MIT | MAJ: 2026-11-19
+**Tags** : `ai`, `inference`, `language-model`, `llm`, `llm-framework`, `llm-inference`, `llm-serving`, `llmops`
+
+### [awesome-wasm-runtimes](https://github.com/appcypher/awesome-wasm-runtimes)
+A list of webassemby runtimes
+
+⭐ 1.6k | MAJ: 2026-11-19
+**Tags** : `cranelift`, `engine`, `javascript`, `rust`, `virtual-machine`, `vm`, `wasm`, `wasm-runtime`
+
 ### [Wllama](https://github.com/ngxson/wllama)
 WebAssembly binding for llama.cpp - Enabling in-browser LLM inference
 
-⭐ 1.4k | `TypeScript` | Licence: MIT | MAJ: 2026-11-20
+⭐ 1.4k | `TypeScript` | Licence: MIT | MAJ: 2026-11-21
 **Tags** : `llama`, `llamacpp`, `llm`, `wasm`, `webassembly`
 
 ### [CUGA](https://github.com/cuga-project/cuga-agent)
@@ -133,7 +145,7 @@ IBM Research's generalist agent harness built on LangGraph. Executes tasks over 
 ### [HelpCode-ai/anythingmcp](https://github.com/HelpCode-ai/anythingmcp)
 !HelpCode-ai/anythingmcp MCP server 📇 🏠 ☁️ 🍎 🪟 🐧 - Self-hosted MCP gateway turning REST, SOAP and GraphQL APIs and SQL/NoSQL databases into MCP tools without code, with spec import, pre-built adapt...
 
-⭐ 811 | `TypeScript` | Licence: AGPL-3.0 | MAJ: 2026-11-20
+⭐ 815 | `TypeScript` | Licence: AGPL-3.0 | MAJ: 2026-11-21
 **Tags** : `agent-governance`, `agent-harness`, `ai-governance`, `audit-log`, `code-execution`, `company-brain`, `enterprise-ai`, `enterprise-search`
 
 ### [Containarium](https://github.com/FootprintAI/Containarium)
@@ -148,6 +160,12 @@ Deny-by-default command sandbox for AI coding agents with filesystem isolation, 
 ⭐ 315 | `Go` | Licence: Apache-2.0 | MAJ: 2026-11-11
 **Tags** : `agents`, `ai-security`, `claude-code`, `developer-tools`, `greyproxy`, `landlock`, `linux`, `llm`
 
+### [chasm](https://github.com/CharlieTap/chasm)
+A WebAssembly runtime built on Kotlin Multiplatform
+
+⭐ 247 | `WebAssembly` | Licence: Apache-2.0 | MAJ: 2026-11-18
+**Tags** : `android`, `ios`, `kotlin-multiplatform`, `virtual-machine`, `wasm`, `wasm-runtime`, `webassembly`
+
 ### [sample-autonomous-cloud-coding-agents](https://github.com/aws-samples/sample-autonomous-cloud-coding-agents)
 Autonomous background coding agents on AWS. Turn tasks into pull requests via isolated runtimes, with built-in orchestration, observability, and governance.
 
@@ -157,7 +175,7 @@ Autonomous background coding agents on AWS. Turn tasks into pull requests via is
 ### [Ailoy](https://github.com/brekkylab/ailoy)
 A comprehensive framework for building AI agents that run anywhere, with full local-AI and WASM support.
 
-⭐ 158 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-20
+⭐ 159 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-21
 **Tags** : `agent`, `agent-builder`, `agentic-ai`, `ai-agents`, `computer-use-agent`, `gpu`, `gpu-acceleration`, `gpu-passthrough`
 
 ### [sandboxes](https://github.com/nalgeon/sandboxes)
@@ -181,7 +199,7 @@ One TypeScript API for running agent code in sandboxes. Write it once and run it
 ### [26zl/cybersec-toolkit](https://github.com/26zl/cybersec-toolkit)
 !26zl/cybersec-toolkit MCP server 🐍 🏠 🐧 - Install a large security toolset and discover and run it through an authorization-gated server for CTF, pentesting, bug bounty and DFIR.
 
-⭐ 100 | `Python` | Licence: MIT | MAJ: 2026-11-17
+⭐ 101 | `Python` | Licence: MIT | MAJ: 2026-11-21
 **Tags** : `agent-skills`, `ai-agent`, `blue-team`, `bug-bounty`, `claude-code`, `ctf-tools`, `cybersecurity`, `dfir`
 
 ### [ipybox](https://github.com/gradion-ai/ipybox)
@@ -205,7 +223,7 @@ An interactive offline desktop application for visualizing computer science algo
 ### [fixed-width/glass](https://github.com/fixed-width/glass)
 !fixed-width/glass MCP server 🦀 🏠 🍎 🪟 🐧 - Drive native GUI apps under development: launch, screenshot, read the accessibility tree, inject input, tail logs and diff frames on desktop, Android and iOS.
 
-⭐ 21 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-11
+⭐ 21 | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-21
 **Tags** : `ai`, `android`, `cross-platform`, `developer-tools`, `gui`, `gui-application`, `ios`, `linux`
 
 ### [OthmaneBlial/term_mcp_deepseek](https://github.com/OthmaneBlial/term_mcp_deepseek)
@@ -213,23 +231,5 @@ An interactive offline desktop application for visualizing computer science algo
 
 ⭐ 17 | `Python` | Licence: MIT | MAJ: 2026-11-19
 **Tags** : `ai-agents`, `approval-workflow`, `audit-log`, `command-execution`, `deepseek`, `developer-tools`, `json-rpc`, `local-first`
-
-### [Sowiedu/Edict](https://github.com/Sowiedu/Edict)
-!Sowiedu/Edict MCP server 📇 🏠 - Agent-oriented programming language: agents emit a JSON AST that the compiler validates, type- and effect-checks, verifies with Z3/SMT and compiles to WASM.
-
-⭐ 14 | `JavaScript` | Licence: MIT | MAJ: 2026-11-19
-**Tags** : `ai`, `ai-agents`, `compiler`, `effect-system`, `formal-verification`, `json-ast`, `llm`, `mcp`
-
-### [kumarganduri/legwork](https://github.com/kumarganduri/legwork)
-!kumarganduri/legwork MCP server 🐍 🏠 🍎 🐧 - Your AI finds an open-source tool on GitHub and Legwork installs it as an MCP tool in a sandbox: only the folders you grant, read-only, no network unless ...
-
-⭐ 5 | `Python` | Licence: MIT | MAJ: 2026-11-15
-**Tags** : `ai-agents`, `claude-code`, `developer-tools`, `llm`, `mcp`, `model-context-protocol`, `sandbox`, `supply-chain-security`
-
-### [The-40-Thieves/codecalc](https://github.com/The-40-Thieves/codecalc)
-!The-40-Thieves/codecalc MCP server 🐍 🏠 🍎 🪟 🐧 - Code and logic calculator with an offline core: run code, exact symbolic math, SMT/logic and complexity analysis, with optional gVisor/AppContainer s...
-
-⭐ 5 | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-05
-**Tags** : `ai-agents`, `calculator`, `code-execution`, `mcp`, `mcp-server`, `model-context-protocol`, `python`, `rust`
 
 <!-- TOOLS_SANDBOX_END -->
