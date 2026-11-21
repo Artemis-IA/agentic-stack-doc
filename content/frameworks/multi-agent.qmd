@@ -118,7 +118,7 @@ Open-source AI agent framework that turns LLMs into persistent, proactive person
 ### [hermes-agent](https://github.com/NousResearch/hermes-agent)
 The agent that grows with you
 
-⭐ 265.1k | `Python` | Licence: MIT | MAJ: 2026-11-21
+⭐ 265.2k | `Python` | Licence: MIT | MAJ: 2026-11-21
 **Tags** : `ai`, `ai-agent`, `ai-agents`, `anthropic`, `chatgpt`, `claude`, `claude-code`, `codex`
 
 ### [OpenCode](https://github.com/anomalyco/opencode)
@@ -126,22 +126,16 @@ The AI coding agent built for the terminal. !GitHub Repo stars
 
 ⭐ 228.4k | `TypeScript` | Licence: MIT | MAJ: 2026-11-21
 
-### [paperclip](https://github.com/paperclipai/paperclip)
-The open-source app everyone uses to manage agents at work
+### [Paperclip](https://github.com/paperclipai/paperclip)
+Open-source platform to run coding agents as managed workers with tasks, approvals, budgets, and workspaces. !GitHub Repo stars
 
-⭐ 115.6k | `TypeScript` | Licence: MIT | MAJ: 2026-11-21
+⭐ 115.7k | `TypeScript` | Licence: MIT | MAJ: 2026-11-21
 **Tags** : `acpx`, `agent-orchestration`, `agent-skills`, `agentic-ai`, `ai-agents`, `ai-engineering`, `ai-governance`, `ai-tools`
-
-### [Agent-Reach](https://github.com/Panniantong/Agent-Reach)
-Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
-
-⭐ 113.7k | `Python` | Licence: MIT | MAJ: 2026-11-21
-**Tags** : `agent-infrastructure`, `ai-agent`, `ai-search`, `automation`, `bilibili`, `claude-code`, `cli`, `cursor`
 
 ### [career-ops](https://github.com/career-ops-hq/career-ops)
 AI job search agent for AI coding CLIs that scans company career pages, scores each job against your CV, tailors an ATS-friendly resume and tracks applications; you review and send every applicatio...
 
-⭐ 84.0k | `JavaScript` | Licence: MIT | MAJ: 2026-11-21
+⭐ 84.1k | `JavaScript` | Licence: MIT | MAJ: 2026-11-21
 **Tags** : `agent-skills`, `ai-agent`, `ai-job-search`, `ats`, `career`, `career-ops`, `claude-code`, `claude-code-plugin`
 
 ### [Cline](https://github.com/cline/cline)
@@ -167,6 +161,12 @@ A coding agent for open models like Kimi K3.1 and GLM 5.3
 ⭐ 68.9k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-21
 **Tags** : `acp`, `coding-agent`, `deepseek`, `kimi`, `python`, `qwen`, `rust`
 
+### [Hindsight](https://github.com/vectorize-io/hindsight)
+State-of-the-art long-term memory for AI agents by Vectorize. !GitHub Repo stars
+
+⭐ 62.5k | `Python` | Licence: MIT | MAJ: 2026-11-21
+**Tags** : `agentic-ai`, `agents`, `ai-memory`, `memory`
+
 ### [autogen](https://github.com/microsoft/autogen)
 A programming framework for agentic AI
 
@@ -188,13 +188,13 @@ Cutting-edge framework for orchestrating role-playing, autonomous AI agents. !Gi
 ### [OpenCodeReview](https://github.com/alibaba/open-code-review)
 An open-source hybrid code reviewer combining deterministic rules with an LLM agent (tool-use, line-level comments); self-hostable, bring-your-own model. !GitHub Repo stars
 
-⭐ 55.0k | `Go` | Licence: Apache-2.0 | MAJ: 2026-11-21
+⭐ 55.1k | `Go` | Licence: Apache-2.0 | MAJ: 2026-11-21
 **Tags** : `agent`, `agent-skills`, `code-review`, `code-review-assistant`, `harness`, `repository-level-context`
 
 ### [nanobot](https://github.com/HKUDS/nanobot)
 Ultra-lightweight personal AI assistant framework (~4,000 lines of Python). Supports MCP, 9+ chat channels, and extensible skills system. !GitHub Repo stars
 
-⭐ 50.2k | `Python` | Licence: MIT | MAJ: 2026-11-21
+⭐ 50.3k | `Python` | Licence: MIT | MAJ: 2026-11-21
 **Tags** : `agent-framework`, `ai-agent`, `ai-agents`, `chatbot`, `chatops`, `discord-bot`, `llm-agents`, `llms`
 
 ### [Aider](https://github.com/Aider-AI/aider)
@@ -237,12 +237,6 @@ ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration
 
 ⭐ 34.8k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-21
 
-### [openclaude](https://github.com/Twigpine/openclaude)
-runs anywhere. uses anything
-
-⭐ 34.5k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-11-21
-**Tags** : `ai`, `ai-agent`, `ai-tools`, `cli`, `coding`
-
 ### [GitHub (Issue Only)](https://github.com/getcursor/cursor)
 
 ⭐ 33.3k | MAJ: 2026-11-21
@@ -252,12 +246,6 @@ An LLM-powered knowledge curation system that researches a topic and generates a
 
 ⭐ 31.9k | `Python` | Licence: MIT | MAJ: 2026-11-21
 **Tags** : `agentic-rag`, `deep-research`, `emnlp2024`, `knowledge-curation`, `large-language-models`, `naacl`, `nlp`, `report-generation`
-
-### [OpenCLI](https://github.com/jackwener/OpenCLI)
-Make Any Website into CLI & Use your logged-in browser by AI agent.
-
-⭐ 31.2k | `JavaScript` | Licence: Apache-2.0 | MAJ: 2026-11-21
-**Tags** : `ai-agent`, `ai-agents`, `ai-tools`, `browser-automation`, `browser-use`, `cli`, `playwright`
 
 ### [smolagents](https://github.com/huggingface/smolagents)
 Open-source Python library designed to make it extremely easy to build and run agents using just a few lines of code. !GitHub Repo stars
@@ -279,5 +267,16 @@ Chat with your documents on your local device using GPT models. No data leaves y
 Educational framework exploring ergonomic, lightweight multi-agent orchestration by OpenAI. !GitHub Repo stars
 
 ⭐ 22.2k | `Python` | Licence: MIT | MAJ: 2026-11-21
+
+### [devika](https://github.com/stitionai/devika)
+Devika is the first open-source implementation of an Agentic Software Engineer. Initially started as an open-source alternative to Devin.
+
+⭐ 19.5k | `Python` | Licence: MIT | MAJ: 2026-11-21
+
+### [camel](https://github.com/camel-ai/camel)
+🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org
+
+⭐ 18.1k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-21
+**Tags** : `agent`, `ai-societies`, `artificial-intelligence`, `communicative-ai`, `cooperative-ai`, `deep-learning`, `large-language-models`, `multi-agent-systems`
 
 <!-- TOOLS_FRAMEWORK_END -->

@@ -83,6 +83,14 @@ graph LR
 - **Résumé** : November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with....
 - **Lien** : https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/
 
+### llm-gemini 0.38.1
+- **Source** : Simon Willison
+- **Date** : 2026-11-20T03:01
+- **Score** : 2
+- **Résumé** : Release: llm-gemini 0.38.1
+        Gemini 4 Carbon only supports low, medium and high reasoning levels - but Gemini 4 Hydrogen and Gemini 4 Neon both have an extra...
+- **Lien** : https://simonwillison.net/2026/Nov/20/llm-gemini/
+
 ### llm-gemini 0.38
 - **Source** : Simon Willison
 - **Date** : 2026-11-18T23:59
@@ -169,16 +177,6 @@ Claire Vo runs ChatPRD, an AI platform that helps product managers "turn an idea
 - **Score** : 1
 - **Résumé** : During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during thes...
 - **Lien** : https://simonwillison.net/2026/Nov/18/daniel-stenberg/
-
-### GPT‑6.2 Astra and GPT‑6.2 Sol
-- **Source** : Simon Willison
-- **Date** : 2026-11-17T22:38
-- **Score** : 1
-- **Résumé** : GPT‑6.2 Astra and GPT‑6.2 Sol
-OpenAI:
-
-We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work...
-- **Lien** : https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/
 
 ### 180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers
 - **Source** : Hugging Face Blog
