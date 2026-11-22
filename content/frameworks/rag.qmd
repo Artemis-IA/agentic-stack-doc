@@ -155,6 +155,12 @@ EvoAgentX is building a Self-Evolving Ecosystem of AI Agents, it will give you a
 ⭐ 2.9k | `Rust` | Licence: MIT | MAJ: 2026-11-22
 **Tags** : `ai-native`, `description-logics`, `formal-verification`, `infrastructure-as-code`, `isabelle-language`, `knowledge-graph`, `lean`, `lean4`
 
+### [ripwire](https://github.com/redhat-et/ripwire)
+The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents. Cut agent token costs by finding code without reading the repo, then keep large codebases off the complexity w...
+
+⭐ 2.6k | `C++` | Licence: Apache-2.0 | MAJ: 2026-11-22
+**Tags** : `agent-tools`, `call-graph`, `claude-code`, `code-analysis`, `code-intelligence`, `code-review`, `code-search`, `codex`
+
 ### [Agentset](https://github.com/agentset-ai/agentset)
 Open-source production-ready RAG platform with built-in agentic reasoning, hybrid search, and multimodal support. !GitHub Repo stars
 
@@ -167,11 +173,11 @@ Markdown knowledge graph for you and your AI agents — editor LSP plus CLI and 
 ⭐ 1.8k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-22
 **Tags** : `ai-agents`, `ai-memory`, `cli`, `helix`, `knowledge-graph`, `knowledge-management`, `language-server`, `local-first`
 
-### [apecloud/ApeRAG](https://github.com/apecloud/ApeRAG)
-🐍 ☁️ 🏠 - RAG platform combining Graph RAG, vector search and full-text search for building knowledge graphs and context engineering.
+### [SearchCLI](https://github.com/volcengine/SearchCLI)
+Open CLI for integrating AI search, recommendation, and conversational retrieval into agent systems and business systems
 
-⭐ 1.3k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-19
-**Tags** : `agents`, `context-engineering`, `graphrag`, `knowledge-graph`, `mcp`
+⭐ 1.2k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-11-21
+**Tags** : `agent-tools`, `ai-agents`, `ai-search`, `ai-search-engine`, `automation`, `cli`, `command-line-tool`, `conversational-search`
 
 ### [RepoAgent](https://github.com/OpenBMB/RepoAgent)
 An LLM-powered repository agent designed to assist developers and teams in generating documentation and understanding repositories quickly !GitHub Repo stars
@@ -182,7 +188,7 @@ An LLM-powered repository agent designed to assist developers and teams in gener
 ### [Caura](https://github.com/caura-ai/caura)
 Open-source governed shared memory for AI agent fleets with cross-agent recall, permissions, audit trails, and persistent memory.
 
-⭐ 575 | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-22
+⭐ 576 | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-22
 **Tags** : `agent-memory`, `agentic-ai`, `ai-agents`, `ai-infrastructure`, `claude`, `fastapi`, `knowledge-graph`, `llm-memory`
 
 ### [muvon/octocode](https://github.com/Muvon/octocode)
@@ -238,11 +244,5 @@ an open source RAG evaluation framework that does not require golden answers, an
 
 ⭐ 242 | `TypeScript` | Licence: MIT | MAJ: 2026-11-21
 **Tags** : `agentic-skill`, `anthropic`, `automation`, `citations`, `claude-code`, `claude-skills`, `codex`, `gemini-notebook`
-
-### [alibaizhanov/mengram](https://github.com/alibaizhanov/mengram)
-!mengram MCP server 🐍 ☁️ 🏠 🍎 🪟 🐧 - Agent memory with semantic, episodic and procedural types, a knowledge graph, Claude Code auto-save/recall hooks, smart triggers and multi-user isolation.
-
-⭐ 207 | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-17
-**Tags** : `agent-memory`, `ai-agents`, `ai-memory`, `claude-desktop`, `cognitive-architecture`, `cohere`, `cursor-ai`, `episodic-memory`
 
 <!-- TOOLS_RAG_END -->
