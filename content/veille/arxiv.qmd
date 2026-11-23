@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)
-- **arXiv** : 2611.26553v1
-- **Date** : 2026-11-19
-- **Auteurs** : Mengxiao Wang, Mahbub Alam, Kalyan Nakka, Nitesh Saxena
-- **Score** : 12
-- **Résumé** : Agents based on large language models (LLMs) can now delete files and send payments on behalf of their users. News media reports routinely describe failures of these agents (e.g., Replit's coding agent deleting a production database), but a report often only says what went wrong and rarely (in)valid...
-- **Lien** : https://arxiv.org/abs/2611.26553v1
+### MemOnce: A Scalable Memory Architecture for Large Language Models
+- **arXiv** : 2611.27973v1
+- **Date** : 2026-11-20
+- **Auteurs** : Chang Nie, Chaoyou Fu, Songlin Liu, Yiqing Hu, Caifeng Shan
+- **Score** : 8
+- **Résumé** : Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory states for future inference, posing challenges for existing architectures. Standard Transformers accumulate layer-wise, token-level KV caches, incurring linear GPU memory growth and...
+- **Lien** : https://arxiv.org/abs/2611.27973v1
 
-### TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming
-- **arXiv** : 2611.26619v1
-- **Date** : 2026-11-19
-- **Auteurs** : Jinbin Luo, Xiaozhe Yao, Shang Yang, Zhijian Liu, Song Han
-- **Score** : 7
-- **Résumé** : Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We present TideCache, a serving system on CPU--GPU superchips with three components for...
-- **Lien** : https://arxiv.org/abs/2611.26619v1
+### Who Grades the Agent? Privilege Separation for Coding-Agent Benchmarks
+- **arXiv** : 2611.27860v1
+- **Date** : 2026-11-20
+- **Auteurs** : Nathan Nour Houlamy, Mattia Favretto, Earlence Fernandes, Mauro Conti
+- **Score** : 8
+- **Résumé** : Benchmarks for AI-based coding agents are a staple of the current AI landscape, because they are the leading way to measure the performance of LLMs. Their scores guide business and research decisions. Evaluating coding agents is challenging, since they are able to manipulate their evaluation infrast...
+- **Lien** : https://arxiv.org/abs/2611.27860v1
 
-### Reasoning-Trace Analysis Using Large Language Models for Interpretable Q-Matrix Construction
-- **arXiv** : 2611.26422v1
-- **Date** : 2026-11-19
-- **Auteurs** : Jihong Zhang, Zijing Jin, Mingfeng Xue
-- **Score** : 7
-- **Résumé** : Large language models (LLMs) can generate Q-matrices for diagnostic classification models that approximate expert specifications, but evaluations have focused on the final matrices, leaving the basis of individual item-attribute assignments unexamined. This opacity limits the responsible use of AI i...
-- **Lien** : https://arxiv.org/abs/2611.26422v1
-
-### SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research
-- **arXiv** : 2611.26601v1
-- **Date** : 2026-11-19
-- **Auteurs** : Amine Lbath, Manan Suri, Aurelien Delaitre, Vadim Okun, Massih-Reza Amini
+### LesionAgent: Training-Free Agentic Tumor Tracking and Response Assessment in Longitudinal CT
+- **arXiv** : 2611.27876v1
+- **Date** : 2026-11-20
+- **Auteurs** : Maximilian Rokuss, Jeya Maria Jose Valanarasu, Alejandro Lozano, Benjamin Hamm, Yannick Kirchhoff
 - **Score** : 6
-- **Résumé** : LLM-based agents are becoming increasingly capable at discovering, validating and patching vulnerabilities in real software, and vendors and researchers report that this is already changing how vulnerabilities are found and fixed. These claims, however, are scattered across papers, vendor reports an...
-- **Lien** : https://arxiv.org/abs/2611.26601v1
+- **Résumé** : Every few months, a cancer patient's CT scans decide whether treatment continues. 3D foundation models can now detect, segment, register and track lesions, yet none of them reads the scans as a radiologist does. A radiologist decides which findings are lesions, which are the same lesion months later...
+- **Lien** : https://arxiv.org/abs/2611.27876v1
 
-### The Geometry of Lies: Knowledge and Persona Directions for Detecting Deception in Large Language Models
-- **arXiv** : 2611.26545v1
-- **Date** : 2026-11-19
-- **Auteurs** : Md. Abdullah Al Zami, Suraiya Shanaz, Mahdi Hasan, Shoaib Ahmed Dipu, Farig Yousuf Sadeque
+### Beyond Self-Critique: Epistemic Convergence Control for Multi-Agent Research Verification
+- **arXiv** : 2611.27839v1
+- **Date** : 2026-11-20
+- **Auteurs** : Chrisantus Eze
 - **Score** : 6
-- **Résumé** : Linear probes are the cheapest LLM lie detectors but often fail to transfer across kinds of lie. Label-free directions from honest and deceptive role-play are untested at 70B scale and on lies about knowledge, where a lie and an honest denial can be identical. We widen a published persona bank with ...
-- **Lien** : https://arxiv.org/abs/2611.26545v1
+- **Résumé** : Multi-agent systems for scientific claim verification increasingly rely on role-structured LLM debate to pressure-test hypotheses. However, when debating agents are instantiated from the same underlying base model, they share identical latent representations, making self-critique bias structurally i...
+- **Lien** : https://arxiv.org/abs/2611.27839v1
 
-### Cost-Aware Agentic Feature Optimization System for Fleet-Scale Ranking Models
-- **arXiv** : 2611.26531v1
-- **Date** : 2026-11-19
-- **Auteurs** : Chang Yang, Yao Xuan, Wendan Yan, Nhat Le, Jiang Liu
+### DistDNA: Language Model Fingerprinting under Stochastic Decoding
+- **arXiv** : 2611.27831v1
+- **Date** : 2026-11-20
+- **Auteurs** : Lifan Hu, Qian Yu, Zhaomin Wu, Bingsheng He
 - **Score** : 6
-- **Résumé** : Large Web platforms operate large fleets of ranking models, each selecting features from a shared pool of tens of thousands. We present an end-to-end agentic system that optimizes features across the fleet under resource constraints shared across models and those set per model, such as feature pipel...
-- **Lien** : https://arxiv.org/abs/2611.26531v1
+- **Résumé** : Behavioral fingerprints identify a large language model (LLM) from its responses to a shared set of prompts, enabling applications such as verifying whether a deployed model corresponds to the checkpoint it claims to be. Deployed models, however, are commonly served with stochastic decoding, under w...
+- **Lien** : https://arxiv.org/abs/2611.27831v1
 
-### Held While Waiting: What LLM Agent Sessions Reserve on Serverless and Agent Runtimes
-- **arXiv** : 2611.26480v1
-- **Date** : 2026-11-19
-- **Auteurs** : Mekhala Hithyshini Sreenivasa
+### Evaluating Prompting Strategies for Zero-Shot Multilingual Aspect-Based Sentiment Analysis with Large Language Models
+- **arXiv** : 2611.27807v1
+- **Date** : 2026-11-20
+- **Auteurs** : Jakub Šm{í}d, Pavel Kr{á}l
 - **Score** : 6
-- **Résumé** : LLM agents spend nearly all their time waiting for the model. On Amazon Bedrock AgentCore, our agents waited a median of 2.7 seconds for each model reply, then computed for an estimated 5 to 40 milliseconds. AgentCore does not charge for CPU during the wait. But it reserves a separate environment, a...
-- **Lien** : https://arxiv.org/abs/2611.26480v1
+- **Résumé** : While large language models (LLMs) have advanced natural language understanding, their ability to perform complex target-aspect-sentiment detection (TASD) -- a key task within aspect-based sentiment analysis (ABSA) -- in zero-shot multilingual settings remains underexplored. Existing ABSA research p...
+- **Lien** : https://arxiv.org/abs/2611.27807v1
 
-### A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights
-- **arXiv** : 2611.26450v1
-- **Date** : 2026-11-19
-- **Auteurs** : Tanmay Sah
+### Search-RSI: Expanding Search Worlds Along Multimodal Agents' Capability Frontier
+- **arXiv** : 2611.27780v1
+- **Date** : 2026-11-20
+- **Auteurs** : Chengchao Lv, Yin Wang, Chunzheng Zhu, Wanli Chang
 - **Score** : 6
-- **Résumé** : Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters. We introduce closed-form, zero-gradient circuit-grafting primitives that compile deterministic computation directly into pretrained LM weights using zero tra...
-- **Lien** : https://arxiv.org/abs/2611.26450v1
+- **Résumé** : Multimodal search agents answer knowledge intensive visual questions by grounding them in retrieved evidence, and recent recipes train them on multi hop tasks that are synthesized from knowledge graphs and grown online to keep pace with the agent. These recipes, however, treat the searchable world a...
+- **Lien** : https://arxiv.org/abs/2611.27780v1
 
-### MemFolder: Structure-Guided Memory Folding for Efficient Agent Memory Management
-- **arXiv** : 2611.26427v1
-- **Date** : 2026-11-19
-- **Auteurs** : Xuyang Liu, Chenwen Lu, Junxi Wang, Siyu Ren, Xinying Lin
+### QuASAR: Toward an LLM-Assisted Framework for Screening, Prototyping, and Assessing Quantum-Advantage Opportunities in Scientific Computing
+- **arXiv** : 2611.27778v1
+- **Date** : 2026-11-20
+- **Auteurs** : Mark L. Carroll, Jordan A. Caraballo-Vega, Brian P. Powell, John L. Schnase
 - **Score** : 6
-- **Résumé** : Long-term agents accumulate large external memory stores as interactions unfold, increasing the costs of storage, retrieval, and response generation. Efficiency is constrained by two coupled factors: a growing record count increases retrieval overhead, while longer retrieved contexts increase prefil...
-- **Lien** : https://arxiv.org/abs/2611.26427v1
+- **Résumé** : Identifying scientific computations that could benefit from quantum algorithms requires both domain knowledge and fluency in quantum algorithm design, expertise that rarely resides in one person. We report results from QuASAR, an experimental, two-agent, LLM-driven pipeline intended to bridge this g...
+- **Lien** : https://arxiv.org/abs/2611.27778v1
 
-### Seer: Guiding Small Deep-Research Agents with Shared Decision Models
-- **arXiv** : 2611.26423v1
-- **Date** : 2026-11-19
-- **Auteurs** : Yuhao Zhou, Yang Zhou, Yuanxi Li, Jindi Lv, Dan Si
-- **Score** : 6
-- **Résumé** : Deep-research agents repeatedly decide what to search, read, and verify, often using large cloud-hosted language models for action proposal. However, privacy and local control motivate running agents on users' devices, where limited memory and compute favor smaller models and complicate on-device tr...
-- **Lien** : https://arxiv.org/abs/2611.26423v1
-
-### AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control
-- **arXiv** : 2611.26613v1
-- **Date** : 2026-11-19
-- **Auteurs** : Yiyang Du, Yuxuan Kuang, Qitao Zhao, Yixuan Wang, Zhanqiu Guo
-- **Score** : 5
-- **Résumé** : Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives. However, existing benchmarks report only episode-level success rates, which show neither how these agents succee...
-- **Lien** : https://arxiv.org/abs/2611.26613v1
-
-### Probing the "Conscious" Mind: Selective Access and Global Workspace in Vision-Language Models
-- **arXiv** : 2611.26590v1
-- **Date** : 2026-11-19
-- **Auteurs** : Jiahao Huang, Jun Wang
+### TEA-Bench-BR: Can Coding Agents Turn a Branching Clinical Specification into Correct Code?
+- **arXiv** : 2611.27895v1
+- **Date** : 2026-11-20
+- **Auteurs** : Marcio Andre de Souza Estevam
 - **Score** : 4
-- **Résumé** : Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to special...
-- **Lien** : https://arxiv.org/abs/2611.26590v1
+- **Résumé** : Coding agents increasingly implement rules written by domain experts, and bugs in such code are silent: it runs and returns a plausible answer. We introduce TEA-Bench-BR, a benchmark built on the Brazilian pathway for early autism (TEA) screening: three fictitious instruments with the structure of r...
+- **Lien** : https://arxiv.org/abs/2611.27895v1
 
-### FLUID: Flexible, Evidence-Grounded Situated Task Guidance
-- **arXiv** : 2611.26491v1
-- **Date** : 2026-11-19
-- **Auteurs** : Yunqi Zhao, Run Peng, Ze Dong, Ryan Lu, Yinpei Dai
+### Auditable Financial Knowledge Graphs: Schema-Driven Construction and Intrinsic Quality Evaluation
+- **arXiv** : 2611.27835v1
+- **Date** : 2026-11-20
+- **Auteurs** : Samarth Sarin, Lovepreet Singh, Dhagash Mehta
 - **Score** : 4
-- **Résumé** : Real-time task guidance is inherently flexible: when an agent guides a user through a task, multiple responses and timings can be appropriate, and sometimes the best action is to remain silent. Existing benchmarks often miss this flexibility by treating synthesized dialogues as fixed targets for wha...
-- **Lien** : https://arxiv.org/abs/2611.26491v1
+- **Résumé** : Financial documents combine narrative disclosures, accounting metrics, corporate structures, management commentary, and time-dependent facts, making them difficult to represent using conventional chunk-based retrieval-augmented generation systems. This paper presents an auditable, schema-driven meth...
+- **Lien** : https://arxiv.org/abs/2611.27835v1
 
-### PlayCraft: Designing Engaging Games from Agent Play Experience
-- **arXiv** : 2611.26624v1
-- **Date** : 2026-11-19
-- **Auteurs** : Weihao Cheng
+### SUAF: Spectral Universal Advantage Features for Zero-Shot Policy Improvement
+- **arXiv** : 2611.27919v1
+- **Date** : 2026-11-20
+- **Auteurs** : Huaze Tang, Runqing Miao, Tianren Peng, Lam Nguyen, Chao Wang
 - **Score** : 3
-- **Résumé** : Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an automated framework that uses a vision-based agent to play games and draws on its...
-- **Lien** : https://arxiv.org/abs/2611.26624v1
+- **Résumé** : Reward-independent representations enable reinforcement learning agents to reuse knowledge across tasks, but limited representation capacity raises three fundamental questions: what statistical dependence should these representations capture, which components of that dependence should be retained fo...
+- **Lien** : https://arxiv.org/abs/2611.27919v1
 
-### Realized versus Population Reliability: Anytime-Valid Self-Consistency Certification under Correlated Reasoning
-- **arXiv** : 2611.26592v1
-- **Date** : 2026-11-19
-- **Auteurs** : Terence D. Agbeyegbe, Toneukarin G. Agbeyegbe
+### StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning
+- **arXiv** : 2611.27915v1
+- **Date** : 2026-11-20
+- **Auteurs** : Chi Yan, Guoyang Zhao, Wentao Yuan, Yixiao Ge, Yanning Zhou
 - **Score** : 3
-- **Résumé** : Self-consistency certification treats repeated sampling from a language model as sequential evidence accumulation and stops when an anytime-valid e-process crosses a threshold, guaranteeing finite-sample Type I error control by Ville's inequality. Prior constructions assume sampled rollouts are cond...
-- **Lien** : https://arxiv.org/abs/2611.26592v1
+- **Résumé** : Vision-language models (VLMs) exhibit strong semantic understanding but remain limited in their ability to reason about metric 3D space in the physical world. Existing VLMs typically infer 3D scene structure from one or more images without known camera calibration or cross-view geometric constraints...
+- **Lien** : https://arxiv.org/abs/2611.27915v1
 
-### Verify the Verifier: Specification-Grounded LLM Cross-Checking for Bugs That Escape UVM Scoreboards
-- **arXiv** : 2611.26588v1
-- **Date** : 2026-11-19
-- **Auteurs** : Ana E. Sanchez Villalobos, Michael D. Quinn, Aakash Tyagi, Minh D. Luu, David Kebo Houngninou
+### Star Panoptic Quality: Selectively Evaluating Split and Merged Instances
+- **arXiv** : 2611.27913v1
+- **Date** : 2026-11-20
+- **Auteurs** : Erik Großkopf, Paula Tamara Buzduga, Hendrik Möller, Florian Kofler
 - **Score** : 3
-- **Résumé** : A passing UVM regression shows the design agrees with the reference model on what the scoreboard checks, not that it meets the specification. Bugs that pass every test yet violate the specification, termed scoreboard escapes, survive mature testbenches. We present Verify the Verifier, to our knowled...
-- **Lien** : https://arxiv.org/abs/2611.26588v1
+- **Résumé** : Detecting individual instances is crucial for many segmentation problems. However, expert instance annotations are often unavailable, so instances are approximated heuristically (e.g., as connected components of semantic maps), which can merge touching objects or split fragmented ones. Even when exp...
+- **Lien** : https://arxiv.org/abs/2611.27913v1
 
-### Represented but misread: Post-training changes how language models read out what they represent
-- **arXiv** : 2611.26584v1
-- **Date** : 2026-11-19
-- **Auteurs** : Jochen Laubrock
+### Decision Columns as an Index: Interpretable Embeddings for Explainable Entity Matching and Search
+- **arXiv** : 2611.27910v1
+- **Date** : 2026-11-20
+- **Auteurs** : Aadharsh Kannan, Robert Bruckner, Philip A. Bernstein
 - **Score** : 3
-- **Résumé** : Does post-training change what a language model represents, or how this representation is read out into an answer? We compared linear probes with the models' own answers, analyzed with signal detection theory, in six open-weight base models and their post-trained versions. For judgments of whether G...
-- **Lien** : https://arxiv.org/abs/2611.26584v1
+- **Résumé** : Business data systems must determine whether records refer to the same entity and retrieve records satisfying requests whose decisive properties are implicit. As agents act on these records, both tasks require auditable reasons. Dense embeddings perform well but offer opaque coordinates, cannot be f...
+- **Lien** : https://arxiv.org/abs/2611.27910v1
 
-### LLM GerryMandering: Separating Interactions from Additive Effects in LLM Audits
-- **arXiv** : 2611.26538v1
-- **Date** : 2026-11-19
-- **Auteurs** : George Rahul, Ronit Jahilal, Bhaskara Hanuma Vedula, Ponnurangam Kumaraguru, Pushkar Shukla
+### SLICR: Strategy Logic-Guided Multi-Agent Reinforcement Learning
+- **arXiv** : 2611.27865v1
+- **Date** : 2026-11-20
+- **Auteurs** : Arshia Rafieioskouie, Matthew Lucas, Tzu-Han Hsu, Borzoo Bonakdarpour
 - **Score** : 3
-- **Résumé** : Intersectional bias arises when a model treats people who hold several marginalised identities at once differently from what their separate identities would predict. Auditing such intersectional subgroups remains a challenge: their number grows quadratically, and there is no agreed baseline for what...
-- **Lien** : https://arxiv.org/abs/2611.26538v1
+- **Résumé** : Specification-guided reinforcement learning (RL) translates formal specifications of desired behavior of agents into shaped rewards. This paper introduces SLICR, a significant paradigm shift that advances the state of the art to specification-guided RL in adversarial settings under partial observabi...
+- **Lien** : https://arxiv.org/abs/2611.27865v1
 
-### Backtracking Agent Applications Security Incidents
-- **arXiv** : 2611.26525v1
-- **Date** : 2026-11-19
-- **Auteurs** : Yicheng Cai, Taegyu Kim, Peng Liu
+### From Correctness to Consistency: Redefining Reliability for the Agentware Era
+- **arXiv** : 2611.27829v1
+- **Date** : 2026-11-20
+- **Auteurs** : Xue Qin, Maurício Gruppi
 - **Score** : 3
-- **Résumé** : Agent applications are increasingly deployed, yet agent-specific attacks pose real threats to them. Upon a security incident, organizations backtrack to identify the CEP (compromise entry point), remediate the damage, and prevent its recurrence. The main artifacts available for backtracking are traj...
-- **Lien** : https://arxiv.org/abs/2611.26525v1
+- **Résumé** : The rise of "vibe coding" has marginalized requirements analysis, allowing unverified "Make it Work" assumptions to accumulate into complex defects that evade standard testing. In the absence of a reliable ground truth oracle, we advocate a paradigm shift from correctness verification to logic consi...
+- **Lien** : https://arxiv.org/abs/2611.27829v1
 
-### AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher
-- **arXiv** : 2611.26510v1
-- **Date** : 2026-11-19
-- **Auteurs** : Guoxin Chen, Shuang Sun, Fanzhe Meng, Xinyu Tang, Ruihua Song
+### Autonomous quantum machine learning via Riemannian gradient-based optimization
+- **arXiv** : 2611.27815v1
+- **Date** : 2026-11-20
+- **Auteurs** : Kasidit Srimahajariyapong, Thiparat Chotibut, Suwannachad Suwannajitt, Tithivich Paka, Ricard Puig
 - **Score** : 3
-- **Résumé** : Task success alone does not specify which behaviors post-training should reinforce. Even successful teacher trajectories can contain unsupported assumptions, unproductive repetition, or superficial verification. We propose Skill-FT (Skill-Guided Fine-Tuning), which uses natural-language skills to su...
-- **Lien** : https://arxiv.org/abs/2611.26510v1
+- **Résumé** : Quantum machine learning models typically rely on repeated quantum measurements and classical optimization during training, making the quantum-to-classical information-extraction process a fundamental bottleneck for scalability. We propose a framework for autonomous self-training quantum machine lea...
+- **Lien** : https://arxiv.org/abs/2611.27815v1
+
+### SLP-Bench: Evaluating and Improving Acoustic Claims of Reasoning Audio Language Models on Clinical Speech
+- **arXiv** : 2611.27810v1
+- **Date** : 2026-11-20
+- **Auteurs** : Côme Hosxe, Rachid Riad, Quentin Spinat
+- **Score** : 3
+- **Résumé** : Audio language models (ALMs) can answer clinical questions from speech, outperforming baselines built on handcrafted acoustic features. Reasoning ALMs generate a chain of thought that refers to properties of the speaker's voice before predicting. Each statement the model makes about the voice needs ...
+- **Lien** : https://arxiv.org/abs/2611.27810v1
+
+### Non-penetrating World Models
+- **arXiv** : 2611.27963v1
+- **Date** : 2026-11-20
+- **Auteurs** : Yuhang Dai, Yinwei Wu, Ziyue Lin, Han Ji, Xingyi Yang
+- **Score** : 2
+- **Résumé** : We study a new problem of preventing object penetration in interactive video world models. To understand how existing models handle this, we introduce NoPeBench, a benchmark that evaluates how world models respond to physical obstacles. Our evaluation reveals that none of the open-source models can ...
+- **Lien** : https://arxiv.org/abs/2611.27963v1
+
+### A Methodologically Rigorous Benchmark of Linear Regression,RNN, and LSTM for S&amp;P 500 Forecasting:Identifying Sources of Performance Inflation in Financial DeepLearning
+- **arXiv** : 2611.27978v1
+- **Date** : 2026-11-20
+- **Auteurs** : Hari Sitaula, Joseph Opitz
+- **Score** : 1
+- **Résumé** : This study examines one-day-ahead forecasting of the S&amp;P 500 closing level using a 2006-2025 dataset that includes fundamental price data, macroeconomic indicators, and engineered technical features. We benchmark three model families, namely linear regression, vanilla recurrent neural networks (...
+- **Lien** : https://arxiv.org/abs/2611.27978v1
 
 <!-- ARXIV_FEED_END -->
