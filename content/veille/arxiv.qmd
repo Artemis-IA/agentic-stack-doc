@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### MemOnce: A Scalable Memory Architecture for Large Language Models
-- **arXiv** : 2611.27973v1
-- **Date** : 2026-11-20
-- **Auteurs** : Chang Nie, Chaoyou Fu, Songlin Liu, Yiqing Hu, Caifeng Shan
+### Factory-simulator: A process-oriented environment for evaluating manufacturing decisions against optimisation-based references
+- **arXiv** : 2611.29079v1
+- **Date** : 2026-11-21
+- **Auteurs** : Andrzej Wodecki, Wojciech Godlewski, Michał Chojna
+- **Score** : 9
+- **Résumé** : Motivated by discussions with an electronics contract manufacturer about decision support, Factory-simulator provides a deterministic manufacturing environment for controlled research on the business performance of large language model-based multi-agent systems (LLM-MAS). Equal delivery performance ...
+- **Lien** : https://arxiv.org/abs/2611.29079v1
+
+### Do LLM Agents Compromise Like Humans? Risk and Responsibility in Dyadic Decision-Making
+- **arXiv** : 2611.29069v1
+- **Date** : 2026-11-21
+- **Auteurs** : Noah S. Okada, Ketika Garg, Wenning Deng, Dean Mobbs
+- **Score** : 9
+- **Résumé** : Large language model (LLM)-based agents are increasingly deployed in settings where they must collaborate to make joint decisions. We investigate how this collaboration unfolds under risk, asking whether agents adjust their choices to accommodate their partners, how they assign responsibility for sh...
+- **Lien** : https://arxiv.org/abs/2611.29069v1
+
+### Ziv Meets Sumcheck: Zero-Knowledge Proofs of Floating-Point LLM Inference
+- **arXiv** : 2611.29188v1
+- **Date** : 2026-11-22
+- **Auteurs** : Hassan Khodaiemehr, Khadijeh Bagheri, Chen Feng
 - **Score** : 8
-- **Résumé** : Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory states for future inference, posing challenges for existing architectures. Standard Transformers accumulate layer-wise, token-level KV caches, incurring linear GPU memory growth and...
-- **Lien** : https://arxiv.org/abs/2611.27973v1
+- **Résumé** : Zero-knowledge proofs can show that a neural network produced a given output without revealing the network, but current systems for language models prove integer approximations of the model rather than the floating-point arithmetic that is actually deployed. Proving floating-point matrix multiplicat...
+- **Lien** : https://arxiv.org/abs/2611.29188v1
 
-### Who Grades the Agent? Privilege Separation for Coding-Agent Benchmarks
-- **arXiv** : 2611.27860v1
-- **Date** : 2026-11-20
-- **Auteurs** : Nathan Nour Houlamy, Mattia Favretto, Earlence Fernandes, Mauro Conti
+### Beyond Evidence Coverage: Encoding-Time Access in Multi-Agent Systems
+- **arXiv** : 2611.29107v1
+- **Date** : 2026-11-22
+- **Auteurs** : Joshua Huang, Ajit Mallavarapu, Elliott Kalt
 - **Score** : 8
-- **Résumé** : Benchmarks for AI-based coding agents are a staple of the current AI landscape, because they are the leading way to measure the performance of LLMs. Their scores guide business and research decisions. Evaluating coding agents is challenging, since they are able to manipulate their evaluation infrast...
-- **Lien** : https://arxiv.org/abs/2611.27860v1
+- **Résumé** : Cache-sharing multi-agent systems can retain every evidence token's representation while preventing cross-worker access during encoding. We test whether this coverage recovers joint-encoding quality using attention masks over two logical workers in frozen Qwen3-4B, Qwen3-8B, and Llama-3.1-8B-Instruc...
+- **Lien** : https://arxiv.org/abs/2611.29107v1
 
-### LesionAgent: Training-Free Agentic Tumor Tracking and Response Assessment in Longitudinal CT
-- **arXiv** : 2611.27876v1
-- **Date** : 2026-11-20
-- **Auteurs** : Maximilian Rokuss, Jeya Maria Jose Valanarasu, Alejandro Lozano, Benjamin Hamm, Yannick Kirchhoff
+### Seeing Is Not Acting: WARD Diagnoses the Evidence-to-State-to-Action Gap in Longitudinal Clinical Agents
+- **arXiv** : 2611.29243v1
+- **Date** : 2026-11-22
+- **Auteurs** : Chao Ding, Yidong Jiang, Junzhi Ning, Juncheng Wu, Yuhan Wang
+- **Score** : 7
+- **Résumé** : Large language models for longitudinal clinical care must revise their assessments and actions as patient information accumulates. However, benchmarks centered on isolated responses or final task outcomes provide limited insight into intermediate failures in evidence use, state updating, and action ...
+- **Lien** : https://arxiv.org/abs/2611.29243v1
+
+### When Can a Rewiring Control Test LLM Weight Readers? C2 and an Eligibility Protocol
+- **arXiv** : 2611.29120v1
+- **Date** : 2026-11-22
+- **Auteurs** : Vaishak Girish Kumar, Sanika Vilas Najan
+- **Score** : 7
+- **Résumé** : Large language models can predict the outputs of small neural networks from raw weights, but success could reflect recognition of weight-space regularities (fingerprints) rather than computation, and function-preserving controls cannot tell these apart. We propose C2, a counterfactual that permutes ...
+- **Lien** : https://arxiv.org/abs/2611.29120v1
+
+### SatMend: LLM Agents for Automated Software Repair in Satellite Constellations with Intermittent Ground Contact
+- **arXiv** : 2611.29227v1
+- **Date** : 2026-11-22
+- **Auteurs** : Pengcheng Luo, Zenghui Zhang, Genke Yang, Jian Chu
 - **Score** : 6
-- **Résumé** : Every few months, a cancer patient's CT scans decide whether treatment continues. 3D foundation models can now detect, segment, register and track lesions, yet none of them reads the scans as a radiologist does. A radiologist decides which findings are lesions, which are the same lesion months later...
-- **Lien** : https://arxiv.org/abs/2611.27876v1
+- **Résumé** : Satellite constellations rely on onboard software to sustain services across cooperating spacecraft. Maintaining this software requires handling related component versions and different failure causes while delivering repairs through intermittent ground contact. Automated software repair in satellit...
+- **Lien** : https://arxiv.org/abs/2611.29227v1
 
-### Beyond Self-Critique: Epistemic Convergence Control for Multi-Agent Research Verification
-- **arXiv** : 2611.27839v1
-- **Date** : 2026-11-20
-- **Auteurs** : Chrisantus Eze
+### Fixed or Deleted? External Feedback Lets Cheaper AI Coding Agents Repair Rule Violations
+- **arXiv** : 2611.29162v1
+- **Date** : 2026-11-22
+- **Auteurs** : Laura Wynter
 - **Score** : 6
-- **Résumé** : Multi-agent systems for scientific claim verification increasingly rely on role-structured LLM debate to pressure-test hypotheses. However, when debating agents are instantiated from the same underlying base model, they share identical latent representations, making self-critique bias structurally i...
-- **Lien** : https://arxiv.org/abs/2611.27839v1
+- **Résumé** : Many defects violate project rules that the code itself does not reveal, such as layering constraints or required tests. We study whether LLM coding agents repair such violations better when an external checker reports them, with their location and a repair goal. Three models, a small, medium and la...
+- **Lien** : https://arxiv.org/abs/2611.29162v1
 
-### DistDNA: Language Model Fingerprinting under Stochastic Decoding
-- **arXiv** : 2611.27831v1
-- **Date** : 2026-11-20
-- **Auteurs** : Lifan Hu, Qian Yu, Zhaomin Wu, Bingsheng He
+### ARC: Adaptive Rollout Control for Efficient Synchronous LLM Reinforcement Learning
+- **arXiv** : 2611.29156v1
+- **Date** : 2026-11-22
+- **Auteurs** : Yihui Zhang, Tianyu Wo, Jinghao Wang, Xiao Zhou, Huitian Xue
 - **Score** : 6
-- **Résumé** : Behavioral fingerprints identify a large language model (LLM) from its responses to a shared set of prompts, enabling applications such as verifying whether a deployed model corresponds to the checkpoint it claims to be. Deployed models, however, are commonly served with stochastic decoding, under w...
-- **Lien** : https://arxiv.org/abs/2611.27831v1
+- **Résumé** : Synchronous reinforcement learning (RL) for large language models proceeds through a repeated rollout--barrier--update loop. Each update must wait for a fixed number of complete, group-relative training samples, yet individual response lengths and reward outcomes vary widely and only emerge as gener...
+- **Lien** : https://arxiv.org/abs/2611.29156v1
 
-### Evaluating Prompting Strategies for Zero-Shot Multilingual Aspect-Based Sentiment Analysis with Large Language Models
-- **arXiv** : 2611.27807v1
-- **Date** : 2026-11-20
-- **Auteurs** : Jakub Šm{í}d, Pavel Kr{á}l
+### ContextFact: Remembering Facts in Context for Long-Term Conversational Agents
+- **arXiv** : 2611.29155v1
+- **Date** : 2026-11-22
+- **Auteurs** : Jiayu Huang, Yichao Cai, Xinyu Li, Zhen Zhang, Javen Qinfeng Shi
 - **Score** : 6
-- **Résumé** : While large language models (LLMs) have advanced natural language understanding, their ability to perform complex target-aspect-sentiment detection (TASD) -- a key task within aspect-based sentiment analysis (ABSA) -- in zero-shot multilingual settings remains underexplored. Existing ABSA research p...
-- **Lien** : https://arxiv.org/abs/2611.27807v1
+- **Résumé** : Agents built on large language models must maintain continuity across repeated interactions with users. However, long-term conversations scatter facts across turns and sessions, making it difficult to retrieve the right evidence with enough context. Memory for such conversations must therefore prese...
+- **Lien** : https://arxiv.org/abs/2611.29155v1
 
-### Search-RSI: Expanding Search Worlds Along Multimodal Agents' Capability Frontier
-- **arXiv** : 2611.27780v1
-- **Date** : 2026-11-20
-- **Auteurs** : Chengchao Lv, Yin Wang, Chunzheng Zhu, Wanli Chang
+### Decoding Transformer Dynamics via Koopman Subspaces
+- **arXiv** : 2611.29113v1
+- **Date** : 2026-11-22
+- **Auteurs** : Subhradeep Kayal, Ali Dashti
 - **Score** : 6
-- **Résumé** : Multimodal search agents answer knowledge intensive visual questions by grounding them in retrieved evidence, and recent recipes train them on multi hop tasks that are synthesized from knowledge graphs and grown online to keep pace with the agent. These recipes, however, treat the searchable world a...
-- **Lien** : https://arxiv.org/abs/2611.27780v1
+- **Résumé** : We apply Koopman operator theory and Dynamic Mode Decomposition (DMD) to characterise how large language models (LLMs) process different input topics. Treating the layer-to-layer evolution of hidden states as a dynamical system, we fit a linear Koopman operator and take the subspace spanned by its d...
+- **Lien** : https://arxiv.org/abs/2611.29113v1
 
-### QuASAR: Toward an LLM-Assisted Framework for Screening, Prototyping, and Assessing Quantum-Advantage Opportunities in Scientific Computing
-- **arXiv** : 2611.27778v1
-- **Date** : 2026-11-20
-- **Auteurs** : Mark L. Carroll, Jordan A. Caraballo-Vega, Brian P. Powell, John L. Schnase
+### Bridging Blind Spots With Words: Decentralized Multi-View Spatial Reasoning via Language-Constrained Communication
+- **arXiv** : 2611.29112v1
+- **Date** : 2026-11-22
+- **Auteurs** : Soumyabrata Chaudhuri, Joydeep Ghosh
 - **Score** : 6
-- **Résumé** : Identifying scientific computations that could benefit from quantum algorithms requires both domain knowledge and fluency in quantum algorithm design, expertise that rarely resides in one person. We report results from QuASAR, an experimental, two-agent, LLM-driven pipeline intended to bridge this g...
-- **Lien** : https://arxiv.org/abs/2611.27778v1
+- **Résumé** : As multimodal LLMs (MLLMs) get increasingly used as collaborative partners across embodied robotics, AR/VR, and multi-user systems, spatial reasoning is now often distributed across agents with partial environment visibility, necessitating spatial reasoning integration. Prior work in language-mediat...
+- **Lien** : https://arxiv.org/abs/2611.29112v1
 
-### TEA-Bench-BR: Can Coding Agents Turn a Branching Clinical Specification into Correct Code?
-- **arXiv** : 2611.27895v1
-- **Date** : 2026-11-20
-- **Auteurs** : Marcio Andre de Souza Estevam
+### Edit-Induced Dependency Mismatch: Propagation Omissions, Recovery, and Evaluation Blind Spots in Coding Agents
+- **arXiv** : 2611.29242v1
+- **Date** : 2026-11-22
+- **Auteurs** : Fei Ding
 - **Score** : 4
-- **Résumé** : Coding agents increasingly implement rules written by domain experts, and bugs in such code are silent: it runs and returns a plausible answer. We introduce TEA-Bench-BR, a benchmark built on the Brazilian pathway for early autism (TEA) screening: three fictitious instruments with the structure of r...
-- **Lien** : https://arxiv.org/abs/2611.27895v1
+- **Résumé** : During iterative code modification, coding agents may continue to rely in subsequent reasoning on outdated dependency judgments whose text remains fixed in the context, leading to errors in subsequent reasoning and leaving consumer defects undetected by the original task evaluations, thereby exposin...
+- **Lien** : https://arxiv.org/abs/2611.29242v1
 
-### Auditable Financial Knowledge Graphs: Schema-Driven Construction and Intrinsic Quality Evaluation
-- **arXiv** : 2611.27835v1
-- **Date** : 2026-11-20
-- **Auteurs** : Samarth Sarin, Lovepreet Singh, Dhagash Mehta
+### IteraSong: LLM-Guided Iterative Symbolic Music Creation in a Web DAW
+- **arXiv** : 2611.29225v1
+- **Date** : 2026-11-22
+- **Auteurs** : Di Lu, Xinran Zhang, Yan Gao, Yuan Zhang, Xiaoqing Wang
 - **Score** : 4
-- **Résumé** : Financial documents combine narrative disclosures, accounting metrics, corporate structures, management commentary, and time-dependent facts, making them difficult to represent using conventional chunk-based retrieval-augmented generation systems. This paper presents an auditable, schema-driven meth...
-- **Lien** : https://arxiv.org/abs/2611.27835v1
+- **Résumé** : Music creation is inherently iterative, yet many symbolic generation systems still center on producing or regenerating isolated outputs. We present IteraSong, an interactive web-based Digital Audio Workstation (DAW) for LLM-guided iterative symbolic music creation. Unlike one-shot generation systems...
+- **Lien** : https://arxiv.org/abs/2611.29225v1
 
-### SUAF: Spectral Universal Advantage Features for Zero-Shot Policy Improvement
-- **arXiv** : 2611.27919v1
-- **Date** : 2026-11-20
-- **Auteurs** : Huaze Tang, Runqing Miao, Tianren Peng, Lam Nguyen, Chao Wang
+### Implementation and Software-in-the-Loop Evaluation of a Trans-Domain Digital Twin Architecture for Autonomous Guidance of the Phoenix VTOL UAV Without Online GNSS
+- **arXiv** : 2611.29158v1
+- **Date** : 2026-11-22
+- **Auteurs** : Mansoorali Amiri
+- **Score** : 4
+- **Résumé** : Autonomous UAV guidance in emergency response, infrastructure monitoring, and cargo transportation requires reliable navigation. However, satellite-based positioning may become unavailable or unreliable in enclosed spaces, blind spots caused by natural obstacles and structures, and environments affe...
+- **Lien** : https://arxiv.org/abs/2611.29158v1
+
+### Fuzzy e-Means: Fuzzy c-Means on Large Data with Moving-Average Mini-Batch Updates
+- **arXiv** : 2611.29241v1
+- **Date** : 2026-11-22
+- **Auteurs** : Paritosh Tiwari, Punit Rathore
 - **Score** : 3
-- **Résumé** : Reward-independent representations enable reinforcement learning agents to reuse knowledge across tasks, but limited representation capacity raises three fundamental questions: what statistical dependence should these representations capture, which components of that dependence should be retained fo...
-- **Lien** : https://arxiv.org/abs/2611.27919v1
+- **Résumé** : Fuzzy c-means (FCM) gives every point a degree of membership in every cluster. Its standard solver, alternating optimization (AO), needs a full pass over the data per iteration and often many iterations, while methods built for large data stop at a worse objective or still need tens of passes. We ru...
+- **Lien** : https://arxiv.org/abs/2611.29241v1
 
-### StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning
-- **arXiv** : 2611.27915v1
-- **Date** : 2026-11-20
-- **Auteurs** : Chi Yan, Guoyang Zhao, Wentao Yuan, Yixiao Ge, Yanning Zhou
+### Tenlai-TTS 2.0: Continuous-Representation LLM-Based TTS System with End-to-End Training
+- **arXiv** : 2611.29226v1
+- **Date** : 2026-11-22
+- **Auteurs** : Changfeng Gao, Yong Ren, Jun Yuan, Zhengkun Tian, Ye Bai
 - **Score** : 3
-- **Résumé** : Vision-language models (VLMs) exhibit strong semantic understanding but remain limited in their ability to reason about metric 3D space in the physical world. Existing VLMs typically infer 3D scene structure from one or more images without known camera calibration or cross-view geometric constraints...
-- **Lien** : https://arxiv.org/abs/2611.27915v1
+- **Résumé** : Autoregressive text-to-speech (TTS) with continuous speech latents avoids quantization-induced information loss, but typically relies on a latent space that is learned separately and then frozen before language-model training. Such a space must satisfy two competing requirements: it must retain enou...
+- **Lien** : https://arxiv.org/abs/2611.29226v1
 
-### Star Panoptic Quality: Selectively Evaluating Split and Merged Instances
-- **arXiv** : 2611.27913v1
-- **Date** : 2026-11-20
-- **Auteurs** : Erik Großkopf, Paula Tamara Buzduga, Hendrik Möller, Florian Kofler
+### Direct Feedback Policy Optimization for AI Coding Agents
+- **arXiv** : 2611.29193v1
+- **Date** : 2026-11-22
+- **Auteurs** : Fei Ding
 - **Score** : 3
-- **Résumé** : Detecting individual instances is crucial for many segmentation problems. However, expert instance annotations are often unavailable, so instances are approximated heuristically (e.g., as connected components of semantic maps), which can merge touching objects or split fragmented ones. Even when exp...
-- **Lien** : https://arxiv.org/abs/2611.27913v1
+- **Résumé** : AI coding agents generate, modify, and validate code through multi-turn interactions. Existing reinforcement learning methods often rely on sparse terminal rewards, making it difficult to assess how intermediate decisions affect task outcomes, and group-relative methods also require repeated samplin...
+- **Lien** : https://arxiv.org/abs/2611.29193v1
 
-### Decision Columns as an Index: Interpretable Embeddings for Explainable Entity Matching and Search
-- **arXiv** : 2611.27910v1
-- **Date** : 2026-11-20
-- **Auteurs** : Aadharsh Kannan, Robert Bruckner, Philip A. Bernstein
+### On Adaptive Step Sizes for Eligibility Traces in Deep Reinforcement Learning
+- **arXiv** : 2611.29178v1
+- **Date** : 2026-11-22
+- **Auteurs** : Esraa Elelimy, Martha White
 - **Score** : 3
-- **Résumé** : Business data systems must determine whether records refer to the same entity and retrieve records satisfying requests whose decisive properties are implicit. As agents act on these records, both tasks require auditable reasons. Dense embeddings perform well but offer opaque coordinates, cannot be f...
-- **Lien** : https://arxiv.org/abs/2611.27910v1
+- **Résumé** : Many deep reinforcement learning (RL) algorithms store agent-environment interactions in a replay buffer and later learn by sampling transitions from it. However, this approach can be memory-inefficient and can delay learning because the agent can learn from a transition only when the buffer samples...
+- **Lien** : https://arxiv.org/abs/2611.29178v1
 
-### SLICR: Strategy Logic-Guided Multi-Agent Reinforcement Learning
-- **arXiv** : 2611.27865v1
-- **Date** : 2026-11-20
-- **Auteurs** : Arshia Rafieioskouie, Matthew Lucas, Tzu-Han Hsu, Borzoo Bonakdarpour
+### MVAgent: Per-Video Agents under Global Coordination for Multi-Video Understanding
+- **arXiv** : 2611.29154v1
+- **Date** : 2026-11-22
+- **Auteurs** : Kewei Wei, XueXiang Wen, Bocheng Hu, Weili Xu, Haiyang Yu
 - **Score** : 3
-- **Résumé** : Specification-guided reinforcement learning (RL) translates formal specifications of desired behavior of agents into shaped rewards. This paper introduces SLICR, a significant paradigm shift that advances the state of the art to specification-guided RL in adversarial settings under partial observabi...
-- **Lien** : https://arxiv.org/abs/2611.27865v1
-
-### From Correctness to Consistency: Redefining Reliability for the Agentware Era
-- **arXiv** : 2611.27829v1
-- **Date** : 2026-11-20
-- **Auteurs** : Xue Qin, Maurício Gruppi
-- **Score** : 3
-- **Résumé** : The rise of "vibe coding" has marginalized requirements analysis, allowing unverified "Make it Work" assumptions to accumulate into complex defects that evade standard testing. In the absence of a reliable ground truth oracle, we advocate a paradigm shift from correctness verification to logic consi...
-- **Lien** : https://arxiv.org/abs/2611.27829v1
-
-### Autonomous quantum machine learning via Riemannian gradient-based optimization
-- **arXiv** : 2611.27815v1
-- **Date** : 2026-11-20
-- **Auteurs** : Kasidit Srimahajariyapong, Thiparat Chotibut, Suwannachad Suwannajitt, Tithivich Paka, Ricard Puig
-- **Score** : 3
-- **Résumé** : Quantum machine learning models typically rely on repeated quantum measurements and classical optimization during training, making the quantum-to-classical information-extraction process a fundamental bottleneck for scalability. We propose a framework for autonomous self-training quantum machine lea...
-- **Lien** : https://arxiv.org/abs/2611.27815v1
-
-### SLP-Bench: Evaluating and Improving Acoustic Claims of Reasoning Audio Language Models on Clinical Speech
-- **arXiv** : 2611.27810v1
-- **Date** : 2026-11-20
-- **Auteurs** : Côme Hosxe, Rachid Riad, Quentin Spinat
-- **Score** : 3
-- **Résumé** : Audio language models (ALMs) can answer clinical questions from speech, outperforming baselines built on handcrafted acoustic features. Reasoning ALMs generate a chain of thought that refers to properties of the speaker's voice before predicting. Each statement the model makes about the voice needs ...
-- **Lien** : https://arxiv.org/abs/2611.27810v1
-
-### Non-penetrating World Models
-- **arXiv** : 2611.27963v1
-- **Date** : 2026-11-20
-- **Auteurs** : Yuhang Dai, Yinwei Wu, Ziyue Lin, Han Ji, Xingyi Yang
-- **Score** : 2
-- **Résumé** : We study a new problem of preventing object penetration in interactive video world models. To understand how existing models handle this, we introduce NoPeBench, a benchmark that evaluates how world models respond to physical obstacles. Our evaluation reveals that none of the open-source models can ...
-- **Lien** : https://arxiv.org/abs/2611.27963v1
-
-### A Methodologically Rigorous Benchmark of Linear Regression,RNN, and LSTM for S&amp;P 500 Forecasting:Identifying Sources of Performance Inflation in Financial DeepLearning
-- **arXiv** : 2611.27978v1
-- **Date** : 2026-11-20
-- **Auteurs** : Hari Sitaula, Joseph Opitz
-- **Score** : 1
-- **Résumé** : This study examines one-day-ahead forecasting of the S&amp;P 500 closing level using a 2006-2025 dataset that includes fundamental price data, macroeconomic indicators, and engineered technical features. We benchmark three model families, namely linear regression, vanilla recurrent neural networks (...
-- **Lien** : https://arxiv.org/abs/2611.27978v1
+- **Résumé** : Multi-video understanding requires systems to combine evidence from different videos for cross-video reasoning. Answering such questions involves two kinds of decisions. Observation decisions must adapt to each video's content, whereas cross-video judgments require relating evidence from different v...
+- **Lien** : https://arxiv.org/abs/2611.29154v1
 
 <!-- ARXIV_FEED_END -->

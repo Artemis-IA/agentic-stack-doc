@@ -91,20 +91,19 @@ graph LR
         Gemini 4 Carbon only supports low, medium and high reasoning levels - but Gemini 4 Hydrogen and Gemini 4 Neon both have an extra...
 - **Lien** : https://simonwillison.net/2026/Nov/20/llm-gemini/
 
-### llm-gemini 0.38
-- **Source** : Simon Willison
-- **Date** : 2026-11-18T23:59
-- **Score** : 2
-- **Résumé** : Release: llm-gemini 0.38
-        Today Google introduced Gemini 4 Neon. I <a href="https://...
-- **Lien** : https://simonwillison.net/2026/Nov/18/llm-gemini/
-
 ### How to build and maintain an agentic evaluation
 - **Source** : Hugging Face Blog
 - **Date** : Mon, 23 Nov 2026
 - **Score** : 2
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/agentic-evals
+
+### Richpanel helps companies automate 50% of support in 30 days
+- **Source** : OpenAI Blog
+- **Date** : Mon, 23 Nov 2026
+- **Score** : 2
+- **Résumé** : Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations....
+- **Lien** : https://openai.com/business/customer-stories/richpanel-ai-customer-support
 
 ### Hebbia sees improvements in financial research with GPT-6 Astra
 - **Source** : OpenAI Blog
@@ -155,6 +154,14 @@ graph LR
 - **Résumé** : November 18, 2026 — Google’s middle tier scores 61 on the Intelligence Index. Plus, Anthropic prices its IPO at $83....
 - **Lien** : https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/
 
+### datasette-charts 0.1a0
+- **Source** : Simon Willison
+- **Date** : 2026-11-23T00:37
+- **Score** : 1
+- **Résumé** : Release: datasette-charts 0.1a0
+        I've been thinking about this problem for over a year now, but on Sunday I finally fired up Claude Fable 5.2 to build an initial prototype. The prototype...
+- **Lien** : https://simonwillison.net/2026/Nov/23/datasette-charts/
+
 ### Quoting Levent Alpöge
 - **Source** : Simon Willison
 - **Date** : 2026-11-20T16:30
@@ -169,13 +176,6 @@ graph LR
 - **Résumé** : Token fraud is here and it’s BAD (YouTube)
 Claire Vo runs ChatPRD, an AI platform that helps product managers "turn an idea into a spec". The product has been live since the GPT-4 e...
 - **Lien** : https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/
-
-### Quoting Daniel Stenberg
-- **Source** : Simon Willison
-- **Date** : 2026-11-18T15:58
-- **Score** : 1
-- **Résumé** : During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during thes...
-- **Lien** : https://simonwillison.net/2026/Nov/18/daniel-stenberg/
 
 ### 180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers
 - **Source** : Hugging Face Blog
