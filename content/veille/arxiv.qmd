@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### Factory-simulator: A process-oriented environment for evaluating manufacturing decisions against optimisation-based references
-- **arXiv** : 2611.29079v1
-- **Date** : 2026-11-21
-- **Auteurs** : Andrzej Wodecki, Wojciech Godlewski, Michał Chojna
+### Language Models Steer on Injected Uncertainty Tokens, but Fail to Self-Monitor In Situ
+- **arXiv** : 2611.31228v1
+- **Date** : 2026-11-23
+- **Auteurs** : Daniel Theron
 - **Score** : 9
-- **Résumé** : Motivated by discussions with an electronics contract manufacturer about decision support, Factory-simulator provides a deterministic manufacturing environment for controlled research on the business performance of large language model-based multi-agent systems (LLM-MAS). Equal delivery performance ...
-- **Lien** : https://arxiv.org/abs/2611.29079v1
+- **Résumé** : Prompting language models to verbalize stepwise numerical confidence during generation is an increasingly popular approach for triggering backtracking and error correction in agentic reasoning. This strategy presupposes two capabilities: (1) in-situ monitoring fidelity (does confidence drop when an ...
+- **Lien** : https://arxiv.org/abs/2611.31228v1
 
-### Do LLM Agents Compromise Like Humans? Risk and Responsibility in Dyadic Decision-Making
-- **arXiv** : 2611.29069v1
-- **Date** : 2026-11-21
-- **Auteurs** : Noah S. Okada, Ketika Garg, Wenning Deng, Dean Mobbs
+### Agentic AI for Intent Management and Control in Autonomous Communication Networks
+- **arXiv** : 2611.31223v1
+- **Date** : 2026-11-23
+- **Auteurs** : Burak Demirel, Yu Wang, Pablo Soldati
 - **Score** : 9
-- **Résumé** : Large language model (LLM)-based agents are increasingly deployed in settings where they must collaborate to make joint decisions. We investigate how this collaboration unfolds under risk, asking whether agents adjust their choices to accommodate their partners, how they assign responsibility for sh...
-- **Lien** : https://arxiv.org/abs/2611.29069v1
+- **Résumé** : Artificial intelligence (AI)-driven automation will help future mobile networks translate high-level network intents into concrete network optimization or control actions. However, existing approaches often focus on intent management and orchestration, leaving the adaptation of underlying network op...
+- **Lien** : https://arxiv.org/abs/2611.31223v1
 
-### Ziv Meets Sumcheck: Zero-Knowledge Proofs of Floating-Point LLM Inference
-- **arXiv** : 2611.29188v1
-- **Date** : 2026-11-22
-- **Auteurs** : Hassan Khodaiemehr, Khadijeh Bagheri, Chen Feng
-- **Score** : 8
-- **Résumé** : Zero-knowledge proofs can show that a neural network produced a given output without revealing the network, but current systems for language models prove integer approximations of the model rather than the floating-point arithmetic that is actually deployed. Proving floating-point matrix multiplicat...
-- **Lien** : https://arxiv.org/abs/2611.29188v1
-
-### Beyond Evidence Coverage: Encoding-Time Access in Multi-Agent Systems
-- **arXiv** : 2611.29107v1
-- **Date** : 2026-11-22
-- **Auteurs** : Joshua Huang, Ajit Mallavarapu, Elliott Kalt
-- **Score** : 8
-- **Résumé** : Cache-sharing multi-agent systems can retain every evidence token's representation while preventing cross-worker access during encoding. We test whether this coverage recovers joint-encoding quality using attention masks over two logical workers in frozen Qwen3-4B, Qwen3-8B, and Llama-3.1-8B-Instruc...
-- **Lien** : https://arxiv.org/abs/2611.29107v1
-
-### Seeing Is Not Acting: WARD Diagnoses the Evidence-to-State-to-Action Gap in Longitudinal Clinical Agents
-- **arXiv** : 2611.29243v1
-- **Date** : 2026-11-22
-- **Auteurs** : Chao Ding, Yidong Jiang, Junzhi Ning, Juncheng Wu, Yuhan Wang
+### Verifying the Outputs of PDE Solvers: From Finite Elements to Neural Surrogates
+- **arXiv** : 2611.31211v1
+- **Date** : 2026-11-23
+- **Auteurs** : Konstantinos Dovelos
 - **Score** : 7
-- **Résumé** : Large language models for longitudinal clinical care must revise their assessments and actions as patient information accumulates. However, benchmarks centered on isolated responses or final task outcomes provide limited insight into intermediate failures in evidence use, state updating, and action ...
-- **Lien** : https://arxiv.org/abs/2611.29243v1
+- **Résumé** : Physics simulation outputs increasingly come from solvers that no expert inspects, such as third-party packages in automated pipelines, programs written by large language models (LLMs), and learned surrogates. In earlier work on cardiac pulsed field ablation, we proposed that solvers return a certif...
+- **Lien** : https://arxiv.org/abs/2611.31211v1
 
-### When Can a Rewiring Control Test LLM Weight Readers? C2 and an Eligibility Protocol
-- **arXiv** : 2611.29120v1
-- **Date** : 2026-11-22
-- **Auteurs** : Vaishak Girish Kumar, Sanika Vilas Najan
-- **Score** : 7
-- **Résumé** : Large language models can predict the outputs of small neural networks from raw weights, but success could reflect recognition of weight-space regularities (fingerprints) rather than computation, and function-preserving controls cannot tell these apart. We propose C2, a counterfactual that permutes ...
-- **Lien** : https://arxiv.org/abs/2611.29120v1
-
-### SatMend: LLM Agents for Automated Software Repair in Satellite Constellations with Intermittent Ground Contact
-- **arXiv** : 2611.29227v1
-- **Date** : 2026-11-22
-- **Auteurs** : Pengcheng Luo, Zenghui Zhang, Genke Yang, Jian Chu
+### Let Vision-Language Models Generate Images through Their Representations
+- **arXiv** : 2611.31237v1
+- **Date** : 2026-11-23
+- **Auteurs** : JB Kim, Byungwoo Jeon, Kyungmin Lee, Hyeonmo Kang, Cheonbok Park
 - **Score** : 6
-- **Résumé** : Satellite constellations rely on onboard software to sustain services across cooperating spacecraft. Maintaining this software requires handling related component versions and different failure causes while delivering repairs through intermittent ground contact. Automated software repair in satellit...
-- **Lien** : https://arxiv.org/abs/2611.29227v1
+- **Résumé** : Recent unified multimodal models aim to combine visual understanding and generation within a single model, yet effectively integrating the two capabilities remains challenging. Leveraging pretrained vision-language models offers a way to build on already learned multimodal knowledge, but making this...
+- **Lien** : https://arxiv.org/abs/2611.31237v1
 
-### Fixed or Deleted? External Feedback Lets Cheaper AI Coding Agents Repair Rule Violations
-- **arXiv** : 2611.29162v1
-- **Date** : 2026-11-22
-- **Auteurs** : Laura Wynter
+### CO-GRAFT: Attributing Reinforcement Learning Gains in Search Agents via Role-Level Policy Grafting
+- **arXiv** : 2611.31185v1
+- **Date** : 2026-11-23
+- **Auteurs** : Ramraj Chandradevan, Sayontan Ghosh, Vinoth Selvendran
 - **Score** : 6
-- **Résumé** : Many defects violate project rules that the code itself does not reveal, such as layering constraints or required tests. We study whether LLM coding agents repair such violations better when an external checker reports them, with their location and a repair goal. Three models, a small, medium and la...
-- **Lien** : https://arxiv.org/abs/2611.29162v1
+- **Résumé** : Reinforcement learning (RL) improves large language model search agents by up to 32 exact-match (EM) points over their pre-RL initializations, yet overall accuracy gains do not identify which underlying functional capabilities improve or interact during training. We introduce CO-GRAFT, a reward-agno...
+- **Lien** : https://arxiv.org/abs/2611.31185v1
 
-### ARC: Adaptive Rollout Control for Efficient Synchronous LLM Reinforcement Learning
-- **arXiv** : 2611.29156v1
-- **Date** : 2026-11-22
-- **Auteurs** : Yihui Zhang, Tianyu Wo, Jinghao Wang, Xiao Zhou, Huitian Xue
+### Precision-Aware Learning Rate Transfer Across Block Count in LLM Post-Training
+- **arXiv** : 2611.31166v1
+- **Date** : 2026-11-23
+- **Auteurs** : Nan Chen, Soledad Villar, Soufiane Hayou
 - **Score** : 6
-- **Résumé** : Synchronous reinforcement learning (RL) for large language models proceeds through a repeated rollout--barrier--update loop. Each update must wait for a fixed number of complete, group-relative training samples, yet individual response lengths and reward outcomes vary widely and only emerge as gener...
-- **Lien** : https://arxiv.org/abs/2611.29156v1
+- **Résumé** : The post-training of pretrained large language models, including supervised finetuning (SFT), direct preference optimization (DPO), and reinforcement learning with verifiable reward (RLVR), is very sensitive to the learning rate, and tuning it through grid search is costly in both computation and me...
+- **Lien** : https://arxiv.org/abs/2611.31166v1
 
-### ContextFact: Remembering Facts in Context for Long-Term Conversational Agents
-- **arXiv** : 2611.29155v1
-- **Date** : 2026-11-22
-- **Auteurs** : Jiayu Huang, Yichao Cai, Xinyu Li, Zhen Zhang, Javen Qinfeng Shi
+### Self-Upgrading Embodied Agents
+- **arXiv** : 2611.31117v1
+- **Date** : 2026-11-23
+- **Auteurs** : Jiajun Fan, Neil He, Qinglong Zheng, Changyi Yang, Tong Wei
 - **Score** : 6
-- **Résumé** : Agents built on large language models must maintain continuity across repeated interactions with users. However, long-term conversations scatter facts across turns and sessions, making it difficult to retrieve the right evidence with enough context. Memory for such conversations must therefore prese...
-- **Lien** : https://arxiv.org/abs/2611.29155v1
+- **Résumé** : An embodied agent built on a language model goes to work with the weights it was given and keeps them for life. To get better, it needs more training, or reflection, memory, search or prompts that cost every step and are lost when the task changes. Editing weights by reasoning, weight-space programm...
+- **Lien** : https://arxiv.org/abs/2611.31117v1
 
-### Decoding Transformer Dynamics via Koopman Subspaces
-- **arXiv** : 2611.29113v1
-- **Date** : 2026-11-22
-- **Auteurs** : Subhradeep Kayal, Ali Dashti
+### Preflight: Agentic Last-Mile Verification for AI Software Supply Chains
+- **arXiv** : 2611.31110v1
+- **Date** : 2026-11-23
+- **Auteurs** : Yaman Jandali, Nojan Sheybani, Farinaz Koushanfar, Tara Javidi
 - **Score** : 6
-- **Résumé** : We apply Koopman operator theory and Dynamic Mode Decomposition (DMD) to characterise how large language models (LLMs) process different input topics. Treating the layer-to-layer evolution of hidden states as a dynamical system, we fit a linear Koopman operator and take the subspace spanned by its d...
-- **Lien** : https://arxiv.org/abs/2611.29113v1
+- **Résumé** : Software dependencies execute within the trust boundary of downstream applications, yet provenance, static analysis, and package-level behavioral approaches do not directly determine how a released artifact behaves for a specific program. We present Preflight, a program-scoped pre-execution verifier...
+- **Lien** : https://arxiv.org/abs/2611.31110v1
 
-### Bridging Blind Spots With Words: Decentralized Multi-View Spatial Reasoning via Language-Constrained Communication
-- **arXiv** : 2611.29112v1
-- **Date** : 2026-11-22
-- **Auteurs** : Soumyabrata Chaudhuri, Joydeep Ghosh
+### LiveLoRA: Exact KV Cache Migration Across LoRA Updates for LLM Agents
+- **arXiv** : 2611.31105v1
+- **Date** : 2026-11-23
+- **Auteurs** : Tianyi Huang, Samuel Xu, Ivy Gu, Nathan Huang, Siqi Zhang
 - **Score** : 6
-- **Résumé** : As multimodal LLMs (MLLMs) get increasingly used as collaborative partners across embodied robotics, AR/VR, and multi-user systems, spatial reasoning is now often distributed across agents with partial environment visibility, necessitating spatial reasoning integration. Prior work in language-mediat...
-- **Lien** : https://arxiv.org/abs/2611.29112v1
+- **Résumé** : Updating an LLM adapter should not require replaying the full interaction history of every active session. Yet reusing key-value (KV) cache entries computed under an earlier version mixes model versions, while full-history re-prefill becomes increasingly costly as histories and session fleets grow. ...
+- **Lien** : https://arxiv.org/abs/2611.31105v1
 
-### Edit-Induced Dependency Mismatch: Propagation Omissions, Recovery, and Evaluation Blind Spots in Coding Agents
-- **arXiv** : 2611.29242v1
-- **Date** : 2026-11-22
-- **Auteurs** : Fei Ding
+### Orthogonally Mixed Sign Coding with Progressive Residual Refinement for Transformer Weight Compression
+- **arXiv** : 2611.31089v1
+- **Date** : 2026-11-23
+- **Auteurs** : Anindya Roy Chowdhury, Atanu Barai, Nandakishore Santhi
+- **Score** : 6
+- **Résumé** : LLM quantization reduces storage but often degrades predictive fidelity at low bit rates. We propose a training-free, CDF-free, Gaussian-CLT-motivated progressive residual-sign quantization framework that uses randomized orthogonal mixing to promote Gaussian-like residual distributions and improve s...
+- **Lien** : https://arxiv.org/abs/2611.31089v1
+
+### Seeking in Space: Benchmarking Purposeful Active Exploration of Vision-Language Models for Spatial Reasoning
+- **arXiv** : 2611.31215v1
+- **Date** : 2026-11-23
+- **Auteurs** : Xiwei Liu, Yulong Li, Xuhui Li, Xinlin Zhuang, Zhixiang Lu
 - **Score** : 4
-- **Résumé** : During iterative code modification, coding agents may continue to rely in subsequent reasoning on outdated dependency judgments whose text remains fixed in the context, leading to errors in subsequent reasoning and leaving consumer defects undetected by the original task evaluations, thereby exposin...
-- **Lien** : https://arxiv.org/abs/2611.29242v1
+- **Résumé** : Humans explore unfamiliar spaces with purpose, deciding where to look until they have gathered the evidence a spatial question requires. However, can vision-language models (VLMs), which reason increasingly well over curated images and videos, also seek in space when the evidence is not handed to th...
+- **Lien** : https://arxiv.org/abs/2611.31215v1
 
-### IteraSong: LLM-Guided Iterative Symbolic Music Creation in a Web DAW
-- **arXiv** : 2611.29225v1
-- **Date** : 2026-11-22
-- **Auteurs** : Di Lu, Xinran Zhang, Yan Gao, Yuan Zhang, Xiaoqing Wang
-- **Score** : 4
-- **Résumé** : Music creation is inherently iterative, yet many symbolic generation systems still center on producing or regenerating isolated outputs. We present IteraSong, an interactive web-based Digital Audio Workstation (DAW) for LLM-guided iterative symbolic music creation. Unlike one-shot generation systems...
-- **Lien** : https://arxiv.org/abs/2611.29225v1
-
-### Implementation and Software-in-the-Loop Evaluation of a Trans-Domain Digital Twin Architecture for Autonomous Guidance of the Phoenix VTOL UAV Without Online GNSS
-- **arXiv** : 2611.29158v1
-- **Date** : 2026-11-22
-- **Auteurs** : Mansoorali Amiri
-- **Score** : 4
-- **Résumé** : Autonomous UAV guidance in emergency response, infrastructure monitoring, and cargo transportation requires reliable navigation. However, satellite-based positioning may become unavailable or unreliable in enclosed spaces, blind spots caused by natural obstacles and structures, and environments affe...
-- **Lien** : https://arxiv.org/abs/2611.29158v1
-
-### Fuzzy e-Means: Fuzzy c-Means on Large Data with Moving-Average Mini-Batch Updates
-- **arXiv** : 2611.29241v1
-- **Date** : 2026-11-22
-- **Auteurs** : Paritosh Tiwari, Punit Rathore
+### Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action
+- **arXiv** : 2611.31240v1
+- **Date** : 2026-11-23
+- **Auteurs** : Seongchan Kim, Soowon Son, Sangoh Kim, Hyunah Ko, Eunbeen Hong
 - **Score** : 3
-- **Résumé** : Fuzzy c-means (FCM) gives every point a degree of membership in every cluster. Its standard solver, alternating optimization (AO), needs a full pass over the data per iteration and often many iterations, while methods built for large data stop at a worse objective or still need tens of passes. We ru...
-- **Lien** : https://arxiv.org/abs/2611.29241v1
+- **Résumé** : Reasoning vision-language-action (VLA) models for autonomous driving use chain-of-thought (CoT) reasoning to guide action generation, but incur substantial memory and computational costs. We study structured pruning for these models, focusing on preserving both scene understanding and trajectory pre...
+- **Lien** : https://arxiv.org/abs/2611.31240v1
 
-### Tenlai-TTS 2.0: Continuous-Representation LLM-Based TTS System with End-to-End Training
-- **arXiv** : 2611.29226v1
-- **Date** : 2026-11-22
-- **Auteurs** : Changfeng Gao, Yong Ren, Jun Yuan, Zhengkun Tian, Ye Bai
+### ACAP: Asynchronous Coding Agents for Efficient Robot Control
+- **arXiv** : 2611.31205v1
+- **Date** : 2026-11-23
+- **Auteurs** : Zexin He, Rui Li, Yushi Lan, Chengkai Jin, Zhi Hou
 - **Score** : 3
-- **Résumé** : Autoregressive text-to-speech (TTS) with continuous speech latents avoids quantization-induced information loss, but typically relies on a latent space that is learned separately and then frozen before language-model training. Such a space must satisfy two competing requirements: it must retain enou...
-- **Lien** : https://arxiv.org/abs/2611.29226v1
+- **Résumé** : Coding agents can construct and revise robot behavior during execution, but using one agent for the whole robot can delay otherwise independent work. We introduce Asynchronous Coding Agents as Policy (ACAP), an asynchronous framework that organizes one robot as a team of persistent agents. Each memb...
+- **Lien** : https://arxiv.org/abs/2611.31205v1
 
-### Direct Feedback Policy Optimization for AI Coding Agents
-- **arXiv** : 2611.29193v1
-- **Date** : 2026-11-22
-- **Auteurs** : Fei Ding
+### ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents
+- **arXiv** : 2611.31198v1
+- **Date** : 2026-11-23
+- **Auteurs** : Rui Sun, Junhua Huang, Luca Zancato, Md Mofijul Islam, Kai-Wei Chang
 - **Score** : 3
-- **Résumé** : AI coding agents generate, modify, and validate code through multi-turn interactions. Existing reinforcement learning methods often rely on sparse terminal rewards, making it difficult to assess how intermediate decisions affect task outcomes, and group-relative methods also require repeated samplin...
-- **Lien** : https://arxiv.org/abs/2611.29193v1
+- **Résumé** : Recent multimodal search agents use reasoning, vision, and live web search across many turns to answer questions beyond parametric knowledge by orchestrating a small library of hand-crafted search and visual tools. However, the library is laborious to create and maintain, and frozen when new query t...
+- **Lien** : https://arxiv.org/abs/2611.31198v1
 
-### On Adaptive Step Sizes for Eligibility Traces in Deep Reinforcement Learning
-- **arXiv** : 2611.29178v1
-- **Date** : 2026-11-22
-- **Auteurs** : Esraa Elelimy, Martha White
+### Needwise: Generation-Free Conversational Recommendation from Need-Level Typed Decisions
+- **arXiv** : 2611.31175v1
+- **Date** : 2026-11-23
+- **Auteurs** : Sungchul Kim, Weixiao Huang, Mekala Raja Sekhar Reddy, Amrutha Srinivasan
 - **Score** : 3
-- **Résumé** : Many deep reinforcement learning (RL) algorithms store agent-environment interactions in a replay buffer and later learn by sampling transitions from it. However, this approach can be memory-inefficient and can delay learning because the agent can learn from a transition only when the buffer samples...
-- **Lien** : https://arxiv.org/abs/2611.29178v1
+- **Résumé** : Conversational recommenders must rank items against needs that catalogs record only in part, while users add, withdraw and reverse needs and switch between requests. LLM rankers re-read the dialogue at every turn: they are slow, and their ordering does not show which needs an item meets. We show tha...
+- **Lien** : https://arxiv.org/abs/2611.31175v1
 
-### MVAgent: Per-Video Agents under Global Coordination for Multi-Video Understanding
-- **arXiv** : 2611.29154v1
-- **Date** : 2026-11-22
-- **Auteurs** : Kewei Wei, XueXiang Wen, Bocheng Hu, Weili Xu, Haiyang Yu
+### Habitats: A Framework for Open-Ended Evolution of Agent Objectives
+- **arXiv** : 2611.31160v1
+- **Date** : 2026-11-23
+- **Auteurs** : Nicolas Bolouri, Gaya Mehenni, Daniel Toyama
 - **Score** : 3
-- **Résumé** : Multi-video understanding requires systems to combine evidence from different videos for cross-video reasoning. Answering such questions involves two kinds of decisions. Observation decisions must adapt to each video's content, whereas cross-video judgments require relating evidence from different v...
-- **Lien** : https://arxiv.org/abs/2611.29154v1
+- **Résumé** : Designing what an agent should optimize can be as difficult as optimizing the agent itself. Existing language-model-based reward-generation methods typically refine objectives for predefined tasks and couple the decision of what to explore with the synthesis of how to implement it, potentially narro...
+- **Lien** : https://arxiv.org/abs/2611.31160v1
+
+### RUIBench: What Makes a Good Robot-Use Interface?
+- **arXiv** : 2611.31115v1
+- **Date** : 2026-11-23
+- **Auteurs** : Yanzhe Chen, Zhijun Cao, Zechen Bai, Wenzheng Zeng, Kevin Yuchen Ma
+- **Score** : 3
+- **Résumé** : Foundation models can reason about complex physical tasks, yet translating this intelligence into reliable robot execution remains challenging. We argue that a critical, often overlooked factor is the robot-use interface (RUI), which determines how agents express and execute physical actions. To sys...
+- **Lien** : https://arxiv.org/abs/2611.31115v1
+
+### Unlocking the Power of Loops in Pretrained LLMs with Loop Residuals
+- **arXiv** : 2611.31094v1
+- **Date** : 2026-11-23
+- **Auteurs** : Xuanlei Zhao, Hailun Xu, Kai Wang, Yang Luo, Yingxuan Ren
+- **Score** : 3
+- **Résumé** : Looped Transformers iterate a shared block of layers to increase computation without adding parameters, offering stronger performance and test-time scaling. However, this power has so far required training from scratch and yielded only modest gains for LLMs. Finetuning existing models into loops is ...
+- **Lien** : https://arxiv.org/abs/2611.31094v1
+
+### Revisiting Learning to Delegate: LLM Discovered Heuristics for Large-Scale Vehicle Routing
+- **arXiv** : 2611.31090v1
+- **Date** : 2026-11-23
+- **Auteurs** : Zhengyang Wang, Renfei Tan, Shuze Daniel Liu, David Simchi-Levi
+- **Score** : 3
+- **Résumé** : Efficient vehicle routing is critical to logistics and transportation, yet solving large-scale capacitated vehicle routing problems (CVRP) remains computationally challenging due to their combinatorial complexity. One approach to solve large-scale vehicle routing optimization is to identify promisin...
+- **Lien** : https://arxiv.org/abs/2611.31090v1
+
+### AI-Assisted Programming and Labor Demand
+- **arXiv** : 2611.31083v1
+- **Date** : 2026-11-23
+- **Auteurs** : Lindsey Raymond, Eleanor Wiske Dillon
+- **Score** : 3
+- **Résumé** : Generative AI has demonstrated human-level performance on technical work tasks, yet evidence on how these task-level capabilities are changing labor demand remains scarce. We study the firm-level adoption of GitHub Copilot, an AI coding assistant, across 5,414 multinational firms accounting for 38% ...
+- **Lien** : https://arxiv.org/abs/2611.31083v1
 
 <!-- ARXIV_FEED_END -->
