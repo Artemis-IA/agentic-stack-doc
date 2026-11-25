@@ -54,164 +54,164 @@ Cette section est automatiquement mise à jour par le script `scripts/veille_arx
 :::
 
 <!-- ARXIV_FEED_START -->
-### Language Models Steer on Injected Uncertainty Tokens, but Fail to Self-Monitor In Situ
-- **arXiv** : 2611.31228v1
-- **Date** : 2026-11-23
-- **Auteurs** : Daniel Theron
+### Can LLM Judges Catch Unsafe Clinical Actions? A Fault-Injection Study
+- **arXiv** : 2611.33012v1
+- **Date** : 2026-11-24
+- **Auteurs** : Neda Ghafouri
 - **Score** : 9
-- **Résumé** : Prompting language models to verbalize stepwise numerical confidence during generation is an increasingly popular approach for triggering backtracking and error correction in agentic reasoning. This strategy presupposes two capabilities: (1) in-situ monitoring fidelity (does confidence drop when an ...
-- **Lien** : https://arxiv.org/abs/2611.31228v1
+- **Résumé** : As clinical AI agents begin to interact with electronic health records (EHRs), large language models (LLMs) are increasingly used to evaluate their actions. But how reliably can these judges recognize clinically dangerous mistakes, especially when an agent appears to have completed its task successf...
+- **Lien** : https://arxiv.org/abs/2611.33012v1
 
-### Agentic AI for Intent Management and Control in Autonomous Communication Networks
-- **arXiv** : 2611.31223v1
-- **Date** : 2026-11-23
-- **Auteurs** : Burak Demirel, Yu Wang, Pablo Soldati
+### Leto: Utility-Centric Agent Memory
+- **arXiv** : 2611.33005v1
+- **Date** : 2026-11-24
+- **Auteurs** : Shuguang Chen, Salman Paracha
 - **Score** : 9
-- **Résumé** : Artificial intelligence (AI)-driven automation will help future mobile networks translate high-level network intents into concrete network optimization or control actions. However, existing approaches often focus on intent management and orchestration, leaving the adaptation of underlying network op...
-- **Lien** : https://arxiv.org/abs/2611.31223v1
+- **Résumé** : Large language model (LLM) agents rely on external memory to retain and reuse information across interactions. Existing memory systems treat memory as a record of the past and evaluate it by fidelity to the conversation. However, the value of memory lies in whether it improves the agent's response. ...
+- **Lien** : https://arxiv.org/abs/2611.33005v1
 
-### Verifying the Outputs of PDE Solvers: From Finite Elements to Neural Surrogates
-- **arXiv** : 2611.31211v1
-- **Date** : 2026-11-23
-- **Auteurs** : Konstantinos Dovelos
+### AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design
+- **arXiv** : 2611.33093v1
+- **Date** : 2026-11-24
+- **Auteurs** : Guangyuan Wang, Chengran Li, Minchen Luo, Jichen Feng, Mengdi Wang
+- **Score** : 8
+- **Résumé** : A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and still be wrong. AIChipBench asks what LLM coding agents need to build such hardwa...
+- **Lien** : https://arxiv.org/abs/2611.33093v1
+
+### Can a Frontier LLM Repair a Quantized Network by Tool-Free Weight-Space Programming?
+- **arXiv** : 2611.33031v1
+- **Date** : 2026-11-24
+- **Auteurs** : Steffen Urban
+- **Score** : 8
+- **Résumé** : We give four large language models (LLMs) of the Claude family the complete weights of a 20k-parameter CIFAR-10 CNN as text and ask them to produce a 4-bit network without tools, data or the ability to run inference. Standard round-to-nearest (RTN) quantization to 4 bit lowers the test accuracy from...
+- **Lien** : https://arxiv.org/abs/2611.33031v1
+
+### Draft Calibration for Speculative Decoding: Accelerating LLM Serving by Matching Draft and Target Distributions
+- **arXiv** : 2611.33111v1
+- **Date** : 2026-11-24
+- **Auteurs** : Yuxing Liu, Wei Zuo, Walid Krichene, Tong Zhang, Li Zhang
 - **Score** : 7
-- **Résumé** : Physics simulation outputs increasingly come from solvers that no expert inspects, such as third-party packages in automated pipelines, programs written by large language models (LLMs), and learned surrogates. In earlier work on cardiac pulsed field ablation, we proposed that solvers return a certif...
-- **Lien** : https://arxiv.org/abs/2611.31211v1
+- **Résumé** : Speculative decoding accelerates large language model (LLM) inference by employing a lightweight draft model to propose draft tokens and allowing the target model to verify the new tokens in parallel to improve inference-time compute utilization. The speedup relies on the acceptance probability of d...
+- **Lien** : https://arxiv.org/abs/2611.33111v1
 
-### Let Vision-Language Models Generate Images through Their Representations
-- **arXiv** : 2611.31237v1
-- **Date** : 2026-11-23
-- **Auteurs** : JB Kim, Byungwoo Jeon, Kyungmin Lee, Hyeonmo Kang, Cheonbok Park
+### Auditing the Judge: Human-Derived Bias Discovery, Quantification, and Mitigation in LLM Judges
+- **arXiv** : 2611.33065v1
+- **Date** : 2026-11-24
+- **Auteurs** : Hamin Koo, Chanjoo Jung, Fangzhao Wu, Jaehyung Kim
+- **Score** : 7
+- **Résumé** : While Large Language Models (LLMs) are increasingly deployed as automated evaluators in evaluation and training pipelines, their judgements are often affected by systematic biases that conflict with human preferences. Although prior work has identified various biases and proposed methods for detecti...
+- **Lien** : https://arxiv.org/abs/2611.33065v1
+
+### U-Statistics-Powered LLM Reasoning
+- **arXiv** : 2611.33064v1
+- **Date** : 2026-11-24
+- **Auteurs** : Shijin Gong, Kai Ye, Victor Chernozhukov, Xinyu Zhang, Chengchun Shi
+- **Score** : 7
+- **Résumé** : Since its introduction by DeepSeek, group relative policy optimization (GRPO) has been widely adopted for training large reasoning models and agents, spurring a proliferation of its variants. Yet the group size, a crucial hyperparameter in these GRPO-type algorithms, remains largely chosen by trial ...
+- **Lien** : https://arxiv.org/abs/2611.33064v1
+
+### Towards Realistic Evaluation of Uncertainty Quantification for LLM-Based Recommender Systems
+- **arXiv** : 2611.33036v1
+- **Date** : 2026-11-24
+- **Auteurs** : Hao Wu, Sipeng Chen, Weikai Li, Tianyi Chen, Qiancheng Yang
+- **Score** : 7
+- **Résumé** : Large language models (LLMs) provide a flexible interface for recommendation systems. However, their issued rankings require reliable instance-level uncertainty monitoring. In this scenario, comparing uncertainty quantification (UQ) methods becomes challenging because LLM rankers lack a standard ite...
+- **Lien** : https://arxiv.org/abs/2611.33036v1
+
+### SALSA: Sampling Adversarial Suffixes from Learned Distributions for LLM Safety Assessment
+- **arXiv** : 2611.33030v1
+- **Date** : 2026-11-24
+- **Auteurs** : Shivank Rajput, Himanshu Singh, A. V. Subramanyam
+- **Score** : 7
+- **Résumé** : Large language models (LLMs) remain vulnerable to jailbreak attacks, where adversaries append optimized suffixes to otherwise benign looking prompts to bypass safety alignment. Existing optimization-based GCG-style attacks can be effective, but they are expensive at inference time, and suffer from p...
+- **Lien** : https://arxiv.org/abs/2611.33030v1
+
+### Exploratory Midtraining for Robot Policies
+- **arXiv** : 2611.33130v1
+- **Date** : 2026-11-24
+- **Auteurs** :  Kshitiz, Zheyuan Hu, Robyn Wu, Yizhou Li, Yunchu Zhang
 - **Score** : 6
-- **Résumé** : Recent unified multimodal models aim to combine visual understanding and generation within a single model, yet effectively integrating the two capabilities remains challenging. Leveraging pretrained vision-language models offers a way to build on already learned multimodal knowledge, but making this...
-- **Lien** : https://arxiv.org/abs/2611.31237v1
+- **Résumé** : Robot policies predominantly learn from human-collected data emphasizing competent behavior, limiting coverage of the low-level behaviors needed to support autonomous improvement. We study how a form of midtraining can be used to build coverage over diverse low-level behaviors that connect challengi...
+- **Lien** : https://arxiv.org/abs/2611.33130v1
 
-### CO-GRAFT: Attributing Reinforcement Learning Gains in Search Agents via Role-Level Policy Grafting
-- **arXiv** : 2611.31185v1
-- **Date** : 2026-11-23
-- **Auteurs** : Ramraj Chandradevan, Sayontan Ghosh, Vinoth Selvendran
+### MetaFORGE: A Meta-Learning Framework for Harness Optimization in Automated Code Generation for Parallel Computing
+- **arXiv** : 2611.33119v1
+- **Date** : 2026-11-24
+- **Auteurs** : Scott Piersall, Yang Gao, Shenyang Liu, Liqiang Wang
 - **Score** : 6
-- **Résumé** : Reinforcement learning (RL) improves large language model search agents by up to 32 exact-match (EM) points over their pre-RL initializations, yet overall accuracy gains do not identify which underlying functional capabilities improve or interact during training. We introduce CO-GRAFT, a reward-agno...
-- **Lien** : https://arxiv.org/abs/2611.31185v1
+- **Résumé** : Large language models (LLMs) can generate parallel programs, but their correctness and performance depend strongly on the instructions that guide generation. We present 	extsc{MetaFORGE}, an execution-grounded meta-learning framework that iteratively optimizes persistent natural-language skill spec...
+- **Lien** : https://arxiv.org/abs/2611.33119v1
 
-### Precision-Aware Learning Rate Transfer Across Block Count in LLM Post-Training
-- **arXiv** : 2611.31166v1
-- **Date** : 2026-11-23
-- **Auteurs** : Nan Chen, Soledad Villar, Soufiane Hayou
+### Delegent: A Multi-Agent Harness That Reduces Cost without Sacrificing Performance
+- **arXiv** : 2611.33098v1
+- **Date** : 2026-11-24
+- **Auteurs** : Lingwei Gu, Jimmy Lin
 - **Score** : 6
-- **Résumé** : The post-training of pretrained large language models, including supervised finetuning (SFT), direct preference optimization (DPO), and reinforcement learning with verifiable reward (RLVR), is very sensitive to the learning rate, and tuning it through grid search is costly in both computation and me...
-- **Lien** : https://arxiv.org/abs/2611.31166v1
+- **Résumé** : Agents built on frontier language models are expensive. At every step, the frontier model re-reads its entire context and executes every subtask regardless of its difficulty. This paper explores the simple thesis that much of this cost can be removed by delegating easy subtasks to a small language m...
+- **Lien** : https://arxiv.org/abs/2611.33098v1
 
-### Self-Upgrading Embodied Agents
-- **arXiv** : 2611.31117v1
-- **Date** : 2026-11-23
-- **Auteurs** : Jiajun Fan, Neil He, Qinglong Zheng, Changyi Yang, Tong Wei
+### FOL-Proof: Verifying LLM Text-to-Logic Translations via Deterministic Semantics
+- **arXiv** : 2611.33078v1
+- **Date** : 2026-11-24
+- **Auteurs** : Yisrael Clark, Guy Katz
 - **Score** : 6
-- **Résumé** : An embodied agent built on a language model goes to work with the weights it was given and keeps them for life. To get better, it needs more training, or reflection, memory, search or prompts that cost every step and are lost when the task changes. Editing weights by reasoning, weight-space programm...
-- **Lien** : https://arxiv.org/abs/2611.31117v1
+- **Résumé** : Large Language Models (LLMs) are increasingly used to translate natural-language statements into first-order logic (FOL) to improve reasoning. However, LLMs are prone to errors, and so a semantically unfaithful FOL formula could corrupt downstream reasoning. We present FOL-Proof, a semantic firewall...
+- **Lien** : https://arxiv.org/abs/2611.33078v1
 
-### Preflight: Agentic Last-Mile Verification for AI Software Supply Chains
-- **arXiv** : 2611.31110v1
-- **Date** : 2026-11-23
-- **Auteurs** : Yaman Jandali, Nojan Sheybani, Farinaz Koushanfar, Tara Javidi
+### Worth the Wait? How Response Time and Streaming Shape Judgments of Generative AI Answers and Chatbot Engagement
+- **arXiv** : 2611.33050v1
+- **Date** : 2026-11-24
+- **Auteurs** : Zihan Chen, Di Zhu, Lei Nico Zheng
 - **Score** : 6
-- **Résumé** : Software dependencies execute within the trust boundary of downstream applications, yet provenance, static analysis, and package-level behavioral approaches do not directly determine how a released artifact behaves for a specific program. We present Preflight, a program-scoped pre-execution verifier...
-- **Lien** : https://arxiv.org/abs/2611.31110v1
+- **Résumé** : Answers from generative AI chatbots built on large language models (LLMs) now arrive at very different speeds: reasoning models deliberate before replying, while response caches can return a stored answer at once. Blind preference votes, which rank these models, are read as judgments of their text, ...
+- **Lien** : https://arxiv.org/abs/2611.33050v1
 
-### LiveLoRA: Exact KV Cache Migration Across LoRA Updates for LLM Agents
-- **arXiv** : 2611.31105v1
-- **Date** : 2026-11-23
-- **Auteurs** : Tianyi Huang, Samuel Xu, Ivy Gu, Nathan Huang, Siqi Zhang
+### LEGOSpec: A Composable and Efficient Framework for Speculative Draft Design and Training
+- **arXiv** : 2611.33004v1
+- **Date** : 2026-11-24
+- **Auteurs** : Hanzhen Wang, Jiaming Xu, Guohao Dai
 - **Score** : 6
-- **Résumé** : Updating an LLM adapter should not require replaying the full interaction history of every active session. Yet reusing key-value (KV) cache entries computed under an earlier version mixes model versions, while full-history re-prefill becomes increasingly costly as histories and session fleets grow. ...
-- **Lien** : https://arxiv.org/abs/2611.31105v1
+- **Résumé** : Speculative decoding accelerates large language model (LLM) generation using a lightweight draft. Existing methods evaluate complete recipes under different training configurations, leaving component effects, interactions, and composition benefits unclear. Therefore, we present LEGOSpec, a composabl...
+- **Lien** : https://arxiv.org/abs/2611.33004v1
 
-### Orthogonally Mixed Sign Coding with Progressive Residual Refinement for Transformer Weight Compression
-- **arXiv** : 2611.31089v1
-- **Date** : 2026-11-23
-- **Auteurs** : Anindya Roy Chowdhury, Atanu Barai, Nandakishore Santhi
-- **Score** : 6
-- **Résumé** : LLM quantization reduces storage but often degrades predictive fidelity at low bit rates. We propose a training-free, CDF-free, Gaussian-CLT-motivated progressive residual-sign quantization framework that uses randomized orthogonal mixing to promote Gaussian-like residual distributions and improve s...
-- **Lien** : https://arxiv.org/abs/2611.31089v1
+### A Bias in Disguise: Tiny Gradient Edits Stop a Small Language Model's Thinking Loops and Complement a Frontier Model's Weight Edit
+- **arXiv** : 2611.33133v1
+- **Date** : 2026-11-24
+- **Auteurs** : Hussamuddin Syed
+- **Score** : 5
+- **Résumé** : Qwen3.5-0.8B rarely finishes reasoning in thinking mode: at a 4,096-token budget only 1 or 2 of 500 MATH-500 answers close their think block (two seeds), and accuracy is 15.4%. A recent demonstration had GPT-6 Astra edit 131,072 of the model's weights without gradients and reported MATH-500 rising f...
+- **Lien** : https://arxiv.org/abs/2611.33133v1
 
-### Seeking in Space: Benchmarking Purposeful Active Exploration of Vision-Language Models for Spatial Reasoning
-- **arXiv** : 2611.31215v1
-- **Date** : 2026-11-23
-- **Auteurs** : Xiwei Liu, Yulong Li, Xuhui Li, Xinlin Zhuang, Zhixiang Lu
-- **Score** : 4
-- **Résumé** : Humans explore unfamiliar spaces with purpose, deciding where to look until they have gathered the evidence a spatial question requires. However, can vision-language models (VLMs), which reason increasingly well over curated images and videos, also seek in space when the evidence is not handed to th...
-- **Lien** : https://arxiv.org/abs/2611.31215v1
+### Shifter Quantization: Compact Representations for Native Integer Computation
+- **arXiv** : 2611.33080v1
+- **Date** : 2026-11-24
+- **Auteurs** : Yufeng Huang
+- **Score** : 5
+- **Résumé** : Groupwise quantization is used in LLM quantization to improve accuracy at low bit widths, but grouping weights keeps standard integer MMA from spanning the full dot product for efficient GPU inference. We develop a new quantization method, Shifter Quantization (SQ), that reconstructs native-width in...
+- **Lien** : https://arxiv.org/abs/2611.33080v1
 
-### Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action
-- **arXiv** : 2611.31240v1
-- **Date** : 2026-11-23
-- **Auteurs** : Seongchan Kim, Soowon Son, Sangoh Kim, Hyunah Ko, Eunbeen Hong
+### DiaCap: Jointly Learning Who Speaks When for Audiovisual Dialogue Captioning
+- **arXiv** : 2611.33153v1
+- **Date** : 2026-11-24
+- **Auteurs** : Binfei Ji, Zhiwen Cao, Anqi Yang, Prem Seetharaman, Shuo Yang
 - **Score** : 3
-- **Résumé** : Reasoning vision-language-action (VLA) models for autonomous driving use chain-of-thought (CoT) reasoning to guide action generation, but incur substantial memory and computational costs. We study structured pruning for these models, focusing on preserving both scene understanding and trajectory pre...
-- **Lien** : https://arxiv.org/abs/2611.31240v1
+- **Résumé** : We present DiaCap, an audiovisual LLM for comprehensive dialogue captioning, which produces the transcript, timestamps, and a visual description of the speaker for every utterance in a video. Considering that utterance timing and audiovisual diarization are tightly coupled, DiaCap unifies the tasks ...
+- **Lien** : https://arxiv.org/abs/2611.33153v1
 
-### ACAP: Asynchronous Coding Agents for Efficient Robot Control
-- **arXiv** : 2611.31205v1
-- **Date** : 2026-11-23
-- **Auteurs** : Zexin He, Rui Li, Yushi Lan, Chengkai Jin, Zhi Hou
+### BioLoom: Scaling Biomedical Vision-Language Models by Learning from the Structure of Scientific Articles
+- **arXiv** : 2611.33151v1
+- **Date** : 2026-11-24
+- **Auteurs** : Yuwei Yang, Xiaoxiao Sun, Alejandro Lozano, Yuan-Sen Ting, Yuhui Yuan
 - **Score** : 3
-- **Résumé** : Coding agents can construct and revise robot behavior during execution, but using one agent for the whole robot can delay otherwise independent work. We introduce Asynchronous Coding Agents as Policy (ACAP), an asynchronous framework that organizes one robot as a team of persistent agents. Each memb...
-- **Lien** : https://arxiv.org/abs/2611.31205v1
+- **Résumé** : The development of biomedical vision-language models (VLMs) with contrastive image-text pretraining has been driven by scaling to increasingly large and diverse image-text datasets. Beyond scaling, further progress can come from learning richer representations from existing data. We hypothesize that...
+- **Lien** : https://arxiv.org/abs/2611.33151v1
 
-### ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents
-- **arXiv** : 2611.31198v1
-- **Date** : 2026-11-23
-- **Auteurs** : Rui Sun, Junhua Huang, Luca Zancato, Md Mofijul Islam, Kai-Wei Chang
+### CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies
+- **arXiv** : 2611.33148v1
+- **Date** : 2026-11-24
+- **Auteurs** : Dawid J. Kopiczko, Tijmen Blankevoort, Yuki M. Asano
 - **Score** : 3
-- **Résumé** : Recent multimodal search agents use reasoning, vision, and live web search across many turns to answer questions beyond parametric knowledge by orchestrating a small library of hand-crafted search and visual tools. However, the library is laborious to create and maintain, and frozen when new query t...
-- **Lien** : https://arxiv.org/abs/2611.31198v1
-
-### Needwise: Generation-Free Conversational Recommendation from Need-Level Typed Decisions
-- **arXiv** : 2611.31175v1
-- **Date** : 2026-11-23
-- **Auteurs** : Sungchul Kim, Weixiao Huang, Mekala Raja Sekhar Reddy, Amrutha Srinivasan
-- **Score** : 3
-- **Résumé** : Conversational recommenders must rank items against needs that catalogs record only in part, while users add, withdraw and reverse needs and switch between requests. LLM rankers re-read the dialogue at every turn: they are slow, and their ordering does not show which needs an item meets. We show tha...
-- **Lien** : https://arxiv.org/abs/2611.31175v1
-
-### Habitats: A Framework for Open-Ended Evolution of Agent Objectives
-- **arXiv** : 2611.31160v1
-- **Date** : 2026-11-23
-- **Auteurs** : Nicolas Bolouri, Gaya Mehenni, Daniel Toyama
-- **Score** : 3
-- **Résumé** : Designing what an agent should optimize can be as difficult as optimizing the agent itself. Existing language-model-based reward-generation methods typically refine objectives for predefined tasks and couple the decision of what to explore with the synthesis of how to implement it, potentially narro...
-- **Lien** : https://arxiv.org/abs/2611.31160v1
-
-### RUIBench: What Makes a Good Robot-Use Interface?
-- **arXiv** : 2611.31115v1
-- **Date** : 2026-11-23
-- **Auteurs** : Yanzhe Chen, Zhijun Cao, Zechen Bai, Wenzheng Zeng, Kevin Yuchen Ma
-- **Score** : 3
-- **Résumé** : Foundation models can reason about complex physical tasks, yet translating this intelligence into reliable robot execution remains challenging. We argue that a critical, often overlooked factor is the robot-use interface (RUI), which determines how agents express and execute physical actions. To sys...
-- **Lien** : https://arxiv.org/abs/2611.31115v1
-
-### Unlocking the Power of Loops in Pretrained LLMs with Loop Residuals
-- **arXiv** : 2611.31094v1
-- **Date** : 2026-11-23
-- **Auteurs** : Xuanlei Zhao, Hailun Xu, Kai Wang, Yang Luo, Yingxuan Ren
-- **Score** : 3
-- **Résumé** : Looped Transformers iterate a shared block of layers to increase computation without adding parameters, offering stronger performance and test-time scaling. However, this power has so far required training from scratch and yielded only modest gains for LLMs. Finetuning existing models into loops is ...
-- **Lien** : https://arxiv.org/abs/2611.31094v1
-
-### Revisiting Learning to Delegate: LLM Discovered Heuristics for Large-Scale Vehicle Routing
-- **arXiv** : 2611.31090v1
-- **Date** : 2026-11-23
-- **Auteurs** : Zhengyang Wang, Renfei Tan, Shuze Daniel Liu, David Simchi-Levi
-- **Score** : 3
-- **Résumé** : Efficient vehicle routing is critical to logistics and transportation, yet solving large-scale capacitated vehicle routing problems (CVRP) remains computationally challenging due to their combinatorial complexity. One approach to solve large-scale vehicle routing optimization is to identify promisin...
-- **Lien** : https://arxiv.org/abs/2611.31090v1
-
-### AI-Assisted Programming and Labor Demand
-- **arXiv** : 2611.31083v1
-- **Date** : 2026-11-23
-- **Auteurs** : Lindsey Raymond, Eleanor Wiske Dillon
-- **Score** : 3
-- **Résumé** : Generative AI has demonstrated human-level performance on technical work tasks, yet evidence on how these task-level capabilities are changing labor demand remains scarce. We study the firm-level adoption of GitHub Copilot, an AI coding assistant, across 5,414 multinational firms accounting for 38% ...
-- **Lien** : https://arxiv.org/abs/2611.31083v1
+- **Résumé** : Reasoning models become long-horizon agents through reinforcement learning or, more cheaply, through fine-tuning on a stronger teacher's trajectories, which contain the teacher's chain-of-thought as well as its actions. The standard fine-tuning approach imitates both, yet the strongest teachers are ...
+- **Lien** : https://arxiv.org/abs/2611.33148v1
 
 <!-- ARXIV_FEED_END -->

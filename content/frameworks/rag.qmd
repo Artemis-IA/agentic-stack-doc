@@ -128,19 +128,19 @@ graph LR
 ### [Flowise](https://github.com/FlowiseAI/Flowise)
 Build AI Agents, Visually
 
-⭐ 55.6k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-11-24
+⭐ 55.6k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-11-25
 **Tags** : `agentic-ai`, `agentic-workflow`, `agents`, `artificial-intelligence`, `chatbot`, `chatgpt`, `javascript`, `langchain`
 
-### [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
-Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection.
+### [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
+!DeusData/codebase-memory-mcp MCP server 🌊 🏠 🍎 🪟 🐧 - Indexes a repo into a persistent local knowledge graph of functions, classes, call chains, HTTP routes and cross-service links, using tree-sitte...
 
-⭐ 49.1k | `C` | Licence: MIT | MAJ: 2026-11-25
+⭐ 49.2k | `C` | Licence: MIT | MAJ: 2026-11-25
 **Tags** : `aider`, `ast`, `claude-code`, `code-analysis`, `code-intelligence`, `codex`, `cursor`, `cypher`
 
 ### [XERJ](https://github.com/xerj-org/xerj)
 Search engine for AI agents in one Rust binary. Indexes local code, docs, specs and logs, returns cited passages via BM25, vector and hybrid search, and keeps agent memory; local stdio MCP server i...
 
-⭐ 21.4k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-25
+⭐ 21.5k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-25
 **Tags** : `agent-memory`, `ai-agents`, `bm25`, `claude-code`, `cli`, `code-search`, `cursor`, `database`
 
 ### [EvoAgentX](https://github.com/ANative-Lab/EvoAgentX)
@@ -152,7 +152,7 @@ EvoAgentX is building a Self-Evolving Ecosystem of AI Agents, it will give you a
 ### [fabio-rovai/open-ontologies](https://github.com/fabio-rovai/open-ontologies)
 !open-ontologies MCP server 🦀 🏠 - Ontology engineering for OWL, RDF and SPARQL: validate, query, diff, lint, version and govern knowledge graphs on an Oxigraph triple store.
 
-⭐ 3.0k | `Rust` | Licence: MIT | MAJ: 2026-11-24
+⭐ 3.0k | `Rust` | Licence: MIT | MAJ: 2026-11-25
 **Tags** : `ai-native`, `description-logics`, `formal-verification`, `infrastructure-as-code`, `isabelle-language`, `knowledge-graph`, `lean`, `lean4`
 
 ### [Agentset](https://github.com/agentset-ai/agentset)
@@ -164,7 +164,7 @@ Open-source production-ready RAG platform with built-in agentic reasoning, hybri
 ### [IWE](https://github.com/iwe-org/iwe)
 Markdown knowledge graph for you and your AI agents — editor LSP plus CLI and MCP server so agents can search, retrieve, and refactor plain-text notes. !GitHub Repo stars
 
-⭐ 1.8k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-24
+⭐ 1.8k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-25
 **Tags** : `ai-agents`, `ai-memory`, `cli`, `helix`, `knowledge-graph`, `knowledge-management`, `language-server`, `local-first`
 
 ### [RepoAgent](https://github.com/OpenBMB/RepoAgent)
@@ -194,7 +194,7 @@ A python package for Txt-to-SQL with self hosting functionalities and RESTful AP
 ### [shinpr/mcp-local-rag](https://github.com/shinpr/mcp-local-rag)
 📇 🏠 - Local document search: semantic search over PDF, DOCX, TXT and Markdown files with LanceDB vector storage and local embeddings.
 
-⭐ 436 | `TypeScript` | Licence: MIT | MAJ: 2026-11-20
+⭐ 437 | `TypeScript` | Licence: MIT | MAJ: 2026-11-25
 **Tags** : `agent-skills`, `cli-tool`, `developer-tools`, `hybrid-search`, `local-first`, `local-rag`, `mcp`, `mcp-server`
 
 ### [Open-RAG-Eval](https://github.com/vectara/open-rag-eval)
@@ -230,7 +230,7 @@ an open source RAG evaluation framework that does not require golden answers, an
 ### [roomi-fields/notebooklm-mcp](https://github.com/roomi-fields/notebooklm-mcp)
 !notebooklm-mcp MCP server 📇 🏠 🍎 🪟 🐧 - Automate Google NotebookLM: Q&A with citations, audio podcasts, video, content generation, source management and notebook library.
 
-⭐ 242 | `TypeScript` | Licence: MIT | MAJ: 2026-11-24
+⭐ 243 | `TypeScript` | Licence: MIT | MAJ: 2026-11-25
 **Tags** : `agentic-skill`, `anthropic`, `automation`, `citations`, `claude-code`, `claude-skills`, `codex`, `gemini-notebook`
 
 ### [alibaizhanov/mengram](https://github.com/alibaizhanov/mengram)
