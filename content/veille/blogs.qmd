@@ -83,13 +83,12 @@ graph LR
 - **Résumé** : November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with....
 - **Lien** : https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/
 
-### llm-gemini 0.38.1
+### Three LLM inflection points in twelve months
 - **Source** : Simon Willison
-- **Date** : 2026-11-20T03:01
+- **Date** : 2026-11-24T23:02
 - **Score** : 2
-- **Résumé** : Release: llm-gemini 0.38.1
-        Gemini 4 Carbon only supports low, medium and high reasoning levels - but Gemini 4 Hydrogen and Gemini 4 Neon both have an extra...
-- **Lien** : https://simonwillison.net/2026/Nov/20/llm-gemini/
+- **Résumé** : I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents i...
+- **Lien** : https://simonwillison.net/2026/Nov/24/llm-inflection-points/
 
 ### How to build and maintain an agentic evaluation
 - **Source** : Hugging Face Blog
@@ -104,13 +103,6 @@ graph LR
 - **Score** : 2
 - **Résumé** : Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations....
 - **Lien** : https://openai.com/business/customer-stories/richpanel-ai-customer-support
-
-### Hebbia sees improvements in financial research with GPT-6 Astra
-- **Source** : OpenAI Blog
-- **Date** : Fri, 20 Nov 2026
-- **Score** : 2
-- **Résumé** : Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality....
-- **Lien** : https://openai.com/business/customer-stories/hebbia
 
 ### Last Week in AI #348 - IPO->Correction, new GPTs and Geminis, Nvidia’s Fate
 - **Source** : Last Week in AI
@@ -154,6 +146,16 @@ graph LR
 - **Résumé** : November 18, 2026 — Google’s middle tier scores 61 on the Intelligence Index. Plus, Anthropic prices its IPO at $83....
 - **Lien** : https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/
 
+### GPT 6.2 Astra Solves a Historical Mystery
+- **Source** : Simon Willison
+- **Date** : 2026-11-24T16:53
+- **Score** : 1
+- **Résumé** : GPT 6.2 Astra Solves a Historical Mystery
+Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries:
+
+With o...
+- **Lien** : https://simonwillison.net/2026/Nov/24/astra-historical-mystery/
+
 ### datasette-agent 0.7a1
 - **Source** : Simon Willison
 - **Date** : 2026-11-24T03:45
@@ -170,13 +172,6 @@ graph LR
         I've been thinking about this problem for over a year now, but on Sunday I finally fired up Claude Fable 5.2 to build an initial prototype. The prototype...
 - **Lien** : https://simonwillison.net/2026/Nov/23/datasette-charts/
 
-### Quoting Levent Alpöge
-- **Source** : Simon Willison
-- **Date** : 2026-11-20T16:30
-- **Score** : 1
-- **Résumé** : I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expe...
-- **Lien** : https://simonwillison.net/2026/Nov/20/levent-alpoge/
-
 ### 180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers
 - **Source** : Hugging Face Blog
 - **Date** : Wed, 18 Nov 2026
@@ -184,12 +179,26 @@ graph LR
 - **Résumé** : ...
 - **Lien** : https://huggingface.co/blog/moe-expert-streaming
 
-### How OpenAI’s Performance Factory keeps ChatGPT fast
+### GPT-6 models demonstrate intrinsic protein-design capabilities
 - **Source** : OpenAI Blog
-- **Date** : Thu, 19 Nov 2026
+- **Date** : Tue, 24 Nov 2026
 - **Score** : 1
-- **Résumé** : Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast....
-- **Lien** : https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast
+- **Résumé** : GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets....
+- **Lien** : https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities
+
+### How iFood scales coding agents across 15,000 repositories
+- **Source** : OpenAI Blog
+- **Date** : Tue, 24 Nov 2026
+- **Score** : 1
+- **Résumé** : ...
+- **Lien** : https://openai.com/business/customer-stories/ifood
+
+### Clay helps sales teams win with Codex and ChatGPT
+- **Source** : OpenAI Blog
+- **Date** : Tue, 24 Nov 2026
+- **Score** : 1
+- **Résumé** : ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning....
+- **Lien** : https://openai.com/business/customer-stories/clay-plugins-openai
 
 ### Last Week (Month) in AI #347 - Nvidia's spy, Anthropic's $1.4T IPO, AI's blue wave
 - **Source** : Last Week in AI
