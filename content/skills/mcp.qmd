@@ -121,54 +121,6 @@ MCP devient le **standard de facto** pour connecter les agents IA aux outils ext
 ## MCP Servers découverts automatiquement
 
 <!-- TOOLS_MCP_START -->
-### [rea](https://github.com/morluto/rea)
-Reverse engineer anything with agents, from app behavior down to native binaries.
-
-⭐ 478.5k | `TypeScript` | Licence: MIT | MAJ: 2026-11-26
-**Tags** : `agent-skills`, `ai`, `android`, `claude-code`, `cli`, `cpp`, `dsh-plugin`, `html`
-
-### [n8n](https://github.com/n8n-io/n8n)
-Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
-
-⭐ 212.1k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-11-26
-**Tags** : `ai`, `apis`, `automation`, `cli`, `data-flow`, `development`, `integration-framework`, `integrations`
-
-### [JavaGuide](https://github.com/Snailclimb/JavaGuide)
-Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
-
-⭐ 159.7k | `JavaScript` | Licence: Apache-2.0 | MAJ: 2026-11-26
-**Tags** : `agent`, `ai`, `context-engineering`, `deepseek`, `interview`, `java`, `mcp`, `mysql`
-
-### [cc-switch](https://github.com/farion1231/cc-switch)
-A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io
-
-⭐ 157.2k | `Rust` | Licence: MIT | MAJ: 2026-11-26
-**Tags** : `ai-tools`, `claude-code`, `codex`, `deepseek-harness`, `desktop-app`, `grok`, `grokbuild`, `hermes`
-
-### [Scrapling](https://github.com/D4Vinci/Scrapling)
-🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tri...
-
-⭐ 105.8k | `Python` | Licence: BSD-3-Clause | MAJ: 2026-11-26
-**Tags** : `ai`, `ai-scraping`, `automation`, `crawler`, `crawling`, `crawling-python`, `data`, `data-extraction`
-
-### [RuView](https://github.com/ruvnet/RuView)
-π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.
-
-⭐ 105.2k | `Rust` | Licence: MIT | MAJ: 2026-11-26
-**Tags** : `claude`, `claude-code`, `esp32`, `firmware`, `home-assistant`, `home-automation`, `iot`, `mcp`
-
-### [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
-A collection of MCP servers.
-
-⭐ 98.5k | Licence: MIT | MAJ: 2026-11-26
-**Tags** : `ai`, `mcp`
-
-### [worldmonitor](https://github.com/koala73/worldmonitor)
-Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface
-
-⭐ 91.2k | `TypeScript` | Licence: AGPL-3.0 | MAJ: 2026-11-26
-**Tags** : `agent`, `ai`, `dashboard`, `gemini-cli-extension`, `geopolitics`, `mcp`, `mcp-server`, `monitoring`
-
 ### [lightpanda-io/browser](https://github.com/lightpanda-io/browser)
 🏠 🍎 🐧 - Headless browser for AI and web automation with a built-in MCP server.
 
@@ -178,7 +130,7 @@ Real-time global intelligence dashboard. AI-powered news aggregation, geopolitic
 ### [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)
 Playwright browser automation: interact with web pages through structured accessibility snapshots.
 
-⭐ 40.1k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-11-26
+⭐ 40.2k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-11-26
 **Tags** : `mcp`, `playwright`
 
 ### [GPT Researcher](https://github.com/assafelovic/gpt-researcher)
@@ -187,16 +139,40 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ⭐ 30.9k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-26
 **Tags** : `agent`, `ai`, `automation`, `deepresearch`, `llms`, `mcp`, `mcp-server`, `python`
 
+### [fastmcp](https://github.com/PrefectHQ/fastmcp)
+🚀 The fast, Pythonic way to build MCP servers and clients.
+
+⭐ 28.8k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-26
+**Tags** : `agents`, `fastmcp`, `llms`, `mcp`, `mcp-clients`, `mcp-servers`, `mcp-tools`, `model-context-protocol`
+
 ### [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master)
 📇 ☁️ 🏠 - Task management for AI-driven development: PRD parsing, task expansion, multi-provider support and selective tool loading to save context.
 
-⭐ 28.5k | `JavaScript` | Licence: NOASSERTION | MAJ: 2026-11-26
+⭐ 28.6k | `JavaScript` | Licence: NOASSERTION | MAJ: 2026-11-26
 **Tags** : `ai`, `cursor`, `cursor-ai`, `cursorai`, `lovable`, `lovable-dev`, `roocode`, `task-manager`
+
+### [Douyin_TikTok_Download_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API)
+🚀 自托管的抖音、TikTok、B 站数据采集与无水印视频下载 API，支持 AI agent 通过 MCP 调用与离线语音转文字，Docker 一键部署。| Self-hosted TikTok, Douyin & Bilibili scraper and no-watermark video downloader — async REST API, MCP server for AI a...
+
+⭐ 21.6k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-26
+**Tags** : `bilibili`, `crawler`, `data-collection`, `douyin`, `douyin-api`, `downloader`, `fastapi`, `mcp-server`
+
+### [Concat](https://github.com/jub0t/Concat)
+The open-source CapCut alternative.
+
+⭐ 21.2k | `Rust` | Licence: AGPL-3.0 | MAJ: 2026-11-26
+**Tags** : `ffmpeg`, `free-video-editor`, `model-context-protocol`, `non-linear-editor`, `offline-first`, `open-source-video-editor`, `self-hosted`, `video-editing`
+
+### [mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners)
+This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed ...
+
+⭐ 17.7k | `Jupyter Notebook` | Licence: MIT | MAJ: 2026-11-26
+**Tags** : `csharp`, `java`, `javascript`, `javascript-applications`, `mcp`, `mcp-client`, `mcp-security`, `mcp-server`
 
 ### [GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP)
 📇 🏠 - Gives coding agents direct access to Figma data to implement designs in one shot.
 
-⭐ 16.3k | `TypeScript` | Licence: MIT | MAJ: 2026-11-25
+⭐ 16.3k | `TypeScript` | Licence: MIT | MAJ: 2026-11-26
 **Tags** : `ai`, `cursor`, `figma`, `mcp`, `typescript`
 
 ### [skill-seekers/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)
@@ -204,6 +180,12 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 
 ⭐ 15.4k | `Python` | Licence: MIT | MAJ: 2026-11-26
 **Tags** : `ai-tools`, `ast-parser`, `automation`, `claude-ai`, `claude-skills`, `code-analysis`, `conflict-detection`, `documentation`
+
+### [omniget](https://github.com/tonhowtf/omniget)
+Local MCP server that lets Claude Code, Codex, Cursor and Gemini CLI use your own computer and your own logged-in accounts: chats, feeds, browser, files and downloads. Also a downloader for video, ...
+
+⭐ 14.7k | `Rust` | Licence: GPL-3.0 | MAJ: 2026-11-26
+**Tags** : `ai-agents`, `claude-code`, `codex-cli`, `coding-agent`, `course-downloader`, `cursor`, `download-manager`, `gemini-cli`
 
 ### [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp)
 🐍 🏠 - IDA Pro plugin for binary analysis: decompilation, disassembly and automatic malware analysis reports.
@@ -220,19 +202,31 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ### [elie222/inbox-zero](https://github.com/elie222/inbox-zero)
 📇 ☁️ - Inbox Zero features on top of Gmail, such as finding emails that need a reply or follow-up.
 
-⭐ 13.1k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-11-25
+⭐ 13.1k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-11-26
 **Tags** : `ai`, `email`, `gmail`, `loops`, `nextjs`, `openai`, `postgresql`, `posthog`
 
 ### [get-convex/convex-backend](https://github.com/get-convex/convex-backend)
 📇 ☁️ - Convex database integration to introspect tables and functions and run one-off queries.
 
-⭐ 12.8k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-11-25
+⭐ 12.8k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-11-26
 **Tags** : `backend`, `convex`, `database`, `rust`, `typescript`
 
 ### [LaurieWired/GhidraMCP](https://github.com/LaurieWired/GhidraMCP)
 ☕ 🏠 - Autonomous reverse engineering with Ghidra: decompile binaries, rename methods and data, and list methods, classes, imports and exports.
 
-⭐ 12.0k | `Java` | Licence: Apache-2.0 | MAJ: 2026-11-26
+⭐ 12.1k | `Java` | Licence: Apache-2.0 | MAJ: 2026-11-26
+
+### [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill)
+Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No c...
+
+⭐ 11.4k | `Python` | Licence: MIT | MAJ: 2026-11-26
+**Tags** : `agent-skills`, `ai-agents`, `audio-processing`, `captions`, `claude-code`, `codex`, `coding-agent`, `cursor`
+
+### [mcp-use](https://github.com/mcp-use/mcp-use)
+The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Servers for AI Agents.
+
+⭐ 11.0k | `TypeScript` | Licence: MIT | MAJ: 2026-11-26
+**Tags** : `agent-plugins`, `agentic-framework`, `ai`, `apps-sdk`, `chatgpt`, `claude-code`, `claude-connectors`, `llms`
 
 ### [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp)
 📇 🏠 🐧 🍎 - Android and iOS app and device automation, development and app scraping on simulators, emulators and physical devices.
@@ -243,7 +237,7 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ### [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP)
 📇 🏠 🍎 🪟 🐧 - Manage and execute programs, and read, write, search and edit code and text files.
 
-⭐ 10.4k | `JavaScript` | Licence: MIT | MAJ: 2026-11-25
+⭐ 10.4k | `JavaScript` | Licence: MIT | MAJ: 2026-11-26
 **Tags** : `agent`, `ai`, `code-analysis`, `code-generation`, `gemini-cli-extension`, `mcp`, `terminal-ai`, `terminal-automation`
 
 ### [awslabs/mcp](https://github.com/awslabs/mcp)
@@ -261,19 +255,19 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ### [DeanChensj/jiangshan-map](https://github.com/DeanChensj/jiangshan-map)
 !DeanChensj/jiangshan-map MCP server 📇 🏠 🍎 🪟 🐧 - Interactive historical atlas of China that resolves ancient and modern places, classical poetry sites, dynastic boundaries, city administrative gene...
 
-⭐ 9.2k | `JavaScript` | Licence: GPL-3.0 | MAJ: 2026-11-26
+⭐ 9.4k | `JavaScript` | Licence: GPL-3.0 | MAJ: 2026-11-26
 **Tags** : `ancient-china`, `cartography`, `china-map`, `chinese-history`, `classical-chinese-poetry`, `digital-humanities`, `gis`, `historical-atlas`
 
 ### [repowise-dev/repowise](https://github.com/repowise-dev/repowise)
 !repowise-dev/repowise MCP server 🐍 🏠 ☁️ - Codebase intelligence: indexes a repo into a dependency graph, git history, defect-risk code health, generated docs and architectural decisions. Runs loca...
 
-⭐ 8.3k | `Python` | Licence: AGPL-3.0 | MAJ: 2026-11-25
+⭐ 8.3k | `Python` | Licence: AGPL-3.0 | MAJ: 2026-11-26
 **Tags** : `ai`, `code-complexity`, `code-health`, `code-intelligence`, `code-quality`, `dead-code`, `developer-tools`, `documentation`
 
 ### [getopenscreen/openscreen](https://github.com/getopenscreen/openscreen)
 !getopenscreen/openscreen MCP server 🎖️ 📇 🏠 🍎 🪟 🐧 - Free, open-source screen recorder and video editor that agents drive over stdio (the desktop app's own executable started with mcp): record the s...
 
-⭐ 8.1k | `TypeScript` | Licence: MIT | MAJ: 2026-11-26
+⭐ 8.2k | `TypeScript` | Licence: MIT | MAJ: 2026-11-26
 **Tags** : `cross-platform`, `electron`, `ffmpeg`, `open-source`, `product-demo`, `rust`, `screen-capture`, `screen-recorder`
 
 ### [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server)
@@ -285,7 +279,7 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ### [browsermcp/mcp](https://github.com/browsermcp/mcp)
 📇 🏠 - Automate your local Chrome browser.
 
-⭐ 7.4k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-11-25
+⭐ 7.4k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-11-26
 **Tags** : `browser-automation`, `browser-extension`, `claude`, `cursor`, `mcp`, `mcp-server`
 
 ### [lharries/whatsapp-mcp](https://github.com/lharries/whatsapp-mcp)
@@ -297,7 +291,13 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ### [Coding-Solo/godot-mcp](https://github.com/Coding-Solo/godot-mcp)
 📇 🏠 - Interact with the Godot game engine: edit, run and debug projects and manage scenes.
 
-⭐ 6.8k | `JavaScript` | Licence: MIT | MAJ: 2026-11-25
+⭐ 6.8k | `JavaScript` | Licence: MIT | MAJ: 2026-11-26
 **Tags** : `ai`, `godot`, `mcp`
+
+### [21st-dev/Magic-MCP](https://github.com/21st-dev/magic-mcp)
+Create UI components inspired by 21st.dev design engineers.
+
+⭐ 6.7k | `TypeScript` | Licence: ISC | MAJ: 2026-11-26
+**Tags** : `21st`, `claude`, `cursor`, `mcp`, `model-context-protocol`, `react`, `tailwindcss`, `ui-components`
 
 <!-- TOOLS_MCP_END -->
