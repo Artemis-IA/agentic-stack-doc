@@ -121,16 +121,10 @@ MCP devient le **standard de facto** pour connecter les agents IA aux outils ext
 ## MCP Servers découverts automatiquement
 
 <!-- TOOLS_MCP_START -->
-### [cc-switch](https://github.com/farion1231/cc-switch)
-A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io
-
-⭐ 157.4k | `Rust` | Licence: MIT | MAJ: 2026-11-27
-**Tags** : `ai-tools`, `claude-code`, `codex`, `deepseek-harness`, `desktop-app`, `grok`, `grokbuild`, `hermes`
-
 ### [lightpanda-io/browser](https://github.com/lightpanda-io/browser)
 🏠 🍎 🐧 - Headless browser for AI and web automation with a built-in MCP server.
 
-⭐ 42.6k | `Zig` | Licence: AGPL-3.0 | MAJ: 2026-11-26
+⭐ 42.7k | `Zig` | Licence: AGPL-3.0 | MAJ: 2026-11-27
 **Tags** : `browser`, `browser-automation`, `cdp`, `headless`, `lightpanda`, `playwright`, `puppeteer`, `zig`
 
 ### [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)
@@ -142,19 +136,19 @@ Playwright browser automation: interact with web pages through structured access
 ### [GPT Researcher](https://github.com/assafelovic/gpt-researcher)
 GPT Researcher is an autonomous agent designed for comprehensive online research on a variety of tasks. !GitHub Repo stars
 
-⭐ 30.9k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-27
+⭐ 31.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-27
 **Tags** : `agent`, `ai`, `automation`, `deepresearch`, `llms`, `mcp`, `mcp-server`, `python`
 
 ### [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master)
 📇 ☁️ 🏠 - Task management for AI-driven development: PRD parsing, task expansion, multi-provider support and selective tool loading to save context.
 
-⭐ 28.6k | `JavaScript` | Licence: NOASSERTION | MAJ: 2026-11-26
+⭐ 28.6k | `JavaScript` | Licence: NOASSERTION | MAJ: 2026-11-27
 **Tags** : `ai`, `cursor`, `cursor-ai`, `cursorai`, `lovable`, `lovable-dev`, `roocode`, `task-manager`
 
 ### [GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP)
 📇 🏠 - Gives coding agents direct access to Figma data to implement designs in one shot.
 
-⭐ 16.3k | `TypeScript` | Licence: MIT | MAJ: 2026-11-26
+⭐ 16.3k | `TypeScript` | Licence: MIT | MAJ: 2026-11-27
 **Tags** : `ai`, `cursor`, `figma`, `mcp`, `typescript`
 
 ### [skill-seekers/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)
@@ -166,7 +160,7 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ### [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp)
 🐍 🏠 - IDA Pro plugin for binary analysis: decompilation, disassembly and automatic malware analysis reports.
 
-⭐ 13.6k | `Python` | Licence: MIT | MAJ: 2026-11-26
+⭐ 13.6k | `Python` | Licence: MIT | MAJ: 2026-11-27
 **Tags** : `ai`, `aiagent`, `binary-analysis`, `ida-plugin`, `ida-pro`, `mcp`, `mcp-server`, `modelcontextprotocol`
 
 ### [seleniumbase/SeleniumBase](https://github.com/seleniumbase/SeleniumBase)
@@ -178,13 +172,13 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ### [elie222/inbox-zero](https://github.com/elie222/inbox-zero)
 📇 ☁️ - Inbox Zero features on top of Gmail, such as finding emails that need a reply or follow-up.
 
-⭐ 13.1k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-11-26
+⭐ 13.1k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-11-27
 **Tags** : `ai`, `email`, `gmail`, `loops`, `nextjs`, `openai`, `postgresql`, `posthog`
 
 ### [get-convex/convex-backend](https://github.com/get-convex/convex-backend)
 📇 ☁️ - Convex database integration to introspect tables and functions and run one-off queries.
 
-⭐ 12.8k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-11-26
+⭐ 12.8k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-11-27
 **Tags** : `backend`, `convex`, `database`, `rust`, `typescript`
 
 ### [LaurieWired/GhidraMCP](https://github.com/LaurieWired/GhidraMCP)
@@ -195,7 +189,7 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ### [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp)
 📇 🏠 🐧 🍎 - Android and iOS app and device automation, development and app scraping on simulators, emulators and physical devices.
 
-⭐ 10.9k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-11-26
+⭐ 10.9k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-11-27
 **Tags** : `agent`, `android`, `android-automation`, `appium-alternative`, `claude-code`, `codex`, `cursor`, `emulator`
 
 ### [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP)
@@ -204,17 +198,17 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ⭐ 10.4k | `JavaScript` | Licence: MIT | MAJ: 2026-11-27
 **Tags** : `agent`, `ai`, `code-analysis`, `code-generation`, `gemini-cli-extension`, `mcp`, `terminal-ai`, `terminal-automation`
 
-### [awslabs/mcp](https://github.com/awslabs/mcp)
-🎖️ ☁️ - Suite of servers for integrating with AWS services and resources.
-
-⭐ 10.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-26
-**Tags** : `aws`, `mcp`, `mcp-client`, `mcp-clients`, `mcp-host`, `mcp-server`, `mcp-servers`, `mcp-tools`
-
 ### [mutonby/openshorts](https://github.com/mutonby/openshorts)
 !mutonby/openshorts MCP server 🎖️ 🐍 ☁️ 🏠 🍎 🪟 🐧 - Turn long videos into vertical shorts: moment detection, face-tracked 9:16 reframing, captions, dubbing and publishing to TikTok, Instagram and YouT...
 
 ⭐ 10.0k | `Python` | Licence: MIT | MAJ: 2026-11-27
 **Tags** : `agent-skills`, `ai-clip-generator`, `ai-clipping`, `ai-video-editor`, `auto-reframe`, `clip-generator`, `mcp-server`, `open-source`
+
+### [awslabs/mcp](https://github.com/awslabs/mcp)
+🎖️ ☁️ - Suite of servers for integrating with AWS services and resources.
+
+⭐ 10.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-27
+**Tags** : `aws`, `mcp`, `mcp-client`, `mcp-clients`, `mcp-host`, `mcp-server`, `mcp-servers`, `mcp-tools`
 
 ### [DeanChensj/jiangshan-map](https://github.com/DeanChensj/jiangshan-map)
 !DeanChensj/jiangshan-map MCP server 📇 🏠 🍎 🪟 🐧 - Interactive historical atlas of China that resolves ancient and modern places, classical poetry sites, dynastic boundaries, city administrative gene...
@@ -237,19 +231,19 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ### [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server)
 !firecrawl/firecrawl-mcp-server MCP server 🎖️ 📇 ☁️ 🏠 - Firecrawl web scraping: search, scrape, crawl, map and extract structured data, with live browser interaction and website change monitoring.
 
-⭐ 7.9k | `JavaScript` | Licence: MIT | MAJ: 2026-11-26
+⭐ 7.9k | `JavaScript` | Licence: MIT | MAJ: 2026-11-27
 **Tags** : `batch-processing`, `claude`, `content-extraction`, `data-collection`, `firecrawl`, `firecrawl-ai`, `gemini-cli-extension`, `javascript-rendering`
 
 ### [browsermcp/mcp](https://github.com/browsermcp/mcp)
 📇 🏠 - Automate your local Chrome browser.
 
-⭐ 7.4k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-11-26
+⭐ 7.4k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-11-27
 **Tags** : `browser-automation`, `browser-extension`, `claude`, `cursor`, `mcp`, `mcp-server`
 
 ### [lharries/whatsapp-mcp](https://github.com/lharries/whatsapp-mcp)
 🐍 🏎️ - Search personal WhatsApp messages and contacts, and send messages to individuals or groups.
 
-⭐ 7.0k | `Go` | Licence: MIT | MAJ: 2026-11-26
+⭐ 7.0k | `Go` | Licence: MIT | MAJ: 2026-11-27
 **Tags** : `ai`, `mcp`, `whatsapp`, `whatsapp-api`
 
 ### [Coding-Solo/godot-mcp](https://github.com/Coding-Solo/godot-mcp)
@@ -261,19 +255,19 @@ GPT Researcher is an autonomous agent designed for comprehensive online research
 ### [21st-dev/Magic-MCP](https://github.com/21st-dev/magic-mcp)
 Create UI components inspired by 21st.dev design engineers.
 
-⭐ 6.7k | `TypeScript` | Licence: ISC | MAJ: 2026-11-26
+⭐ 6.7k | `TypeScript` | Licence: ISC | MAJ: 2026-11-27
 **Tags** : `21st`, `claude`, `cursor`, `mcp`, `model-context-protocol`, `react`, `tailwindcss`, `ui-components`
 
 ### [kucherenko/jscpd](https://github.com/kucherenko/jscpd)
 !kucherenko/jscpd MCP server 🎖️ 🦀 🏠 🍎 🪟 🐧 - Duplicate code detection with jscpd: check snippets and files for copy/paste duplication against a scanned project before committing.
 
-⭐ 6.6k | `Rust` | Licence: MIT | MAJ: 2026-11-26
+⭐ 6.6k | `Rust` | Licence: MIT | MAJ: 2026-11-27
 **Tags** : `ai`, `cli`, `clones-detection`, `code-duplication`, `code-quality`, `coding-agents`, `copy-paste`, `copy-paste-detection`
 
 ### [wiltodelta/remove-ai-watermarks](https://github.com/wiltodelta/remove-ai-watermarks)
 !wiltodelta/remove-ai-watermarks MCP server 🐍 🏠 🍎 🪟 🐧 - Identify and remove AI watermarks and provenance metadata (Gemini and Veo marks, SynthID, C2PA, EXIF) in images and video you generated yours...
 
-⭐ 6.5k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-27
+⭐ 6.6k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-27
 **Tags** : `agent-skill`, `ai-watermark`, `audio-watermarking`, `c2pa`, `cli`, `comfyui`, `content-credentials`, `exif`
 
 ### [bram2w/baserow](https://github.com/bram2w/baserow)
@@ -282,8 +276,8 @@ Baserow database integration: search and list tables, and create, read, update a
 ⭐ 6.4k | `Python` | Licence: NOASSERTION | MAJ: 2026-11-27
 **Tags** : `airtable`, `airtable-alternative`, `airtable-replacement`, `application-builder`, `automations`, `dashboards`, `database`, `low-code`
 
-### [OpenConnector](https://github.com/oomol-lab/open-connector)
-Open-source connector gateway for agents to discover and execute SaaS actions through MCP, HTTP, and OpenAPI, with OAuth/API-key credential management and scoped runtime tokens. !GitHub Repo stars
+### [open-connector](https://github.com/oomol-lab/open-connector)
+Open-source auth gateway connecting 1700+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.
 
 ⭐ 6.3k | `TypeScript` | Licence: NOASSERTION | MAJ: 2026-11-27
 **Tags** : `agent-tools`, `ai-agents`, `api-gateway`, `automation`, `cli`, `cloudflare-workers`, `connectors`, `integration-platform`
@@ -296,7 +290,13 @@ Open-source connector gateway for agents to discover and execute SaaS actions th
 ### [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device)
 !callstackincubator/agent-device MCP server 📇 🏠 🍎 🐧 - Discovery router for the agent-device CLI: status, install guidance, version-matched help and prompts for iOS, Android, tvOS, macOS and Linux a...
 
-⭐ 5.5k | `TypeScript` | Licence: MIT | MAJ: 2026-11-26
+⭐ 5.5k | `TypeScript` | Licence: MIT | MAJ: 2026-11-27
 **Tags** : `adb`, `agentic-ai`, `agents`, `ai-agents`, `android-emulator`, `automation`, `e2e-testing`, `expo`
+
+### [atilaahmettaner/tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp)
+!atilaahmettaner/tradingview-mcp MCP server 🐍 ☁️ 🍎 🪟 🐧 - Screeners, multi-timeframe technical analysis, smart-money and volume scans, and walk-forward backtests for crypto, stocks, FX and futures.
+
+⭐ 5.3k | `Python` | Licence: MIT | MAJ: 2026-11-27
+**Tags** : `claude-desktop`, `cryptocurrency`, `futures`, `market-data`, `mcp-server`, `mcp-tools`, `model-context-protocol`, `openclaw`
 
 <!-- TOOLS_MCP_END -->
