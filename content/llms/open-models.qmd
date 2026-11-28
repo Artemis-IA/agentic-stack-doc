@@ -123,13 +123,13 @@ DeepSeek R1 est le premier modèle de raisonnement open weights (RL-trained). Pe
 ### [Firecrawl](https://github.com/firecrawl/firecrawl)
 Web search, scrape and crawl API for AI agents. Turns any website, including JavaScript-heavy pages, into clean LLM-ready markdown or structured JSON, with browser actions (click, scroll, type), PD...
 
-⭐ 211.7k | `TypeScript` | Licence: AGPL-3.0 | MAJ: 2026-11-28
+⭐ 212.0k | `TypeScript` | Licence: AGPL-3.0 | MAJ: 2026-11-28
 **Tags** : `ai`, `ai-agents`, `ai-crawler`, `ai-scraping`, `ai-search`, `crawler`, `data-extraction`, `html-to-markdown`
 
 ### [ollama](https://github.com/ollama/ollama)
 Get up and running with Llama 3, Mistral, Gemma, and other large language models.
 
-⭐ 188.3k | `Go` | Licence: MIT | MAJ: 2026-11-28
+⭐ 188.4k | `Go` | Licence: MIT | MAJ: 2026-11-28
 **Tags** : `deepseek`, `gemma`, `glm`, `go`, `golang`, `gpt-oss`, `llama`, `llm`
 
 ### [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT)
@@ -141,7 +141,7 @@ an experimental open-source application showcasing the capabilities of the GPT-4
 ### [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
 A collection of prompt examples to be used with the ChatGPT model.
 
-⭐ 178.7k | `MDX` | Licence: NOASSERTION | MAJ: 2026-11-28
+⭐ 178.8k | `MDX` | Licence: NOASSERTION | MAJ: 2026-11-28
 **Tags** : `ai`, `artificial-intelligence`, `awesome-list`, `chatgpt`, `chatgpt-prompts`, `claude`, `gemini`, `gpt`
 
 ### [Dify](https://github.com/langgenius/dify)
@@ -150,8 +150,20 @@ An open-source LLM app development platform with an intuitive interface that str
 ⭐ 162.0k | `Python` | Licence: NOASSERTION | MAJ: 2026-11-28
 **Tags** : `agent`, `agentic-ai`, `agentic-framework`, `agentic-workflow`, `ai`, `automation`, `claude`, `deepseek`
 
-### [LangChain](https://github.com/langchain-ai/langchain)
-the original 🐍 !GitHub Repo stars
+### [open-webui](https://github.com/open-webui/open-webui)
+User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
+
+⭐ 159.7k | `Svelte` | Licence: NOASSERTION | MAJ: 2026-11-28
+**Tags** : `ai`, `llm`, `llm-ui`, `llm-webui`, `llms`, `mcp`, `ollama`, `ollama-webui`
+
+### [graphify](https://github.com/Graphify-Labs/graphify)
+Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing...
+
+⭐ 154.5k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-28
+**Tags** : `ai-agents`, `antigravity`, `ast`, `claude-code`, `code-analysis`, `code-search`, `codex`, `cursor`
+
+### [langchain](https://github.com/langchain-ai/langchain)
+The agent engineering platform.
 
 ⭐ 150.1k | `Python` | Licence: MIT | MAJ: 2026-11-28
 **Tags** : `agents`, `ai`, `ai-agents`, `anthropic`, `chatgpt`, `deepagents`, `enterprise`, `framework`
@@ -171,7 +183,7 @@ LLM inference in C/C++.
 ### [Browser Use](https://github.com/browser-use/browser-use)
 Open-source Python library that lets LLM agents control a browser to navigate, click, type and extract data, on local Chrome or Browser Use cloud browsers. !GitHub Repo stars
 
-⭐ 122.2k | `Python` | Licence: MIT | MAJ: 2026-11-28
+⭐ 122.3k | `Python` | Licence: MIT | MAJ: 2026-11-28
 **Tags** : `ai-agents`, `ai-tools`, `browser-agent`, `browser-automation`, `browser-use`, `cdp`, `cloud-browser`, `computer-use`
 
 ### [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
@@ -182,7 +194,7 @@ First open-sourced GPT-4o level model.
 ### [vLLM](https://github.com/vllm-project/vllm)
 A high-throughput and memory-efficient inference and serving engine for LLMs.
 
-⭐ 97.7k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-28
+⭐ 97.8k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-28
 **Tags** : `amd`, `blackwell`, `cuda`, `deepseek`, `deepseek-v3`, `gpt`, `gpt-oss`, `inference`
 
 ### [OpenDevin](https://github.com/OpenDevin/OpenDevin)
@@ -200,42 +212,30 @@ A high-throughput and memory-efficient inference and serving engine for LLMs.
 ### [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)
 First-generation reasoning models from DeepSeek.
 
-⭐ 92.1k | Licence: MIT | MAJ: 2026-11-27
+⭐ 92.1k | Licence: MIT | MAJ: 2026-11-28
+
+### [hello-agents](https://github.com/datawhalechina/hello-agents)
+📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程
+
+⭐ 88.1k | `Python` | Licence: NOASSERTION | MAJ: 2026-11-28
+**Tags** : `agent`, `llm`, `rag`, `tutorial`
+
+### [crawl4ai](https://github.com/unclecode/crawl4ai)
+Official Crawl4AI Cloud: a hosted web scraping, extraction, and search API for AI agents. Free API key, 1,000 credits a month, no card. Fully open source: this repo is the Apache-2.0 crawler that p...
+
+⭐ 88.1k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-28
+**Tags** : `ai`, `ai-agents`, `crawl4ai-cloud`, `crawler`, `data-extraction`, `llm`, `markdown`, `mcp`
 
 ### [llm-course](https://github.com/mlabonne/llm-course)
 Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.
 
-⭐ 85.3k | Licence: Apache-2.0 | MAJ: 2026-11-27
+⭐ 85.3k | Licence: Apache-2.0 | MAJ: 2026-11-28
 **Tags** : `course`, `large-language-models`, `llm`, `machine-learning`, `roadmap`
 
-### [Embedchain](https://github.com/embedchain/embedchain)
-Framework to create ChatGPT like bots over your dataset.
+### [headroom](https://github.com/headroomlabs-ai/headroom)
+Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.
 
-⭐ 69.6k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-28
-**Tags** : `agentic-memory`, `agentic-memory-system`, `agents`, `ai`, `ai-agents`, `chatgpt`, `genai`, `llm`
-
-### [upstash/context7](https://github.com/upstash/context7)
-📇 ☁️ - Up-to-date code documentation for LLMs and AI code editors.
-
-⭐ 65.6k | `TypeScript` | Licence: MIT | MAJ: 2026-11-27
-**Tags** : `llm`, `mcp`, `mcp-server`, `vibe-coding`
-
-### [serviette](https://github.com/pathwaycom/serviette)
-A no-code RAG server that keeps answers in sync with your documents. Works with 8 vector databases. Built on Pathway.
-
-⭐ 58.7k | `Python` | Licence: MIT | MAJ: 2026-11-27
-**Tags** : `chromadb`, `document-qa`, `document-search`, `duckdb`, `live-data`, `llm`, `milvus`, `mongodb`
-
-### [LlamaIndex](https://github.com/run-llama/llama_index)
-provides a central interface to connect your LLM's with external data. !GitHub Repo stars
-
-⭐ 53.0k | `Python` | Licence: MIT | MAJ: 2026-11-28
-**Tags** : `agents`, `application`, `data`, `fine-tuning`, `framework`, `llamaindex`, `llm`, `multi-agents`
-
-### [LlamaIndex](https://github.com/jerryjliu/llama_index)
-A Python library for augmenting LLM apps with data.
-
-⭐ 53.0k | `Python` | Licence: MIT | MAJ: 2026-11-28
-**Tags** : `agents`, `application`, `data`, `fine-tuning`, `framework`, `llamaindex`, `llm`, `multi-agents`
+⭐ 81.0k | `Python` | Licence: Apache-2.0 | MAJ: 2026-11-28
+**Tags** : `agent`, `ai`, `anthropic`, `claude-code`, `compression`, `context-engineering`, `context-window`, `cursor`
 
 <!-- TOOLS_LLM_END -->

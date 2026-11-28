@@ -116,19 +116,25 @@ Windsurf utilise les prompts/outputs pour le training sans opt-out clair. Le ZDR
 ### [rtk](https://github.com/rtk-ai/rtk)
 CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
 
-⭐ 88.0k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-28
+⭐ 88.1k | `Rust` | Licence: Apache-2.0 | MAJ: 2026-11-28
 **Tags** : `agentic-coding`, `ai-coding`, `anthropic`, `claude-code`, `cli`, `command-line-tool`, `cost-reduction`, `developer-tools`
+
+### [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
+A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC (no affilia...
+
+⭐ 59.0k | `Python` | Licence: NOASSERTION | MAJ: 2026-11-28
+**Tags** : `agent-skills`, `agentic-code`, `agentic-coding`, `ai-workflow-optimization`, `ai-workflows`, `anthropic`, `anthropic-claude`, `awesome`
 
 ### [gpt-engineer](https://github.com/AntonOsika/gpt-engineer)
 CLI platform to experiment with codegen. Precursor to: https://lovable.dev
 
-⭐ 54.9k | `Python` | Licence: MIT | MAJ: 2026-11-26
+⭐ 54.9k | `Python` | Licence: MIT | MAJ: 2026-11-28
 **Tags** : `ai`, `autonomous-agent`, `code-generation`, `codebase-generation`, `codegen`, `coding-assistant`, `gpt-4`, `gpt-engineer`
 
 ### [agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)
 3,000+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.
 
-⭐ 50.5k | `Python` | Licence: MIT | MAJ: 2026-11-27
+⭐ 50.5k | `Python` | Licence: MIT | MAJ: 2026-11-28
 **Tags** : `agent-skills`, `agentic-skills`, `ai-agent-skills`, `ai-agents`, `ai-coding`, `ai-workflows`, `antigravity`, `antigravity-skills`
 
 ### [Codewhale](https://github.com/codewhale-hq/Codewhale)
@@ -136,6 +142,12 @@ Open-source Rust coding agent for terminal, web, and desktop. Any model, multi-a
 
 ⭐ 41.2k | `Rust` | Licence: MIT | MAJ: 2026-11-28
 **Tags** : `agent-client-protocol`, `agent-orchestration`, `ai-agent`, `ai-coding`, `cli`, `coding-agent`, `deepseek`, `developer-tools`
+
+### [oh-my-pi](https://github.com/can1357/oh-my-pi)
+⌥ Coding agent with the IDE wired in. Built by Stencil Labs.
+
+⭐ 40.1k | `TypeScript` | Licence: MIT | MAJ: 2026-11-28
+**Tags** : `ai-agent`, `ai-coding-agent`, `anthropic`, `bun`, `claude`, `cli`, `coding-assistant`, `llm`
 
 ### [medusa](https://github.com/medusajs/medusa)
 The world's most flexible commerce platform for agents and developers
@@ -149,28 +161,34 @@ A reliable coding agent for complex software engineering tasks.
 ⭐ 36.1k | `Go` | Licence: MIT | MAJ: 2026-11-28
 **Tags** : `agent`, `agent-framework`, `ai-agent`, `ai-coding`, `cli`, `coding-agent`, `deepseek`, `developer-tools`
 
+### [tabby](https://github.com/TabbyML/tabby)
+Self-hosted AI coding assistant
+
+⭐ 33.9k | `Rust` | Licence: NOASSERTION | MAJ: 2026-11-28
+**Tags** : `ai`, `codegen`, `coding-assistant`, `coding-language`, `developer-experience`, `developer-tools`, `gen-ai`, `ide`
+
 ### [gpt-pilot](https://github.com/Pythagora-io/gpt-pilot)
 The first real AI developer
 
-⭐ 33.6k | `Python` | Licence: NOASSERTION | MAJ: 2026-11-26
+⭐ 33.6k | `Python` | Licence: NOASSERTION | MAJ: 2026-11-28
 **Tags** : `ai`, `codegen`, `coding-assistant`, `developer-tools`, `gpt-4`, `research-project`
 
 ### [code-review-graph](https://github.com/tirth8205/code-review-graph)
 Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-rep...
 
-⭐ 33.0k | `Python` | Licence: MIT | MAJ: 2026-11-27
+⭐ 33.0k | `Python` | Licence: MIT | MAJ: 2026-11-28
 **Tags** : `ai-coding`, `claude`, `claude-code`, `code-review`, `graphrag`, `incremental`, `knowledge-graph`, `llm`
 
 ### [serena](https://github.com/oraios/serena)
 A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities - the IDE for your agent
 
-⭐ 31.8k | `Python` | Licence: NOASSERTION | MAJ: 2026-11-27
+⭐ 31.8k | `Python` | Licence: NOASSERTION | MAJ: 2026-11-28
 **Tags** : `agent`, `ai`, `ai-coding`, `claude`, `claude-code`, `codex`, `ide`, `jetbrains`
 
 ### [qwen-code](https://github.com/QwenLM/qwen-code)
 An open-source AI coding agent that lives in your terminal.
 
-⭐ 31.0k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-11-27
+⭐ 31.0k | `TypeScript` | Licence: Apache-2.0 | MAJ: 2026-11-28
 **Tags** : `agentic`, `ai`, `ai-agent`, `ai-coding`, `cli`, `coding-agent`, `developer-tools`, `llm`
 
 ### [kilocode](https://github.com/Kilo-Org/kilocode)
@@ -179,11 +197,23 @@ Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate fa
 ⭐ 28.1k | `TypeScript` | Licence: MIT | MAJ: 2026-11-28
 **Tags** : `ai`, `ai-age`, `ai-coding`, `ai-developer-tools`, `chatgpt`, `claude`, `cli`, `gemini`
 
+### [Archon](https://github.com/coleam00/Archon)
+The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.
+
+⭐ 24.0k | `TypeScript` | Licence: MIT | MAJ: 2026-11-28
+**Tags** : `ai`, `automation`, `bun`, `claude`, `cli`, `coding-assistant`, `developer-tools`, `typescript`
+
 ### [Paradev](https://github.com/ParadevAI/Paradev)
 Paradev is an open-source Codex App and Conductor alternative. Orchestrate an army coding agents in parallel with your own subscriptions.
 
 ⭐ 16.9k | `TypeScript` | Licence: MIT | MAJ: 2026-11-28
 **Tags** : `ade`, `agent`, `agent-orchestration`, `ai-agents`, `ai-coding`, `claude-code`, `cli`, `codex`
+
+### [pr-agent](https://github.com/The-PR-Agent/pr-agent)
+🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.
+
+⭐ 16.7k | `Python` | Licence: MIT | MAJ: 2026-11-28
+**Tags** : `ai`, `anthropic`, `code-review`, `coding-assistant`, `devtools`, `ollama`, `openai`, `pull-request`
 
 ### [agent-orchestrator](https://github.com/OrchestratorInc/agent-orchestrator)
 Plan, run and supervise fleets of agents from task to merged PR. Desktop (macOS, Windows, Linux) + iPhone & Android apps. Supports Claude Code, Codex & 35+ coding agents.
@@ -194,43 +224,13 @@ Plan, run and supervise fleets of agents from task to merged PR. Desktop (macOS,
 ### [claude-context](https://github.com/zilliztech/claude-context)
 Code search MCP for Claude Code. Make entire codebase the context for any coding agent.
 
-⭐ 12.7k | `TypeScript` | Licence: MIT | MAJ: 2026-11-27
+⭐ 12.7k | `TypeScript` | Licence: MIT | MAJ: 2026-11-28
 **Tags** : `agent`, `agentic-rag`, `ai-coding`, `claude-code`, `code-generation`, `code-search`, `cursor`, `embedding`
 
 ### [codeburn](https://github.com/getagentseal/codeburn)
 Free, local tool to track AI coding token usage and cost across 37 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task. npx codeburn
 
-⭐ 11.9k | `TypeScript` | Licence: MIT | MAJ: 2026-11-27
+⭐ 11.9k | `TypeScript` | Licence: MIT | MAJ: 2026-11-28
 **Tags** : `ai-coding`, `claude-code`, `cli`, `codex`, `cost-tracking`, `cursor-ide`, `developer-tools`, `menubar`
-
-### [loop-engineering](https://github.com/cobusgreyling/loop-engineering)
-Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audi...
-
-⭐ 11.8k | `TypeScript` | Licence: MIT | MAJ: 2026-11-27
-**Tags** : `agentic-ai`, `ai-agents`, `ai-coding`, `anthropic`, `automation`, `claude`, `claude-code`, `codex`
-
-### [superplane](https://github.com/superplanehq/superplane)
-Open source factory for one-shot engineering
-
-⭐ 10.2k | `Go` | Licence: NOASSERTION | MAJ: 2026-11-28
-**Tags** : `agent-orchestration`, `agentic-workflows`, `ai-agents`, `ai-coding`, `ai-software-engineering`, `developer-tools`, `go`, `react`
-
-### [OpenBitFun](https://github.com/openBitFun/OpenBitFun)
-OpenBitFun combines a high-performance agent runtime written in Rust with a polished desktop application. It pairs the depth of a Code Agent with open, general-purpose capabilities for work beyond ...
-
-⭐ 4.2k | `Rust` | Licence: MIT | MAJ: 2026-11-27
-**Tags** : `agent-teams`, `agentic`, `agentic-os`, `agentic-runtime`, `ai-coding`, `ai-ide`, `ai-sdk`, `bitfun`
-
-### [OpenBitFun](https://github.com/GCWing/OpenBitFun)
-Open-source desktop agent with a Rust runtime for real repositories, browser, terminal, and desktop execution, extensible through MCP, Skills, and custom agents. !GitHub Repo stars
-
-⭐ 4.2k | `Rust` | Licence: MIT | MAJ: 2026-11-27
-**Tags** : `agent-teams`, `agentic`, `agentic-os`, `agentic-runtime`, `ai-coding`, `ai-ide`, `ai-sdk`, `bitfun`
-
-### [aoci-spec/aoci-code](https://github.com/aoci-spec/aoci-code)
-!aoci-spec/aoci-code MCP server 🏎️ 🏠 🍎 🪟 🐧 - Local-first MCP server and CLI that keeps a persistent, Git-versioned index of the whole codebase and database schema, written by the coding agent and f...
-
-⭐ 3.1k | `Go` | Licence: NOASSERTION | MAJ: 2026-11-27
-**Tags** : `agent-memory`, `agents-md`, `ai-coding`, `ai-context`, `claude-code`, `code-indexing`, `code-intelligence`, `codex`
 
 <!-- TOOLS_HARNESS_PROP_END -->
